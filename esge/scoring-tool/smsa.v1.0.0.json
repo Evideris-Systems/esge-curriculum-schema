@@ -1,0 +1,72 @@
+{
+  "$schema": "https://schema.evideris.com/schemas/scoring-tool.schema.json",
+  "$id": "https://schema.evideris.com/esge/scoring-tool/smsa.v1.0.0.json",
+  "lineageId": "st-smsa",
+  "type": "scoringTool",
+  "version": "1.0.0",
+  "release": "r2026.07",
+  "supersedes": null,
+  "supersededBy": null,
+  "language": ["en"],
+
+  "title": { "en": "SMSA polyp score" },
+  "description": { "en": "Composite score predicting polypectomy difficulty across four dimensions: Size, Morphology, Site, Access." },
+  "domain": "polypectomy-difficulty",
+
+  "scale": {
+    "kind": "composite-additive",
+    "min": 4,
+    "max": 12,
+    "bands": [
+      { "label": { "en": "Level 1 (easy)" },         "from": 4,  "to": 5  },
+      { "label": { "en": "Level 2 (intermediate)" }, "from": 6,  "to": 7  },
+      { "label": { "en": "Level 3 (difficult)" },    "from": 8,  "to": 9  },
+      { "label": { "en": "Level 4 (most difficult)" },"from": 10, "to": 12 }
+    ]
+  },
+
+  "inputs": [
+    {
+      "name": "size",
+      "label": { "en": "Size" },
+      "values": [
+        { "score": 1, "label": { "en": "< 1 cm" } },
+        { "score": 3, "label": { "en": "1–1.9 cm" } },
+        { "score": 5, "label": { "en": "2–3.9 cm" } },
+        { "score": 9, "label": { "en": "≥ 4 cm" } }
+      ]
+    },
+    {
+      "name": "morphology",
+      "label": { "en": "Morphology" },
+      "values": [
+        { "score": 1, "label": { "en": "Pedunculated" } },
+        { "score": 2, "label": { "en": "Sessile" } },
+        { "score": 3, "label": { "en": "Flat" } }
+      ]
+    },
+    {
+      "name": "site",
+      "label": { "en": "Site" },
+      "values": [
+        { "score": 1, "label": { "en": "Left colon" } },
+        { "score": 2, "label": { "en": "Right colon" } }
+      ]
+    },
+    {
+      "name": "access",
+      "label": { "en": "Access" },
+      "values": [
+        { "score": 1, "label": { "en": "Easy" } },
+        { "score": 3, "label": { "en": "Difficult" } }
+      ]
+    }
+  ],
+
+  "references": [
+    {
+      "id": "ref-gupta-2013",
+      "citation": "Gupta S, Miskovic D, Bhandari P et al. A novel method for determining the difficulty of colonoscopic polypectomy. Frontline Gastroenterol 2013; 4: 244–248"
+    }
+  ]
+}

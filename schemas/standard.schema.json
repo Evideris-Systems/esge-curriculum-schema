@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://schema.evideris.com/schemas/standard.schema.json",
+  "title": "Institutional standard",
+  "description": "A unit-/centre-/service-/trainer-/trainee-level requirement derived from a curriculum recommendation. Feeds the Centre Accreditation evidence pack.",
+  "type": "object",
+  "allOf": [{ "$ref": "_common.schema.json#/$defs/envelope" }],
+  "required": ["type", "withinCurriculum", "appliesTo", "title", "text"],
+  "properties": {
+    "type":             { "const": "standard" },
+    "withinCurriculum": { "$ref": "_common.schema.json#/$defs/lineageId" },
+    "appliesTo":        { "enum": ["centre", "unit", "trainer", "trainee", "service"] },
+    "title":            { "$ref": "_common.schema.json#/$defs/localeKeyedString" },
+    "text":             { "$ref": "_common.schema.json#/$defs/localeKeyedString" },
+    "evidenceRequired": {
+      "type": "array",
+      "items": { "$ref": "_common.schema.json#/$defs/localeKeyedString" },
+      "description": "Example evidence the M3 evidence-pack generator should ask the centre to upload to demonstrate compliance."
+    },
+    "derivedFromRecommendation": { "$ref": "_common.schema.json#/$defs/lineageId" },
+    "subItemLabel":              { "type": "string", "pattern": "^[ivxlcdmIVXLCDM]+$|^[a-z]$" },
+    "$schema": true, "$id": true, "lineageId": true, "version": true, "release": true,
+    "supersedes": true, "supersededBy": true, "language": true
+  },
+  "additionalProperties": false
+}

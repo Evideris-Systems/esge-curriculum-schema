@@ -1,0 +1,87 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://schema.evideris.com/schemas/_common.schema.json",
+  "title": "Common shared definitions for ESGE Curriculum Schema artifacts",
+  "$defs": {
+    "semverString": {
+      "type": "string",
+      "pattern": "^\\d+\\.\\d+\\.\\d+$",
+      "description": "Semantic version: MAJOR.MINOR.PATCH (e.g. 1.0.0)."
+    },
+    "calverRelease": {
+      "type": "string",
+      "pattern": "^r\\d{4}\\.\\d{2}$",
+      "description": "Calendar-versioned repo release tag (e.g. r2026.07)."
+    },
+    "lineageId": {
+      "type": "string",
+      "pattern": "^(c|rec|cat|std|st|kpi|qi|m|cur|epa|sec|fig|table|ref)-[a-z0-9]([a-z0-9-]*[a-z0-9])?$",
+      "description": "Stable identity across versions. Type-prefixed, kebab-case. Body after the dash is at least one alphanumeric character. Prefixes: c- competency, rec- recommendation, cat- CAT, std- standard, st- scoring tool, kpi- training KPI, qi- quality indicator, m- modality, cur- curriculum, epa- EPA, sec- section, fig- figure, table- table, ref- bibliography reference."
+    },
+    "versionedUrl": {
+      "type": "string",
+      "format": "uri",
+      "pattern": "^https://schema\\.evideris\\.com/.+"
+    },
+    "localeKeyedString": {
+      "type": "object",
+      "description": "Multilingual string. The `en` key is required; additional locale keys (nl, fr, de, es, it, …) are optional.",
+      "required": ["en"],
+      "properties": {
+        "en": { "type": "string", "minLength": 1 }
+      },
+      "patternProperties": {
+        "^[a-z]{2}(-[A-Z]{2})?$": { "type": "string", "minLength": 1 }
+      },
+      "additionalProperties": false
+    },
+    "envelope": {
+      "type": "object",
+      "description": "Common envelope every artifact must carry.",
+      "required": ["$id", "lineageId", "type", "version", "release", "language"],
+      "properties": {
+        "$schema": { "type": "string", "format": "uri" },
+        "$id":     { "$ref": "#/$defs/versionedUrl" },
+        "lineageId": { "$ref": "#/$defs/lineageId" },
+        "type": {
+          "enum": ["release", "curriculum", "recommendation", "competency", "epa", "standard", "scoringTool", "kpi", "qi", "cat"]
+        },
+        "version": { "$ref": "#/$defs/semverString" },
+        "release": { "$ref": "#/$defs/calverRelease" },
+        "supersedes":   { "anyOf": [{ "type": "null" }, { "$ref": "#/$defs/versionedUrl" }] },
+        "supersededBy": { "anyOf": [{ "type": "null" }, { "$ref": "#/$defs/versionedUrl" }] },
+        "language": {
+          "type": "array",
+          "items": { "type": "string", "pattern": "^[a-z]{2}(-[A-Z]{2})?$" },
+          "minItems": 1,
+          "uniqueItems": true
+        }
+      }
+    },
+    "citationRef": {
+      "type": "string",
+      "pattern": "^ref-[a-z0-9-]+$",
+      "description": "Reference id matching an entry in the parent curriculum's `references[]` (e.g. ref-28, ref-burgess-2014)."
+    },
+    "gradeBlock": {
+      "type": "object",
+      "required": ["strength", "evidenceQuality", "levelOfAgreement"],
+      "properties": {
+        "strength": {
+          "enum": ["strong", "weak", "best-practice"],
+          "description": "Tate EMR 2023's single use of 'moderately strong' is canonicalised to 'strong' on ingest by the autoupdate skill."
+        },
+        "evidenceQuality": {
+          "enum": ["high", "moderate", "low", "very-low", "no-evidence-available"]
+        },
+        "levelOfAgreement": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 100,
+          "description": "Delphi consensus percentage."
+        }
+      },
+      "additionalProperties": false
+    }
+  }
+}

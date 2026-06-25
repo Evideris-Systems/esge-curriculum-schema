@@ -1,0 +1,41 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://schema.evideris.com/schemas/recommendation.schema.json",
+  "title": "ESGE recommendation",
+  "description": "A numbered GRADE-classified ESGE recommendation within a curriculum publication.",
+  "type": "object",
+  "allOf": [{ "$ref": "_common.schema.json#/$defs/envelope" }],
+  "required": ["type", "withinCurriculum", "number", "title", "statement", "grade"],
+  "properties": {
+    "type": { "const": "recommendation" },
+    "withinCurriculum": { "$ref": "_common.schema.json#/$defs/lineageId" },
+    "withinSection":    { "$ref": "_common.schema.json#/$defs/lineageId" },
+    "number":           { "type": "integer", "minimum": 1 },
+    "title":            { "$ref": "_common.schema.json#/$defs/localeKeyedString" },
+    "statement":        { "$ref": "_common.schema.json#/$defs/localeKeyedString" },
+    "grade":            { "$ref": "_common.schema.json#/$defs/gradeBlock" },
+    "subItems": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["label", "text"],
+        "properties": {
+          "label": { "type": "string", "pattern": "^[ivxlcdmIVXLCDM]+$|^[a-z]$" },
+          "text":  { "$ref": "_common.schema.json#/$defs/localeKeyedString" },
+          "levelOfAgreement": { "type": "integer", "minimum": 0, "maximum": 100 },
+          "references": { "type": "array", "items": { "$ref": "_common.schema.json#/$defs/citationRef" } }
+        },
+        "additionalProperties": false
+      }
+    },
+    "commentary":  { "$ref": "_common.schema.json#/$defs/localeKeyedString" },
+    "figureRefs":  { "type": "array", "items": { "$ref": "_common.schema.json#/$defs/lineageId" } },
+    "tableRefs":   { "type": "array", "items": { "$ref": "_common.schema.json#/$defs/lineageId" } },
+    "assessesCompetencies": { "type": "array", "items": { "$ref": "_common.schema.json#/$defs/lineageId" } },
+    "assessesStandards":    { "type": "array", "items": { "$ref": "_common.schema.json#/$defs/lineageId" } },
+    "references": { "type": "array", "items": { "$ref": "_common.schema.json#/$defs/citationRef" } },
+    "$schema": true, "$id": true, "lineageId": true, "version": true, "release": true,
+    "supersedes": true, "supersededBy": true, "language": true
+  },
+  "additionalProperties": false
+}

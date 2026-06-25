@@ -1,0 +1,55 @@
+{
+  "$schema": "https://schema.evideris.com/schemas/recommendation.schema.json",
+  "$id": "https://schema.evideris.com/esge/recommendation/emr-colon/r3.v1.0.0.json",
+  "lineageId": "rec-emr-cln-r3-smi-assessment",
+  "type": "recommendation",
+  "version": "1.0.0",
+  "release": "r2026.07",
+  "supersedes": null,
+  "supersededBy": null,
+  "language": ["en"],
+
+  "withinCurriculum": "cur-emr-colon-2023",
+  "withinSection": "sec-emr-before-emr",
+  "number": 3,
+
+  "title": { "en": "Assessment of LNPCPs for submucosal invasion" },
+  "statement": {
+    "en": "ESGE recommends use of the algorithm shown in Fig. 1 and summarized below to risk assess LNPCPs for submucosal invasion (SMI) prior to EMR."
+  },
+
+  "grade": {
+    "strength": "strong",
+    "evidenceQuality": "moderate",
+    "levelOfAgreement": 89
+  },
+
+  "subItems": [
+    {
+      "label": "i",
+      "text": { "en": "Endoscopic imaging features suggesting low risk superficial SMI (en bloc endoscopic resection) or deep SMI (surgery)." },
+      "levelOfAgreement": 93,
+      "references": ["ref-28"]
+    },
+    {
+      "label": "ii",
+      "text": { "en": "Any bulky (Is, IIa+Is with nodule > 10 mm) lesion in the rectum or at the rectosigmoid junction (high risk for covert SMI) without endoscopic imaging features suggesting overt SMI (en bloc endoscopic resection)." },
+      "levelOfAgreement": 85,
+      "references": ["ref-33"]
+    }
+  ],
+
+  "commentary": {
+    "en": "In general, risk of SMI is the only evidence-based factor that should prompt a decision for en bloc resection in place of piecemeal EMR."
+  },
+
+  "figureRefs": ["fig-1"],
+  "tableRefs": ["table-1"],
+
+  "assessesCompetencies": [
+    "c-emr-cln-lesion-assessment",
+    "c-emr-cln-smi-risk-stratification"
+  ],
+
+  "references": ["ref-28", "ref-33", "ref-35"]
+}

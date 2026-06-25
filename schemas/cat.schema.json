@@ -1,0 +1,92 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://schema.evideris.com/schemas/cat.schema.json",
+  "title": "Competency Assessment Tool (CAT)",
+  "description": "Direct-observation assessment instrument (DOPS, GPAT, GAGES-like). Items are embedded (not separate files); each item assesses one or more competencies and/or cross-refs recommendation sub-items, with per-context applicability flags.",
+  "type": "object",
+  "allOf": [{ "$ref": "_common.schema.json#/$defs/envelope" }],
+  "required": ["type", "catFamily", "title", "applicableModalities", "scoringScale", "items"],
+  "properties": {
+    "type":      { "const": "cat" },
+    "catFamily": { "type": "string", "description": "Family tag (e.g. DOPS, GPAT, GAGES, mini-CEX)." },
+    "title":       { "$ref": "_common.schema.json#/$defs/localeKeyedString" },
+    "description": { "$ref": "_common.schema.json#/$defs/localeKeyedString" },
+    "applicableModalities": {
+      "type": "array",
+      "items": { "$ref": "_common.schema.json#/$defs/lineageId" },
+      "minItems": 1
+    },
+    "introducedIn": { "$ref": "_common.schema.json#/$defs/lineageId", "description": "Curriculum lineageId that introduced this CAT." },
+    "scoringScale": {
+      "type": "object",
+      "required": ["kind", "levels"],
+      "properties": {
+        "kind": { "enum": ["ordinal", "binary", "numeric"] },
+        "levels": {
+          "type": "array",
+          "minItems": 2,
+          "items": {
+            "type": "object",
+            "required": ["value", "label"],
+            "properties": {
+              "value": { "type": ["integer", "number"] },
+              "label": { "$ref": "_common.schema.json#/$defs/localeKeyedString" }
+            },
+            "additionalProperties": false
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "items": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["lineageId", "label"],
+        "properties": {
+          "lineageId": { "$ref": "_common.schema.json#/$defs/lineageId" },
+          "label":     { "$ref": "_common.schema.json#/$defs/localeKeyedString" },
+          "guidance":  { "$ref": "_common.schema.json#/$defs/localeKeyedString" },
+          "assessesCompetencies": {
+            "type": "array",
+            "items": { "$ref": "_common.schema.json#/$defs/lineageId" }
+          },
+          "assessesRecommendations": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["lineageId"],
+              "properties": {
+                "lineageId": { "$ref": "_common.schema.json#/$defs/lineageId" },
+                "subItem":   { "type": "string", "pattern": "^[ivxlcdmIVXLCDM]+$|^[a-z]$" }
+              },
+              "additionalProperties": false
+            }
+          },
+          "applicability": {
+            "type": "object",
+            "description": "Open map keyed by technique variant (e.g. hot-snare, cold-snare); values typically 'mandatory' | 'optional' | 'not-applicable'.",
+            "additionalProperties": { "enum": ["mandatory", "optional", "not-applicable"] }
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "references": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "citation"],
+        "properties": {
+          "id":       { "$ref": "_common.schema.json#/$defs/citationRef" },
+          "citation": { "type": "string" }
+        },
+        "additionalProperties": false
+      }
+    },
+    "$schema": true, "$id": true, "lineageId": true, "version": true, "release": true,
+    "supersedes": true, "supersededBy": true, "language": true
+  },
+  "additionalProperties": false
+}

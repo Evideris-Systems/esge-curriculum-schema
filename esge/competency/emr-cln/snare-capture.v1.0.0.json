@@ -1,0 +1,46 @@
+{
+  "$schema": "https://schema.evideris.com/schemas/competency.schema.json",
+  "$id": "https://schema.evideris.com/esge/competency/emr-cln/snare-capture.v1.0.0.json",
+  "lineageId": "c-emr-cln-snare-capture",
+  "type": "competency",
+  "version": "1.0.0",
+  "release": "r2026.07",
+  "supersedes": null,
+  "supersededBy": null,
+  "language": ["en"],
+
+  "modality": "m-colonoscopy-emr",
+  "kind": "procedural",
+
+  "title": { "en": "Snare placement, capture, and closure" },
+  "description": {
+    "en": "Selecting and positioning an appropriate snare, capturing target tissue with adequate margin and downward pressure with gas aspiration, and closing under direct vision."
+  },
+
+  "milestones": [
+    {
+      "level": "novice",
+      "criteria": { "en": "Captures tissue inconsistently; requires verbal prompts." },
+      "expectedAtCases": 10
+    },
+    {
+      "level": "competent",
+      "criteria": { "en": "Independent capture with appropriate margin; snare V continuously visualised." },
+      "expectedAtCases": 30
+    },
+    {
+      "level": "expert",
+      "criteria": { "en": "Adapts capture technique to lesion morphology and location; teaches the technique." }
+    }
+  ],
+
+  "suggestedCaseload": 30,
+
+  "qualityIndicatorRefs": [],
+  "kpiRefs": [],
+
+  "crossRefs": {
+    "ukJag": [],
+    "uemsCesma": []
+  }
+}

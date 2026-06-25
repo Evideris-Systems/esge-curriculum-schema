@@ -1,0 +1,34 @@
+{
+  "$schema": "https://schema.evideris.com/schemas/release.schema.json",
+  "$id": "https://schema.evideris.com/releases/r2026.07.json",
+  "type": "release",
+  "release": "r2026.07",
+  "releasedAt": "2026-07-01",
+  "publisher": "Evideris Systems BV",
+  "license": "CC-BY-4.0",
+  "source": "https://github.com/Evideris-Systems/esge-curriculum-schema",
+
+  "curricula": [],
+  "recommendations": [
+    { "lineageId": "rec-emr-cln-r3-smi-assessment", "version": "1.0.0" }
+  ],
+  "competencies": [
+    { "lineageId": "c-emr-cln-snare-capture", "version": "1.0.0" }
+  ],
+  "epas": [],
+  "standards": [],
+  "scoringTools": [
+    { "lineageId": "st-smsa", "version": "1.0.0" }
+  ],
+  "kpis": [],
+  "qis": [],
+  "cats": [],
+
+  "majorBumps": [],
+  "minorBumps": [
+    "st-smsa (first publication)",
+    "c-emr-cln-snare-capture (first publication)",
+    "rec-emr-cln-r3-smi-assessment (first publication, ahead of full Tate EMR 2023 seed in next release)"
+  ],
+  "patchBumps": []
+}
