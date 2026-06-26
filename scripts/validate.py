@@ -112,7 +112,11 @@ def main(argv: list[str]) -> int:
         if errs:
             all_errors.extend(errs)
         else:
-            print(f"OK {path.relative_to(ROOT)}")
+            try:
+                display = str(path.relative_to(ROOT))
+            except ValueError:
+                display = str(path)
+            print(f"OK {display}")
     if all_errors:
         print()
         for e in all_errors:
