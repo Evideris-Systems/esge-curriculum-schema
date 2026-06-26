@@ -1,0 +1,27 @@
+{
+  "$schema": "https://schema.evideris.com/schemas/competency.schema.json",
+  "$id": "https://schema.evideris.com/esge/competency/emr-cln/small-polypectomy-prereq.v1.0.0.json",
+  "lineageId": "c-emr-cln-small-polypectomy-prereq",
+  "type": "competency",
+  "version": "1.0.0",
+  "release": "r2026.07",
+  "supersedes": null,
+  "supersededBy": null,
+  "language": ["en"],
+
+  "modality": "m-colonoscopy-emr",
+  "kind": "procedural",
+
+  "title": { "en": "Polypectomy of < 10 mm lesions including pedunculated (prerequisite)" },
+  "description": {
+    "en": "Competence in cold-snare polypectomy of < 10 mm lesions and pedunculated polypectomy (including the use of electrosurgical energy) as a precondition for EMR training (Rec 1)."
+  },
+
+  "milestones": [
+    { "level": "competent", "criteria": { "en": "Documented cold-snare and pedunculated polypectomy competence per national / training-programme standard." } }
+  ],
+
+  "qualityIndicatorRefs": [],
+  "kpiRefs": [],
+  "crossRefs": { "ukJag": [], "uemsCesma": [] }
+}

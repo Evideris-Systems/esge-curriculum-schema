@@ -1,0 +1,61 @@
+{
+  "$schema": "https://schema.evideris.com/schemas/scoring-tool.schema.json",
+  "$id": "https://schema.evideris.com/esge/scoring-tool/nice.v1.0.0.json",
+  "lineageId": "st-nice",
+  "type": "scoringTool",
+  "version": "1.0.0",
+  "release": "r2026.07",
+  "supersedes": null,
+  "supersededBy": null,
+  "language": ["en"],
+
+  "title": { "en": "NICE classification" },
+  "description": { "en": "Narrow-band imaging International Colorectal Endoscopic (NICE) classification — predicts colorectal lesion histology (hyperplastic, adenoma, deep submucosal invasion) from narrow-band imaging features without optical magnification." },
+  "domain": "lesion-characterisation",
+
+  "scale": {
+    "kind": "categorical",
+    "bands": [
+      { "label": { "en": "NICE 1 — hyperplastic / serrated" } },
+      { "label": { "en": "NICE 2 — adenoma / superficial submucosal invasion" } },
+      { "label": { "en": "NICE 3 — deep submucosal invasion" } }
+    ]
+  },
+
+  "inputs": [
+    {
+      "name": "color",
+      "label": { "en": "Color (vs surrounding mucosa)" },
+      "values": [
+        { "label": { "en": "Same / lighter (NICE 1)" } },
+        { "label": { "en": "Browner (NICE 2)" } },
+        { "label": { "en": "Brown to dark brown / amorphous (NICE 3)" } }
+      ]
+    },
+    {
+      "name": "vessels",
+      "label": { "en": "Vessels" },
+      "values": [
+        { "label": { "en": "None / isolated lacy vessels coursing across the lesion (NICE 1)" } },
+        { "label": { "en": "Brown vessels surrounding white structures (NICE 2)" } },
+        { "label": { "en": "Disrupted or missing vessels (NICE 3)" } }
+      ]
+    },
+    {
+      "name": "surface",
+      "label": { "en": "Surface pattern" },
+      "values": [
+        { "label": { "en": "Dark or white spots of uniform size, or homogeneous absence (NICE 1)" } },
+        { "label": { "en": "Oval, tubular or branched white structures surrounded by brown vessels (NICE 2)" } },
+        { "label": { "en": "Amorphous or absent surface pattern (NICE 3)" } }
+      ]
+    }
+  ],
+
+  "references": [
+    {
+      "id": "ref-hayashi-2013",
+      "citation": "Hayashi N, Tanaka S, Hewett DG et al. Endoscopic prediction of deep submucosal invasive carcinoma: validation of the Narrow-Band Imaging International Colorectal Endoscopic (NICE) classification. Gastrointest Endosc 2013; 78: 625–632"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "$schema": "https://schema.evideris.com/schemas/competency.schema.json",
+  "$id": "https://schema.evideris.com/esge/competency/emr-cln/submucosal-injection.v1.0.0.json",
+  "lineageId": "c-emr-cln-submucosal-injection",
+  "type": "competency",
+  "version": "1.0.0",
+  "release": "r2026.07",
+  "supersedes": null,
+  "supersededBy": null,
+  "language": ["en"],
+
+  "modality": "m-colonoscopy-emr",
+  "kind": "procedural",
+
+  "title": { "en": "Submucosal injection technique" },
+  "description": {
+    "en": "Dynamic submucosal injection delivering a lifting cushion of appropriate solution to facilitate snare capture, with safe avoidance of injection through lesions suspected of containing submucosal invasive cancer."
+  },
+
+  "milestones": [
+    { "level": "novice",    "criteria": { "en": "Achieves a partial lift; needle position frequently incorrect." } },
+    { "level": "competent", "criteria": { "en": "Achieves consistent dynamic lift; tangential approach; recognises non-lifting sign; avoids injection through suspected SMI." }, "expectedAtCases": 30 },
+    { "level": "expert",    "criteria": { "en": "Teaches the technique; manages the non-lifting lesion; chooses injection solution by clinical context." } }
+  ],
+
+  "suggestedCaseload": 30,
+  "qualityIndicatorRefs": [],
+  "kpiRefs": [],
+  "crossRefs": { "ukJag": [], "uemsCesma": [] }
+}

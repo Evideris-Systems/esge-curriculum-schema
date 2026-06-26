@@ -1,0 +1,30 @@
+{
+  "$schema": "https://schema.evideris.com/schemas/qi.schema.json",
+  "$id": "https://schema.evideris.com/esge/qi/emr-colon/intraprocedural-bleeding.v1.0.0.json",
+  "lineageId": "qi-emr-cln-intraprocedural-bleeding",
+  "type": "qi",
+  "version": "1.0.0",
+  "release": "r2026.07",
+  "supersedes": null,
+  "supersededBy": null,
+  "language": ["en"],
+
+  "withinCurriculum": "cur-emr-colon-2023",
+
+  "title": { "en": "Rate of intraprocedural bleeding" },
+  "metric": { "en": "Percentage of EMR procedures with clinically significant intraprocedural bleeding requiring endoscopic haemostasis beyond routine technique." },
+  "unit": "%",
+
+  "desiredStandard": 14,
+  "minimumStandard": 19,
+
+  "originData": {
+    "source": "iACE",
+    "value": 13.6,
+    "confidenceInterval95": { "low": 12.5, "high": 14.7 }
+  },
+  "levelOfAgreement": 83,
+
+  "appliesTo": "practitioner",
+  "derivedFromRecommendation": "rec-emr-cln-r38-essential-qis"
+}

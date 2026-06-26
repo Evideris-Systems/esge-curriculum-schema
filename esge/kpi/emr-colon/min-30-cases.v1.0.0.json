@@ -1,0 +1,30 @@
+{
+  "$schema": "https://schema.evideris.com/schemas/kpi.schema.json",
+  "$id": "https://schema.evideris.com/esge/kpi/emr-colon/min-30-cases.v1.0.0.json",
+  "lineageId": "kpi-emr-cln-30-cases-min",
+  "type": "kpi",
+  "version": "1.0.0",
+  "release": "r2026.07",
+  "supersedes": null,
+  "supersededBy": null,
+  "language": ["en"],
+
+  "withinCurriculum": "cur-emr-colon-2023",
+
+  "title": { "en": "Minimum case count before independent EMR practice" },
+  "metric": { "en": "Number of EMR procedures performed independently over a minimum 6-month training period, culminating in a trainer-guided assessment of competency using a validated assessment tool stratified by procedural difficulty (e.g. SMSA polyp score)." },
+  "unit": "procedures",
+
+  "desiredStandard": 30,
+  "minimumStandard": 30,
+
+  "originData": {
+    "source": "delphi",
+    "value": null,
+    "confidenceInterval95": null
+  },
+  "levelOfAgreement": 83,
+
+  "appliesTo": "trainee",
+  "derivedFromRecommendation": "rec-emr-cln-r37-training-completion"
+}

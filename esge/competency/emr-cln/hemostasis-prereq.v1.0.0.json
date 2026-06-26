@@ -1,0 +1,27 @@
+{
+  "$schema": "https://schema.evideris.com/schemas/competency.schema.json",
+  "$id": "https://schema.evideris.com/esge/competency/emr-cln/hemostasis-prereq.v1.0.0.json",
+  "lineageId": "c-emr-cln-hemostasis-prereq",
+  "type": "competency",
+  "version": "1.0.0",
+  "release": "r2026.07",
+  "supersedes": null,
+  "supersededBy": null,
+  "language": ["en"],
+
+  "modality": "m-colonoscopy-emr",
+  "kind": "adverseEventManagement",
+
+  "title": { "en": "Common GI endoscopic haemostasis methods (prerequisite)" },
+  "description": {
+    "en": "Familiarity with common methods of GI endoscopic haemostasis (clips, thermal therapy, injection) per local protocols, as a precondition for EMR training (Rec 1)."
+  },
+
+  "milestones": [
+    { "level": "competent", "criteria": { "en": "Documented competence in common haemostasis methods per local protocol." } }
+  ],
+
+  "qualityIndicatorRefs": [],
+  "kpiRefs": [],
+  "crossRefs": { "ukJag": [], "uemsCesma": [] }
+}

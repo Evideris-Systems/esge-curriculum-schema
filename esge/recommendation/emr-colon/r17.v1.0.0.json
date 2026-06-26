@@ -1,0 +1,44 @@
+{
+  "$schema": "https://schema.evideris.com/schemas/recommendation.schema.json",
+  "$id": "https://schema.evideris.com/esge/recommendation/emr-colon/r17.v1.0.0.json",
+  "lineageId": "rec-emr-cln-r17-cold-snare-placement",
+  "type": "recommendation",
+  "version": "1.0.0",
+  "release": "r2026.07",
+  "supersedes": null,
+  "supersededBy": null,
+  "language": ["en"],
+
+  "withinCurriculum": "cur-emr-colon-2023",
+  "withinSection": "sec-emr-during-emr",
+  "number": 17,
+
+  "title": { "en": "Snare placement, capture, and closure — cold-snare EMR" },
+  "statement": {
+    "en": "ESGE recommends the best practice approach to snare placement, capture, and closure for cold-snare EMR described in the following list."
+  },
+
+  "grade": {
+    "strength": "best-practice",
+    "evidenceQuality": "low",
+    "levelOfAgreement": 95
+  },
+
+  "subItems": [
+    { "label": "i",    "text": { "en": "Use a dedicated cold snare." } },
+    { "label": "ii",   "text": { "en": "Use an appropriate snare size and type for the lesion." } },
+    { "label": "vii",  "text": { "en": "The tip of the snare catheter (the V of the snare just beyond its tip) should be near the endoscope during closure and constantly visualised." } },
+    { "label": "viii", "text": { "en": "Maximise tissue capture: use downward pressure and gas aspiration to achieve complete capture of adequate target tissue." } },
+    { "label": "ix",   "text": { "en": "Avoid poor capture or scraping the surface of the polyp; verify mucosal layer is completely excised." } }
+  ],
+
+  "commentary": {
+    "en": "The cold-snare technique is paired across Recs 16 (injection) and 18 (defect inspection) for the cold-snare EMR workflow. Items in GPAT Table 4 referenced as 17(i, ii, vii, viii, ix) cross-map to the hot-snare equivalents in Rec 20 — see GPAT for the assessment view."
+  },
+
+  "assessesCompetencies": [
+    "c-emr-cln-snare-capture"
+  ],
+
+  "references": []
+}

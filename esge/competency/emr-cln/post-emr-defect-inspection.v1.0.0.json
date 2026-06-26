@@ -1,0 +1,30 @@
+{
+  "$schema": "https://schema.evideris.com/schemas/competency.schema.json",
+  "$id": "https://schema.evideris.com/esge/competency/emr-cln/post-emr-defect-inspection.v1.0.0.json",
+  "lineageId": "c-emr-cln-post-emr-defect-inspection",
+  "type": "competency",
+  "version": "1.0.0",
+  "release": "r2026.07",
+  "supersedes": null,
+  "supersededBy": null,
+  "language": ["en"],
+
+  "modality": "m-colonoscopy-emr",
+  "kind": "procedural",
+
+  "title": { "en": "Inspection of the post-EMR defect" },
+  "description": {
+    "en": "Systematic visualisation of the post-resection mucosal defect: detection and treatment of residual adenoma at margin and within the defect, recognition of deep mural injury (Sydney DMI classification), and decision-making about clip closure and surveillance."
+  },
+
+  "milestones": [
+    { "level": "novice",    "criteria": { "en": "Inspects the defect inconsistently; requires prompts to look for residual tissue." } },
+    { "level": "competent", "criteria": { "en": "Systematically inspects margin and defect; detects and treats residual tissue; identifies DMI ≥ Sydney II and closes appropriately." }, "expectedAtCases": 30 },
+    { "level": "expert",    "criteria": { "en": "Teaches systematic defect assessment; manages complex closures." } }
+  ],
+
+  "suggestedCaseload": 30,
+  "qualityIndicatorRefs": [],
+  "kpiRefs": [],
+  "crossRefs": { "ukJag": [], "uemsCesma": [] }
+}

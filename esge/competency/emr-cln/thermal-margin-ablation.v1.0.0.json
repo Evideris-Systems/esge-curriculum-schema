@@ -1,0 +1,30 @@
+{
+  "$schema": "https://schema.evideris.com/schemas/competency.schema.json",
+  "$id": "https://schema.evideris.com/esge/competency/emr-cln/thermal-margin-ablation.v1.0.0.json",
+  "lineageId": "c-emr-cln-thermal-margin-ablation",
+  "type": "competency",
+  "version": "1.0.0",
+  "release": "r2026.07",
+  "supersedes": null,
+  "supersededBy": null,
+  "language": ["en"],
+
+  "modality": "m-colonoscopy-emr",
+  "kind": "procedural",
+
+  "title": { "en": "Thermal ablation of the post-EMR defect margin (STSC)" },
+  "description": {
+    "en": "Application of snare-tip soft coagulation (STSC) circumferentially to the defect margin after piecemeal EMR to reduce adenoma recurrence, with safe technique avoiding deep mural injury."
+  },
+
+  "milestones": [
+    { "level": "novice",    "criteria": { "en": "Performs STSC inconsistently; coverage of margin incomplete." } },
+    { "level": "competent", "criteria": { "en": "Achieves complete circumferential STSC of every accessible margin; safe distance from muscularis; recognises and aborts when DMI is risked." }, "expectedAtCases": 30 },
+    { "level": "expert",    "criteria": { "en": "Teaches the technique; manages technically difficult margins; documents coverage." } }
+  ],
+
+  "suggestedCaseload": 30,
+  "qualityIndicatorRefs": [],
+  "kpiRefs": [],
+  "crossRefs": { "ukJag": [], "uemsCesma": [] }
+}

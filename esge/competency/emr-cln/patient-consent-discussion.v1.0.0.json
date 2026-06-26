@@ -1,0 +1,29 @@
+{
+  "$schema": "https://schema.evideris.com/schemas/competency.schema.json",
+  "$id": "https://schema.evideris.com/esge/competency/emr-cln/patient-consent-discussion.v1.0.0.json",
+  "lineageId": "c-emr-cln-patient-consent-discussion",
+  "type": "competency",
+  "version": "1.0.0",
+  "release": "r2026.07",
+  "supersedes": null,
+  "supersededBy": null,
+  "language": ["en"],
+
+  "modality": "m-colonoscopy-emr",
+  "kind": "communication",
+
+  "title": { "en": "Patient consent and pre-procedure discussion" },
+  "description": {
+    "en": "Two-stage informed consent for EMR: discussion of the procedure, alternatives, recurrence risk, individualised complication estimates, anticoagulant management, prophylactic antibiotics, and post-procedure surveillance plans."
+  },
+
+  "milestones": [
+    { "level": "novice",    "criteria": { "en": "Discusses basic procedure and consent under supervision." } },
+    { "level": "competent", "criteria": { "en": "Independently conducts a two-stage consent discussion covering all aspects in Rec 10 sub-items (i)–(v); tailors to patient comorbidity and centre data." }, "expectedAtCases": 30 },
+    { "level": "expert",    "criteria": { "en": "Teaches communication skills; manages consent for complex/high-risk cases." } }
+  ],
+
+  "qualityIndicatorRefs": [],
+  "kpiRefs": [],
+  "crossRefs": { "ukJag": [], "uemsCesma": [] }
+}

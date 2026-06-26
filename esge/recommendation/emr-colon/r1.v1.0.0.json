@@ -1,0 +1,41 @@
+{
+  "$schema": "https://schema.evideris.com/schemas/recommendation.schema.json",
+  "$id": "https://schema.evideris.com/esge/recommendation/emr-colon/r1.v1.0.0.json",
+  "lineageId": "rec-emr-cln-r1-prereq-competencies",
+  "type": "recommendation",
+  "version": "1.0.0",
+  "release": "r2026.07",
+  "supersedes": null,
+  "supersededBy": null,
+  "language": ["en"],
+
+  "withinCurriculum": "cur-emr-colon-2023",
+  "withinSection": "sec-emr-preadoption",
+  "number": 1,
+
+  "title": { "en": "Competencies prior to EMR training" },
+  "statement": {
+    "en": "ESGE recommends that the competencies listed below are accomplished prior to in vivo EMR training under direct supervision."
+  },
+
+  "grade": {
+    "strength": "best-practice",
+    "evidenceQuality": "no-evidence-available",
+    "levelOfAgreement": 97
+  },
+
+  "subItems": [
+    { "label": "i",   "text": { "en": "Basic competence in diagnostic colonoscopy (per local protocols)." },               "references": ["ref-17"] },
+    { "label": "ii",  "text": { "en": "Competence in polypectomy of < 10 mm lesions (cold-snare and electrosurgery)." },   "references": ["ref-17"] },
+    { "label": "iii", "text": { "en": "Competence in pedunculated polypectomy with electrosurgical energy." },             "references": ["ref-17"] },
+    { "label": "iv",  "text": { "en": "Familiarity with common methods of GI endoscopic haemostasis (as defined by local protocols)." }, "references": ["ref-17"] }
+  ],
+
+  "assessesCompetencies": [
+    "c-emr-cln-basic-colonoscopy-prereq",
+    "c-emr-cln-small-polypectomy-prereq",
+    "c-emr-cln-hemostasis-prereq"
+  ],
+
+  "references": ["ref-17"]
+}

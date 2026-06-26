@@ -1,0 +1,30 @@
+{
+  "$schema": "https://schema.evideris.com/schemas/qi.schema.json",
+  "$id": "https://schema.evideris.com/esge/qi/emr-colon/success-rate.v1.0.0.json",
+  "lineageId": "qi-emr-cln-success-rate",
+  "type": "qi",
+  "version": "1.0.0",
+  "release": "r2026.07",
+  "supersedes": null,
+  "supersededBy": null,
+  "language": ["en"],
+
+  "withinCurriculum": "cur-emr-colon-2023",
+
+  "title": { "en": "LNPCP successfully resected in a single session using EMR" },
+  "metric": { "en": "Percentage of attempted LNPCPs completely resected in a single EMR session." },
+  "unit": "%",
+
+  "desiredStandard": 91,
+  "minimumStandard": 86,
+
+  "originData": {
+    "source": "iACE",
+    "value": 91.4,
+    "confidenceInterval95": { "low": 90.6, "high": 92.2 }
+  },
+  "levelOfAgreement": 89,
+
+  "appliesTo": "practitioner",
+  "derivedFromRecommendation": "rec-emr-cln-r38-essential-qis"
+}

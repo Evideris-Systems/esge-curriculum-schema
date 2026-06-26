@@ -1,0 +1,36 @@
+{
+  "$schema": "https://schema.evideris.com/schemas/recommendation.schema.json",
+  "$id": "https://schema.evideris.com/esge/recommendation/emr-colon/r38.v1.0.0.json",
+  "lineageId": "rec-emr-cln-r38-essential-qis",
+  "type": "recommendation",
+  "version": "1.0.0",
+  "release": "r2026.07",
+  "supersedes": null,
+  "supersededBy": null,
+  "language": ["en"],
+
+  "withinCurriculum": "cur-emr-colon-2023",
+  "withinSection": "sec-emr-lifelong-qi",
+  "number": 38,
+
+  "title": { "en": "Quality indicators of EMR" },
+  "statement": {
+    "en": "ESGE recommends that essential quality indicators of EMR should be prospectively monitored, recorded, and acted upon if deficiencies are identified. The full list is given in Table 6 of the curriculum and is encoded in this schema as individual `qi` artifacts."
+  },
+
+  "grade": {
+    "strength": "strong",
+    "evidenceQuality": "low",
+    "levelOfAgreement": 90
+  },
+
+  "tableRefs": ["table-6"],
+
+  "commentary": {
+    "en": "Each Table 6 row is encoded as a separate `qi` artifact (lifelong quality indicator), with `desiredStandard` / `minimumStandard` thresholds and the originating data source (Delphi or the international ACE (iACE) study)."
+  },
+
+  "assessesCompetencies": [],
+
+  "references": []
+}

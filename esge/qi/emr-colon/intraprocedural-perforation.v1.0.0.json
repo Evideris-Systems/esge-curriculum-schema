@@ -1,0 +1,30 @@
+{
+  "$schema": "https://schema.evideris.com/schemas/qi.schema.json",
+  "$id": "https://schema.evideris.com/esge/qi/emr-colon/intraprocedural-perforation.v1.0.0.json",
+  "lineageId": "qi-emr-cln-intraprocedural-perforation",
+  "type": "qi",
+  "version": "1.0.0",
+  "release": "r2026.07",
+  "supersedes": null,
+  "supersededBy": null,
+  "language": ["en"],
+
+  "withinCurriculum": "cur-emr-colon-2023",
+
+  "title": { "en": "Rate of intraprocedural perforation" },
+  "metric": { "en": "Percentage of EMR procedures with intraprocedural perforation (Sydney DMI ≥ III)." },
+  "unit": "%",
+
+  "desiredStandard": 3.5,
+  "minimumStandard": 5,
+
+  "originData": {
+    "source": "iACE",
+    "value": 3.3,
+    "confidenceInterval95": { "low": 2.7, "high": 3.9 }
+  },
+  "levelOfAgreement": 85,
+
+  "appliesTo": "practitioner",
+  "derivedFromRecommendation": "rec-emr-cln-r38-essential-qis"
+}

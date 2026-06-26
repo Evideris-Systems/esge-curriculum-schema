@@ -1,0 +1,26 @@
+{
+  "$schema": "https://schema.evideris.com/schemas/standard.schema.json",
+  "$id": "https://schema.evideris.com/esge/standard/emr-colon/unit-pre-procedure-pathways.v1.0.0.json",
+  "lineageId": "std-emr-unit-pre-procedure-pathways",
+  "type": "standard",
+  "version": "1.0.0",
+  "release": "r2026.07",
+  "supersedes": null,
+  "supersededBy": null,
+  "language": ["en"],
+
+  "withinCurriculum": "cur-emr-colon-2023",
+  "appliesTo": "unit",
+
+  "title": { "en": "Pre-procedure assessment pathways" },
+  "text": {
+    "en": "Written and/or electronic pre-procedure pathways should exist to facilitate the assessment of patients with co-morbidity prior to EMR."
+  },
+  "evidenceRequired": [
+    { "en": "Copy of written or electronic pathway document with date of last review." },
+    { "en": "Audit sample showing pathway was followed in ≥90 % of recent EMR cases." }
+  ],
+
+  "derivedFromRecommendation": "rec-emr-cln-r2-unit-standards",
+  "subItemLabel": "i"
+}

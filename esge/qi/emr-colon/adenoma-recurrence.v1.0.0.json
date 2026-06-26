@@ -1,0 +1,30 @@
+{
+  "$schema": "https://schema.evideris.com/schemas/qi.schema.json",
+  "$id": "https://schema.evideris.com/esge/qi/emr-colon/adenoma-recurrence.v1.0.0.json",
+  "lineageId": "qi-emr-cln-adenoma-recurrence",
+  "type": "qi",
+  "version": "1.0.0",
+  "release": "r2026.07",
+  "supersedes": null,
+  "supersededBy": null,
+  "language": ["en"],
+
+  "withinCurriculum": "cur-emr-colon-2023",
+
+  "title": { "en": "Rate of adenoma recurrence at first surveillance (overall)" },
+  "metric": { "en": "Endoscopically determined adenoma recurrence at first surveillance colonoscopy after index EMR, irrespective of resection technique." },
+  "unit": "%",
+
+  "desiredStandard": 14,
+  "minimumStandard": 16,
+
+  "originData": {
+    "source": "iACE",
+    "value": 13.9,
+    "confidenceInterval95": { "low": 12.2, "high": 15.7 }
+  },
+  "levelOfAgreement": 80,
+
+  "appliesTo": "practitioner",
+  "derivedFromRecommendation": "rec-emr-cln-r38-essential-qis"
+}

@@ -1,0 +1,26 @@
+{
+  "$schema": "https://schema.evideris.com/schemas/standard.schema.json",
+  "$id": "https://schema.evideris.com/esge/standard/emr-colon/unit-formal-consent-procedures.v1.0.0.json",
+  "lineageId": "std-emr-unit-formal-consent-procedures",
+  "type": "standard",
+  "version": "1.0.0",
+  "release": "r2026.07",
+  "supersedes": null,
+  "supersededBy": null,
+  "language": ["en"],
+
+  "withinCurriculum": "cur-emr-colon-2023",
+  "appliesTo": "unit",
+
+  "title": { "en": "Formal consent and patient information procedures" },
+  "text": {
+    "en": "Formal procedures should exist, either via written information, remote consultation, or face-to-face consultation, to ensure that consent is obtained with adequate opportunity for patient questions and reflection prior to EMR."
+  },
+  "evidenceRequired": [
+    { "en": "Patient information sheet specifically for EMR (risks, alternatives, recurrence)." },
+    { "en": "Documented two-stage consent workflow (initial discussion → reflection → confirmation)." }
+  ],
+
+  "derivedFromRecommendation": "rec-emr-cln-r2-unit-standards",
+  "subItemLabel": "iii"
+}

@@ -1,0 +1,55 @@
+{
+  "$schema": "https://schema.evideris.com/schemas/scoring-tool.schema.json",
+  "$id": "https://schema.evideris.com/esge/scoring-tool/jnet.v1.0.0.json",
+  "lineageId": "st-jnet",
+  "type": "scoringTool",
+  "version": "1.0.0",
+  "release": "r2026.07",
+  "supersedes": null,
+  "supersededBy": null,
+  "language": ["en"],
+
+  "title": { "en": "JNET classification" },
+  "description": { "en": "Japan NBI Expert Team (JNET) classification — predicts colorectal lesion histology using magnifying narrow-band imaging. Four-category scheme distinguishing hyperplastic, low-grade adenoma, high-grade adenoma/superficial SMI, and deep SMI." },
+  "domain": "lesion-characterisation",
+
+  "scale": {
+    "kind": "categorical",
+    "bands": [
+      { "label": { "en": "Type 1 — hyperplastic / sessile serrated" } },
+      { "label": { "en": "Type 2A — low-grade adenoma" } },
+      { "label": { "en": "Type 2B — high-grade adenoma / superficial SMI" } },
+      { "label": { "en": "Type 3 — deep submucosal invasion" } }
+    ]
+  },
+
+  "inputs": [
+    {
+      "name": "vesselPattern",
+      "label": { "en": "Vessel pattern (with magnification)" },
+      "values": [
+        { "label": { "en": "Invisible (Type 1)" } },
+        { "label": { "en": "Regular calibre, regular distribution (Type 2A)" } },
+        { "label": { "en": "Variable calibre, irregular distribution (Type 2B)" } },
+        { "label": { "en": "Loose vessel areas, interruption of thick vessels (Type 3)" } }
+      ]
+    },
+    {
+      "name": "surfacePattern",
+      "label": { "en": "Surface pattern (with magnification)" },
+      "values": [
+        { "label": { "en": "Regular dark or white spots / similar to surrounding normal mucosa (Type 1)" } },
+        { "label": { "en": "Regular tubular / branched / papillary (Type 2A)" } },
+        { "label": { "en": "Irregular or obscure (Type 2B)" } },
+        { "label": { "en": "Amorphous areas (Type 3)" } }
+      ]
+    }
+  ],
+
+  "references": [
+    {
+      "id": "ref-sano-2016",
+      "citation": "Sano Y, Tanaka S, Kudo SE et al. Narrow-band imaging (NBI) magnifying endoscopic classification of colorectal tumors proposed by the Japan NBI Expert Team. Dig Endosc 2016; 28: 526–533"
+    }
+  ]
+}

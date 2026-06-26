@@ -1,0 +1,116 @@
+{
+  "$schema": "https://schema.evideris.com/schemas/cat.schema.json",
+  "$id": "https://schema.evideris.com/esge/cat/gpat.v1.0.0.json",
+  "lineageId": "cat-gpat",
+  "type": "cat",
+  "version": "1.0.0",
+  "release": "r2026.07",
+  "supersedes": null,
+  "supersededBy": null,
+  "language": ["en"],
+
+  "catFamily": "GPAT",
+  "title": { "en": "Global Polypectomy Assessment Tool (GPAT)" },
+  "description": {
+    "en": "Direct-observation tool standardising the language and assessment of polypectomy competence across cold-snare and hot-snare techniques. Components map to Tate EMR 2023 Recs 17 (cold snare) and 20 (hot snare). Initial seed encodes a representative subset of Table 4 items; remaining items will be added in subsequent commits."
+  },
+
+  "applicableModalities": ["m-colonoscopy-emr"],
+  "introducedIn": "cur-emr-colon-2023",
+
+  "scoringScale": {
+    "kind": "ordinal",
+    "levels": [
+      { "value": 1, "label": { "en": "Very poor" } },
+      { "value": 3, "label": { "en": "Intermediate" } },
+      { "value": 5, "label": { "en": "Very good" } }
+    ]
+  },
+
+  "items": [
+    {
+      "lineageId": "cat-gpat-snare-size-type",
+      "label": { "en": "Appropriate snare size / type selected" },
+      "guidance": {
+        "en": "Snare of appropriate size and type for the polyp (thin wire vs. thick wire; dedicated cold vs. hot)."
+      },
+      "assessesCompetencies": ["c-emr-cln-snare-capture"],
+      "assessesRecommendations": [
+        { "lineageId": "rec-emr-cln-r17-cold-snare-placement", "subItem": "i" },
+        { "lineageId": "rec-emr-cln-r17-cold-snare-placement", "subItem": "ii" }
+      ],
+      "applicability": {
+        "hot-snare": "mandatory",
+        "cold-snare": "mandatory"
+      }
+    },
+    {
+      "lineageId": "cat-gpat-snare-capture",
+      "label": { "en": "Maximizing snare capture" },
+      "guidance": {
+        "en": "Good capture of polyp tissue within snare; use of downward pressure; use of gas aspiration resulting in complete capture of adequate target tissue."
+      },
+      "assessesCompetencies": ["c-emr-cln-snare-capture"],
+      "assessesRecommendations": [
+        { "lineageId": "rec-emr-cln-r17-cold-snare-placement", "subItem": "viii" }
+      ],
+      "applicability": {
+        "hot-snare": "mandatory",
+        "cold-snare": "mandatory"
+      }
+    },
+    {
+      "lineageId": "cat-gpat-snare-visualisation",
+      "label": { "en": "Snare precisely visualised during placement and closure (V of the snare)" },
+      "guidance": {
+        "en": "Snare V visualised consistently during closure and kept near the colonoscope."
+      },
+      "assessesCompetencies": ["c-emr-cln-snare-capture"],
+      "assessesRecommendations": [
+        { "lineageId": "rec-emr-cln-r17-cold-snare-placement", "subItem": "vii" }
+      ],
+      "applicability": {
+        "hot-snare": "mandatory",
+        "cold-snare": "mandatory"
+      }
+    },
+    {
+      "lineageId": "cat-gpat-injection-technique",
+      "label": { "en": "Submucosal injection technique" },
+      "guidance": {
+        "en": "Tangential dynamic injection; needle in submucosa; appropriate solution; injection clearly facilitates access to the target lesion."
+      },
+      "assessesCompetencies": ["c-emr-cln-submucosal-injection"],
+      "applicability": {
+        "hot-snare": "mandatory",
+        "cold-snare": "optional"
+      }
+    },
+    {
+      "lineageId": "cat-gpat-defect-mucosa",
+      "label": { "en": "Defect mucosa: detects and removes residual adenoma at margin and within defect" },
+      "guidance": {
+        "en": "Ostensibly and systematically checks for residual adenomatous tissue within the defect and at the margin, and removes it successfully."
+      },
+      "assessesCompetencies": ["c-emr-cln-post-emr-defect-inspection"],
+      "applicability": {
+        "hot-snare": "mandatory",
+        "cold-snare": "mandatory"
+      }
+    },
+    {
+      "lineageId": "cat-gpat-defect-muscularis",
+      "label": { "en": "Defect muscularis: detects and treats deep mural injury ≥ Sydney II" },
+      "guidance": {
+        "en": "Detects and treats Sydney DMI types II–V (or confirms they are not present)."
+      },
+      "assessesCompetencies": ["c-emr-cln-post-emr-defect-inspection"],
+      "applicability": {
+        "hot-snare": "mandatory",
+        "cold-snare": "not-applicable"
+      }
+    }
+  ],
+
+  "references": []
+}

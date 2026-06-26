@@ -1,0 +1,40 @@
+{
+  "$schema": "https://schema.evideris.com/schemas/recommendation.schema.json",
+  "$id": "https://schema.evideris.com/esge/recommendation/emr-colon/r2.v1.0.0.json",
+  "lineageId": "rec-emr-cln-r2-unit-standards",
+  "type": "recommendation",
+  "version": "1.0.0",
+  "release": "r2026.07",
+  "supersedes": null,
+  "supersededBy": null,
+  "language": ["en"],
+
+  "withinCurriculum": "cur-emr-colon-2023",
+  "withinSection": "sec-emr-preadoption",
+  "number": 2,
+
+  "title": { "en": "Standards for endoscopy units offering EMR training" },
+  "statement": {
+    "en": "ESGE recommends the minimum desirable standards detailed in the following list be met by endoscopy units offering training in EMR."
+  },
+
+  "grade": {
+    "strength": "best-practice",
+    "evidenceQuality": "no-evidence-available",
+    "levelOfAgreement": 95
+  },
+
+  "subItems": [
+    { "label": "i",   "text": { "en": "Written and/or electronic pre-procedure pathways for the assessment of patients with co-morbidity prior to EMR." }, "levelOfAgreement": 90 },
+    { "label": "ii",  "text": { "en": "Written local pre-procedure pathways for the correct dosing of anticoagulants prior to EMR based on international consensus guidelines." }, "levelOfAgreement": 95 },
+    { "label": "iii", "text": { "en": "Formal procedures for consent — written information, remote, or face-to-face — with adequate opportunity for patient questions and reflection." }, "levelOfAgreement": 95 }
+  ],
+
+  "assessesStandards": [
+    "std-emr-unit-pre-procedure-pathways",
+    "std-emr-unit-anticoagulant-protocols",
+    "std-emr-unit-formal-consent-procedures"
+  ],
+
+  "references": []
+}

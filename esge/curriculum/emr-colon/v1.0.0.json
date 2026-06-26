@@ -1,0 +1,144 @@
+{
+  "$schema": "https://schema.evideris.com/schemas/curriculum.schema.json",
+  "$id": "https://schema.evideris.com/esge/curriculum/emr-colon/v1.0.0.json",
+  "lineageId": "cur-emr-colon-2023",
+  "type": "curriculum",
+  "version": "1.0.0",
+  "release": "r2026.07",
+  "supersedes": null,
+  "supersededBy": null,
+  "language": ["en"],
+
+  "scope": { "en": "Training in endoscopic mucosal resection (EMR) of large non-pedunculated colorectal polyps (LNPCPs)." },
+  "targetModalities": ["m-colonoscopy-emr"],
+
+  "publication": {
+    "title": "Curriculum for training in endoscopic mucosal resection in the colon: European Society of Gastrointestinal Endoscopy (ESGE) Position Statement",
+    "authors": [
+      { "name": "David J. Tate",          "affiliation": "University Hospital of Ghent, Ghent, Belgium" },
+      { "name": "Maria Eva Argenziano",   "affiliation": "Università Politecnica delle Marche, Ancona, Italy" },
+      { "name": "John Anderson",          "affiliation": "Cheltenham General Hospital, Gloucestershire Hospitals Foundation Trust, Cheltenham, UK" },
+      { "name": "Pradeep Bhandari",       "affiliation": "Portsmouth Hospitals University NHS Trust, Portsmouth, UK" },
+      { "name": "Ivo Boškoski",           "affiliation": "Fondazione Policlinico Universitario Agostino Gemelli IRCCS, Rome, Italy" },
+      { "name": "Marek Bugajski",         "affiliation": "Luxmed Oncology, Warsaw, Poland" },
+      { "name": "Lobke Desomer",          "affiliation": "AZ Delta Roeselare & University Hospital Ghent, Belgium" },
+      { "name": "Steven J. Heitman",      "affiliation": "Cumming School of Medicine, University of Calgary, Canada" },
+      { "name": "Hiroshi Kashida",        "affiliation": "Kindai University, Osaka-Sayama, Japan" },
+      { "name": "Vladimir Kriazhov",      "affiliation": "Nizhny Novgorod Regional Hospital, Russia" },
+      { "name": "Ralph R. T. Lee",        "affiliation": "The Ottawa Hospital — Civic Campus, University of Ottawa, Canada" },
+      { "name": "Ivan Lyutakov",          "affiliation": "University Hospital Tsaritsa Yoanna-ISUL, Medical University Sofia, Bulgaria" },
+      { "name": "Pedro Pimentel-Nunes",   "affiliation": "Portuguese Oncology Institute & CINTESIS, Portugal" },
+      { "name": "Liseth Rivero-Sánchez",  "affiliation": "Hospital Clínic Barcelona & CIBEREHD, Spain" },
+      { "name": "Siwan Thomas-Gibson",    "affiliation": "St Mark's Hospital, Imperial College London, UK" },
+      { "name": "Henrik Thorlacius",      "affiliation": "Skåne University Hospital, Lund University, Sweden" },
+      { "name": "Michael J. Bourke",      "affiliation": "Westmead Hospital & University of Sydney, Australia" },
+      { "name": "Tony C. Tham",           "affiliation": "Ulster Hospital, Belfast, UK" },
+      { "name": "Raf Bisschops",          "affiliation": "University Hospitals Leuven, Belgium" }
+    ],
+    "journal": "Endoscopy",
+    "year": 2023,
+    "volume": 55,
+    "issue": 7,
+    "pages": "645–679",
+    "doi": "10.1055/a-2077-0497",
+    "openAccessUrl": "https://www.esge.com/assets/downloads/pdfs/guidelines/2023_a-2077-0497.pdf"
+  },
+
+  "methodology": {
+    "type": "delphi-consensus",
+    "rounds": 3,
+    "agreementThreshold": 80,
+    "panelSize": 19
+  },
+
+  "mainStatements": [
+    { "number": 1,  "text": { "en": "Trainees in EMR should have achieved basic competence in diagnostic colonoscopy, < 10 mm polypectomy, pedunculated polypectomy, and common methods of GI endoscopic haemostasis." } },
+    { "number": 2,  "text": { "en": "Endoscopy units training endoscopists in EMR should provide a minimum standard environment as detailed in the curriculum." } },
+    { "number": 3,  "text": { "en": "A trained EMR practitioner should have mastered theoretical knowledge across the eight curriculum domains." } },
+    { "number": 4,  "text": { "en": "Trained EMR practitioners should be familiar with the equipment used for EMR." } },
+    { "number": 5,  "text": { "en": "The development of endoscopic non-technical skills (ENTS) is integral to a competent EMR practitioner." } },
+    { "number": 6,  "text": { "en": "Differences in recommended technique exist between cold-snare and hot-snare EMR; trainees should master both." } },
+    { "number": 7,  "text": { "en": "A trained EMR practitioner must be able to manage adverse events related to EMR." } },
+    { "number": 8,  "text": { "en": "A trained EMR practitioner must be able to communicate findings to patients and colleagues, including via the multidisciplinary team." } },
+    { "number": 9,  "text": { "en": "A trained EMR practitioner must be able to detect and treat residual / recurrent adenoma at first surveillance." } },
+    { "number": 10, "text": { "en": "Prior to independent practice, a minimum of 30 EMR procedures should be performed, culminating in a trainer-guided assessment of competency using a validated assessment tool, taking account of procedural difficulty (e.g. SMSA polyp score)." } },
+    { "number": 11, "text": { "en": "Trained practitioners should log their key performance indicators (KPIs) of polypectomy during independent practice." } }
+  ],
+
+  "sections": [
+    { "lineageId": "sec-emr-preadoption",  "number": 1, "title": { "en": "Preadoption requirements" } },
+    { "lineageId": "sec-emr-knowledge",    "number": 2, "title": { "en": "Theoretical knowledge required" } },
+    { "lineageId": "sec-emr-before-emr",   "number": 3, "title": { "en": "Before EMR" } },
+    { "lineageId": "sec-emr-during-emr",   "number": 4, "title": { "en": "Recommendations during EMR" } },
+    { "lineageId": "sec-emr-after-emr",    "number": 5, "title": { "en": "After EMR" } },
+    { "lineageId": "sec-emr-training",     "number": 7, "title": { "en": "Recommendations for training" } },
+    { "lineageId": "sec-emr-lifelong-qi",  "number": 8, "title": { "en": "Lifelong key performance indicators (quality assurance)" } }
+  ],
+
+  "recommendations": [
+    "rec-emr-cln-r1-prereq-competencies",
+    "rec-emr-cln-r2-unit-standards",
+    "rec-emr-cln-r3-smi-assessment",
+    "rec-emr-cln-r10-patient-consent",
+    "rec-emr-cln-r17-cold-snare-placement",
+    "rec-emr-cln-r38-essential-qis"
+  ],
+  "competencies": [
+    "c-emr-cln-basic-colonoscopy-prereq",
+    "c-emr-cln-small-polypectomy-prereq",
+    "c-emr-cln-hemostasis-prereq",
+    "c-emr-cln-lesion-assessment",
+    "c-emr-cln-smi-risk-stratification",
+    "c-emr-cln-submucosal-injection",
+    "c-emr-cln-snare-capture",
+    "c-emr-cln-post-emr-defect-inspection",
+    "c-emr-cln-thermal-margin-ablation",
+    "c-emr-cln-bleeding-management",
+    "c-emr-cln-patient-consent-discussion"
+  ],
+  "epas": ["epa-emr-cln-independent-piecemeal"],
+  "standards": [
+    "std-emr-unit-pre-procedure-pathways",
+    "std-emr-unit-anticoagulant-protocols",
+    "std-emr-unit-formal-consent-procedures"
+  ],
+  "scoringTools": ["st-smsa", "st-nice", "st-jnet", "st-sydney-dmi"],
+  "kpis": ["kpi-emr-cln-30-cases-min"],
+  "qis": [
+    "qi-emr-cln-procedures-per-year",
+    "qi-emr-cln-success-rate",
+    "qi-emr-cln-intraprocedural-bleeding",
+    "qi-emr-cln-intraprocedural-perforation",
+    "qi-emr-cln-adenoma-recurrence"
+  ],
+  "cats": ["cat-gpat"],
+
+  "prerequisites": [
+    "c-emr-cln-basic-colonoscopy-prereq",
+    "c-emr-cln-small-polypectomy-prereq",
+    "c-emr-cln-hemostasis-prereq"
+  ],
+
+  "disclaimer": "ESGE Position Statements represent a consensus of best practice based on the available evidence at the time of preparation. This is NOT a guideline but a proposal for training in EMR. The statements may not apply in all situations and should be interpreted in the light of specific clinical situations and resource availability. Further controlled clinical studies may be needed to clarify aspects of these statements, and revision may be necessary as new data appear. Clinical considerations may justify a course of action at variance with these recommendations. This ESGE Position Statement is intended to be an educational device to provide information that may assist endoscopists in providing care to patients. The recommendations are not rules and should not be construed as establishing a legal standard of care.",
+
+  "acknowledgments": "The authors thank the additional experts who contributed to the original Delphi consensus: Drs. Gregor Brown, Spiro Raftopoulos, Rajvinder Singh, Paul Fockens, Evelien Dekker, Maria Pellisé, John Anderson, Brian Saunders, Sachin Wani, and Sunil Dolwani; and Drs. Daniel Wheatley, Nika Dewilde, Lynn Debels, and Sander Smeets for their assistance with categorisation and manuscript preparation.",
+
+  "competingInterests": [
+    { "author": "P. Bhandari",  "statement": "Department received research grants from Boston Scientific (2021) and Fujifilm (2018)." },
+    { "author": "R. Bisschops", "statement": "Has received grants/research support and speaker's fees/honoraria from Pentax, Fujifilm, Medtronic, Cook, and Boston Scientific (2019 to present)." },
+    { "author": "D.J. Tate",    "statement": "Has received financial support from Olympus for research support (2019 to present)." },
+    { "author": "Other authors","statement": "Declare no conflict of interest (J. Anderson, M.E. Argenziano, I. Boškoski, M.J. Bourke, M. Bugajski, L. Desomer, S.J. Heitman, H. Kashida, V. Kriazhov, R.R.T. Lee, I. Lyutakov, P. Pimentel-Nunes, L. Rivero-Sánchez, T.C. Tham, S. Thomas-Gibson, H. Thorlacius)." }
+  ],
+
+  "references": [
+    { "id": "ref-17",        "citation": "Curriculum prerequisites are defined by local protocols and national training standards; the EMR curriculum builds on these." },
+    { "id": "ref-28",        "citation": "Burgess NG, et al. Risk factors for intraprocedural and clinically significant delayed bleeding after wide-field endoscopic mucosal resection of large colonic lesions. Clin Gastroenterol Hepatol 2014; 12: 651–653." },
+    { "id": "ref-33",        "citation": "Bourke MJ et al. en bloc vs piecemeal endoscopic resection — context references in EMR colon curriculum." },
+    { "id": "ref-35",        "citation": "Placek SB, Nelson J. Combined endoscopic laparoscopic surgery procedures for colorectal surgery. Clin Colon Rectal Surg 2017; 30: 145–150." },
+    { "id": "ref-84",        "citation": "Veitch A, Vanbiervliet G, Gershlick A et al. Endoscopy in patients on antiplatelet or anticoagulant therapy. Endoscopy 2016; 48: 385–402." },
+    { "id": "ref-90",        "citation": "Anticoagulant management consensus reference, ESGE." },
+    { "id": "ref-91",        "citation": "Prophylactic antibiotic guidance — published reference." },
+    { "id": "ref-92",        "citation": "Prophylactic antibiotic guidance — published reference (companion)." },
+    { "id": "ref-gupta-2013","citation": "Gupta S, Miskovic D, Bhandari P et al. A novel method for determining the difficulty of colonoscopic polypectomy. Frontline Gastroenterol 2013; 4: 244–248." }
+  ]
+}

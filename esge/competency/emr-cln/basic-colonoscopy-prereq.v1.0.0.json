@@ -1,0 +1,27 @@
+{
+  "$schema": "https://schema.evideris.com/schemas/competency.schema.json",
+  "$id": "https://schema.evideris.com/esge/competency/emr-cln/basic-colonoscopy-prereq.v1.0.0.json",
+  "lineageId": "c-emr-cln-basic-colonoscopy-prereq",
+  "type": "competency",
+  "version": "1.0.0",
+  "release": "r2026.07",
+  "supersedes": null,
+  "supersededBy": null,
+  "language": ["en"],
+
+  "modality": "m-colonoscopy-emr",
+  "kind": "procedural",
+
+  "title": { "en": "Basic diagnostic colonoscopy (prerequisite)" },
+  "description": {
+    "en": "Achievement of nationally recognised basic competence in diagnostic colonoscopy as a precondition for EMR training (Rec 1)."
+  },
+
+  "milestones": [
+    { "level": "competent", "criteria": { "en": "Documented basic colonoscopy competence per national / training-programme standard." } }
+  ],
+
+  "qualityIndicatorRefs": [],
+  "kpiRefs": [],
+  "crossRefs": { "ukJag": [], "uemsCesma": [] }
+}

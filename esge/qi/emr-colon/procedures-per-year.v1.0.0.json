@@ -1,0 +1,30 @@
+{
+  "$schema": "https://schema.evideris.com/schemas/qi.schema.json",
+  "$id": "https://schema.evideris.com/esge/qi/emr-colon/procedures-per-year.v1.0.0.json",
+  "lineageId": "qi-emr-cln-procedures-per-year",
+  "type": "qi",
+  "version": "1.0.0",
+  "release": "r2026.07",
+  "supersedes": null,
+  "supersededBy": null,
+  "language": ["en"],
+
+  "withinCurriculum": "cur-emr-colon-2023",
+
+  "title": { "en": "Procedures performed independently per year (LNPCPs ≥ 20 mm)" },
+  "metric": { "en": "Number of EMR procedures performed independently per year for lesions ≥ 20 mm." },
+  "unit": "procedures/year",
+
+  "desiredStandard": null,
+  "minimumStandard": 70,
+
+  "originData": {
+    "source": "delphi",
+    "value": null,
+    "confidenceInterval95": null
+  },
+  "levelOfAgreement": 86,
+
+  "appliesTo": "practitioner",
+  "derivedFromRecommendation": "rec-emr-cln-r38-essential-qis"
+}

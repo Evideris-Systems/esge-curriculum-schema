@@ -8,27 +8,69 @@
   "license": "CC-BY-4.0",
   "source": "https://github.com/Evideris-Systems/esge-curriculum-schema",
 
-  "curricula": [],
+  "curricula": [
+    { "lineageId": "cur-emr-colon-2023", "version": "1.0.0" }
+  ],
   "recommendations": [
-    { "lineageId": "rec-emr-cln-r3-smi-assessment", "version": "1.0.0" }
+    { "lineageId": "rec-emr-cln-r1-prereq-competencies",    "version": "1.0.0" },
+    { "lineageId": "rec-emr-cln-r2-unit-standards",         "version": "1.0.0" },
+    { "lineageId": "rec-emr-cln-r3-smi-assessment",         "version": "1.0.0" },
+    { "lineageId": "rec-emr-cln-r10-patient-consent",       "version": "1.0.0" },
+    { "lineageId": "rec-emr-cln-r17-cold-snare-placement",  "version": "1.0.0" },
+    { "lineageId": "rec-emr-cln-r38-essential-qis",         "version": "1.0.0" }
   ],
   "competencies": [
-    { "lineageId": "c-emr-cln-snare-capture", "version": "1.0.0" }
+    { "lineageId": "c-emr-cln-basic-colonoscopy-prereq",         "version": "1.0.0" },
+    { "lineageId": "c-emr-cln-small-polypectomy-prereq",         "version": "1.0.0" },
+    { "lineageId": "c-emr-cln-hemostasis-prereq",                "version": "1.0.0" },
+    { "lineageId": "c-emr-cln-lesion-assessment",                "version": "1.0.0" },
+    { "lineageId": "c-emr-cln-smi-risk-stratification",          "version": "1.0.0" },
+    { "lineageId": "c-emr-cln-submucosal-injection",             "version": "1.0.0" },
+    { "lineageId": "c-emr-cln-snare-capture",                    "version": "1.0.0" },
+    { "lineageId": "c-emr-cln-post-emr-defect-inspection",       "version": "1.0.0" },
+    { "lineageId": "c-emr-cln-thermal-margin-ablation",          "version": "1.0.0" },
+    { "lineageId": "c-emr-cln-bleeding-management",              "version": "1.0.0" },
+    { "lineageId": "c-emr-cln-patient-consent-discussion",       "version": "1.0.0" }
   ],
-  "epas": [],
-  "standards": [],
+  "epas": [
+    { "lineageId": "epa-emr-cln-independent-piecemeal", "version": "1.0.0" }
+  ],
+  "standards": [
+    { "lineageId": "std-emr-unit-pre-procedure-pathways",      "version": "1.0.0" },
+    { "lineageId": "std-emr-unit-anticoagulant-protocols",     "version": "1.0.0" },
+    { "lineageId": "std-emr-unit-formal-consent-procedures",   "version": "1.0.0" }
+  ],
   "scoringTools": [
-    { "lineageId": "st-smsa", "version": "1.0.0" }
+    { "lineageId": "st-smsa",       "version": "1.0.0" },
+    { "lineageId": "st-nice",       "version": "1.0.0" },
+    { "lineageId": "st-jnet",       "version": "1.0.0" },
+    { "lineageId": "st-sydney-dmi", "version": "1.0.0" }
   ],
-  "kpis": [],
-  "qis": [],
-  "cats": [],
+  "kpis": [
+    { "lineageId": "kpi-emr-cln-30-cases-min", "version": "1.0.0" }
+  ],
+  "qis": [
+    { "lineageId": "qi-emr-cln-procedures-per-year",        "version": "1.0.0" },
+    { "lineageId": "qi-emr-cln-success-rate",               "version": "1.0.0" },
+    { "lineageId": "qi-emr-cln-intraprocedural-bleeding",   "version": "1.0.0" },
+    { "lineageId": "qi-emr-cln-intraprocedural-perforation","version": "1.0.0" },
+    { "lineageId": "qi-emr-cln-adenoma-recurrence",         "version": "1.0.0" }
+  ],
+  "cats": [
+    { "lineageId": "cat-gpat", "version": "1.0.0" }
+  ],
 
   "majorBumps": [],
   "minorBumps": [
-    "st-smsa (first publication)",
-    "c-emr-cln-snare-capture (first publication)",
-    "rec-emr-cln-r3-smi-assessment (first publication, ahead of full Tate EMR 2023 seed in next release)"
+    "cur-emr-colon-2023 (first publication wrapper for Tate et al. 2023)",
+    "rec-emr-cln-r1/r2/r3/r10/r17/r38 (representative subset of the 38 recommendations)",
+    "c-emr-cln-* (11 competencies)",
+    "epa-emr-cln-independent-piecemeal (first EPA)",
+    "std-emr-unit-* (3 unit standards from Rec 2)",
+    "st-nice / st-jnet / st-sydney-dmi (3 scoring tools)",
+    "kpi-emr-cln-30-cases-min (training-target KPI from Main Statement 10)",
+    "qi-emr-cln-* (5 QIs from Table 6)",
+    "cat-gpat (6 representative items from Table 4)"
   ],
   "patchBumps": []
 }
