@@ -9,8 +9,8 @@
   "supersededBy": null,
   "language": ["en"],
 
-  "title": { "en": "SMSA polyp score" },
-  "description": { "en": "Composite score predicting polypectomy difficulty across four dimensions: Size, Morphology, Site, Access." },
+  "title": { "en": "SMSA (size, morphology, site, and access) score" },
+  "description": { "en": "The SMSA score is composed of four domains, which are allocated points; adding the points for each domain results in a score of 1–4." },
   "domain": "polypectomy-difficulty",
 
   "scale": {
@@ -18,22 +18,23 @@
     "min": 4,
     "max": 12,
     "bands": [
-      { "label": { "en": "Level 1 (easy)" },         "from": 4,  "to": 5  },
-      { "label": { "en": "Level 2 (intermediate)" }, "from": 6,  "to": 7  },
-      { "label": { "en": "Level 3 (difficult)" },    "from": 8,  "to": 9  },
-      { "label": { "en": "Level 4 (most difficult)" },"from": 10, "to": 12 }
+      { "label": { "en": "1" },     "from": 4,  "to": 5  },
+      { "label": { "en": "2" },     "from": 6,  "to": 9  },
+      { "label": { "en": "3" },     "from": 9,  "to": 12 },
+      { "label": { "en": "4" },     "from": 13, "to": 99 }
     ]
   },
 
   "inputs": [
     {
       "name": "size",
-      "label": { "en": "Size" },
+      "label": { "en": "Size, cm" },
       "values": [
         { "score": 1, "label": { "en": "< 1 cm" } },
-        { "score": 3, "label": { "en": "1–1.9 cm" } },
-        { "score": 5, "label": { "en": "2–3.9 cm" } },
-        { "score": 9, "label": { "en": "≥ 4 cm" } }
+        { "score": 3, "label": { "en": "1–1.9" } },
+        { "score": 5, "label": { "en": "2–2.9" } },
+        { "score": 7, "label": { "en": "3–3.9" } },
+        { "score": 9, "label": { "en": "> 4" } }
       ]
     },
     {
@@ -65,8 +66,17 @@
 
   "references": [
     {
-      "id": "ref-gupta-2013",
-      "citation": "Gupta S, Miskovic D, Bhandari P et al. A novel method for determining the difficulty of colonoscopic polypectomy. Frontline Gastroenterol 2013; 4: 244–248"
+      "id": "ref-36",
+      "citation": "Gupta S, Miskovic D, Bhandari P et al. A novel method for determining the difficulty of colonoscopic polypectomy. Frontline Gastroenterol 2013; 4: 244–248. doi:10.1136/flgastro-2013-100331"
     }
-  ]
+  ],
+
+  "_meta": {
+    "provenance": {
+      "type": "verbatim",
+      "source_doi": "10.1055/a-2077-0497"
+    },
+    "encodedBy": "human:david",
+    "encodedAt": "2026-06-27"
+  }
 }

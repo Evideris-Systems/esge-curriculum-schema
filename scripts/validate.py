@@ -33,6 +33,7 @@ TYPE_TO_SCHEMA = {
     "kpi":            "kpi.schema.json",
     "qi":             "qi.schema.json",
     "cat":            "cat.schema.json",
+    "references":     "references.schema.json",
 }
 
 

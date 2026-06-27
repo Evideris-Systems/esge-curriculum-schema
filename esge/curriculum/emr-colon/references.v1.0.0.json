@@ -1,0 +1,830 @@
+{
+  "$schema": "https://schema.evideris.com/schemas/references.schema.json",
+  "$id": "https://schema.evideris.com/esge/curriculum/emr-colon/references.v1.0.0.json",
+  "lineageId": "refs-cur-emr-colon-2023",
+  "type": "references",
+  "version": "1.0.0",
+  "release": "r2026.07",
+  "language": [
+    "en"
+  ],
+  "forCurriculum": "cur-emr-colon-2023",
+  "_meta": {
+    "provenance": {
+      "type": "verbatim",
+      "source_doi": "10.1055/a-2077-0497"
+    },
+    "encodedBy": "claude:esge-curriculum-autoupdate@v0.1.0",
+    "encodedAt": "2026-06-27"
+  },
+  "references": [
+    {
+      "id": "ref-1",
+      "citation": "Deyhle P, Jenny S, Fumagalli I. [Endoscopic polypectomy in the proximal colon. A diagnostic, therapeutic (and preventive?) intervention]. Dtsch Med Wochenschr 1973; 98: 219\u2013220. doi:10.1055/s-0028-1106782",
+      "doi": "10.1055/s-0028-1106782"
+    },
+    {
+      "id": "ref-2",
+      "citation": "Tada M, Karita M, Yanai H et al. [Endoscopic therapy of early gastric cancer by strip biopsy]. Gan To Kagaku Ryoho 1988; 15: 1460\u20131465. doi:10.1016/s0016-5107(91)70669-x",
+      "doi": "10.1016/s0016-5107(91)70669-x",
+      "lowConfidence": true,
+      "confidenceIssues": [
+        "year 1988 vs match year 1991"
+      ]
+    },
+    {
+      "id": "ref-3",
+      "citation": "Bourke MJ. Endoscopic resection for mucosal neoplasia: Pushing the boundaries, confronting the reality. J Gastroenterol Hepatol 2011; 26: 1582\u20131584. doi:10.1111/j.1440-1746.2011.06900.x",
+      "doi": "10.1111/j.1440-1746.2011.06900.x"
+    },
+    {
+      "id": "ref-4",
+      "citation": "Moss A, Bourke MJ, Williams SJ et al. Endoscopic mucosal resection outcomes and prediction of submucosal cancer from advanced colonic mucosal neoplasia. Gastroenterology 2011; 140: 1909\u20131918. doi:10.1053/j.gastro.2011.02.062",
+      "doi": "10.1053/j.gastro.2011.02.062",
+      "lowConfidence": true,
+      "confidenceIssues": [
+        "year 1918 vs match year 2011"
+      ]
+    },
+    {
+      "id": "ref-5",
+      "citation": "van Hattem WA, Shahidi N, Vosko S et al. Piecemeal cold snare polypectomy versus conventional endoscopic mucosal resection for large sessile serrated lesions: a retrospective comparison across two successive periods. Gut 2021; 70: 1691\u20131697. doi:10.1136/gutjnl-2020-321753",
+      "doi": "10.1136/gutjnl-2020-321753"
+    },
+    {
+      "id": "ref-6",
+      "citation": "Moss A, Williams SJ, Hourigan LF et al. Long-term adenoma recurrence following wide-field endoscopic mucosal resection (WF-EMR) for advanced colonic mucosal neoplasia is infrequent: results and risk factors in 1000 cases from the Australian Colonic EMR (ACE) study. Gut 2015; 64: 57\u201365. doi:10.1136/gutjnl-2013-305516",
+      "doi": "10.1136/gutjnl-2013-305516"
+    },
+    {
+      "id": "ref-7",
+      "citation": "Jayanna M, Burgess NG, Singh R et al. Cost analysis of endoscopic mucosal resection vs surgery for large laterally spreading colorectal lesions. Clin Gastroenterol Hepatol 2016; 14: 271\u2013272. doi:10.1016/j.cgh.2015.08.037",
+      "doi": "10.1016/j.cgh.2015.08.037"
+    },
+    {
+      "id": "ref-8",
+      "citation": "Ahlenstiel G, Hourigan LF, Brown G et al. Actual endoscopic versus predicted surgical mortality for treatment of advanced mucosal neoplasia of the colon. Gastrointest Endosc 2014; 80: 668\u2013676. doi:10.1016/j.gie.2014.04.015",
+      "doi": "10.1016/j.gie.2014.04.015"
+    },
+    {
+      "id": "ref-9",
+      "citation": "Tate DJ, Bahin FF, Desomer L et al. Cold-forceps avulsion with adjuvant snare-tip soft coagulation (CAST) is an effective and safe strategy for the management of non-lifting large laterally spreading colonic lesions. Endoscopy 2018; 50: 52\u201362. doi:10.1055/s-0043-119215",
+      "doi": "10.1055/s-0043-119215"
+    },
+    {
+      "id": "ref-10",
+      "citation": "Tate DJ, Desomer L, Hourigan LF et al. Two-stage endoscopic mucosal resection is a safe and effective salvage therapy after a failed single-session approach. Endoscopy 2017; 49: 888\u2013898. doi:10.1055/s-0043-110671",
+      "doi": "10.1055/s-0043-110671"
+    },
+    {
+      "id": "ref-11",
+      "citation": "Suzuki H, Oda I, Abe S et al. High rate of 5-year survival among patients with early gastric cancer undergoing curative endoscopic submucosal dissection. Gastric Cancer 2016; 19: 198\u2013205. doi:10.1007/s10120-015-0469-0",
+      "doi": "10.1007/s10120-015-0469-0"
+    },
+    {
+      "id": "ref-12",
+      "citation": "Zwager LW, Bastiaansen BAJ, Bronzwaer MES et al. Endoscopic fullthickness resection (eFTR) of colorectal lesions: Results from the Dutch colorectal eFTR registry. Endoscopy 2020; 52: 1014\u20131023. doi:10.1055/a-1176-1107",
+      "doi": "10.1055/a-1176-1107"
+    },
+    {
+      "id": "ref-13",
+      "citation": "Lee R, Heitman SJ, Bourke MJ. Training and competency in endoscopic mucosal resection. Tech Gastrointest Endosc 2017; 19: 125\u2013 136. doi:10.1016/j.tgie.2017.06.002",
+      "doi": "10.1016/j.tgie.2017.06.002"
+    },
+    {
+      "id": "ref-14",
+      "citation": "Dumonceau JM, Hassan C, Riphaus A et al. European Society of Gastrointestinal Endoscopy (ESGE) Guideline Development Policy. Endoscopy 2012; 44: 626\u2013629. doi:10.1055/s-0031-1291747",
+      "doi": "10.1055/s-0031-1291747"
+    },
+    {
+      "id": "ref-15",
+      "citation": "Bisschops R, Dekker E, East JE et al. European Society of Gastrointestinal Endoscopy (ESGE) curricula development for postgraduate training in advanced endoscopic procedures: rationale and methodology. Endoscopy 2019; 51: 976\u2013979. doi:10.1055/a-1000-5603",
+      "doi": "10.1055/a-1000-5603"
+    },
+    {
+      "id": "ref-16",
+      "citation": "Atkins D, Best D, Briss PA et al. Grading quality of evidence and strength of recommendations. BMJ 2004; 328: 1490. doi:10.1136/bmj.328.7454.1490",
+      "doi": "10.1136/bmj.328.7454.1490"
+    },
+    {
+      "id": "ref-17",
+      "citation": "Gralnek IM, Stanley AJ, Morris AJ et al. Endoscopic diagnosis and management of nonvariceal upper gastrointestinal hemorrhage (NVUGIH): European Society of Gastrointestinal Endoscopy (ESGE) Guideline \u2013 Update 2021. Endoscopy 2021; 53: 300\u2013332. doi:10.1055/a-1369-5274",
+      "doi": "10.1055/a-1369-5274"
+    },
+    {
+      "id": "ref-18",
+      "citation": "Sidhu M, Tate DJ, Desomer L et al. The size, morphology, site, and access score predicts critical outcomes of endoscopic mucosal resection in the colon. Endoscopy 2018; 50: 684\u2013692. doi:10.1055/s-0043-124081",
+      "doi": "10.1055/s-0043-124081"
+    },
+    {
+      "id": "ref-19",
+      "citation": "Puig I, M\u00e1rmol C, Bustamante M. Endoscopic imaging techniques for detecting early colorectal cancer. Curr Opin Gastroenterol 2019; 35: 432\u2013439. doi:10.1097/mog.0000000000000570",
+      "doi": "10.1097/mog.0000000000000570"
+    },
+    {
+      "id": "ref-20",
+      "citation": "da Costa-Seixas JP, L\u00f3pez-Cer\u00f3n M, Arnau A et al. Compound endoscopic morphological features for identifying non-pedunculated lesions \u226520 mm with intramucosal neoplasia. Cancers (Basel) 2021; 13: 5302. doi:10.3390/cancers13215302",
+      "doi": "10.3390/cancers13215302"
+    },
+    {
+      "id": "ref-21",
+      "citation": "Matsuda T, Fujii T, Saito Y et al. Efficacy of the invasive/non-invasive pattern by magnifying chromoendoscopy to estimate the depth of invasion of early colorectal neoplasms. Am J Gastroenterol 2008; 103: 2700\u20132706. doi:10.1111/j.1572-0241.2008.02190.x",
+      "doi": "10.1111/j.1572-0241.2008.02190.x"
+    },
+    {
+      "id": "ref-22",
+      "citation": "Hewett DG, Kaltenbach T, Sano Y et al. Validation of a simple classification system for endoscopic diagnosis of small colorectal polyps using narrow-band imaging. Gastroenterology 2012; 143: 599\u2013607 e591. doi:10.1053/j.gastro.2012.05.006",
+      "doi": "10.1053/j.gastro.2012.05.006"
+    },
+    {
+      "id": "ref-23",
+      "citation": "Hayashi N, Tanaka S, Hewett DG et al. Endoscopic prediction of deep submucosal invasive carcinoma: validation of the Narrow-Band Imaging International Colorectal Endoscopic (NICE) classification. Gastrointest Endosc 2013; 78: 625\u2013632. doi:10.1016/j.gie.2013.04.185",
+      "doi": "10.1016/j.gie.2013.04.185"
+    },
+    {
+      "id": "ref-24",
+      "citation": "Kobayashi S, Yamada M, Takamaru H et al. Diagnostic yield of the Japan NBI Expert Team (JNET) classification for endoscopic diagnosis of superficial colorectal neoplasms in a large-scale clinical practice database. United European Gastroenterol J 2019; 7: 914\u2013923. doi:10.1177/2050640619845987",
+      "doi": "10.1177/2050640619845987"
+    },
+    {
+      "id": "ref-25",
+      "citation": "Sano Y, Tanaka S, Kudo SE et al. Narrow-band imaging (NBI) magnifying endoscopic classification of colorectal tumors proposed by the Japan NBI Expert Team. Dig Endosc 2016; 28: 526\u2013533. doi:10.1111/den.13072",
+      "doi": "10.1111/den.13072",
+      "lowConfidence": true,
+      "confidenceIssues": [
+        "year 2016 vs match year 2018"
+      ]
+    },
+    {
+      "id": "ref-26",
+      "citation": "Kudo S, Hirota S, Nakajima T et al. Colorectal tumours and pit pattern. J Clin Pathol 1994; 47: 880\u2013885. doi:10.1136/jcp.47.10.880",
+      "doi": "10.1136/jcp.47.10.880"
+    },
+    {
+      "id": "ref-27",
+      "citation": "The Paris endoscopic classification of superficial neoplastic lesions: esophagus, stomach, and colon: November 30 to December 1, 2002. Gastrointest Endosc 2003; 58: S3\u2013S43. doi:10.1016/s0016-5107(03)02159-x",
+      "doi": "10.1016/s0016-5107(03)02159-x",
+      "lowConfidence": true,
+      "confidenceIssues": [
+        "surname 'The' not in match authors ['participants in the paris workshop']"
+      ]
+    },
+    {
+      "id": "ref-28",
+      "citation": "Burgess NG, Hourigan LF, Zanati SA et al. Risk stratification for covert invasive cancer among patients referred for colonic endoscopic mucosal resection: a large multicenter cohort. Gastroenterology 2017; 153: 732\u2013742.e731. doi:10.1053/j.gastro.2017.05.047",
+      "doi": "10.1053/j.gastro.2017.05.047"
+    },
+    {
+      "id": "ref-29",
+      "citation": "Dekker E, Houwen B, Puig I et al. Curriculum for optical diagnosis training in Europe: European Society of Gastrointestinal Endoscopy (ESGE) Position Statement. Endoscopy 2020; 52: 899\u2013923. doi:10.1055/a-1231-5123",
+      "doi": "10.1055/a-1231-5123"
+    },
+    {
+      "id": "ref-30",
+      "citation": "Saito Y, Uraoka T, Yamaguchi Y et al. A prospective, multicenter study of 1111 colorectal endoscopic submucosal dissections (with video). Gastrointest Endosc 2010; 72: 1217\u20131225. doi:10.1016/j.gie.2010.08.004",
+      "doi": "10.1016/j.gie.2010.08.004"
+    },
+    {
+      "id": "ref-31",
+      "citation": "Pimentel-Nunes P, Lib\u00e2nio D, Bastiaansen BAJ et al. Endoscopic submucosal dissection for superficial gastrointestinal lesions: European Society of Gastrointestinal Endoscopy (ESGE) Guideline \u2013 Update 2022. Endoscopy 2022; 54: 591\u2013622. doi:10.1055/a-1811-7025",
+      "doi": "10.1055/a-1811-7025"
+    },
+    {
+      "id": "ref-32",
+      "citation": "Tate DJ. GIEQs online: Risk of submucosal invasion calculator. Accessed: 30 March 2023 www.gieqs.com/smic. doi:10.1245/s10434-022-12498-w",
+      "doi": "10.1245/s10434-022-12498-w",
+      "lowConfidence": true,
+      "confidenceIssues": [
+        "surname 'Tate' not in match authors ['endo', 'moazzam', 'pawlik']"
+      ]
+    },
+    {
+      "id": "ref-33",
+      "citation": "Bourke MJ, Neuhaus H, Bergman JJ. Endoscopic submucosal dissection: indications and application in Western endoscopy practice. Gastroenterology 2018; 154: 1887\u20131900.e1885. doi:10.1053/j.gastro.2018.01.068",
+      "doi": "10.1053/j.gastro.2018.01.068",
+      "lowConfidence": true,
+      "confidenceIssues": [
+        "year 1900 vs match year 2018"
+      ]
+    },
+    {
+      "id": "ref-34",
+      "citation": "Tate DJ, Desomer L, Awadie H et al. EMR of laterally spreading lesions around or involving the appendiceal orifice: technique, risk Tate David J et al. Curriculum for training \u2026 Endoscopy 2023 | \u00a9 2023. European Society of Gastrointestinal Endoscopy. All rights reserved. Position Statement === PAGE 33 === factors for failure, and outcomes of a tertiary referral cohort (with video). Gastrointest Endosc 2018; 87: 1279\u20131288.e1272. doi:10.1016/j.gie.2017.12.018",
+      "doi": "10.1016/j.gie.2017.12.018"
+    },
+    {
+      "id": "ref-35",
+      "citation": "Placek SB, Nelson J. Combined endoscopic laparoscopic surgery procedures for colorectal surgery. Clin Colon Rectal Surg 2017; 30: 145\u2013150. doi:10.1055/s-0036-1597321",
+      "doi": "10.1055/s-0036-1597321"
+    },
+    {
+      "id": "ref-36",
+      "citation": "Gupta S, Miskovic D, Bhandari P et al. A novel method for determining the difficulty of colonoscopic polypectomy. Frontline Gastroenterol 2013; 4: 244\u2013248. doi:10.1136/flgastro-2013-100331",
+      "doi": "10.1136/flgastro-2013-100331"
+    },
+    {
+      "id": "ref-37",
+      "citation": "Klein A, Tate DJ, Jayasekeran V et al. Thermal ablation of mucosal defect margins reduces adenoma recurrence after colonic endoscopic mucosal resection. Gastroenterology 2019; 156: 604\u2013613. e603. doi:10.1053/j.gastro.2018.10.003",
+      "doi": "10.1053/j.gastro.2018.10.003"
+    },
+    {
+      "id": "ref-38",
+      "citation": "Sidhu M, Shahidi N, Gupta S et al. Outcomes of thermal ablation of the mucosal defect margin after endoscopic mucosal resection: a prospective, international, multicenter trial of 1000 large nonpedunculated colorectal polyps. Gastroenterology 2021; 161: 163\u2013 170.e163. doi:10.1053/j.gastro.2021.05.034",
+      "doi": "10.1053/j.gastro.2021.05.034"
+    },
+    {
+      "id": "ref-39",
+      "citation": "Bassan MS, Holt B, Moss A et al. Carbon dioxide insufflation reduces number of postprocedure admissions after endoscopic resection of large colonic lesions: a prospective cohort study. Gastrointest Endosc 2013; 77: 90\u201395. doi:10.1016/j.gie.2012.06.004",
+      "doi": "10.1016/j.gie.2012.06.004"
+    },
+    {
+      "id": "ref-40",
+      "citation": "Mar\u00edn-Gabriel JC, Romito R, Guarner-Argente C et al. Use of electrosurgical units in the endoscopic resection of gastrointestinal tumors. Gastroenterol Hepatol 2019; 42: 512\u2013523. doi:10.1016/j.gastrohep.2019.04.003",
+      "doi": "10.1016/j.gastrohep.2019.04.003"
+    },
+    {
+      "id": "ref-41",
+      "citation": "Castro R, Lib\u00e2nio D, Pita I et al. Solutions for submucosal injection: What to choose and how to do it. World J Gastroenterol 2019; 25: 777\u2013788. doi:10.3748/wjg.v25.i7.777",
+      "doi": "10.3748/wjg.v25.i7.777"
+    },
+    {
+      "id": "ref-42",
+      "citation": "Moss A, Bourke MJ, Kwan V et al. Succinylated gelatin substantially increases en bloc resection size in colonic EMR: a randomized, blinded trial in a porcine model. Gastrointest Endosc 2010; 71: 589\u2013 595. doi:10.1016/j.gie.2009.10.033",
+      "doi": "10.1016/j.gie.2009.10.033"
+    },
+    {
+      "id": "ref-43",
+      "citation": "Yandrapu H, Desai M, Siddique S et al. Normal saline solution versus other viscous solutions for submucosal injection during endoscopic mucosal resection: a systematic review and meta-analysis. Gastrointest Endosc 2017; 85: 693\u2013699. doi:10.1016/j.gie.2016.12.003",
+      "doi": "10.1016/j.gie.2016.12.003"
+    },
+    {
+      "id": "ref-44",
+      "citation": "Rivero-S\u00e1nchez L, Ortiz O, Pellis\u00e9 M. Chromoendoscopy techniques in imaging of colorectal polyps and cancer: overview and practical applications for detection and characterization. Tech Innov Gastrointest Endosc 2021; 23: 30\u201341. doi:10.1016/j.tige.2020.10.006",
+      "doi": "10.1016/j.tige.2020.10.006"
+    },
+    {
+      "id": "ref-45",
+      "citation": "Tate DJ, Bourke MJ. Advanced colorectal polyps and early cancer. Wallace MB, Fockens P, Sung JJ. Gastroenterological Endoscopy. Stuttgart: Thieme; 2018: 293\u2013308. doi:10.1055/b-0038-149337",
+      "doi": "10.1055/b-0038-149337"
+    },
+    {
+      "id": "ref-46",
+      "citation": "Medina-Prado L, Hassan C, Dekker E et al. When and how to use endoscopic tattooing in the colon: an international Delphi agreement. Clin Gastroenterol Hepatol 2021; 19: 1038\u20131050. doi:10.1016/j.cgh.2021.01.024",
+      "doi": "10.1016/j.cgh.2021.01.024"
+    },
+    {
+      "id": "ref-47",
+      "citation": "Zawaly K, Rumbolt C, Abou-Setta AM et al. The efficacy of split-dose bowel preparations for polyp detection: a systematic review and meta-analysis. Am J Gastroenterol 2019; 114: 884\u2013892. doi:10.14309/ajg.0000000000000155",
+      "doi": "10.14309/ajg.0000000000000155"
+    },
+    {
+      "id": "ref-48",
+      "citation": "Rees CJ, Thomas Gibson S, Rutter MD et al. UK key performance indicators and quality assurance standards for colonoscopy. Gut 2016; 65: 1923\u20131929. doi:10.1136/gutjnl-2016-312044",
+      "doi": "10.1136/gutjnl-2016-312044",
+      "lowConfidence": true,
+      "confidenceIssues": [
+        "year 1929 vs match year 2016"
+      ]
+    },
+    {
+      "id": "ref-49",
+      "citation": "Kastenberg D, Bertiger G, Brogadir S. Bowel preparation quality scales for colonoscopy. World J Gastroenterol 2018; 24: 2833\u20132843. doi:10.3748/wjg.v24.i26.2833",
+      "doi": "10.3748/wjg.v24.i26.2833"
+    },
+    {
+      "id": "ref-50",
+      "citation": "Thuraisingam AI, Brown JL, Anderson JT. What are the sensitivity and specificity of endoscopic photographs in determining completion of colonoscopy? Results from an online questionnaire. Eur J Gastroenterol Hepatol 2008; 20: 567\u2013571. doi:10.1097/meg.0b013e3282f51278",
+      "doi": "10.1097/meg.0b013e3282f51278"
+    },
+    {
+      "id": "ref-51",
+      "citation": "Brown S, Bevan R, Rubin G et al. Patient-derived measures of GI endoscopy: a meta-narrative review of the literature. Gastrointest Endosc 2015; 81: 1130\u20131140.e1131-1139. doi:10.1016/j.gie.2014.11.047",
+      "doi": "10.1016/j.gie.2014.11.047"
+    },
+    {
+      "id": "ref-52",
+      "citation": "Telford J, Tavakoli I, Takach O et al. Validation of the St. Paul's Endoscopy Comfort Scale (SPECS) for colonoscopy. . J Can Assoc Gastroenterol 2020; 3: 91\u201395. doi:10.1093/jcag/gwy073",
+      "doi": "10.1093/jcag/gwy073",
+      "lowConfidence": true,
+      "confidenceIssues": [
+        "year 2020 vs match year 2018"
+      ]
+    },
+    {
+      "id": "ref-53",
+      "citation": "Ferlitsch M, Moss A, Hassan C et al. Colorectal polypectomy and endoscopic mucosal resection (EMR): European Society of Gastrointestinal Endoscopy (ESGE) Clinical Guideline. Endoscopy 2017; 49: 270\u2013297. doi:10.1055/s-0043-102569",
+      "doi": "10.1055/s-0043-102569"
+    },
+    {
+      "id": "ref-54",
+      "citation": "Kudo SE, Kashida H. Flat and depressed lesions of the colorectum. Clin Gastroenterol Hepatol 2005; 3: S33\u2013S36. doi:10.1016/s1542-3565(05)00283-1",
+      "doi": "10.1016/s1542-3565(05)00283-1"
+    },
+    {
+      "id": "ref-55",
+      "citation": "Sharma P, Bergman JJGHM, Goda K et al. Development and validation of a classification system to identify high-grade dysplasia and esophageal adenocarcinoma in Barrett's esophagus using narrowband imaging. Gastroenterology 2016; 150: 591\u2013598. doi:10.1053/j.gastro.2015.11.037",
+      "doi": "10.1053/j.gastro.2015.11.037"
+    },
+    {
+      "id": "ref-56",
+      "citation": "Moss A, Bourke MJ, Metz AJ. A randomized, double-blind trial of succinylated gelatin submucosal injection for endoscopic resection of large sessile polyps of the colon. Am J Gastroenterol 2010; 105: 2375\u20132382. doi:10.1038/ajg.2010.319",
+      "doi": "10.1038/ajg.2010.319"
+    },
+    {
+      "id": "ref-57",
+      "citation": "Burgess NG, Bassan MS, McLeod D et al. Deep mural injury and perforation after colonic endoscopic mucosal resection: a new classification and analysis of risk factors. Gut 2017; 66: 1779\u20131789. doi:10.1136/gutjnl-2015-309848",
+      "doi": "10.1136/gutjnl-2015-309848"
+    },
+    {
+      "id": "ref-58",
+      "citation": "Hassan C, Antonelli G, Dumonceau J-M et al. Post-polypectomy colonoscopy surveillance: European Society of Gastrointestinal Endoscopy (ESGE) Guideline \u2013 Update 2020. Endoscopy 2020; 52: 687\u2013 700. doi:10.1055/a-1185-3109",
+      "doi": "10.1055/a-1185-3109"
+    },
+    {
+      "id": "ref-59",
+      "citation": "Mou S, Soetikno R, Shimoda T. Pathologic predictive factors for lymph node metastasis in submucosal invasive (T1) colorectal cancer: a systematic review and meta-analysis. Surg Endosc 2013; 27: 2692\u20132703. doi:10.1007/s00464-013-2835-5",
+      "doi": "10.1007/s00464-013-2835-5"
+    },
+    {
+      "id": "ref-60",
+      "citation": "Beaton C, Twine CP, Williams GL et al. Systematic review and metaanalysis of histopathological factors influencing the risk of lymph node metastasis in early colorectal cancer. Colorectal Dis 2013; 15: 788\u2013797. doi:10.1111/codi.12129",
+      "doi": "10.1111/codi.12129"
+    },
+    {
+      "id": "ref-61",
+      "citation": "Wada H, Shiozawa M, Katayama K et al. Systematic review and metaanalysis of histopathological predictive factors for lymph node metastasis in T1 colorectal cancer. J Gastroenterol 2015; 50: 727\u2013734. doi:10.1007/s00535-015-1057-0",
+      "doi": "10.1007/s00535-015-1057-0"
+    },
+    {
+      "id": "ref-62",
+      "citation": "Nagtegaal ID, Odze RD, Klimstra D et al. The 2019 WHO classification of tumours of the digestive system. Histopathology 2020; 76: 182\u2013188. doi:10.1111/his.13975",
+      "doi": "10.1111/his.13975"
+    },
+    {
+      "id": "ref-63",
+      "citation": "Schlemper RJ, Riddell RH, Kato Y et al. The Vienna classification of gastrointestinal epithelial neoplasia. Gut 2000; 47: 251\u2013255. doi:10.1136/gut.47.2.251",
+      "doi": "10.1136/gut.47.2.251"
+    },
+    {
+      "id": "ref-64",
+      "citation": "Kitajima K, Fujimori T, Fujii S et al. Correlations between lymph node metastasis and depth of submucosal invasion in submucosal invasive colorectal carcinoma: a Japanese collaborative study. J Gastroenterol 2004; 39: 534\u2013543. doi:10.1007/s00535-004-1339-4",
+      "doi": "10.1007/s00535-004-1339-4"
+    },
+    {
+      "id": "ref-65",
+      "citation": "Watanabe T, Muro K, Ajioka Y et al. Japanese Society for Cancer of the Colon and Rectum (JSCCR) guidelines 2016 for the treatment of colorectal cancer. Int J Clin Oncol 2018; 23: 1\u201334. doi:10.1093/annonc/mdx572",
+      "doi": "10.1093/annonc/mdx572",
+      "lowConfidence": true,
+      "confidenceIssues": [
+        "surname 'Watanabe' not in match authors ['muro']"
+      ]
+    },
+    {
+      "id": "ref-66",
+      "citation": "Ueno H, Mochizuki H, Hashiguchi Y et al. Risk factors for an adverse outcome in early invasive colorectal carcinoma. Gastroenterology 2004; 127: 385\u2013394. doi:10.1053/j.gastro.2004.04.022",
+      "doi": "10.1053/j.gastro.2004.04.022"
+    },
+    {
+      "id": "ref-67",
+      "citation": "Lugli A, Kirsch R, Ajioka Y et al. Recommendations for reporting tumor budding in colorectal cancer based on the International Tumor Budding Consensus Conference (ITBCC) 2016. Mod Pathol 2017; 30: 1299\u20131311. doi:10.26226/morressier.578f37fed462b8028d88f74b",
+      "doi": "10.26226/morressier.578f37fed462b8028d88f74b"
+    },
+    {
+      "id": "ref-68",
+      "citation": "Kudo S. Endoscopic mucosal resection of flat and depressed types of early colorectal cancer. Endoscopy 1993; 25: 455\u2013461. doi:10.1055/s-2007-1010367",
+      "doi": "10.1055/s-2007-1010367"
+    },
+    {
+      "id": "ref-69",
+      "citation": "Kikuchi R, Takano M, Takagi K et al. Management of early invasive colorectal cancer. Risk of recurrence and clinical guidelines. . Dis Colon Rectum 1995; 38: 1286\u20131295. doi:10.1007/bf02049154",
+      "doi": "10.1007/bf02049154"
+    },
+    {
+      "id": "ref-70",
+      "citation": "Wood JJ, Metcalfe C, Paes A et al. An evaluation of treatment decisions at a colorectal cancer multi-disciplinary team. Colorectal Dis 2008; 10: 769\u2013772. doi:10.1111/j.1463-1318.2007.01464.x",
+      "doi": "10.1111/j.1463-1318.2007.01464.x"
+    },
+    {
+      "id": "ref-71",
+      "citation": "Vaughan-Shaw PG, Wheeler JM, Borley NR. The impact of a dedicated multidisciplinary team on the management of early rectal cancer. Colorectal Dis 2015; 17: 704\u2013709 Tate David J et al. Curriculum for training \u2026 Endoscopy | \u00a9 2023. European Society of Gastrointestinal Endoscopy. All rights reserved. === PAGE 34 ===. doi:10.1111/codi.12922",
+      "doi": "10.1111/codi.12922",
+      "lowConfidence": true,
+      "confidenceIssues": [
+        "surname 'Vaughan-Shaw' not in match authors ['vaughan\u2010shaw', 'wheeler', 'borley']",
+        "year 2023 vs match year 2015"
+      ]
+    },
+    {
+      "id": "ref-72",
+      "citation": "Rosander E, Holm T, Sj\u00f6vall A et al. Preoperative multidisciplinary team assessment is associated with improved survival in patients with locally advanced colon cancer; a nationwide cohort study in 3157 patients. Eur J Surg Oncol 2021; 47: 2398\u20132404. doi:10.1016/j.ejso.2021.05.008",
+      "doi": "10.1016/j.ejso.2021.05.008"
+    },
+    {
+      "id": "ref-73",
+      "citation": "Abukar AA, Ramsanahie A, Martin-Lumbard K et al. Availability and feasibility of structured, routine collection of comorbidity data in a colorectal cancer multi-disciplinary team (MDT) setting. Int J Colorectal Dis 2018; 33: 1057\u20131061. doi:10.1007/s00384-018-3062-2",
+      "doi": "10.1007/s00384-018-3062-2"
+    },
+    {
+      "id": "ref-74",
+      "citation": "Witjes CDM, Patel AS, Shenoy A et al. Oncological outcome after local treatment for early stage rectal cancer. Surg Endosc 2022; 36: 489\u2013497. doi:10.1007/s00464-021-08308-1",
+      "doi": "10.1007/s00464-021-08308-1"
+    },
+    {
+      "id": "ref-75",
+      "citation": "Sidhu M, Tate DJ, Desomer L et al. Mo1662. SMSA-EMR score is a novel endoscopic risk assessment tool for predicting critical endoscopic mucosal resection outcomes. . Gastrointest Endosc 2018; 87: AB467\u2013AB468. doi:10.1016/j.gie.2018.04.2020",
+      "doi": "10.1016/j.gie.2018.04.2020"
+    },
+    {
+      "id": "ref-76",
+      "citation": "Anderson J, Lockett M. Training in therapeutic endoscopy: meeting present and future challenges. Frontline Gastroenterol 2019; 10: 135\u2013140. doi:10.1136/flgastro-2018-101086",
+      "doi": "10.1136/flgastro-2018-101086"
+    },
+    {
+      "id": "ref-77",
+      "citation": "Kahi CJ. Reviewing the evidence that polypectomy prevents cancer. Gastrointest Endosc Clin N Am 2019; 29: 577\u2013585. doi:10.1016/j.giec.2019.05.001",
+      "doi": "10.1016/j.giec.2019.05.001"
+    },
+    {
+      "id": "ref-78",
+      "citation": "O'Brien MJ, Gibbons D. The adenoma-carcinoma sequence in colorectal neoplasia. Surg Oncol Clin N Am 1996; 5: 513\u2013530. doi:10.1016/s1055-3207(18)30361-2",
+      "doi": "10.1016/s1055-3207(18)30361-2"
+    },
+    {
+      "id": "ref-79",
+      "citation": "Hassan C, Repici A, Sharma P et al. Efficacy and safety of endoscopic resection of large colorectal polyps: a systematic review and metaanalysis. Gut 2015; 65: 806\u2013820. doi:10.1136/gutjnl-2014-308481",
+      "doi": "10.1136/gutjnl-2014-308481"
+    },
+    {
+      "id": "ref-80",
+      "citation": "Holt BA, Bourke MJ. Wide field endoscopic resection for advanced colonic mucosal neoplasia: current status and future directions. Clin Gastroenterol Hepatol 2012; 10: 969\u2013979. doi:10.1016/j.cgh.2012.05.020",
+      "doi": "10.1016/j.cgh.2012.05.020"
+    },
+    {
+      "id": "ref-81",
+      "citation": "Klein A, Bourke MJ. Advanced polypectomy and resection techniques. Gastrointest Endosc Clin N Am 2015; 25: 303\u2013333. doi:10.1016/j.giec.2014.11.005",
+      "doi": "10.1016/j.giec.2014.11.005"
+    },
+    {
+      "id": "ref-82",
+      "citation": "Burgess NG, Metz AJ, Williams SJ et al. Risk factors for intraprocedural and clinically significant delayed bleeding after wide-field endoscopic mucosal resection of large colonic lesions. Clin Gastroenterol Hepatol 2014; 12: 651\u2013653. doi:10.1016/j.cgh.2013.09.049",
+      "doi": "10.1016/j.cgh.2013.09.049"
+    },
+    {
+      "id": "ref-83",
+      "citation": "Metz AJ, Bourke MJ, Moss A et al. Factors that predict bleeding following endoscopic mucosal resection of large colonic lesions. Endoscopy 2011; 43: 506\u2013511. doi:10.1055/s-0030-1256346",
+      "doi": "10.1055/s-0030-1256346"
+    },
+    {
+      "id": "ref-84",
+      "citation": "Veitch A, Vanbiervliet G, Gershlick A et al. Endoscopy in patients on antiplatelet or anticoagulant therapy, including direct oral anticoagulants: British Society of Gastroenterology (BSG) and European Society of Gastrointestinal Endoscopy (ESGE) guidelines. Endoscopy 2016; 48: 385\u2013402. doi:10.1055/s-0042-102652",
+      "doi": "10.1055/s-0042-102652"
+    },
+    {
+      "id": "ref-85",
+      "citation": "Shahidi N, Vosko S, Gupta S et al. Previously attempted large nonpedunculated colorectal polyps are effectively managed by endoscopic mucosal resection. Am J Gastroenterol 2021; 116: 958\u2013966. doi:10.14309/ajg.0000000000001096",
+      "doi": "10.14309/ajg.0000000000001096"
+    },
+    {
+      "id": "ref-86",
+      "citation": "Tate DJ, Desomer L, Klein A et al. Adenoma recurrence after piecemeal colonic EMR is predictable: the Sydney EMR recurrence tool. Gastrointest Endosc 2017; 85: 647\u2013656.e646. doi:10.1016/j.gie.2016.11.027",
+      "doi": "10.1016/j.gie.2016.11.027"
+    },
+    {
+      "id": "ref-87",
+      "citation": "Kandel P, Brand EC, Pelt J et al. Endoscopic scar assessment after colorectal endoscopic mucosal resection scars: when is biopsy necessary (EMR Scar Assessment Project for Endoscope (ESCAPE) trial). Gut 2019; 68: 1633\u20131641. doi:10.1136/gutjnl-2018-316574",
+      "doi": "10.1136/gutjnl-2018-316574"
+    },
+    {
+      "id": "ref-88",
+      "citation": "Komeda Y, Watanabe T, Sakurai T et al. Risk factors for local recurrence and appropriate surveillance interval after endoscopic resection. World J Gastroenterol 2019; 25: 1502\u20131512. doi:10.3748/wjg.v25.i12.1502",
+      "doi": "10.3748/wjg.v25.i12.1502"
+    },
+    {
+      "id": "ref-89",
+      "citation": "Bick BL, Ponugoti PL, Rex DK. High yield of synchronous lesions in referred patients with large lateral spreading colorectal tumors. Gastrointest Endosc 2017; 85: 228\u2013233. doi:10.1016/j.gie.2016.06.035",
+      "doi": "10.1016/j.gie.2016.06.035"
+    },
+    {
+      "id": "ref-90",
+      "citation": "Baron TH, Kamath PS, McBane RD. New anticoagulant and antiplatelet agents: a primer for the gastroenterologist. Clin Gastroenterol Hepatol 2014; 12: 187\u2013195. doi:10.1016/j.cgh.2013.05.020",
+      "doi": "10.1016/j.cgh.2013.05.020"
+    },
+    {
+      "id": "ref-91",
+      "citation": "Khashab MA, Chithadi KV, Acosta RD et al. Antibiotic prophylaxis for GI endoscopy. Gastrointest Endosc 2015; 81: 81\u201389. doi:10.1016/j.gie.2014.08.008",
+      "doi": "10.1016/j.gie.2014.08.008"
+    },
+    {
+      "id": "ref-92",
+      "citation": "Shahidi N, Sidhu M, Vosko S et al. Endoscopic mucosal resection is effective for laterally spreading lesions at the anorectal junction. Gut 2020; 69: 673\u2013680. doi:10.1136/gutjnl-2019-319785",
+      "doi": "10.1136/gutjnl-2019-319785"
+    },
+    {
+      "id": "ref-93",
+      "citation": "Clark BT, Rustagi T, Laine L. What level of bowel prep quality requires early repeat colonoscopy: systematic review and meta-analysis of the impact of preparation quality on adenoma detection rate. Am J Gastroenterol 2014; 109: 1714\u20131723. doi:10.1038/ajg.2014.232",
+      "doi": "10.1038/ajg.2014.232"
+    },
+    {
+      "id": "ref-94",
+      "citation": "Wong MCS, Ching JYL, Chan VCW et al. Determinants of bowel preparation quality and its association with adenoma detection. Medicine 2016; 95: e2251. doi:10.1097/md.0000000000002251",
+      "doi": "10.1097/md.0000000000002251"
+    },
+    {
+      "id": "ref-95",
+      "citation": "Tutticci NJ, Hewett DG. Cold EMR of large sessile serrated polyps at colonoscopy (with video). Gastrointest Endosc 2018; 87: 837\u2013842. doi:10.1016/j.gie.2017.11.002",
+      "doi": "10.1016/j.gie.2017.11.002"
+    },
+    {
+      "id": "ref-96",
+      "citation": "Tate DJ, Awadie H, Bahin FF et al. Wide-field piecemeal cold snare polypectomy of large sessile serrated polyps without a submucosal injection is safe. Endoscopy 2018; 50: 248\u2013252. doi:10.1055/s-0043-121219",
+      "doi": "10.1055/s-0043-121219"
+    },
+    {
+      "id": "ref-97",
+      "citation": "Lai EJ, Calderwood AH, Doros G et al. The Boston bowel preparation scale: a valid and reliable instrument for colonoscopy-oriented research. Gastrointest Endosc 2009; 69: 620\u2013625. doi:10.1016/j.gie.2008.05.057",
+      "doi": "10.1016/j.gie.2008.05.057"
+    },
+    {
+      "id": "ref-98",
+      "citation": "Tate DJ, Sidhu M, Bar-Yishay I et al. Impact of en bloc resection on long-term outcomes after endoscopic mucosal resection: a matched cohort study. Gastrointest Endosc 2020; 91: 1155\u20131163.e1. doi:10.1016/j.gie.2019.12.025",
+      "doi": "10.1016/j.gie.2019.12.025"
+    },
+    {
+      "id": "ref-99",
+      "citation": "Matharoo M. Endoscopic non-technical skills team training: The next step in quality assurance of endoscopy training. World J Gastroenterol 2014; 20: 17507\u201317507. doi:10.3748/wjg.v20.i46.17507",
+      "doi": "10.3748/wjg.v20.i46.17507"
+    },
+    {
+      "id": "ref-100",
+      "citation": "Moss A, Bourke MJ, Tran K et al. Lesion isolation by circumferential submucosal incision prior to endoscopic mucosal resection (CSIEMR) substantially improves en bloc resection rates for 40-mm colonic lesions. Endoscopy 2010; 42: 400\u2013404. doi:10.1055/s-0029-1243990",
+      "doi": "10.1055/s-0029-1243990"
+    },
+    {
+      "id": "ref-101",
+      "citation": "Kimoto Y, Sakai E, Inamoto R et al. Safety and efficacy of cold snare polypectomy without submucosal injection for large sessile serrated lesions: a prospective study. Clin Gastroenterol Hepatol 2022; 20: e132\u2013e138. doi:10.1016/j.cgh.2020.10.053",
+      "doi": "10.1016/j.cgh.2020.10.053"
+    },
+    {
+      "id": "ref-102",
+      "citation": "Holt BA, Jayasekeran V, Sonson R et al. Topical submucosal chromoendoscopy defines the level of resection in colonic EMR and may improve procedural safety (with video). Gastrointest Endosc 2013; 77: 949\u2013953. doi:10.1016/j.gie.2013.01.021",
+      "doi": "10.1016/j.gie.2013.01.021"
+    },
+    {
+      "id": "ref-103",
+      "citation": "Tutticci N, Bourke MJ. Interventional chromoendoscopy: specific aspects for the colon. Gastrointest Endosc 2014; 79: 536\u2013538. doi:10.1016/j.gie.2013.09.002",
+      "doi": "10.1016/j.gie.2013.09.002"
+    },
+    {
+      "id": "ref-104",
+      "citation": "Desomer L, Tate DJ, Bahin FF et al. A systematic description of the post-EMR defect to identify risk factors for clinically significant postEMR bleeding in the colon. Gastrointest Endosc 2019; 89: 614\u2013624. doi:10.1016/j.gie.2018.11.023",
+      "doi": "10.1016/j.gie.2018.11.023"
+    },
+    {
+      "id": "ref-105",
+      "citation": "Rodr\u00edguez S\u00e1nchez J, S\u00e1nchez Alonso M, Pellis\u00e9 Urquiza M. The bubble sign: A novel way to detect a perforation after cold snare polypectomy. Endoscopy 2019; 51: 796\u2013797. doi:10.1055/a-0881-2856",
+      "doi": "10.1055/a-0881-2856"
+    },
+    {
+      "id": "ref-106",
+      "citation": "Nogales Rinc\u00f3n \u00d3, Garc\u00eda J, Ortega Lobete O et al. The \"double string\" sign: a warning image after cold endoscopic mucosal resection. Endoscopy 2021; 53: E71\u2013E72. doi:10.1055/a-1193-4456",
+      "doi": "10.1055/a-1193-4456"
+    },
+    {
+      "id": "ref-107",
+      "citation": "Toyosawa J, Yamasaki Y, Fujimoto T et al. Resection depth for small colorectal polyps comparing cold snare polypectomy, hot snare polypectomy and underwater endoscopic mucosal resection. Endosc Int Open 2022; 10: E602\u2013E608. doi:10.1055/a-1785-8616",
+      "doi": "10.1055/a-1785-8616"
+    },
+    {
+      "id": "ref-108",
+      "citation": "Suzuki S, Gotoda T, Kusano C et al. Width and depth of resection for small colorectal polyps: hot versus cold snare polypectomy. Gastrointest Endosc 2018; 87: 1095\u20131103. doi:10.1016/j.gie.2017.10.041",
+      "doi": "10.1016/j.gie.2017.10.041"
+    },
+    {
+      "id": "ref-109",
+      "citation": "Bourke MJ. Top tips for cold snare polypectomy (with video). Gastrointest Endosc 2022; 95: 1226\u20131232. doi:10.1016/j.gie.2021.12.036",
+      "doi": "10.1016/j.gie.2021.12.036"
+    },
+    {
+      "id": "ref-110",
+      "citation": "Robertson DJ, Lieberman DA, Winawer SJ et al. Colorectal cancers soon after colonoscopy: a pooled multicohort analysis. Gut 2014; 63: 949\u2013956. doi:10.1136/gutjnl-2012-303796",
+      "doi": "10.1136/gutjnl-2012-303796"
+    },
+    {
+      "id": "ref-111",
+      "citation": "Backes Y, Seerden TCJ, van Gestel R et al. Tumor seeding during colonoscopy as a possible cause for metachronous colorectal cancer. Gastroenterology 2019; 157: 1222\u20131232.e1224. doi:10.1053/j.gastro.2019.07.062",
+      "doi": "10.1053/j.gastro.2019.07.062"
+    },
+    {
+      "id": "ref-112",
+      "citation": "Soetikno R, Kaltenbach T. Dynamic submucosal injection technique. Gastrointest Endosc Clin N Am 2010; 20: 497\u2013502 Tate David J et al. Curriculum for training \u2026 Endoscopy | \u00a9 2023. European Society of Gastrointestinal Endoscopy. All rights reserved. Position Statement === PAGE 35 ===. doi:10.1016/j.giec.2010.03.008",
+      "doi": "10.1016/j.giec.2010.03.008",
+      "lowConfidence": true,
+      "confidenceIssues": [
+        "year 2023 vs match year 2010"
+      ]
+    },
+    {
+      "id": "ref-113",
+      "citation": "Nanda KS, Sonson RJ, Bourke MJ. Intramucosal injection: part of the spectrum of outcomes from submucosal injection during endoscopic resection. Gastrointest Endosc 2014; 80: 733\u2013735. doi:10.1016/j.gie.2014.04.066",
+      "doi": "10.1016/j.gie.2014.04.066"
+    },
+    {
+      "id": "ref-114",
+      "citation": "Horiuchi A, Hosoi K, Kajiyama M et al. Prospective, randomized comparison of 2 methods of cold snare polypectomy for small colorectal polyps. Gastrointest Endosc 2015; 82: 686\u2013692. doi:10.1016/j.gie.2015.02.012",
+      "doi": "10.1016/j.gie.2015.02.012"
+    },
+    {
+      "id": "ref-115",
+      "citation": "Sidhu M, Forbes N, Tate DJ et al. A randomized controlled trial of cold snare polypectomy technique: technique matters more than snare wire diameter. Am J Gastroenterol 2022; 117: 100. doi:10.14309/ajg.0000000000001554",
+      "doi": "10.14309/ajg.0000000000001554"
+    },
+    {
+      "id": "ref-116",
+      "citation": "Klein A, Bourke MJ. How to perform high-quality endoscopic mucosal resection during colonoscopy. Gastroenterology 2017; 152: 466\u2013471. doi:10.1053/j.gastro.2016.12.029",
+      "doi": "10.1053/j.gastro.2016.12.029"
+    },
+    {
+      "id": "ref-117",
+      "citation": "Heitman SJ, Tate DJ, Bourke MJ. Optimizing resection of large colorectal polyps. Curr Treat Options Gastroenterol 2017; 15: 213\u2013229. doi:10.1007/s11938-017-0131-5",
+      "doi": "10.1007/s11938-017-0131-5"
+    },
+    {
+      "id": "ref-118",
+      "citation": "Tutticci N, Bourke MJ. Advanced endoscopic resection in the colon: recent innovations, current limitations and future directions. Expert Rev Gastroenterol Hepatology 2014; 8: 161\u2013177. doi:10.1586/17474124.2014.866894",
+      "doi": "10.1586/17474124.2014.866894"
+    },
+    {
+      "id": "ref-119",
+      "citation": "Bourke M. Endoscopic mucosal resection in the colon: A practical guide. Tech Gastrointest Endosc 2011; 13: 35\u201349. doi:10.1016/j.tgie.2011.01.002",
+      "doi": "10.1016/j.tgie.2011.01.002"
+    },
+    {
+      "id": "ref-120",
+      "citation": "Tate DJ, Klein A, Bourke MJ. Endoscopic Mucosal Resection - A Comprehensive Tool (DV071) [Video]. ASGE; 2016. Accessed:11 April 2023 https://learn.asge.org/Listing/Endoscopic-Mucosal-ResectionA-Comprehensive-Tool-DV071-228. doi:10.1016/j.gie.2016.03.083",
+      "doi": "10.1016/j.gie.2016.03.083",
+      "lowConfidence": true,
+      "confidenceIssues": [
+        "year 2023 vs match year 2016"
+      ]
+    },
+    {
+      "id": "ref-121",
+      "citation": "Rey JF, Beilenhoff U, Neumann CS et al. European Society of Gastrointestinal Endoscopy (ESGE) guideline: the use of electrosurgical units. Endoscopy 2010; 42: 764\u2013772. doi:10.1055/s-0030-1255594",
+      "doi": "10.1055/s-0030-1255594"
+    },
+    {
+      "id": "ref-122",
+      "citation": "Bahin FF, Naidoo M, Williams SJ et al. Prophylactic endoscopic coagulation to prevent bleeding after wide-field endoscopic mucosal resection of large sessile colon polyps. Clin Gastroenterol Hepatol 2015; 13: 722\u2013724. doi:10.1016/j.cgh.2014.07.063",
+      "doi": "10.1016/j.cgh.2014.07.063"
+    },
+    {
+      "id": "ref-123",
+      "citation": "Meulen LWT, Bogie RMM, Winkens B et al. Thermal ablation of mucosal defect margins to prevent local recurrence of large colorectal polyps: a systematic review and meta-analysis. Endosc Int Open 2022; 10: E1127\u2013E1135. doi:10.1055/a-1869-2446",
+      "doi": "10.1055/a-1869-2446"
+    },
+    {
+      "id": "ref-124",
+      "citation": "Chandan S, Facciorusso A, Ramai D et al. Snare tip soft coagulation (STSC) after endoscopic mucosal resection (EMR) of large (> 20 mm) non pedunculated colorectal polyps: a systematic review and metaanalysis. Endosc Int Open 2022; 10: E74\u2013E81. doi:10.1055/a-1635-6112",
+      "doi": "10.1055/a-1635-6112"
+    },
+    {
+      "id": "ref-125",
+      "citation": "Kumar V, Broadley H, Rex DK. Safety and efficacy of hot avulsion as an adjunct to EMR (with videos). Gastrointest Endosc 2019; 89: 999\u2013 1004. doi:10.1016/j.gie.2018.11.032",
+      "doi": "10.1016/j.gie.2018.11.032"
+    },
+    {
+      "id": "ref-126",
+      "citation": "Tsiamoulos ZP, Bourikas LA, Saunders BP. Endoscopic mucosal ablation: a new argon plasma coagulation/injection technique to assist complete resection of recurrent, fibrotic colon polyps (with video). Gastrointest Endosc 2012; 75: 400\u2013404. doi:10.1016/j.gie.2011.09.003",
+      "doi": "10.1016/j.gie.2011.09.003"
+    },
+    {
+      "id": "ref-127",
+      "citation": "Sakamoto T, Saito Y, Matsuda T et al. Treatment strategy for recurrent or residual colorectal tumors after endoscopic resection. Surg Endosc 2011; 25: 255\u2013260. doi:10.1007/s00464-010-1169-9",
+      "doi": "10.1007/s00464-010-1169-9"
+    },
+    {
+      "id": "ref-128",
+      "citation": "Azzolini F, Camellini L, Sassatelli R et al. Endoscopic submucosal dissection of scar-embedded rectal polyps: a prospective study (ESD in scar-embedded rectal polyps). Clin Res Hepatol Gastroenterol 2011; 35: 572\u2013579. doi:10.1016/j.clinre.2011.04.013",
+      "doi": "10.1016/j.clinre.2011.04.013"
+    },
+    {
+      "id": "ref-129",
+      "citation": "Kuroki Y, Hoteya S, Mitani T et al. Endoscopic submucosal dissection for residual/locally recurrent lesions after endoscopic therapy for colorectal tumors. J Gastroenterol Hepatol 2010; 25: 1747\u20131753. doi:10.1111/j.1440-1746.2010.06331.x",
+      "doi": "10.1111/j.1440-1746.2010.06331.x"
+    },
+    {
+      "id": "ref-130",
+      "citation": "Ma MX, Tate DJ, Sidhu M et al. Effect of pre-resection biopsy on detection of advanced dysplasia in large nonpedunculated colorectal polyps undergoing endoscopic mucosal resection. Endoscopy 2023; 55: 267\u2013273. doi:10.1055/a-1896-9798",
+      "doi": "10.1055/a-1896-9798"
+    },
+    {
+      "id": "ref-131",
+      "citation": "Nutalapati V, Desai M, Thoguluva-Chandrasekar VS et al. Effect of dynamic position changes on adenoma detection rate during colonoscope withdrawal: systematic review and meta-analysis. Endosc Int Open 2020; 08: E1842\u2013E1849. doi:10.1055/a-1265-6634",
+      "doi": "10.1055/a-1265-6634"
+    },
+    {
+      "id": "ref-132",
+      "citation": "Nanda KS, Tutticci N, Burgess NG et al. Endoscopic mucosal resection of laterally spreading lesions involving the ileocecal valve: technique, risk factors for failure, and outcomes. Endoscopy 2015; 47: 710\u2013718. doi:10.1055/s-0034-1391732",
+      "doi": "10.1055/s-0034-1391732"
+    },
+    {
+      "id": "ref-133",
+      "citation": "Uchima H, Colan-Hernandez J, Caballero N et al. Underwater endoscopic mucosal resection of an adenomatous lesion with deep extension into the appendiceal orifice. Endoscopy 2021; 53: 334\u2013335. doi:10.1055/a-1202-1192",
+      "doi": "10.1055/a-1202-1192"
+    },
+    {
+      "id": "ref-134",
+      "citation": "Holt BA, Bassan MS, Sexton A et al. Advanced mucosal neoplasia of the anorectal junction: endoscopic resection technique and outcomes (with videos). Gastrointest Endosc 2014; 79: 119\u2013126. doi:10.1016/j.gie.2013.07.003",
+      "doi": "10.1016/j.gie.2013.07.003"
+    },
+    {
+      "id": "ref-135",
+      "citation": "Fujimoto A, Saito Y, Abe S et al. Clinical usefulness of red dichromatic imaging in hemostatic treatment during endoscopic submucosal dissection: First report from a multicenter, open-label, randomized controlled trial. Dig Endosc 2022; 34: 379\u2013390. doi:10.1111/den.14191",
+      "doi": "10.1111/den.14191"
+    },
+    {
+      "id": "ref-136",
+      "citation": "Kita A, Kuribayashi S, Itoi Y et al. Efficacy of using red dichromatic imaging throughout endoscopic submucosal dissection procedure. Surg Endosc 2023; 37: 503\u2013509. doi:10.1007/s00464-022-09543-w",
+      "doi": "10.1007/s00464-022-09543-w"
+    },
+    {
+      "id": "ref-137",
+      "citation": "Fahrtash-Bahin F, Holt BA, Jayasekeran V et al. Snare tip soft coagulation achieves effective and safe endoscopic hemostasis during wide-field endoscopic resection of large colonic lesions (with videos). Gastrointest Endosc 2013; 78: 158\u2013163 e151. doi:10.1016/j.gie.2013.02.030",
+      "doi": "10.1016/j.gie.2013.02.030"
+    },
+    {
+      "id": "ref-138",
+      "citation": "Facciorusso A, Bertini M, Bertoni M et al. Effectiveness of hemostatic powders in lower gastrointestinal bleeding: a systematic review and meta-analysis. Endosc Int Open 2021; 9: E1283\u2013E1290. doi:10.1055/a-1495-4764",
+      "doi": "10.1055/a-1495-4764"
+    },
+    {
+      "id": "ref-139",
+      "citation": "Chiapponi C, Stocker U, K\u00f6rner M et al. Emergency percutaneous needle decompression for tension pneumoperitoneum. BMC Gastroenterol 2011; 11: 48. doi:10.1186/1471-230x-11-48",
+      "doi": "10.1186/1471-230x-11-48"
+    },
+    {
+      "id": "ref-140",
+      "citation": "Burgess NG, Williams SJ, Hourigan LF et al. A management algorithm based on delayed bleeding after wide-field endoscopic mucosal resection of large colonic lesions. Clin Gastroenterol Hepatol 2014; 12: 1525\u20131533. doi:10.1016/j.cgh.2014.01.026",
+      "doi": "10.1016/j.cgh.2014.01.026"
+    },
+    {
+      "id": "ref-141",
+      "citation": "Li S, Oshea B, Sun S. Special considerations in the management of lower GI bleed by interventional radiology. J Interv Med 2019; 2: 101\u2013105. doi:10.1016/j.jimed.2019.09.007",
+      "doi": "10.1016/j.jimed.2019.09.007"
+    },
+    {
+      "id": "ref-142",
+      "citation": "Desomer L, Tate DJ, Awadie H et al. Mo1085 Persistent pain after colonic endoscopic mucosal resection: predictors, a management algorithm and outcomes. Gastrointest Endosc 2017; 85: AB421. doi:10.1016/j.gie.2017.03.977",
+      "doi": "10.1016/j.gie.2017.03.977"
+    },
+    {
+      "id": "ref-143",
+      "citation": "Desomer L, Tate DJ, Pillay L et al. Intravenous paracetamol for persistent pain after endoscopic mucosal resection discriminates patients at risk of adverse events and those who can be safely discharged. Endoscopy 2023: doi:10.1055/a-2022-6530",
+      "doi": "10.1055/a-2022-6530"
+    },
+    {
+      "id": "ref-144",
+      "citation": "Stjepanovic N, Moreira L, Carneiro F et al. Hereditary gastrointestinal cancers: ESMO Clinical Practice Guidelines for diagnosis, treatment and follow-up\u2020. Ann Oncol 2019; 30: 1558\u20131571. doi:10.1093/annonc/mdz233",
+      "doi": "10.1093/annonc/mdz233"
+    },
+    {
+      "id": "ref-145",
+      "citation": "Desomer L, Tutticci N, Tate DJ et al. A standardized imaging protocol is accurate in detecting recurrence after EMR. Gastrointest Endosc 2017; 85: 518\u2013526. doi:10.1016/j.gie.2016.06.031",
+      "doi": "10.1016/j.gie.2016.06.031"
+    },
+    {
+      "id": "ref-146",
+      "citation": "Pellise M, Desomer L, Burgess NG et al. The influence of clips on scars after EMR: clip artifact. Gastrointest Endosc 2015; 83: 1\u20139. doi:10.1016/j.gie.2015.08.071",
+      "doi": "10.1016/j.gie.2015.08.071",
+      "lowConfidence": true,
+      "confidenceIssues": [
+        "surname 'Pellise' not in match authors ['pellis\u00e9', 'desomer', 'burgess']"
+      ]
+    },
+    {
+      "id": "ref-147",
+      "citation": "Sreepati G, Vemulapalli KC, Rex DK. Clip artifact after closure of large colorectal EMR sites: incidence and recognition. Gastrointest Endosc 2015; 82: 344\u2013349. doi:10.1016/j.gie.2014.12.059",
+      "doi": "10.1016/j.gie.2014.12.059"
+    },
+    {
+      "id": "ref-148",
+      "citation": "Kim HG, Thosani N, Banerjee S et al. Underwater endoscopic mucosal resection for recurrences after previous piecemeal resection of colorectal polyps (with video). Gastrointest Endosc 2014; 80: 1094\u2013 1102. doi:10.1016/j.gie.2014.05.318",
+      "doi": "10.1016/j.gie.2014.05.318"
+    },
+    {
+      "id": "ref-149",
+      "citation": "Tsiamoulos ZP, Rameshshanker R, Gupta S et al. Augmented endoscopic resection for fibrotic or recurrent colonic polyps using an ablation and cold avulsion technique. Endoscopy 2016; 48: (Suppl. 01): E248\u2013E249. doi:10.1055/s-0042-109601",
+      "doi": "10.1055/s-0042-109601"
+    },
+    {
+      "id": "ref-150",
+      "citation": "Gupta S, Bassett P, Man R et al. Validation of a novel method for assessing competency in polypectomy. Gastrointest Endosc 2012; 75: 568\u2013575 Tate David J et al. Curriculum for training \u2026 Endoscopy | \u00a9 2023. European Society of Gastrointestinal Endoscopy. All rights reserved. === PAGE 36 === Position Statement Supplementary material Curriculum for training in endoscopic mucosal resection in the colon: European Society of Gastrointestinal Endoscopy (ESGE) Position Statement David J. Tate, Maria Eva Argenziano, John Anderson, Pradeep Bhandari, Ivo Bo\u0161koski, Marek Bugajski, Lobke Desomer, Steven J. Heitman, Hiroshi Kashida, Vladimir Kriazhov, Ralph R. T. Lee, Ivan Lyutakov, Pedro Pimentel\u2010Nunes, Liseth Rivero\u2010S\u00e1nchez, Siwan Thomas\u2010 Gibson, Henrik Thorlacius, Michael J. Bourke, Tony C. Tham, Raf Bisschops Appendix 1s \u2010 Original Open Ended Delphi Consensus Questions 1. Should training in ER commence ex\u2010vivo? For EMR? ESD? 2. Please list components of consent that a competent ER practitioner would discuss with a patient prior to undergoing ER. 3. Prior to ER, please list the components of a patient workup that a competent ER practitioner would have undertaken. 4. Please list equipment, specific for colon ER, that a competent ER practitioner would be familiar with. 5. Please list unit\u2010level factors (registered nurses, other support staff, scheduling, etc) considered necessary for colon ER 6. Please list the criteria that determine when an ER procedure should be taken over by a supervising practitioner. 7. In assessing an LSL for endoscopic resectability, please list the principles, classification systems or methods that a competent ER practitioner should be able to utilize to estimate the risk of submucosal invasion. 8. In assessing an LSL for endoscopic resectability, please list the principles, classification systems or methods that a competent ER practitioner should be able to utilize to estimate the risk of submucosal invasion. 9. Please list the endoscopic features of an LSL that would cause a competent ER practitioner to opt for surgery or ESD, over an attempt with EMR. 10. Once an LSL has been judged endoscopically resectable, please list considerations a competent ER practitioner would make prior to commencing with ER. 11. the essential ingredients of an injection ER solution 12. Strategies that could be employed to facilitate access to the target LSL (patient, lesion, added modalities) 13. Characteristics of good submucosal injection technique 14. Features of optimal snare placement, capture and closure 15. Safety checks required prior to the application of thermal energy (including commands to assistant) 16. Techniques for the management of intra\u2010procedural bleeding. Please specify the optimal technique for each mentioned. 17. Techniques for the management of intra\u2010procedural perforation. Please specify the optimal technique for each mentioned. 18. Other than snare resection, alternative methods to removing non\u2010lifting adenoma. Please specify the optimal technique for each mentioned. 19. Techniques or strategies to employ if the ER procedure becomes difficult (i.e. difficult access to target lesion; incomplete resection, etc.) Tate DJ et al. Curriculum for training in endoscopic ... Endoscopy | \u00a9 2023. European Society of Gastrointestinal Endoscopy. All rights reserved. === PAGE 37 === Position Statement Supplementary material 20. Strategies or manoeuvres to assist in ER of lesions in specific locations (i.e. cecum, right colon, rectosigmoid, etc.) 21. Techniques of inspecting the post\u2010ER defect. 22. Important features of the post ER defect 23. Optimal technique for applying thermal energy to the ER defect margin 24. Endoscopic strategies that a competent ER practitioner would employ to manage clinically significant post\u2010ER bleeding. Please describe, in detail, the best practice technique. 25. Alarm features, suggesting serious pathology, that a competent ER practitioner should be able to identify and manage appropriately 26. Topics that a competent ER practitioner would cover with a patient in post\u2010ER conversation 27. Criteria for admission to hospital post ER 28. Please list the minimum requirements for an endoscopy report of an Endoscopic Resection procedure. 29. Please list essential quality indicators of ER that should be prospectively monitored, recorded and acted upon if deficiencies are identified. 30. Please list features of the pathological report that a competent ER practitioner would be able to critically appraise and act upon 31. Is attendance at a multi\u2010disciplinary meeting a mandatory requirement for competent trainees and practitioners of endoscopic resection? 32. Representatives from which medical disciplines should attend such a multi\u2010disciplinary meeting (discussing the management of large colorectal LSLs) 33. After endoscopic resection, please list the features of a successful surveillance colonoscopy that a competent ER practitioner would perform and document. 34. Please list techniques that a competent ER practitioner would utilize to treat lesion recurrence at an ER scar 35. Should training in ER be accomplished in stages? If so, specify. 36. Are there any potential scoring systems to grade difficulty of ER to match lesions to the competence of trainees? If so, specify. 37. Should a minimum number of cases be done during training? If so, how many for EMR; ESD? 38. What outcomes/metrics should/could be used to assess for competency at the end of training? Tate DJ et al. Curriculum for training in endoscopic ... Endoscopy | \u00a9 2023. European Society of Gastrointestinal Endoscopy. All rights reserved. doi:10.1503/cjs.009414",
+      "doi": "10.1503/cjs.009414",
+      "lowConfidence": true,
+      "confidenceIssues": [
+        "surname 'Gupta' not in match authors ['gill', 'pace', 'bazzarelli']",
+        "year 2023 vs match year 2014"
+      ]
+    }
+  ]
+}

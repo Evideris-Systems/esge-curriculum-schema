@@ -7,24 +7,36 @@
   "release": "r2026.07",
   "supersedes": null,
   "supersededBy": null,
-  "language": ["en"],
-
+  "language": [
+    "en"
+  ],
   "withinCurriculum": "cur-emr-colon-2023",
-
-  "title": { "en": "Rate of intraprocedural perforation" },
-  "metric": { "en": "Percentage of EMR procedures with intraprocedural perforation (Sydney DMI ≥ III)." },
+  "title": {
+    "en": "Rate of intraprocedural perforation"
+  },
+  "metric": {
+    "en": "Percentage of EMR procedures with intraprocedural perforation (Sydney DMI \u2265 III)."
+  },
   "unit": "%",
-
   "desiredStandard": 3.5,
   "minimumStandard": 5,
-
   "originData": {
     "source": "iACE",
     "value": 3.3,
-    "confidenceInterval95": { "low": 2.7, "high": 3.9 }
+    "confidenceInterval95": {
+      "low": 2.7,
+      "high": 3.9
+    }
   },
   "levelOfAgreement": 85,
-
   "appliesTo": "practitioner",
-  "derivedFromRecommendation": "rec-emr-cln-r38-essential-qis"
+  "derivedFromRecommendation": "rec-emr-cln-r38-essential-qis",
+  "_meta": {
+    "provenance": {
+      "type": "verbatim",
+      "source_doi": "10.1055/a-2077-0497"
+    },
+    "encodedBy": "human:david",
+    "encodedAt": "2026-06-27"
+  }
 }

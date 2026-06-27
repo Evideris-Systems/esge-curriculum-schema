@@ -1,0 +1,42 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://schema.evideris.com/schemas/references.schema.json",
+  "title": "References bibliography (per-curriculum)",
+  "description": "Verbatim bibliography of a curriculum publication. One artifact per curriculum, sibling to the curriculum wrapper. Kept separate from the wrapper so the wrapper stays compact; verify-citations.py enforces that every entry has a resolvable DOI/PMID.",
+  "type": "object",
+  "required": ["$id", "lineageId", "type", "version", "release", "language", "forCurriculum", "references", "_meta"],
+  "properties": {
+    "$schema":   { "type": "string", "format": "uri" },
+    "$id":       { "$ref": "_common.schema.json#/$defs/versionedUrl" },
+    "lineageId": { "$ref": "_common.schema.json#/$defs/lineageId" },
+    "type":      { "const": "references" },
+    "version":   { "$ref": "_common.schema.json#/$defs/semverString" },
+    "release":   { "$ref": "_common.schema.json#/$defs/calverRelease" },
+    "supersedes":   { "anyOf": [{ "type": "null" }, { "$ref": "_common.schema.json#/$defs/versionedUrl" }] },
+    "supersededBy": { "anyOf": [{ "type": "null" }, { "$ref": "_common.schema.json#/$defs/versionedUrl" }] },
+    "language": {
+      "type": "array",
+      "items": { "type": "string", "pattern": "^[a-z]{2}(-[A-Z]{2})?$" },
+      "minItems": 1, "uniqueItems": true
+    },
+    "forCurriculum": { "$ref": "_common.schema.json#/$defs/lineageId" },
+    "references": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "citation"],
+        "properties": {
+          "id":       { "$ref": "_common.schema.json#/$defs/citationRef" },
+          "citation": { "type": "string", "minLength": 30 },
+          "doi":      { "anyOf": [{ "type": "string", "pattern": "^10\\." }, { "type": "null" }] },
+          "unresolved":         { "type": "boolean" },
+          "lowConfidence":      { "type": "boolean" },
+          "confidenceIssues":   { "type": "array", "items": { "type": "string" } }
+        },
+        "additionalProperties": false
+      }
+    },
+    "_meta": { "$ref": "_common.schema.json#/$defs/metaBlock" }
+  },
+  "additionalProperties": false
+}

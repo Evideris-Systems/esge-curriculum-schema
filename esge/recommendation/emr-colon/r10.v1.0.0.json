@@ -7,38 +7,82 @@
   "release": "r2026.07",
   "supersedes": null,
   "supersededBy": null,
-  "language": ["en"],
-
+  "language": [
+    "en"
+  ],
   "withinCurriculum": "cur-emr-colon-2023",
   "withinSection": "sec-emr-before-emr",
   "number": 10,
-
-  "title": { "en": "Process for patient consent" },
+  "title": {
+    "en": "Process for patient consent"
+  },
   "statement": {
     "en": "ESGE recommends that the aspects of patient consent detailed in the following list be discussed by a competent EMR practitioner prior to the procedure. This information should be given to the patient in written format prior to the procedure, with an opportunity for discussion before commencing bowel preparation."
   },
-
   "grade": {
     "strength": "strong",
     "evidenceQuality": "moderate",
     "levelOfAgreement": 96
   },
-
   "subItems": [
-    { "label": "i",  "text": { "en": "Informed patient consent." }, "levelOfAgreement": 97 },
-    { "label": "ii", "text": { "en": "The appropriateness of the procedure and the risk of adverse events should be considered in the context of patient co-morbidities and life expectancy." }, "levelOfAgreement": 96 },
-    { "label": "iii","text": { "en": "Relevant specialty review of co-morbid conditions is only needed in specific cases; most patients do not require a specialist consultation prior to EMR." }, "levelOfAgreement": 92 },
-    { "label": "iv", "text": { "en": "Anticoagulant and antiplatelet use should be assessed and a plan for adjustment should be discussed with the patient prior to EMR." }, "levelOfAgreement": 96, "references": ["ref-84", "ref-90"] },
-    { "label": "v",  "text": { "en": "The need for prophylactic antibiotics in relation to underlying health conditions should be determined as per published guidance." }, "references": ["ref-91", "ref-92"] }
+    {
+      "label": "i",
+      "text": {
+        "en": "Informed patient consent."
+      },
+      "levelOfAgreement": 97
+    },
+    {
+      "label": "ii",
+      "text": {
+        "en": "The appropriateness of the procedure and the risk of adverse events should be considered in the context of patient co-morbidities and life expectancy."
+      },
+      "levelOfAgreement": 96
+    },
+    {
+      "label": "iii",
+      "text": {
+        "en": "Relevant specialty review of co-morbid conditions is only needed in specific cases; most patients do not require a specialist consultation prior to EMR."
+      },
+      "levelOfAgreement": 92
+    },
+    {
+      "label": "iv",
+      "text": {
+        "en": "Anticoagulant and antiplatelet use should be assessed and a plan for adjustment should be discussed with the patient prior to EMR."
+      },
+      "levelOfAgreement": 96,
+      "references": [
+        "ref-84",
+        "ref-90"
+      ]
+    },
+    {
+      "label": "v",
+      "text": {
+        "en": "The need for prophylactic antibiotics in relation to underlying health conditions should be determined as per published guidance."
+      },
+      "references": [
+        "ref-91",
+        "ref-92"
+      ]
+    }
   ],
-
   "commentary": {
     "en": "Informed two-stage consent is a crucial part of patient care. The historical approach of informed consent focusing solely on safety is no longer sufficient. Consent should include all aspects of the procedure, including other treatment modalities, post-procedure recovery, and future procedures/surveillance dependent on histopathology result. Patients should be aware of precise risk estimates based on the current literature and the individual centre's experience."
   },
-
-  "assessesCompetencies": [
-    "c-emr-cln-patient-consent-discussion"
+  "references": [
+    "ref-84",
+    "ref-90",
+    "ref-91",
+    "ref-92"
   ],
-
-  "references": ["ref-84", "ref-90", "ref-91", "ref-92"]
+  "_meta": {
+    "provenance": {
+      "type": "verbatim",
+      "source_doi": "10.1055/a-2077-0497"
+    },
+    "encodedBy": "human:david",
+    "encodedAt": "2026-06-27"
+  }
 }

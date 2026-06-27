@@ -7,20 +7,25 @@
   "release": "r2026.07",
   "supersedes": null,
   "supersededBy": null,
-  "language": ["en"],
-
+  "language": [
+    "en"
+  ],
   "withinCurriculum": "cur-emr-colon-2023",
   "appliesTo": "unit",
-
-  "title": { "en": "Local written anticoagulant management pathway" },
+  "title": {
+    "en": "Local written anticoagulant management pathway"
+  },
   "text": {
     "en": "Written local pre-procedure pathways should exist to direct the correct dosing of anticoagulants for patients prior to EMR based on international consensus guidelines."
   },
-  "evidenceRequired": [
-    { "en": "Copy of local anticoagulant management pathway referencing current guideline." },
-    { "en": "Annual audit of compliance with pathway in EMR cases." }
-  ],
-
   "derivedFromRecommendation": "rec-emr-cln-r2-unit-standards",
-  "subItemLabel": "ii"
+  "subItemLabel": "ii",
+  "_meta": {
+    "provenance": {
+      "type": "verbatim",
+      "source_doi": "10.1055/a-2077-0497"
+    },
+    "encodedBy": "human:david",
+    "encodedAt": "2026-06-27"
+  }
 }

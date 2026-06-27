@@ -1,0 +1,31 @@
+{
+  "$schema": "https://schema.evideris.com/schemas/standard.schema.json",
+  "$id": "https://schema.evideris.com/esge/standard/emr-colon/unit-preprocedure-information.v1.0.0.json",
+  "lineageId": "std-emr-unit-preprocedure-information",
+  "type": "standard",
+  "version": "1.0.0",
+  "release": "r2026.07",
+  "supersedes": null,
+  "supersededBy": null,
+  "language": ["en"],
+
+  "withinCurriculum": "cur-emr-colon-2023",
+  "appliesTo": "unit",
+
+  "title": { "en": "Pre-procedure information delivery to patients" },
+  "text": {
+    "en": "Formal procedures should exist, either via written information, remote consultation, or face-to-face discussion, to communicate specific information to the patient prior to the procedure, particularly to facilitate excellent bowel preparation."
+  },
+
+  "derivedFromRecommendation": "rec-emr-cln-r2-unit-standards",
+  "subItemLabel": "iii",
+
+  "_meta": {
+    "provenance": {
+      "type": "verbatim",
+      "source_doi": "10.1055/a-2077-0497"
+    },
+    "encodedBy": "human:david",
+    "encodedAt": "2026-06-27"
+  }
+}

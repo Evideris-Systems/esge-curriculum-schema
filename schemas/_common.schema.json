@@ -15,7 +15,7 @@
     },
     "lineageId": {
       "type": "string",
-      "pattern": "^(c|rec|cat|std|st|kpi|qi|m|cur|epa|sec|fig|table|ref)-[a-z0-9]([a-z0-9-]*[a-z0-9])?$",
+      "pattern": "^(c|rec|cat|std|st|kpi|qi|m|cur|epa|sec|fig|table|ref|refs)-[a-z0-9]([a-z0-9-]*[a-z0-9])?$",
       "description": "Stable identity across versions. Type-prefixed, kebab-case. Body after the dash is at least one alphanumeric character. Prefixes: c- competency, rec- recommendation, cat- CAT, std- standard, st- scoring tool, kpi- training KPI, qi- quality indicator, m- modality, cur- curriculum, epa- EPA, sec- section, fig- figure, table- table, ref- bibliography reference."
     },
     "versionedUrl": {
@@ -44,7 +44,7 @@
         "$id":     { "$ref": "#/$defs/versionedUrl" },
         "lineageId": { "$ref": "#/$defs/lineageId" },
         "type": {
-          "enum": ["release", "curriculum", "recommendation", "competency", "epa", "standard", "scoringTool", "kpi", "qi", "cat"]
+          "enum": ["release", "curriculum", "recommendation", "competency", "epa", "standard", "scoringTool", "kpi", "qi", "cat", "references"]
         },
         "version": { "$ref": "#/$defs/semverString" },
         "release": { "$ref": "#/$defs/calverRelease" },

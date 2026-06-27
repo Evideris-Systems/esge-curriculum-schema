@@ -19,32 +19,13 @@
     { "lineageId": "rec-emr-cln-r17-cold-snare-placement",  "version": "1.0.0" },
     { "lineageId": "rec-emr-cln-r38-essential-qis",         "version": "1.0.0" }
   ],
-  "competencies": [
-    { "lineageId": "c-emr-cln-basic-colonoscopy-prereq",         "version": "1.0.0" },
-    { "lineageId": "c-emr-cln-small-polypectomy-prereq",         "version": "1.0.0" },
-    { "lineageId": "c-emr-cln-hemostasis-prereq",                "version": "1.0.0" },
-    { "lineageId": "c-emr-cln-lesion-assessment",                "version": "1.0.0" },
-    { "lineageId": "c-emr-cln-smi-risk-stratification",          "version": "1.0.0" },
-    { "lineageId": "c-emr-cln-submucosal-injection",             "version": "1.0.0" },
-    { "lineageId": "c-emr-cln-snare-capture",                    "version": "1.0.0" },
-    { "lineageId": "c-emr-cln-post-emr-defect-inspection",       "version": "1.0.0" },
-    { "lineageId": "c-emr-cln-thermal-margin-ablation",          "version": "1.0.0" },
-    { "lineageId": "c-emr-cln-bleeding-management",              "version": "1.0.0" },
-    { "lineageId": "c-emr-cln-patient-consent-discussion",       "version": "1.0.0" }
-  ],
-  "epas": [
-    { "lineageId": "epa-emr-cln-independent-piecemeal", "version": "1.0.0" }
-  ],
   "standards": [
     { "lineageId": "std-emr-unit-pre-procedure-pathways",      "version": "1.0.0" },
     { "lineageId": "std-emr-unit-anticoagulant-protocols",     "version": "1.0.0" },
-    { "lineageId": "std-emr-unit-formal-consent-procedures",   "version": "1.0.0" }
+    { "lineageId": "std-emr-unit-preprocedure-information",    "version": "1.0.0" }
   ],
   "scoringTools": [
-    { "lineageId": "st-smsa",       "version": "1.0.0" },
-    { "lineageId": "st-nice",       "version": "1.0.0" },
-    { "lineageId": "st-jnet",       "version": "1.0.0" },
-    { "lineageId": "st-sydney-dmi", "version": "1.0.0" }
+    { "lineageId": "st-smsa", "version": "1.0.0" }
   ],
   "kpis": [
     { "lineageId": "kpi-emr-cln-30-cases-min", "version": "1.0.0" }
@@ -60,17 +41,24 @@
     { "lineageId": "cat-gpat", "version": "1.0.0" }
   ],
 
-  "majorBumps": [],
-  "minorBumps": [
-    "cur-emr-colon-2023 (first publication wrapper for Tate et al. 2023)",
-    "rec-emr-cln-r1/r2/r3/r10/r17/r38 (representative subset of the 38 recommendations)",
-    "c-emr-cln-* (11 competencies)",
-    "epa-emr-cln-independent-piecemeal (first EPA)",
-    "std-emr-unit-* (3 unit standards from Rec 2)",
-    "st-nice / st-jnet / st-sydney-dmi (3 scoring tools)",
-    "kpi-emr-cln-30-cases-min (training-target KPI from Main Statement 10)",
-    "qi-emr-cln-* (5 QIs from Table 6)",
-    "cat-gpat (6 representative items from Table 4)"
+  "majorBumps": [
+    "PRE-FLIGHT RELEASE WITHDRAWN: prior r2026.07 contained fabricated/stub references and unflagged invented content. See docs/plans/2026-06-26-batch1-fidelity-audit.md in the evideris repo.",
+    "Removed: 11 competencies + 1 EPA + NICE/JNET/Sydney-DMI scoring tools — moved to evideris-curriculum-derived (sibling repo)",
+    "Removed: assessesCompetencies on recs, evidenceRequired on standards, assessesCompetencies on CAT items — moved to derived layer as separate artifact types"
   ],
-  "patchBumps": []
+  "minorBumps": [
+    "Added: per-artifact _meta envelope with provenance (verbatim/paraphrased + source DOI)",
+    "Added: refs-cur-emr-colon-2023 (separate references artifact with all 150 source bibliography entries resolved to Crossref DOIs; 14 marked lowConfidence for hand-verification)",
+    "Curriculum wrapper: all 11 main statements re-extracted verbatim (Statement 4 corrected); 8 sections (was 7 — added Section 6 Surveillance); per-author competing interests (was lumped); full author affiliations from PDF"
+  ],
+  "patchBumps": [],
+
+  "_meta": {
+    "provenance": {
+      "type": "verbatim",
+      "source_doi": "10.1055/a-2077-0497"
+    },
+    "encodedBy": "human:david",
+    "encodedAt": "2026-06-27"
+  }
 }

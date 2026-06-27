@@ -7,24 +7,33 @@
   "release": "r2026.07",
   "supersedes": null,
   "supersededBy": null,
-  "language": ["en"],
-
+  "language": [
+    "en"
+  ],
   "withinCurriculum": "cur-emr-colon-2023",
-
-  "title": { "en": "Procedures performed independently per year (LNPCPs ≥ 20 mm)" },
-  "metric": { "en": "Number of EMR procedures performed independently per year for lesions ≥ 20 mm." },
+  "title": {
+    "en": "Procedures performed independently per year (LNPCPs \u2265 20 mm)"
+  },
+  "metric": {
+    "en": "Number of EMR procedures performed independently per year for lesions \u2265 20 mm."
+  },
   "unit": "procedures/year",
-
   "desiredStandard": null,
   "minimumStandard": 70,
-
   "originData": {
     "source": "delphi",
     "value": null,
     "confidenceInterval95": null
   },
   "levelOfAgreement": 86,
-
   "appliesTo": "practitioner",
-  "derivedFromRecommendation": "rec-emr-cln-r38-essential-qis"
+  "derivedFromRecommendation": "rec-emr-cln-r38-essential-qis",
+  "_meta": {
+    "provenance": {
+      "type": "verbatim",
+      "source_doi": "10.1055/a-2077-0497"
+    },
+    "encodedBy": "human:david",
+    "encodedAt": "2026-06-27"
+  }
 }

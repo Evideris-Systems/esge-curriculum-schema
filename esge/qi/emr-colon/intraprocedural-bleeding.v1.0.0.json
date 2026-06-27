@@ -7,24 +7,36 @@
   "release": "r2026.07",
   "supersedes": null,
   "supersededBy": null,
-  "language": ["en"],
-
+  "language": [
+    "en"
+  ],
   "withinCurriculum": "cur-emr-colon-2023",
-
-  "title": { "en": "Rate of intraprocedural bleeding" },
-  "metric": { "en": "Percentage of EMR procedures with clinically significant intraprocedural bleeding requiring endoscopic haemostasis beyond routine technique." },
+  "title": {
+    "en": "Rate of intraprocedural bleeding"
+  },
+  "metric": {
+    "en": "Percentage of EMR procedures with clinically significant intraprocedural bleeding requiring endoscopic haemostasis beyond routine technique."
+  },
   "unit": "%",
-
   "desiredStandard": 14,
   "minimumStandard": 19,
-
   "originData": {
     "source": "iACE",
     "value": 13.6,
-    "confidenceInterval95": { "low": 12.5, "high": 14.7 }
+    "confidenceInterval95": {
+      "low": 12.5,
+      "high": 14.7
+    }
   },
   "levelOfAgreement": 83,
-
   "appliesTo": "practitioner",
-  "derivedFromRecommendation": "rec-emr-cln-r38-essential-qis"
+  "derivedFromRecommendation": "rec-emr-cln-r38-essential-qis",
+  "_meta": {
+    "provenance": {
+      "type": "verbatim",
+      "source_doi": "10.1055/a-2077-0497"
+    },
+    "encodedBy": "human:david",
+    "encodedAt": "2026-06-27"
+  }
 }

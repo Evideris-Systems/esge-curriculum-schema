@@ -7,20 +7,25 @@
   "release": "r2026.07",
   "supersedes": null,
   "supersededBy": null,
-  "language": ["en"],
-
+  "language": [
+    "en"
+  ],
   "withinCurriculum": "cur-emr-colon-2023",
   "appliesTo": "unit",
-
-  "title": { "en": "Pre-procedure assessment pathways" },
+  "title": {
+    "en": "Pre-procedure assessment pathways"
+  },
   "text": {
     "en": "Written and/or electronic pre-procedure pathways should exist to facilitate the assessment of patients with co-morbidity prior to EMR."
   },
-  "evidenceRequired": [
-    { "en": "Copy of written or electronic pathway document with date of last review." },
-    { "en": "Audit sample showing pathway was followed in ≥90 % of recent EMR cases." }
-  ],
-
   "derivedFromRecommendation": "rec-emr-cln-r2-unit-standards",
-  "subItemLabel": "i"
+  "subItemLabel": "i",
+  "_meta": {
+    "provenance": {
+      "type": "verbatim",
+      "source_doi": "10.1055/a-2077-0497"
+    },
+    "encodedBy": "human:david",
+    "encodedAt": "2026-06-27"
+  }
 }

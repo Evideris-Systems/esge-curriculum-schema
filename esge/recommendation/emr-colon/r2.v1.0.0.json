@@ -21,20 +21,23 @@
   "grade": {
     "strength": "best-practice",
     "evidenceQuality": "no-evidence-available",
-    "levelOfAgreement": 95
+    "levelOfAgreement": 96
   },
 
   "subItems": [
-    { "label": "i",   "text": { "en": "Written and/or electronic pre-procedure pathways for the assessment of patients with co-morbidity prior to EMR." }, "levelOfAgreement": 90 },
-    { "label": "ii",  "text": { "en": "Written local pre-procedure pathways for the correct dosing of anticoagulants prior to EMR based on international consensus guidelines." }, "levelOfAgreement": 95 },
-    { "label": "iii", "text": { "en": "Formal procedures for consent — written information, remote, or face-to-face — with adequate opportunity for patient questions and reflection." }, "levelOfAgreement": 95 }
+    { "label": "i",   "text": { "en": "Written and/or electronic pre-procedure pathways should exist to facilitate the assessment of patients with co-morbidity prior to EMR." }, "levelOfAgreement": 90 },
+    { "label": "ii",  "text": { "en": "Written local pre-procedure pathways should exist to direct the correct dosing of anticoagulants for patients prior to EMR based on international consensus guidelines." }, "levelOfAgreement": 95 },
+    { "label": "iii", "text": { "en": "Formal procedures should exist, either via written information, remote consultation, or face-to-face discussion, to communicate specific information to the patient prior to the procedure, particularly to facilitate excellent bowel preparation." }, "levelOfAgreement": 96 }
   ],
 
-  "assessesStandards": [
-    "std-emr-unit-pre-procedure-pathways",
-    "std-emr-unit-anticoagulant-protocols",
-    "std-emr-unit-formal-consent-procedures"
-  ],
+  "references": [],
 
-  "references": []
+  "_meta": {
+    "provenance": {
+      "type": "verbatim",
+      "source_doi": "10.1055/a-2077-0497"
+    },
+    "encodedBy": "human:david",
+    "encodedAt": "2026-06-27"
+  }
 }

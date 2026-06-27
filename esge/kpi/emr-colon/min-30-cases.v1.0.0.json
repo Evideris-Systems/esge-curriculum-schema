@@ -7,24 +7,34 @@
   "release": "r2026.07",
   "supersedes": null,
   "supersededBy": null,
-  "language": ["en"],
-
+  "language": [
+    "en"
+  ],
   "withinCurriculum": "cur-emr-colon-2023",
-
-  "title": { "en": "Minimum case count before independent EMR practice" },
-  "metric": { "en": "Number of EMR procedures performed independently over a minimum 6-month training period, culminating in a trainer-guided assessment of competency using a validated assessment tool stratified by procedural difficulty (e.g. SMSA polyp score)." },
+  "title": {
+    "en": "Minimum case count before independent EMR practice"
+  },
+  "metric": {
+    "en": "Number of EMR procedures performed independently over a minimum 6-month training period, culminating in a trainer-guided assessment of competency using a validated assessment tool stratified by procedural difficulty (e.g. SMSA polyp score)."
+  },
   "unit": "procedures",
-
   "desiredStandard": 30,
   "minimumStandard": 30,
-
   "originData": {
     "source": "delphi",
     "value": null,
     "confidenceInterval95": null
   },
   "levelOfAgreement": 83,
-
   "appliesTo": "trainee",
-  "derivedFromRecommendation": "rec-emr-cln-r37-training-completion"
+  "derivedFromRecommendation": "rec-emr-cln-r37-training-completion",
+  "_meta": {
+    "provenance": {
+      "type": "paraphrased",
+      "source_doi": "10.1055/a-2077-0497",
+      "source_span": "Prior to independent practice, a minimum of 30 EMR procedures should be performed, culminating in a trainer-guided assessment of competency using a validated assessment tool, taking account of procedural difficulty (e.g. using the SMSA polyp score)."
+    },
+    "encodedBy": "human:david",
+    "encodedAt": "2026-06-27"
+  }
 }

@@ -15,7 +15,7 @@
 
   "title": { "en": "Quality indicators of EMR" },
   "statement": {
-    "en": "ESGE recommends that essential quality indicators of EMR should be prospectively monitored, recorded, and acted upon if deficiencies are identified. The full list is given in Table 6 of the curriculum and is encoded in this schema as individual `qi` artifacts."
+    "en": "Essential quality indicators of EMR that should be prospectively monitored, recorded, and acted upon if deficiencies are identified are those detailed in Table 6."
   },
 
   "grade": {
@@ -26,11 +26,14 @@
 
   "tableRefs": ["table-6"],
 
-  "commentary": {
-    "en": "Each Table 6 row is encoded as a separate `qi` artifact (lifelong quality indicator), with `desiredStandard` / `minimumStandard` thresholds and the originating data source (Delphi or the international ACE (iACE) study)."
-  },
+  "references": [],
 
-  "assessesCompetencies": [],
-
-  "references": []
+  "_meta": {
+    "provenance": {
+      "type": "verbatim",
+      "source_doi": "10.1055/a-2077-0497"
+    },
+    "encodedBy": "human:david",
+    "encodedAt": "2026-06-27"
+  }
 }
