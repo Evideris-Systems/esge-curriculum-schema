@@ -2,31 +2,72 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://schema.evideris.com/schemas/scoring-tool.schema.json",
   "title": "Scoring tool",
-  "description": "A reusable clinical scoring system referenced from curricula and CATs (SMSA, NICE, JNET, Sydney DMI, …). Independently versioned; reusable across curricula.",
+  "description": "A reusable clinical scoring system referenced from curricula and CATs (SMSA, NICE, JNET, Sydney DMI, \u2026). Independently versioned; reusable across curricula.",
   "type": "object",
-  "allOf": [{ "$ref": "_common.schema.json#/$defs/envelope" }],
-  "required": ["type", "title", "description", "domain", "scale", "inputs"],
+  "allOf": [
+    {
+      "$ref": "_common.schema.json#/$defs/envelope"
+    }
+  ],
+  "required": [
+    "type",
+    "title",
+    "description",
+    "domain",
+    "scale",
+    "inputs"
+  ],
   "properties": {
-    "type":        { "const": "scoringTool" },
-    "title":       { "$ref": "_common.schema.json#/$defs/localeKeyedString" },
-    "description": { "$ref": "_common.schema.json#/$defs/localeKeyedString" },
-    "domain":      { "type": "string", "description": "Free-form short tag (e.g. 'polypectomy-difficulty', 'submucosal-invasion-risk')." },
+    "type": {
+      "const": "scoringTool"
+    },
+    "title": {
+      "$ref": "_common.schema.json#/$defs/localeKeyedString"
+    },
+    "description": {
+      "$ref": "_common.schema.json#/$defs/localeKeyedString"
+    },
+    "domain": {
+      "type": "string",
+      "description": "Free-form short tag (e.g. 'polypectomy-difficulty', 'submucosal-invasion-risk')."
+    },
     "scale": {
       "type": "object",
-      "required": ["kind"],
+      "required": [
+        "kind"
+      ],
       "properties": {
-        "kind": { "enum": ["composite-additive", "ordinal", "categorical", "numeric"] },
-        "min":  { "type": "number" },
-        "max":  { "type": "number" },
+        "kind": {
+          "enum": [
+            "composite-additive",
+            "ordinal",
+            "categorical",
+            "numeric"
+          ]
+        },
+        "min": {
+          "type": "number"
+        },
+        "max": {
+          "type": "number"
+        },
         "bands": {
           "type": "array",
           "items": {
             "type": "object",
-            "required": ["label"],
+            "required": [
+              "label"
+            ],
             "properties": {
-              "label": { "$ref": "_common.schema.json#/$defs/localeKeyedString" },
-              "from":  { "type": "number" },
-              "to":    { "type": "number" }
+              "label": {
+                "$ref": "_common.schema.json#/$defs/localeKeyedString"
+              },
+              "from": {
+                "type": "number"
+              },
+              "to": {
+                "type": "number"
+              }
             },
             "additionalProperties": false
           }
@@ -39,19 +80,34 @@
       "minItems": 1,
       "items": {
         "type": "object",
-        "required": ["name", "label", "values"],
+        "required": [
+          "name",
+          "label",
+          "values"
+        ],
         "properties": {
-          "name":  { "type": "string", "pattern": "^[a-z][a-zA-Z0-9-]*$" },
-          "label": { "$ref": "_common.schema.json#/$defs/localeKeyedString" },
+          "name": {
+            "type": "string",
+            "pattern": "^[a-z][a-zA-Z0-9-]*$"
+          },
+          "label": {
+            "$ref": "_common.schema.json#/$defs/localeKeyedString"
+          },
           "values": {
             "type": "array",
             "minItems": 1,
             "items": {
               "type": "object",
-              "required": ["label"],
+              "required": [
+                "label"
+              ],
               "properties": {
-                "score": { "type": "number" },
-                "label": { "$ref": "_common.schema.json#/$defs/localeKeyedString" }
+                "score": {
+                  "type": "number"
+                },
+                "label": {
+                  "$ref": "_common.schema.json#/$defs/localeKeyedString"
+                }
               },
               "additionalProperties": false
             }
@@ -64,16 +120,30 @@
       "type": "array",
       "items": {
         "type": "object",
-        "required": ["id", "citation"],
+        "required": [
+          "id",
+          "citation"
+        ],
         "properties": {
-          "id":       { "$ref": "_common.schema.json#/$defs/citationRef" },
-          "citation": { "type": "string" }
+          "id": {
+            "$ref": "_common.schema.json#/$defs/citationRef"
+          },
+          "citation": {
+            "type": "string"
+          }
         },
         "additionalProperties": false
       }
     },
-    "$schema": true, "$id": true, "lineageId": true, "version": true, "release": true,
-    "supersedes": true, "supersededBy": true, "language": true
+    "$schema": true,
+    "$id": true,
+    "lineageId": true,
+    "version": true,
+    "release": true,
+    "supersedes": true,
+    "supersededBy": true,
+    "language": true,
+    "_meta": true
   },
   "additionalProperties": false
 }

@@ -12,15 +12,11 @@
     "appliesTo":        { "enum": ["centre", "unit", "trainer", "trainee", "service"] },
     "title":            { "$ref": "_common.schema.json#/$defs/localeKeyedString" },
     "text":             { "$ref": "_common.schema.json#/$defs/localeKeyedString" },
-    "evidenceRequired": {
-      "type": "array",
-      "items": { "$ref": "_common.schema.json#/$defs/localeKeyedString" },
-      "description": "Example evidence the M3 evidence-pack generator should ask the centre to upload to demonstrate compliance."
-    },
     "derivedFromRecommendation": { "$ref": "_common.schema.json#/$defs/lineageId" },
     "subItemLabel":              { "type": "string", "pattern": "^[ivxlcdmIVXLCDM]+$|^[a-z]$" },
     "$schema": true, "$id": true, "lineageId": true, "version": true, "release": true,
-    "supersedes": true, "supersededBy": true, "language": true
+    "supersedes": true, "supersededBy": true, "language": true, "_meta": true
   },
-  "additionalProperties": false
+  "additionalProperties": false,
+  "$comment": "Source-canonical only. evidenceRequired moved to evideris-curriculum-derived as `evidenceCriterion` artifact type — those criteria are Evideris's design for the Centre Accreditation evidence-pack generator, not published by ESGE."
 }

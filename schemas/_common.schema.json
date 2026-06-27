@@ -38,7 +38,7 @@
     "envelope": {
       "type": "object",
       "description": "Common envelope every artifact must carry.",
-      "required": ["$id", "lineageId", "type", "version", "release", "language"],
+      "required": ["$id", "lineageId", "type", "version", "release", "language", "_meta"],
       "properties": {
         "$schema": { "type": "string", "format": "uri" },
         "$id":     { "$ref": "#/$defs/versionedUrl" },
@@ -55,8 +55,64 @@
           "items": { "type": "string", "pattern": "^[a-z]{2}(-[A-Z]{2})?$" },
           "minItems": 1,
           "uniqueItems": true
-        }
+        },
+        "_meta": { "$ref": "#/$defs/metaBlock" }
       }
+    },
+    "metaBlock": {
+      "type": "object",
+      "description": "Fidelity provenance + encoding attribution. Required on every artifact.",
+      "required": ["provenance", "encodedBy", "encodedAt"],
+      "properties": {
+        "provenance": {
+          "oneOf": [
+            { "$ref": "#/$defs/sourceCanonicalProvenance" },
+            { "$ref": "#/$defs/derivedProvenance" }
+          ]
+        },
+        "fieldProvenance": {
+          "type": "object",
+          "description": "Per-field provenance override, keyed by JSONPath-like path (e.g. 'subItems[2].text.en'). Use when an artifact mixes verbatim and paraphrased content.",
+          "additionalProperties": {
+            "oneOf": [
+              { "$ref": "#/$defs/sourceCanonicalProvenance" },
+              { "$ref": "#/$defs/derivedProvenance" }
+            ]
+          }
+        },
+        "encodedBy":   { "type": "string", "pattern": "^(human:[a-z0-9-]+|claude:[a-z0-9-]+@v?\\d+\\.\\d+\\.\\d+|other:.+)$" },
+        "encodedAt":   { "type": "string", "format": "date" }
+      },
+      "additionalProperties": false
+    },
+    "sourceCanonicalProvenance": {
+      "type": "object",
+      "description": "For source-canonical artifacts: must point at a span in the source ESGE publication.",
+      "required": ["type", "source_doi"],
+      "properties": {
+        "type": { "enum": ["verbatim", "paraphrased"] },
+        "source_doi":  { "type": "string", "pattern": "^10\\..+" },
+        "source_span": { "type": "string", "description": "The original text span from the source PDF; required for type=paraphrased." },
+        "source_page": { "type": "integer", "minimum": 1 }
+      },
+      "additionalProperties": false
+    },
+    "derivedProvenance": {
+      "type": "object",
+      "description": "For Evideris-derived artifacts: must explain why and where the content comes from.",
+      "required": ["type", "reason"],
+      "properties": {
+        "type": { "enum": ["verbatim-from-primary-source", "paraphrased-from-primary-source", "evideris-design", "inferred-from-source"] },
+        "reason":            { "type": "string", "minLength": 10 },
+        "primary_source_doi":{ "type": "string", "pattern": "^10\\..+" },
+        "primary_source_span": { "type": "string" },
+        "derived_from":      {
+          "type": "array",
+          "description": "lineageIds of source-canonical artifacts this derived content was derived from.",
+          "items": { "$ref": "#/$defs/lineageId" }
+        }
+      },
+      "additionalProperties": false
     },
     "citationRef": {
       "type": "string",

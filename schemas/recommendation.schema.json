@@ -31,11 +31,10 @@
     "commentary":  { "$ref": "_common.schema.json#/$defs/localeKeyedString" },
     "figureRefs":  { "type": "array", "items": { "$ref": "_common.schema.json#/$defs/lineageId" } },
     "tableRefs":   { "type": "array", "items": { "$ref": "_common.schema.json#/$defs/lineageId" } },
-    "assessesCompetencies": { "type": "array", "items": { "$ref": "_common.schema.json#/$defs/lineageId" } },
-    "assessesStandards":    { "type": "array", "items": { "$ref": "_common.schema.json#/$defs/lineageId" } },
     "references": { "type": "array", "items": { "$ref": "_common.schema.json#/$defs/citationRef" } },
     "$schema": true, "$id": true, "lineageId": true, "version": true, "release": true,
-    "supersedes": true, "supersededBy": true, "language": true
+    "supersedes": true, "supersededBy": true, "language": true, "_meta": true
   },
-  "additionalProperties": false
+  "additionalProperties": false,
+  "$comment": "Source-canonical only. assessesCompetencies and assessesStandards moved to evideris-curriculum-derived as separate `competencyAssessment` and `standardAssessment` artifact types — the source-canonical recommendation stays faithful to the published GRADE statement."
 }

@@ -1,40 +1,108 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://schema.evideris.com/schemas/qi.schema.json",
-  "title": "Quality Indicator (QI) — lifelong",
+  "title": "Quality Indicator (QI) \u2014 lifelong",
   "description": "Lifelong quality indicator measured by the practising endoscopist's QA process. Distinct from `kpi`, which is a training-target metric.",
   "type": "object",
-  "allOf": [{ "$ref": "_common.schema.json#/$defs/envelope" }],
-  "required": ["type", "withinCurriculum", "title", "metric", "unit", "appliesTo"],
+  "allOf": [
+    {
+      "$ref": "_common.schema.json#/$defs/envelope"
+    }
+  ],
+  "required": [
+    "type",
+    "withinCurriculum",
+    "title",
+    "metric",
+    "unit",
+    "appliesTo"
+  ],
   "properties": {
-    "type":             { "const": "qi" },
-    "withinCurriculum": { "$ref": "_common.schema.json#/$defs/lineageId" },
-    "title":            { "$ref": "_common.schema.json#/$defs/localeKeyedString" },
-    "metric":           { "$ref": "_common.schema.json#/$defs/localeKeyedString" },
-    "unit":             { "type": "string" },
-    "desiredStandard":  { "type": ["number", "null"] },
-    "minimumStandard":  { "type": ["number", "null"] },
+    "type": {
+      "const": "qi"
+    },
+    "withinCurriculum": {
+      "$ref": "_common.schema.json#/$defs/lineageId"
+    },
+    "title": {
+      "$ref": "_common.schema.json#/$defs/localeKeyedString"
+    },
+    "metric": {
+      "$ref": "_common.schema.json#/$defs/localeKeyedString"
+    },
+    "unit": {
+      "type": "string"
+    },
+    "desiredStandard": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "minimumStandard": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
     "originData": {
       "type": "object",
       "properties": {
-        "source":               { "type": ["string", "null"] },
-        "value":                { "type": ["number", "null"] },
+        "source": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "value": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
         "confidenceInterval95": {
-          "type": ["object", "null"],
+          "type": [
+            "object",
+            "null"
+          ],
           "properties": {
-            "low":  { "type": "number" },
-            "high": { "type": "number" }
+            "low": {
+              "type": "number"
+            },
+            "high": {
+              "type": "number"
+            }
           },
           "additionalProperties": false
         }
       },
       "additionalProperties": false
     },
-    "levelOfAgreement": { "type": "integer", "minimum": 0, "maximum": 100 },
-    "appliesTo":        { "enum": ["practitioner", "unit", "centre", "service"] },
-    "derivedFromRecommendation": { "$ref": "_common.schema.json#/$defs/lineageId" },
-    "$schema": true, "$id": true, "lineageId": true, "version": true, "release": true,
-    "supersedes": true, "supersededBy": true, "language": true
+    "levelOfAgreement": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 100
+    },
+    "appliesTo": {
+      "enum": [
+        "practitioner",
+        "unit",
+        "centre",
+        "service"
+      ]
+    },
+    "derivedFromRecommendation": {
+      "$ref": "_common.schema.json#/$defs/lineageId"
+    },
+    "$schema": true,
+    "$id": true,
+    "lineageId": true,
+    "version": true,
+    "release": true,
+    "supersedes": true,
+    "supersededBy": true,
+    "language": true,
+    "_meta": true
   },
   "additionalProperties": false
 }

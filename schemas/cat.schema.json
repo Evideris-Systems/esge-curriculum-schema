@@ -48,10 +48,6 @@
           "lineageId": { "$ref": "_common.schema.json#/$defs/lineageId" },
           "label":     { "$ref": "_common.schema.json#/$defs/localeKeyedString" },
           "guidance":  { "$ref": "_common.schema.json#/$defs/localeKeyedString" },
-          "assessesCompetencies": {
-            "type": "array",
-            "items": { "$ref": "_common.schema.json#/$defs/lineageId" }
-          },
           "assessesRecommendations": {
             "type": "array",
             "items": {
@@ -86,7 +82,8 @@
       }
     },
     "$schema": true, "$id": true, "lineageId": true, "version": true, "release": true,
-    "supersedes": true, "supersededBy": true, "language": true
+    "supersedes": true, "supersededBy": true, "language": true, "_meta": true
   },
-  "additionalProperties": false
+  "additionalProperties": false,
+  "$comment": "Source-canonical only. items[].assessesCompetencies moved to evideris-curriculum-derived as `competencyAssessment` artifact type — the source-canonical CAT keeps items[].assessesRecommendations (verbatim from the published Table) and omits the competency-mapping which is Evideris's inference."
 }

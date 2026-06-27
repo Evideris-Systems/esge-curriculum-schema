@@ -4,43 +4,118 @@
   "title": "Competency",
   "description": "An atomic skill being assessed. Independently versioned; survives across curriculum revisions. EPAs reference competencies via competencyRefs[]; competencies carry no reverse pointer to EPAs.",
   "type": "object",
-  "allOf": [{ "$ref": "_common.schema.json#/$defs/envelope" }],
-  "required": ["type", "modality", "kind", "title", "description"],
+  "allOf": [
+    {
+      "$ref": "_common.schema.json#/$defs/envelope"
+    }
+  ],
+  "required": [
+    "type",
+    "modality",
+    "kind",
+    "title",
+    "description"
+  ],
   "properties": {
-    "type":    { "const": "competency" },
-    "modality":{ "$ref": "_common.schema.json#/$defs/lineageId" },
-    "kind": {
-      "enum": ["procedural", "theoretical", "nonTechnical", "adverseEventManagement", "communication"]
+    "type": {
+      "const": "competency"
     },
-    "title":       { "$ref": "_common.schema.json#/$defs/localeKeyedString" },
-    "description": { "$ref": "_common.schema.json#/$defs/localeKeyedString" },
+    "modality": {
+      "$ref": "_common.schema.json#/$defs/lineageId"
+    },
+    "kind": {
+      "enum": [
+        "procedural",
+        "theoretical",
+        "nonTechnical",
+        "adverseEventManagement",
+        "communication"
+      ]
+    },
+    "title": {
+      "$ref": "_common.schema.json#/$defs/localeKeyedString"
+    },
+    "description": {
+      "$ref": "_common.schema.json#/$defs/localeKeyedString"
+    },
     "milestones": {
       "type": "array",
       "items": {
         "type": "object",
-        "required": ["level", "criteria"],
+        "required": [
+          "level",
+          "criteria"
+        ],
         "properties": {
-          "level":           { "enum": ["novice", "advanced-beginner", "competent", "proficient", "expert"] },
-          "criteria":        { "$ref": "_common.schema.json#/$defs/localeKeyedString" },
-          "expectedAtCases": { "type": "integer", "minimum": 0 }
+          "level": {
+            "enum": [
+              "novice",
+              "advanced-beginner",
+              "competent",
+              "proficient",
+              "expert"
+            ]
+          },
+          "criteria": {
+            "$ref": "_common.schema.json#/$defs/localeKeyedString"
+          },
+          "expectedAtCases": {
+            "type": "integer",
+            "minimum": 0
+          }
         },
         "additionalProperties": false
       }
     },
-    "suggestedCaseload":    { "type": "integer", "minimum": 0 },
-    "qualityIndicatorRefs": { "type": "array", "items": { "$ref": "_common.schema.json#/$defs/lineageId" } },
-    "kpiRefs":              { "type": "array", "items": { "$ref": "_common.schema.json#/$defs/lineageId" } },
+    "suggestedCaseload": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "qualityIndicatorRefs": {
+      "type": "array",
+      "items": {
+        "$ref": "_common.schema.json#/$defs/lineageId"
+      }
+    },
+    "kpiRefs": {
+      "type": "array",
+      "items": {
+        "$ref": "_common.schema.json#/$defs/lineageId"
+      }
+    },
     "crossRefs": {
       "type": "object",
       "description": "National-portal mappings (UK JAG, NL/BE/DE, etc.). Empty arrays at v1; populated as national societies engage.",
       "properties": {
-        "ukJag":     { "type": "array", "items": { "type": "string" } },
-        "uemsCesma": { "type": "array", "items": { "type": "string" } }
+        "ukJag": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "uemsCesma": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
       },
-      "additionalProperties": { "type": "array", "items": { "type": "string" } }
+      "additionalProperties": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      }
     },
-    "$schema": true, "$id": true, "lineageId": true, "version": true, "release": true,
-    "supersedes": true, "supersededBy": true, "language": true
+    "$schema": true,
+    "$id": true,
+    "lineageId": true,
+    "version": true,
+    "release": true,
+    "supersedes": true,
+    "supersededBy": true,
+    "language": true,
+    "_meta": true
   },
   "additionalProperties": false
 }

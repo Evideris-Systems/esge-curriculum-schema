@@ -4,38 +4,139 @@
   "title": "Release manifest",
   "description": "Calendar-versioned snapshot label pointing at every artifact-version included in the release.",
   "type": "object",
-  "required": ["$id", "type", "release", "releasedAt", "publisher", "license", "source"],
+  "required": [
+    "$id",
+    "type",
+    "release",
+    "releasedAt",
+    "publisher",
+    "license",
+    "source",
+    "_meta"
+  ],
   "properties": {
-    "$schema":   { "type": "string", "format": "uri" },
-    "$id":       { "type": "string", "format": "uri" },
-    "type":      { "const": "release" },
-    "release":   { "$ref": "_common.schema.json#/$defs/calverRelease" },
-    "releasedAt":{ "type": "string", "format": "date" },
-    "publisher": { "type": "string" },
-    "license":   { "type": "string" },
-    "source":    { "type": "string", "format": "uri" },
-    "curricula":       { "type": "array", "items": { "$ref": "#/$defs/artifactRef" } },
-    "recommendations": { "type": "array", "items": { "$ref": "#/$defs/artifactRef" } },
-    "competencies":    { "type": "array", "items": { "$ref": "#/$defs/artifactRef" } },
-    "epas":            { "type": "array", "items": { "$ref": "#/$defs/artifactRef" } },
-    "standards":       { "type": "array", "items": { "$ref": "#/$defs/artifactRef" } },
-    "scoringTools":    { "type": "array", "items": { "$ref": "#/$defs/artifactRef" } },
-    "kpis":            { "type": "array", "items": { "$ref": "#/$defs/artifactRef" } },
-    "qis":             { "type": "array", "items": { "$ref": "#/$defs/artifactRef" } },
-    "cats":            { "type": "array", "items": { "$ref": "#/$defs/artifactRef" } },
-    "changelogSince":  { "$ref": "_common.schema.json#/$defs/calverRelease" },
-    "majorBumps":      { "type": "array", "items": { "type": "string" } },
-    "minorBumps":      { "type": "array", "items": { "type": "string" } },
-    "patchBumps":      { "type": "array", "items": { "type": "string" } }
+    "$schema": {
+      "type": "string",
+      "format": "uri"
+    },
+    "$id": {
+      "type": "string",
+      "format": "uri"
+    },
+    "type": {
+      "const": "release"
+    },
+    "release": {
+      "$ref": "_common.schema.json#/$defs/calverRelease"
+    },
+    "releasedAt": {
+      "type": "string",
+      "format": "date"
+    },
+    "publisher": {
+      "type": "string"
+    },
+    "license": {
+      "type": "string"
+    },
+    "source": {
+      "type": "string",
+      "format": "uri"
+    },
+    "curricula": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/artifactRef"
+      }
+    },
+    "recommendations": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/artifactRef"
+      }
+    },
+    "competencies": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/artifactRef"
+      }
+    },
+    "epas": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/artifactRef"
+      }
+    },
+    "standards": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/artifactRef"
+      }
+    },
+    "scoringTools": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/artifactRef"
+      }
+    },
+    "kpis": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/artifactRef"
+      }
+    },
+    "qis": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/artifactRef"
+      }
+    },
+    "cats": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/artifactRef"
+      }
+    },
+    "changelogSince": {
+      "$ref": "_common.schema.json#/$defs/calverRelease"
+    },
+    "majorBumps": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "minorBumps": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "patchBumps": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "_meta": {
+      "$ref": "_common.schema.json#/$defs/metaBlock"
+    }
   },
   "additionalProperties": false,
   "$defs": {
     "artifactRef": {
       "type": "object",
-      "required": ["lineageId", "version"],
+      "required": [
+        "lineageId",
+        "version"
+      ],
       "properties": {
-        "lineageId": { "$ref": "_common.schema.json#/$defs/lineageId" },
-        "version":   { "$ref": "_common.schema.json#/$defs/semverString" }
+        "lineageId": {
+          "$ref": "_common.schema.json#/$defs/lineageId"
+        },
+        "version": {
+          "$ref": "_common.schema.json#/$defs/semverString"
+        }
       },
       "additionalProperties": false
     }

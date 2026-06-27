@@ -4,52 +4,124 @@
   "title": "ESGE curriculum (publication wrapper)",
   "description": "Container for a Delphi-derived ESGE publication: authors, journal, methodology, sections, references, and arrays of lineageIds for every recommendation/competency/EPA/etc the publication introduces.",
   "type": "object",
-  "allOf": [{ "$ref": "_common.schema.json#/$defs/envelope" }],
-  "required": ["type", "scope", "targetModalities", "publication", "methodology", "mainStatements"],
+  "allOf": [
+    {
+      "$ref": "_common.schema.json#/$defs/envelope"
+    }
+  ],
+  "required": [
+    "type",
+    "scope",
+    "targetModalities",
+    "publication",
+    "methodology",
+    "mainStatements"
+  ],
   "properties": {
-    "type":      { "const": "curriculum" },
-    "scope":     { "$ref": "_common.schema.json#/$defs/localeKeyedString" },
+    "type": {
+      "const": "curriculum"
+    },
+    "scope": {
+      "$ref": "_common.schema.json#/$defs/localeKeyedString"
+    },
     "targetModalities": {
       "type": "array",
-      "items": { "$ref": "_common.schema.json#/$defs/lineageId" },
+      "items": {
+        "$ref": "_common.schema.json#/$defs/lineageId"
+      },
       "minItems": 1
     },
     "publication": {
       "type": "object",
-      "required": ["title", "authors", "journal", "year", "doi"],
+      "required": [
+        "title",
+        "authors",
+        "journal",
+        "year",
+        "doi"
+      ],
       "properties": {
-        "title":   { "type": "string" },
+        "title": {
+          "type": "string"
+        },
         "authors": {
           "type": "array",
           "items": {
             "type": "object",
-            "required": ["name"],
+            "required": [
+              "name"
+            ],
             "properties": {
-              "name":        { "type": "string" },
-              "affiliation": { "type": "string" }
+              "name": {
+                "type": "string"
+              },
+              "affiliation": {
+                "type": "string"
+              }
             },
             "additionalProperties": false
           },
           "minItems": 1
         },
-        "journal": { "type": "string" },
-        "year":    { "type": "integer", "minimum": 1900, "maximum": 2100 },
-        "volume":  { "type": ["integer", "string"] },
-        "issue":   { "type": ["integer", "string"] },
-        "pages":   { "type": "string" },
-        "doi":     { "type": "string" },
-        "openAccessUrl": { "type": "string", "format": "uri" }
+        "journal": {
+          "type": "string"
+        },
+        "year": {
+          "type": "integer",
+          "minimum": 1900,
+          "maximum": 2100
+        },
+        "volume": {
+          "type": [
+            "integer",
+            "string"
+          ]
+        },
+        "issue": {
+          "type": [
+            "integer",
+            "string"
+          ]
+        },
+        "pages": {
+          "type": "string"
+        },
+        "doi": {
+          "type": "string"
+        },
+        "openAccessUrl": {
+          "type": "string",
+          "format": "uri"
+        }
       },
       "additionalProperties": false
     },
     "methodology": {
       "type": "object",
-      "required": ["type"],
+      "required": [
+        "type"
+      ],
       "properties": {
-        "type":   { "enum": ["delphi-consensus", "narrative-review", "guideline"] },
-        "rounds": { "type": "integer", "minimum": 1 },
-        "agreementThreshold": { "type": "integer", "minimum": 0, "maximum": 100 },
-        "panelSize": { "type": "integer", "minimum": 1 }
+        "type": {
+          "enum": [
+            "delphi-consensus",
+            "narrative-review",
+            "guideline"
+          ]
+        },
+        "rounds": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "agreementThreshold": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 100
+        },
+        "panelSize": {
+          "type": "integer",
+          "minimum": 1
+        }
       },
       "additionalProperties": false
     },
@@ -57,10 +129,18 @@
       "type": "array",
       "items": {
         "type": "object",
-        "required": ["number", "text"],
+        "required": [
+          "number",
+          "text"
+        ],
         "properties": {
-          "number": { "type": "integer", "minimum": 1 },
-          "text":   { "$ref": "_common.schema.json#/$defs/localeKeyedString" }
+          "number": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "text": {
+            "$ref": "_common.schema.json#/$defs/localeKeyedString"
+          }
         },
         "additionalProperties": false
       },
@@ -70,34 +150,101 @@
       "type": "array",
       "items": {
         "type": "object",
-        "required": ["lineageId", "number", "title"],
+        "required": [
+          "lineageId",
+          "number",
+          "title"
+        ],
         "properties": {
-          "lineageId": { "$ref": "_common.schema.json#/$defs/lineageId" },
-          "number":    { "type": "integer", "minimum": 1 },
-          "title":     { "$ref": "_common.schema.json#/$defs/localeKeyedString" }
+          "lineageId": {
+            "$ref": "_common.schema.json#/$defs/lineageId"
+          },
+          "number": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "title": {
+            "$ref": "_common.schema.json#/$defs/localeKeyedString"
+          }
         },
         "additionalProperties": false
       }
     },
-    "recommendations": { "type": "array", "items": { "$ref": "_common.schema.json#/$defs/lineageId" } },
-    "competencies":    { "type": "array", "items": { "$ref": "_common.schema.json#/$defs/lineageId" } },
-    "epas":            { "type": "array", "items": { "$ref": "_common.schema.json#/$defs/lineageId" } },
-    "standards":       { "type": "array", "items": { "$ref": "_common.schema.json#/$defs/lineageId" } },
-    "scoringTools":    { "type": "array", "items": { "$ref": "_common.schema.json#/$defs/lineageId" } },
-    "kpis":            { "type": "array", "items": { "$ref": "_common.schema.json#/$defs/lineageId" } },
-    "qis":             { "type": "array", "items": { "$ref": "_common.schema.json#/$defs/lineageId" } },
-    "cats":            { "type": "array", "items": { "$ref": "_common.schema.json#/$defs/lineageId" } },
-    "prerequisites":   { "type": "array", "items": { "$ref": "_common.schema.json#/$defs/lineageId" } },
-    "disclaimer":      { "type": "string" },
-    "acknowledgments": { "type": "string" },
+    "recommendations": {
+      "type": "array",
+      "items": {
+        "$ref": "_common.schema.json#/$defs/lineageId"
+      }
+    },
+    "competencies": {
+      "type": "array",
+      "items": {
+        "$ref": "_common.schema.json#/$defs/lineageId"
+      }
+    },
+    "epas": {
+      "type": "array",
+      "items": {
+        "$ref": "_common.schema.json#/$defs/lineageId"
+      }
+    },
+    "standards": {
+      "type": "array",
+      "items": {
+        "$ref": "_common.schema.json#/$defs/lineageId"
+      }
+    },
+    "scoringTools": {
+      "type": "array",
+      "items": {
+        "$ref": "_common.schema.json#/$defs/lineageId"
+      }
+    },
+    "kpis": {
+      "type": "array",
+      "items": {
+        "$ref": "_common.schema.json#/$defs/lineageId"
+      }
+    },
+    "qis": {
+      "type": "array",
+      "items": {
+        "$ref": "_common.schema.json#/$defs/lineageId"
+      }
+    },
+    "cats": {
+      "type": "array",
+      "items": {
+        "$ref": "_common.schema.json#/$defs/lineageId"
+      }
+    },
+    "prerequisites": {
+      "type": "array",
+      "items": {
+        "$ref": "_common.schema.json#/$defs/lineageId"
+      }
+    },
+    "disclaimer": {
+      "type": "string"
+    },
+    "acknowledgments": {
+      "type": "string"
+    },
     "competingInterests": {
       "type": "array",
       "items": {
         "type": "object",
-        "required": ["author", "statement"],
+        "required": [
+          "author",
+          "statement"
+        ],
         "properties": {
-          "author":    { "type": "string" },
-          "statement": { "type": "string" }
+          "author": {
+            "type": "string"
+          },
+          "statement": {
+            "type": "string"
+          }
         },
         "additionalProperties": false
       }
@@ -106,16 +253,30 @@
       "type": "array",
       "items": {
         "type": "object",
-        "required": ["id", "citation"],
+        "required": [
+          "id",
+          "citation"
+        ],
         "properties": {
-          "id":       { "$ref": "_common.schema.json#/$defs/citationRef" },
-          "citation": { "type": "string" }
+          "id": {
+            "$ref": "_common.schema.json#/$defs/citationRef"
+          },
+          "citation": {
+            "type": "string"
+          }
         },
         "additionalProperties": false
       }
     },
-    "$schema": true, "$id": true, "lineageId": true, "version": true, "release": true,
-    "supersedes": true, "supersededBy": true, "language": true
+    "$schema": true,
+    "$id": true,
+    "lineageId": true,
+    "version": true,
+    "release": true,
+    "supersedes": true,
+    "supersededBy": true,
+    "language": true,
+    "_meta": true
   },
   "additionalProperties": false
 }
