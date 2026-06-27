@@ -12,10 +12,10 @@
   ],
   "withinCurriculum": "cur-emr-colon-2023",
   "title": {
-    "en": "Minimum case count before independent EMR practice"
+    "en": "Prior to independent practice, a minimum of 30 EMR procedures should be performed, culminating in a trainer-guided assessment of competency using a validated assessment tool, taking account of procedural difficulty (e. g. using the SMSA polyp score)."
   },
   "metric": {
-    "en": "Number of EMR procedures performed independently over a minimum 6-month training period, culminating in a trainer-guided assessment of competency using a validated assessment tool stratified by procedural difficulty (e.g. SMSA polyp score)."
+    "en": "Prior to independent practice, a minimum of 30 EMR procedures should be performed, culminating in a trainer-guided assessment of competency using a validated assessment tool, taking account of procedural difficulty (e. g. using the SMSA polyp score)."
   },
   "unit": "procedures",
   "desiredStandard": 30,

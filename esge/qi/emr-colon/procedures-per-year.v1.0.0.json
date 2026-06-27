@@ -12,10 +12,10 @@
   ],
   "withinCurriculum": "cur-emr-colon-2023",
   "title": {
-    "en": "Procedures performed independently per year (LNPCPs \u2265 20 mm)"
+    "en": "Number of procedures performed independently per year (lesions \u226520 mm)"
   },
   "metric": {
-    "en": "Number of EMR procedures performed independently per year for lesions \u2265 20 mm."
+    "en": "Number of procedures performed independently per year (lesions \u226520 mm)"
   },
   "unit": "procedures/year",
   "desiredStandard": null,

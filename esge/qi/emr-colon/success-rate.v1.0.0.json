@@ -15,7 +15,7 @@
     "en": "LNPCP successfully resected in a single session using EMR"
   },
   "metric": {
-    "en": "Percentage of attempted LNPCPs completely resected in a single EMR session."
+    "en": "LNPCP successfully resected in a single session using EMR"
   },
   "unit": "%",
   "desiredStandard": 91,

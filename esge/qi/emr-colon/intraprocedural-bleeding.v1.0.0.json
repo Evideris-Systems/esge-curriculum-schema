@@ -15,7 +15,7 @@
     "en": "Rate of intraprocedural bleeding"
   },
   "metric": {
-    "en": "Percentage of EMR procedures with clinically significant intraprocedural bleeding requiring endoscopic haemostasis beyond routine technique."
+    "en": "Rate of intraprocedural bleeding"
   },
   "unit": "%",
   "desiredStandard": 14,

@@ -7,146 +7,58 @@
   "release": "r2026.07",
   "supersedes": null,
   "supersededBy": null,
-  "language": [
-    "en"
-  ],
+  "language": ["en"],
+
   "catFamily": "GPAT",
-  "title": {
-    "en": "Global Polypectomy Assessment Tool (GPAT)"
-  },
-  "description": {
-    "en": "Direct-observation tool standardising the language and assessment of polypectomy competence across cold-snare and hot-snare techniques. Components map to Tate EMR 2023 Recs 17 (cold snare) and 20 (hot snare)."
-  },
-  "applicableModalities": [
-    "m-colonoscopy-emr"
-  ],
+  "title": { "en": "Global Polypectomy Assessment Tool (GPAT)" },
+  "description": { "en": "Components of the Global Polypectomy Assessment Tool (GPAT)." },
+
+  "applicableModalities": ["m-colonoscopy-emr"],
   "introducedIn": "cur-emr-colon-2023",
+
   "scoringScale": {
     "kind": "ordinal",
     "levels": [
-      {
-        "value": 1,
-        "label": {
-          "en": "Very poor"
-        }
-      },
-      {
-        "value": 3,
-        "label": {
-          "en": "Intermediate"
-        }
-      },
-      {
-        "value": 5,
-        "label": {
-          "en": "Very good"
-        }
-      }
+      { "value": 1, "label": { "en": "Very poor" } },
+      { "value": 5, "label": { "en": "Very good" } }
     ]
   },
+
   "items": [
     {
-      "lineageId": "cat-gpat-snare-size-type",
-      "label": {
-        "en": "Appropriate snare size / type selected"
-      },
-      "guidance": {
-        "en": "Snare of appropriate size and type for the polyp (thin wire vs. thick wire; dedicated cold vs. hot)."
-      },
+      "lineageId": "cat-gpat-snare-type",
+      "label": { "en": "Snare type" },
+      "guidance": { "en": "Use a dedicated cold snare; Recommendation 17(i)" },
       "assessesRecommendations": [
-        {
-          "lineageId": "rec-emr-cln-r17-cold-snare-placement",
-          "subItem": "i"
-        },
-        {
-          "lineageId": "rec-emr-cln-r17-cold-snare-placement",
-          "subItem": "ii"
-        }
+        { "lineageId": "rec-emr-cln-r17-cold-snare-placement", "subItem": "i" }
       ],
-      "applicability": {
-        "hot-snare": "mandatory",
-        "cold-snare": "mandatory"
-      }
+      "applicability": { "hot-snare": "mandatory", "cold-snare": "mandatory" }
     },
     {
-      "lineageId": "cat-gpat-snare-capture",
-      "label": {
-        "en": "Maximizing snare capture"
-      },
-      "guidance": {
-        "en": "Good capture of polyp tissue within snare; use of downward pressure; use of gas aspiration resulting in complete capture of adequate target tissue."
-      },
+      "lineageId": "cat-gpat-maximizing-tissue-capture",
+      "label": { "en": "Maximizing tissue capture" },
+      "guidance": { "en": "For cold snare using a dedicated thin-wire snare pushing the snare against the colonic wall is also effective to maximize tissue capture; Recommendation 17(viii)" },
       "assessesRecommendations": [
-        {
-          "lineageId": "rec-emr-cln-r17-cold-snare-placement",
-          "subItem": "viii"
-        }
+        { "lineageId": "rec-emr-cln-r17-cold-snare-placement", "subItem": "viii" }
       ],
-      "applicability": {
-        "hot-snare": "mandatory",
-        "cold-snare": "mandatory"
-      }
-    },
-    {
-      "lineageId": "cat-gpat-snare-visualisation",
-      "label": {
-        "en": "Snare precisely visualised during placement and closure (V of the snare)"
-      },
-      "guidance": {
-        "en": "Snare V visualised consistently during closure and kept near the colonoscope."
-      },
-      "assessesRecommendations": [
-        {
-          "lineageId": "rec-emr-cln-r17-cold-snare-placement",
-          "subItem": "vii"
-        }
-      ],
-      "applicability": {
-        "hot-snare": "mandatory",
-        "cold-snare": "mandatory"
-      }
-    },
-    {
-      "lineageId": "cat-gpat-injection-technique",
-      "label": {
-        "en": "Submucosal injection technique"
-      },
-      "guidance": {
-        "en": "Tangential dynamic injection; needle in submucosa; appropriate solution; injection clearly facilitates access to the target lesion."
-      },
-      "applicability": {
-        "hot-snare": "mandatory",
-        "cold-snare": "optional"
-      }
+      "applicability": { "hot-snare": "mandatory", "cold-snare": "mandatory" }
     },
     {
       "lineageId": "cat-gpat-defect-mucosa",
-      "label": {
-        "en": "Defect mucosa: detects and removes residual adenoma at margin and within defect"
-      },
-      "guidance": {
-        "en": "Ostensibly and systematically checks for residual adenomatous tissue within the defect and at the margin, and removes it successfully."
-      },
-      "applicability": {
-        "hot-snare": "mandatory",
-        "cold-snare": "mandatory"
-      }
+      "label": { "en": "Mucosa: looks for, detects, and removes residual adenomatous tissue at margin and within defect" },
+      "guidance": { "en": "Ostensibly and systematically checks for residual adenomatous tissue within the defect and at the defect margin, and removes it successfully" },
+      "applicability": { "hot-snare": "mandatory", "cold-snare": "mandatory" }
     },
     {
       "lineageId": "cat-gpat-defect-muscularis",
-      "label": {
-        "en": "Defect muscularis: detects and treats deep mural injury \u2265 Sydney II"
-      },
-      "guidance": {
-        "en": "Detects and treats Sydney DMI types II\u2013V (or confirms they are not present)."
-      },
-      "applicability": {
-        "hot-snare": "mandatory",
-        "cold-snare": "not-applicable"
-      }
+      "label": { "en": "Muscularis: looks for, detects, and treats deep mural injury ≥II (Sydney classification)" },
+      "guidance": { "en": "Detects and treats types II–V deep mural injury or confirms they are not present" },
+      "applicability": { "hot-snare": "mandatory", "cold-snare": "not-applicable" }
     }
   ],
+
   "references": [],
+
   "_meta": {
     "provenance": {
       "type": "verbatim",

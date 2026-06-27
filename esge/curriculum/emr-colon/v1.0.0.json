@@ -7,72 +7,232 @@
   "release": "r2026.07",
   "supersedes": null,
   "supersededBy": null,
-  "language": ["en"],
-
-  "scope": { "en": "Training in endoscopic mucosal resection (EMR) of large non-pedunculated colorectal polyps (LNPCPs)." },
-  "targetModalities": ["m-colonoscopy-emr"],
-
+  "language": [
+    "en"
+  ],
+  "scope": {
+    "en": "This curriculum is set out in terms of the prerequisites for training, the theoretical knowledge and practical skills required for completion of training, and how competence should be defined and evidenced prior to independent practice."
+  },
+  "targetModalities": [
+    "m-colonoscopy-emr"
+  ],
   "publication": {
     "title": "Curriculum for training in endoscopic mucosal resection in the colon: European Society of Gastrointestinal Endoscopy (ESGE) Position Statement",
     "authors": [
-      { "name": "David J. Tate",          "affiliation": "Department of Gastroenterology and Hepatology, University Hospital of Ghent, Ghent, Belgium" },
-      { "name": "Maria Eva Argenziano",   "affiliation": "Clinic of Gastroenterology, Hepatology and Emergency Digestive Endoscopy, Università Politecnica delle Marche, Ancona, Italy" },
-      { "name": "John Anderson",          "affiliation": "Cheltenham General Hospital, Gloucestershire Hospitals Foundation Trust, Cheltenham, UK" },
-      { "name": "Pradeep Bhandari",       "affiliation": "Endoscopy Department, Portsmouth Hospitals University NHS Trust, Portsmouth, UK" },
-      { "name": "Ivo Boškoski",           "affiliation": "Digestive Endoscopy Unit, Fondazione Policlinico Universitario Agostino Gemelli IRCCS, Rome, Italy" },
-      { "name": "Marek Bugajski",         "affiliation": "Department of Gastroenterology, Luxmed Oncology, Warsaw, Poland" },
-      { "name": "Lobke Desomer",          "affiliation": "AZ Delta Roeselare, University Hospital Ghent, Ghent, Belgium" },
-      { "name": "Steven J. Heitman",      "affiliation": "Division of Gastroenterology and Hepatology, Departments of Medicine and Community Health Sciences, Cumming School of Medicine, University of Calgary, Calgary, Canada" },
-      { "name": "Hiroshi Kashida",        "affiliation": "Department of Gastroenterology and Hepatology, Kindai University Faculty of Medicine, Osaka-Sayama, Japan" },
-      { "name": "Vladimir Kriazhov",      "affiliation": "Endoscopy Department, Nizhny Novgorod Regional Hospital, Nizhny Novgorod, Russia" },
-      { "name": "Ralph R. T. Lee",        "affiliation": "The Ottawa Hospital — Civic Campus, University of Ottawa, Ottawa, Canada" },
-      { "name": "Ivan Lyutakov",          "affiliation": "University Hospital Tsaritsa Yoanna-ISUL, Medical University Sofia, Sofia, Bulgaria" },
-      { "name": "Pedro Pimentel-Nunes",   "affiliation": "Gastroenterology Department, Portuguese Oncology Institute of Porto, Porto, Portugal" },
-      { "name": "Liseth Rivero-Sánchez",  "affiliation": "Department of Gastroenterology, Hospital Clínic Barcelona, Barcelona, Spain" },
-      { "name": "Siwan Thomas-Gibson",    "affiliation": "Wolfson Endoscopy Unit, St Mark's Hospital, London, UK" },
-      { "name": "Henrik Thorlacius",      "affiliation": "Department of Clinical Sciences, Section of Surgery, Skåne University Hospital, Lund University, Malmö, Sweden" },
-      { "name": "Michael J. Bourke",      "affiliation": "Department of Gastroenterology, Westmead Hospital, Westmead, Australia" },
-      { "name": "Tony C. Tham",           "affiliation": "Division of Gastroenterology, Ulster Hospital, Belfast, UK" },
-      { "name": "Raf Bisschops",          "affiliation": "Department of Gastroenterology and Hepatology, University Hospitals Leuven, KU Leuven, Leuven, Belgium" }
+      {
+        "name": "David J. Tate",
+        "affiliation": "Department of Gastroenterology and Hepatology, University Hospital of Ghent, Ghent, Belgium"
+      },
+      {
+        "name": "Maria Eva Argenziano",
+        "affiliation": "Clinic of Gastroenterology, Hepatology and Emergency Digestive Endoscopy, Universit\u00e0 Politecnica delle Marche, Ancona, Italy"
+      },
+      {
+        "name": "John Anderson",
+        "affiliation": "Cheltenham General Hospital, Gloucestershire Hospitals Foundation Trust, Cheltenham, UK"
+      },
+      {
+        "name": "Pradeep Bhandari",
+        "affiliation": "Endoscopy Department, Portsmouth Hospitals University NHS Trust, Portsmouth, UK"
+      },
+      {
+        "name": "Ivo Bo\u0161koski",
+        "affiliation": "Digestive Endoscopy Unit, Fondazione Policlinico Universitario Agostino Gemelli IRCCS, Rome, Italy"
+      },
+      {
+        "name": "Marek Bugajski",
+        "affiliation": "Department of Gastroenterology, Luxmed Oncology, Warsaw, Poland"
+      },
+      {
+        "name": "Lobke Desomer",
+        "affiliation": "AZ Delta Roeselare, University Hospital Ghent, Ghent, Belgium"
+      },
+      {
+        "name": "Steven J. Heitman",
+        "affiliation": "Division of Gastroenterology and Hepatology, Departments of Medicine and Community Health Sciences, Cumming School of Medicine, University of Calgary, Calgary, Canada"
+      },
+      {
+        "name": "Hiroshi Kashida",
+        "affiliation": "Department of Gastroenterology and Hepatology, Kindai University Faculty of Medicine, Osaka-Sayama, Japan"
+      },
+      {
+        "name": "Vladimir Kriazhov",
+        "affiliation": "Endoscopy Department, Nizhny Novgorod Regional Hospital, Nizhny Novgorod, Russia"
+      },
+      {
+        "name": "Ralph R. T. Lee",
+        "affiliation": "The Ottawa Hospital \u2014 Civic Campus, University of Ottawa, Ottawa, Canada"
+      },
+      {
+        "name": "Ivan Lyutakov",
+        "affiliation": "University Hospital Tsaritsa Yoanna-ISUL, Medical University Sofia, Sofia, Bulgaria"
+      },
+      {
+        "name": "Pedro Pimentel-Nunes",
+        "affiliation": "Gastroenterology Department, Portuguese Oncology Institute of Porto, Porto, Portugal"
+      },
+      {
+        "name": "Liseth Rivero-S\u00e1nchez",
+        "affiliation": "Department of Gastroenterology, Hospital Cl\u00ednic Barcelona, Barcelona, Spain"
+      },
+      {
+        "name": "Siwan Thomas-Gibson",
+        "affiliation": "Wolfson Endoscopy Unit, St Mark's Hospital, London, UK"
+      },
+      {
+        "name": "Henrik Thorlacius",
+        "affiliation": "Department of Clinical Sciences, Section of Surgery, Sk\u00e5ne University Hospital, Lund University, Malm\u00f6, Sweden"
+      },
+      {
+        "name": "Michael J. Bourke",
+        "affiliation": "Department of Gastroenterology, Westmead Hospital, Westmead, Australia"
+      },
+      {
+        "name": "Tony C. Tham",
+        "affiliation": "Division of Gastroenterology, Ulster Hospital, Belfast, UK"
+      },
+      {
+        "name": "Raf Bisschops",
+        "affiliation": "Department of Gastroenterology and Hepatology, University Hospitals Leuven, KU Leuven, Leuven, Belgium"
+      }
     ],
     "journal": "Endoscopy",
     "year": 2023,
     "volume": 55,
     "issue": 7,
-    "pages": "645–679",
+    "pages": "645\u2013679",
     "doi": "10.1055/a-2077-0497",
     "openAccessUrl": "https://www.esge.com/assets/downloads/pdfs/guidelines/2023_a-2077-0497.pdf"
   },
-
   "methodology": {
     "type": "delphi-consensus"
   },
-
   "mainStatements": [
-    { "number": 1,  "text": { "en": "Trainees in EMR should have achieved basic competence in diagnostic colonoscopy, < 10-mm polypectomy, pedunculated polypectomy, and common methods of gastrointestinal endoscopic hemostasis. The role of formal training courses is emphasized. Training may then commence in vivo under the direct supervision of a trainer." } },
-    { "number": 2,  "text": { "en": "Endoscopy units training endoscopists in EMR should have specific processes in place to support and facilitate training." } },
-    { "number": 3,  "text": { "en": "A trained EMR practitioner should have mastered theoretical knowledge including how to assess an LNPCP for risk of submucosal invasion, how to interpret the potential difficulty of a particular EMR procedure, how to decide whether to remove a particular LNPCP en bloc or piecemeal, whether the risks of electrosurgical energy can be avoided for a particular LNPCP, the different devices required for EMR, management of adverse events, and interpretation of reports provided by histopathologists." } },
-    { "number": 4,  "text": { "en": "Trained EMR practitioners should be familiar with the patient consent process for EMR." } },
-    { "number": 5,  "text": { "en": "The development of endoscopic non-technical skills (ENTS) and team interaction are important for trainees in EMR." } },
-    { "number": 6,  "text": { "en": "Differences in recommended technique exist between EMR performed with and without electrosurgical energy. Common to both is a standardized technique based upon dynamic injection, controlled and precise snare placement, safety checks prior to the application of tissue transection (cold snare) or electrosurgical energy (hot snare), and interpretation of the post-EMR resection defect." } },
-    { "number": 7,  "text": { "en": "A trained EMR practitioner must be able to manage adverse events associated with EMR including intraprocedural bleeding and perforation, and post-procedural bleeding. Delayed perforation should be avoided by correct interpretation of the post-EMR defect and treatment of deep mural injury." } },
-    { "number": 8,  "text": { "en": "A trained EMR practitioner must be able to communicate EMR procedural findings to patients and provide them with a plan in case of adverse events after discharge and a follow-up plan." } },
-    { "number": 9,  "text": { "en": "A trained EMR practitioner must be able to detect and interrogate a post-endoscopic resection scar for residual or recurrent adenoma and apply treatment if necessary." } },
-    { "number": 10, "text": { "en": "Prior to independent practice, a minimum of 30 EMR procedures should be performed, culminating in a trainer-guided assessment of competency using a validated assessment tool, taking account of procedural difficulty (e. g. using the SMSA polyp score)." } },
-    { "number": 11, "text": { "en": "Trained practitioners should log their key performance indicators (KPIs) of polypectomy during independent practice. A guide for target KPIs is provided in this document." } }
+    {
+      "number": 1,
+      "text": {
+        "en": "Trainees in EMR should have achieved basic competence in diagnostic colonoscopy, < 10-mm polypectomy, pedunculated polypectomy, and common methods of gastrointestinal endoscopic hemostasis. The role of formal training courses is emphasized. Training may then commence in vivo under the direct supervision of a trainer."
+      }
+    },
+    {
+      "number": 2,
+      "text": {
+        "en": "Endoscopy units training endoscopists in EMR should have specific processes in place to support and facilitate training."
+      }
+    },
+    {
+      "number": 3,
+      "text": {
+        "en": "A trained EMR practitioner should have mastered theoretical knowledge including how to assess an LNPCP for risk of submucosal invasion, how to interpret the potential difficulty of a particular EMR procedure, how to decide whether to remove a particular LNPCP en bloc or piecemeal, whether the risks of electrosurgical energy can be avoided for a particular LNPCP, the different devices required for EMR, management of adverse events, and interpretation of reports provided by histopathologists."
+      }
+    },
+    {
+      "number": 4,
+      "text": {
+        "en": "Trained EMR practitioners should be familiar with the patient consent process for EMR."
+      }
+    },
+    {
+      "number": 5,
+      "text": {
+        "en": "The development of endoscopic non-technical skills (ENTS) and team interaction are important for trainees in EMR."
+      }
+    },
+    {
+      "number": 6,
+      "text": {
+        "en": "Differences in recommended technique exist between EMR performed with and without electrosurgical energy. Common to both is a standardized technique based upon dynamic injection, controlled and precise snare placement, safety checks prior to the application of tissue transection (cold snare) or electrosurgical energy (hot snare), and interpretation of the post-EMR resection defect."
+      }
+    },
+    {
+      "number": 7,
+      "text": {
+        "en": "A trained EMR practitioner must be able to manage adverse events associated with EMR including intraprocedural bleeding and perforation, and post-procedural bleeding. Delayed perforation should be avoided by correct interpretation of the post-EMR defect and treatment of deep mural injury."
+      }
+    },
+    {
+      "number": 8,
+      "text": {
+        "en": "A trained EMR practitioner must be able to communicate EMR procedural findings to patients and provide them with a plan in case of adverse events after discharge and a follow-up plan."
+      }
+    },
+    {
+      "number": 9,
+      "text": {
+        "en": "A trained EMR practitioner must be able to detect and interrogate a post-endoscopic resection scar for residual or recurrent adenoma and apply treatment if necessary."
+      }
+    },
+    {
+      "number": 10,
+      "text": {
+        "en": "Prior to independent practice, a minimum of 30 EMR procedures should be performed, culminating in a trainer-guided assessment of competency using a validated assessment tool, taking account of procedural difficulty (e. g. using the SMSA polyp score)."
+      }
+    },
+    {
+      "number": 11,
+      "text": {
+        "en": "Trained practitioners should log their key performance indicators (KPIs) of polypectomy during independent practice. A guide for target KPIs is provided in this document."
+      }
+    }
   ],
-
   "sections": [
-    { "lineageId": "sec-emr-preadoption",   "number": 1, "title": { "en": "Preadoption requirements" } },
-    { "lineageId": "sec-emr-knowledge",     "number": 2, "title": { "en": "Theoretical knowledge required" } },
-    { "lineageId": "sec-emr-before-emr",    "number": 3, "title": { "en": "Before EMR" } },
-    { "lineageId": "sec-emr-during-emr",    "number": 4, "title": { "en": "Recommendations during EMR" } },
-    { "lineageId": "sec-emr-after-emr",     "number": 5, "title": { "en": "After EMR" } },
-    { "lineageId": "sec-emr-surveillance",  "number": 6, "title": { "en": "Surveillance procedures after EMR" } },
-    { "lineageId": "sec-emr-training",      "number": 7, "title": { "en": "Completion of training: sign off and initial credentialing" } },
-    { "lineageId": "sec-emr-lifelong-qi",   "number": 8, "title": { "en": "Lifelong key performance indicators (quality assurance)" } }
+    {
+      "lineageId": "sec-emr-preadoption",
+      "number": 1,
+      "title": {
+        "en": "Preadoption requirements"
+      }
+    },
+    {
+      "lineageId": "sec-emr-knowledge",
+      "number": 2,
+      "title": {
+        "en": "Theoretical knowledge required"
+      }
+    },
+    {
+      "lineageId": "sec-emr-before-emr",
+      "number": 3,
+      "title": {
+        "en": "Before EMR"
+      }
+    },
+    {
+      "lineageId": "sec-emr-during-emr",
+      "number": 4,
+      "title": {
+        "en": "Recommendations during EMR"
+      }
+    },
+    {
+      "lineageId": "sec-emr-after-emr",
+      "number": 5,
+      "title": {
+        "en": "After EMR"
+      }
+    },
+    {
+      "lineageId": "sec-emr-surveillance",
+      "number": 6,
+      "title": {
+        "en": "Surveillance procedures after EMR"
+      }
+    },
+    {
+      "lineageId": "sec-emr-training",
+      "number": 7,
+      "title": {
+        "en": "Completion of training: sign off and initial credentialing"
+      }
+    },
+    {
+      "lineageId": "sec-emr-lifelong-qi",
+      "number": 8,
+      "title": {
+        "en": "Lifelong key performance indicators (quality assurance)"
+      }
+    }
   ],
-
   "recommendations": [
     "rec-emr-cln-r1-prereq-competencies",
     "rec-emr-cln-r2-unit-standards",
@@ -86,8 +246,12 @@
     "std-emr-unit-anticoagulant-protocols",
     "std-emr-unit-preprocedure-information"
   ],
-  "scoringTools": ["st-smsa"],
-  "kpis": ["kpi-emr-cln-30-cases-min"],
+  "scoringTools": [
+    "st-smsa"
+  ],
+  "kpis": [
+    "kpi-emr-cln-30-cases-min"
+  ],
   "qis": [
     "qi-emr-cln-procedures-per-year",
     "qi-emr-cln-success-rate",
@@ -95,34 +259,29 @@
     "qi-emr-cln-intraprocedural-perforation",
     "qi-emr-cln-adenoma-recurrence"
   ],
-  "cats": ["cat-gpat"],
-
-  "disclaimer": "ESGE Position Statements represent a consensus of best practice based on the available evidence at the time of preparation. This is NOT a guideline but a proposal for training in EMR. The statements may not apply in all situations and should be interpreted in the light of specific clinical situations and resource availability. Further controlled clinical studies may be needed to clarify aspects of these statements, and revision may be necessary as new data appear. Clinical considerations may justify a course of action at variance with these recommendations. This ESGE Position Statement is intended to be an educational device to provide information that may assist endoscopists in providing care to patients. The recommendations are not rules and should not be construed as establishing a legal standard of care or as encouraging, advocating, requiring, or discouraging any particular treatment. The legal disclaimer for ESGE guidelines applies to the present position statement.",
-
-  "acknowledgments": "The authors would like to thank the additional experts who contributed to the original Delphi consensus for their expertise and input. These experts were Drs. Gregor Brown, Spiro Raftopoulos, Rajvinder Singh, Paul Fockens, Evelien Dekker, Maria Pellise, John Anderson, Brian Saunders, Sachin Wani, and Sunil Dolwani. The authors would also like to thank Dr. Daniel Wheatley for his categorization of the original Delphi responses, Dr. Nika Dewilde for her assistance with the same, and Drs. Lynn Debels and Sander Smeets for their assistance with referencing and manuscript preparation.",
-
-  "competingInterests": [
-    { "author": "P. Bhandari",       "statement": "P. Bhandari's department received research grants from Boston Scientific (2021) and Fujifilm (2018)." },
-    { "author": "R. Bisschops",      "statement": "R. Bisschops has received grants/research support, and speaker's fees/honoraria from Pentax, Fujifilm, Medtronic, Cook, and Boston Scientific (2019 to present)." },
-    { "author": "D.J. Tate",         "statement": "D.J. Tate has received financial support from Olympus for research support (2019 to present)." },
-    { "author": "J. Anderson",       "statement": "Declares no conflict of interest." },
-    { "author": "M.E. Argenziano",   "statement": "Declares no conflict of interest." },
-    { "author": "I. Boškoski",       "statement": "Declares no conflict of interest." },
-    { "author": "M.J. Bourke",       "statement": "Declares no conflict of interest." },
-    { "author": "M. Bugajski",       "statement": "Declares no conflict of interest." },
-    { "author": "L. Desomer",        "statement": "Declares no conflict of interest." },
-    { "author": "S.J. Heitman",      "statement": "Declares no conflict of interest." },
-    { "author": "H. Kashida",        "statement": "Declares no conflict of interest." },
-    { "author": "V. Kriazhov",       "statement": "Declares no conflict of interest." },
-    { "author": "R.R.T. Lee",        "statement": "Declares no conflict of interest." },
-    { "author": "I. Lyutakov",       "statement": "Declares no conflict of interest." },
-    { "author": "P. Pimentel-Nunes", "statement": "Declares no conflict of interest." },
-    { "author": "L. Rivero-Sánchez", "statement": "Declares no conflict of interest." },
-    { "author": "T.C. Tham",         "statement": "Declares no conflict of interest." },
-    { "author": "S. Thomas-Gibson",  "statement": "Declares no conflict of interest." },
-    { "author": "H. Thorlacius",     "statement": "Declares no conflict of interest." }
+  "cats": [
+    "cat-gpat"
   ],
-
+  "disclaimer": "ESGE Position Statements represent a consensus of best practice based on the available evidence at the time of preparation. This is NOT a guideline but a proposal for training in EMR. The statements may not apply in all situations and should be interpreted in the light of specific clinical situations and resource availability. Further controlled clinical studies may be needed to clarify aspects of these statements, and revision may be necessary as new data appear. Clinical considerations may justify a course of action at variance with these recommendations. This ESGE Position Statement is intended to be an educational device to provide information that may assist endoscopists in providing care to patients. The recommendations are not rules and should not be construed as establishing a legal standard of care or as encouraging, advocating, requiring, or discouraging any particular treatment. The legal disclaimer for ESGE guidelines applies to the present position statement.",
+  "acknowledgments": "The authors would like to thank the additional experts who contributed to the original Delphi consensus for their expertise and input. These experts were Drs. Gregor Brown, Spiro Raftopoulos, Rajvinder Singh, Paul Fockens, Evelien Dekker, Maria Pellise, John Anderson, Brian Saunders, Sachin Wani, and Sunil Dolwani. The authors would also like to thank Dr. Daniel Wheatley for his categorization of the original Delphi responses, Dr. Nika Dewilde for her assistance with the same, and Drs. Lynn Debels and Sander Smeets for their assistance with referencing and manuscript preparation.",
+  "competingInterests": [
+    {
+      "author": "P. Bhandari",
+      "statement": "P. Bhandari's department received research grants from Boston Scientific (2021) and Fujifilm (2018)."
+    },
+    {
+      "author": "R. Bisschops",
+      "statement": "R. Bisschops has received grants/ research support, and speaker's fees/honoraria from Pentax, Fujifilm, Medtronic, Cook, and Boston Scientific (2019 to present)."
+    },
+    {
+      "author": "D.J. Tate",
+      "statement": "D.J. Tate has received financial support from Olympus for research support (2019 to present)."
+    },
+    {
+      "author": "J. Anderson, M.E. Argenziano, I. Bo\u0161koski, M.J. Bourke, M. Bugajski, L. Desomer, S.J. Heitman, H. Kashida, V. Kriazhov, R.R.T. Lee, I. Lyutakov, P. Pimentel-Nunes, L. Rivero-S\u00e1nchez, T.C. Tham, S. Thomas-Gibson, H. Thorlacius",
+      "statement": "J. Anderson, M.E. Argenziano, I. Bo\u0161koski, M.J. Bourke, M. Bugajski, L. Desomer, S.J. Heitman, H. Kashida, V. Kriazhov, R.R.T. Lee, I. Lyutakov, P. Pimentel-Nunes, L. Rivero-S\u00e1nchez, T.C. Tham, S. Thomas-Gibson, H. Thorlacius declare that they have no conflict of interest."
+    }
+  ],
   "_meta": {
     "provenance": {
       "type": "verbatim",

@@ -24,47 +24,8 @@
     "evidenceQuality": "no-evidence-available",
     "levelOfAgreement": 97
   },
-  "subItems": [
-    {
-      "label": "i",
-      "text": {
-        "en": "Basic competence in diagnostic colonoscopy (per local protocols)."
-      },
-      "references": [
-        "ref-17"
-      ]
-    },
-    {
-      "label": "ii",
-      "text": {
-        "en": "Competence in polypectomy of < 10 mm lesions (cold-snare and electrosurgery)."
-      },
-      "references": [
-        "ref-17"
-      ]
-    },
-    {
-      "label": "iii",
-      "text": {
-        "en": "Competence in pedunculated polypectomy with electrosurgical energy."
-      },
-      "references": [
-        "ref-17"
-      ]
-    },
-    {
-      "label": "iv",
-      "text": {
-        "en": "Familiarity with common methods of GI endoscopic haemostasis (as defined by local protocols)."
-      },
-      "references": [
-        "ref-17"
-      ]
-    }
-  ],
-  "references": [
-    "ref-17"
-  ],
+  "subItems": [],
+  "references": [],
   "_meta": {
     "provenance": {
       "type": "verbatim",

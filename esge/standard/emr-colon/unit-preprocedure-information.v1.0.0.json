@@ -7,19 +7,19 @@
   "release": "r2026.07",
   "supersedes": null,
   "supersededBy": null,
-  "language": ["en"],
-
+  "language": [
+    "en"
+  ],
   "withinCurriculum": "cur-emr-colon-2023",
   "appliesTo": "unit",
-
-  "title": { "en": "Pre-procedure information delivery to patients" },
+  "title": {
+    "en": "Formal procedures should exist, either via written information, remote consultation, or face-to-face discussion, to communicate specific information to the patient prior to the procedure, particularly to facilitate excellent bowel preparation."
+  },
   "text": {
     "en": "Formal procedures should exist, either via written information, remote consultation, or face-to-face discussion, to communicate specific information to the patient prior to the procedure, particularly to facilitate excellent bowel preparation."
   },
-
   "derivedFromRecommendation": "rec-emr-cln-r2-unit-standards",
   "subItemLabel": "iii",
-
   "_meta": {
     "provenance": {
       "type": "verbatim",

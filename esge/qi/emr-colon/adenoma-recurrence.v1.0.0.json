@@ -12,10 +12,10 @@
   ],
   "withinCurriculum": "cur-emr-colon-2023",
   "title": {
-    "en": "Rate of adenoma recurrence at first surveillance (overall)"
+    "en": "Rate of adenoma recurrence at first surveillance (endoscopically determined), overall"
   },
   "metric": {
-    "en": "Endoscopically determined adenoma recurrence at first surveillance colonoscopy after index EMR, irrespective of resection technique."
+    "en": "Rate of adenoma recurrence at first surveillance (endoscopically determined), overall"
   },
   "unit": "%",
   "desiredStandard": 14,

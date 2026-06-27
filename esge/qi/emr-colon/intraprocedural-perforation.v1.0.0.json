@@ -15,7 +15,7 @@
     "en": "Rate of intraprocedural perforation"
   },
   "metric": {
-    "en": "Percentage of EMR procedures with intraprocedural perforation (Sydney DMI \u2265 III)."
+    "en": "Rate of intraprocedural perforation"
   },
   "unit": "%",
   "desiredStandard": 3.5,
