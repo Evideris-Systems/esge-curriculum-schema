@@ -191,11 +191,27 @@
   ],
   "qis": [
     {
-      "lineageId": "qi-emr-cln-procedures-per-year",
+      "lineageId": "qi-emr-cln-adenoma-recurrence-treatable-endoscopically",
       "version": "1.0.0"
     },
     {
-      "lineageId": "qi-emr-cln-success-rate",
+      "lineageId": "qi-emr-cln-adenoma-recurrence-with-margin-ablation",
+      "version": "1.0.0"
+    },
+    {
+      "lineageId": "qi-emr-cln-adenoma-recurrence",
+      "version": "1.0.0"
+    },
+    {
+      "lineageId": "qi-emr-cln-clinically-significant-post-emr-bleeding",
+      "version": "1.0.0"
+    },
+    {
+      "lineageId": "qi-emr-cln-complete-perforation-closure",
+      "version": "1.0.0"
+    },
+    {
+      "lineageId": "qi-emr-cln-delayed-perforation",
       "version": "1.0.0"
     },
     {
@@ -207,7 +223,43 @@
       "version": "1.0.0"
     },
     {
-      "lineageId": "qi-emr-cln-adenoma-recurrence",
+      "lineageId": "qi-emr-cln-lnpcp-attempt-rate",
+      "version": "1.0.0"
+    },
+    {
+      "lineageId": "qi-emr-cln-patient-consent-documentation",
+      "version": "1.0.0"
+    },
+    {
+      "lineageId": "qi-emr-cln-patient-satisfaction-recorded",
+      "version": "1.0.0"
+    },
+    {
+      "lineageId": "qi-emr-cln-patients-returning-surveillance",
+      "version": "1.0.0"
+    },
+    {
+      "lineageId": "qi-emr-cln-practitioner-outcome-awareness",
+      "version": "1.0.0"
+    },
+    {
+      "lineageId": "qi-emr-cln-procedures-per-year",
+      "version": "1.0.0"
+    },
+    {
+      "lineageId": "qi-emr-cln-success-rate",
+      "version": "1.0.0"
+    },
+    {
+      "lineageId": "qi-emr-cln-surgery-for-incomplete-emr",
+      "version": "1.0.0"
+    },
+    {
+      "lineageId": "qi-emr-cln-surgery-for-unresectable-recurrence",
+      "version": "1.0.0"
+    },
+    {
+      "lineageId": "qi-emr-cln-unplanned-hospitalization",
       "version": "1.0.0"
     }
   ],
@@ -226,7 +278,8 @@
     "Added: per-artifact _meta envelope with provenance (verbatim/paraphrased + source DOI)",
     "Added: refs-cur-emr-colon-2023 (separate references artifact with all 150 source bibliography entries resolved to Crossref DOIs; 14 marked lowConfidence for hand-verification)",
     "Curriculum wrapper: all 11 main statements re-extracted verbatim (Statement 4 corrected); 8 sections (was 7 \u2014 added Section 6 Surveillance); per-author competing interests (was lumped); full author affiliations from PDF",
-    "31 additional recommendations auto-extracted from source PDF via scripts/extract-recommendations.py (verbatim statement+GRADE+sub-items+references; all pass source-trace)"
+    "31 additional recommendations auto-extracted from source PDF via scripts/extract-recommendations.py (verbatim statement+GRADE+sub-items+references; all pass source-trace)",
+    "All 18 Table 6 QIs encoded (was 5 \u2014 added 13 more via scripts/extract-qis.py one-shot extractor)"
   ],
   "patchBumps": [],
   "_meta": {

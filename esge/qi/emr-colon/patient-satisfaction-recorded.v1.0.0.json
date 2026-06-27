@@ -1,0 +1,39 @@
+{
+  "$schema": "https://schema.evideris.com/schemas/qi.schema.json",
+  "$id": "https://schema.evideris.com/esge/qi/emr-colon/patient-satisfaction-recorded.v1.0.0.json",
+  "lineageId": "qi-emr-cln-patient-satisfaction-recorded",
+  "type": "qi",
+  "version": "1.0.0",
+  "release": "r2026.07",
+  "supersedes": null,
+  "supersededBy": null,
+  "language": [
+    "en"
+  ],
+  "withinCurriculum": "cur-emr-colon-2023",
+  "title": {
+    "en": "Patient satisfaction recorded including comfort scores"
+  },
+  "metric": {
+    "en": "Patient satisfaction recorded including comfort scores"
+  },
+  "unit": "%",
+  "desiredStandard": 90.0,
+  "minimumStandard": 80.0,
+  "originData": {
+    "source": "delphi",
+    "value": null,
+    "confidenceInterval95": null
+  },
+  "levelOfAgreement": 81,
+  "appliesTo": "practitioner",
+  "derivedFromRecommendation": "rec-emr-cln-r38-essential-qis",
+  "_meta": {
+    "provenance": {
+      "type": "verbatim",
+      "source_doi": "10.1055/a-2077-0497"
+    },
+    "encodedBy": "claude:extract-qis@v0.1.0",
+    "encodedAt": "2026-06-27"
+  }
+}

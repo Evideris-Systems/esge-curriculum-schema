@@ -1,0 +1,42 @@
+{
+  "$schema": "https://schema.evideris.com/schemas/qi.schema.json",
+  "$id": "https://schema.evideris.com/esge/qi/emr-colon/surgery-for-unresectable-recurrence.v1.0.0.json",
+  "lineageId": "qi-emr-cln-surgery-for-unresectable-recurrence",
+  "type": "qi",
+  "version": "1.0.0",
+  "release": "r2026.07",
+  "supersedes": null,
+  "supersededBy": null,
+  "language": [
+    "en"
+  ],
+  "withinCurriculum": "cur-emr-colon-2023",
+  "title": {
+    "en": "Rate of surgery for inability to resect recurrence"
+  },
+  "metric": {
+    "en": "Rate of surgery for inability to resect recurrence"
+  },
+  "unit": "%",
+  "desiredStandard": 1.2,
+  "minimumStandard": 4.4,
+  "originData": {
+    "source": "iace",
+    "value": 1.2,
+    "confidenceInterval95": {
+      "low": 0.3,
+      "high": 4.4
+    }
+  },
+  "levelOfAgreement": 79,
+  "appliesTo": "practitioner",
+  "derivedFromRecommendation": "rec-emr-cln-r38-essential-qis",
+  "_meta": {
+    "provenance": {
+      "type": "verbatim",
+      "source_doi": "10.1055/a-2077-0497"
+    },
+    "encodedBy": "claude:extract-qis@v0.1.0",
+    "encodedAt": "2026-06-27"
+  }
+}

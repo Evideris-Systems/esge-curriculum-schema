@@ -1,0 +1,42 @@
+{
+  "$schema": "https://schema.evideris.com/schemas/qi.schema.json",
+  "$id": "https://schema.evideris.com/esge/qi/emr-colon/adenoma-recurrence-treatable-endoscopically.v1.0.0.json",
+  "lineageId": "qi-emr-cln-adenoma-recurrence-treatable-endoscopically",
+  "type": "qi",
+  "version": "1.0.0",
+  "release": "r2026.07",
+  "supersedes": null,
+  "supersededBy": null,
+  "language": [
+    "en"
+  ],
+  "withinCurriculum": "cur-emr-colon-2023",
+  "title": {
+    "en": "Rate of adenoma recurrence able to be treated endoscopically"
+  },
+  "metric": {
+    "en": "Rate of adenoma recurrence able to be treated endoscopically"
+  },
+  "unit": "%",
+  "desiredStandard": 96.0,
+  "minimumStandard": 92.0,
+  "originData": {
+    "source": "iace",
+    "value": 96.0,
+    "confidenceInterval95": {
+      "low": 92.4,
+      "high": 98.0
+    }
+  },
+  "levelOfAgreement": 88,
+  "appliesTo": "practitioner",
+  "derivedFromRecommendation": "rec-emr-cln-r38-essential-qis",
+  "_meta": {
+    "provenance": {
+      "type": "verbatim",
+      "source_doi": "10.1055/a-2077-0497"
+    },
+    "encodedBy": "claude:extract-qis@v0.1.0",
+    "encodedAt": "2026-06-27"
+  }
+}

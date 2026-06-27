@@ -1,0 +1,42 @@
+{
+  "$schema": "https://schema.evideris.com/schemas/qi.schema.json",
+  "$id": "https://schema.evideris.com/esge/qi/emr-colon/surgery-for-incomplete-emr.v1.0.0.json",
+  "lineageId": "qi-emr-cln-surgery-for-incomplete-emr",
+  "type": "qi",
+  "version": "1.0.0",
+  "release": "r2026.07",
+  "supersedes": null,
+  "supersededBy": null,
+  "language": [
+    "en"
+  ],
+  "withinCurriculum": "cur-emr-colon-2023",
+  "title": {
+    "en": "Rate of surgery for incomplete EMR, adverse event, or malignant histology (patient does not enter surveillance)"
+  },
+  "metric": {
+    "en": "Rate of surgery for incomplete EMR, adverse event, or malignant histology (patient does not enter surveillance)"
+  },
+  "unit": "%",
+  "desiredStandard": 4.1,
+  "minimumStandard": 6.2,
+  "originData": {
+    "source": "iace",
+    "value": 4.1,
+    "confidenceInterval95": {
+      "low": 3.6,
+      "high": 4.7
+    }
+  },
+  "levelOfAgreement": 81,
+  "appliesTo": "practitioner",
+  "derivedFromRecommendation": "rec-emr-cln-r38-essential-qis",
+  "_meta": {
+    "provenance": {
+      "type": "verbatim",
+      "source_doi": "10.1055/a-2077-0497"
+    },
+    "encodedBy": "claude:extract-qis@v0.1.0",
+    "encodedAt": "2026-06-27"
+  }
+}

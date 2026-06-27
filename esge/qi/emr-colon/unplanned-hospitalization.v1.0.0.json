@@ -1,0 +1,42 @@
+{
+  "$schema": "https://schema.evideris.com/schemas/qi.schema.json",
+  "$id": "https://schema.evideris.com/esge/qi/emr-colon/unplanned-hospitalization.v1.0.0.json",
+  "lineageId": "qi-emr-cln-unplanned-hospitalization",
+  "type": "qi",
+  "version": "1.0.0",
+  "release": "r2026.07",
+  "supersedes": null,
+  "supersededBy": null,
+  "language": [
+    "en"
+  ],
+  "withinCurriculum": "cur-emr-colon-2023",
+  "title": {
+    "en": "Rate of unplanned hospitalization/readmission"
+  },
+  "metric": {
+    "en": "Rate of unplanned hospitalization/readmission"
+  },
+  "unit": "%",
+  "desiredStandard": 3.0,
+  "minimumStandard": 4.5,
+  "originData": {
+    "source": "iace",
+    "value": 3.0,
+    "confidenceInterval95": {
+      "low": 2.6,
+      "high": 3.5
+    }
+  },
+  "levelOfAgreement": 89,
+  "appliesTo": "practitioner",
+  "derivedFromRecommendation": "rec-emr-cln-r38-essential-qis",
+  "_meta": {
+    "provenance": {
+      "type": "verbatim",
+      "source_doi": "10.1055/a-2077-0497"
+    },
+    "encodedBy": "claude:extract-qis@v0.1.0",
+    "encodedAt": "2026-06-27"
+  }
+}

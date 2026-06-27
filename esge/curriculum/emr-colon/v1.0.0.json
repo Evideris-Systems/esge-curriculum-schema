@@ -284,11 +284,24 @@
     "kpi-emr-cln-30-cases-min"
   ],
   "qis": [
-    "qi-emr-cln-procedures-per-year",
-    "qi-emr-cln-success-rate",
+    "qi-emr-cln-adenoma-recurrence-treatable-endoscopically",
+    "qi-emr-cln-adenoma-recurrence-with-margin-ablation",
+    "qi-emr-cln-adenoma-recurrence",
+    "qi-emr-cln-clinically-significant-post-emr-bleeding",
+    "qi-emr-cln-complete-perforation-closure",
+    "qi-emr-cln-delayed-perforation",
     "qi-emr-cln-intraprocedural-bleeding",
     "qi-emr-cln-intraprocedural-perforation",
-    "qi-emr-cln-adenoma-recurrence"
+    "qi-emr-cln-lnpcp-attempt-rate",
+    "qi-emr-cln-patient-consent-documentation",
+    "qi-emr-cln-patient-satisfaction-recorded",
+    "qi-emr-cln-patients-returning-surveillance",
+    "qi-emr-cln-practitioner-outcome-awareness",
+    "qi-emr-cln-procedures-per-year",
+    "qi-emr-cln-success-rate",
+    "qi-emr-cln-surgery-for-incomplete-emr",
+    "qi-emr-cln-surgery-for-unresectable-recurrence",
+    "qi-emr-cln-unplanned-hospitalization"
   ],
   "cats": [
     "cat-gpat"

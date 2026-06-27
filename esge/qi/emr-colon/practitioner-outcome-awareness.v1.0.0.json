@@ -1,0 +1,39 @@
+{
+  "$schema": "https://schema.evideris.com/schemas/qi.schema.json",
+  "$id": "https://schema.evideris.com/esge/qi/emr-colon/practitioner-outcome-awareness.v1.0.0.json",
+  "lineageId": "qi-emr-cln-practitioner-outcome-awareness",
+  "type": "qi",
+  "version": "1.0.0",
+  "release": "r2026.07",
+  "supersedes": null,
+  "supersededBy": null,
+  "language": [
+    "en"
+  ],
+  "withinCurriculum": "cur-emr-colon-2023",
+  "title": {
+    "en": "Practitioners of EMR should be aware of their own outcomes and follow them up"
+  },
+  "metric": {
+    "en": "Practitioners of EMR should be aware of their own outcomes and follow them up"
+  },
+  "unit": "%",
+  "desiredStandard": null,
+  "minimumStandard": null,
+  "originData": {
+    "source": "delphi",
+    "value": null,
+    "confidenceInterval95": null
+  },
+  "levelOfAgreement": 90,
+  "appliesTo": "practitioner",
+  "derivedFromRecommendation": "rec-emr-cln-r38-essential-qis",
+  "_meta": {
+    "provenance": {
+      "type": "verbatim",
+      "source_doi": "10.1055/a-2077-0497"
+    },
+    "encodedBy": "claude:extract-qis@v0.1.0",
+    "encodedAt": "2026-06-27"
+  }
+}

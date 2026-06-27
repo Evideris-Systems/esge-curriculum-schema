@@ -1,0 +1,42 @@
+{
+  "$schema": "https://schema.evideris.com/schemas/qi.schema.json",
+  "$id": "https://schema.evideris.com/esge/qi/emr-colon/clinically-significant-post-emr-bleeding.v1.0.0.json",
+  "lineageId": "qi-emr-cln-clinically-significant-post-emr-bleeding",
+  "type": "qi",
+  "version": "1.0.0",
+  "release": "r2026.07",
+  "supersedes": null,
+  "supersededBy": null,
+  "language": [
+    "en"
+  ],
+  "withinCurriculum": "cur-emr-colon-2023",
+  "title": {
+    "en": "Rate of clinically significant post-EMR bleeding"
+  },
+  "metric": {
+    "en": "Rate of clinically significant post-EMR bleeding"
+  },
+  "unit": "%",
+  "desiredStandard": 6.0,
+  "minimumStandard": 8.5,
+  "originData": {
+    "source": "iace",
+    "value": 5.9,
+    "confidenceInterval95": {
+      "low": 5.3,
+      "high": 6.6
+    }
+  },
+  "levelOfAgreement": 88,
+  "appliesTo": "practitioner",
+  "derivedFromRecommendation": "rec-emr-cln-r38-essential-qis",
+  "_meta": {
+    "provenance": {
+      "type": "verbatim",
+      "source_doi": "10.1055/a-2077-0497"
+    },
+    "encodedBy": "claude:extract-qis@v0.1.0",
+    "encodedAt": "2026-06-27"
+  }
+}

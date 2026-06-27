@@ -1,0 +1,42 @@
+{
+  "$schema": "https://schema.evideris.com/schemas/qi.schema.json",
+  "$id": "https://schema.evideris.com/esge/qi/emr-colon/lnpcp-attempt-rate.v1.0.0.json",
+  "lineageId": "qi-emr-cln-lnpcp-attempt-rate",
+  "type": "qi",
+  "version": "1.0.0",
+  "release": "r2026.07",
+  "supersedes": null,
+  "supersededBy": null,
+  "language": [
+    "en"
+  ],
+  "withinCurriculum": "cur-emr-colon-2023",
+  "title": {
+    "en": "LNPCP attempted for EMR (vs. those deemed endoscopically unresectable for technical reasons or due to risk of submucosal invasion)"
+  },
+  "metric": {
+    "en": "LNPCP attempted for EMR (vs. those deemed endoscopically unresectable for technical reasons or due to risk of submucosal invasion)"
+  },
+  "unit": "%",
+  "desiredStandard": 95.0,
+  "minimumStandard": 90.0,
+  "originData": {
+    "source": "iace",
+    "value": 94.6,
+    "confidenceInterval95": {
+      "low": 93.9,
+      "high": 95.2
+    }
+  },
+  "levelOfAgreement": 82,
+  "appliesTo": "practitioner",
+  "derivedFromRecommendation": "rec-emr-cln-r38-essential-qis",
+  "_meta": {
+    "provenance": {
+      "type": "verbatim",
+      "source_doi": "10.1055/a-2077-0497"
+    },
+    "encodedBy": "claude:extract-qis@v0.1.0",
+    "encodedAt": "2026-06-27"
+  }
+}
