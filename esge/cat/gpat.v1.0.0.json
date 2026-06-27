@@ -26,22 +26,93 @@
 
   "items": [
     {
-      "lineageId": "cat-gpat-snare-type",
-      "label": { "en": "Snare type" },
-      "guidance": { "en": "Use a dedicated cold snare; Recommendation 17(i)" },
+      "lineageId": "cat-gpat-tip-control",
+      "label": { "en": "Tip control" },
+      "guidance": { "en": "Controlled, stable and purposeful" },
+      "applicability": { "hot-snare": "mandatory", "cold-snare": "mandatory" }
+    },
+    {
+      "lineageId": "cat-gpat-appreciates-extent",
+      "label": { "en": "Fully appreciates/demonstrates extent of the polyp to be resected" },
+      "guidance": { "en": "Clearly appreciates entire extent of the polyp; approach and resection reflect this" },
       "assessesRecommendations": [
-        { "lineageId": "rec-emr-cln-r17-cold-snare-placement", "subItem": "i" }
+        { "lineageId": "rec-emr-cln-r3-smi-assessment", "subItem": "i" },
+        { "lineageId": "rec-emr-cln-r3-smi-assessment", "subItem": "ii" },
+        { "lineageId": "rec-emr-cln-r3-smi-assessment", "subItem": "iii" }
       ],
       "applicability": { "hot-snare": "mandatory", "cold-snare": "mandatory" }
     },
     {
-      "lineageId": "cat-gpat-maximizing-tissue-capture",
-      "label": { "en": "Maximizing tissue capture" },
-      "guidance": { "en": "For cold snare using a dedicated thin-wire snare pushing the snare against the colonic wall is also effective to maximize tissue capture; Recommendation 17(viii)" },
-      "assessesRecommendations": [
-        { "lineageId": "rec-emr-cln-r17-cold-snare-placement", "subItem": "viii" }
-      ],
+      "lineageId": "cat-gpat-positioning",
+      "label": { "en": "Positioning with respect to the polyp" },
+      "guidance": { "en": "Lesion at or near 6 o'clock, close to the colonoscope, fluid lies away from lesion (good use of gravity)" },
       "applicability": { "hot-snare": "mandatory", "cold-snare": "mandatory" }
+    },
+    {
+      "lineageId": "cat-gpat-technique-selected",
+      "label": { "en": "Technique selected is appropriate for the polyp resected" },
+      "guidance": { "en": "Correct decision for en bloc vs. piecemeal resection, hot vs. cold appropriate for the polyp" },
+      "applicability": { "hot-snare": "mandatory", "cold-snare": "mandatory" }
+    },
+    {
+      "lineageId": "cat-gpat-injection-correct-plane",
+      "label": { "en": "Injection is performed in the correct plane" },
+      "guidance": { "en": "The submucosal plane is quickly found and injection rapidly results in sustained mucosal lifting (needle in submucosa)" },
+      "applicability": { "hot-snare": "mandatory", "cold-snare": "optional" }
+    },
+    {
+      "lineageId": "cat-gpat-injection-dynamic",
+      "label": { "en": "Injection is performed dynamically" },
+      "guidance": { "en": "Once the needle is in the submucosa, there is graduated movement of the needle away from the muscularis towards the center of the lumen" },
+      "applicability": { "hot-snare": "mandatory", "cold-snare": "optional" }
+    },
+    {
+      "lineageId": "cat-gpat-injection-access",
+      "label": { "en": "Injection is used to improve lesion access" },
+      "guidance": { "en": "Injection clearly facilitates access to the target lesion" },
+      "applicability": { "hot-snare": "mandatory", "cold-snare": "optional" }
+    },
+    {
+      "lineageId": "cat-gpat-snare-size-type",
+      "label": { "en": "Appropriate snare size/type selected" },
+      "guidance": { "en": "Snare of appropriate size and type for the polyp" },
+      "applicability": { "hot-snare": "mandatory", "cold-snare": "mandatory" }
+    },
+    {
+      "lineageId": "cat-gpat-stable-position",
+      "label": { "en": "Stable position with lesion at 6 o'clock OR transformed to 6 o'clock" },
+      "guidance": { "en": "Snare position is consistently maintained at 6 o'clock and the position is stable" },
+      "applicability": { "hot-snare": "mandatory", "cold-snare": "mandatory" }
+    },
+    {
+      "lineageId": "cat-gpat-maximizing-snare-capture",
+      "label": { "en": "Maximizing snare capture" },
+      "guidance": { "en": "Good capture of polyp tissue within snare/use of downward pressure/use of gas aspiration resulting in complete capture of adequate target tissue" },
+      "applicability": { "hot-snare": "mandatory", "cold-snare": "mandatory" }
+    },
+    {
+      "lineageId": "cat-gpat-snare-precisely-visualised",
+      "label": { "en": "Snare precisely visualized during placement and closure (V of the snare)" },
+      "guidance": { "en": "Snare V visualized consistently during closure and near to the colonoscope" },
+      "applicability": { "hot-snare": "mandatory", "cold-snare": "mandatory" }
+    },
+    {
+      "lineageId": "cat-gpat-no-residual-islands",
+      "label": { "en": "Residual tissue islands avoided if piecemeal resection or macroscopically complete if en bloc resection attempted" },
+      "guidance": { "en": "Snare placement includes > 2–3 mm normal margin (at edge) of tissue or uses transected tissue edge as a guide (within defect) resulting in no tissue islands/complete en bloc" },
+      "applicability": { "hot-snare": "mandatory", "cold-snare": "mandatory" }
+    },
+    {
+      "lineageId": "cat-gpat-confirms-independent-movement",
+      "label": { "en": "Moves the closed snare to confirm independent movement from deeper structures" },
+      "guidance": { "en": "Checks mobility prior to transection with respect to deeper structures" },
+      "applicability": { "hot-snare": "mandatory", "cold-snare": "not-applicable" }
+    },
+    {
+      "lineageId": "cat-gpat-lifts-snare-pre-energy",
+      "label": { "en": "Lifts the snare away from the muscularis propria prior to application of electrosurgical energy" },
+      "guidance": { "en": "Lifts the snare away from the muscularis prior to the application of electrosurgical energy" },
+      "applicability": { "hot-snare": "mandatory", "cold-snare": "not-applicable" }
     },
     {
       "lineageId": "cat-gpat-defect-mucosa",
@@ -50,10 +121,40 @@
       "applicability": { "hot-snare": "mandatory", "cold-snare": "mandatory" }
     },
     {
+      "lineageId": "cat-gpat-thermal-ablation",
+      "label": { "en": "Thermal ablation of the post-EMR margin" },
+      "guidance": { "en": "Steady systematic application, does not ablate visible polyp tissue, complete ablation of the entire margin achieved" },
+      "applicability": { "hot-snare": "optional", "cold-snare": "optional" }
+    },
+    {
+      "lineageId": "cat-gpat-defect-submucosa",
+      "label": { "en": "Submucosa: looks for, detects, and treats any bleeding vessels within the defect" },
+      "guidance": { "en": "Detects and treats bleeding vessels in the submucosa; does not treat other submucosal appearances including herniating vessels" },
+      "applicability": { "hot-snare": "mandatory", "cold-snare": "not-applicable" }
+    },
+    {
       "lineageId": "cat-gpat-defect-muscularis",
       "label": { "en": "Muscularis: looks for, detects, and treats deep mural injury ≥II (Sydney classification)" },
       "guidance": { "en": "Detects and treats types II–V deep mural injury or confirms they are not present" },
       "applicability": { "hot-snare": "mandatory", "cold-snare": "not-applicable" }
+    },
+    {
+      "lineageId": "cat-gpat-tts-clips",
+      "label": { "en": "Placement of through-the-scope clips" },
+      "guidance": { "en": "Good use of suction, positioning, and rotation to capture required tissue and achieves secure appearing closure" },
+      "applicability": { "hot-snare": "optional", "cold-snare": "optional" }
+    },
+    {
+      "lineageId": "cat-gpat-polyp-retrieval",
+      "label": { "en": "Use of polyp retrieval device" },
+      "guidance": { "en": "6 o'clock position, sequential place and retrieve technique applied, captures all pieces successfully" },
+      "applicability": { "hot-snare": "optional", "cold-snare": "optional" }
+    },
+    {
+      "lineageId": "cat-gpat-coagulation-grasper",
+      "label": { "en": "Use of coagulation grasper" },
+      "guidance": { "en": "Uses water to identify the causative vessel, confirms correct placement with cessation of bleeding after closure, tents vessel away from the muscularis to apply electrosurgical energy" },
+      "applicability": { "hot-snare": "optional", "cold-snare": "optional" }
     }
   ],
 

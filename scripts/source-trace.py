@@ -44,6 +44,8 @@ def normalise(s: str) -> str:
     s = re.sub(r"\s+", " ", s)
     # Join hyphenated line breaks: "pedun- culated" -> "pedunculated".
     s = re.sub(r"(\w)-\s+(\w)", r"\1\2", s)
+    # Same for slash-line-break: "size/ type" -> "size/type".
+    s = re.sub(r"(\w)/\s+(\w)", r"\1/\2", s)
     # Strip ▶ glyph and similar.
     s = s.replace("▶", "").replace("–", "-").replace("—", "-")
     s = s.replace("’", "'").replace("“", '"').replace("”", '"')
@@ -52,15 +54,26 @@ def normalise(s: str) -> str:
 
 
 def grep_match(field_text: str, source_text: str) -> bool:
-    """Substring match after normalisation. Tolerates minor whitespace/glyph differences."""
+    """Substring match after normalisation. Tolerates minor whitespace/glyph
+    differences. PDF hyphenation is genuinely ambiguous (line-break artifacts
+    vs real compound-word hyphens), so we try in order:
+      1. Standard normalisation (joins hyphen-at-line-break).
+      2. Fallback: strip ALL hyphens from both sides — catches cases where
+         the source PDF has 'through-\\nthe-scope' (joined to 'throughthe-scope')
+         and the JSON has 'through-the-scope' (no change).
+      3. 5-gram 70% threshold for paraphrased fragments."""
     if not field_text or not field_text.strip():
-        return True  # empty strings are considered trivially matched
+        return True
     needle = normalise(field_text)
     haystack = normalise(source_text)
-    # First try exact substring.
     if needle in haystack:
         return True
-    # Fallback: 5-grams of the needle, demand 70% present in haystack (handles minor reorder/punct).
+    # Fallback: strip all hyphens (handles compound-word vs line-break ambiguity).
+    needle_nh = needle.replace("-", "")
+    haystack_nh = haystack.replace("-", "")
+    if needle_nh in haystack_nh:
+        return True
+    # 5-gram fallback for paraphrased fragments.
     tokens = needle.split()
     if len(tokens) < 8:
         return False
