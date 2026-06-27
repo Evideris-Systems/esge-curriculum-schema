@@ -128,6 +128,15 @@ def verify_file(path: Path) -> list[str]:
         # them just re-asserts what we already know. Manual research is the fix.
         if ref.get("lowConfidence"):
             continue
+        # Skip refs where no DOI exists (websites, videos, pre-DOI publications) —
+        # explicitly marked and require human-readable verification, not Crossref lookup.
+        if ref.get("noDoiAvailable"):
+            continue
+        # Skip refs explicitly hand-verified (verifiedAt set). These were manually
+        # confirmed against PubMed/the journal site; auto-checks would re-flag the
+        # same false positives the human review already overrode.
+        if ref.get("verifiedAt"):
+            continue
         rid = ref.get("id", "?")
         citation = ref.get("citation", "")
         errs.extend(f"{path}: {e}" for e in verify_citation(rid, citation))

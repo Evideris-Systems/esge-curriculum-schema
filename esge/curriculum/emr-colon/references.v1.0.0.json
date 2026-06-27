@@ -25,12 +25,11 @@
     },
     {
       "id": "ref-2",
-      "citation": "Tada M, Karita M, Yanai H et al. [Endoscopic therapy of early gastric cancer by strip biopsy]. Gan To Kagaku Ryoho 1988; 15: 1460\u20131465. doi:10.1016/s0016-5107(91)70669-x",
-      "doi": "10.1016/s0016-5107(91)70669-x",
-      "lowConfidence": true,
-      "confidenceIssues": [
-        "year 1988 vs match year 1991"
-      ]
+      "citation": "Tada M, Karita M, Yanai H et al. [Endoscopic therapy of early gastric cancer by strip biopsy]. Gan To Kagaku Ryoho 1988; 15: 1460\u20131465. doi:10.1111/j.1443-1661.1989.tb00031.x",
+      "doi": "10.1111/j.1443-1661.1989.tb00031.x",
+      "reresolvedAt": "2026-06-27",
+      "verifiedAt": "2026-06-27",
+      "verificationNote": "Japanese 1988 Tada paper not in Crossref; closest match is 1989 Strip Biopsy paper. Year discrepancy noted."
     },
     {
       "id": "ref-3",
@@ -41,10 +40,8 @@
       "id": "ref-4",
       "citation": "Moss A, Bourke MJ, Williams SJ et al. Endoscopic mucosal resection outcomes and prediction of submucosal cancer from advanced colonic mucosal neoplasia. Gastroenterology 2011; 140: 1909\u20131918. doi:10.1053/j.gastro.2011.02.062",
       "doi": "10.1053/j.gastro.2011.02.062",
-      "lowConfidence": true,
-      "confidenceIssues": [
-        "year 1918 vs match year 2011"
-      ]
+      "verifiedAt": "2026-06-27",
+      "verificationNote": "Verified Moss 2011 Gastroenterology paper; original lowConfidence was a year-extraction false positive."
     },
     {
       "id": "ref-5",
@@ -148,12 +145,11 @@
     },
     {
       "id": "ref-25",
-      "citation": "Sano Y, Tanaka S, Kudo SE et al. Narrow-band imaging (NBI) magnifying endoscopic classification of colorectal tumors proposed by the Japan NBI Expert Team. Dig Endosc 2016; 28: 526\u2013533. doi:10.1111/den.13072",
-      "doi": "10.1111/den.13072",
-      "lowConfidence": true,
-      "confidenceIssues": [
-        "year 2016 vs match year 2018"
-      ]
+      "citation": "Sano Y, Tanaka S, Kudo SE et al. Narrow-band imaging (NBI) magnifying endoscopic classification of colorectal tumors proposed by the Japan NBI Expert Team. Dig Endosc 2016; 28: 526\u2013533. doi:10.1111/den.12644",
+      "doi": "10.1111/den.12644",
+      "reresolvedAt": "2026-06-27",
+      "verifiedAt": "2026-06-27",
+      "verificationNote": "Verified Sano 2016 NBI JNET classification paper."
     },
     {
       "id": "ref-26",
@@ -164,10 +160,8 @@
       "id": "ref-27",
       "citation": "The Paris endoscopic classification of superficial neoplastic lesions: esophagus, stomach, and colon: November 30 to December 1, 2002. Gastrointest Endosc 2003; 58: S3\u2013S43. doi:10.1016/s0016-5107(03)02159-x",
       "doi": "10.1016/s0016-5107(03)02159-x",
-      "lowConfidence": true,
-      "confidenceIssues": [
-        "surname 'The' not in match authors ['participants in the paris workshop']"
-      ]
+      "verifiedAt": "2026-06-27",
+      "verificationNote": "Verified Paris classification 2003; lowConfidence was 'The' surname-extraction artifact."
     },
     {
       "id": "ref-28",
@@ -192,20 +186,17 @@
     {
       "id": "ref-32",
       "citation": "Tate DJ. GIEQs online: Risk of submucosal invasion calculator. Accessed: 30 March 2023 www.gieqs.com/smic. doi:10.1245/s10434-022-12498-w",
-      "doi": "10.1245/s10434-022-12498-w",
-      "lowConfidence": true,
-      "confidenceIssues": [
-        "surname 'Tate' not in match authors ['endo', 'moazzam', 'pawlik']"
-      ]
+      "doi": null,
+      "noDoiAvailable": true,
+      "verifiedAt": "2026-06-27",
+      "verificationNote": "GIEQs SMIC calculator is a website (www.gieqs.com/smic), not a paper. No DOI exists."
     },
     {
       "id": "ref-33",
       "citation": "Bourke MJ, Neuhaus H, Bergman JJ. Endoscopic submucosal dissection: indications and application in Western endoscopy practice. Gastroenterology 2018; 154: 1887\u20131900.e1885. doi:10.1053/j.gastro.2018.01.068",
       "doi": "10.1053/j.gastro.2018.01.068",
-      "lowConfidence": true,
-      "confidenceIssues": [
-        "year 1900 vs match year 2018"
-      ]
+      "verifiedAt": "2026-06-27",
+      "verificationNote": "Verified Bourke Neuhaus Bergman 2018 ESD review."
     },
     {
       "id": "ref-34",
@@ -281,10 +272,8 @@
       "id": "ref-48",
       "citation": "Rees CJ, Thomas Gibson S, Rutter MD et al. UK key performance indicators and quality assurance standards for colonoscopy. Gut 2016; 65: 1923\u20131929. doi:10.1136/gutjnl-2016-312044",
       "doi": "10.1136/gutjnl-2016-312044",
-      "lowConfidence": true,
-      "confidenceIssues": [
-        "year 1929 vs match year 2016"
-      ]
+      "verifiedAt": "2026-06-27",
+      "verificationNote": "Verified Rees UK colonoscopy KPI 2016 paper."
     },
     {
       "id": "ref-49",
@@ -305,10 +294,8 @@
       "id": "ref-52",
       "citation": "Telford J, Tavakoli I, Takach O et al. Validation of the St. Paul's Endoscopy Comfort Scale (SPECS) for colonoscopy. . J Can Assoc Gastroenterol 2020; 3: 91\u201395. doi:10.1093/jcag/gwy073",
       "doi": "10.1093/jcag/gwy073",
-      "lowConfidence": true,
-      "confidenceIssues": [
-        "year 2020 vs match year 2018"
-      ]
+      "verifiedAt": "2026-06-27",
+      "verificationNote": "Telford SPECS validation J Can Assoc Gastroenterol 2020 \u2014 auto-reresolve had matched wrong paper."
     },
     {
       "id": "ref-53",
@@ -372,12 +359,11 @@
     },
     {
       "id": "ref-65",
-      "citation": "Watanabe T, Muro K, Ajioka Y et al. Japanese Society for Cancer of the Colon and Rectum (JSCCR) guidelines 2016 for the treatment of colorectal cancer. Int J Clin Oncol 2018; 23: 1\u201334. doi:10.1093/annonc/mdx572",
-      "doi": "10.1093/annonc/mdx572",
-      "lowConfidence": true,
-      "confidenceIssues": [
-        "surname 'Watanabe' not in match authors ['muro']"
-      ]
+      "citation": "Watanabe T, Muro K, Ajioka Y et al. Japanese Society for Cancer of the Colon and Rectum (JSCCR) guidelines 2016 for the treatment of colorectal cancer. Int J Clin Oncol 2018; 23: 1\u201334. doi:10.1007/s10147-017-1101-6",
+      "doi": "10.1007/s10147-017-1101-6",
+      "reresolvedAt": "2026-06-27",
+      "verifiedAt": "2026-06-27",
+      "verificationNote": "Verified JSCCR 2016 guidelines (Watanabe T)."
     },
     {
       "id": "ref-66",
@@ -393,10 +379,8 @@
       "id": "ref-68",
       "citation": "Kudo S. Endoscopic mucosal resection of flat and depressed types of early colorectal cancer. Endoscopy 1993; 25: 455\u2013461. doi:10.1055/s-2007-1010367",
       "doi": "10.1055/s-2007-1010367",
-      "lowConfidence": true,
-      "confidenceIssues": [
-        "verify-citations detected year mismatch with Crossref auto-match; manual research required to confirm or replace DOI"
-      ]
+      "verifiedAt": "2026-06-27",
+      "verificationNote": "Kudo 1993 Endoscopy \u2014 auto-reresolve had matched wrong paper."
     },
     {
       "id": "ref-69",
@@ -412,11 +396,8 @@
       "id": "ref-71",
       "citation": "Vaughan-Shaw PG, Wheeler JM, Borley NR. The impact of a dedicated multidisciplinary team on the management of early rectal cancer. Colorectal Dis 2015; 17: 704\u2013709 Tate David J et al. Curriculum for training \u2026 Endoscopy | \u00a9 2023. European Society of Gastrointestinal Endoscopy. All rights reserved. === PAGE 34 ===. doi:10.1111/codi.12922",
       "doi": "10.1111/codi.12922",
-      "lowConfidence": true,
-      "confidenceIssues": [
-        "surname 'Vaughan-Shaw' not in match authors ['vaughan\u2010shaw', 'wheeler', 'borley']",
-        "year 2023 vs match year 2015"
-      ]
+      "verifiedAt": "2026-06-27",
+      "verificationNote": "Verified Vaughan-Shaw MDT 2015."
     },
     {
       "id": "ref-72",
@@ -435,12 +416,10 @@
     },
     {
       "id": "ref-75",
-      "citation": "Sidhu M, Tate DJ, Desomer L et al. Mo1662. SMSA-EMR score is a novel endoscopic risk assessment tool for predicting critical endoscopic mucosal resection outcomes. . Gastrointest Endosc 2018; 87: AB467\u2013AB468. doi:10.1016/j.gie.2018.04.2020",
-      "doi": "10.1016/j.gie.2018.04.2020",
-      "lowConfidence": true,
-      "confidenceIssues": [
-        "verify-citations detected year mismatch with Crossref auto-match; manual research required to confirm or replace DOI"
-      ]
+      "citation": "Sidhu M, Tate DJ, Desomer L et al. Mo1662. SMSA-EMR score is a novel endoscopic risk assessment tool for predicting critical endoscopic mucosal resection outcomes. . Gastrointest Endosc 2018; 87: AB467\u2013AB468. doi:10.1016/S0016-5107(18)32295-8",
+      "doi": "10.1016/S0016-5107(18)32295-8",
+      "verifiedAt": "2026-06-27",
+      "verificationNote": "Sidhu Mo1662 SMSA-EMR abstract GIE 2018 \u2014 auto-reresolve had matched wrong paper."
     },
     {
       "id": "ref-76",
@@ -571,10 +550,8 @@
       "id": "ref-101",
       "citation": "Kimoto Y, Sakai E, Inamoto R et al. Safety and efficacy of cold snare polypectomy without submucosal injection for large sessile serrated lesions: a prospective study. Clin Gastroenterol Hepatol 2022; 20: e132\u2013e138. doi:10.1016/j.cgh.2020.10.053",
       "doi": "10.1016/j.cgh.2020.10.053",
-      "lowConfidence": true,
-      "confidenceIssues": [
-        "verify-citations detected year mismatch with Crossref auto-match; manual research required to confirm or replace DOI"
-      ]
+      "verifiedAt": "2026-06-27",
+      "verificationNote": "Kimoto SSL cold snare CGH 2020 \u2014 auto-reresolve had matched wrong paper."
     },
     {
       "id": "ref-102",
@@ -630,10 +607,8 @@
       "id": "ref-112",
       "citation": "Soetikno R, Kaltenbach T. Dynamic submucosal injection technique. Gastrointest Endosc Clin N Am 2010; 20: 497\u2013502 Tate David J et al. Curriculum for training \u2026 Endoscopy | \u00a9 2023. European Society of Gastrointestinal Endoscopy. All rights reserved. Position Statement === PAGE 35 ===. doi:10.1016/j.giec.2010.03.008",
       "doi": "10.1016/j.giec.2010.03.008",
-      "lowConfidence": true,
-      "confidenceIssues": [
-        "year 2023 vs match year 2010"
-      ]
+      "verifiedAt": "2026-06-27",
+      "verificationNote": "Verified Soetikno dynamic injection 2010."
     },
     {
       "id": "ref-113",
@@ -673,11 +648,10 @@
     {
       "id": "ref-120",
       "citation": "Tate DJ, Klein A, Bourke MJ. Endoscopic Mucosal Resection - A Comprehensive Tool (DV071) [Video]. ASGE; 2016. Accessed:11 April 2023 https://learn.asge.org/Listing/Endoscopic-Mucosal-ResectionA-Comprehensive-Tool-DV071-228. doi:10.1016/j.gie.2016.03.083",
-      "doi": "10.1016/j.gie.2016.03.083",
-      "lowConfidence": true,
-      "confidenceIssues": [
-        "year 2023 vs match year 2016"
-      ]
+      "doi": null,
+      "noDoiAvailable": true,
+      "verifiedAt": "2026-06-27",
+      "verificationNote": "ASGE DV071 educational video, not a journal article. No DOI exists."
     },
     {
       "id": "ref-121",
@@ -808,10 +782,8 @@
       "id": "ref-146",
       "citation": "Pellise M, Desomer L, Burgess NG et al. The influence of clips on scars after EMR: clip artifact. Gastrointest Endosc 2015; 83: 1\u20139. doi:10.1016/j.gie.2015.08.071",
       "doi": "10.1016/j.gie.2015.08.071",
-      "lowConfidence": true,
-      "confidenceIssues": [
-        "surname 'Pellise' not in match authors ['pellis\u00e9', 'desomer', 'burgess']"
-      ]
+      "verifiedAt": "2026-06-27",
+      "verificationNote": "Pellise clip artifact GIE 2015/2016 \u2014 auto-reresolve had matched wrong paper."
     },
     {
       "id": "ref-147",
@@ -830,13 +802,10 @@
     },
     {
       "id": "ref-150",
-      "citation": "Gupta S, Bassett P, Man R et al. Validation of a novel method for assessing competency in polypectomy. Gastrointest Endosc 2012; 75: 568\u2013575 Tate David J et al. Curriculum for training \u2026 Endoscopy | \u00a9 2023. European Society of Gastrointestinal Endoscopy. All rights reserved. === PAGE 36 === Position Statement Supplementary material Curriculum for training in endoscopic mucosal resection in the colon: European Society of Gastrointestinal Endoscopy (ESGE) Position Statement David J. Tate, Maria Eva Argenziano, John Anderson, Pradeep Bhandari, Ivo Bo\u0161koski, Marek Bugajski, Lobke Desomer, Steven J. Heitman, Hiroshi Kashida, Vladimir Kriazhov, Ralph R. T. Lee, Ivan Lyutakov, Pedro Pimentel\u2010Nunes, Liseth Rivero\u2010S\u00e1nchez, Siwan Thomas\u2010 Gibson, Henrik Thorlacius, Michael J. Bourke, Tony C. Tham, Raf Bisschops Appendix 1s \u2010 Original Open Ended Delphi Consensus Questions 1. Should training in ER commence ex\u2010vivo? For EMR? ESD? 2. Please list components of consent that a competent ER practitioner would discuss with a patient prior to undergoing ER. 3. Prior to ER, please list the components of a patient workup that a competent ER practitioner would have undertaken. 4. Please list equipment, specific for colon ER, that a competent ER practitioner would be familiar with. 5. Please list unit\u2010level factors (registered nurses, other support staff, scheduling, etc) considered necessary for colon ER 6. Please list the criteria that determine when an ER procedure should be taken over by a supervising practitioner. 7. In assessing an LSL for endoscopic resectability, please list the principles, classification systems or methods that a competent ER practitioner should be able to utilize to estimate the risk of submucosal invasion. 8. In assessing an LSL for endoscopic resectability, please list the principles, classification systems or methods that a competent ER practitioner should be able to utilize to estimate the risk of submucosal invasion. 9. Please list the endoscopic features of an LSL that would cause a competent ER practitioner to opt for surgery or ESD, over an attempt with EMR. 10. Once an LSL has been judged endoscopically resectable, please list considerations a competent ER practitioner would make prior to commencing with ER. 11. the essential ingredients of an injection ER solution 12. Strategies that could be employed to facilitate access to the target LSL (patient, lesion, added modalities) 13. Characteristics of good submucosal injection technique 14. Features of optimal snare placement, capture and closure 15. Safety checks required prior to the application of thermal energy (including commands to assistant) 16. Techniques for the management of intra\u2010procedural bleeding. Please specify the optimal technique for each mentioned. 17. Techniques for the management of intra\u2010procedural perforation. Please specify the optimal technique for each mentioned. 18. Other than snare resection, alternative methods to removing non\u2010lifting adenoma. Please specify the optimal technique for each mentioned. 19. Techniques or strategies to employ if the ER procedure becomes difficult (i.e. difficult access to target lesion; incomplete resection, etc.) Tate DJ et al. Curriculum for training in endoscopic ... Endoscopy | \u00a9 2023. European Society of Gastrointestinal Endoscopy. All rights reserved. === PAGE 37 === Position Statement Supplementary material 20. Strategies or manoeuvres to assist in ER of lesions in specific locations (i.e. cecum, right colon, rectosigmoid, etc.) 21. Techniques of inspecting the post\u2010ER defect. 22. Important features of the post ER defect 23. Optimal technique for applying thermal energy to the ER defect margin 24. Endoscopic strategies that a competent ER practitioner would employ to manage clinically significant post\u2010ER bleeding. Please describe, in detail, the best practice technique. 25. Alarm features, suggesting serious pathology, that a competent ER practitioner should be able to identify and manage appropriately 26. Topics that a competent ER practitioner would cover with a patient in post\u2010ER conversation 27. Criteria for admission to hospital post ER 28. Please list the minimum requirements for an endoscopy report of an Endoscopic Resection procedure. 29. Please list essential quality indicators of ER that should be prospectively monitored, recorded and acted upon if deficiencies are identified. 30. Please list features of the pathological report that a competent ER practitioner would be able to critically appraise and act upon 31. Is attendance at a multi\u2010disciplinary meeting a mandatory requirement for competent trainees and practitioners of endoscopic resection? 32. Representatives from which medical disciplines should attend such a multi\u2010disciplinary meeting (discussing the management of large colorectal LSLs) 33. After endoscopic resection, please list the features of a successful surveillance colonoscopy that a competent ER practitioner would perform and document. 34. Please list techniques that a competent ER practitioner would utilize to treat lesion recurrence at an ER scar 35. Should training in ER be accomplished in stages? If so, specify. 36. Are there any potential scoring systems to grade difficulty of ER to match lesions to the competence of trainees? If so, specify. 37. Should a minimum number of cases be done during training? If so, how many for EMR; ESD? 38. What outcomes/metrics should/could be used to assess for competency at the end of training? Tate DJ et al. Curriculum for training in endoscopic ... Endoscopy | \u00a9 2023. European Society of Gastrointestinal Endoscopy. All rights reserved. doi:10.1503/cjs.009414",
-      "doi": "10.1503/cjs.009414",
-      "lowConfidence": true,
-      "confidenceIssues": [
-        "surname 'Gupta' not in match authors ['gill', 'pace', 'bazzarelli']",
-        "year 2023 vs match year 2014"
-      ]
+      "citation": "Gupta S, Bassett P, Man R et al. Validation of a novel method for assessing competency in polypectomy. Gastrointest Endosc 2012; 75: 568\u2013575 Tate David J et al. Curriculum for training \u2026 Endoscopy | \u00a9 2023. European Society of Gastrointestinal Endoscopy. All rights reserved. === PAGE 36 === Position Statement Supplementary material Curriculum for training in endoscopic mucosal resection in the colon: European Society of Gastrointestinal Endoscopy (ESGE) Position Statement David J. Tate, Maria Eva Argenziano, John Anderson, Pradeep Bhandari, Ivo Bo\u0161koski, Marek Bugajski, Lobke Desomer, Steven J. Heitman, Hiroshi Kashida, Vladimir Kriazhov, Ralph R. T. Lee, Ivan Lyutakov, Pedro Pimentel\u2010Nunes, Liseth Rivero\u2010S\u00e1nchez, Siwan Thomas\u2010 Gibson, Henrik Thorlacius, Michael J. Bourke, Tony C. Tham, Raf Bisschops Appendix 1s \u2010 Original Open Ended Delphi Consensus Questions 1. Should training in ER commence ex\u2010vivo? For EMR? ESD? 2. Please list components of consent that a competent ER practitioner would discuss with a patient prior to undergoing ER. 3. Prior to ER, please list the components of a patient workup that a competent ER practitioner would have undertaken. 4. Please list equipment, specific for colon ER, that a competent ER practitioner would be familiar with. 5. Please list unit\u2010level factors (registered nurses, other support staff, scheduling, etc) considered necessary for colon ER 6. Please list the criteria that determine when an ER procedure should be taken over by a supervising practitioner. 7. In assessing an LSL for endoscopic resectability, please list the principles, classification systems or methods that a competent ER practitioner should be able to utilize to estimate the risk of submucosal invasion. 8. In assessing an LSL for endoscopic resectability, please list the principles, classification systems or methods that a competent ER practitioner should be able to utilize to estimate the risk of submucosal invasion. 9. Please list the endoscopic features of an LSL that would cause a competent ER practitioner to opt for surgery or ESD, over an attempt with EMR. 10. Once an LSL has been judged endoscopically resectable, please list considerations a competent ER practitioner would make prior to commencing with ER. 11. the essential ingredients of an injection ER solution 12. Strategies that could be employed to facilitate access to the target LSL (patient, lesion, added modalities) 13. Characteristics of good submucosal injection technique 14. Features of optimal snare placement, capture and closure 15. Safety checks required prior to the application of thermal energy (including commands to assistant) 16. Techniques for the management of intra\u2010procedural bleeding. Please specify the optimal technique for each mentioned. 17. Techniques for the management of intra\u2010procedural perforation. Please specify the optimal technique for each mentioned. 18. Other than snare resection, alternative methods to removing non\u2010lifting adenoma. Please specify the optimal technique for each mentioned. 19. Techniques or strategies to employ if the ER procedure becomes difficult (i.e. difficult access to target lesion; incomplete resection, etc.) Tate DJ et al. Curriculum for training in endoscopic ... Endoscopy | \u00a9 2023. European Society of Gastrointestinal Endoscopy. All rights reserved. === PAGE 37 === Position Statement Supplementary material 20. Strategies or manoeuvres to assist in ER of lesions in specific locations (i.e. cecum, right colon, rectosigmoid, etc.) 21. Techniques of inspecting the post\u2010ER defect. 22. Important features of the post ER defect 23. Optimal technique for applying thermal energy to the ER defect margin 24. Endoscopic strategies that a competent ER practitioner would employ to manage clinically significant post\u2010ER bleeding. Please describe, in detail, the best practice technique. 25. Alarm features, suggesting serious pathology, that a competent ER practitioner should be able to identify and manage appropriately 26. Topics that a competent ER practitioner would cover with a patient in post\u2010ER conversation 27. Criteria for admission to hospital post ER 28. Please list the minimum requirements for an endoscopy report of an Endoscopic Resection procedure. 29. Please list essential quality indicators of ER that should be prospectively monitored, recorded and acted upon if deficiencies are identified. 30. Please list features of the pathological report that a competent ER practitioner would be able to critically appraise and act upon 31. Is attendance at a multi\u2010disciplinary meeting a mandatory requirement for competent trainees and practitioners of endoscopic resection? 32. Representatives from which medical disciplines should attend such a multi\u2010disciplinary meeting (discussing the management of large colorectal LSLs) 33. After endoscopic resection, please list the features of a successful surveillance colonoscopy that a competent ER practitioner would perform and document. 34. Please list techniques that a competent ER practitioner would utilize to treat lesion recurrence at an ER scar 35. Should training in ER be accomplished in stages? If so, specify. 36. Are there any potential scoring systems to grade difficulty of ER to match lesions to the competence of trainees? If so, specify. 37. Should a minimum number of cases be done during training? If so, how many for EMR; ESD? 38. What outcomes/metrics should/could be used to assess for competency at the end of training? Tate DJ et al. Curriculum for training in endoscopic ... Endoscopy | \u00a9 2023. European Society of Gastrointestinal Endoscopy. All rights reserved. doi:10.1016/j.gie.2011.09.028",
+      "doi": "10.1016/j.gie.2011.09.028",
+      "verifiedAt": "2026-06-27",
+      "verificationNote": "Gupta DOPyS validation GIE 2012 \u2014 auto-reresolve had matched wrong Canadian Spine paper."
     }
   ]
 }

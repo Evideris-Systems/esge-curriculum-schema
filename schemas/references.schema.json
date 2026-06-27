@@ -31,7 +31,11 @@
           "doi":      { "anyOf": [{ "type": "string", "pattern": "^10\\." }, { "type": "null" }] },
           "unresolved":         { "type": "boolean" },
           "lowConfidence":      { "type": "boolean" },
-          "confidenceIssues":   { "type": "array", "items": { "type": "string" } }
+          "confidenceIssues":   { "type": "array", "items": { "type": "string" } },
+          "noDoiAvailable":     { "type": "boolean", "description": "Set true when the cited resource is a website / video / pre-DOI publication and no DOI exists." },
+          "verifiedAt":         { "type": "string", "format": "date" },
+          "verificationNote":   { "type": "string" },
+          "reresolvedAt":       { "type": "string", "format": "date" }
         },
         "additionalProperties": false
       }
