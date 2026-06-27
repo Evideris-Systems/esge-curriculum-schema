@@ -1,0 +1,179 @@
+{
+  "$schema": "https://schema.evideris.com/schemas/recommendation.schema.json",
+  "$id": "https://schema.evideris.com/esge/recommendation/emr-colon/r5.v1.0.0.json",
+  "lineageId": "rec-emr-cln-r5-equipment-materials-for-emr",
+  "type": "recommendation",
+  "version": "1.0.0",
+  "release": "r2026.07",
+  "supersedes": null,
+  "supersededBy": null,
+  "language": [
+    "en"
+  ],
+  "withinCurriculum": "cur-emr-colon-2023",
+  "withinSection": "sec-emr-knowledge",
+  "number": 5,
+  "title": {
+    "en": "Equipment/materials For Emr"
+  },
+  "statement": {
+    "en": "MR ESGE recommends familiarity with the equipment/ materials required for EMR given in the following list."
+  },
+  "grade": {
+    "strength": "weak",
+    "evidenceQuality": "moderate"
+  },
+  "subItems": [
+    {
+      "label": "i",
+      "text": {
+        "en": "Demographics: name of the patient, date of birth, and one other identifier."
+      },
+      "levelOfAgreement": 97
+    },
+    {
+      "label": "ii",
+      "text": {
+        "en": "Demographics: name of the staff involved, name of the trainee if involved."
+      },
+      "levelOfAgreement": 95
+    },
+    {
+      "label": "iii",
+      "text": {
+        "en": "Demographics: indication for the procedure (including original indication if referral or procedure with intent of lesion resection)."
+      },
+      "levelOfAgreement": 96
+    },
+    {
+      "label": "iv",
+      "text": {
+        "en": "Procedure: drugs used including sedation, anesthesia, antibiotics, and/or antispasmodics."
+      },
+      "levelOfAgreement": 98
+    },
+    {
+      "label": "v",
+      "text": {
+        "en": "Procedure: bowel preparation quality [47\u201349]."
+      },
+      "levelOfAgreement": 96
+    },
+    {
+      "label": "vi",
+      "text": {
+        "en": "Procedure: completeness of the colonoscopy."
+      },
+      "levelOfAgreement": 98,
+      "references": [
+        "ref-48",
+        "ref-50"
+      ]
+    },
+    {
+      "label": "vii",
+      "text": {
+        "en": "Procedure: comfort score if procedure with sedation."
+      },
+      "levelOfAgreement": 87,
+      "references": [
+        "ref-48",
+        "ref-51",
+        "ref-52"
+      ]
+    },
+    {
+      "label": "viii",
+      "text": {
+        "en": "Procedure: photodocumentation of the lesion and defect as a minimum."
+      },
+      "levelOfAgreement": 96,
+      "references": [
+        "ref-53"
+      ]
+    },
+    {
+      "label": "ix",
+      "text": {
+        "en": "Procedure: type of endoscope and specific electrosurgical device (snare/knife etc.) used."
+      },
+      "levelOfAgreement": 89
+    },
+    {
+      "label": "x",
+      "text": {
+        "en": "Lesion specific (for each lesion/EMR performed): lesion location and size."
+      },
+      "levelOfAgreement": 98
+    },
+    {
+      "label": "xi",
+      "text": {
+        "en": "Lesion specific: ease of access and positioning."
+      },
+      "levelOfAgreement": 95
+    },
+    {
+      "label": "xii",
+      "text": {
+        "en": "Lesion specific: an estimate of position using landmarks, scope tracking, or distance from the anus during withdrawal with a straight scope."
+      },
+      "levelOfAgreement": 93
+    },
+    {
+      "label": "xiii",
+      "text": {
+        "en": "Lesion specific: description including size, Paris, granularity, Kudo pit pattern /NICE classification /JNET if magnification is available."
+      },
+      "levelOfAgreement": 99,
+      "references": [
+        "ref-23",
+        "ref-27",
+        "ref-45",
+        "ref-54",
+        "ref-55"
+      ]
+    },
+    {
+      "label": "xiv",
+      "text": {
+        "en": "Lesion specific: previous histology if available."
+      },
+      "levelOfAgreement": 95
+    },
+    {
+      "label": "xv",
+      "text": {
+        "en": "Technical points: injectate used and description of lifting."
+      },
+      "levelOfAgreement": 80
+    }
+  ],
+  "references": [
+    "ref-6",
+    "ref-23",
+    "ref-27",
+    "ref-40",
+    "ref-41",
+    "ref-42",
+    "ref-43",
+    "ref-44",
+    "ref-45",
+    "ref-46",
+    "ref-48",
+    "ref-50",
+    "ref-51",
+    "ref-52",
+    "ref-53",
+    "ref-54",
+    "ref-55"
+  ],
+  "_meta": {
+    "provenance": {
+      "type": "verbatim",
+      "source_doi": "10.1055/a-2077-0497"
+    },
+    "encodedBy": "claude:extract-recommendations@v0.1.0",
+    "encodedAt": "2026-06-27"
+  }
+}

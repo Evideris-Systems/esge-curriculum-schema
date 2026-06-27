@@ -1,0 +1,35 @@
+{
+  "$schema": "https://schema.evideris.com/schemas/recommendation.schema.json",
+  "$id": "https://schema.evideris.com/esge/recommendation/emr-colon/r16.v1.0.0.json",
+  "lineageId": "rec-emr-cln-r16-submucosal-injection-technique",
+  "type": "recommendation",
+  "version": "1.0.0",
+  "release": "r2026.07",
+  "supersedes": null,
+  "supersededBy": null,
+  "language": [
+    "en"
+  ],
+  "withinCurriculum": "cur-emr-colon-2023",
+  "withinSection": "sec-emr-during-emr",
+  "number": 16,
+  "title": {
+    "en": "Submucosal Injection Technique"
+  },
+  "statement": {
+    "en": "ESGE recommends the best practice submucosal injection technique described below for cold snare EMR."
+  },
+  "grade": {
+    "strength": "weak",
+    "evidenceQuality": "low"
+  },
+  "references": [],
+  "_meta": {
+    "provenance": {
+      "type": "verbatim",
+      "source_doi": "10.1055/a-2077-0497"
+    },
+    "encodedBy": "claude:extract-recommendations@v0.1.0",
+    "encodedAt": "2026-06-27"
+  }
+}

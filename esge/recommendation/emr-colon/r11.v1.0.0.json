@@ -1,0 +1,35 @@
+{
+  "$schema": "https://schema.evideris.com/schemas/recommendation.schema.json",
+  "$id": "https://schema.evideris.com/esge/recommendation/emr-colon/r11.v1.0.0.json",
+  "lineageId": "rec-emr-cln-r11-patient-lesion-work-prior",
+  "type": "recommendation",
+  "version": "1.0.0",
+  "release": "r2026.07",
+  "supersedes": null,
+  "supersededBy": null,
+  "language": [
+    "en"
+  ],
+  "withinCurriculum": "cur-emr-colon-2023",
+  "withinSection": "sec-emr-before-emr",
+  "number": 11,
+  "title": {
+    "en": "Patient/lesion Work-up Prior To Emr"
+  },
+  "statement": {
+    "en": "ESGE recommends the patient/lesion work-up detailed in the following list should be conducted by a competent EMR practitioner prior to the procedure."
+  },
+  "grade": {
+    "strength": "weak",
+    "evidenceQuality": "moderate"
+  },
+  "references": [],
+  "_meta": {
+    "provenance": {
+      "type": "verbatim",
+      "source_doi": "10.1055/a-2077-0497"
+    },
+    "encodedBy": "claude:extract-recommendations@v0.1.0",
+    "encodedAt": "2026-06-27"
+  }
+}

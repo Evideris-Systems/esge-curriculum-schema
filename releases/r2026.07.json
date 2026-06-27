@@ -7,52 +7,228 @@
   "publisher": "Evideris Systems BV",
   "license": "CC-BY-4.0",
   "source": "https://github.com/Evideris-Systems/esge-curriculum-schema",
-
   "curricula": [
-    { "lineageId": "cur-emr-colon-2023", "version": "1.0.0" }
+    {
+      "lineageId": "cur-emr-colon-2023",
+      "version": "1.0.0"
+    }
   ],
   "recommendations": [
-    { "lineageId": "rec-emr-cln-r1-prereq-competencies",    "version": "1.0.0" },
-    { "lineageId": "rec-emr-cln-r2-unit-standards",         "version": "1.0.0" },
-    { "lineageId": "rec-emr-cln-r3-smi-assessment",         "version": "1.0.0" },
-    { "lineageId": "rec-emr-cln-r10-patient-consent",       "version": "1.0.0" },
-    { "lineageId": "rec-emr-cln-r17-cold-snare-placement",  "version": "1.0.0" },
-    { "lineageId": "rec-emr-cln-r38-essential-qis",         "version": "1.0.0" }
+    {
+      "lineageId": "rec-emr-cln-r1-prereq-competencies",
+      "version": "1.0.0"
+    },
+    {
+      "lineageId": "rec-emr-cln-r2-unit-standards",
+      "version": "1.0.0"
+    },
+    {
+      "lineageId": "rec-emr-cln-r3-smi-assessment",
+      "version": "1.0.0"
+    },
+    {
+      "lineageId": "rec-emr-cln-r4-features-prompting-consideration-bloc",
+      "version": "1.0.0"
+    },
+    {
+      "lineageId": "rec-emr-cln-r5-equipment-materials-for-emr",
+      "version": "1.0.0"
+    },
+    {
+      "lineageId": "rec-emr-cln-r6-minimum-reporting-requirements",
+      "version": "1.0.0"
+    },
+    {
+      "lineageId": "rec-emr-cln-r7-interpretation-pathology-reports",
+      "version": "1.0.0"
+    },
+    {
+      "lineageId": "rec-emr-cln-r8-attendance-multidisciplinary-meetings",
+      "version": "1.0.0"
+    },
+    {
+      "lineageId": "rec-emr-cln-r9-ground-rules-prior-starting",
+      "version": "1.0.0"
+    },
+    {
+      "lineageId": "rec-emr-cln-r10-patient-consent",
+      "version": "1.0.0"
+    },
+    {
+      "lineageId": "rec-emr-cln-r11-patient-lesion-work-prior",
+      "version": "1.0.0"
+    },
+    {
+      "lineageId": "rec-emr-cln-r12-determining-whether-trainee-should",
+      "version": "1.0.0"
+    },
+    {
+      "lineageId": "rec-emr-cln-r13-determining-the-resectability-lnpcps",
+      "version": "1.0.0"
+    },
+    {
+      "lineageId": "rec-emr-cln-r14-considerations-before-emr-lnpcp",
+      "version": "1.0.0"
+    },
+    {
+      "lineageId": "rec-emr-cln-r15-endoscopic-non-technical-skills",
+      "version": "1.0.0"
+    },
+    {
+      "lineageId": "rec-emr-cln-r16-submucosal-injection-technique",
+      "version": "1.0.0"
+    },
+    {
+      "lineageId": "rec-emr-cln-r17-cold-snare-placement",
+      "version": "1.0.0"
+    },
+    {
+      "lineageId": "rec-emr-cln-r18-inspection-the-post-emr",
+      "version": "1.0.0"
+    },
+    {
+      "lineageId": "rec-emr-cln-r19-submucosal-injection-technique",
+      "version": "1.0.0"
+    },
+    {
+      "lineageId": "rec-emr-cln-r20-snare-placement-capture-and",
+      "version": "1.0.0"
+    },
+    {
+      "lineageId": "rec-emr-cln-r21-safety-checks-before-applying",
+      "version": "1.0.0"
+    },
+    {
+      "lineageId": "rec-emr-cln-r22-inspection-the-post-emr",
+      "version": "1.0.0"
+    },
+    {
+      "lineageId": "rec-emr-cln-r23-application-thermal-energy-the",
+      "version": "1.0.0"
+    },
+    {
+      "lineageId": "rec-emr-cln-r24-alternative-methods-for-removal",
+      "version": "1.0.0"
+    },
+    {
+      "lineageId": "rec-emr-cln-r25-retrieval-polyp-tissue",
+      "version": "1.0.0"
+    },
+    {
+      "lineageId": "rec-emr-cln-r26-strategies-for-difficult-access",
+      "version": "1.0.0"
+    },
+    {
+      "lineageId": "rec-emr-cln-r27-strategies-for-emr-specific",
+      "version": "1.0.0"
+    },
+    {
+      "lineageId": "rec-emr-cln-r28-determing-whether-emr-procedures",
+      "version": "1.0.0"
+    },
+    {
+      "lineageId": "rec-emr-cln-r29-management-intraprocedural-bleeding",
+      "version": "1.0.0"
+    },
+    {
+      "lineageId": "rec-emr-cln-r30-management-intraprocedural",
+      "version": "1.0.0"
+    },
+    {
+      "lineageId": "rec-emr-cln-r31-management-post-emr-bleeding",
+      "version": "1.0.0"
+    },
+    {
+      "lineageId": "rec-emr-cln-r32-alarm-features-suggesting-adverse",
+      "version": "1.0.0"
+    },
+    {
+      "lineageId": "rec-emr-cln-r33-post-procedure-discussion-with",
+      "version": "1.0.0"
+    },
+    {
+      "lineageId": "rec-emr-cln-r35-essential-features-during-surveillance",
+      "version": "1.0.0"
+    },
+    {
+      "lineageId": "rec-emr-cln-r36-treatment-lnpcp-recurrence-emr",
+      "version": "1.0.0"
+    },
+    {
+      "lineageId": "rec-emr-cln-r37-completion-training-emr",
+      "version": "1.0.0"
+    },
+    {
+      "lineageId": "rec-emr-cln-r38-essential-qis",
+      "version": "1.0.0"
+    }
   ],
   "standards": [
-    { "lineageId": "std-emr-unit-pre-procedure-pathways",      "version": "1.0.0" },
-    { "lineageId": "std-emr-unit-anticoagulant-protocols",     "version": "1.0.0" },
-    { "lineageId": "std-emr-unit-preprocedure-information",    "version": "1.0.0" }
+    {
+      "lineageId": "std-emr-unit-pre-procedure-pathways",
+      "version": "1.0.0"
+    },
+    {
+      "lineageId": "std-emr-unit-anticoagulant-protocols",
+      "version": "1.0.0"
+    },
+    {
+      "lineageId": "std-emr-unit-preprocedure-information",
+      "version": "1.0.0"
+    }
   ],
   "scoringTools": [
-    { "lineageId": "st-smsa", "version": "1.0.0" }
+    {
+      "lineageId": "st-smsa",
+      "version": "1.0.0"
+    }
   ],
   "kpis": [
-    { "lineageId": "kpi-emr-cln-30-cases-min", "version": "1.0.0" }
+    {
+      "lineageId": "kpi-emr-cln-30-cases-min",
+      "version": "1.0.0"
+    }
   ],
   "qis": [
-    { "lineageId": "qi-emr-cln-procedures-per-year",        "version": "1.0.0" },
-    { "lineageId": "qi-emr-cln-success-rate",               "version": "1.0.0" },
-    { "lineageId": "qi-emr-cln-intraprocedural-bleeding",   "version": "1.0.0" },
-    { "lineageId": "qi-emr-cln-intraprocedural-perforation","version": "1.0.0" },
-    { "lineageId": "qi-emr-cln-adenoma-recurrence",         "version": "1.0.0" }
+    {
+      "lineageId": "qi-emr-cln-procedures-per-year",
+      "version": "1.0.0"
+    },
+    {
+      "lineageId": "qi-emr-cln-success-rate",
+      "version": "1.0.0"
+    },
+    {
+      "lineageId": "qi-emr-cln-intraprocedural-bleeding",
+      "version": "1.0.0"
+    },
+    {
+      "lineageId": "qi-emr-cln-intraprocedural-perforation",
+      "version": "1.0.0"
+    },
+    {
+      "lineageId": "qi-emr-cln-adenoma-recurrence",
+      "version": "1.0.0"
+    }
   ],
   "cats": [
-    { "lineageId": "cat-gpat", "version": "1.0.0" }
+    {
+      "lineageId": "cat-gpat",
+      "version": "1.0.0"
+    }
   ],
-
   "majorBumps": [
     "PRE-FLIGHT RELEASE WITHDRAWN: prior r2026.07 contained fabricated/stub references and unflagged invented content. See docs/plans/2026-06-26-batch1-fidelity-audit.md in the evideris repo.",
-    "Removed: 11 competencies + 1 EPA + NICE/JNET/Sydney-DMI scoring tools — moved to evideris-curriculum-derived (sibling repo)",
-    "Removed: assessesCompetencies on recs, evidenceRequired on standards, assessesCompetencies on CAT items — moved to derived layer as separate artifact types"
+    "Removed: 11 competencies + 1 EPA + NICE/JNET/Sydney-DMI scoring tools \u2014 moved to evideris-curriculum-derived (sibling repo)",
+    "Removed: assessesCompetencies on recs, evidenceRequired on standards, assessesCompetencies on CAT items \u2014 moved to derived layer as separate artifact types"
   ],
   "minorBumps": [
     "Added: per-artifact _meta envelope with provenance (verbatim/paraphrased + source DOI)",
     "Added: refs-cur-emr-colon-2023 (separate references artifact with all 150 source bibliography entries resolved to Crossref DOIs; 14 marked lowConfidence for hand-verification)",
-    "Curriculum wrapper: all 11 main statements re-extracted verbatim (Statement 4 corrected); 8 sections (was 7 — added Section 6 Surveillance); per-author competing interests (was lumped); full author affiliations from PDF"
+    "Curriculum wrapper: all 11 main statements re-extracted verbatim (Statement 4 corrected); 8 sections (was 7 \u2014 added Section 6 Surveillance); per-author competing interests (was lumped); full author affiliations from PDF",
+    "31 additional recommendations auto-extracted from source PDF via scripts/extract-recommendations.py (verbatim statement+GRADE+sub-items+references; all pass source-trace)"
   ],
   "patchBumps": [],
-
   "_meta": {
     "provenance": {
       "type": "verbatim",

@@ -1,0 +1,86 @@
+{
+  "$schema": "https://schema.evideris.com/schemas/recommendation.schema.json",
+  "$id": "https://schema.evideris.com/esge/recommendation/emr-colon/r36.v1.0.0.json",
+  "lineageId": "rec-emr-cln-r36-treatment-lnpcp-recurrence-emr",
+  "type": "recommendation",
+  "version": "1.0.0",
+  "release": "r2026.07",
+  "supersedes": null,
+  "supersededBy": null,
+  "language": [
+    "en"
+  ],
+  "withinCurriculum": "cur-emr-colon-2023",
+  "withinSection": "sec-emr-surveillance",
+  "number": 36,
+  "title": {
+    "en": "Treatment Of Lnpcp Recurrence At An Emr"
+  },
+  "statement": {
+    "en": "ESGE recommends the techniques in the following list be considered best practice for the treatment of LNPCP recurrence at an EMR scar. Trainees should aspire to develop competency in these techniques to treat adenoma recurrence."
+  },
+  "grade": {
+    "strength": "best-practice",
+    "evidenceQuality": "low",
+    "levelOfAgreement": 88
+  },
+  "subItems": [
+    {
+      "label": "i",
+      "text": {
+        "en": "At least 30 EMR procedures performed independently over a minimum period of 6 months are required. Beyond this, achievement of specific competencies (below), rather than procedure number, should determine whether an individual is deemed competent to perform EMR."
+      },
+      "levelOfAgreement": 83
+    },
+    {
+      "label": "ii",
+      "text": {
+        "en": "It is not a requirement to achieve competency in all complexities of LNPCP to be able to perform any EMR. Credentialling can perhaps provide a guide as to the ceiling of complexity that is appropriate for a given practitioner of EMR. In the absence of an evidence-based tool to assess a given EMR, the trainer should give an idea of the potential SMSA range that the trainee leaving training should attempt independently."
+      },
+      "levelOfAgreement": 89
+    },
+    {
+      "label": "iii",
+      "text": {
+        "en": "Practicing endoscopists should avoid attempting LNPCPs outside their competency (SMSA score) unless within the context of a training scheme."
+      },
+      "levelOfAgreement": 91
+    },
+    {
+      "label": "iv",
+      "text": {
+        "en": "Conversely, attempting EMR of an LNPCP one threshold above competency (SMSA score) within a structured training environment may be entirely appropriate to further the skills of the trainee."
+      },
+      "levelOfAgreement": 89
+    },
+    {
+      "label": "v",
+      "text": {
+        "en": "A single specific GPAT threshold (yet to be determined) attained over a minimum of 30 procedures (considering only the last 3 months of data) should be obtained at the end of training and allows credentialling for all difficulties of EMR."
+      }
+    },
+    {
+      "label": "vi",
+      "text": {
+        "en": "After a period of training where a specific GPAT threshold is obtained, a further training period may be undertaken (minimum 3 months, 30 procedures) in an attempt to augment the attained threshold. This should only be undertaken in the context of a training scheme (\u25b6Table 5). 8 Lifelong key performance indicators (quality assurance) The following recommendations can also be used to assess the quality of an EMR service and should be available to patients should they request them. An online tool to prospectively collect these indicators is in development and will be attached here once it is available."
+      }
+    }
+  ],
+  "commentary": {
+    "en": "We have included a tool to assess the quality of polypectomy in this document \u2013 the GPAT (\u25b6Table 4). The components of the GPAT that are mandatory depend on whether hot or cold snare polypectomy is being described. The score for each component can be between 1 and 5. Mandatory components are always included in the denominator; non-mandatory components only contribute to the denominator if scored. The GPAT is calculated alongside the SMSA and SMSA+ scores but does not include them in the calculation. The GPAT score is generated as follows: total score for all components / (number of components answered \u00d7 5) \u00d7100%. The GPAT is a work in progress. It will undergo prospective evaluation to ensure that it performs at least as well as the other instruments available. Key benefits of the GPAT include: \u25aaapplicability to a video \u25aastructured approach to feedback in polypectomy \u25aadirectly based upon the recommendations in this competency framework. GPAT is associated with an online logbook that can be used to track progress in polypectomy. The online tool can be accessed at: www.gieqs.com/gpat-form. 7.1 Priorities for further research into credentialing and potential future statements to test in a research setting The SMSA score is the best evidence-based tool available to assess the complexity of EMR; however, it does not assess the quality of a given polypectomy. Nor do other existing systems to assess polypectomy (e. g. DOPyS ) either:"
+  },
+  "tableRefs": [
+    "table-4"
+  ],
+  "references": [
+    "ref-150"
+  ],
+  "_meta": {
+    "provenance": {
+      "type": "verbatim",
+      "source_doi": "10.1055/a-2077-0497"
+    },
+    "encodedBy": "claude:extract-recommendations@v0.1.0",
+    "encodedAt": "2026-06-27"
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "$schema": "https://schema.evideris.com/schemas/recommendation.schema.json",
+  "$id": "https://schema.evideris.com/esge/recommendation/emr-colon/r33.v1.0.0.json",
+  "lineageId": "rec-emr-cln-r33-post-procedure-discussion-with",
+  "type": "recommendation",
+  "version": "1.0.0",
+  "release": "r2026.07",
+  "supersedes": null,
+  "supersededBy": null,
+  "language": [
+    "en"
+  ],
+  "withinCurriculum": "cur-emr-colon-2023",
+  "withinSection": "sec-emr-after-emr",
+  "number": 33,
+  "title": {
+    "en": "Post-procedure Discussion With Patients"
+  },
+  "statement": {
+    "en": "ESGE recommends the topics given in the following list (representing the minimum content for a competent practitioner to achieve a safe discharge of the patient into the community) should be covered with a patient in the post-EMR conversation."
+  },
+  "grade": {
+    "strength": "best-practice",
+    "evidenceQuality": "low"
+  },
+  "subItems": [
+    {
+      "label": "i",
+      "text": {
+        "en": "Assessment of quality of bowel preparation."
+      },
+      "levelOfAgreement": 95
+    },
+    {
+      "label": "ii",
+      "text": {
+        "en": "Completeness of the colonoscopy."
+      },
+      "levelOfAgreement": 96
+    },
+    {
+      "label": "iii",
+      "text": {
+        "en": "Recognition of the EMR scar, extensive imaging (high definition, virtual chromoendoscopy, +/\u2212chromoendoscopy, nearfocus/magnification) and photodocumentation."
+      },
+      "levelOfAgreement": 95,
+      "references": [
+        "ref-87",
+        "ref-145"
+      ]
+    },
+    {
+      "label": "iv",
+      "text": {
+        "en": "Presence of any residual or recurrent adenoma recognized by a transition in pit/vascular pattern (e. g. NICE I to NICE II; Kudo I to Kudo III/IV) (\u25b6Fig. 3)."
+      },
+      "levelOfAgreement": 96
+    },
+    {
+      "label": "v",
+      "text": {
+        "en": "The presence of clip artifact. Recognize that clip artifact itself does not need treatment, but, where there is doubt, treatment is safe and prevents unnecessary further procedures for patients."
+      },
+      "levelOfAgreement": 96,
+      "references": [
+        "ref-146",
+        "ref-147"
+      ]
+    },
+    {
+      "label": "vi",
+      "text": {
+        "en": "Targeted biopsies and endoscopic treatment of any potential residual or recurrent adenoma should be performed."
+      },
+      "levelOfAgreement": 96
+    },
+    {
+      "label": "vii",
+      "text": {
+        "en": "Additional polyps/LNPCPs should be noted and removed if feasible or a plan for their removal made."
+      },
+      "levelOfAgreement": 99
+    },
+    {
+      "label": "viii",
+      "text": {
+        "en": "Need/timing for further surveillance."
+      },
+      "levelOfAgreement": 93,
+      "references": [
+        "ref-58"
+      ]
+    }
+  ],
+  "references": [
+    "ref-9",
+    "ref-58",
+    "ref-87",
+    "ref-145",
+    "ref-146",
+    "ref-147",
+    "ref-148",
+    "ref-149"
+  ],
+  "_meta": {
+    "provenance": {
+      "type": "verbatim",
+      "source_doi": "10.1055/a-2077-0497"
+    },
+    "encodedBy": "claude:extract-recommendations@v0.1.0",
+    "encodedAt": "2026-06-27"
+  }
+}

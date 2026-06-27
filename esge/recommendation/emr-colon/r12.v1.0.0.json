@@ -1,0 +1,35 @@
+{
+  "$schema": "https://schema.evideris.com/schemas/recommendation.schema.json",
+  "$id": "https://schema.evideris.com/esge/recommendation/emr-colon/r12.v1.0.0.json",
+  "lineageId": "rec-emr-cln-r12-determining-whether-trainee-should",
+  "type": "recommendation",
+  "version": "1.0.0",
+  "release": "r2026.07",
+  "supersedes": null,
+  "supersededBy": null,
+  "language": [
+    "en"
+  ],
+  "withinCurriculum": "cur-emr-colon-2023",
+  "withinSection": "sec-emr-before-emr",
+  "number": 12,
+  "title": {
+    "en": "Determining Whether A Trainee Should"
+  },
+  "statement": {
+    "en": "ESGE recommends that the criteria given in the following list should be considered when determining when/if EMR procedures should be started by a trainee."
+  },
+  "grade": {
+    "strength": "best-practice",
+    "evidenceQuality": "low"
+  },
+  "references": [],
+  "_meta": {
+    "provenance": {
+      "type": "verbatim",
+      "source_doi": "10.1055/a-2077-0497"
+    },
+    "encodedBy": "claude:extract-recommendations@v0.1.0",
+    "encodedAt": "2026-06-27"
+  }
+}

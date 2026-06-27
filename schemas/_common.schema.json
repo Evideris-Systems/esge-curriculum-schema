@@ -121,7 +121,7 @@
     },
     "gradeBlock": {
       "type": "object",
-      "required": ["strength", "evidenceQuality", "levelOfAgreement"],
+      "required": ["strength", "evidenceQuality"],
       "properties": {
         "strength": {
           "enum": ["strong", "weak", "best-practice"],

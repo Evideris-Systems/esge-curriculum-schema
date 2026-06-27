@@ -1,0 +1,120 @@
+{
+  "$schema": "https://schema.evideris.com/schemas/recommendation.schema.json",
+  "$id": "https://schema.evideris.com/esge/recommendation/emr-colon/r28.v1.0.0.json",
+  "lineageId": "rec-emr-cln-r28-determing-whether-emr-procedures",
+  "type": "recommendation",
+  "version": "1.0.0",
+  "release": "r2026.07",
+  "supersedes": null,
+  "supersededBy": null,
+  "language": [
+    "en"
+  ],
+  "withinCurriculum": "cur-emr-colon-2023",
+  "withinSection": "sec-emr-during-emr",
+  "number": 28,
+  "title": {
+    "en": "Determing Whether Emr Procedures"
+  },
+  "statement": {
+    "en": "ESGE recommends the criteria listed below should be considered when determining when/if trainee EMR procedures should be taken over by their supervising practitioner."
+  },
+  "grade": {
+    "strength": "best-practice",
+    "evidenceQuality": "low"
+  },
+  "subItems": [
+    {
+      "label": "i",
+      "text": {
+        "en": "Use the endoscope flushing pump to identify the exact place where bleeding is occurring within the mucosal defect."
+      },
+      "levelOfAgreement": 95
+    },
+    {
+      "label": "ii",
+      "text": {
+        "en": "Re-injection may help to isolate/make the bleeding vessel visible."
+      },
+      "levelOfAgreement": 90
+    },
+    {
+      "label": "iii",
+      "text": {
+        "en": "Consider the use of image-enhancement techniques (e. g. red dichromatic imaging [RDI] ) to identify the bleeding vessel."
+      },
+      "levelOfAgreement": 83,
+      "references": [
+        "ref-135",
+        "ref-136"
+      ]
+    },
+    {
+      "label": "iv",
+      "text": {
+        "en": "Ensure the patient position is optimal so that blood flows away from the resection site to improve visualization (use gravity)."
+      },
+      "levelOfAgreement": 93
+    },
+    {
+      "label": "v",
+      "text": {
+        "en": "If significant bleeding occurs, tamponade of the vessel with the endoscope cap or any instrument may be useful until the required device is available and may help to identify the source of bleeding."
+      },
+      "levelOfAgreement": 95
+    },
+    {
+      "label": "vi",
+      "text": {
+        "en": "For mild/moderate bleeding, start with STSC (e. g. ERBE soft coagulation effect 4, 80 W). The technique is as follows: \u25aause the tip of the snare to apply light pressure precisely over the bleeding point (confirmed by cessation of bleeding) \u25aaapply electrosurgical energy for 1\u20132 seconds, then lift the snare and re-assess bleeding."
+      },
+      "levelOfAgreement": 91,
+      "references": [
+        "ref-137"
+      ]
+    },
+    {
+      "label": "vii",
+      "text": {
+        "en": "If STSC is ineffective after application of the correctly applied technique (as above), switch instrument to a coagulation forceps."
+      },
+      "levelOfAgreement": 87
+    },
+    {
+      "label": "viii",
+      "text": {
+        "en": "For severe bleeding, start with a coagulation forceps."
+      },
+      "levelOfAgreement": 92
+    },
+    {
+      "label": "ix",
+      "text": {
+        "en": "Use of the coagulation forceps should proceed as follows: \u25aathe suspected vessel is captured with the forceps \u25aacessation of bleeding confirms correct forceps placement \u25aathe vessel is then gently tented away from the deeper structures and electrosurgical energy is applied (using the same settings for the electrosurgical unit as for STSC [e. g. ERBE soft coagulation effect 4, 80 W]) until a visible cautery effect is observed \u25aathe tissue is released and the endoscope flushing pump is used to confirm cessation of bleeding."
+      },
+      "levelOfAgreement": 94
+    },
+    {
+      "label": "x",
+      "text": {
+        "en": "In exceptional circumstances, where thermal energy does not control intraprocedural bleeding, mechanical control with"
+      }
+    }
+  ],
+  "commentary": {
+    "en": "Safe and complete LNPCP resection will increase the duration of a procedure. Even if the LNPCP resection is the only planned activity, adequate time is necessary to both enable the resection to be completed and to deal with any associated problems or complications. The allocation of time for procedures can be complex, and will be influenced by the experience of the endoscopist, the other factors listed above, and whether the case is being used for training purposes. Failure of the system to ensure the patent arrives promptly, with the correct bowel preparation administered, and that the correct time has been allocated will have an impact on the procedure. Time pressure is perceived differently between individuals; however, time pressure generally impairs performance because it places constraints on the capacity for thought and action that limit exploration and increases reliance on welllearned or heuristic strategies. The resulting time pressure increases speed at the expense of quality. The outcome of this can be incomplete resection, or a suboptimal technique with a higher likelihood of recurrence or complications. 4.6 Techniques to manage adverse events related to EMR"
+  },
+  "references": [
+    "ref-135",
+    "ref-136",
+    "ref-137"
+  ],
+  "_meta": {
+    "provenance": {
+      "type": "verbatim",
+      "source_doi": "10.1055/a-2077-0497"
+    },
+    "encodedBy": "claude:extract-recommendations@v0.1.0",
+    "encodedAt": "2026-06-27"
+  }
+}

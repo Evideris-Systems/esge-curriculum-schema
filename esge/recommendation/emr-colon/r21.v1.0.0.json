@@ -1,0 +1,102 @@
+{
+  "$schema": "https://schema.evideris.com/schemas/recommendation.schema.json",
+  "$id": "https://schema.evideris.com/esge/recommendation/emr-colon/r21.v1.0.0.json",
+  "lineageId": "rec-emr-cln-r21-safety-checks-before-applying",
+  "type": "recommendation",
+  "version": "1.0.0",
+  "release": "r2026.07",
+  "supersedes": null,
+  "supersededBy": null,
+  "language": [
+    "en"
+  ],
+  "withinCurriculum": "cur-emr-colon-2023",
+  "withinSection": "sec-emr-during-emr",
+  "number": 21,
+  "title": {
+    "en": "Safety Checks Before Applying"
+  },
+  "statement": {
+    "en": "ESGE recommends the safety checks detailed below be made prior to the application of electrosurgical energy during hot snare EMR."
+  },
+  "grade": {
+    "strength": "strong",
+    "evidenceQuality": "low",
+    "levelOfAgreement": 90
+  },
+  "subItems": [
+    {
+      "label": "i",
+      "text": {
+        "en": "The technique for STSC of the post-EMR margin is as follows: \u25aaextend the tip of the snare 2\u20133 mm beyond the catheter sheath \u25aause the scope and the snare tip as one device, do not move the catheter in and out of the channel \u25aaapply pulses of soft coagulation using a light-touch technique to the margin of the defect, ideally over injected tissue \u25aaaim for a rim of 2\u20133 mm of ablated tissue at the margin \u25aaensure that the margin is ablated around the full circumference without gaps. Confirmation of the technique is visual identification of the white appearance of the mucosa after application (\u25b6Fig. 2, image A5)."
+      },
+      "levelOfAgreement": 96
+    },
+    {
+      "label": "ii",
+      "text": {
+        "en": "If performing en bloc resection, the snare can be used to retrieve the resected polyp tissue."
+      },
+      "levelOfAgreement": 88
+    },
+    {
+      "label": "iii",
+      "text": {
+        "en": "(If using a snare) care should be taken to ensure the snare does not cut through the lesion and that the scope is used to protect the specimen at retrieval through the anus by pulling the specimen up against the scope tip."
+      },
+      "levelOfAgreement": 86
+    },
+    {
+      "label": "iv",
+      "text": {
+        "en": "Suction of transected tissue through the endoscope channel for retrieval may interfere with histologic interpretation."
+      },
+      "levelOfAgreement": 84
+    },
+    {
+      "label": "v",
+      "text": {
+        "en": "The retrieval device should be positioned at 6 o\u2019clock (when using a colonoscope)."
+      },
+      "levelOfAgreement": 89
+    },
+    {
+      "label": "vi",
+      "text": {
+        "en": "Pieces should be captured using a sequential place, close, compact, and open approach."
+      },
+      "levelOfAgreement": 92
+    },
+    {
+      "label": "vii",
+      "text": {
+        "en": "All pieces should be captured."
+      },
+      "levelOfAgreement": 94
+    }
+  ],
+  "commentary": {
+    "en": "Evidence from several randomized studies suggests that thermal ablation of the defect margin after EMR significantly reduces recurrence at first surveillance colonoscopy, by approximately 4-fold in expert hands . Prospective observational studies and meta-analyses have confirmed this finding."
+  },
+  "references": [
+    "ref-9",
+    "ref-12",
+    "ref-37",
+    "ref-38",
+    "ref-57",
+    "ref-102",
+    "ref-103",
+    "ref-123",
+    "ref-124",
+    "ref-125",
+    "ref-126"
+  ],
+  "_meta": {
+    "provenance": {
+      "type": "verbatim",
+      "source_doi": "10.1055/a-2077-0497"
+    },
+    "encodedBy": "claude:extract-recommendations@v0.1.0",
+    "encodedAt": "2026-06-27"
+  }
+}

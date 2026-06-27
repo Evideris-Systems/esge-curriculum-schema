@@ -1,0 +1,130 @@
+{
+  "$schema": "https://schema.evideris.com/schemas/recommendation.schema.json",
+  "$id": "https://schema.evideris.com/esge/recommendation/emr-colon/r6.v1.0.0.json",
+  "lineageId": "rec-emr-cln-r6-minimum-reporting-requirements",
+  "type": "recommendation",
+  "version": "1.0.0",
+  "release": "r2026.07",
+  "supersedes": null,
+  "supersededBy": null,
+  "language": [
+    "en"
+  ],
+  "withinCurriculum": "cur-emr-colon-2023",
+  "withinSection": "sec-emr-knowledge",
+  "number": 6,
+  "title": {
+    "en": "Minimum Reporting Requirements"
+  },
+  "statement": {
+    "en": "ESGE recommends the minimum reporting requirements detailed in the following list for EMR procedures."
+  },
+  "grade": {
+    "strength": "strong",
+    "evidenceQuality": "moderate"
+  },
+  "subItems": [
+    {
+      "label": "i",
+      "text": {
+        "en": "General histologic category of the lesion: carcinoma, adenoma \u2013 tubular or tubulovillous, villous adenoma, traditional serrated adenoma, sessile serrated lesion (SSL), hyperplastic polyp."
+      },
+      "levelOfAgreement": 97
+    },
+    {
+      "label": "ii",
+      "text": {
+        "en": "Degree of cytologic dysplasia \u2013 no, low grade or high grade (WHO / Vienna classification )."
+      },
+      "levelOfAgreement": 96,
+      "references": [
+        "ref-62",
+        "ref-63"
+      ]
+    },
+    {
+      "label": "iii",
+      "text": {
+        "en": "Horizontal and deep margin free of polyp (completeness of excision [relevant only for en bloc resection])."
+      },
+      "levelOfAgreement": 96
+    },
+    {
+      "label": "iv",
+      "text": {
+        "en": "Understand that neither \u201ccarcinoma in situ\u201d nor \u201cintramucosal cancer\u201d stated in pathology reporting are indications for earlier follow-up or surgery, both being comparable to high grade dysplasia. Both terms should be interpreted as high grade dysplasia and managed endoscopically."
+      },
+      "levelOfAgreement": 93,
+      "references": [
+        "ref-63"
+      ]
+    },
+    {
+      "label": "v",
+      "text": {
+        "en": "Completeness of piecemeal EMR is a judgement made endoscopically at the time of the index procedure in conjunction with the results of histopathology. It is confirmed at surveillance procedures via the endoscopic and/or histologic assessment of the resection scar."
+      },
+      "levelOfAgreement": 94
+    },
+    {
+      "label": "vi",
+      "text": {
+        "en": "Differentiation of submucosal invasive cancer (SMIC): well, moderately, or poorly differentiated."
+      },
+      "levelOfAgreement": 94
+    },
+    {
+      "label": "vii",
+      "text": {
+        "en": "Depth of invasion from the muscularis mucosae (< 1000 \u00b5m vs. \u22651000 \u00b5m; sessile polyp)."
+      },
+      "levelOfAgreement": 90,
+      "references": [
+        "ref-64",
+        "ref-65"
+      ]
+    },
+    {
+      "label": "viii",
+      "text": {
+        "en": "Presence of lymphovascular invasion [59\u201361]."
+      },
+      "levelOfAgreement": 94
+    },
+    {
+      "label": "ix",
+      "text": {
+        "en": "Presence of tumor budding."
+      },
+      "levelOfAgreement": 94,
+      "references": [
+        "ref-66",
+        "ref-67"
+      ]
+    }
+  ],
+  "commentary": {
+    "en": "For LNPCPs, the depth of submucosal invasion has been classified using the level system , which divides the submucosal layer into sm1, sm2, and sm3. The classification cannot however be applied when lesions have been resected endoscopically, as the full thickness of the submucosal layer is not usually included. Using a measurement of the distance of invasion from the muscularis mucosae was proposed as an alternative . Endoscopically resected LNPCPs containing SMIC with a depth of invasion from the muscularis mucosae < 1000 \u03bcm without any other histologic risk factors can usually be followed up without additional surgery, including lymphadenectomy, as the risk of metastasis is almost nil in such cases ."
+  },
+  "references": [
+    "ref-56",
+    "ref-57",
+    "ref-58",
+    "ref-62",
+    "ref-63",
+    "ref-64",
+    "ref-65",
+    "ref-66",
+    "ref-67",
+    "ref-68",
+    "ref-69"
+  ],
+  "_meta": {
+    "provenance": {
+      "type": "verbatim",
+      "source_doi": "10.1055/a-2077-0497"
+    },
+    "encodedBy": "claude:extract-recommendations@v0.1.0",
+    "encodedAt": "2026-06-27"
+  }
+}

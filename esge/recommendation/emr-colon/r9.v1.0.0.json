@@ -1,0 +1,217 @@
+{
+  "$schema": "https://schema.evideris.com/schemas/recommendation.schema.json",
+  "$id": "https://schema.evideris.com/esge/recommendation/emr-colon/r9.v1.0.0.json",
+  "lineageId": "rec-emr-cln-r9-ground-rules-prior-starting",
+  "type": "recommendation",
+  "version": "1.0.0",
+  "release": "r2026.07",
+  "supersedes": null,
+  "supersededBy": null,
+  "language": [
+    "en"
+  ],
+  "withinCurriculum": "cur-emr-colon-2023",
+  "withinSection": "sec-emr-before-emr",
+  "number": 9,
+  "title": {
+    "en": "Ground Rules Prior To Starting Emr Training"
+  },
+  "statement": {
+    "en": "ESGE recommends that, prior to starting training and the establishment of a trainee\u2013trainer relationship, the ground rules listed below should be established."
+  },
+  "grade": {
+    "strength": "best-practice",
+    "evidenceQuality": "low",
+    "levelOfAgreement": 96
+  },
+  "subItems": [
+    {
+      "label": "i",
+      "text": {
+        "en": "Adequate time should be planned to fully discuss the following risks and benefits with the patient and allow them to ask questions prior to EMR."
+      },
+      "levelOfAgreement": 93
+    },
+    {
+      "label": "ii",
+      "text": {
+        "en": "Patients should be made aware that, while a significant number of LNPCPs will undergo malignant transformation, the timescale of this cannot be predicted. This is particularly relevant if the patient has a shortened life-expectancy owing to advanced age or co-morbidity."
+      },
+      "levelOfAgreement": 94,
+      "references": [
+        "ref-77",
+        "ref-78"
+      ]
+    },
+    {
+      "label": "iii",
+      "text": {
+        "en": "Patients should be made aware of the main advantages and drawbacks of the proposed endoscopic procedure and its duration. This should be highlighted in the context particularly of multiple lesions (which may require multiple procedures) and predicted early malignant lesions [79\u201381]."
+      },
+      "levelOfAgreement": 93
+    },
+    {
+      "label": "iv",
+      "text": {
+        "en": "Patients should be made aware that the alternatives to EMR are other endoscopic therapies (e. g. endoscopic submucosal dissection), surgery, and endoscopic monitoring, and should be made aware of the risks/benefits of these."
+      },
+      "levelOfAgreement": 99
+    },
+    {
+      "label": "v",
+      "text": {
+        "en": "Patients should be aware that, while it is commonly possible to perform EMR as a day-case procedure, there is a small chance that admission may be required for recovery from sedation (if living alone for example) or an adverse event."
+      },
+      "levelOfAgreement": 94,
+      "references": [
+        "ref-6"
+      ]
+    },
+    {
+      "label": "vi",
+      "text": {
+        "en": "Patients should be aware that there is a small (< 1 %) risk of unrecognized or unresolvable perforation during EMR and that this may necessitate emergency surgery if it cannot be managed endoscopically."
+      },
+      "levelOfAgreement": 96,
+      "references": [
+        "ref-79"
+      ]
+    },
+    {
+      "label": "vii",
+      "text": {
+        "en": "Patients should understand that there are some risks associated with the sedation/anesthesia for their endoscopic procedure. Such risks are generally small for patients who are well but may be higher for those with substantial co-morbidity."
+      },
+      "levelOfAgreement": 97
+    },
+    {
+      "label": "viii",
+      "text": {
+        "en": "Patients should understand that there is a risk of incomplete resection of their lesion using EMR. They may therefore need more than one procedure, or even surgery, to completely remove their lesion."
+      },
+      "levelOfAgreement": 96,
+      "references": [
+        "ref-6"
+      ]
+    },
+    {
+      "label": "ix",
+      "text": {
+        "en": "Patients should be informed that there is an approximately 3 %\u201312 % risk (primarily dependent on lesion size, location, and the use of anticoagulants) of significant bleeding requiring hospitalization or reintervention after EMR, and that this risk can be reduced, but not fully mitigated, by adjuvant endoscopic techniques such as clipping."
+      },
+      "levelOfAgreement": 93,
+      "references": [
+        "ref-6",
+        "ref-82",
+        "ref-83"
+      ]
+    },
+    {
+      "label": "x",
+      "text": {
+        "en": "The risk of bleeding associated with anticoagulants should be personalized and a plan to manage an individual\u2019s anticoagulation communicated in advance of the procedure, in discussion with other healthcare professionals involved in the individual\u2019s care and in concordance with published guidance."
+      },
+      "levelOfAgreement": 95,
+      "references": [
+        "ref-84"
+      ]
+    },
+    {
+      "label": "xi",
+      "text": {
+        "en": "Patients should be informed that there is an approximately 0.7 % risk of delayed perforation requiring surgical intervention after EMR at expert centers."
+      },
+      "levelOfAgreement": 92,
+      "references": [
+        "ref-6"
+      ]
+    },
+    {
+      "label": "xii",
+      "text": {
+        "en": "Patients should be aware that, despite best endoscopic prediction, 5 %\u20137 % of LNPCPs that are predicted to be benign from endoscopic pit pattern assessment will contain occult SMI and further treatment may be required after EMR."
+      },
+      "levelOfAgreement": 92,
+      "references": [
+        "ref-4",
+        "ref-28"
+      ]
+    },
+    {
+      "label": "xiii",
+      "text": {
+        "en": "Patients should be aware that LNPCPs that have undergone previous resection attempts, including those marked with carbon particle suspension beneath the lesion or previously biopsied, have a lower rate of successful resection and a higher risk of adverse events than those that have not undergone previous attempts."
+      },
+      "levelOfAgreement": 90,
+      "references": [
+        "ref-9",
+        "ref-85"
+      ]
+    },
+    {
+      "label": "xiv",
+      "text": {
+        "en": "Personal and center-based metrics for EMR (see Recommendation 38) should be available to patients if available and if requested."
+      },
+      "levelOfAgreement": 81
+    },
+    {
+      "label": "xv",
+      "text": {
+        "en": "Postoperative instructions should be clearly communicated to patients including what to expect, when to call for help, and a point of contact if problems occur."
+      },
+      "levelOfAgreement": 96
+    },
+    {
+      "label": "xvi",
+      "text": {
+        "en": "Patients should be aware that there is a risk of polyp recurrence after endoscopic resection, which may require further treatment."
+      },
+      "levelOfAgreement": 95,
+      "references": [
+        "ref-6",
+        "ref-86",
+        "ref-87"
+      ]
+    },
+    {
+      "label": "xvii",
+      "text": {
+        "en": "Patients should therefore be aware of the need for longterm scheduled surveillance procedures after EMR to detect and treat recurrent polyps and or metachronous lesions."
+      },
+      "levelOfAgreement": 95,
+      "references": [
+        "ref-88",
+        "ref-89"
+      ]
+    }
+  ],
+  "references": [
+    "ref-4",
+    "ref-6",
+    "ref-9",
+    "ref-28",
+    "ref-36",
+    "ref-75",
+    "ref-76",
+    "ref-77",
+    "ref-78",
+    "ref-79",
+    "ref-82",
+    "ref-83",
+    "ref-84",
+    "ref-85",
+    "ref-86",
+    "ref-87",
+    "ref-88",
+    "ref-89"
+  ],
+  "_meta": {
+    "provenance": {
+      "type": "verbatim",
+      "source_doi": "10.1055/a-2077-0497"
+    },
+    "encodedBy": "claude:extract-recommendations@v0.1.0",
+    "encodedAt": "2026-06-27"
+  }
+}

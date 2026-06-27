@@ -1,0 +1,119 @@
+{
+  "$schema": "https://schema.evideris.com/schemas/recommendation.schema.json",
+  "$id": "https://schema.evideris.com/esge/recommendation/emr-colon/r14.v1.0.0.json",
+  "lineageId": "rec-emr-cln-r14-considerations-before-emr-lnpcp",
+  "type": "recommendation",
+  "version": "1.0.0",
+  "release": "r2026.07",
+  "supersedes": null,
+  "supersededBy": null,
+  "language": [
+    "en"
+  ],
+  "withinCurriculum": "cur-emr-colon-2023",
+  "withinSection": "sec-emr-before-emr",
+  "number": 14,
+  "title": {
+    "en": "Considerations Before Emr Of An Lnpcp"
+  },
+  "statement": {
+    "en": "ESGE recommends that the points given in the following list should be considered by a competent EMR practitioner prior to EMR once an LNPCP has been judged endoscopically resectable."
+  },
+  "grade": {
+    "strength": "best-practice",
+    "evidenceQuality": "low"
+  },
+  "subItems": [
+    {
+      "label": "i",
+      "text": {
+        "en": "Use injection to improve lesion access and visualization (\u25b6Fig. 2, image B2)."
+      },
+      "levelOfAgreement": 86
+    },
+    {
+      "label": "ii",
+      "text": {
+        "en": "Ensure air is expelled from the injection catheter prior to first injection (priming)."
+      },
+      "levelOfAgreement": 88
+    },
+    {
+      "label": "iii",
+      "text": {
+        "en": "Injection through clearly benign lesions is acceptable if necessary. Caution should be exercised when attempting injection through LNPCPs suspected of containing SMIC because of the risk of malignant seeding."
+      },
+      "levelOfAgreement": 88,
+      "references": [
+        "ref-111"
+      ]
+    },
+    {
+      "label": "iv",
+      "text": {
+        "en": "Injection should be performed dynamically. The injection is started (short stab, tangential to the mucosa) as the tissue is being punctured and then the catheter is pulled back and lifted up/away in the desired direction."
+      },
+      "levelOfAgreement": 87,
+      "references": [
+        "ref-112"
+      ]
+    },
+    {
+      "label": "v",
+      "text": {
+        "en": "Avoid intramucosal blebs (\u25b6Fig. 2, image B4). If these occur, puncture them and re-attempt submucosal injection."
+      },
+      "levelOfAgreement": 87,
+      "references": [
+        "ref-113"
+      ]
+    },
+    {
+      "label": "vi",
+      "text": {
+        "en": "Stop the injection if no lifting is noted (likely transmural/ intraperitoneal injection)."
+      },
+      "levelOfAgreement": 88
+    },
+    {
+      "label": "vii",
+      "text": {
+        "en": "Obtain an appropriate and sustained lifting of the lesion (\u25b6Fig. 2, image B2)."
+      },
+      "levelOfAgreement": 86
+    },
+    {
+      "label": "viii",
+      "text": {
+        "en": "Do not over-lift, especially in narrow segments (e. g. sigmoid colon) or at flexures."
+      },
+      "levelOfAgreement": 85
+    },
+    {
+      "label": "ix",
+      "text": {
+        "en": "Placement of the snare should be under direct visualization and aligned precisely with the advancing edge of the mucosal defect (if piecemeal) (\u25b6Fig. 2, image C2)."
+      },
+      "levelOfAgreement": 93
+    }
+  ],
+  "references": [
+    "ref-5",
+    "ref-95",
+    "ref-96",
+    "ref-97",
+    "ref-109",
+    "ref-110",
+    "ref-111",
+    "ref-112",
+    "ref-113"
+  ],
+  "_meta": {
+    "provenance": {
+      "type": "verbatim",
+      "source_doi": "10.1055/a-2077-0497"
+    },
+    "encodedBy": "claude:extract-recommendations@v0.1.0",
+    "encodedAt": "2026-06-27"
+  }
+}

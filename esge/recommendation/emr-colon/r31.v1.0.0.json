@@ -1,0 +1,112 @@
+{
+  "$schema": "https://schema.evideris.com/schemas/recommendation.schema.json",
+  "$id": "https://schema.evideris.com/esge/recommendation/emr-colon/r31.v1.0.0.json",
+  "lineageId": "rec-emr-cln-r31-management-post-emr-bleeding",
+  "type": "recommendation",
+  "version": "1.0.0",
+  "release": "r2026.07",
+  "supersedes": null,
+  "supersededBy": null,
+  "language": [
+    "en"
+  ],
+  "withinCurriculum": "cur-emr-colon-2023",
+  "withinSection": "sec-emr-after-emr",
+  "number": 31,
+  "title": {
+    "en": "Management Of Post-emr Bleeding"
+  },
+  "statement": {
+    "en": "ESGE recommends the measures given in the list below be considered best practice management of clinically significant post-EMR bleeding."
+  },
+  "grade": {
+    "strength": "strong",
+    "evidenceQuality": "moderate"
+  },
+  "subItems": [
+    {
+      "label": "i",
+      "text": {
+        "en": "Persistent abdominal pain despite simple analgesics."
+      },
+      "levelOfAgreement": 97,
+      "references": [
+        "ref-142",
+        "ref-143"
+      ]
+    },
+    {
+      "label": "ii",
+      "text": {
+        "en": "Persistent abdominal distension associated with abdominal pain."
+      },
+      "levelOfAgreement": 96
+    },
+    {
+      "label": "iii",
+      "text": {
+        "en": "Hemodynamic instability/shock (fever, tachycardia, hypoxia etc.)."
+      },
+      "levelOfAgreement": 97
+    },
+    {
+      "label": "iv",
+      "text": {
+        "en": "Peritonism on clinical examination."
+      },
+      "levelOfAgreement": 97
+    },
+    {
+      "label": "v",
+      "text": {
+        "en": "Persistent large-volume rectal bleeding."
+      },
+      "levelOfAgreement": 97
+    },
+    {
+      "label": "vi",
+      "text": {
+        "en": "The need for surveillance colonoscopy based on the size and histology should be estimated. It should be explained that this will be confirmed once the histopathology results are known."
+      },
+      "levelOfAgreement": 93
+    },
+    {
+      "label": "vii",
+      "text": {
+        "en": "If the colonoscopy identifies malignancy, an LNPCP in a young patient, or a suspicion of a hereditary syndrome, screening of family members following established guidelines should be recommended."
+      },
+      "levelOfAgreement": 93,
+      "references": [
+        "ref-144"
+      ]
+    },
+    {
+      "label": "viii",
+      "text": {
+        "en": "If the procedure was not completed, the reasons why and the next steps in management should be discussed."
+      },
+      "levelOfAgreement": 96
+    },
+    {
+      "label": "ix",
+      "text": {
+        "en": "The importance of not travelling to remote areas (without access to emergency medical care) for a minimum of 14 days should be discussed."
+      },
+      "levelOfAgreement": 83
+    }
+  ],
+  "references": [
+    "ref-141",
+    "ref-142",
+    "ref-143",
+    "ref-144"
+  ],
+  "_meta": {
+    "provenance": {
+      "type": "verbatim",
+      "source_doi": "10.1055/a-2077-0497"
+    },
+    "encodedBy": "claude:extract-recommendations@v0.1.0",
+    "encodedAt": "2026-06-27"
+  }
+}

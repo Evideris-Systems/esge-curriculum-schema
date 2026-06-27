@@ -1,0 +1,94 @@
+{
+  "$schema": "https://schema.evideris.com/schemas/recommendation.schema.json",
+  "$id": "https://schema.evideris.com/esge/recommendation/emr-colon/r8.v1.0.0.json",
+  "lineageId": "rec-emr-cln-r8-attendance-multidisciplinary-meetings",
+  "type": "recommendation",
+  "version": "1.0.0",
+  "release": "r2026.07",
+  "supersedes": null,
+  "supersededBy": null,
+  "language": [
+    "en"
+  ],
+  "withinCurriculum": "cur-emr-colon-2023",
+  "withinSection": "sec-emr-knowledge",
+  "number": 8,
+  "title": {
+    "en": "Attendance At Multidisciplinary Meetings"
+  },
+  "statement": {
+    "en": "ESGE recommends that trainees in EMR regularly attend a multidisciplinary meeting."
+  },
+  "grade": {
+    "strength": "strong",
+    "evidenceQuality": "moderate"
+  },
+  "subItems": [
+    {
+      "label": "i",
+      "text": {
+        "en": "Endoscopists who provide training in EMR (EMR trainers) should have fulfilled the requirements in this competency framework (Recommendation 37), be aware of their own outcomes, and follow them up (Recommendation 38)."
+      },
+      "levelOfAgreement": 86
+    },
+    {
+      "label": "ii",
+      "text": {
+        "en": "Trainees in EMR should first undertake a period of observation: watching experts perform procedures and verbalizing thoughts on lesions and the approach to their resection. The number of procedures is not specified and should be agreed during discussion between the trainee and the trainer."
+      },
+      "levelOfAgreement": 92
+    },
+    {
+      "label": "iii",
+      "text": {
+        "en": "During this observation period, the relevant literature on endoscopic resection should be thoroughly reviewed (including the content of Recommendations 3\u20137)."
+      },
+      "levelOfAgreement": 91
+    },
+    {
+      "label": "iv",
+      "text": {
+        "en": "Training in EMR to become competent (as defined in this curriculum) is best accomplished during a dedicated fellowship of > 6 months."
+      },
+      "levelOfAgreement": 88
+    },
+    {
+      "label": "v",
+      "text": {
+        "en": "During any fellowship, trainees should not initially expect to fully complete all cases (establishing ground rules is critical). Recommendation 28 may form a structure for discussing the ground rules of training."
+      },
+      "levelOfAgreement": 96
+    },
+    {
+      "label": "vi",
+      "text": {
+        "en": "The SMSA and SMSA+ scores may be helpful to guide which lesions are suitable for initial training (\u25b6Table 2)."
+      },
+      "levelOfAgreement": 92,
+      "references": [
+        "ref-36"
+      ]
+    },
+    {
+      "label": "vii",
+      "text": {
+        "en": "Training should be competency based, rather than based on specific numbers of procedures, perhaps focusing on a"
+      }
+    }
+  ],
+  "commentary": {
+    "en": "Multidisciplinary team (MDT) meetings have become the standard of care in the field of oncology. Such meetings usually comprise of a surgeon, oncologist, radiotherapy specialist, radiologist, and histopathologist. There is a substantial body of evidence to support the efficacy of such MDT meetings in terms of important outcomes for colorectal cancer patients (including patient survival) [70\u201373]. An MDT approach can also facilitate appropriate case selection of early colorectal cancer for endoscopic treatment, including EMR . Trainee inclusion in an MDT is recommended if they are routinely practicing endoscopic resection in the lower GI tract, both to identify lesions that can be handled endoscopically and to understand the referral, pre-assessment, and treatment pathways for the complete range of lesions that may present to them."
+  },
+  "references": [
+    "ref-36",
+    "ref-74"
+  ],
+  "_meta": {
+    "provenance": {
+      "type": "verbatim",
+      "source_doi": "10.1055/a-2077-0497"
+    },
+    "encodedBy": "claude:extract-recommendations@v0.1.0",
+    "encodedAt": "2026-06-27"
+  }
+}

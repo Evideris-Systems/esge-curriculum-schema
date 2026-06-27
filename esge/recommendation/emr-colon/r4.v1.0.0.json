@@ -1,0 +1,115 @@
+{
+  "$schema": "https://schema.evideris.com/schemas/recommendation.schema.json",
+  "$id": "https://schema.evideris.com/esge/recommendation/emr-colon/r4.v1.0.0.json",
+  "lineageId": "rec-emr-cln-r4-features-prompting-consideration-bloc",
+  "type": "recommendation",
+  "version": "1.0.0",
+  "release": "r2026.07",
+  "supersedes": null,
+  "supersededBy": null,
+  "language": [
+    "en"
+  ],
+  "withinCurriculum": "cur-emr-colon-2023",
+  "withinSection": "sec-emr-before-emr",
+  "number": 4,
+  "title": {
+    "en": "Features Prompting Consideration Of En Bloc"
+  },
+  "statement": {
+    "en": "ESGE recommends the endoscopic features of an LNPCP detailed in the following list should prompt consideration of en bloc resection or surgery rather than a piecemeal approach with EMR (\u25b6Table 1)."
+  },
+  "grade": {
+    "strength": "strong",
+    "evidenceQuality": "moderate"
+  },
+  "subItems": [
+    {
+      "label": "i",
+      "text": {
+        "en": "Endoscopic imaging features suggesting low risk superficial SMI (en bloc endoscopic resection) or deep SMI (surgery)."
+      },
+      "levelOfAgreement": 93,
+      "references": [
+        "ref-28"
+      ]
+    },
+    {
+      "label": "ii",
+      "text": {
+        "en": "Any bulky (Is, IIa+Is with nodule > 10 mm) lesion in the rectum or at the rectosigmoid junction (high risk for covert SMI) without endoscopic imaging features suggesting overt SMI (en bloc endoscopic resection)."
+      },
+      "levelOfAgreement": 85,
+      "references": [
+        "ref-33"
+      ]
+    },
+    {
+      "label": "iii",
+      "text": {
+        "en": "Any LNPCP with Kudo Vi/JNET 2B pit/vascular pattern where en bloc resection is not possible with EMR (en bloc endoscopic resection)."
+      },
+      "levelOfAgreement": 88
+    },
+    {
+      "label": "iv",
+      "text": {
+        "en": "Any LNPCP with Kudo Vn/JNET 3/NICE III pit/vascular pattern (surgery)."
+      },
+      "levelOfAgreement": 92
+    },
+    {
+      "label": "v",
+      "text": {
+        "en": "Any LNPCP with Paris 0-IIa+c or 0-III morphology and ulceration (surgery)."
+      },
+      "levelOfAgreement": 91
+    },
+    {
+      "label": "vi",
+      "text": {
+        "en": "Periappendiceal LNPCPs invading deeply into the appendiceal orifice (defined by the inability to visualize the entire circumferential margin of the lesion) without prior appendicectomy (full-thickness resection/surgery)."
+      },
+      "levelOfAgreement": 84,
+      "references": [
+        "ref-34"
+      ]
+    },
+    {
+      "label": "vii",
+      "text": {
+        "en": "Inadequate endoscopic access to the target lesion for EMR even by an expert in the technique (laparoscopically assisted EMR or surgery)."
+      },
+      "levelOfAgreement": 84,
+      "references": [
+        "ref-35",
+        "ref-36"
+      ]
+    }
+  ],
+  "commentary": {
+    "en": "In general, risk of SMI is the only evidence-based factor that should prompt a decision for en bloc resection in place of piecemeal EMR. Residual or recurrent adenoma, given the efficacy of thermal ablation of the post-EMR margin , should not be the sole reason to prefer an en bloc approach. It is also possible to perform piecemeal EMR despite non-lifting (whether in a treatment-na\u00efve or previously attempted/biopsied LNPCP ), as long as the risk of cancer (Recommendation 3) is regarded as low."
+  },
+  "tableRefs": [
+    "table-1"
+  ],
+  "references": [
+    "ref-9",
+    "ref-28",
+    "ref-33",
+    "ref-34",
+    "ref-35",
+    "ref-36",
+    "ref-37",
+    "ref-38",
+    "ref-39"
+  ],
+  "_meta": {
+    "provenance": {
+      "type": "verbatim",
+      "source_doi": "10.1055/a-2077-0497"
+    },
+    "encodedBy": "claude:extract-recommendations@v0.1.0",
+    "encodedAt": "2026-06-27"
+  }
+}

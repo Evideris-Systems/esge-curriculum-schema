@@ -1,0 +1,35 @@
+{
+  "$schema": "https://schema.evideris.com/schemas/recommendation.schema.json",
+  "$id": "https://schema.evideris.com/esge/recommendation/emr-colon/r22.v1.0.0.json",
+  "lineageId": "rec-emr-cln-r22-inspection-the-post-emr",
+  "type": "recommendation",
+  "version": "1.0.0",
+  "release": "r2026.07",
+  "supersedes": null,
+  "supersededBy": null,
+  "language": [
+    "en"
+  ],
+  "withinCurriculum": "cur-emr-colon-2023",
+  "withinSection": "sec-emr-during-emr",
+  "number": 22,
+  "title": {
+    "en": "Inspection Of The Post-emr Defect"
+  },
+  "statement": {
+    "en": "ESGE recommends the best practice technique detailed below for inspecting the post-EMR defect after hot snare EMR."
+  },
+  "grade": {
+    "strength": "strong",
+    "evidenceQuality": "moderate"
+  },
+  "references": [],
+  "_meta": {
+    "provenance": {
+      "type": "verbatim",
+      "source_doi": "10.1055/a-2077-0497"
+    },
+    "encodedBy": "claude:extract-recommendations@v0.1.0",
+    "encodedAt": "2026-06-27"
+  }
+}

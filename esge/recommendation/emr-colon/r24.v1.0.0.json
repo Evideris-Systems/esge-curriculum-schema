@@ -1,0 +1,35 @@
+{
+  "$schema": "https://schema.evideris.com/schemas/recommendation.schema.json",
+  "$id": "https://schema.evideris.com/esge/recommendation/emr-colon/r24.v1.0.0.json",
+  "lineageId": "rec-emr-cln-r24-alternative-methods-for-removal",
+  "type": "recommendation",
+  "version": "1.0.0",
+  "release": "r2026.07",
+  "supersedes": null,
+  "supersededBy": null,
+  "language": [
+    "en"
+  ],
+  "withinCurriculum": "cur-emr-colon-2023",
+  "withinSection": "sec-emr-during-emr",
+  "number": 24,
+  "title": {
+    "en": "Alternative Methods For Removal Of"
+  },
+  "statement": {
+    "en": "ESGE recommends that, other than snare resection (EMR), the following techniques are alternative methods for removing non-lifting residual adenomatous tissue."
+  },
+  "grade": {
+    "strength": "strong",
+    "evidenceQuality": "moderate"
+  },
+  "references": [],
+  "_meta": {
+    "provenance": {
+      "type": "verbatim",
+      "source_doi": "10.1055/a-2077-0497"
+    },
+    "encodedBy": "claude:extract-recommendations@v0.1.0",
+    "encodedAt": "2026-06-27"
+  }
+}

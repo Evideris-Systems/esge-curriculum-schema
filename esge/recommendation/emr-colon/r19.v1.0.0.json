@@ -1,0 +1,165 @@
+{
+  "$schema": "https://schema.evideris.com/schemas/recommendation.schema.json",
+  "$id": "https://schema.evideris.com/esge/recommendation/emr-colon/r19.v1.0.0.json",
+  "lineageId": "rec-emr-cln-r19-submucosal-injection-technique",
+  "type": "recommendation",
+  "version": "1.0.0",
+  "release": "r2026.07",
+  "supersedes": null,
+  "supersededBy": null,
+  "language": [
+    "en"
+  ],
+  "withinCurriculum": "cur-emr-colon-2023",
+  "withinSection": "sec-emr-during-emr",
+  "number": 19,
+  "title": {
+    "en": "Submucosal Injection Technique"
+  },
+  "statement": {
+    "en": "ESGE recommends the best practice submucosal injection technique described below for hot snare EMR."
+  },
+  "grade": {
+    "strength": "best-practice",
+    "evidenceQuality": "low",
+    "levelOfAgreement": 92
+  },
+  "subItems": [
+    {
+      "label": "i",
+      "text": {
+        "en": "Use of an appropriate snare type for the lesion and situation (e. g. standard thick-wire snare [wire diameter > 0.4 mm] for hot snare polypectomy)."
+      },
+      "levelOfAgreement": 92
+    },
+    {
+      "label": "ii",
+      "text": {
+        "en": "Use of an appropriate size snare for the lesion. Avoid large snares for large lesions, with suggested maximums of a 15-mm snare for the right colon and a 20-mm snare for the left colon (distal to splenic flexure)."
+      },
+      "levelOfAgreement": 86,
+      "references": [
+        "ref-100"
+      ]
+    },
+    {
+      "label": "iii",
+      "text": {
+        "en": "Ensure the lesion is positioned as close to the 6-o'clock position as possible (\u25b6Fig. 2, image C1) (by rotation of the endoscope or transformation to 6 o\u2019clock using the snare pivot technique)."
+      },
+      "levelOfAgreement": 91
+    },
+    {
+      "label": "iv",
+      "text": {
+        "en": "Start at the edge of the lesion."
+      },
+      "levelOfAgreement": 96
+    },
+    {
+      "label": "v",
+      "text": {
+        "en": "Aim to capture a rim of 2\u20133 mm of normal mucosa (\u25b6Fig. 2, image C1)."
+      },
+      "levelOfAgreement": 96
+    },
+    {
+      "label": "vi",
+      "text": {
+        "en": "Where possible, the long axis of the snare should be aligned parallel to the polyp base."
+      },
+      "levelOfAgreement": 89
+    },
+    {
+      "label": "vii",
+      "text": {
+        "en": "The V of the snare (\u25b6Fig. 2, images C1 and C2) should be extended just beyond the tip of the snare catheter prior to snare placement."
+      },
+      "levelOfAgreement": 89
+    },
+    {
+      "label": "viii",
+      "text": {
+        "en": "Use aspiration of luminal gas and firm downward pressure with the tip of the endoscope whilst closing the snare to aid tissue capture."
+      },
+      "levelOfAgreement": 94
+    },
+    {
+      "label": "ix",
+      "text": {
+        "en": "Placement of the snare should be under direct visualization and aligned precisely with the advancing edge of the mucosal defect (if piecemeal) (\u25b6Fig. 2, image C2)."
+      },
+      "levelOfAgreement": 94
+    },
+    {
+      "label": "x",
+      "text": {
+        "en": "Placement of the snare should be under direct visualization ensuring a rim of 1\u20133 mm of normal tissue (\u25b6Fig. 2, image C1) completely surrounding the target lesion (if en bloc)."
+      },
+      "levelOfAgreement": 95
+    },
+    {
+      "label": "xi",
+      "text": {
+        "en": "The tip of the snare catheter (the V of the snare just beyond its tip) should be near to the endoscope during closure and constantly visualized during closure (\u25b6Fig. 2, images C1 and C2) if possible."
+      },
+      "levelOfAgreement": 92
+    },
+    {
+      "label": "xii",
+      "text": {
+        "en": "The assistant is asked to close the snare and to stop closure, issuing a verbal alert to the endoscopist, when resistance is felt."
+      },
+      "levelOfAgreement": 91
+    },
+    {
+      "label": "xiii",
+      "text": {
+        "en": "At this stage, the endoscopist may take the snare and close the handle so that approximately 1 cm remains between the fingers holding the snare handle and the thumb. Tactile feedback helps the endoscopist to detect entrapped muscularis propria and therefore minimizes the risk of perforation."
+      },
+      "levelOfAgreement": 88
+    },
+    {
+      "label": "xiv",
+      "text": {
+        "en": "Placing a marker on the handle of the snare at the position where (during closure outside the patient) the tip of the snare is seen to enter the sheath may be an alternative to assess the extent of closure, so that the snare may remain with the assistant."
+      },
+      "levelOfAgreement": 86
+    },
+    {
+      "label": "xv",
+      "text": {
+        "en": "Check the mobility of the captured tissue with the snare closed, ensuring it moves independently to the muscularis propria of the colon."
+      },
+      "levelOfAgreement": 96
+    },
+    {
+      "label": "xvi",
+      "text": {
+        "en": "Release and reclose the snare if there is concern over capture of the muscularis propria (assistant or endoscopist suggests too much tissue captured)."
+      },
+      "levelOfAgreement": 96
+    },
+    {
+      "label": "xvii",
+      "text": {
+        "en": "Work sequentially across the lesion when performing piecemeal resection, aligning the snare with the edge of the advancing mucosal defect to avoid islands."
+      },
+      "levelOfAgreement": 96
+    }
+  ],
+  "references": [
+    "ref-100",
+    "ref-111",
+    "ref-112",
+    "ref-113"
+  ],
+  "_meta": {
+    "provenance": {
+      "type": "verbatim",
+      "source_doi": "10.1055/a-2077-0497"
+    },
+    "encodedBy": "claude:extract-recommendations@v0.1.0",
+    "encodedAt": "2026-06-27"
+  }
+}

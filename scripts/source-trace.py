@@ -42,10 +42,15 @@ TEXT_PATHS = {
 def normalise(s: str) -> str:
     """Strip PDF artefacts so a multi-line PDF span matches a clean schema string."""
     s = re.sub(r"\s+", " ", s)
+    # Strip inline citation tags like [28] or [28, 33] — extractors typically remove
+    # these from rec text, so source haystack must do likewise to grep-match.
+    s = re.sub(r"\s*\[\d+(?:[,\s]+\d+)*\]\s*", " ", s)
     # Join hyphenated line breaks: "pedun- culated" -> "pedunculated".
     s = re.sub(r"(\w)-\s+(\w)", r"\1\2", s)
     # Same for slash-line-break: "size/ type" -> "size/type".
     s = re.sub(r"(\w)/\s+(\w)", r"\1/\2", s)
+    # Tighten orphaned punctuation introduced by citation/whitespace stripping.
+    s = re.sub(r"\s+([.,;:])", r"\1", s)
     # Strip ▶ glyph and similar.
     s = s.replace("▶", "").replace("–", "-").replace("—", "-")
     s = s.replace("’", "'").replace("“", '"').replace("”", '"')

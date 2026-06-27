@@ -1,0 +1,132 @@
+{
+  "$schema": "https://schema.evideris.com/schemas/recommendation.schema.json",
+  "$id": "https://schema.evideris.com/esge/recommendation/emr-colon/r20.v1.0.0.json",
+  "lineageId": "rec-emr-cln-r20-snare-placement-capture-and",
+  "type": "recommendation",
+  "version": "1.0.0",
+  "release": "r2026.07",
+  "supersedes": null,
+  "supersededBy": null,
+  "language": [
+    "en"
+  ],
+  "withinCurriculum": "cur-emr-colon-2023",
+  "withinSection": "sec-emr-during-emr",
+  "number": 20,
+  "title": {
+    "en": "Snare Placement, Capture, And Closure"
+  },
+  "statement": {
+    "en": "ESGE recommends the best practice snare placement, capture, and closure technique described below for hot snare EMR."
+  },
+  "grade": {
+    "strength": "best-practice",
+    "evidenceQuality": "low"
+  },
+  "subItems": [
+    {
+      "label": "i",
+      "text": {
+        "en": "Use a modern microprocessor controlled electrosurgical unit capable of delivering a range of currents, including fractionated current."
+      },
+      "levelOfAgreement": 94,
+      "references": [
+        "ref-121"
+      ]
+    },
+    {
+      "label": "ii",
+      "text": {
+        "en": "Ensure the correct settings are used on the electrosurgical unit. It is particularly important to recheck during longer procedures, especially after each instrument change or change in patient position."
+      },
+      "levelOfAgreement": 93
+    },
+    {
+      "label": "iii",
+      "text": {
+        "en": "For monopolar devices, ensure that the patient has an electrosurgical plate on and that the generator is ready to deliver thermal energy."
+      },
+      "levelOfAgreement": 93
+    },
+    {
+      "label": "iv",
+      "text": {
+        "en": "Ensure a stable colonoscope position: if necessary an assistant should support the scope shaft."
+      },
+      "levelOfAgreement": 93
+    },
+    {
+      "label": "v",
+      "text": {
+        "en": "Ensure hemostatic options are available immediately afterwards if required (e. g. clips and hemostatic forceps)."
+      },
+      "levelOfAgreement": 94
+    },
+    {
+      "label": "vi",
+      "text": {
+        "en": "The lumen should subsequently be inflated to visualize the captured tissue and snare placement."
+      },
+      "levelOfAgreement": 91
+    },
+    {
+      "label": "vii",
+      "text": {
+        "en": "The endoscopist should perform a mobility check of the captured tissue to ensure that the muscularis propria is not entrapped."
+      },
+      "levelOfAgreement": 90
+    },
+    {
+      "label": "viii",
+      "text": {
+        "en": "(If the endoscopist is handling the snare) the endoscopist uses tactile feedback to assess the amount of tissue captured and revises if necessary."
+      },
+      "levelOfAgreement": 90
+    },
+    {
+      "label": "ix",
+      "text": {
+        "en": "(If the assistant is handling the snare) ensure the assistant knows the sequence of commands on application of electrosurgical energy (e. g. close snare in a controlled manner to the mark)."
+      },
+      "levelOfAgreement": 83
+    },
+    {
+      "label": "x",
+      "text": {
+        "en": "Tent the tissue for resection away from the deeper structures. Apply electrosurgical energy allowing the energy delivered through the snare to transect the tissue rather than using hand pressure to avoid cold snare resection. The snare handle should not snap closed."
+      },
+      "levelOfAgreement": 96
+    },
+    {
+      "label": "xi",
+      "text": {
+        "en": "During the application of fractionated current, beware if the tissue is not transected within three cycles. Stop further electrosurgical energy application and assess the situation."
+      },
+      "levelOfAgreement": 93
+    },
+    {
+      "label": "xii",
+      "text": {
+        "en": "Stop the application of electrosurgical energy as soon as the tissue is transected."
+      },
+      "levelOfAgreement": 94
+    }
+  ],
+  "references": [
+    "ref-9",
+    "ref-37",
+    "ref-38",
+    "ref-57",
+    "ref-104",
+    "ref-121",
+    "ref-122"
+  ],
+  "_meta": {
+    "provenance": {
+      "type": "verbatim",
+      "source_doi": "10.1055/a-2077-0497"
+    },
+    "encodedBy": "claude:extract-recommendations@v0.1.0",
+    "encodedAt": "2026-06-27"
+  }
+}
