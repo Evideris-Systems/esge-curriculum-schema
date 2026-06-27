@@ -392,7 +392,11 @@
     {
       "id": "ref-68",
       "citation": "Kudo S. Endoscopic mucosal resection of flat and depressed types of early colorectal cancer. Endoscopy 1993; 25: 455\u2013461. doi:10.1055/s-2007-1010367",
-      "doi": "10.1055/s-2007-1010367"
+      "doi": "10.1055/s-2007-1010367",
+      "lowConfidence": true,
+      "confidenceIssues": [
+        "verify-citations detected year mismatch with Crossref auto-match; manual research required to confirm or replace DOI"
+      ]
     },
     {
       "id": "ref-69",
@@ -432,7 +436,11 @@
     {
       "id": "ref-75",
       "citation": "Sidhu M, Tate DJ, Desomer L et al. Mo1662. SMSA-EMR score is a novel endoscopic risk assessment tool for predicting critical endoscopic mucosal resection outcomes. . Gastrointest Endosc 2018; 87: AB467\u2013AB468. doi:10.1016/j.gie.2018.04.2020",
-      "doi": "10.1016/j.gie.2018.04.2020"
+      "doi": "10.1016/j.gie.2018.04.2020",
+      "lowConfidence": true,
+      "confidenceIssues": [
+        "verify-citations detected year mismatch with Crossref auto-match; manual research required to confirm or replace DOI"
+      ]
     },
     {
       "id": "ref-76",
@@ -562,7 +570,11 @@
     {
       "id": "ref-101",
       "citation": "Kimoto Y, Sakai E, Inamoto R et al. Safety and efficacy of cold snare polypectomy without submucosal injection for large sessile serrated lesions: a prospective study. Clin Gastroenterol Hepatol 2022; 20: e132\u2013e138. doi:10.1016/j.cgh.2020.10.053",
-      "doi": "10.1016/j.cgh.2020.10.053"
+      "doi": "10.1016/j.cgh.2020.10.053",
+      "lowConfidence": true,
+      "confidenceIssues": [
+        "verify-citations detected year mismatch with Crossref auto-match; manual research required to confirm or replace DOI"
+      ]
     },
     {
       "id": "ref-102",

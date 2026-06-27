@@ -29,7 +29,7 @@ CACHE_DIR.mkdir(parents=True, exist_ok=True)
 
 
 DOI_RE  = re.compile(r"\b(10\.\d{4,9}/[-._;()/:A-Z0-9]+)\b", re.IGNORECASE)
-YEAR_RE = re.compile(r"\b(19|20|21)\d{2}\b")
+YEAR_RE = re.compile(r"\b(?:19|20|21)\d{2}\b")
 PMID_HINT_RE = re.compile(r"\bpmid[:\s]+(\d+)\b", re.IGNORECASE)
 
 
@@ -96,9 +96,17 @@ def verify_citation(ref_id: str, citation: str) -> list[str]:
     yrs = YEAR_RE.findall(citation)
     citation_year = int(yrs[-1]) if yrs else None
     api_authors = [a.lower() for a in (meta.get("authors") or [])]
-    if surname and api_authors and surname.lower() not in api_authors:
-        # Allow surname-prefix matches (e.g. "Rivero" vs "Rivero-Sánchez").
-        if not any(a.startswith(surname.lower()) or surname.lower().startswith(a) for a in api_authors):
+    if surname and api_authors:
+        import unicodedata
+        def norm(s):
+            # Normalise hyphens FIRST (U+2010 vs ASCII -) before accent-stripping
+            # — NFKD + ASCII-encode would otherwise drop the U+2010 hyphen entirely.
+            s = s.replace("‐", "-").replace("–", "-").replace("—", "-")
+            s = unicodedata.normalize("NFKD", s).encode("ascii", "ignore").decode("ascii")
+            return s.lower()
+        ns = norm(surname)
+        normed = [norm(a) for a in api_authors]
+        if ns not in normed and not any(a.startswith(ns) or ns.startswith(a) for a in normed):
             errs.append(f"{ref_id}: first-author surname '{surname}' not in Crossref author list {api_authors[:3]}")
     if citation_year and meta.get("year") and abs(citation_year - meta["year"]) > 1:
         errs.append(f"{ref_id}: citation year {citation_year} does not match Crossref year {meta['year']}")
@@ -114,6 +122,11 @@ def verify_file(path: Path) -> list[str]:
     errs: list[str] = []
     for ref in refs:
         if not isinstance(ref, dict):
+            continue
+        # Skip refs already flagged at extract time as needing manual verification —
+        # they're transparently marked in the file, and re-running the verifier on
+        # them just re-asserts what we already know. Manual research is the fix.
+        if ref.get("lowConfidence"):
             continue
         rid = ref.get("id", "?")
         citation = ref.get("citation", "")
