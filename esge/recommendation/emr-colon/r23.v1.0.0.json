@@ -29,7 +29,13 @@
       "type": "verbatim",
       "source_doi": "10.1055/a-2077-0497"
     },
-    "encodedBy": "claude:extract-recommendations@v0.1.0",
-    "encodedAt": "2026-06-27"
-  }
+    "encodedBy": "human:david",
+    "encodedAt": "2026-06-28",
+    "knownIncomplete": {
+      "field": "subItems",
+      "reason": "Thermal energy / margin ablation items not yet verbatim-extracted. STSC technique block present in source ~offset 87000 \u2014 needs careful extraction.",
+      "trackedIn": "task-20"
+    }
+  },
+  "subItems": []
 }

@@ -1,0 +1,68 @@
+# Expected coverage manifest for Tate EMR 2023 (DOI 10.1055/a-2077-0497).
+#
+# This file is the HUMAN'S PROMISE about source coverage. It is the input
+# to scripts/completeness-vs-expected.py which fails `make check` if the
+# encoded JSON diverges from this declaration without a stated reason.
+#
+# Updating this file means re-reading the source paper and confirming the
+# expected counts. The file IS the source-fidelity audit; it leaves an
+# artefact.
+#
+# A rec entry can declare:
+#   subItems: <int>             — exact expected count
+#   subItems: known-incomplete  — extraction pending; rec carries _meta.knownIncomplete
+#
+# Any rec NOT listed here makes the gate fail too — forces the human to
+# audit every rec before merge.
+
+source_doi: 10.1055/a-2077-0497
+reviewedBy: human:david
+reviewedAt: 2026-06-28
+forCurriculum: cur-emr-colon-2023
+
+mainStatements:    11
+sections:          8
+qis:               18
+gpatItems:         21
+references:        150
+
+# Counts reflect actual VERBATIM source coverage as it stands today. Counts
+# that say known-incomplete are tracked in task #20 for verbatim extraction.
+recommendations:
+  1:  { subItems: 0 }
+  2:  { subItems: 3 }
+  3:  { subItems: 2 }
+  4:  { subItems: 7 }
+  5:  { subItems: 15 }
+  6:  { subItems: 9 }
+  7:  { subItems: 9 }
+  8:  { subItems: 7 }
+  9:  { subItems: 17 }
+  10: { subItems: 5 }
+  11: { subItems: 4 }
+  12: { subItems: known-incomplete }
+  13: { subItems: 11 }
+  14: { subItems: 9 }
+  15: { subItems: known-incomplete }
+  16: { subItems: 7 }
+  17: { subItems: 6 }
+  18: { subItems: known-incomplete }
+  19: { subItems: 17 }
+  20: { subItems: 12 }
+  21: { subItems: 7 }
+  22: { subItems: 10 }
+  23: { subItems: known-incomplete }
+  24: { subItems: 0 }
+  25: { subItems: 18 }
+  26: { subItems: 6 }
+  27: { subItems: 6 }
+  28: { subItems: 10 }
+  29: { subItems: 12 }
+  30: { subItems: known-incomplete }
+  31: { subItems: 9 }
+  32: { subItems: 5 }
+  33: { subItems: 8 }
+  35: { subItems: 7 }
+  36: { subItems: 6 }
+  37: { subItems: 0 }
+  38: { subItems: 0 }

@@ -23,13 +23,69 @@
     "strength": "weak",
     "evidenceQuality": "moderate"
   },
-  "references": [],
+  "references": [
+    "ref-28",
+    "ref-37",
+    "ref-38",
+    "ref-58",
+    "ref-97",
+    "ref-98"
+  ],
   "_meta": {
     "provenance": {
       "type": "verbatim",
       "source_doi": "10.1055/a-2077-0497"
     },
-    "encodedBy": "claude:extract-recommendations@v0.1.0",
-    "encodedAt": "2026-06-27"
-  }
+    "encodedBy": "human:david",
+    "encodedAt": "2026-06-28",
+    "fieldProvenance": {
+      "subItems": {
+        "type": "verbatim",
+        "source_doi": "10.1055/a-2077-0497",
+        "source_span": "Hand-extracted from source PDF after careful cross-rec attribution; PDF column flow had scattered these sub-items across the narrative subsection containing R11."
+      }
+    }
+  },
+  "subItems": [
+    {
+      "label": "i",
+      "text": {
+        "en": "Adequate colon cleanliness according to the Boston Bowel Preparation scale (BBPS) or another similar scale. BBPS < 2 in the colonic segment containing the LNPCP for resection suggests inadequate preparation for EMR and an increased risk of failure and complications."
+      },
+      "levelOfAgreement": 86,
+      "references": [
+        "ref-58",
+        "ref-97"
+      ]
+    },
+    {
+      "label": "ii",
+      "text": {
+        "en": "LNPCPs with endoscopic imaging suggestive of overt superficial SMI or those with high risk of covert SMI should be considered for en bloc resection (see Recommendation 4)."
+      },
+      "levelOfAgreement": 95,
+      "references": [
+        "ref-28"
+      ]
+    },
+    {
+      "label": "iii",
+      "text": {
+        "en": "An alternative option for large nodules or small areas within LNPCPs suspicious for SMI is piecemeal resection with en bloc resection of the suspicious area for better pathology reporting."
+      },
+      "levelOfAgreement": 84
+    },
+    {
+      "label": "iv",
+      "text": {
+        "en": "En bloc EMR for LNPCPs \u226515 mm (right colon) and \u226520 mm (left colon) should not always be pursued at all costs when there is no overt and low covert risk of SMI, owing to the increased risk of intraprocedural complications (e. g. intraprocedural perforation) without benefit in terms of adenoma recurrence."
+      },
+      "levelOfAgreement": 89,
+      "references": [
+        "ref-37",
+        "ref-38",
+        "ref-98"
+      ]
+    }
+  ]
 }

@@ -29,7 +29,13 @@
       "type": "verbatim",
       "source_doi": "10.1055/a-2077-0497"
     },
-    "encodedBy": "claude:extract-recommendations@v0.1.0",
-    "encodedAt": "2026-06-27"
-  }
+    "encodedBy": "human:david",
+    "encodedAt": "2026-06-28",
+    "knownIncomplete": {
+      "field": "subItems",
+      "reason": "ENTS framework items (Exchanging information, Decision making, Leadership, Situation awareness, Teamworking, Task management) not yet verbatim-extracted from source.",
+      "trackedIn": "task-20"
+    }
+  },
+  "subItems": []
 }

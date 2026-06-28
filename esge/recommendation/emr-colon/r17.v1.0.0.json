@@ -7,33 +7,81 @@
   "release": "r2026.07",
   "supersedes": null,
   "supersededBy": null,
-  "language": ["en"],
-
+  "language": [
+    "en"
+  ],
   "withinCurriculum": "cur-emr-colon-2023",
   "withinSection": "sec-emr-during-emr",
   "number": 17,
-
-  "title": { "en": "Snare placement, capture, and closure" },
+  "title": {
+    "en": "Snare placement, capture, and closure"
+  },
   "statement": {
     "en": "ESGE recommends the best practice snare placement, capture, and closure technique described below for cold snare EMR."
   },
-
   "grade": {
     "strength": "best-practice",
     "evidenceQuality": "low",
     "levelOfAgreement": 95
   },
-
-  "subItems": [],
-
+  "subItems": [
+    {
+      "label": "i",
+      "text": {
+        "en": "Use of a dedicated, thin-wire (0.3-mm wire diameter) cold snare is strongly recommended when performing piecemeal cold snare polypectomy."
+      },
+      "levelOfAgreement": 90
+    },
+    {
+      "label": "ii",
+      "text": {
+        "en": "A maximum snare diameter of 10 mm is recommended for piecemeal cold snare polypectomy as tissue transection of pieces > 10 mm regularly leads to stalling of snare transection."
+      },
+      "levelOfAgreement": 91
+    },
+    {
+      "label": "iv",
+      "text": {
+        "en": "Start at the edge of the lesion."
+      },
+      "levelOfAgreement": 92
+    },
+    {
+      "label": "v",
+      "text": {
+        "en": "Aim to capture a rim of 1\u20133 mm of normal mucosa (Fig. 2, images A4 and C1). This is critical in cold snare polypectomy owing to the absence of electrosurgical energy."
+      },
+      "levelOfAgreement": 94
+    },
+    {
+      "label": "vi",
+      "text": {
+        "en": "Ideally the long axis of the snare should be placed parallel to the polyp base."
+      },
+      "levelOfAgreement": 93
+    },
+    {
+      "label": "vii",
+      "text": {
+        "en": "The V of the snare (Fig. 2, images C1 and C2) should be extended just beyond the tip of the snare catheter prior to snare placement."
+      },
+      "levelOfAgreement": 92
+    }
+  ],
   "references": [],
-
   "_meta": {
     "provenance": {
       "type": "verbatim",
       "source_doi": "10.1055/a-2077-0497"
     },
     "encodedBy": "human:david",
-    "encodedAt": "2026-06-27"
+    "encodedAt": "2026-06-28",
+    "fieldProvenance": {
+      "subItems": {
+        "type": "verbatim",
+        "source_doi": "10.1055/a-2077-0497",
+        "source_span": "Hand-extracted from source PDF after careful cross-rec attribution; PDF column flow had scattered these sub-items across the narrative subsection containing R17."
+      }
+    }
   }
 }

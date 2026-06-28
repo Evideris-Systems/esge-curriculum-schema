@@ -23,13 +23,120 @@
     "strength": "strong",
     "evidenceQuality": "moderate"
   },
-  "references": [],
+  "references": [
+    "ref-102",
+    "ref-103",
+    "ref-104",
+    "ref-122",
+    "ref-37",
+    "ref-38",
+    "ref-57",
+    "ref-9"
+  ],
   "_meta": {
     "provenance": {
       "type": "verbatim",
       "source_doi": "10.1055/a-2077-0497"
     },
-    "encodedBy": "claude:extract-recommendations@v0.1.0",
-    "encodedAt": "2026-06-27"
-  }
+    "encodedBy": "human:david",
+    "encodedAt": "2026-06-28",
+    "fieldProvenance": {
+      "subItems": {
+        "type": "verbatim",
+        "source_doi": "10.1055/a-2077-0497",
+        "source_span": "Hand-extracted from source PDF after careful cross-rec attribution; PDF column flow had scattered these sub-items across the narrative subsection containing R22."
+      }
+    }
+  },
+  "subItems": [
+    {
+      "label": "i",
+      "text": {
+        "en": "Spend an appropriate amount of time inspecting the entire mucosal defect (Fig. 2, images D2\u2013D5), particularly the margins, for residual polyp tissue."
+      },
+      "levelOfAgreement": 95,
+      "references": [
+        "ref-37",
+        "ref-38"
+      ]
+    },
+    {
+      "label": "ii",
+      "text": {
+        "en": "The use of virtual chromoendoscopy and magnification can be helpful to detect residual polyp tissue at the defect margin."
+      },
+      "levelOfAgreement": 90
+    },
+    {
+      "label": "iii",
+      "text": {
+        "en": "If removal of the snare is difficult, visible polyp tissue should not be coagulated, instead it should be removed using a different snare (Fig. 2, image D4) or an avulsion technique prior to coagulation."
+      },
+      "levelOfAgreement": 89
+    },
+    {
+      "label": "v",
+      "text": {
+        "en": "The submucosa of the defect should be further inspected for bleeding vessels (Fig. 2, image D6). These should be coagulated (see Recommendation 29)."
+      },
+      "levelOfAgreement": 90,
+      "references": [
+        "ref-104"
+      ]
+    },
+    {
+      "label": "vi",
+      "text": {
+        "en": "The submucosa of the defect should be further inspected for large herniating vessels. The weight of available evidence suggests that, if vessels are not bleeding, they do not need to be coagulated."
+      },
+      "levelOfAgreement": 88,
+      "references": [
+        "ref-122"
+      ]
+    },
+    {
+      "label": "vii",
+      "text": {
+        "en": "Significant fibrosis in the submucosal plane should be noted. This may represent a benign cause such as prolapse, may be an intrinsic feature of a nongranular LNPCP, or may represent evidence of submucosal invasion."
+      },
+      "levelOfAgreement": 94,
+      "references": [
+        "ref-9"
+      ]
+    },
+    {
+      "label": "viii",
+      "text": {
+        "en": "It should be recognized that no feature (other than bleeding vessels) of the submucosa of the defect has been shown to predict important outcomes after EMR."
+      },
+      "levelOfAgreement": 90,
+      "references": [
+        "ref-104"
+      ]
+    },
+    {
+      "label": "ix",
+      "text": {
+        "en": "The muscularis propria should be inspected if visible and described using the Sydney classification of deep mural injury (DMI) (Fig. 2, images D7\u2013D9)."
+      },
+      "levelOfAgreement": 90,
+      "references": [
+        "ref-57"
+      ]
+    },
+    {
+      "label": "xii",
+      "text": {
+        "en": "Use of a transparent distal colonoscope attachment can be helpful to fully visualize a mucosal defect over a fold or at a flexure."
+      },
+      "levelOfAgreement": 88
+    },
+    {
+      "label": "xiii",
+      "text": {
+        "en": "Photodocumentation of all areas of the post-EMR defect helps to assess completeness of resection (Fig. 2, image D1) and facilitates learning if an adverse event occurs later. It may also be useful for medicolegal purposes."
+      },
+      "levelOfAgreement": 92
+    }
+  ]
 }

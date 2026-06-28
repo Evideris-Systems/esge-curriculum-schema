@@ -81,7 +81,18 @@
           }
         },
         "encodedBy":   { "type": "string", "pattern": "^(human:[a-z0-9-]+|claude:[a-z0-9-]+@v?\\d+\\.\\d+\\.\\d+|other:.+)$" },
-        "encodedAt":   { "type": "string", "format": "date" }
+        "encodedAt":   { "type": "string", "format": "date" },
+        "knownIncomplete": {
+          "type": "object",
+          "description": "Honest declaration that a field is known to be incomplete vs the source. Surfaces a visible badge in the renderer instead of silently empty.",
+          "required": ["field", "reason"],
+          "properties": {
+            "field":      { "type": "string", "description": "Field path that is known-incomplete (e.g. 'subItems')" },
+            "reason":     { "type": "string", "minLength": 10 },
+            "trackedIn":  { "type": "string", "description": "Optional task id or external tracker reference" }
+          },
+          "additionalProperties": false
+        }
       },
       "additionalProperties": false
     },

@@ -208,6 +208,17 @@ h4 { font: 600 .8rem/1.3 "Roboto", sans-serif; margin: 1rem 0 .4rem; color: var(
 .subitems li::before { counter-increment: subi; content: "(" attr(data-label) ")"; position: absolute; left: 0; color: var(--shade); font-size: .85rem; }
 .subitems li .si-loa { font-size: .7rem; color: var(--shade); margin-left: .4rem; }
 .commentary { background: white; padding: .8rem 1.1rem; margin: .8rem 0 0; font-size: .92rem; border-radius: 2px; color: var(--shade); font-style: italic; border-left: 2px solid var(--rule); }
+.known-incomplete {
+  background: var(--color-warning-surface);
+  border-left: 3px solid var(--color-warning);
+  padding: .65rem .9rem;
+  margin: .7rem 0 0;
+  font-size: .85rem;
+  border-radius: 2px;
+  color: var(--ink);
+}
+.known-incomplete .ki-reason { color: var(--color-on-surface-muted); display: block; margin-top: .25rem; }
+.known-incomplete .ki-tracked { color: var(--color-on-surface-soft); font-size: .78rem; }
 .refs-inline { font-size: .8rem; color: var(--shade); margin-left: .4rem; }
 
 table { width: 100%; border-collapse: collapse; margin: 1rem 0; font-size: .92rem; }
@@ -288,12 +299,23 @@ def render_subitems(items: list[dict]) -> str:
 
 def render_recommendation(rec: dict) -> str:
     strength = (rec.get("grade") or {}).get("strength", "")
+    ki = (rec.get("_meta") or {}).get("knownIncomplete") or {}
+    incomplete_html = ""
+    if ki.get("field") == "subItems":
+        incomplete_html = (
+            '<div class="known-incomplete">'
+            '<strong>🚧 Sub-items pending verbatim extraction.</strong> '
+            f'<span class="ki-reason">{esc(ki.get("reason", ""))}</span>'
+            + (f' <span class="ki-tracked">Tracked in {esc(ki.get("trackedIn"))}.</span>' if ki.get("trackedIn") else "")
+            + '</div>'
+        )
     return f"""
     <div class="rec {esc(strength)}">
       <div class="num-title"><span class="num">{esc(rec.get("number", "?"))}</span>{esc(loc(rec.get("title")))}</div>
       <div class="statement">{esc(loc(rec.get("statement")))}</div>
       {render_grade(rec.get("grade") or {})}
       {render_subitems(rec.get("subItems") or [])}
+      {incomplete_html}
       {f'<div class="commentary">{esc(loc(rec.get("commentary")))}</div>' if rec.get("commentary") else ""}
     </div>
     """
