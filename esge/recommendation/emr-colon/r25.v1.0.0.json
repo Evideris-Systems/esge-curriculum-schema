@@ -14,7 +14,7 @@
   "withinSection": "sec-emr-during-emr",
   "number": 25,
   "title": {
-    "en": "Retrieval Of Polyp Tissue"
+    "en": "Retrieval of polyp tissue"
   },
   "statement": {
     "en": "ESGE recommends the best practice technique described below for retrieval of polyp tissue after EMR."
@@ -162,7 +162,7 @@
       "type": "verbatim",
       "source_doi": "10.1055/a-2077-0497"
     },
-    "encodedBy": "claude:extract-recommendations@v0.1.0",
-    "encodedAt": "2026-06-27"
+    "encodedBy": "human:david",
+    "encodedAt": "2026-06-28"
   }
 }

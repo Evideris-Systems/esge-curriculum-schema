@@ -14,7 +14,7 @@
   "withinSection": "sec-emr-before-emr",
   "number": 9,
   "title": {
-    "en": "Ground Rules Prior To Starting Emr Training"
+    "en": "Ground rules prior to starting EMR training"
   },
   "statement": {
     "en": "ESGE recommends that, prior to starting training and the establishment of a trainee\u2013trainer relationship, the ground rules listed below should be established."
@@ -211,7 +211,7 @@
       "type": "verbatim",
       "source_doi": "10.1055/a-2077-0497"
     },
-    "encodedBy": "claude:extract-recommendations@v0.1.0",
-    "encodedAt": "2026-06-27"
+    "encodedBy": "human:david",
+    "encodedAt": "2026-06-28"
   }
 }

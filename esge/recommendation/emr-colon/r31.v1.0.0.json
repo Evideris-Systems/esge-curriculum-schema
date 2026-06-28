@@ -14,7 +14,7 @@
   "withinSection": "sec-emr-after-emr",
   "number": 31,
   "title": {
-    "en": "Management Of Post-emr Bleeding"
+    "en": "Management of post-EMR bleeding"
   },
   "statement": {
     "en": "ESGE recommends the measures given in the list below be considered best practice management of clinically significant post-EMR bleeding."
@@ -106,7 +106,7 @@
       "type": "verbatim",
       "source_doi": "10.1055/a-2077-0497"
     },
-    "encodedBy": "claude:extract-recommendations@v0.1.0",
-    "encodedAt": "2026-06-27"
+    "encodedBy": "human:david",
+    "encodedAt": "2026-06-28"
   }
 }

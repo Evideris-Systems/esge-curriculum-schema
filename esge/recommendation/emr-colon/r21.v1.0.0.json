@@ -14,7 +14,7 @@
   "withinSection": "sec-emr-during-emr",
   "number": 21,
   "title": {
-    "en": "Safety Checks Before Applying"
+    "en": "Safety checks before applying electrosurgical energy"
   },
   "statement": {
     "en": "ESGE recommends the safety checks detailed below be made prior to the application of electrosurgical energy during hot snare EMR."
@@ -96,7 +96,7 @@
       "type": "verbatim",
       "source_doi": "10.1055/a-2077-0497"
     },
-    "encodedBy": "claude:extract-recommendations@v0.1.0",
-    "encodedAt": "2026-06-27"
+    "encodedBy": "human:david",
+    "encodedAt": "2026-06-28"
   }
 }

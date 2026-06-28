@@ -14,7 +14,7 @@
   "withinSection": "sec-emr-during-emr",
   "number": 28,
   "title": {
-    "en": "Determing Whether Emr Procedures"
+    "en": "Determing whether EMR procedures should be taken over by the supervising practitioner"
   },
   "statement": {
     "en": "ESGE recommends the criteria listed below should be considered when determining when/if trainee EMR procedures should be taken over by their supervising practitioner."
@@ -114,7 +114,7 @@
       "type": "verbatim",
       "source_doi": "10.1055/a-2077-0497"
     },
-    "encodedBy": "claude:extract-recommendations@v0.1.0",
-    "encodedAt": "2026-06-27"
+    "encodedBy": "human:david",
+    "encodedAt": "2026-06-28"
   }
 }

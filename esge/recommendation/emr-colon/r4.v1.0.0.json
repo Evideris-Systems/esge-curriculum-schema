@@ -14,7 +14,7 @@
   "withinSection": "sec-emr-before-emr",
   "number": 4,
   "title": {
-    "en": "Features Prompting Consideration Of En Bloc"
+    "en": "Features prompting consideration of en bloc resction or surgery"
   },
   "statement": {
     "en": "ESGE recommends the endoscopic features of an LNPCP detailed in the following list should prompt consideration of en bloc resection or surgery rather than a piecemeal approach with EMR (\u25b6Table 1)."
@@ -109,7 +109,7 @@
       "type": "verbatim",
       "source_doi": "10.1055/a-2077-0497"
     },
-    "encodedBy": "claude:extract-recommendations@v0.1.0",
-    "encodedAt": "2026-06-27"
+    "encodedBy": "human:david",
+    "encodedAt": "2026-06-28"
   }
 }

@@ -100,6 +100,20 @@ def check_curriculum(slug: str, expected: dict) -> list[str]:
                 if known_incomplete:
                     continue
                 errs.append(f"R{n}: expected {decl_sub} sub-items, got {actual} (declare _meta.knownIncomplete or fix encoding or update expected.yaml)")
+            # NEW Rule (Fix C): if declared 0 sub-items, manifest must give a reason
+            if decl_sub == 0 and not decl.get("reason"):
+                errs.append(f"R{n}: expected.yaml declares 0 sub-items but no reason — add reason: \"...\" so 0 is auditable")
+            # NEW Rule (Fix B): if rec statement promises a list ('described below'/etc),
+            # it cannot legitimately have 0 sub-items UNLESS the manifest has an explicit
+            # reason explaining why (the reason IS the audit trail).
+            stmt = ((d.get("statement") or {}).get("en") or "").lower()
+            PROMISES_LIST = ["following list", "following techniques", "following criteria",
+                             "described below", "detailed below", "listed below",
+                             "given in the following", "given below", "criteria below",
+                             "techniques below", "the list below"]
+            promises = any(p in stmt for p in PROMISES_LIST)
+            if promises and decl_sub == 0 and not known_incomplete and not decl.get("reason"):
+                errs.append(f"R{n}: statement promises a list ('{next(p for p in PROMISES_LIST if p in stmt)}') but expected.yaml says 0 sub-items. Either source-extract the items, set knownIncomplete, or add a reason: explaining why 0 is correct")
         else:
             errs.append(f"R{n}: expected.yaml subItems value {decl_sub!r} not understood (need int or 'known-incomplete')")
 

@@ -14,7 +14,7 @@
   "withinSection": "sec-emr-during-emr",
   "number": 24,
   "title": {
-    "en": "Alternative Methods For Removal Of"
+    "en": "Alternative methods for removal of non-lifting residual adenomatous tissue"
   },
   "statement": {
     "en": "ESGE recommends that, other than snare resection (EMR), the following techniques are alternative methods for removing non-lifting residual adenomatous tissue."
@@ -29,7 +29,13 @@
       "type": "verbatim",
       "source_doi": "10.1055/a-2077-0497"
     },
-    "encodedBy": "claude:extract-recommendations@v0.1.0",
-    "encodedAt": "2026-06-27"
-  }
+    "encodedBy": "human:david",
+    "encodedAt": "2026-06-28",
+    "knownIncomplete": {
+      "field": "subItems",
+      "reason": "Alternative methods for removing non-lifting residual tissue (hot avulsion, forced APC, etc.) listed in source narrative but not yet (i)(ii) verbatim-extracted.",
+      "trackedIn": "task-21"
+    }
+  },
+  "subItems": []
 }

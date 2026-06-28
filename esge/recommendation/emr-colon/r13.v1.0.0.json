@@ -14,7 +14,7 @@
   "withinSection": "sec-emr-before-emr",
   "number": 13,
   "title": {
-    "en": "Determining The Resectability Of Lnpcps"
+    "en": "Determining the resectability of LNPCPs"
   },
   "statement": {
     "en": "ESGE recommends that the points given in the following list regarding the resectability of LNPCPs are considered by a competent practitioner in EMR."
@@ -128,7 +128,7 @@
       "type": "verbatim",
       "source_doi": "10.1055/a-2077-0497"
     },
-    "encodedBy": "claude:extract-recommendations@v0.1.0",
-    "encodedAt": "2026-06-27"
+    "encodedBy": "human:david",
+    "encodedAt": "2026-06-28"
   }
 }

@@ -14,7 +14,7 @@
   "withinSection": "sec-emr-before-emr",
   "number": 14,
   "title": {
-    "en": "Considerations Before Emr Of An Lnpcp"
+    "en": "Considerations before EMR of an LNPCP"
   },
   "statement": {
     "en": "ESGE recommends that the points given in the following list should be considered by a competent EMR practitioner prior to EMR once an LNPCP has been judged endoscopically resectable."
@@ -113,7 +113,7 @@
       "type": "verbatim",
       "source_doi": "10.1055/a-2077-0497"
     },
-    "encodedBy": "claude:extract-recommendations@v0.1.0",
-    "encodedAt": "2026-06-27"
+    "encodedBy": "human:david",
+    "encodedAt": "2026-06-28"
   }
 }

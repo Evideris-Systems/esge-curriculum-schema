@@ -14,7 +14,7 @@
   "withinSection": "sec-emr-after-emr",
   "number": 33,
   "title": {
-    "en": "Post-procedure Discussion With Patients"
+    "en": "Post-procedure discussion with patients"
   },
   "statement": {
     "en": "ESGE recommends the topics given in the following list (representing the minimum content for a competent practitioner to achieve a safe discharge of the patient into the community) should be covered with a patient in the post-EMR conversation."
@@ -107,7 +107,7 @@
       "type": "verbatim",
       "source_doi": "10.1055/a-2077-0497"
     },
-    "encodedBy": "claude:extract-recommendations@v0.1.0",
-    "encodedAt": "2026-06-27"
+    "encodedBy": "human:david",
+    "encodedAt": "2026-06-28"
   }
 }

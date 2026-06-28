@@ -29,7 +29,7 @@ references:        150
 # Counts reflect actual VERBATIM source coverage as it stands today. Counts
 # that say known-incomplete are tracked in task #20 for verbatim extraction.
 recommendations:
-  1:  { subItems: 0 }
+  1:  { subItems: 0, reason: "competencies listed inline in statement text, not as (i)(ii) items" }
   2:  { subItems: 3 }
   3:  { subItems: 2 }
   4:  { subItems: 7 }
@@ -52,7 +52,7 @@ recommendations:
   21: { subItems: 7 }
   22: { subItems: 10 }
   23: { subItems: known-incomplete }
-  24: { subItems: 0 }
+  24: { subItems: known-incomplete }
   25: { subItems: 18 }
   26: { subItems: 6 }
   27: { subItems: 6 }
@@ -64,5 +64,5 @@ recommendations:
   33: { subItems: 8 }
   35: { subItems: 7 }
   36: { subItems: 6 }
-  37: { subItems: 0 }
-  38: { subItems: 0 }
+  37: { subItems: known-incomplete }
+  38: { subItems: 0, reason: "points to Table 6 (separate QI artifacts); no enumerated sub-items in source" }
