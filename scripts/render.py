@@ -54,48 +54,127 @@ def esc(s: str) -> str:
 
 
 # ============================================================================
-# CSS — self-contained, editorial style
+# CSS — self-contained. Palette/typography from esge-certification-app-test
+# design tokens (~/Documents/GitHubs/esge-certification-app-test/app/globals.css
+# + tailwind.config.ts). When this page is later embedded INSIDE the cert app,
+# pass --embed to drop the @import + outer chrome and inherit host styles.
 # ============================================================================
 CSS = r"""
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wdth,wght@75..100,400;75..100,600;75..100,700&family=Roboto:wght@400;500;700&family=IBM+Plex+Mono:wght@400;500&display=swap');
+
 :root {
-  --ink: #0a1a2f;
-  --paper: #fafaf6;
-  --paper-2: #f3f1e8;
-  --rule: #d8d4c3;
-  --accent: #19c3d6;
-  --warn: #b5491b;
-  --good: #2e7d32;
-  --mid: #b58915;
-  --shade: #5a6470;
+  /* ESGE design tokens — mirror esge-certification-app-test */
+  --color-primary: #004187;
+  --color-primary-hover: #00305f;
+  --color-accent: #009a91;
+  --color-accent-hover: #007f78;
+  --color-surface: #ffffff;
+  --color-paper: #faf9f6;
+  --color-surface-muted: #f2f1ef;
+  --color-surface-mint: #eaf7f5;
+  --color-mint: #a6dad0;
+  --color-certificate-gold: #fde194;
+  --color-on-surface: #171717;
+  --color-on-surface-muted: #44546a;
+  --color-on-surface-soft: #6b7280;
+  --color-blue-grey: #44546a;
+  --color-border: #e5e7eb;
+  --color-border-strong: #d1d5db;
+  --color-success: #22c55e;
+  --color-success-surface: #dcfce7;
+  --color-warning: #f59e0b;
+  --color-warning-surface: #fef3c7;
+  --color-error: #ef4444;
+  --color-error-surface: #fee2e2;
+
+  /* Legacy aliases used throughout the renderer */
+  --ink: var(--color-on-surface);
+  --paper: var(--color-paper);
+  --paper-2: var(--color-surface-muted);
+  --rule: var(--color-border);
+  --accent: var(--color-accent);
+  --primary: var(--color-primary);
+  --shade: var(--color-on-surface-muted);
+  --good: var(--color-success);
+  --mid: var(--color-warning);
+  --warn: var(--color-error);
 }
 * { box-sizing: border-box; }
 body {
-  font: 16px/1.55 "Hanken Grotesk", "Inter", system-ui, sans-serif;
+  font: 16px/1.55 "Roboto", system-ui, -apple-system, Helvetica, Arial, sans-serif;
   background: var(--paper);
   color: var(--ink);
   margin: 0;
-  padding: 0 1rem;
+  padding: 0;
 }
-.wrap { max-width: 980px; margin: 0 auto; padding: 3rem 0 6rem; }
+
+/* ----- Sticky top nav (table of contents) ----- */
+nav.toc {
+  position: sticky; top: 0; z-index: 100;
+  background: var(--color-primary); color: white;
+  padding: .55rem 1rem;
+  border-bottom: 3px solid var(--color-accent);
+  display: flex; align-items: center; gap: 1rem;
+  font-family: "Open Sans", "Arial Narrow", Arial, sans-serif;
+  font-stretch: 87.5%;
+  font-size: .82rem; letter-spacing: .03em;
+  overflow-x: auto;
+  -ms-overflow-style: none; scrollbar-width: none;
+}
+nav.toc::-webkit-scrollbar { display: none; }
+nav.toc .brand { font-weight: 700; font-size: .95rem; margin-right: .8rem; white-space: nowrap; }
+nav.toc a {
+  color: white; text-decoration: none;
+  padding: .25rem .6rem; border-radius: 3px;
+  white-space: nowrap;
+  transition: background .15s;
+}
+nav.toc a:hover { background: rgba(255,255,255,.12); }
+nav.toc a.active { background: var(--color-accent); }
+nav.toc .divider { color: rgba(255,255,255,.4); padding: 0 .2rem; }
+nav.toc .source-link {
+  margin-left: auto; padding: .25rem .65rem;
+  background: rgba(255,255,255,.12); border-radius: 3px;
+  font-size: .75rem;
+}
+
+.wrap { max-width: 980px; margin: 0 auto; padding: 2.5rem 1rem 6rem; }
 header.cur {
-  border-bottom: 2px solid var(--ink);
+  border-bottom: 2px solid var(--primary);
   padding-bottom: 1.5rem; margin-bottom: 2rem;
 }
-header.cur .eyebrow { font-size: .75rem; letter-spacing: .14em; text-transform: uppercase; color: var(--shade); }
-header.cur h1 { font: 700 2rem/1.15 "Bricolage Grotesque", serif; margin: .4rem 0 .6rem; }
+header.cur .eyebrow { font-size: .75rem; letter-spacing: .14em; text-transform: uppercase; color: var(--shade); font-family: "Open Sans", sans-serif; font-stretch: 87.5%; }
+header.cur h1 {
+  font-family: "Open Sans", "Arial Narrow", Arial, sans-serif;
+  font-stretch: 87.5%; font-weight: 700;
+  font-size: 2rem; line-height: 1.15;
+  margin: .4rem 0 .6rem;
+  color: var(--primary);
+}
 header.cur .auths { font-size: .9rem; color: var(--shade); }
 header.cur .meta { font-size: .85rem; color: var(--shade); margin-top: .6rem; }
-header.cur .meta a { color: var(--ink); text-decoration: underline; }
+header.cur .meta a { color: var(--primary); text-decoration: underline; }
 .tagline { font-size: .95rem; color: var(--shade); }
 
 h2 {
-  font: 700 1.4rem/1.2 "Bricolage Grotesque", serif;
+  font-family: "Open Sans", "Arial Narrow", Arial, sans-serif;
+  font-stretch: 87.5%; font-weight: 700;
+  font-size: 1.4rem; line-height: 1.2;
   margin: 3rem 0 1.2rem;
   padding-bottom: .35rem;
   border-bottom: 1px solid var(--rule);
+  color: var(--primary);
+  scroll-margin-top: 4rem;
 }
-h3 { font: 700 1.05rem/1.3 "Bricolage Grotesque", serif; margin: 1.6rem 0 .5rem; }
-h4 { font: 600 .95rem/1.3 "Hanken Grotesk", sans-serif; margin: 1rem 0 .4rem; color: var(--shade); text-transform: uppercase; letter-spacing: .06em; font-size: .8rem;}
+h3 {
+  font-family: "Open Sans", "Arial Narrow", Arial, sans-serif;
+  font-stretch: 87.5%; font-weight: 700;
+  font-size: 1.05rem; line-height: 1.3;
+  margin: 1.6rem 0 .5rem;
+  color: var(--color-blue-grey);
+  scroll-margin-top: 4rem;
+}
+h4 { font: 600 .8rem/1.3 "Roboto", sans-serif; margin: 1rem 0 .4rem; color: var(--shade); text-transform: uppercase; letter-spacing: .06em; }
 
 .main-statements { background: var(--paper-2); padding: 1rem 1.4rem; border-left: 3px solid var(--accent); margin: 1rem 0 2rem; border-radius: 2px; }
 .main-statements ol { margin: 0; padding-left: 1.2rem; }
@@ -422,17 +501,61 @@ def render_curriculum_page(cur: dict, recs: list[dict], standards: list[dict], q
         <ol style="font-size:.85rem;line-height:1.5">{"".join(ref_rows[:200])}</ol>
         """
 
+    nav_html = """
+<nav class="toc" id="toc">
+  <span class="brand">ESGE EMR Curriculum</span>
+  <a href="#main-statements">Main statements</a>
+  <a href="#recommendations">Recommendations</a>
+  <a href="#standards">Standards</a>
+  <a href="#qis">QIs</a>
+  <a href="#cat">CAT</a>
+  <a href="#scoring-tools">Scoring tools</a>
+  <a href="#competencies">Competencies</a>
+  <a href="#epa">EPA</a>
+  <a href="#references">References</a>
+  <a class="source-link" href="https://doi.org/""" + esc(pub.get("doi", "")) + """\" target="_blank">Source PDF →</a>
+</nav>
+"""
+
+    scrollspy_js = """
+<script>
+// Lightweight scrollspy — highlight active nav link as user scrolls
+(function() {
+  var links = document.querySelectorAll('nav.toc a[href^="#"]');
+  var sections = Array.from(links).map(function(a) {
+    var id = a.getAttribute('href').slice(1);
+    return { id: id, el: document.getElementById(id), link: a };
+  }).filter(function(s) { return s.el; });
+
+  function update() {
+    var y = window.scrollY + 80;
+    var current = sections[0];
+    for (var i = 0; i < sections.length; i++) {
+      if (sections[i].el.offsetTop <= y) current = sections[i];
+    }
+    links.forEach(function(a) { a.classList.remove('active'); });
+    if (current) current.link.classList.add('active');
+  }
+  window.addEventListener('scroll', update, { passive: true });
+  update();
+})();
+</script>
+"""
+
     return f"""<!doctype html>
 <html lang="en"><head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>{esc(loc(cur.get("scope")))} — Evideris Endoscopy</title>
+<title>{esc(pub.get("title", loc(cur.get("scope"))))} — ESGE Curriculum</title>
 <style>{CSS}</style>
 </head>
 <body>
+
+{nav_html}
+
 <div class="wrap">
 
-<header class="cur">
+<header class="cur" id="top">
   <div class="eyebrow">ESGE Position Statement · {esc(cur.get("lineageId"))} · release {esc(cur.get("release"))}</div>
   <h1>{esc(pub.get("title", loc(cur.get("scope"))))}</h1>
   <div class="auths">{esc(auths)}</div>
@@ -446,33 +569,33 @@ def render_curriculum_page(cur: dict, recs: list[dict], standards: list[dict], q
 
 <p class="tagline">{esc(loc(cur.get("scope")))}</p>
 
-<h2>Main statements</h2>
+<h2 id="main-statements">Main statements</h2>
 <div class="main-statements"><ol>{main_stmts}</ol></div>
 
-<h2>Recommendations</h2>
+<h2 id="recommendations">Recommendations</h2>
 {"".join(section_blocks)}
 
-<h2>Unit standards & accreditation evidence</h2>
+<h2 id="standards">Unit standards & accreditation evidence</h2>
 <p class="tagline">Standards verbatim from ESGE source; evidence criteria are Evideris's design for Centre Accreditation.</p>
 {render_standards(standards, evidence_criteria)}
 
-<h2>Lifelong quality indicators (Table 6)</h2>
+<h2 id="qis">Lifelong quality indicators (Table 6)</h2>
 {render_qis_table(qis)}
 
-<h2>Competency Assessment Tool ({esc(cat.get("catFamily","GPAT")) if cat else "GPAT"})</h2>
+<h2 id="cat">Competency Assessment Tool ({esc(cat.get("catFamily","GPAT")) if cat else "GPAT"})</h2>
 {render_cat(cat) if cat else "<p>No CAT artifact.</p>"}
 
-<h2>Scoring tools</h2>
+<h2 id="scoring-tools">Scoring tools</h2>
 <h4>Defined in source</h4>
 {render_scoring_tools(scoring_tools_canonical)}
 <h4>Referenced (defined in primary sources)</h4>
 {render_scoring_tools(scoring_tools_derived)}
 
-<h2>Competencies (Evideris-derived)</h2>
+<h2 id="competencies">Competencies (Evideris-derived)</h2>
 <p class="tagline">Atomic skills derived from source recommendations — the unit a trainee is scored on. <strong>This is Evideris's design</strong>, not published by ESGE.</p>
 {render_competencies(competencies)}
 
-<h2>Entrustable Professional Activity (Evideris-derived)</h2>
+<h2 id="epa">Entrustable Professional Activity (Evideris-derived)</h2>
 <p class="tagline">Forward-design by David Tate as ESGE Curriculum committee member. Bundles competencies into a unit of work a supervisor can entrust.</p>
 {render_epa(epa, competencies)}
 
@@ -490,9 +613,13 @@ def render_curriculum_page(cur: dict, recs: list[dict], standards: list[dict], q
 <footer class="cur">
   Rendered from <code>esge-curriculum-schema</code> + <code>evideris-curriculum-derived</code> via <code>scripts/render.py</code>.
   Source-canonical content CC BY 4.0 · Derived content CC BY-NC-SA 4.0 · Evideris Systems BV 2026.
+  Branding tokens drawn from <code>esge-certification-app-test</code> design system for embedding consistency.
 </footer>
 
 </div>
+
+{scrollspy_js}
+
 </body></html>
 """
 

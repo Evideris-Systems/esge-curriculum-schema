@@ -7,29 +7,66 @@
   "release": "r2026.07",
   "supersedes": null,
   "supersededBy": null,
-  "language": [
-    "en"
-  ],
+  "language": ["en"],
   "withinCurriculum": "cur-emr-colon-2023",
   "withinSection": "sec-emr-during-emr",
   "number": 27,
-  "title": {
-    "en": "Strategies For Emr In Specific Locations"
-  },
-  "statement": {
-    "en": "ESGE recommends the strategies or maneuvers described below be used to assist in EMR of lesions in specific locations."
-  },
+  "title": {"en": "Strategies for EMR in specific locations"},
+  "statement": {"en": "ESGE recommends the strategies or maneuvers described below be used to assist in EMR of lesions in specific locations."},
   "grade": {
     "strength": "strong",
     "evidenceQuality": "moderate"
   },
-  "references": [],
+  "subItems": [
+    {
+      "label": "i",
+      "text": {"en": "The position of the patient is critical, using gravity to maximize the luminal view and access to the lesion. Consider the right lateral position for lesions in the sigmoid, descending colon, splenic flexure, and cecal pole; the left lateral position for lesions in the hepatic flexure and ascending colon; the supine position for lesions in the transverse colon; and the prone position if other positions are difficult in a patient with a long redundant colon, particularly for lesions in the rectosigmoid."},
+      "levelOfAgreement": 88,
+      "references": ["ref-131"]
+    },
+    {
+      "label": "ii",
+      "text": {"en": "Ileocecal valve: use a distal attachment. Assess the lesion carefully prior to resection. Be aware that risk factors for failed endoscopic resection are: deep ingrowth into the ileum and circumferential involvement of the ileocecal valve lips. Start by using dynamic injection to encourage the ileal margin of the lesion into the colonic lumen. Start resection from this margin. A small stiff snare often helps at this location."},
+      "levelOfAgreement": 92,
+      "references": ["ref-132"]
+    },
+    {
+      "label": "iii",
+      "text": {"en": "Appendiceal orifice: lesion assessment is critical. Risk factors for failure of endoscopic resection include invasion of the lesion beyond the endoscopic view into the appendiceal orifice and > 50% circumferential involvement of the appendiceal orifice. A small stiff snare often helps in this location, as may use of the underwater technique."},
+      "levelOfAgreement": 92,
+      "references": ["ref-34", "ref-133"]
+    },
+    {
+      "label": "iv",
+      "text": {"en": "Rectosigmoid: consider use of a gastroscope, which will offer the ability for retroflexion."},
+      "levelOfAgreement": 92
+    },
+    {
+      "label": "v",
+      "text": {"en": "Flexures: use of distal attachments may help."},
+      "levelOfAgreement": 93
+    },
+    {
+      "label": "vi",
+      "text": {"en": "Anorectal junction: use a distal attachment. Use a small snare to commence resection at the anal verge, allowing expansion of the mucosal defect into the rectum and facilitating further resection. Use local anesthetic as part of the injectate in this area to provide analgesia after the procedure."},
+      "levelOfAgreement": 91,
+      "references": ["ref-92", "ref-134"]
+    }
+  ],
+  "references": ["ref-92", "ref-131", "ref-132", "ref-133", "ref-134", "ref-34"],
   "_meta": {
     "provenance": {
       "type": "verbatim",
       "source_doi": "10.1055/a-2077-0497"
     },
-    "encodedBy": "claude:extract-recommendations@v0.1.0",
-    "encodedAt": "2026-06-27"
+    "encodedBy": "human:david",
+    "encodedAt": "2026-06-28",
+    "fieldProvenance": {
+      "subItems": {
+        "type": "verbatim",
+        "source_doi": "10.1055/a-2077-0497",
+        "source_span": "Sub-items appear in source PDF PRECEDING the formal '27 STRATEGIES FOR EMR IN SPECIFIC LOCATIONS' anchor (PDF column flow puts narrative sub-items above the formal rec header). Hand-extracted from the (i)-(vi) anatomic-location list at source offset ~98700-100700."
+      }
+    }
   }
 }
