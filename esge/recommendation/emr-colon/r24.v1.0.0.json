@@ -23,19 +23,27 @@
     "strength": "strong",
     "evidenceQuality": "moderate"
   },
-  "references": [],
+  "references": [
+    "ref-9"
+  ],
   "_meta": {
     "provenance": {
       "type": "verbatim",
       "source_doi": "10.1055/a-2077-0497"
     },
     "encodedBy": "human:david",
-    "encodedAt": "2026-06-28",
-    "knownIncomplete": {
-      "field": "subItems",
-      "reason": "Alternative methods for removing non-lifting residual tissue (hot avulsion, forced APC, etc.) listed in source narrative but not yet (i)(ii) verbatim-extracted.",
-      "trackedIn": "task-21"
-    }
+    "encodedAt": "2026-06-29"
   },
-  "subItems": []
+  "subItems": [
+    {
+      "label": "i",
+      "text": {
+        "en": "Cold avulsion (using a standard biopsy forceps), then thermal ablation using soft coagulation (ERBE effect 4, 80 W) to the avulsion bed using the snare tip. Non-lifting tissue should be completely removed prior to application of soft coagulation."
+      },
+      "levelOfAgreement": 84,
+      "references": [
+        "ref-9"
+      ]
+    }
+  ]
 }

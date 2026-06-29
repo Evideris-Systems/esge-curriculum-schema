@@ -30,12 +30,36 @@
       "source_doi": "10.1055/a-2077-0497"
     },
     "encodedBy": "human:david",
-    "encodedAt": "2026-06-28",
-    "knownIncomplete": {
-      "field": "subItems",
-      "reason": "Training completion criteria (30 procedures over 6+ months, SMSA progression, competency markers) appear in source narrative but not yet verbatim-extracted as (i)(ii) items.",
-      "trackedIn": "task-21"
-    }
+    "encodedAt": "2026-06-29"
   },
-  "subItems": []
+  "subItems": [
+    {
+      "label": "i",
+      "text": {
+        "en": "At least 30 EMR procedures performed independently over a minimum period of 6 months are required. Beyond this, achievement of specific competencies (below), rather than procedure number, should determine whether an individual is deemed competent to perform EMR."
+      },
+      "levelOfAgreement": 83
+    },
+    {
+      "label": "ii",
+      "text": {
+        "en": "It is not a requirement to achieve competency in all complexities of LNPCP to be able to perform any EMR. Credentialling can perhaps provide a guide as to the ceiling of complexity that is appropriate for a given practitioner of EMR. In the absence of an evidence-based tool to assess a given EMR, the trainer should give an idea of the potential SMSA range that the trainee leaving training should attempt independently."
+      },
+      "levelOfAgreement": 89
+    },
+    {
+      "label": "iii",
+      "text": {
+        "en": "Practicing endoscopists should avoid attempting LNPCPs outside their competency (SMSA score) unless within the context of a training scheme."
+      },
+      "levelOfAgreement": 91
+    },
+    {
+      "label": "iv",
+      "text": {
+        "en": "Conversely, attempting EMR of an LNPCP one threshold above competency (SMSA score) within a structured training environment may be entirely appropriate to further the skills of the trainee."
+      },
+      "levelOfAgreement": 89
+    }
+  ]
 }

@@ -40,29 +40,29 @@ recommendations:
   9:  { subItems: 17 }
   10: { subItems: 5 }
   11: { subItems: 4 }
-  12: { subItems: known-incomplete }
+  12: { subItems: 3 }
   13: { subItems: 11 }
   14: { subItems: 9 }
-  15: { subItems: known-incomplete }
+  15: { subItems: 13 }
   16: { subItems: 7 }
   17: { subItems: 6 }
-  18: { subItems: known-incomplete }
+  18: { subItems: 6 }
   19: { subItems: 17 }
   20: { subItems: 12 }
   21: { subItems: 7 }
   22: { subItems: 10 }
-  23: { subItems: known-incomplete }
-  24: { subItems: known-incomplete }
+  23: { subItems: 1, reason: "single composite item; the STSC technique is a numbered (i) with embedded bullet sub-points in source — encoded as one item per source structure" }
+  24: { subItems: 1, reason: "source lists one numbered (i) item (cold avulsion + soft coagulation) plus a Comment paragraph mentioning alternatives (hot avulsion, APC, ESD, FTR) outside scope" }
   25: { subItems: 18 }
   26: { subItems: 6 }
   27: { subItems: 6 }
   28: { subItems: 10 }
   29: { subItems: 12 }
-  30: { subItems: known-incomplete }
+  30: { subItems: 12 }
   31: { subItems: 9 }
   32: { subItems: 5 }
   33: { subItems: 8 }
   35: { subItems: 7 }
   36: { subItems: 6 }
-  37: { subItems: known-incomplete }
+  37: { subItems: 4, reason: "encoded current items (i)-(iv); source items (v) and (vi) explicitly labelled 'potential future points' in §7.1 — excluded from canonical encoding" }
   38: { subItems: 0, reason: "points to Table 6 (separate QI artifacts); no enumerated sub-items in source" }

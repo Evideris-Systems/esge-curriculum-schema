@@ -23,19 +23,68 @@
     "strength": "best-practice",
     "evidenceQuality": "low"
   },
-  "references": [],
+  "references": [
+    "ref-102",
+    "ref-105",
+    "ref-106"
+  ],
   "_meta": {
     "provenance": {
       "type": "verbatim",
       "source_doi": "10.1055/a-2077-0497"
     },
     "encodedBy": "human:david",
-    "encodedAt": "2026-06-28",
-    "knownIncomplete": {
-      "field": "subItems",
-      "reason": "Cold-snare post-EMR defect inspection items not yet verbatim-extracted. Source may have them in narrative form rather than (i)(ii) list \u2014 needs verification.",
-      "trackedIn": "task-20"
-    }
+    "encodedAt": "2026-06-29"
   },
-  "subItems": []
+  "subItems": [
+    {
+      "label": "i",
+      "text": {
+        "en": "Spend an appropriate amount of time inspecting the entire mucosal defect, particularly the margins, for residual polyp tissue (Fig. 2, images D2\u2013D5). If there are small areas of residual tissue within the defect, cold snare avulsion can be used to remove these."
+      },
+      "levelOfAgreement": 94
+    },
+    {
+      "label": "ii",
+      "text": {
+        "en": "Topical application of a chromic dye (or the injectate if it contains a chromic dye) can be helpful for assessing the defect and the margin for residual adenoma after cold snare polypectomy (Fig. 2, images D4 and D5)."
+      },
+      "levelOfAgreement": 84,
+      "references": [
+        "ref-102"
+      ]
+    },
+    {
+      "label": "iii",
+      "text": {
+        "en": "The use of virtual chromoendoscopy and magnification can be helpful to detect residual polyp tissue at the defect margin."
+      },
+      "levelOfAgreement": 86
+    },
+    {
+      "label": "iv",
+      "text": {
+        "en": "Bleeding from within a cold snare polypectomy defect does not need treatment unless pulsatile."
+      },
+      "levelOfAgreement": 90
+    },
+    {
+      "label": "v",
+      "text": {
+        "en": "Be aware that perforation of the muscularis propria after cold snare polypectomy is extremely rare and described only in case reports. This should be treated appropriately if it occurs."
+      },
+      "levelOfAgreement": 89,
+      "references": [
+        "ref-105",
+        "ref-106"
+      ]
+    },
+    {
+      "label": "vi",
+      "text": {
+        "en": "Photodocumentation of all areas of the post-EMR defect (Fig. 2, images D1\u2013D5) helps to assess the completeness of the resection. It may also be useful for medicolegal purposes."
+      },
+      "levelOfAgreement": 89
+    }
+  ]
 }

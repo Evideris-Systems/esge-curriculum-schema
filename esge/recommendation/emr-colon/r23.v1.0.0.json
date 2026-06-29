@@ -30,12 +30,15 @@
       "source_doi": "10.1055/a-2077-0497"
     },
     "encodedBy": "human:david",
-    "encodedAt": "2026-06-28",
-    "knownIncomplete": {
-      "field": "subItems",
-      "reason": "Thermal energy / margin ablation items not yet verbatim-extracted. STSC technique block present in source ~offset 87000 \u2014 needs careful extraction.",
-      "trackedIn": "task-20"
-    }
+    "encodedAt": "2026-06-29"
   },
-  "subItems": []
+  "subItems": [
+    {
+      "label": "i",
+      "text": {
+        "en": "The technique for STSC of the post-EMR margin is as follows: extend the tip of the snare 2\u20133 mm beyond the catheter sheath; use the scope and the snare tip as one device, do not move the catheter in and out of the channel; apply pulses of soft coagulation using a light-touch technique to the margin of the defect, ideally over injected tissue; aim for a rim of 2\u20133 mm of ablated tissue at the margin; ensure that the margin is ablated around the full circumference without gaps. Confirmation of the technique is visual identification of the white appearance of the mucosa after application (Fig. 2, image A5)."
+      },
+      "levelOfAgreement": 96
+    }
+  ]
 }

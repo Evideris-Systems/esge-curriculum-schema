@@ -30,12 +30,99 @@
       "source_doi": "10.1055/a-2077-0497"
     },
     "encodedBy": "human:david",
-    "encodedAt": "2026-06-28",
-    "knownIncomplete": {
-      "field": "subItems",
-      "reason": "ENTS framework items (Exchanging information, Decision making, Leadership, Situation awareness, Teamworking, Task management) not yet verbatim-extracted from source.",
-      "trackedIn": "task-20"
-    }
+    "encodedAt": "2026-06-29"
   },
-  "subItems": []
+  "subItems": [
+    {
+      "label": "i",
+      "text": {
+        "en": "Exchanging information: gives and receives knowledge and information in a clear and timely fashion."
+      },
+      "levelOfAgreement": 89
+    },
+    {
+      "label": "ii",
+      "text": {
+        "en": "Maintaining a shared understanding: ensures that both the team and the endoscopist are working together from the same information and understand the \u201cbig picture\u201d of the case."
+      },
+      "levelOfAgreement": 89
+    },
+    {
+      "label": "iii",
+      "text": {
+        "en": "Maintaining a patient-centered approach: ensures that the patient is at the center of the procedure, emphasizing safety and comfort, and giving information in a clear and understandable fashion."
+      },
+      "levelOfAgreement": 89
+    },
+    {
+      "label": "iv",
+      "text": {
+        "en": "Preparation: ensures that the patient is fit, the procedure is appropriate, and that it is being performed by an endoscopist with the necessary skills, equipment, and assistants for safe and successful completion (adequate work-up performed as per prior Recommendations)."
+      },
+      "levelOfAgreement": 92
+    },
+    {
+      "label": "v",
+      "text": {
+        "en": "Continuous assessment: maintains a continuous evaluation of the patient\u2019s condition and updates the shared understanding to identify any mismatch between the current situation and expected state."
+      },
+      "levelOfAgreement": 92
+    },
+    {
+      "label": "vi",
+      "text": {
+        "en": "Problem recognition: recognizes a mismatch between the current situation and the expected state and anticipates what may happen as a result of possible actions, interventions, or non-intervention."
+      },
+      "levelOfAgreement": 92
+    },
+    {
+      "label": "vii",
+      "text": {
+        "en": "Focus: ensures a lack of distractions and maintains concentration, particularly during difficult situations."
+      },
+      "levelOfAgreement": 92
+    },
+    {
+      "label": "viii",
+      "text": {
+        "en": "Supporting others: provides emotional and cognitive support to team members and trainees by tailoring leadership and teaching style appropriately."
+      },
+      "levelOfAgreement": 91
+    },
+    {
+      "label": "ix",
+      "text": {
+        "en": "Maintaining standards: supports safety and quality by adhering to current protocols and codes of clinical practice."
+      },
+      "levelOfAgreement": 93
+    },
+    {
+      "label": "x",
+      "text": {
+        "en": "Dealing with problems: adopts a calm and controlled demeanor when under pressure, utilizing all resources to maintain control of the situation, and taking responsibility for patient outcome."
+      },
+      "levelOfAgreement": 92
+    },
+    {
+      "label": "xi",
+      "text": {
+        "en": "Considering others: generates possible courses of action to solve an issue or problem, including assessment of risk and benefit."
+      },
+      "levelOfAgreement": 89
+    },
+    {
+      "label": "xii",
+      "text": {
+        "en": "Making decisions: chooses a solution to a problem, communicating this to team members and implementing it."
+      },
+      "levelOfAgreement": 89
+    },
+    {
+      "label": "xiii",
+      "text": {
+        "en": "Reviewing the situation: reviews the outcomes of the procedure or options for dealing with problems, reflecting on issues and instituting changes to improve practice."
+      },
+      "levelOfAgreement": 88
+    }
+  ]
 }

@@ -23,19 +23,45 @@
     "strength": "best-practice",
     "evidenceQuality": "low"
   },
-  "references": [],
+  "references": [
+    "ref-36",
+    "ref-75",
+    "ref-76"
+  ],
   "_meta": {
     "provenance": {
       "type": "verbatim",
       "source_doi": "10.1055/a-2077-0497"
     },
     "encodedBy": "human:david",
-    "encodedAt": "2026-06-28",
-    "knownIncomplete": {
-      "field": "subItems",
-      "reason": "Sub-items not yet verbatim-extracted. Source has criteria for trainee starting an EMR procedure \u2014 needs careful column-flow extraction.",
-      "trackedIn": "task-20"
-    }
+    "encodedAt": "2026-06-29"
   },
-  "subItems": []
+  "subItems": [
+    {
+      "label": "i",
+      "text": {
+        "en": "From the outset, certain lesions are unsuitable for hands-on training and this should be recognized by the supervising practitioner (e. g. complex location, very large lesions, previously attempted lesions, unstable or very co-morbid patient)."
+      },
+      "levelOfAgreement": 97
+    },
+    {
+      "label": "ii",
+      "text": {
+        "en": "Prior knowledge of the SMSA and SMSA+ scores (Table 2) of the target lesion for EMR can be useful to predict the possibilities for training."
+      },
+      "levelOfAgreement": 93,
+      "references": [
+        "ref-36",
+        "ref-75",
+        "ref-76"
+      ]
+    },
+    {
+      "label": "iii",
+      "text": {
+        "en": "A trainee in EMR should not be paired with a nursing or other colleague training in assisting at EMR."
+      },
+      "levelOfAgreement": 88
+    }
+  ]
 }
