@@ -1,0 +1,42 @@
+{
+  "$schema": "https://schema.evideris.com/schemas/recommendation.schema.json",
+  "$id": "https://schema.evideris.com/esge/recommendation/esd/r11.v1.0.0.json",
+  "lineageId": "rec-esd-r11-knowledge-of-instrumentation-technique-and-esu",
+  "type": "recommendation",
+  "version": "1.0.0",
+  "release": "r2026.07",
+  "supersedes": null,
+  "supersededBy": null,
+  "language": [
+    "en"
+  ],
+  "withinCurriculum": "cur-esd-2019",
+  "withinSection": "sec-esd-knowledge-competence",
+  "number": 11,
+  "title": {
+    "en": "Endoscopists involved in ESD should have specific knowledge of the instrumentation, technique, and electrosurgical equipment."
+  },
+  "statement": {
+    "en": "Endoscopists involved in ESD should have specific knowledge of the instrumentation, technique, and electrosurgical equipment."
+  },
+  "levelOfAgreement": 100,
+  "references": [],
+  "_meta": {
+    "provenance": {
+      "type": "verbatim",
+      "source_doi": "10.1055/a-0996-0912"
+    },
+    "encodedBy": "human:david",
+    "encodedAt": "2026-07-01",
+    "fieldProvenance": {
+      "commentary": {
+        "type": "verbatim",
+        "source_doi": "10.1055/a-0996-0912",
+        "source_span": "Paragraph(s) of prose in the source body immediately preceding the RECOMMENDATION block; shared with adjacent back-to-back RECOMMENDATIONs where the source clusters them without intervening prose. PDF hyphenation healed, running footers and page markers stripped."
+      }
+    }
+  },
+  "commentary": {
+    "en": "Furthermore, particularly in low volume centers, in order to avoid spaced training, mixing practice on animal models with the first human procedures is a good option to maintain regular and frequent ESD practice and to achieve high quality results for R0 resection and perforation rates [58]. In fact, a step-up training protocol over a 12-month period of 50 observational and supervised ESD procedures, as well as 24 animal procedures, showed excellent results, particularly in the rectum and stomach, with more than 90 % of procedures achieving R0 resections [53]. A logbook and a preclinical database suggested by ESGE for ESD training are available for trainees on the ESGE website (https://www.esge.com/esd-training-curriculum/). ESD is a complex and technically demanding procedure. Accordingly, in order to perform safe and effective treatment, while avoiding serious complications, endoscopists should have a full understanding of not only the technique but also the different instruments and the electrosurgical unit (ESU) that are needed to perform a safe ESD [59, 60]. We recommend that endoscopists should have extensive knowledge of all the devices that can be used for ESD, such as knives, injection agents, caps and hoods, and hemostatic and traction devices, as this information can be important in more difficult and com"
+  }
+}

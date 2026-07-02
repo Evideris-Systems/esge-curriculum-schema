@@ -1,0 +1,42 @@
+{
+  "$schema": "https://schema.evideris.com/schemas/recommendation.schema.json",
+  "$id": "https://schema.evideris.com/esge/recommendation/esd/r16.v1.0.0.json",
+  "lineageId": "rec-esd-r16-minimum-case-load-25-esd-procedures-per-year",
+  "type": "recommendation",
+  "version": "1.0.0",
+  "release": "r2026.07",
+  "supersedes": null,
+  "supersededBy": null,
+  "language": [
+    "en"
+  ],
+  "withinCurriculum": "cur-esd-2019",
+  "withinSection": "sec-esd-knowledge-competence",
+  "number": 16,
+  "title": {
+    "en": "In order to maintain proficiency in ESD, ESGE recommends a minimum case load of 25 ESD procedures per year."
+  },
+  "statement": {
+    "en": "In order to maintain proficiency in ESD, ESGE recommends a minimum case load of 25 ESD procedures per year."
+  },
+  "levelOfAgreement": 100,
+  "references": [],
+  "_meta": {
+    "provenance": {
+      "type": "verbatim",
+      "source_doi": "10.1055/a-0996-0912"
+    },
+    "encodedBy": "human:david",
+    "encodedAt": "2026-07-01",
+    "fieldProvenance": {
+      "commentary": {
+        "type": "verbatim",
+        "source_doi": "10.1055/a-0996-0912",
+        "source_span": "Paragraph(s) of prose in the source body immediately preceding the RECOMMENDATION block; shared with adjacent back-to-back RECOMMENDATIONs where the source clusters them without intervening prose. PDF hyphenation healed, running footers and page markers stripped."
+      }
+    }
+  },
+  "commentary": {
+    "en": "The authors concluded that performing ESD on a regular basis is important for improving outcomes with less complications. Fuccio et al. calculated that performing at least two ESDs per month is important in achieving higher R0 and en bloc resection rates, with a lower incidence of adverse events requiring surgery and lower recurrence rates [72]. Although beyond the scope of this specific ESD postgraduate curriculum training, ESGE recommends a minimum case load of 25 ESDs per year in order to maintain proficiency in the technique. Ideally, these 25 ESD procedures per year should be counted separately for the different organs. However, we may argue that proficiency lies in the technique and the technique is similar for every organ. Moreover, it does not seem realistic to perform 25 ESDs per organ per year in every reference center and, for this reason, ESGE advise setting the minimum standard as 25 ESDs per year, independently of the organ. Future studies should compare the outcomes of centers with different case loads (and case loads in different organs) in order to set a more evidence-based recommendation for the minimum volume of ESDs per year. In order to answer this and other questions, ESGE recommends that each center performing ESD keeps prospective records of each procedure. Quality indicators for ESD have been proposed [76]. We recommend that the following para"
+  }
+}

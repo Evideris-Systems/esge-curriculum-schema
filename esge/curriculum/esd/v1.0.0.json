@@ -1,0 +1,212 @@
+{
+  "$schema": "https://schema.evideris.com/schemas/curriculum.schema.json",
+  "$id": "https://schema.evideris.com/esge/curriculum/esd/v1.0.0.json",
+  "lineageId": "cur-esd-2019",
+  "type": "curriculum",
+  "version": "1.0.0",
+  "release": "r2026.07",
+  "supersedes": null,
+  "supersededBy": null,
+  "language": [
+    "en"
+  ],
+  "scope": {
+    "en": "This position statement is an official statement of the European Society of Gastrointestinal Endoscopy (ESGE). It provides recommendations for a European core curriculum aimed at providing high quality training in ESD. The recommendations presented are based on a consensus among endoscopists considered to be ESD experts who are involved in ESD training and training courses in Europe."
+  },
+  "publication": {
+    "title": "Curriculum for endoscopic submucosal dissection training in Europe: European Society of Gastrointestinal Endoscopy (ESGE) Position Statement",
+    "authors": [
+      {
+        "name": "Pedro Pimentel-Nunes"
+      },
+      {
+        "name": "Mathieu Pioche"
+      },
+      {
+        "name": "Eduardo Alb\u00e9niz"
+      },
+      {
+        "name": "Frieder Berr"
+      },
+      {
+        "name": "Pierre Deprez"
+      },
+      {
+        "name": "A. Ebigbo"
+      },
+      {
+        "name": "Pieter Dewint"
+      },
+      {
+        "name": "Amyn Haji"
+      },
+      {
+        "name": "Alba Panarese"
+      },
+      {
+        "name": "Bas L. A. M. Weusten"
+      },
+      {
+        "name": "Evelien Dekker"
+      },
+      {
+        "name": "James E. East"
+      },
+      {
+        "name": "David S. Sanders"
+      },
+      {
+        "name": "Gavin Johnson"
+      },
+      {
+        "name": "Marianna Arvanitakis"
+      },
+      {
+        "name": "Thierry Ponchon"
+      },
+      {
+        "name": "M\u00e1rio Dinis-Ribeiro"
+      },
+      {
+        "name": "Raf Bisschops"
+      }
+    ],
+    "journal": "Endoscopy",
+    "year": 2019,
+    "volume": "51",
+    "doi": "10.1055/a-0996-0912",
+    "openAccessUrl": "https://doi.org/10.1055/a-0996-0912"
+  },
+  "mainStatements": [
+    {
+      "text": {
+        "en": "Advanced endoscopy diagnostic practice is advised before initiating ESD training. Proficiency in endoscopic mucosal resection (EMR) and adverse event management is recommended before starting ESD training."
+      },
+      "number": 1
+    },
+    {
+      "text": {
+        "en": "ESGE discourages the starting of initial ESD training in humans. Practice on animal and/or ex vivo models is useful to gain the basic ESD skills. ESGE recommends performing at least 20 ESD procedures in these models before human practice, with the goal of at least eight en bloc complete resections in the last 10 training cases, with no perforation."
+      },
+      "number": 2
+    },
+    {
+      "text": {
+        "en": "ESGE recommends observation of experts performing ESD in tertiary referral centers. Performance of ESD in humans should start on carefully selected lesions, ideally small (< 30 mm), located in the antrum or in the rectum for the first 20 procedures. Beginning human practice in the colon is not recommended. ESGE recommends that at least the first 10 human ESD procedures should be done under the supervision of an ESD-proficient endoscopist."
+      },
+      "number": 3
+    },
+    {
+      "text": {
+        "en": "Endoscopists performing ESD should be able to correctly estimate the probability of performing a curative resection based on the characteristics of the lesion and should know the benefit/risk relationship of ESD when compared with other therapeutic alternatives. Endoscopists performing ESD should know how to interpret the histopathology findings of the ESD specimen, namely the criteria for low risk resection (\"curative\"), local risk resection, and high risk resection (\"non-curative\"), as well as their implications. ESD should be performed only in a setting where early and delayed complications can be managed adequately, namely with the possibility of admitting patients to a ward, and access to appropriate emergency surgical teams for the organ being treated with ESD."
+      },
+      "number": 4
+    }
+  ],
+  "sections": [
+    {
+      "lineageId": "sec-esd-skills-competence",
+      "number": 1,
+      "title": {
+        "en": "Skills/competence to start ESD"
+      }
+    },
+    {
+      "lineageId": "sec-esd-training",
+      "number": 2,
+      "title": {
+        "en": "Training"
+      }
+    },
+    {
+      "lineageId": "sec-esd-knowledge-competence",
+      "number": 3,
+      "title": {
+        "en": "Knowledge and maintaining competence"
+      }
+    }
+  ],
+  "recommendations": [
+    "rec-esd-r1-advanced-endoscopy-diagnostic-practice-before-esd-training",
+    "rec-esd-r2-prior-training-required-emr-adverse-event-management",
+    "rec-esd-r3-knowledge-of-esd-theory-before-and-during-training",
+    "rec-esd-r4-live-conferences-and-meetings",
+    "rec-esd-r5-esge-discourages-initial-esd-training-in-humans",
+    "rec-esd-r6-animal-ex-vivo-practice-20-procedures-before-humans",
+    "rec-esd-r7-supervision-during-training",
+    "rec-esd-r8-observation-of-experts-20-procedures-5-as-assistant",
+    "rec-esd-r9-first-human-procedures-small-30mm-lesions-in-antrum-or-rectu",
+    "rec-esd-r10-first-10-human-procedures-under-supervision",
+    "rec-esd-r11-knowledge-of-instrumentation-technique-and-esu",
+    "rec-esd-r12-estimating-probability-of-curative-resection",
+    "rec-esd-r13-interpretation-of-histopathology-of-the-esd-specimen",
+    "rec-esd-r14-expert-confirmation-before-starting-esd-at-own-centre",
+    "rec-esd-r15-setting-requirements-inpatient-ward-surgical-backup-expert-p",
+    "rec-esd-r16-minimum-case-load-25-esd-procedures-per-year",
+    "rec-esd-r17-prospective-database-quality-targets-en-bloc-90-perforation"
+  ],
+  "qis": [
+    "qi-esd-en-bloc-resection-rate",
+    "qi-esd-perforation-rate",
+    "qi-esd-surgery-for-complications-rate"
+  ],
+  "cats": [],
+  "kpis": [],
+  "standards": [],
+  "disclaimer": "ESGE Position Statements represent a consensus of best practice based on the available evidence at the time of preparation. This is NOT a guideline but a proposal for training in ESD. The statements may not apply in all situations and should be interpreted in the light of specific clinical situations and resource availability. Further controlled clinical studies may be needed to clarify aspects of these statements, and revision may be necessary as new data appear. Clinical considerations may justify a course of action at variance with these recommendations. This ESGE Position Statement is intended to be an educational device to provide information that may assist endoscopists in providing care to patients. The recommendations are not rules and should not be construed as establishing a legal standard of care or as encouraging, advocating, requiring, or discouraging any particular treatment.",
+  "acknowledgments": "The authors gratefully thank Arjun Koch, Diogo Lib\u00e2nio, Francisco Baldaque da Silva, George Cortas, Gianluca Esposito, Jacques Bergman, Krish Ragunath, Miguel Areia, Oliver Pech, and Ricardo Kuttner Magalh\u00e3es for participating in the voting process and for their critical review of this Curriculum. R. Bisschops is funded by the Research Foundation \u2014 Flanders. J. E. East was funded by the National Institute for Health Research (NIHR) Oxford Biomedical Research Centre.",
+  "competingInterests": [
+    {
+      "author": "F. Berr",
+      "statement": "has received financial support from Ethical MedTech (Olympus, Fujifilm, ERBE, and others) to organize medical education courses and live endoscopy events (2009-2019), and speaker's fees from Olympus (2015-2018)."
+    },
+    {
+      "author": "R. Bisschops",
+      "statement": "has received research support from Cook and Medtronic, and financial support for symposium organization from Cook, Boston Scientific, Olympus, and Erbe (2009-2019), and speaker's fees from Boston Scientific and Medtronic (2009-2019)."
+    },
+    {
+      "author": "E. Dekker",
+      "statement": "has received speaker's fees from Olympus, Roche, and GI Supply, has provided consultancy to FujiFilm, Olympus, Tillots, GI Supply, and CPP-FAP, and is a member of the supervisory board of eNose; she receives a research grant from FujiFilm (2017 to present)."
+    },
+    {
+      "author": "P. Deprez",
+      "statement": "has provided consultancy to Olympus, Erbe, and Boston Scientific (2015-2019)."
+    },
+    {
+      "author": "M. Dinis-Ribeiro",
+      "statement": "is co-editor in-chief of Endoscopy."
+    },
+    {
+      "author": "J. E. East",
+      "statement": "received speaker's fees from Olympus and Falk (2018) and is on the clinical advisory boards of Boston Scientific and Lumendi (2016 to present)."
+    },
+    {
+      "author": "G. Johnson",
+      "statement": "has served on advisory boards for Boston Scientific and Olympus (2017) and Medtronic (2018), and has been a faculty member for annual training courses supported by Olympus (2014 to present) and Boston Scientific (2017 to present)."
+    },
+    {
+      "author": "B. L. A. M. Weusten",
+      "statement": "received financial support for clinical and preclinical research from Pentax Medical Nature (2018 to 2019)."
+    },
+    {
+      "author": "E. Alb\u00e9niz, M. Arvanitakis, P. Dewint, A. Ebigbo, A. Haji, A. Panarese, P. Pimentel-Nunes, M. Pioche, T. Ponchon, and D. S. Sanders",
+      "statement": "have no competing interests."
+    }
+  ],
+  "_meta": {
+    "provenance": {
+      "type": "verbatim",
+      "source_doi": "10.1055/a-0996-0912"
+    },
+    "encodedBy": "human:david",
+    "encodedAt": "2026-07-01"
+  },
+  "targetModalities": [
+    "m-esd"
+  ],
+  "methodology": {
+    "type": "delphi-consensus",
+    "agreementThreshold": 75,
+    "panelSize": 18
+  }
+}

@@ -4,37 +4,109 @@
   "title": "ESGE recommendation",
   "description": "A numbered GRADE-classified ESGE recommendation within a curriculum publication.",
   "type": "object",
-  "allOf": [{ "$ref": "_common.schema.json#/$defs/envelope" }],
-  "required": ["type", "withinCurriculum", "number", "title", "statement", "grade"],
+  "allOf": [
+    {
+      "$ref": "_common.schema.json#/$defs/envelope"
+    }
+  ],
+  "required": [
+    "type",
+    "withinCurriculum",
+    "number",
+    "title",
+    "statement"
+  ],
   "properties": {
-    "type": { "const": "recommendation" },
-    "withinCurriculum": { "$ref": "_common.schema.json#/$defs/lineageId" },
-    "withinSection":    { "$ref": "_common.schema.json#/$defs/lineageId" },
-    "number":           { "type": "integer", "minimum": 1 },
-    "title":            { "$ref": "_common.schema.json#/$defs/localeKeyedString" },
-    "statement":        { "$ref": "_common.schema.json#/$defs/localeKeyedString" },
-    "grade":            { "$ref": "_common.schema.json#/$defs/gradeBlock" },
+    "type": {
+      "const": "recommendation"
+    },
+    "withinCurriculum": {
+      "$ref": "_common.schema.json#/$defs/lineageId"
+    },
+    "withinSection": {
+      "$ref": "_common.schema.json#/$defs/lineageId"
+    },
+    "number": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "title": {
+      "$ref": "_common.schema.json#/$defs/localeKeyedString"
+    },
+    "statement": {
+      "$ref": "_common.schema.json#/$defs/localeKeyedString"
+    },
+    "grade": {
+      "$ref": "_common.schema.json#/$defs/gradeBlock"
+    },
     "subItems": {
       "type": "array",
       "items": {
         "type": "object",
-        "required": ["label", "text"],
+        "required": [
+          "label",
+          "text"
+        ],
         "properties": {
-          "label": { "type": "string", "pattern": "^[ivxlcdmIVXLCDM]+$|^[a-z]$" },
-          "text":  { "$ref": "_common.schema.json#/$defs/localeKeyedString" },
-          "levelOfAgreement": { "type": "integer", "minimum": 0, "maximum": 100 },
-          "references": { "type": "array", "items": { "$ref": "_common.schema.json#/$defs/citationRef" } }
+          "label": {
+            "type": "string",
+            "pattern": "^[ivxlcdmIVXLCDM]+$|^[a-z]$"
+          },
+          "text": {
+            "$ref": "_common.schema.json#/$defs/localeKeyedString"
+          },
+          "levelOfAgreement": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 100
+          },
+          "references": {
+            "type": "array",
+            "items": {
+              "$ref": "_common.schema.json#/$defs/citationRef"
+            }
+          }
         },
         "additionalProperties": false
       }
     },
-    "commentary":  { "$ref": "_common.schema.json#/$defs/localeKeyedString" },
-    "figureRefs":  { "type": "array", "items": { "$ref": "_common.schema.json#/$defs/lineageId" } },
-    "tableRefs":   { "type": "array", "items": { "$ref": "_common.schema.json#/$defs/lineageId" } },
-    "references": { "type": "array", "items": { "$ref": "_common.schema.json#/$defs/citationRef" } },
-    "$schema": true, "$id": true, "lineageId": true, "version": true, "release": true,
-    "supersedes": true, "supersededBy": true, "language": true, "_meta": true
+    "commentary": {
+      "$ref": "_common.schema.json#/$defs/localeKeyedString"
+    },
+    "figureRefs": {
+      "type": "array",
+      "items": {
+        "$ref": "_common.schema.json#/$defs/lineageId"
+      }
+    },
+    "tableRefs": {
+      "type": "array",
+      "items": {
+        "$ref": "_common.schema.json#/$defs/lineageId"
+      }
+    },
+    "references": {
+      "type": "array",
+      "items": {
+        "$ref": "_common.schema.json#/$defs/citationRef"
+      }
+    },
+    "$schema": true,
+    "$id": true,
+    "lineageId": true,
+    "version": true,
+    "release": true,
+    "supersedes": true,
+    "supersededBy": true,
+    "language": true,
+    "_meta": true,
+    "levelOfAgreement": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 100,
+      "description": "Delphi consensus level of agreement (%). Present on curricula that use only Delphi voting rather than a full GRADE label (e.g. ESGE Position Statements before ESGE GRADE adoption). Distinct from grade.levelOfAgreement which is embedded inside a full GRADE block."
+    }
   },
   "additionalProperties": false,
-  "$comment": "Source-canonical only. assessesCompetencies and assessesStandards moved to evideris-curriculum-derived as separate `competencyAssessment` and `standardAssessment` artifact types — the source-canonical recommendation stays faithful to the published GRADE statement."
+  "$comment": "Source-canonical only. assessesCompetencies and assessesStandards moved to evideris-curriculum-derived as separate `competencyAssessment` and `standardAssessment` artifact types \u2014 the source-canonical recommendation stays faithful to the published GRADE statement."
 }

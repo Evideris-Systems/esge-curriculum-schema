@@ -1,0 +1,42 @@
+{
+  "$schema": "https://schema.evideris.com/schemas/recommendation.schema.json",
+  "$id": "https://schema.evideris.com/esge/recommendation/esd/r15.v1.0.0.json",
+  "lineageId": "rec-esd-r15-setting-requirements-inpatient-ward-surgical-backup-expert-p",
+  "type": "recommendation",
+  "version": "1.0.0",
+  "release": "r2026.07",
+  "supersedes": null,
+  "supersededBy": null,
+  "language": [
+    "en"
+  ],
+  "withinCurriculum": "cur-esd-2019",
+  "withinSection": "sec-esd-knowledge-competence",
+  "number": 15,
+  "title": {
+    "en": "ESD should be performed only in a setting where early and delayed"
+  },
+  "statement": {
+    "en": "ESD should be performed only in a setting where early and delayed complications can be managed adequately, namely with the possibility of admitting patients to a ward, and access to appropriate emergency surgical teams for the organ being treated with ESD. In addition, centers performing ESD should have access to expert gastrointestinal pathology."
+  },
+  "levelOfAgreement": 100,
+  "references": [],
+  "_meta": {
+    "provenance": {
+      "type": "verbatim",
+      "source_doi": "10.1055/a-0996-0912"
+    },
+    "encodedBy": "human:david",
+    "encodedAt": "2026-07-01",
+    "fieldProvenance": {
+      "commentary": {
+        "type": "verbatim",
+        "source_doi": "10.1055/a-0996-0912",
+        "source_span": "Paragraph(s) of prose in the source body immediately preceding the RECOMMENDATION block; shared with adjacent back-to-back RECOMMENDATIONs where the source clusters them without intervening prose. PDF hyphenation healed, running footers and page markers stripped."
+      }
+    }
+  },
+  "commentary": {
+    "en": "We therefore recommend that endoscopists should be familiar with the different types of resection, as defined by the ESGE [6]: Low risk resection (\u201ccurative\u201d): low risk for local or distant recurrence; no further immediate therapy is required; is defined as an R0 resection, with no poor prognosis features (less than the cut-off invasion for the specific organ, and no lymphovascular invasion). Local risk resection: as above, with the exception of positive lateral margins; even though this type of resection increases the risk of local recurrence, most times the patient will be cured in the long-term, so only endoscopic follow-up and putative treatment is recommended. High risk resection (\u201cnon-curative\u201d): in this case there is a real risk of distant disease and adjuvant treatment should be considered on a case-by-case basis; it is defined as an R1 resection (positive vertical margins), deep sm invasion (beyond the organ-specific \u03bcm limit), poorly differentiated tumor, or lymphovascular invasion. Endoscopists should know that the specific criteria are different for each organ. ESGE recommends that further decisions should be made by multidisciplinary teams."
+  }
+}

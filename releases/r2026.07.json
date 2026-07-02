@@ -11,6 +11,10 @@
     {
       "lineageId": "cur-emr-colon-2023",
       "version": "1.0.0"
+    },
+    {
+      "lineageId": "cur-esd-2019",
+      "version": "1.0.0"
     }
   ],
   "recommendations": [
@@ -161,6 +165,74 @@
     {
       "lineageId": "rec-emr-cln-r38-essential-qis",
       "version": "1.0.0"
+    },
+    {
+      "lineageId": "rec-esd-r1-advanced-endoscopy-diagnostic-practice-before-esd-training",
+      "version": "1.0.0"
+    },
+    {
+      "lineageId": "rec-esd-r10-first-10-human-procedures-under-supervision",
+      "version": "1.0.0"
+    },
+    {
+      "lineageId": "rec-esd-r11-knowledge-of-instrumentation-technique-and-esu",
+      "version": "1.0.0"
+    },
+    {
+      "lineageId": "rec-esd-r12-estimating-probability-of-curative-resection",
+      "version": "1.0.0"
+    },
+    {
+      "lineageId": "rec-esd-r13-interpretation-of-histopathology-of-the-esd-specimen",
+      "version": "1.0.0"
+    },
+    {
+      "lineageId": "rec-esd-r14-expert-confirmation-before-starting-esd-at-own-centre",
+      "version": "1.0.0"
+    },
+    {
+      "lineageId": "rec-esd-r15-setting-requirements-inpatient-ward-surgical-backup-expert-p",
+      "version": "1.0.0"
+    },
+    {
+      "lineageId": "rec-esd-r16-minimum-case-load-25-esd-procedures-per-year",
+      "version": "1.0.0"
+    },
+    {
+      "lineageId": "rec-esd-r17-prospective-database-quality-targets-en-bloc-90-perforation",
+      "version": "1.0.0"
+    },
+    {
+      "lineageId": "rec-esd-r2-prior-training-required-emr-adverse-event-management",
+      "version": "1.0.0"
+    },
+    {
+      "lineageId": "rec-esd-r3-knowledge-of-esd-theory-before-and-during-training",
+      "version": "1.0.0"
+    },
+    {
+      "lineageId": "rec-esd-r4-live-conferences-and-meetings",
+      "version": "1.0.0"
+    },
+    {
+      "lineageId": "rec-esd-r5-esge-discourages-initial-esd-training-in-humans",
+      "version": "1.0.0"
+    },
+    {
+      "lineageId": "rec-esd-r6-animal-ex-vivo-practice-20-procedures-before-humans",
+      "version": "1.0.0"
+    },
+    {
+      "lineageId": "rec-esd-r7-supervision-during-training",
+      "version": "1.0.0"
+    },
+    {
+      "lineageId": "rec-esd-r8-observation-of-experts-20-procedures-5-as-assistant",
+      "version": "1.0.0"
+    },
+    {
+      "lineageId": "rec-esd-r9-first-human-procedures-small-30mm-lesions-in-antrum-or-rectu",
+      "version": "1.0.0"
     }
   ],
   "standards": [
@@ -261,6 +333,18 @@
     {
       "lineageId": "qi-emr-cln-unplanned-hospitalization",
       "version": "1.0.0"
+    },
+    {
+      "lineageId": "qi-esd-en-bloc-resection-rate",
+      "version": "1.0.0"
+    },
+    {
+      "lineageId": "qi-esd-perforation-rate",
+      "version": "1.0.0"
+    },
+    {
+      "lineageId": "qi-esd-surgery-for-complications-rate",
+      "version": "1.0.0"
     }
   ],
   "cats": [
@@ -279,7 +363,8 @@
     "Added: refs-cur-emr-colon-2023 (separate references artifact with all 150 source bibliography entries resolved to Crossref DOIs; 14 marked lowConfidence for hand-verification)",
     "Curriculum wrapper: all 11 main statements re-extracted verbatim (Statement 4 corrected); 8 sections (was 7 \u2014 added Section 6 Surveillance); per-author competing interests (was lumped); full author affiliations from PDF",
     "31 additional recommendations auto-extracted from source PDF via scripts/extract-recommendations.py (verbatim statement+GRADE+sub-items+references; all pass source-trace)",
-    "All 18 Table 6 QIs encoded (was 5 \u2014 added 13 more via scripts/extract-qis.py one-shot extractor)"
+    "All 18 Table 6 QIs encoded (was 5 \u2014 added 13 more via scripts/extract-qis.py one-shot extractor)",
+    "Second curriculum ingested: ESGE ESD 2019 (Pimentel-Nunes/Pioche). 1 curriculum wrapper + 17 recommendations + 3 QIs + 77-ref bibliography. First curriculum with LoA-only (no GRADE); schema updated to allow top-level levelOfAgreement on rec + optional grade block."
   ],
   "patchBumps": [],
   "_meta": {

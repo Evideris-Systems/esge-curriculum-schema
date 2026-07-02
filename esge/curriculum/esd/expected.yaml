@@ -1,0 +1,38 @@
+# Expected coverage manifest for Pimentel-Nunes/Pioche ESD 2019
+# (DOI 10.1055/a-0996-0912). Per Phase 5 architecture: this file IS the
+# source-fidelity audit. It records the human's promise about source
+# coverage; the gate `completeness-vs-expected` blocks make check if the
+# encoded JSON diverges.
+
+source_doi: 10.1055/a-0996-0912
+reviewedBy: human:david
+reviewedAt: 2026-07-01
+forCurriculum: cur-esd-2019
+
+mainStatements:    4    # verbatim from the summary box on page 1
+sections:          3    # Skills/competence, Training, Knowledge/maintaining
+qis:               3    # en bloc rate, perforation rate, need-for-surgery rate
+gpatItems:         0    # ESD 2019 does not carry a CAT/GPAT
+references:        77   # rough count from bibliography; extractor confirms
+
+# Every rec in this paper is a single-sentence recommendation with no (i)(ii)
+# sub-items — the paper's RECOMMENDATION blocks each carry one statement + one
+# LoA %. This differs from Tate EMR 2023 which has extensive sub-item lists.
+recommendations:
+  1:  { subItems: 0, reason: "single-statement RECOMMENDATION block; no enumerated sub-items in source" }
+  2:  { subItems: 0, reason: "single-statement RECOMMENDATION block; no enumerated sub-items in source" }
+  3:  { subItems: 0, reason: "single-statement RECOMMENDATION block; no enumerated sub-items in source" }
+  4:  { subItems: 0, reason: "single-statement RECOMMENDATION block; no enumerated sub-items in source" }
+  5:  { subItems: 0, reason: "single-statement RECOMMENDATION block; no enumerated sub-items in source" }
+  6:  { subItems: 0, reason: "single-statement RECOMMENDATION block; no enumerated sub-items in source" }
+  7:  { subItems: 0, reason: "single-statement RECOMMENDATION block; no enumerated sub-items in source" }
+  8:  { subItems: 0, reason: "single-statement RECOMMENDATION block; no enumerated sub-items in source" }
+  9:  { subItems: 0, reason: "single-statement RECOMMENDATION block; no enumerated sub-items in source" }
+  10: { subItems: 0, reason: "single-statement RECOMMENDATION block; no enumerated sub-items in source" }
+  11: { subItems: 0, reason: "single-statement RECOMMENDATION block; no enumerated sub-items in source" }
+  12: { subItems: 0, reason: "single-statement RECOMMENDATION block; no enumerated sub-items in source" }
+  13: { subItems: 0, reason: "single-statement RECOMMENDATION block; no enumerated sub-items in source" }
+  14: { subItems: 0, reason: "single-statement RECOMMENDATION block; no enumerated sub-items in source" }
+  15: { subItems: 0, reason: "single-statement RECOMMENDATION block; no enumerated sub-items in source" }
+  16: { subItems: 0, reason: "single-statement RECOMMENDATION block; no enumerated sub-items in source" }
+  17: { subItems: 0, reason: "single-statement RECOMMENDATION block; the embedded quality targets are extracted as separate qi-esd-* artifacts, not sub-items" }
