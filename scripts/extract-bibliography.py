@@ -37,9 +37,29 @@ ENTRY_RE = re.compile(r"(?ms)^\[(\d+)\]\s(.+?)(?=^\[\d+\]|\Z)")
 
 
 def normalise_citation(raw: str) -> str:
-    """Clean PDF artefacts in a bibliography entry: hyphenation, whitespace."""
+    """Clean PDF artefacts in a bibliography entry: hyphenation, whitespace, and
+    the paper's running footer / page markers that leak in when a citation spans
+    a page break in the source PDF."""
     s = re.sub(r"\s+", " ", raw)
+    # Strip the paper's own running footer + page divider ("Tate David J et al.
+    # Curriculum for training ... === PAGE 34 ===") that sometimes ends up
+    # sitting mid-citation when the citation splits across a page break.
+    # Pattern is generic to any ESGE Position Statement running footer.
+    s = re.sub(
+        r"\s*[A-Z][a-z]+(?:\s+[A-Z][A-Za-z]+)*\s+et al\.\s*"
+        r"[A-Z][^=]*?(?:Position Statement\s*)?"
+        r"===\s*PAGE\s+\d+\s*===\s*",
+        " ",
+        s,
+    )
+    # Older / simpler footer without the PAGE divider.
+    s = re.sub(
+        r"\s*[A-Z][a-z]+(?:\s+[A-Z][A-Za-z]+)*\s+et al\.\s*Curriculum for training[^.]*?All rights reserved\.\s*",
+        " ",
+        s,
+    )
     s = re.sub(r"(\w)-\s+(\w)", r"\1\2", s)
+    s = re.sub(r"\s+", " ", s)
     return s.strip().rstrip(".")
 
 
