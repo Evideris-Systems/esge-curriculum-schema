@@ -1,0 +1,46 @@
+{
+  "$schema": "https://schema.evideris.com/schemas/recommendation.schema.json",
+  "$id": "https://schema.evideris.com/esge/recommendation/poem-2/r31.v1.0.0.json",
+  "lineageId": "rec-poem-2-r31-esge-recommends-that-the-myotomy-should-be-extended-2-3-cm-d",
+  "type": "recommendation",
+  "version": "1.0.0",
+  "release": "r2026.07",
+  "supersedes": null,
+  "supersededBy": null,
+  "language": [
+    "en"
+  ],
+  "withinCurriculum": "cur-poem-2-2025",
+  "withinSection": "sec-poem-2-myotomy",
+  "number": 31,
+  "title": {
+    "en": "ESGE recommends that the myotomy should be extended 2\u20133 cm distal to the GEJ to allow complete disruption of the lower esophageal sphincter."
+  },
+  "statement": {
+    "en": "ESGE recommends that the myotomy should be extended 2\u20133 cm distal to the GEJ to allow complete disruption of the lower esophageal sphincter."
+  },
+  "grade": {
+    "strength": "strong",
+    "evidenceQuality": "moderate"
+  },
+  "levelOfAgreement": 89,
+  "references": [],
+  "_meta": {
+    "provenance": {
+      "type": "verbatim",
+      "source_doi": "10.1055/a-2569-7634"
+    },
+    "encodedBy": "human:david",
+    "encodedAt": "2026-07-03",
+    "fieldProvenance": {
+      "commentary": {
+        "type": "verbatim",
+        "source_doi": "10.1055/a-2569-7634",
+        "source_span": "Paragraph(s) preceding the N RECOMMENDATION block in body; back-to-back groups share commentary."
+      }
+    }
+  },
+  "commentary": {
+    "en": "The majority of studies on POEM describe a gastric myotomy length of 2\u20133 cm [83, 84]. A longer myotomy length may correlate with increased rates of reflux esophagitis (Table 8 s) [58]. Furthermore, endoscopic functional luminal impendence planimetry (EndoFLIP) measurements of progressive gastric myotomy suggest that > 2 cm gives no further benefit in terms of GEJ distensibility [85]. EndoFLIP is a technology that measures the distensibility index (area/pressure) of sphincters in the gastrointestinal tract. It is particularly useful when measured pre- and post-POEM to assess the relaxation of the LES after therapy. One uncontrolled study suggested low post-POEM distensibility index values (< 7 mm2/mmHg) were predictive of clinical failure [86]. Whilst clinically useful in certain cases, this expert panel does not currently recommend the routine use of peri-POEM EndoFLIP owing to cost and availability concerns, and its uncertain benefit in clinically relevant outcomes. In patients with type III achalasia and other spastic esophageal disorders, myotomy length is often tailored to HRM findings, allowing for tailored myotomy. This has been shown to correlate with improved clinical success in type III achalasia and spastic esophageal disorders (Table 9 s) [87, 88]."
+  }
+}

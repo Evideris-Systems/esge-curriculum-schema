@@ -1,0 +1,46 @@
+{
+  "$schema": "https://schema.evideris.com/schemas/recommendation.schema.json",
+  "$id": "https://schema.evideris.com/esge/recommendation/poem-2/r45.v1.0.0.json",
+  "lineageId": "rec-poem-2-r45-in-the-absence-of-adverse-events-resume-fluids-on-day-1-soft",
+  "type": "recommendation",
+  "version": "1.0.0",
+  "release": "r2026.07",
+  "supersedes": null,
+  "supersededBy": null,
+  "language": [
+    "en"
+  ],
+  "withinCurriculum": "cur-poem-2-2025",
+  "withinSection": "sec-poem-2-postoperative-care",
+  "number": 45,
+  "title": {
+    "en": "In the absence of adverse events, resume fluids on day 1, soft diet on day 3,"
+  },
+  "statement": {
+    "en": "In the absence of adverse events, resume fluids on day 1, soft diet on day 3, and normal diet on day 7 post-POEM."
+  },
+  "grade": {
+    "strength": "best-practice",
+    "evidenceQuality": "no-evidence-available"
+  },
+  "levelOfAgreement": 80,
+  "references": [],
+  "_meta": {
+    "provenance": {
+      "type": "verbatim",
+      "source_doi": "10.1055/a-2569-7634"
+    },
+    "encodedBy": "human:david",
+    "encodedAt": "2026-07-03",
+    "fieldProvenance": {
+      "commentary": {
+        "type": "verbatim",
+        "source_doi": "10.1055/a-2569-7634",
+        "source_span": "Paragraph(s) preceding the N RECOMMENDATION block in body; back-to-back groups share commentary."
+      }
+    }
+  },
+  "commentary": {
+    "en": "Although initial outcomes reported in case series have been favorable, the panel does not endorse this full-thickness approach as it goes against the principles of third-space endoscopy, increases the potential for severe AEs, and has limited available data [110]. Adequate orientation can be challenging in cases of sigmoidtype achalasia. Case reports have suggested various approaches to facilitate the completion of the procedure, including double-scope POEM, POEM with additional curved myotomy, fluoroscopy-guided POEM, and open POEM [111]. In instances of types I and II sigmoid-type achalasia, a shorter tunnel and myotomy (0\u20131 cm after the caudal end of the mucosal incision) may suffice; however, the existing evidence is insufficient to warrant a formal recommendation. 11.1 When should diet be reintroduced? The initial studies of POEM suggested a liquid diet on the day after the POEM procedure, followed by a soft diet on postPOEM day 3, with resumption of a normal diet on post-POEM day 4 [112]. Owing to the lack of evidence, the panel proposal is based on an internal Delphi consensus."
+  }
+}

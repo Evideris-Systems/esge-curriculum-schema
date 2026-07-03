@@ -50,7 +50,7 @@
         "properties": {
           "label": {
             "type": "string",
-            "pattern": "^[ivxlcdmIVXLCDM]+$|^[a-z]$"
+            "pattern": "^[ivxlcdmIVXLCDM]+$|^[a-z]$|^[0-9]+$"
           },
           "text": {
             "$ref": "_common.schema.json#/$defs/localeKeyedString"

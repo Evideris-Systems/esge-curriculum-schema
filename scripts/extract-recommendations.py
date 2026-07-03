@@ -34,14 +34,24 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 
 # Patterns
+# Anchor 1: Tate-EMR-style — "<N> ALL CAPS TITLE" (e.g. "27 STRATEGIES FOR EMR IN SPECIFIC LOCATIONS")
 TOPIC_HEADER_RE = re.compile(r"(?m)^[ \t]*(\d{1,2})\s+([A-Z][A-Z /\-,()&]{4,}?)\s*$")
+# Anchor 2: POEM-II-style — "<N> RECOMMENDATION" on its own line, statement follows.
+# The title comes from the following section-hierarchy (e.g. "6.1 How to access…"),
+# not from the anchor line itself.
+POEM_RECOMMENDATION_ANCHOR_RE = re.compile(r"(?m)^[ \t]*(\d{1,2})\s+RECOMMENDATION\s*$")
 ESGE_RECOMMENDS_RE = re.compile(r"ESGE recommends.+?(?=^\d+\s+[A-Z]|\Z)", re.DOTALL | re.MULTILINE)
+# GRADE line — full ESGE GRADE. Includes POEM-II's "Good practice statement." variant
+# which maps to strength=best-practice, evidenceQuality=no-evidence-available.
 GRADE_LINE_RE = re.compile(
-    r"(Strong|Weak|Best practice|Moderately strong)\s+recommendation,\s*"
-    r"(low|moderate|high|very[\- ]low|no evidence available)\s+(?:quality\s+(?:of\s+)?)?evi[\s-]*?dence\.?",
+    r"(Strong|Weak|Best practice|Moderately strong|Good practice statement)"
+    r"(?:\s+recommendation,\s*"
+    r"(low|moderate|high|very[\- ]low|no evidence available)\s+"
+    r"(?:quality\s+(?:of\s+)?)?evi[\s-]*?dence)?\.?",
     re.IGNORECASE | re.DOTALL,
 )
 LEVEL_OF_AGREEMENT_RE = re.compile(r"Level of agreement\s*(\d{1,3})\s*%\.?", re.IGNORECASE)
+# Sub-items — both roman "(i)(ii)" (Tate) and Arabic "1." "2." (POEM II)
 SUBITEM_RE = re.compile(r"\((i|ii|iii|iv|v|vi|vii|viii|ix|x|xi|xii|xiii|xiv|xv|xvi|xvii|xviii|xix|xx|xxi|xxii|xxiii|xxiv|xxv|xxvi|xxvii|xxviii|xxix|xxx)\)", re.IGNORECASE)
 COMMENT_PARA_RE = re.compile(r"(?s)\bComment\s+([A-Z].*?)(?=\(i\)|\(I\)|^\d+\s+[A-Z]|\Z)", re.MULTILINE)
 TABLE_REF_RE = re.compile(r"▶?\s*Table\s+(\d+)", re.IGNORECASE)

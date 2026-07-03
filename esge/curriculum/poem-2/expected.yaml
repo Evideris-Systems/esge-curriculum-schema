@@ -1,0 +1,65 @@
+# Expected coverage manifest for POEM Part II 2025 (DOI 10.1055/a-2569-7634).
+# Auto-generated on ingest; per-rec subItems counts reflect what the source
+# actually contains (mostly single-statement recs like ESD 2019; a few with
+# Arabic-numeral sub-item lists).
+
+source_doi: 10.1055/a-2569-7634
+reviewedBy: human:david
+reviewedAt: 2026-07-03
+forCurriculum: cur-poem-2-2025
+
+mainStatements:    15   # verbatim from MAIN RECOMMENDATION summary box (p1-2)
+sections:          10   # 3-12 numbered top-level chapters
+qis:               0    # POEM II does not have a Table 6 of QIs
+gpatItems:         0    # PPAT (Precision POEM Assessment Tool) encoded separately; may be added as cat artifact in a follow-up
+references:        134  # 134/134 Crossref-resolved (7 low-confidence)
+
+recommendations:
+  1: { subItems: 0, reason: "single-statement RECOMMENDATION block; no enumerated sub-items in source" }
+  2: { subItems: 0, reason: "single-statement RECOMMENDATION block; no enumerated sub-items in source" }
+  3: { subItems: 0, reason: "single-statement RECOMMENDATION block; no enumerated sub-items in source" }
+  4: { subItems: 0, reason: "single-statement RECOMMENDATION block; no enumerated sub-items in source" }
+  5: { subItems: 0, reason: "single-statement RECOMMENDATION block; no enumerated sub-items in source" }
+  6: { subItems: 0, reason: "single-statement RECOMMENDATION block; no enumerated sub-items in source" }
+  7: { subItems: 0, reason: "single-statement RECOMMENDATION block; no enumerated sub-items in source" }
+  8: { subItems: 0, reason: "single-statement RECOMMENDATION block; no enumerated sub-items in source" }
+  9: { subItems: 0, reason: "single-statement RECOMMENDATION block; no enumerated sub-items in source" }
+  10: { subItems: 0, reason: "single-statement RECOMMENDATION block; no enumerated sub-items in source" }
+  11: { subItems: 0, reason: "single-statement RECOMMENDATION block; no enumerated sub-items in source" }
+  12: { subItems: 0, reason: "single-statement RECOMMENDATION block; no enumerated sub-items in source" }
+  13: { subItems: 0, reason: "single-statement RECOMMENDATION block; no enumerated sub-items in source" }
+  14: { subItems: 0, reason: "single-statement RECOMMENDATION block; no enumerated sub-items in source" }
+  15: { subItems: 0, reason: "single-statement RECOMMENDATION block; no enumerated sub-items in source" }
+  16: { subItems: 0, reason: "single-statement RECOMMENDATION block; no enumerated sub-items in source" }
+  17: { subItems: 0, reason: "single-statement RECOMMENDATION block; no enumerated sub-items in source" }
+  18: { subItems: 0, reason: "single-statement RECOMMENDATION block; no enumerated sub-items in source" }
+  19: { subItems: 0, reason: "single-statement RECOMMENDATION block; no enumerated sub-items in source" }
+  20: { subItems: 0, reason: "single-statement RECOMMENDATION block; no enumerated sub-items in source" }
+  21: { subItems: 3 }
+  22: { subItems: 0, reason: "single-statement RECOMMENDATION block; no enumerated sub-items in source" }
+  23: { subItems: 0, reason: "single-statement RECOMMENDATION block; no enumerated sub-items in source" }
+  24: { subItems: 0, reason: "single-statement RECOMMENDATION block; no enumerated sub-items in source" }
+  25: { subItems: 0, reason: "single-statement RECOMMENDATION block; no enumerated sub-items in source" }
+  26: { subItems: 0, reason: "single-statement RECOMMENDATION block; no enumerated sub-items in source" }
+  27: { subItems: 0, reason: "single-statement RECOMMENDATION block; no enumerated sub-items in source" }
+  28: { subItems: 0, reason: "single-statement RECOMMENDATION block; no enumerated sub-items in source" }
+  29: { subItems: 0, reason: "single-statement RECOMMENDATION block; no enumerated sub-items in source" }
+  30: { subItems: 0, reason: "single-statement RECOMMENDATION block; no enumerated sub-items in source" }
+  31: { subItems: 0, reason: "single-statement RECOMMENDATION block; no enumerated sub-items in source" }
+  32: { subItems: 0, reason: "single-statement RECOMMENDATION block; no enumerated sub-items in source" }
+  33: { subItems: 0, reason: "single-statement RECOMMENDATION block; no enumerated sub-items in source" }
+  34: { subItems: 0, reason: "single-statement RECOMMENDATION block; no enumerated sub-items in source" }
+  35: { subItems: 0, reason: "single-statement RECOMMENDATION block; no enumerated sub-items in source" }
+  36: { subItems: 0, reason: "single-statement RECOMMENDATION block; no enumerated sub-items in source" }
+  37: { subItems: 6 }
+  38: { subItems: 0, reason: "single-statement RECOMMENDATION block; no enumerated sub-items in source" }
+  39: { subItems: 0, reason: "single-statement RECOMMENDATION block; no enumerated sub-items in source" }
+  40: { subItems: 0, reason: "single-statement RECOMMENDATION block; no enumerated sub-items in source" }
+  41: { subItems: 0, reason: "single-statement RECOMMENDATION block; no enumerated sub-items in source" }
+  42: { subItems: 4 }
+  43: { subItems: 0, reason: "single-statement RECOMMENDATION block; no enumerated sub-items in source" }
+  44: { subItems: 0, reason: "single-statement RECOMMENDATION block; no enumerated sub-items in source" }
+  45: { subItems: 0, reason: "single-statement RECOMMENDATION block; no enumerated sub-items in source" }
+  46: { subItems: 0, reason: "single-statement RECOMMENDATION block; no enumerated sub-items in source" }
+  47: { subItems: 0, reason: "single-statement RECOMMENDATION block; no enumerated sub-items in source" }
+  48: { subItems: 0, reason: "single-statement RECOMMENDATION block; no enumerated sub-items in source" }

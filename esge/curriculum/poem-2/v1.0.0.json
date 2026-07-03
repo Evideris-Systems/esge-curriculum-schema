@@ -1,0 +1,330 @@
+{
+  "$schema": "https://schema.evideris.com/schemas/curriculum.schema.json",
+  "$id": "https://schema.evideris.com/esge/curriculum/poem-2/v1.0.0.json",
+  "lineageId": "cur-poem-2-2025",
+  "type": "curriculum",
+  "version": "1.0.0",
+  "release": "r2026.07",
+  "supersedes": null,
+  "supersededBy": null,
+  "language": [
+    "en"
+  ],
+  "targetModalities": [
+    "m-poem"
+  ],
+  "scope": {
+    "en": "This manuscript represents the outcome of a formal Delphi process resulting in an official Position Statement of the ESGE and provides a framework to develop and maintain skills in POEM. This curriculum is set out in terms of the environment for training, the theoretical knowledge and practical skills required for completion of training, and how competence should be defined and evidenced prior to independent practice."
+  },
+  "methodology": {
+    "type": "delphi-consensus",
+    "agreementThreshold": 75
+  },
+  "publication": {
+    "title": "Curriculum for training in peroral endoscopic myotomy (POEM) in Europe (Part II) \u2014 Best Practice Techniques: European Society of Gastrointestinal Endoscopy (ESGE) Position Statement",
+    "authors": [
+      {
+        "name": "David J. Tate"
+      },
+      {
+        "name": "Enrique Rodriguez de Santiago"
+      },
+      {
+        "name": "Michele Montori"
+      },
+      {
+        "name": "Vikash Lala"
+      },
+      {
+        "name": "Lynn K. Debels"
+      },
+      {
+        "name": "Eduardo Alb\u00e9niz"
+      },
+      {
+        "name": "Isis K. Araujo"
+      },
+      {
+        "name": "Eduardo Guimar\u00e3es Hourneaux de Moura"
+      },
+      {
+        "name": "Alanna Ebigbo"
+      },
+      {
+        "name": "Pietro Familiari"
+      },
+      {
+        "name": "Paul Fockens"
+      },
+      {
+        "name": "Henriette Heinrich"
+      },
+      {
+        "name": "Oleksandr Kiosov"
+      },
+      {
+        "name": "Helmut Messmann"
+      },
+      {
+        "name": "Sandra Nagl"
+      },
+      {
+        "name": "Jo\u00e3o Santos-Antunes"
+      },
+      {
+        "name": "Amrita Sethi"
+      },
+      {
+        "name": "Marcel Tantau"
+      },
+      {
+        "name": "Zuzana Vackova"
+      },
+      {
+        "name": "Jan Martinek"
+      },
+      {
+        "name": "Roy Soetikno"
+      },
+      {
+        "name": "Ian M. Gralnek"
+      },
+      {
+        "name": "Tony C. Tham"
+      }
+    ],
+    "journal": "Endoscopy",
+    "year": 2025,
+    "volume": "57",
+    "issue": "8",
+    "pages": "912-941",
+    "doi": "10.1055/a-2569-7634",
+    "openAccessUrl": "https://doi.org/10.1055/a-2569-7634"
+  },
+  "mainStatements": [
+    {
+      "number": 1,
+      "text": {
+        "en": "A POEM equipment checklist should be used before commencing the procedure to ensure the availability and proper functioning of all necessary materials."
+      }
+    },
+    {
+      "number": 2,
+      "text": {
+        "en": "A thorough esophageal cleansing before mucosal incision is mandatory. There should be no residual dietary liquid or food in the lumen."
+      }
+    },
+    {
+      "number": 3,
+      "text": {
+        "en": "Use at least 5\u201310 mL of lifting agent, which should be injected using a needle at the desired point where the mucosotomy will commence."
+      }
+    },
+    {
+      "number": 4,
+      "text": {
+        "en": "To create the mucosotomy, the first incision should be made at the site of previous injection with the fewest possible taps on the electrosurgical unit using a cutting mode, with the knife tip at 45\u201380\u00b0 to the mucosal surface."
+      }
+    },
+    {
+      "number": 5,
+      "text": {
+        "en": "After adequate submucosal injection (through a needle or knife), the incision should be extended by 1.5\u20132 cm in the longitudinal axis from cranial to caudal, in the planned direction of the tunnel."
+      }
+    },
+    {
+      "number": 6,
+      "text": {
+        "en": "Dissection within the tunnel should be performed using sequential injection of saline and chromic dye (if available using the knife jet function) and dissection with the knife. Pushing the endoscope forward gently against the advancing submucosa\u2013muscularis propria interface is important to facilitate mucosal tunneling."
+      }
+    },
+    {
+      "number": 7,
+      "text": {
+        "en": "The myotomy should be performed in a cranial to caudal manner, starting 2 cm or more below the caudal extent of the mucosotomy site."
+      }
+    },
+    {
+      "number": 8,
+      "text": {
+        "en": "ESGE recommends that the myotomy should be extended 2\u20133 cm distal to the gastroesophageal junction to allow complete disruption of the lower esophageal sphincter."
+      }
+    },
+    {
+      "number": 9,
+      "text": {
+        "en": "ESGE recommends that POEM can be performed on either the anterior (1\u20132 o\u2019clock in supine position) or posterior (5\u20136 o\u2019clock) side."
+      }
+    },
+    {
+      "number": 10,
+      "text": {
+        "en": "ESGE recommends that the myotomy length should be tailored to the disease being treated, with evidence favoring short esophageal-side myotomy if indicated because of decreased adverse events and procedure times."
+      }
+    },
+    {
+      "number": 11,
+      "text": {
+        "en": "ESGE recommends the use of through-the-scope clips for mucosal closure owing to their high efficacy and availability, and lower price compared with other closure methods."
+      }
+    },
+    {
+      "number": 12,
+      "text": {
+        "en": "Mucosal injury during POEM should be proactively sought during the procedure and particularly before completion. Mucosal injury can be represented on a spectrum from whitening of the overlying mucosa to a full-thickness perforation."
+      }
+    },
+    {
+      "number": 13,
+      "text": {
+        "en": "ESGE recommends performing POEM using low flow CO2 insufflation."
+      }
+    },
+    {
+      "number": 14,
+      "text": {
+        "en": "In the absence of adverse events, resume fluids on day 1, soft diet on day 3, and normal diet on day 7 post-POEM."
+      }
+    },
+    {
+      "number": 15,
+      "text": {
+        "en": "ESGE recommends against the routine use of standard or computed tomography fluoroscopic esophagrams after POEM in asymptomatic patients."
+      }
+    }
+  ],
+  "sections": [
+    {
+      "lineageId": "sec-poem-2-preparation",
+      "number": 3,
+      "title": {
+        "en": "POEM preparation"
+      }
+    },
+    {
+      "lineageId": "sec-poem-2-cleaning-inspection",
+      "number": 4,
+      "title": {
+        "en": "Cleaning and inspection"
+      }
+    },
+    {
+      "lineageId": "sec-poem-2-mucosal-incision",
+      "number": 5,
+      "title": {
+        "en": "Mucosal incision"
+      }
+    },
+    {
+      "lineageId": "sec-poem-2-submucosal-tunneling",
+      "number": 6,
+      "title": {
+        "en": "Submucosal tunneling"
+      }
+    },
+    {
+      "lineageId": "sec-poem-2-myotomy",
+      "number": 7,
+      "title": {
+        "en": "Myotomy"
+      }
+    },
+    {
+      "lineageId": "sec-poem-2-mucosal-closure",
+      "number": 8,
+      "title": {
+        "en": "Mucosal closure"
+      }
+    },
+    {
+      "lineageId": "sec-poem-2-adverse-events",
+      "number": 9,
+      "title": {
+        "en": "Adverse events"
+      }
+    },
+    {
+      "lineageId": "sec-poem-2-technical-adaptations",
+      "number": 10,
+      "title": {
+        "en": "Technical adaptations"
+      }
+    },
+    {
+      "lineageId": "sec-poem-2-postoperative-care",
+      "number": 11,
+      "title": {
+        "en": "Postoperative care"
+      }
+    },
+    {
+      "lineageId": "sec-poem-2-ppat",
+      "number": 12,
+      "title": {
+        "en": "The Precision POEM Assessment Tool"
+      }
+    }
+  ],
+  "recommendations": [
+    "rec-poem-2-r1-a-poem-equipment-checklist-should-be-used-before-commencing",
+    "rec-poem-2-r2-the-shape-of-the-tip-of-the-electrosurgical-knife-should-be",
+    "rec-poem-2-r3-esge-suggests-using-waterjet-integrated-electrosurgical-kniv",
+    "rec-poem-2-r4-the-settings-provided-by-the-manufacturer-of-the-electrosurg",
+    "rec-poem-2-r5-esge-suggests-that-patients-adhere-to-a-clear-liquid-diet-fo",
+    "rec-poem-2-r6-esge-recommends-managing-antithrombotic-therapy-by-assessing",
+    "rec-poem-2-r7-esge-recommends-counseling-patients-on-antithrombotic-therap",
+    "rec-poem-2-r8-esge-recommends-a-single-prophylactic-antibiotic-dose-before",
+    "rec-poem-2-r9-a-thorough-esophageal-cleansing-before-mucosal-incision-is-m",
+    "rec-poem-2-r10-any-observed-obstructive-esophageal-spastic-segment-during-e",
+    "rec-poem-2-r11-poem-operators-should-plan-the-procedure-and-aim-to-identify",
+    "rec-poem-2-r12-poem-operators-should-clearly-distinguish-between-the-anteri",
+    "rec-poem-2-r13-use-at-least-5-10-ml-of-lifting-agent-which-should-be-inject",
+    "rec-poem-2-r14-esge-suggests-the-use-of-saline-instead-of-colloids-for-subm",
+    "rec-poem-2-r15-the-use-of-a-chromic-dye-during-submucosal-tunneling-facilit",
+    "rec-poem-2-r16-the-use-of-adrenaline-in-the-submucosal-solution-is-not-advi",
+    "rec-poem-2-r17-to-create-the-mucosotomy-the-first-incision-should-be-made-a",
+    "rec-poem-2-r18-after-adequate-submucosal-injection-through-a-needle-or-knif",
+    "rec-poem-2-r19-the-submucosa-should-be-carefully-trimmed-at-the-caudal-end",
+    "rec-poem-2-r20-a-transparent-distal-endoscope-attachment-facilitates-access",
+    "rec-poem-2-r21-dissection-within-the-tunnel-should-be-performed-using-seque",
+    "rec-poem-2-r22-the-distance-between-the-incisors-and-the-gej-should-be-asse",
+    "rec-poem-2-r23-the-following-observations-are-useful-to-identify-the-gej-i",
+    "rec-poem-2-r24-the-submucosal-tunnel-should-be-extended-at-least-3-cm-dista",
+    "rec-poem-2-r25-esge-suggests-using-a-combination-of-anatomical-landmarks-to",
+    "rec-poem-2-r26-the-myotomy-should-be-performed-in-a-cranial-to-caudal-manne",
+    "rec-poem-2-r27-the-myotomy-should-be-performed-using-mucosal-to-adventitial",
+    "rec-poem-2-r28-esge-recommends-that-poem-can-be-performed-on-either-the-ant",
+    "rec-poem-2-r29-esge-recommends-against-performing-poem-in-the-same-orientat",
+    "rec-poem-2-r30-esge-suggests-that-either-a-full-thickness-or-selective-myot",
+    "rec-poem-2-r31-esge-recommends-that-the-myotomy-should-be-extended-2-3-cm-d",
+    "rec-poem-2-r32-esge-recommends-that-the-myotomy-length-should-be-tailored-t",
+    "rec-poem-2-r33-for-types-i-and-ii-achalasia-esge-recommends-an-esophageal-m",
+    "rec-poem-2-r34-for-type-iii-achalasia-and-other-spastic-esophageal-motility",
+    "rec-poem-2-r35-esge-recommends-the-use-of-through-the-scope-clips-for-mucos",
+    "rec-poem-2-r36-esge-suggests-that-over-the-scope-clips-and-endoscopic-sutur",
+    "rec-poem-2-r37-prophylactic-hemostasis-for-nonbleeding-vessels-should-be-gu",
+    "rec-poem-2-r38-water-irrigation-should-be-used-to-precisely-identify-the-si",
+    "rec-poem-2-r39-mucosal-injury-during-poem-should-be-proactively-sought-duri",
+    "rec-poem-2-r40-any-suspected-current-or-potential-mucosal-perforation-durin",
+    "rec-poem-2-r41-esge-recommends-performing-poem-using-low-flow-co2-insufflat",
+    "rec-poem-2-r42-a-high-index-of-suspicion-for-gas-related-adverse-events-is",
+    "rec-poem-2-r43-drainage-of-capnoperitoneum-using-needle-decompression-is-re",
+    "rec-poem-2-r44-esge-suggests-creating-a-second-tunnel-in-an-alternative-ori",
+    "rec-poem-2-r45-in-the-absence-of-adverse-events-resume-fluids-on-day-1-soft",
+    "rec-poem-2-r46-esge-recommends-the-use-of-paracetamol-and-or-nonsteroidal-a",
+    "rec-poem-2-r47-esge-recommends-against-the-routine-use-of-standard-or-ct-fl",
+    "rec-poem-2-r48-esge-suggests-favoring-the-use-of-a-ct-esophagram-with-oral"
+  ],
+  "qis": [],
+  "cats": [],
+  "kpis": [],
+  "standards": [],
+  "_meta": {
+    "provenance": {
+      "type": "verbatim",
+      "source_doi": "10.1055/a-2569-7634"
+    },
+    "encodedBy": "human:david",
+    "encodedAt": "2026-07-03"
+  }
+}

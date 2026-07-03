@@ -15,6 +15,10 @@
     {
       "lineageId": "cur-esd-2019",
       "version": "1.0.0"
+    },
+    {
+      "lineageId": "cur-poem-2-2025",
+      "version": "1.0.0"
     }
   ],
   "recommendations": [
@@ -233,6 +237,198 @@
     {
       "lineageId": "rec-esd-r9-first-human-procedures-small-30mm-lesions-in-antrum-or-rectu",
       "version": "1.0.0"
+    },
+    {
+      "lineageId": "rec-poem-2-r1-a-poem-equipment-checklist-should-be-used-before-commencing",
+      "version": "1.0.0"
+    },
+    {
+      "lineageId": "rec-poem-2-r2-the-shape-of-the-tip-of-the-electrosurgical-knife-should-be",
+      "version": "1.0.0"
+    },
+    {
+      "lineageId": "rec-poem-2-r3-esge-suggests-using-waterjet-integrated-electrosurgical-kniv",
+      "version": "1.0.0"
+    },
+    {
+      "lineageId": "rec-poem-2-r4-the-settings-provided-by-the-manufacturer-of-the-electrosurg",
+      "version": "1.0.0"
+    },
+    {
+      "lineageId": "rec-poem-2-r5-esge-suggests-that-patients-adhere-to-a-clear-liquid-diet-fo",
+      "version": "1.0.0"
+    },
+    {
+      "lineageId": "rec-poem-2-r6-esge-recommends-managing-antithrombotic-therapy-by-assessing",
+      "version": "1.0.0"
+    },
+    {
+      "lineageId": "rec-poem-2-r7-esge-recommends-counseling-patients-on-antithrombotic-therap",
+      "version": "1.0.0"
+    },
+    {
+      "lineageId": "rec-poem-2-r8-esge-recommends-a-single-prophylactic-antibiotic-dose-before",
+      "version": "1.0.0"
+    },
+    {
+      "lineageId": "rec-poem-2-r9-a-thorough-esophageal-cleansing-before-mucosal-incision-is-m",
+      "version": "1.0.0"
+    },
+    {
+      "lineageId": "rec-poem-2-r10-any-observed-obstructive-esophageal-spastic-segment-during-e",
+      "version": "1.0.0"
+    },
+    {
+      "lineageId": "rec-poem-2-r11-poem-operators-should-plan-the-procedure-and-aim-to-identify",
+      "version": "1.0.0"
+    },
+    {
+      "lineageId": "rec-poem-2-r12-poem-operators-should-clearly-distinguish-between-the-anteri",
+      "version": "1.0.0"
+    },
+    {
+      "lineageId": "rec-poem-2-r13-use-at-least-5-10-ml-of-lifting-agent-which-should-be-inject",
+      "version": "1.0.0"
+    },
+    {
+      "lineageId": "rec-poem-2-r14-esge-suggests-the-use-of-saline-instead-of-colloids-for-subm",
+      "version": "1.0.0"
+    },
+    {
+      "lineageId": "rec-poem-2-r15-the-use-of-a-chromic-dye-during-submucosal-tunneling-facilit",
+      "version": "1.0.0"
+    },
+    {
+      "lineageId": "rec-poem-2-r16-the-use-of-adrenaline-in-the-submucosal-solution-is-not-advi",
+      "version": "1.0.0"
+    },
+    {
+      "lineageId": "rec-poem-2-r17-to-create-the-mucosotomy-the-first-incision-should-be-made-a",
+      "version": "1.0.0"
+    },
+    {
+      "lineageId": "rec-poem-2-r18-after-adequate-submucosal-injection-through-a-needle-or-knif",
+      "version": "1.0.0"
+    },
+    {
+      "lineageId": "rec-poem-2-r19-the-submucosa-should-be-carefully-trimmed-at-the-caudal-end",
+      "version": "1.0.0"
+    },
+    {
+      "lineageId": "rec-poem-2-r20-a-transparent-distal-endoscope-attachment-facilitates-access",
+      "version": "1.0.0"
+    },
+    {
+      "lineageId": "rec-poem-2-r21-dissection-within-the-tunnel-should-be-performed-using-seque",
+      "version": "1.0.0"
+    },
+    {
+      "lineageId": "rec-poem-2-r22-the-distance-between-the-incisors-and-the-gej-should-be-asse",
+      "version": "1.0.0"
+    },
+    {
+      "lineageId": "rec-poem-2-r23-the-following-observations-are-useful-to-identify-the-gej-i",
+      "version": "1.0.0"
+    },
+    {
+      "lineageId": "rec-poem-2-r24-the-submucosal-tunnel-should-be-extended-at-least-3-cm-dista",
+      "version": "1.0.0"
+    },
+    {
+      "lineageId": "rec-poem-2-r25-esge-suggests-using-a-combination-of-anatomical-landmarks-to",
+      "version": "1.0.0"
+    },
+    {
+      "lineageId": "rec-poem-2-r26-the-myotomy-should-be-performed-in-a-cranial-to-caudal-manne",
+      "version": "1.0.0"
+    },
+    {
+      "lineageId": "rec-poem-2-r27-the-myotomy-should-be-performed-using-mucosal-to-adventitial",
+      "version": "1.0.0"
+    },
+    {
+      "lineageId": "rec-poem-2-r28-esge-recommends-that-poem-can-be-performed-on-either-the-ant",
+      "version": "1.0.0"
+    },
+    {
+      "lineageId": "rec-poem-2-r29-esge-recommends-against-performing-poem-in-the-same-orientat",
+      "version": "1.0.0"
+    },
+    {
+      "lineageId": "rec-poem-2-r30-esge-suggests-that-either-a-full-thickness-or-selective-myot",
+      "version": "1.0.0"
+    },
+    {
+      "lineageId": "rec-poem-2-r31-esge-recommends-that-the-myotomy-should-be-extended-2-3-cm-d",
+      "version": "1.0.0"
+    },
+    {
+      "lineageId": "rec-poem-2-r32-esge-recommends-that-the-myotomy-length-should-be-tailored-t",
+      "version": "1.0.0"
+    },
+    {
+      "lineageId": "rec-poem-2-r33-for-types-i-and-ii-achalasia-esge-recommends-an-esophageal-m",
+      "version": "1.0.0"
+    },
+    {
+      "lineageId": "rec-poem-2-r34-for-type-iii-achalasia-and-other-spastic-esophageal-motility",
+      "version": "1.0.0"
+    },
+    {
+      "lineageId": "rec-poem-2-r35-esge-recommends-the-use-of-through-the-scope-clips-for-mucos",
+      "version": "1.0.0"
+    },
+    {
+      "lineageId": "rec-poem-2-r36-esge-suggests-that-over-the-scope-clips-and-endoscopic-sutur",
+      "version": "1.0.0"
+    },
+    {
+      "lineageId": "rec-poem-2-r37-prophylactic-hemostasis-for-nonbleeding-vessels-should-be-gu",
+      "version": "1.0.0"
+    },
+    {
+      "lineageId": "rec-poem-2-r38-water-irrigation-should-be-used-to-precisely-identify-the-si",
+      "version": "1.0.0"
+    },
+    {
+      "lineageId": "rec-poem-2-r39-mucosal-injury-during-poem-should-be-proactively-sought-duri",
+      "version": "1.0.0"
+    },
+    {
+      "lineageId": "rec-poem-2-r40-any-suspected-current-or-potential-mucosal-perforation-durin",
+      "version": "1.0.0"
+    },
+    {
+      "lineageId": "rec-poem-2-r41-esge-recommends-performing-poem-using-low-flow-co2-insufflat",
+      "version": "1.0.0"
+    },
+    {
+      "lineageId": "rec-poem-2-r42-a-high-index-of-suspicion-for-gas-related-adverse-events-is",
+      "version": "1.0.0"
+    },
+    {
+      "lineageId": "rec-poem-2-r43-drainage-of-capnoperitoneum-using-needle-decompression-is-re",
+      "version": "1.0.0"
+    },
+    {
+      "lineageId": "rec-poem-2-r44-esge-suggests-creating-a-second-tunnel-in-an-alternative-ori",
+      "version": "1.0.0"
+    },
+    {
+      "lineageId": "rec-poem-2-r45-in-the-absence-of-adverse-events-resume-fluids-on-day-1-soft",
+      "version": "1.0.0"
+    },
+    {
+      "lineageId": "rec-poem-2-r46-esge-recommends-the-use-of-paracetamol-and-or-nonsteroidal-a",
+      "version": "1.0.0"
+    },
+    {
+      "lineageId": "rec-poem-2-r47-esge-recommends-against-the-routine-use-of-standard-or-ct-fl",
+      "version": "1.0.0"
+    },
+    {
+      "lineageId": "rec-poem-2-r48-esge-suggests-favoring-the-use-of-a-ct-esophagram-with-oral",
+      "version": "1.0.0"
     }
   ],
   "standards": [
@@ -364,7 +560,8 @@
     "Curriculum wrapper: all 11 main statements re-extracted verbatim (Statement 4 corrected); 8 sections (was 7 \u2014 added Section 6 Surveillance); per-author competing interests (was lumped); full author affiliations from PDF",
     "31 additional recommendations auto-extracted from source PDF via scripts/extract-recommendations.py (verbatim statement+GRADE+sub-items+references; all pass source-trace)",
     "All 18 Table 6 QIs encoded (was 5 \u2014 added 13 more via scripts/extract-qis.py one-shot extractor)",
-    "Second curriculum ingested: ESGE ESD 2019 (Pimentel-Nunes/Pioche). 1 curriculum wrapper + 17 recommendations + 3 QIs + 77-ref bibliography. First curriculum with LoA-only (no GRADE); schema updated to allow top-level levelOfAgreement on rec + optional grade block."
+    "Second curriculum ingested: ESGE ESD 2019 (Pimentel-Nunes/Pioche). 1 curriculum wrapper + 17 recommendations + 3 QIs + 77-ref bibliography. First curriculum with LoA-only (no GRADE); schema updated to allow top-level levelOfAgreement on rec + optional grade block.",
+    "Third curriculum: POEM Part II (Tate co-first-author). 48 recommendations with GRADE + LoA, 134-ref bibliography (all Crossref-resolved), 15 verbatim main statements. Sub-item label schema relaxed to allow Arabic numerals (paper uses 1.,2.,3. instead of (i)(ii)(iii)). PPAT (Precision POEM Assessment Tool, 28 components) shell only; full component encoding deferred to a follow-up session."
   ],
   "patchBumps": [],
   "_meta": {

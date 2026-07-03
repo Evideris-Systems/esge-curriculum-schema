@@ -1,0 +1,46 @@
+{
+  "$schema": "https://schema.evideris.com/schemas/recommendation.schema.json",
+  "$id": "https://schema.evideris.com/esge/recommendation/poem-2/r25.v1.0.0.json",
+  "lineageId": "rec-poem-2-r25-esge-suggests-using-a-combination-of-anatomical-landmarks-to",
+  "type": "recommendation",
+  "version": "1.0.0",
+  "release": "r2026.07",
+  "supersedes": null,
+  "supersededBy": null,
+  "language": [
+    "en"
+  ],
+  "withinCurriculum": "cur-poem-2-2025",
+  "withinSection": "sec-poem-2-myotomy",
+  "number": 25,
+  "title": {
+    "en": "ESGE suggests using a combination of anatomical landmarks to identify the GEJ (see Recommendation 23),"
+  },
+  "statement": {
+    "en": "ESGE suggests using a combination of anatomical landmarks to identify the GEJ (see Recommendation 23), and consideration of the double-scope method in cases of doubt or altered anatomy to confirm the correct extension of the submucosal tunnel into the stomach."
+  },
+  "grade": {
+    "strength": "weak",
+    "evidenceQuality": "low"
+  },
+  "levelOfAgreement": 80,
+  "references": [],
+  "_meta": {
+    "provenance": {
+      "type": "verbatim",
+      "source_doi": "10.1055/a-2569-7634"
+    },
+    "encodedBy": "human:david",
+    "encodedAt": "2026-07-03",
+    "fieldProvenance": {
+      "commentary": {
+        "type": "verbatim",
+        "source_doi": "10.1055/a-2569-7634",
+        "source_span": "Paragraph(s) preceding the N RECOMMENDATION block in body; back-to-back groups share commentary."
+      }
+    }
+  },
+  "commentary": {
+    "en": "The authors suggested that it may be particularly helpful in cases of altered anatomy that can make identification of the GEJ difficult [58]. 7.1 How to perform the myotomy A cranial to caudal (top-down) or caudal to cranial (bottomup) technique can be used for the myotomy depending on operator preference. The panel favors a cranial to caudal approach when starting out in POEM training, which is the standard approach for the myotomy. The myotomy should be started 2 cm or more below the caudal extent of the mucosotomy site to maintain an adequately protective mucosal flap. The caudal to cranial technique has also been described and could reduce myotomy procedural time, but high quality comparative data are lacking [59]. In this modality, the myotomy is started 2\u20133 cm caudal to the GEJ at the distal end of the tunnel and continued cranially. For the initial incision, the tip of the knife should be held against the muscle and a slow controlled incision should be made using sequential single taps on the foot pedal of the electrosurgical unit (\u25b6Table 2) until the knife tip passes through the muscle layer toward the adventitial side, away from the mucosa. It can be helpful to use the cut current (e. g. Endocut Q, effect 2) for this initial step to improve visualization of the"
+  }
+}

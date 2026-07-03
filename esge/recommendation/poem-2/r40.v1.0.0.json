@@ -1,0 +1,46 @@
+{
+  "$schema": "https://schema.evideris.com/schemas/recommendation.schema.json",
+  "$id": "https://schema.evideris.com/esge/recommendation/poem-2/r40.v1.0.0.json",
+  "lineageId": "rec-poem-2-r40-any-suspected-current-or-potential-mucosal-perforation-durin",
+  "type": "recommendation",
+  "version": "1.0.0",
+  "release": "r2026.07",
+  "supersedes": null,
+  "supersededBy": null,
+  "language": [
+    "en"
+  ],
+  "withinCurriculum": "cur-poem-2-2025",
+  "withinSection": "sec-poem-2-adverse-events",
+  "number": 40,
+  "title": {
+    "en": "Any suspected current or potential mucosal perforation during POEM should be considered for endoscopic treatment."
+  },
+  "statement": {
+    "en": "Any suspected current or potential mucosal perforation during POEM should be considered for endoscopic treatment."
+  },
+  "grade": {
+    "strength": "best-practice",
+    "evidenceQuality": "no-evidence-available"
+  },
+  "levelOfAgreement": 89,
+  "references": [],
+  "_meta": {
+    "provenance": {
+      "type": "verbatim",
+      "source_doi": "10.1055/a-2569-7634"
+    },
+    "encodedBy": "human:david",
+    "encodedAt": "2026-07-03",
+    "fieldProvenance": {
+      "commentary": {
+        "type": "verbatim",
+        "source_doi": "10.1055/a-2569-7634",
+        "source_span": "Paragraph(s) preceding the N RECOMMENDATION block in body; back-to-back groups share commentary."
+      }
+    }
+  },
+  "commentary": {
+    "en": "General advice to avoid mucosal injury includes liberal use of submucosal injection, performing dissection close to the muscularis propria, ensuring a tunnel wide enough to avoid spray coagulation contact with the mucosal side, and avoiding long bursts of spray coagulation. 3. The integrity of the mucosal lining should be checked during the procedure and after performing the myotomy for any injury or perforation. Mucosal injury can be identified by blanching of the mucosa or an actual hole. Any mucosal perforations should be promptly treated to avoid expansion of the perforation, and mediastinal or peritoneal contamination. 4. Mucosal injuries occur most commonly whilst crossing the GEJ [95]. Care should be taken when extending the submucosal tunnel across the GEJ as the tunnel commonly narrows at this point. 5. Mucosal injuries should be promptly identified and treated as they represent potential full-thickness perforations after myotomy. If a type I mucosal injury represents sufficient damage to the mucosa, this may lead to type II mucosal injury after the procedure. Mucosal injuries should be closed as soon as possible after tunnel passage as they can rapidly increase in size. 6. Small mucosal injuries should be closed with the use of TTS clips [98]. Strategies to treat larger mucosal injuries include the use of OTS clips or endoscopic suturing devices [99]. adverse events"
+  }
+}

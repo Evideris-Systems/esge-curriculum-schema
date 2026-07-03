@@ -1,0 +1,46 @@
+{
+  "$schema": "https://schema.evideris.com/schemas/recommendation.schema.json",
+  "$id": "https://schema.evideris.com/esge/recommendation/poem-2/r43.v1.0.0.json",
+  "lineageId": "rec-poem-2-r43-drainage-of-capnoperitoneum-using-needle-decompression-is-re",
+  "type": "recommendation",
+  "version": "1.0.0",
+  "release": "r2026.07",
+  "supersedes": null,
+  "supersededBy": null,
+  "language": [
+    "en"
+  ],
+  "withinCurriculum": "cur-poem-2-2025",
+  "withinSection": "sec-poem-2-adverse-events",
+  "number": 43,
+  "title": {
+    "en": "Drainage of capnoperitoneum using needle decompression is required if hemodynamic or respiratory compromise occur during the procedure."
+  },
+  "statement": {
+    "en": "Drainage of capnoperitoneum using needle decompression is required if hemodynamic or respiratory compromise occur during the procedure. Subcutaneous emphysema invariably resolves spontaneously and does not require treatment."
+  },
+  "grade": {
+    "strength": "best-practice",
+    "evidenceQuality": "no-evidence-available"
+  },
+  "levelOfAgreement": 100,
+  "references": [],
+  "_meta": {
+    "provenance": {
+      "type": "verbatim",
+      "source_doi": "10.1055/a-2569-7634"
+    },
+    "encodedBy": "human:david",
+    "encodedAt": "2026-07-03",
+    "fieldProvenance": {
+      "commentary": {
+        "type": "verbatim",
+        "source_doi": "10.1055/a-2569-7634",
+        "source_span": "Paragraph(s) preceding the N RECOMMENDATION block in body; back-to-back groups share commentary."
+      }
+    }
+  },
+  "commentary": {
+    "en": "Good communication with the anesthetic team is necessary. Changes in hemodynamics, tidal volumes, ventilation, and capnography should prompt a clinical review of the patient, particularly for pleural effusion, capnothorax, or capnoperitoneum. 4. Minor levels of capnoperitoneum may be treated conservatively by temporarily pausing the procedure and waiting for absorption of the CO2. 5. In the presence of a large tense capnoperitoneum associated with hemodynamic compromise or ventilatory compromise, needle decompression should be performed. One study suggests that the decision to intervene for capnoperitoneum could be based on end-tidal CO2 (> 50 mmHg) [102]. \u25b6Fig. 4 Images of the management of a mucosal injury type 1 and evolution to a mucosal injury type 2 when left untreated (different patients) showing: a a mucosal injury type 1 viewed in the tunnel (delineated by a dotted line); b the same injury viewed from the esophageal lumen (delineated by a dotted line) a few seconds after the injury occurred; c the onset of surrounding erythema 20 minutes after the injury occurred; d a through-the-scope clip placed to treat the mucosal injury; e the final appearance after closure; f a type 2 mucosal injury that evolved over 48 hours from an unrecognized type 1 injury. M, mucosa; MI, mucosal injury; MP, muscularis propria; SM, submucosa."
+  }
+}

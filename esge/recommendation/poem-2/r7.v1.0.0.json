@@ -1,0 +1,46 @@
+{
+  "$schema": "https://schema.evideris.com/schemas/recommendation.schema.json",
+  "$id": "https://schema.evideris.com/esge/recommendation/poem-2/r7.v1.0.0.json",
+  "lineageId": "rec-poem-2-r7-esge-recommends-counseling-patients-on-antithrombotic-therap",
+  "type": "recommendation",
+  "version": "1.0.0",
+  "release": "r2026.07",
+  "supersedes": null,
+  "supersededBy": null,
+  "language": [
+    "en"
+  ],
+  "withinCurriculum": "cur-poem-2-2025",
+  "withinSection": "sec-poem-2-preparation",
+  "number": 7,
+  "title": {
+    "en": "ESGE recommends counseling patients on antithrombotic therapy undergoing POEM about the higher risk of bleeding."
+  },
+  "statement": {
+    "en": "ESGE recommends counseling patients on antithrombotic therapy undergoing POEM about the higher risk of bleeding."
+  },
+  "grade": {
+    "strength": "strong",
+    "evidenceQuality": "very-low"
+  },
+  "levelOfAgreement": 94,
+  "references": [],
+  "_meta": {
+    "provenance": {
+      "type": "verbatim",
+      "source_doi": "10.1055/a-2569-7634"
+    },
+    "encodedBy": "human:david",
+    "encodedAt": "2026-07-03",
+    "fieldProvenance": {
+      "commentary": {
+        "type": "verbatim",
+        "source_doi": "10.1055/a-2569-7634",
+        "source_span": "Paragraph(s) preceding the N RECOMMENDATION block in body; back-to-back groups share commentary."
+      }
+    }
+  },
+  "commentary": {
+    "en": "One retrospective single-center cohort study involving 124 patients found that the application of gentamicin in the submucosal tunnel before myotomy did not reduce the risk of infection; however, the authors reported a lower inflammatory response after POEM [37]. Similarly, a multicenter retrospective French study (n = 226) did not identify any differences in AE occurrence between patients receiving antibiotic prophylaxis (mean duration 4 days) and those who did not [23]. This observational data aligns with the results of a single-center RCT, which compared a single intravenous dose of cefazolin 2 g before POEM with a 3-day antibiotic regimen. The study found no significant differences in positive blood cultures (1.6 % vs. 3.2 %; P = 0.6) or inflammatory markers between the two groups [33]. In 2023, Nabi et al. reported a noninferiority RCT comparing single and multiple doses of antibiotic prophylaxis [34]. The results were consistent with the previous RCT, with no statistically or clinically significant differences in infection rates observed between the two groups. In summary, the two available RCTs did not reveal any significant differences between single and multiple doses of antibiotic prophylaxis [33, 34]. The certainty of the evidence was however downgraded owing to factors such as the absence of reported details regarding allocation concealment, imprecision"
+  }
+}

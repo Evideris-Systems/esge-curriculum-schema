@@ -1,0 +1,46 @@
+{
+  "$schema": "https://schema.evideris.com/schemas/recommendation.schema.json",
+  "$id": "https://schema.evideris.com/esge/recommendation/poem-2/r12.v1.0.0.json",
+  "lineageId": "rec-poem-2-r12-poem-operators-should-clearly-distinguish-between-the-anteri",
+  "type": "recommendation",
+  "version": "1.0.0",
+  "release": "r2026.07",
+  "supersedes": null,
+  "supersededBy": null,
+  "language": [
+    "en"
+  ],
+  "withinCurriculum": "cur-poem-2-2025",
+  "withinSection": "sec-poem-2-cleaning-inspection",
+  "number": 12,
+  "title": {
+    "en": "POEM operators should clearly distinguish between the anterior and posterior walls of the esophagus before the mucosal incision."
+  },
+  "statement": {
+    "en": "POEM operators should clearly distinguish between the anterior and posterior walls of the esophagus before the mucosal incision."
+  },
+  "grade": {
+    "strength": "best-practice",
+    "evidenceQuality": "no-evidence-available"
+  },
+  "levelOfAgreement": 97,
+  "references": [],
+  "_meta": {
+    "provenance": {
+      "type": "verbatim",
+      "source_doi": "10.1055/a-2569-7634"
+    },
+    "encodedBy": "human:david",
+    "encodedAt": "2026-07-03",
+    "fieldProvenance": {
+      "commentary": {
+        "type": "verbatim",
+        "source_doi": "10.1055/a-2569-7634",
+        "source_span": "Paragraph(s) preceding the N RECOMMENDATION block in body; back-to-back groups share commentary."
+      }
+    }
+  },
+  "commentary": {
+    "en": "Administer the last dose of LMWH 24 hours before the procedure; Check INR on the day of the procedure (< 1.5) Usual daily dose the night of the procedure; Restart therapeutic LMWH 24 hours after POEM DOACs (dabigatran, rivaroxaban, apixaban, or edoxaban) 3 days before POEM; 5 days before POEM for dabigatran if eGFR 30\u201350 mL/minute 48 hours after POEM 3 days before POEM; 5 days before POEM for dabigatran if eGFR 30\u201350 mL/minute 24 hours after POEM Aspirin Continue aspirin1 Continue aspirin1 Continue aspirin Continue aspirin P2Y12 inhibitors (clopidogrel, prasugrel, or ticagrelor) Monotherapy: 7 days before POEM 48 hours after POEM Dual therapy: continue aspirin, P2Y12 5\u20137 days before POEM; Discuss the strategy with a cardiologist and consider postponing POEM until P2Y12 inhibitors can be temporarily withheld (> 6\u201312 months after insertion of drug-eluting coronary stent or > 1 month after placement of bare metal coronary stent) 24\u201348 hours DOAC, direct oral anticoagulant; eGFR, estimated glomerular filtration rate; INR, international normalized ratio; LMWH, low-molecular weight heparin. 1 In case of cardiovascular primary prophylaxis, consider withholding 5\u20137 days before POEM and reassess the indication before resumption."
+  }
+}

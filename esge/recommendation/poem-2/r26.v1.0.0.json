@@ -1,0 +1,46 @@
+{
+  "$schema": "https://schema.evideris.com/schemas/recommendation.schema.json",
+  "$id": "https://schema.evideris.com/esge/recommendation/poem-2/r26.v1.0.0.json",
+  "lineageId": "rec-poem-2-r26-the-myotomy-should-be-performed-in-a-cranial-to-caudal-manne",
+  "type": "recommendation",
+  "version": "1.0.0",
+  "release": "r2026.07",
+  "supersedes": null,
+  "supersededBy": null,
+  "language": [
+    "en"
+  ],
+  "withinCurriculum": "cur-poem-2-2025",
+  "withinSection": "sec-poem-2-myotomy",
+  "number": 26,
+  "title": {
+    "en": "The myotomy should be performed in a cranial to caudal manner,"
+  },
+  "statement": {
+    "en": "The myotomy should be performed in a cranial to caudal manner, starting 2 cm or more below the caudal extent of the mucosotomy site."
+  },
+  "grade": {
+    "strength": "best-practice",
+    "evidenceQuality": "no-evidence-available"
+  },
+  "levelOfAgreement": 80,
+  "references": [],
+  "_meta": {
+    "provenance": {
+      "type": "verbatim",
+      "source_doi": "10.1055/a-2569-7634"
+    },
+    "encodedBy": "human:david",
+    "encodedAt": "2026-07-03",
+    "fieldProvenance": {
+      "commentary": {
+        "type": "verbatim",
+        "source_doi": "10.1055/a-2569-7634",
+        "source_span": "Paragraph(s) preceding the N RECOMMENDATION block in body; back-to-back groups share commentary."
+      }
+    }
+  },
+  "commentary": {
+    "en": "\u25b6Fig. 2 Important endoscopic appearances correlating with the landmarks of the gastroesophageal junction (GEJ) during peroral endoscopic myotomy (POEM) include: a spindle-shaped veins marking the approximate location of the GEJ (arrows) \u2013 a narrow submucosal dissection plane with significant submucosal fibrosis is seen in this image (delineated by the dotted line); b a dye-stained bulge upon retroflexion in the gastric cardia (*); c narrowing of the submucosal tunnel representing the position of the GEJ (diaphragm + lower esophageal sphincter) (*); d penetrating vessels (PV) at the GEJ. (arrows). M, mucosa; MP, muscularis propria; SM, submucosa."
+  }
+}

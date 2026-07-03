@@ -1,0 +1,46 @@
+{
+  "$schema": "https://schema.evideris.com/schemas/recommendation.schema.json",
+  "$id": "https://schema.evideris.com/esge/recommendation/poem-2/r15.v1.0.0.json",
+  "lineageId": "rec-poem-2-r15-the-use-of-a-chromic-dye-during-submucosal-tunneling-facilit",
+  "type": "recommendation",
+  "version": "1.0.0",
+  "release": "r2026.07",
+  "supersedes": null,
+  "supersededBy": null,
+  "language": [
+    "en"
+  ],
+  "withinCurriculum": "cur-poem-2-2025",
+  "withinSection": "sec-poem-2-mucosal-incision",
+  "number": 15,
+  "title": {
+    "en": "The use of a chromic dye during submucosal tunneling facilitates the identification of vessels and the correct dissection plane."
+  },
+  "statement": {
+    "en": "The use of a chromic dye during submucosal tunneling facilitates the identification of vessels and the correct dissection plane."
+  },
+  "grade": {
+    "strength": "best-practice",
+    "evidenceQuality": "no-evidence-available"
+  },
+  "levelOfAgreement": 91,
+  "references": [],
+  "_meta": {
+    "provenance": {
+      "type": "verbatim",
+      "source_doi": "10.1055/a-2569-7634"
+    },
+    "encodedBy": "human:david",
+    "encodedAt": "2026-07-03",
+    "fieldProvenance": {
+      "commentary": {
+        "type": "verbatim",
+        "source_doi": "10.1055/a-2569-7634",
+        "source_span": "Paragraph(s) preceding the N RECOMMENDATION block in body; back-to-back groups share commentary."
+      }
+    }
+  },
+  "commentary": {
+    "en": "During the tunneling, the tip of the endoscope has a stable position, facing toward the submucosal layer, and most knives have the possibility of performing waterjet submucosal injection during the procedure. Adrenaline can be mixed into the submucosal injection in a variety of dilutions and clinical settings, such as for endoscopic mucosal resection or endoscopic submucosal dissection (ESD), in order to decrease intraprocedural bleeding and procedural time [41, 42]. Adrenaline has the disadvantage of increasing the risk of post-procedural pain and cardiovascular events [43]. In the esophagus, serious intraprocedural bleeding during submucosal dissection, either during ESD or in the submucosal tunneling during POEM, is rare [44, 45], and no advantage of using adrenaline has been reported. Dye, namely indigo carmine or methylene blue, is commonly used for better identification of the dissection plane and submucosal vessels [46]. Therefore, it may be used during the mucosal incision and tunneling; although, there is no evidence regarding the efficacy of using dye plus saline versus saline alone with regard to clinical outcomes or AEs."
+  }
+}

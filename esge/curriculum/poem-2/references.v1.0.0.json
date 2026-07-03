@@ -1,0 +1,760 @@
+{
+  "$schema": "https://schema.evideris.com/schemas/references.schema.json",
+  "$id": "https://schema.evideris.com/esge/curriculum/poem-2/references.v1.0.0.json",
+  "lineageId": "refs-cur-poem-2-2025",
+  "type": "references",
+  "version": "1.0.0",
+  "release": "r2026.07",
+  "language": [
+    "en"
+  ],
+  "forCurriculum": "cur-poem-2-2025",
+  "_meta": {
+    "provenance": {
+      "type": "verbatim",
+      "source_doi": "10.1055/a-2569-7634"
+    },
+    "encodedBy": "claude:esge-curriculum-autoupdate@v0.1.0",
+    "encodedAt": "2026-06-27"
+  },
+  "references": [
+    {
+      "id": "ref-1",
+      "citation": "Oude Nijhuis R, Zaninotto G, Roman S et al. European Guideline on Achalasia \u2013 UEG and ESNM recommendations. United European Gastroenterol J 2020; 8: 13\u201334 doi:10.1177/2050640620903213",
+      "doi": "10.1177/2050640620903213"
+    },
+    {
+      "id": "ref-2",
+      "citation": "Weusten BLAM, Barret M, Bredenoord AJ et al. Endoscopic management of gastrointestinal motility disorders \u2013 part 1: European Society of Gastrointestinal Endoscopy (ESGE) Guideline. Endoscopy 2020; 52: 498\u2013515 doi:10.1055/a-1160-5549",
+      "doi": "10.1055/a-1160-5549"
+    },
+    {
+      "id": "ref-3",
+      "citation": "Vaezi MF, Pandolfino JE, Vela MF. ACG clinical guideline: diagnosis and management of achalasia. Am J Gastroenterol 2013; 108: 1238\u20131249 quiz 1250 doi:10.1038/ajg.2013.196",
+      "doi": "10.1038/ajg.2013.196"
+    },
+    {
+      "id": "ref-4",
+      "citation": "Sadowski DC, Ackah F, Jiang B et al. Achalasia: incidence, prevalence and survival. A population-based study. Neurogastroenterol Motil 2010; 22: e256\u2013e261 doi:10.1111/j.1365-2982.2010.01511.x",
+      "doi": "10.1111/j.1365-2982.2010.01511.x"
+    },
+    {
+      "id": "ref-5",
+      "citation": "Boeckxstaens GE, Zaninotto G, Richter JE. Achalasia. Lancet 2014; 383: 83\u201393 doi:10.1016/S0140-6736(13)60651-0",
+      "doi": "10.1016/s0140-6736(13)60651-0"
+    },
+    {
+      "id": "ref-6",
+      "citation": "Rodr\u00edguez de Santiago E, Tate DJ, Santos-Antunes J et al. Curriculum for training in peroral endoscopic myotomy (POEM) in Europe (Part I): European Society of Gastrointestinal Endoscopy (ESGE) Position Statement. Endoscopy 2025: doi:10.1055/a-2568-7473",
+      "doi": "10.1055/a-2568-7473"
+    },
+    {
+      "id": "ref-7",
+      "citation": "Gralnek IM, Bisschops R, Matharoo M et al. Guidance for the implementation of a safety checklist for gastrointestinal endoscopic procedures: European Society of Gastrointestinal Endoscopy (ESGE) and European Society of Gastroenterology and Endoscopy Nurses and Associates (ESGENA) Position Statement. Endoscopy 2022; 54: 206\u2013210 doi:10.1055/a-1695-3244",
+      "doi": "10.1055/a-1695-3244"
+    },
+    {
+      "id": "ref-8",
+      "citation": "Hathorn KE, Chan WW, Aihara H et al. Determining the safety and effectiveness of electrocautery enhanced scissors for peroral endoscopic myotomy (with video). Clin Endosc 2020; 53: 443\u2013451 doi:10.5946/ce.2019.214",
+      "doi": "10.5946/ce.2019.214"
+    },
+    {
+      "id": "ref-9",
+      "citation": "Shimizu T, Fortinsky KJ, Chang KJ. Early experience with use of an endoscopic \u201chot\u201d scissor-type knife for myotomy during per-oral endoscopic myotomy procedure. VideoGIE 2019; 4: 182\u2013184 doi:10.1016/j.vgie.2018.12.014",
+      "doi": "10.1016/j.vgie.2018.12.014"
+    },
+    {
+      "id": "ref-10",
+      "citation": "Belopolsky Y, Puli SR. Water-jet vs traditional triangular tip knife in peroral endoscopic myotomy for esophageal dysmotility: A systemic review and meta-analysis. World J Gastrointest Endosc 2022; 14: 608\u2013615 doi:10.4253/wjge.v14.i10.608",
+      "doi": "10.4253/wjge.v14.i10.608"
+    },
+    {
+      "id": "ref-11",
+      "citation": "Cai M-Y, Zhou P-H, Yao L-Q et al. Peroral endoscopic myotomy for idiopathic achalasia: randomized comparison of water-jet assisted versus conventional dissection technique. Surg Endosc 2014; 28: 1158\u20131165 doi:10.1007/s00464-013-3300-1",
+      "doi": "10.1007/s00464-013-3300-1"
+    },
+    {
+      "id": "ref-12",
+      "citation": "Tanaka S, Toyonaga T, Kawara F et al. Peroral endoscopic myotomy using FlushKnife BT: a single-center series. Endosc Int Open 2017; 5: E663\u2013E669 doi:10.1055/s-0043-111721",
+      "doi": "10.1055/s-0043-111721"
+    },
+    {
+      "id": "ref-13",
+      "citation": "Haito-Chavez Y, Inoue H, Beard KW et al. Comprehensive analysis of adverse events associated with per oral endoscopic myotomy in 1826 patients: an international multicenter study. Am J Gastroenterol 2017; 112: 1267\u20131276 doi:10.1038/ajg.2017.139",
+      "doi": "10.1038/ajg.2017.139"
+    },
+    {
+      "id": "ref-14",
+      "citation": "Weusten BLAM, Barret M, Bredenoord AJ et al. Endoscopic management of gastrointestinal motility disorders \u2013 part 2: European Society of Gastrointestinal Endoscopy (ESGE) Guideline. Endoscopy 2020; 52: 600\u2013614. doi:10.1055/a-1171-3174",
+      "doi": "10.1055/a-1171-3174"
+    },
+    {
+      "id": "ref-15",
+      "citation": "American Association for the Study of Liver Diseases, European Association for the Study of the Liver. Hepatic encephalopathy in chronic liver disease: 2014 practice guideline by the European Association for the Study of the Liver and the American Association for the Study of Liver Diseases. J Hepatol 2014; 61: 642\u2013659 doi:10.1016/j. jhep.2014.05.042. doi:10.1016/j.jhep.2014.05.042",
+      "doi": "10.1016/j.jhep.2014.05.042",
+      "lowConfidence": true,
+      "verificationNote": "Crossref could not resolve automatically (PDF-extracted DOI likely had truncation artifacts; needs manual verification against source PDF)."
+    },
+    {
+      "id": "ref-16",
+      "citation": "Nishihara Y, Yoshida T, Ooi M et al. Anesthetic management and associated complications of peroral endoscopic myotomy: A case series. World J Gastrointest Endosc 2018; 10: 193\u2013199. doi:10.4253/wjge.v10.i9.193",
+      "doi": "10.4253/wjge.v10.i9.193"
+    },
+    {
+      "id": "ref-17",
+      "citation": "Sarkar S, Khanna P, Gunjan D. Anesthesia for per-oral endoscopic myotomy (POEM) \u2013 not so poetic! J Anaesthesiol Clin Pharmacol 2022; 38: 28\u201334 doi:10.4103/joacp.JOACP_179_20",
+      "doi": "10.4103/joacp.joacp_179_20"
+    },
+    {
+      "id": "ref-18",
+      "citation": "Bang Y-S, Park C. Anesthetic consideration for peroral endoscopic myotomy. Clin Endosc 2019; 52: 549\u2013555 doi:10.5946/ce.2019.033",
+      "doi": "10.5946/ce.2019.033"
+    },
+    {
+      "id": "ref-19",
+      "citation": "Yoon HJ, Youn YH, Yoo SH et al. Effect of drinking warm water on esophageal preparation before peroral endoscopic myotomy in patients with achalasia. J Neurogastroenterol Motil 2022; 28: 231\u2013236. doi:10.5056/jnm21119",
+      "doi": "10.5056/jnm21119"
+    },
+    {
+      "id": "ref-20",
+      "citation": "Inoue H, Shiwaku H, Iwakiri K et al. Clinical practice guidelines for peroral endoscopic myotomy. Dig Endosc 2018; 30: 563\u2013579 doi:10.1111/den.13239",
+      "doi": "10.1111/den.13239"
+    },
+    {
+      "id": "ref-21",
+      "citation": "Tanaka E, Murata H, Minami H et al. Anesthetic management of peroral endoscopic myotomy for esophageal achalasia: a retrospective case series. J Anesth 2014; 28: 456\u2013459. doi:10.1007/s00540-013-1735-0",
+      "doi": "10.1007/s00540-013-1735-0"
+    },
+    {
+      "id": "ref-22",
+      "citation": "Yang D, Pannu D, Zhang Q et al. Evaluation of anesthesia management, feasibility and efficacy of peroral endoscopic myotomy (POEM) for achalasia performed in the endoscopy unit. Endosc Int Open 2015; 3: E289\u2013E295. doi:10.1055/s-0034-1391965",
+      "doi": "10.1055/s-0034-1391965"
+    },
+    {
+      "id": "ref-23",
+      "citation": "Hastier-De Chelle A, Onana-Ndong P, Olivier R et al. Impact of antibiotic prophylaxis and conditioning modalities in per-oral endoscopic myotomy for esophageal motor disorders. Scand J Gastroenterol 2022; 57: 1522\u20131530 doi:10.1080/00365521.2022.2097892",
+      "doi": "10.1080/00365521.2022.2097892"
+    },
+    {
+      "id": "ref-24",
+      "citation": "Zhang LY, Ngamruengphong S. Contemporary management of antithrombotic agents for patients undergoing peroral endoscopic myotomy. Gastrointest Endosc 2021; 93: 850\u2013852 doi:10.1016/j. gie.2020.08.026. doi:10.1016/j.gie.2020.08.026",
+      "doi": "10.1016/j.gie.2020.08.026",
+      "lowConfidence": true,
+      "verificationNote": "Crossref could not resolve automatically (PDF-extracted DOI likely had truncation artifacts; needs manual verification against source PDF)."
+    },
+    {
+      "id": "ref-25",
+      "citation": "Shiwaku H, Inoue H, Onimaru M et al. Multicenter collaborative retrospective evaluation of peroral endoscopic myotomy for esophageal achalasia: analysis of data from more than 1300 patients at eight facilities in Japan. Surg Endosc 2020; 34: 464\u2013468 doi:10.1007/ s00464-019-06833-8. doi:10.1007/s00464-019-06833-8",
+      "doi": "10.1007/s00464-019-06833-8"
+    },
+    {
+      "id": "ref-26",
+      "citation": "Shiwaku H, Inoue H, Sato H et al. Peroral endoscopic myotomy for achalasia: a prospective multicenter study in Japan. Gastrointest Endosc 2020; 91: 1037\u20131044.e2 doi:10.1016/j.gie.2019.11.020",
+      "doi": "10.1016/j.gie.2019.11.020"
+    },
+    {
+      "id": "ref-27",
+      "citation": "von Renteln D, Fuchs K-H, Fockens P et al. Peroral endoscopic myotomy for the treatment of achalasia: an international prospective multicenter study. Gastroenterology 2013; 145: 309\u2013311.e1\u2013e3 doi:10.1053/j.gastro.2013.04.057",
+      "doi": "10.1053/j.gastro.2013.04.057"
+    },
+    {
+      "id": "ref-28",
+      "citation": "Rodr\u00edguez de Santiago E, Shimamura Y, Pioche M et al. Safety and effectiveness of peroral endoscopic myotomy in patients on antiplatelet or anticoagulant therapy: an international multicenter case-control study. Gastrointest Endosc 2021; 93: 839\u2013849 doi:10.1016/j. gie.2020.07.030. doi:10.1016/j.gie.2020.07.030",
+      "doi": "10.1016/j.gie.2020.07.030",
+      "lowConfidence": true,
+      "verificationNote": "Crossref could not resolve automatically (PDF-extracted DOI likely had truncation artifacts; needs manual verification against source PDF)."
+    },
+    {
+      "id": "ref-29",
+      "citation": "Nakamura J, Hikichi T, Hashimoto M et al. Efficacy and safety of peroral endoscopic myotomy for esophageal achalasia and achalasiarelated diseases in patients aged 75 years and over. Healthcare (Basel) 2021; 9: 1668 doi:10.3390/healthcare9121668",
+      "doi": "10.3390/healthcare9121668"
+    },
+    {
+      "id": "ref-30",
+      "citation": "Shimamura Y, Sato H, Onimaru M et al. Per-oral endoscopic myotomy in patients with antithrombotic agents: A large-scale multicenter study in Japan. J Gastroenterol Hepatol 2022; 37: 480\u2013488 doi:10.1111/jgh.15708",
+      "doi": "10.1111/jgh.15708"
+    },
+    {
+      "id": "ref-31",
+      "citation": "Nakai T, Abe H, Tanaka S et al. Risk-scoring system for predicting challenging cases of peroral endoscopic myotomy. Dig Endosc 2023; 35: 729\u2013735 doi:10.1111/den.14508",
+      "doi": "10.1111/den.14508"
+    },
+    {
+      "id": "ref-32",
+      "citation": "Drexel S, Bingmer K, Anderson M et al. An evaluation of the complication risks following peroral endoscopic myotomy in patients on antithrombotic therapy. Surg Endosc 2021; 35: 5620\u20135625 doi:10.1007/s00464-020-08065-7",
+      "doi": "10.1007/s00464-020-08065-7"
+    },
+    {
+      "id": "ref-33",
+      "citation": "Maselli R, Oliva A, Badalamenti M et al. Single-dose versus shortcourse prophylactic antibiotics for peroral endoscopic myotomy: a Tate David J et al. Curriculum for training \u2026 Endoscopy | \u00a9 2025. European Society of Gastrointestinal Endoscopy. All rights reserved. === PAGE 28 === randomized controlled trial. Gastrointest Endosc 2021; 94: 922\u2013929 doi:10.1016/j.gie.2021.05.045",
+      "doi": "10.1016/j.gie.2021.05.045"
+    },
+    {
+      "id": "ref-34",
+      "citation": "Nabi Z, Bhaware B, Ramchandani M et al. Single-versus multiple-dose antimicrobial prophylaxis in peroral endoscopic myotomy: a randomized controlled study (SMAPP trial). Dysphagia 2023; 38: 1581\u20131588 doi:10.1007/s00455-023-10585-y",
+      "doi": "10.1007/s00455-023-10585-y"
+    },
+    {
+      "id": "ref-35",
+      "citation": "Zhai Y, Linghu E, Li H et al. Is preoperative antibiotics necessary for infection prevention before peroral endoscopic myotomy: 1939. Am J Gastroenterol 2013; 108: S587. doi:10.14309/00000434-201310001-01939",
+      "doi": "10.14309/00000434-201310001-01939"
+    },
+    {
+      "id": "ref-36",
+      "citation": "Zhu B-Q, Cai M-Y, Zhang X-C et al. Sa1084. Benefit of preoperative antibiotic prophylaxis for peroral endoscopic myotomy (POEM): a randomized controlled trial. . Gastrointest Endosc 2017; 85: AB184\u2013 AB185 doi:10.1016/j.gie.2017.03.403",
+      "doi": "10.1016/j.gie.2017.03.403"
+    },
+    {
+      "id": "ref-37",
+      "citation": "Bayer J, Vackova Z, Svecova H et al. Gentamicin submucosal lavage during peroral endoscopic myotomy (POEM): a retrospective analysis. Surg Endosc 2018; 32: 300\u2013306 doi:10.1007/s00464-017-5677-8",
+      "doi": "10.1007/s00464-017-5677-8"
+    },
+    {
+      "id": "ref-38",
+      "citation": "Serrano L, Saad AR, DuCoin C et al. Discordance between high-resolution manometry, esophagoscopy and contrast esophagogram in determining landmarks for per-oral endoscopic myotomy in spastic esophageal disorders: a word of caution. Surg Endosc 2021; 35: 5613\u20135619 doi:10.1007/s00464-020-08064-8",
+      "doi": "10.1007/s00464-020-08064-8"
+    },
+    {
+      "id": "ref-39",
+      "citation": "Bechara R, Onimaru M, Ikeda H et al. Per-oral endoscopic myotomy, 1000 cases later: pearls, pitfalls, and practical considerations. Gastrointest Endosc 2016; 84: 330\u2013338 doi:10.1016/j.gie.2016.03.1469",
+      "doi": "10.1016/j.gie.2016.03.1469"
+    },
+    {
+      "id": "ref-40",
+      "citation": "Lambin T, Rivory J, Wallenhorst T et al. Endoscopic submucosal dissection: How to be more efficient? Endosc Int Open 2021; 9: E1720\u2013 E1730. doi:10.1055/a-1554-3884",
+      "doi": "10.1055/a-1554-3884"
+    },
+    {
+      "id": "ref-41",
+      "citation": "Inoue S, Uedo N, Tabuchi T et al. Usefulness of epinephrine-added injection solution to reduce procedure time for gastric endoscopic submucosal dissection. Endosc Int Open 2020; 8: E1044\u2013E1051. doi:10.1055/a-1192-4202",
+      "doi": "10.1055/a-1192-4202"
+    },
+    {
+      "id": "ref-42",
+      "citation": "Ferlitsch M, Moss A, Hassan C et al. Colorectal polypectomy and endoscopic mucosal resection (EMR): European Society of Gastrointestinal Endoscopy (ESGE) Clinical Guideline. Endoscopy 2017; 49: 270\u2013297 doi:10.1055/s-0043-102569",
+      "doi": "10.1055/s-0043-102569"
+    },
+    {
+      "id": "ref-43",
+      "citation": "Rex DK, Lahr RE, Peterson MM et al. Impact of including epinephrine in the submucosal injectate for colorectal EMR on postprocedural pain: a randomized controlled trial. Gastrointest Endosc 2022; 95: 535\u2013539 e1. doi:10.1016/j.gie.2021.11.043",
+      "doi": "10.1016/j.gie.2021.11.043"
+    },
+    {
+      "id": "ref-44",
+      "citation": "Werner YB, von Renteln D, Noder T et al. Early adverse events of peroral endoscopic myotomy. Gastrointest Endosc 2017; 85: 708\u2013718. e2 doi:10.1016/j.gie.2016.08.033",
+      "doi": "10.1016/j.gie.2016.08.033"
+    },
+    {
+      "id": "ref-45",
+      "citation": "Hanada Y, Wang KK. Safety and feasibility of same-day discharge after esophageal endoscopic submucosal dissection. Gastrointest Endosc 2021; 93: 853\u2013860. doi:10.1016/j.gie.2020.07.037",
+      "doi": "10.1016/j.gie.2020.07.037"
+    },
+    {
+      "id": "ref-46",
+      "citation": "Khashab MA, Messallam AA, Saxena P et al. Jet injection of dyed saline facilitates efficient peroral endoscopic myotomy. Endoscopy 2014; 46: 298\u2013301. doi:10.1055/s-0033-1359024",
+      "doi": "10.1055/s-0033-1359024"
+    },
+    {
+      "id": "ref-47",
+      "citation": "Nabi Z, Nageshwar Reddy D. Impact of modified techniques on outcomes of peroral endoscopic myotomy: A narrative review. Front Med (Lausanne) 2022; 9: 948299 doi:10.3389/fmed.2022.948299",
+      "doi": "10.3389/fmed.2022.948299"
+    },
+    {
+      "id": "ref-48",
+      "citation": "Ramchandani M, Nageshwar Reddy D. Peroral endoscopic myotomy: technique of mucosal incision. Clin Gastroenterol Hepatol 2014; 12: 900\u2013901 doi:10.1016/j.cgh.2013.08.012",
+      "doi": "10.1016/j.cgh.2013.08.012"
+    },
+    {
+      "id": "ref-49",
+      "citation": "Chai N-L, Li H-K, Linghu E-Q et al. Consensus on the digestive endoscopic tunnel technique. World J Gastroenterol 2019; 25: 744\u2013776 doi:10.3748/wjg.v25.i7.744. doi:10.1007/978-981-15-1998-7_5",
+      "doi": "10.1007/978-981-15-1998-7_5",
+      "lowConfidence": true,
+      "verificationNote": "Crossref could not resolve automatically (PDF-extracted DOI likely had truncation artifacts; needs manual verification against source PDF)."
+    },
+    {
+      "id": "ref-50",
+      "citation": "Peng W, Li H, Xu Y et al. Near-focus mode for accurate operation during endoscopic submucosal tunneling procedure. Minim Invasive Ther Allied Technol 2022; 31: 99\u2013106 doi:10.1080/ 13645706.2020.1768408. doi:10.1080/13645706.2020.1768408",
+      "doi": "10.1080/13645706.2020.1768408"
+    },
+    {
+      "id": "ref-51",
+      "citation": "Bapaye J, Bharadwaj T, Bapaye A et al. Simple mathematical equation to predict distance to gastroesophageal junction through the submucosal tunnel during peroral endoscopic myotomy. Endosc Int Open 2019; 7: E1371\u2013E1378. doi:10.1055/a-0977-2695",
+      "doi": "10.1055/a-0977-2695"
+    },
+    {
+      "id": "ref-52",
+      "citation": "Inoue H, Minami H, Kobayashi Y et al. Peroral endoscopic myotomy (POEM) for esophageal achalasia. Endoscopy 2010; 42: 265\u2013271 doi:10.1055/s-0029-1244080",
+      "doi": "10.1055/s-0029-1244080"
+    },
+    {
+      "id": "ref-53",
+      "citation": "Ahmed Y, Othman MO. Peroral endoscopic myotomy (POEM) for achalasia. J Thorac Dis 2019; 11: S1618\u2013S1628. doi:10.21037/jtd.2019.07.84",
+      "doi": "10.21037/jtd.2019.07.84"
+    },
+    {
+      "id": "ref-54",
+      "citation": "Minami H, Inoue H, Haji A et al. Per-oral endoscopic myotomy: emerging indications and evolving techniques. Dig Endosc 2015; 27: 175\u2013 181. doi:10.1111/den.12328",
+      "doi": "10.1111/den.12328"
+    },
+    {
+      "id": "ref-55",
+      "citation": "Tanaka S, Kawara F, Toyonaga T et al. Two penetrating vessels as a novel indicator of the appropriate distal end of peroral endoscopic myotomy. Dig Endosc 2018; 30: 206\u2013211 doi:10.1111/den.12957",
+      "doi": "10.1111/den.12957"
+    },
+    {
+      "id": "ref-56",
+      "citation": "Inoue H, Shiwaku H, Kobayashi Y et al. Statement for gastroesophageal reflux disease after peroral endoscopic myotomy from an international multicenter experience. Esophagus 2020; 17: 3\u201310 doi:10.1007/s10388-019-00689-6",
+      "doi": "10.1007/s10388-019-00689-6"
+    },
+    {
+      "id": "ref-57",
+      "citation": "Khashab MA, Kumbhari V, Azola A et al. Intraoperative determination of the adequacy of myotomy length during peroral endoscopic myotomy (POEM): the double-endoscope transillumination for extent confirmation technique (DETECT). Endoscopy 2015; 47: 925\u2013928 doi:10.1055/s-0034-1391900",
+      "doi": "10.1055/s-0034-1391900"
+    },
+    {
+      "id": "ref-58",
+      "citation": "Grimes KL, Inoue H, Onimaru M et al. Double-scope per oral endoscopic myotomy (POEM): a prospective randomized controlled trial. Surg Endosc 2016; 30: 1344\u20131351 doi:10.1007/s00464-015-4396-2",
+      "doi": "10.1007/s00464-015-4396-2"
+    },
+    {
+      "id": "ref-59",
+      "citation": "Marom G, Jacob H, Benson A et al. The POEM bottom-up technique for achalasia. Surg Endosc 2021; 35: 6117\u20136122 doi:10.1007/ s00464-020-08106-1. doi:10.1007/s00464-020-08106-1",
+      "doi": "10.1007/s00464-020-08106-1"
+    },
+    {
+      "id": "ref-60",
+      "citation": "Ramchandani M, Nabi Z, Reddy DN et al. Outcomes of anterior myotomy versus posterior myotomy during POEM: a randomized pilot study. Endosc Int Open 2018; 6: E190\u2013E198 doi:10.1055/s-0043121877. doi:10.1055/s-0043-121877",
+      "doi": "10.1055/s-0043-121877",
+      "lowConfidence": true,
+      "verificationNote": "Crossref could not resolve automatically (PDF-extracted DOI likely had truncation artifacts; needs manual verification against source PDF)."
+    },
+    {
+      "id": "ref-61",
+      "citation": "Tan Y, Lv L, Wang X et al. Efficacy of anterior versus posterior per-oral endoscopic myotomy for treating achalasia: a randomized, prospective study. Gastrointest Endosc 2018; 88: 46\u201354 doi:10.1016/j. gie.2018.03.009. doi:10.1016/j.gie.2018.03.009",
+      "doi": "10.1016/j.gie.2018.03.009",
+      "lowConfidence": true,
+      "verificationNote": "Crossref could not resolve automatically (PDF-extracted DOI likely had truncation artifacts; needs manual verification against source PDF)."
+    },
+    {
+      "id": "ref-62",
+      "citation": "Khashab MA, Sanaei O, Ponchon T et al. Peroral endoscopic myotomy (POEM): anterior versus posterior approach, a randomized singleblinded clinical trial. Gastrointest Endosc 2018; 87: AB119 doi:10.1016/j.gie.2018.04.1310",
+      "doi": "10.1016/j.gie.2018.04.1310"
+    },
+    {
+      "id": "ref-63",
+      "citation": "Stavropoulos SN, Modayil RJ, Zhang X et al. Is there a difference in outcomes between anterior and posterior peroral endoscopic myotomy (POEM)? A randomized study from an experienced high-volume operator. Gastrointest Endosc 2018; 87: AB121\u2013AB122 doi:10.1016/ j.gie.2018.04.1314. doi:10.1016/j.gie.2018.04.1314",
+      "doi": "10.1016/j.gie.2018.04.1314"
+    },
+    {
+      "id": "ref-64",
+      "citation": "Rodr\u00edguez de Santiago E, Mohammed N, Manolakis A et al. Anterior versus posterior myotomy during poem for the treatment of achalasia: systematic review and meta-analysis of randomized clinical trials. J Gastrointest Liver Dis 2019; 28: 107\u2013115 doi:10.15403/ jgld.2014.1121.281.pom. doi:10.1055/s-0039-1681414",
+      "doi": "10.1055/s-0039-1681414",
+      "lowConfidence": true,
+      "confidenceIssues": [
+        "year 2014 vs match year 2019"
+      ]
+    },
+    {
+      "id": "ref-65",
+      "citation": "Onimaru M, Inoue H, Ikeda H et al. Greater curvature myotomy is a safe and effective modified technique in per-oral endoscopic myotomy (with videos). Gastrointest Endosc 2015; 81: 1370\u20131377 doi:10.1016/j.gie.2014.11.014",
+      "doi": "10.1016/j.gie.2014.11.014"
+    },
+    {
+      "id": "ref-66",
+      "citation": "Ichkhanian Y, Abimansour JP, Pioche M et al. Outcomes of anterior versus posterior peroral endoscopic myotomy 2 years post-procedure: prospective follow-up results from a randomized clinical trial. Endoscopy 2021; 53: 462\u2013468 doi:10.1055/a-1204-4242",
+      "doi": "10.1055/a-1204-4242"
+    },
+    {
+      "id": "ref-67",
+      "citation": "Khashab MA, Sanaei O, Rivory J et al. Peroral endoscopic myotomy: anterior versus posterior approach: a randomized single-blinded clinical trial. Gastrointest Endosc 2020; 91: 288\u2013297.e7 doi:10.1016/ j.gie.2019.07.034 Tate David J et al. Curriculum for training \u2026 Endoscopy | \u00a9 2025. European Society of Gastrointestinal Endoscopy. All rights reserved. Position Statement === PAGE 29 ===. doi:10.1016/j.gie.2019.07.034",
+      "doi": "10.1016/j.gie.2019.07.034",
+      "lowConfidence": true,
+      "confidenceIssues": [
+        "year 2025 vs match year 2020"
+      ]
+    },
+    {
+      "id": "ref-68",
+      "citation": "Jing W, Luo X, Yang J et al. An updated meta-analysis: Similar clinical efficacy of anterior and posterior approaches in peroral endoscopic myotomy (POEM) for achalasia. Gastroenterol Res Pract 2022; 2022: 8357588 doi:10.1155/2022/8357588",
+      "doi": "10.1155/2022/8357588"
+    },
+    {
+      "id": "ref-69",
+      "citation": "Mohan BP, Ofosu A, Chandan S et al. Anterior versus posterior approach in peroral endoscopic myotomy (POEM): a systematic review and meta-analysis. Endoscopy 2020; 52: 251\u2013258 doi:10.1055/a1090-0788. doi:10.1055/a-1090-0788",
+      "doi": "10.1055/a-1090-0788",
+      "lowConfidence": true,
+      "verificationNote": "Crossref could not resolve automatically (PDF-extracted DOI likely had truncation artifacts; needs manual verification against source PDF)."
+    },
+    {
+      "id": "ref-70",
+      "citation": "Abdelfatah MM, Barakat M. Peroral endoscopic myotomy: the anterior approach is associated with a higher incidence of accidental mucosotomy compared to posterior approach, systematic review, and meta-analysis. Eur J Gastroenterol Hepatol 2019; 31: 1166\u20131167 doi:10.1097/MEG.000000000000146",
+      "doi": "10.1097/meg.000000000000146"
+    },
+    {
+      "id": "ref-71",
+      "citation": "Shiwaku H, Inoue H, Shiwaku A et al. Safety and effectiveness of sling fiber preservation POEM to reduce severe post-procedural erosive esophagitis. Surg Endosc 2022; 36: 4255\u20134264 doi:10.1007/s00464021-08763-w. doi:10.1007/s00464-021-08763-w",
+      "doi": "10.1007/s00464-021-08763-w",
+      "lowConfidence": true,
+      "verificationNote": "Crossref could not resolve automatically (PDF-extracted DOI likely had truncation artifacts; needs manual verification against source PDF)."
+    },
+    {
+      "id": "ref-72",
+      "citation": "Nabi Z, Chandran V, Basha J et al. Conventional versus oblique fiber sparing endoscopic myotomy for achalasia cardia: a randomized controlled trial. Gastrointest Endosc 2024; 99: 1\u20139 doi:10.1016/j. gie.2023.08.007. doi:10.1016/j.gie.2023.08.007",
+      "doi": "10.1016/j.gie.2023.08.007",
+      "lowConfidence": true,
+      "verificationNote": "Crossref could not resolve automatically (PDF-extracted DOI likely had truncation artifacts; needs manual verification against source PDF)."
+    },
+    {
+      "id": "ref-73",
+      "citation": "Li C, Gong A, Zhang J et al. Clinical outcomes and safety of partial fullthickness myotomy versus circular muscle myotomy in peroral endoscopic myotomy for achalasia patients. Gastroenterol Res Pract 2017; 2017: 2676513. doi:10.1155/2017/2676513",
+      "doi": "10.1155/2017/2676513"
+    },
+    {
+      "id": "ref-74",
+      "citation": "Li QL, Chen WF, Zhou PH et al. Peroral endoscopic myotomy for the treatment of achalasia: a clinical comparative study of endoscopic full-thickness and circular muscle myotomy. J Am Coll Surg 2013; 217: 442\u2013451. doi:10.1016/j.jamcollsurg.2013.04.033",
+      "doi": "10.1016/j.jamcollsurg.2013.04.033"
+    },
+    {
+      "id": "ref-75",
+      "citation": "Kumbhari V, Familiari P, Bjerregaard NC et al. Gastroesophageal reflux after peroral endoscopic myotomy: a multicenter case-control study. Endoscopy 2017; 49: 634\u2013642. doi:10.1055/s-0043-105485",
+      "doi": "10.1055/s-0043-105485"
+    },
+    {
+      "id": "ref-76",
+      "citation": "Duan T, Tan Y, Zhou J et al. A retrospective study of peroral endoscopic full-thickness myotomy in patients with severe achalasia. J Laparoendosc Adv Surg Tech A 2017; 27: 770\u2013776. doi:10.1089/lap.2016.0445",
+      "doi": "10.1089/lap.2016.0445"
+    },
+    {
+      "id": "ref-77",
+      "citation": "Wang XH, Tan YY, Zhu HY et al. Full-thickness myotomy is associated with higher rate of postoperative gastroesophageal reflux disease. World J Gastroenterol 2016; 22: 9419\u20139426. doi:10.3748/wjg.v22.i42.9419",
+      "doi": "10.3748/wjg.v22.i42.9419"
+    },
+    {
+      "id": "ref-78",
+      "citation": "Mota RCL, de Moura EGH, de Moura DTH et al. Risk factors for gastroesophageal reflux after POEM for achalasia: a systematic review and meta-analysis. Surg Endosc 2021; 35: 383\u2013397 doi:10.1007/ s00464-020-07412-y. doi:10.1007/s00464-020-07412-y",
+      "doi": "10.1007/s00464-020-07412-y"
+    },
+    {
+      "id": "ref-79",
+      "citation": "Zhang H, Zeng X, Huang S et al. Safety and efficacy of peroral endoscopic shorter myotomy versus longer myotomy for patients with achalasia: a systematic review and meta-analysis. Gastroenterol Res Pract 2022; 2022: 6770864 doi:10.1155/2022/6770864",
+      "doi": "10.1155/2022/6770864"
+    },
+    {
+      "id": "ref-80",
+      "citation": "Familiari P, Borrelli de Andreis F, Landi R et al. Long versus short peroral endoscopic myotomy for the treatment of achalasia: results of a non-inferiority controlled trial. Gut 2023; 72: 1442\u20131450 doi:10.1136/gutjnl-2021-325579",
+      "doi": "10.1136/gutjnl-2021-325579",
+      "lowConfidence": true,
+      "confidenceIssues": [
+        "year 2021 vs match year 2023"
+      ]
+    },
+    {
+      "id": "ref-81",
+      "citation": "Nabi Z, Ramchandani M, Sayyed M et al. Comparison of short versus long esophageal myotomy in cases with idiopathic achalasia: a randomized controlled trial. J Neurogastroenterol Motil 2021; 27: 63\u201370. doi:10.5056/jnm20022",
+      "doi": "10.5056/jnm20022"
+    },
+    {
+      "id": "ref-82",
+      "citation": "Gu L, Ouyang Z, Lv L et al. Safety and efficacy of peroral endoscopic myotomy with standard myotomy versus short myotomy for treatment-na\u00efve patients with type II achalasia: a prospective randomized trial. Gastrointest Endosc 2021; 93: 1304\u20131312 doi:10.1016/j. gie.2020.10.006. doi:10.1016/j.gie.2020.10.006",
+      "doi": "10.1016/j.gie.2020.10.006",
+      "lowConfidence": true,
+      "verificationNote": "Crossref could not resolve automatically (PDF-extracted DOI likely had truncation artifacts; needs manual verification against source PDF)."
+    },
+    {
+      "id": "ref-83",
+      "citation": "Ponds FA, Fockens P, Lei A et al. Effect of peroral endoscopic myotomy vs pneumatic dilation on symptom severity and treatment outcomes among treatment-I patients with achalasia: a randomized clinical trial. JAMA 2019; 322: 134\u2013144 doi:10.1001/jama.2019.8859",
+      "doi": "10.1001/jama.2019.8859"
+    },
+    {
+      "id": "ref-84",
+      "citation": "Werner YB, Hakanson B, Martinek J et al. Endoscopic or surgical myotomy in patients with idiopathic achalasia. NEJM 2019; 381: 2219\u20132229 doi:10.1056/NEJMoa1905380",
+      "doi": "10.1056/nejmoa1905380"
+    },
+    {
+      "id": "ref-85",
+      "citation": "Knight W, Kandiah K, Vrakopoulou Z et al. Early outcomes following EndoFLIP-tailored peroral endoscopic myotomy (POEM): the establishment of POEM services in two UK centers. Dis Esophagus 2023; 36: doac110 doi:10.1093/dote/doac110",
+      "doi": "10.1093/dote/doac110"
+    },
+    {
+      "id": "ref-86",
+      "citation": "Yoo IK, Choi SA, Kim WH et al. Assessment of clinical outcomes after peroral endoscopic myotomy via esophageal distensibility measurements with the endoluminal functional lumen imaging probe. Gut Liver 2019; 13: 32\u201339 doi:10.5009/gnl18233",
+      "doi": "10.5009/gnl18233"
+    },
+    {
+      "id": "ref-87",
+      "citation": "Kane ED, Budhraja V, Desilets DJ et al. Myotomy length informed by high-resolution esophageal manometry (HREM) results in improved per-oral endoscopic myotomy (POEM) outcomes for type III achalasia. Surg Endosc 2019; 33: 886\u2013894 doi:10.1007/s00464-018-6356-0",
+      "doi": "10.1007/s00464-018-6356-0"
+    },
+    {
+      "id": "ref-88",
+      "citation": "Khashab MA, Familiari P, Draganov PV et al. Peroral endoscopic myotomy is effective and safe in non-achalasia esophageal motility disorders: an international multicenter study. Endosc Int Open 2018; 6: E1031\u2013E1036 doi:10.1055/a-0625-6288",
+      "doi": "10.1055/a-0625-6288"
+    },
+    {
+      "id": "ref-89",
+      "citation": "Zhang LY, Bejjani M, Ghandour B et al. Through-the-scope suture closure of peroral endoscopic myotomy mucosal incision sites. Endoscopy 2023; 55: 186\u2013191. doi:10.1055/a-1890-4917",
+      "doi": "10.1055/a-1890-4917"
+    },
+    {
+      "id": "ref-90",
+      "citation": "Ullah S, Yang S. Through-the-scope suture closure of peroral endoscopic myotomy mucosal incision sites: not yet there. Endoscopy 2023; 55: 394. doi:10.1055/a-1949-0570",
+      "doi": "10.1055/a-1949-0570",
+      "lowConfidence": true,
+      "verificationNote": "Crossref could not resolve automatically (PDF-extracted DOI likely had truncation artifacts; needs manual verification against source PDF)."
+    },
+    {
+      "id": "ref-91",
+      "citation": "Pescarus R, Shlomovitz E, Sharata AM et al. Endoscopic suturing versus endoscopic clip closure of the mucosotomy during a per-oral endoscopic myotomy (POEM): a case-control study. Surg Endosc 2016; 30: 2132\u20132135. doi:10.1007/s00464-015-4464-7",
+      "doi": "10.1007/s00464-015-4464-7",
+      "lowConfidence": true,
+      "confidenceIssues": [
+        "year 2135 vs match year 2015"
+      ]
+    },
+    {
+      "id": "ref-92",
+      "citation": "Hernandez Mondragon OV, Gutierrez-Aguilar R, Garcia Contreras LF et al. Conventional clips vs over-the-scope-clips for the closure of the entry site in POEM and G-POEM procedures. Rev Esp Enferm Dig 2020; 112: 338\u2013342. doi:10.17235/reed.2020.6568/2019",
+      "doi": "10.17235/reed.2020.6568/2019",
+      "lowConfidence": true,
+      "confidenceIssues": [
+        "surname 'Hernandez' not in match authors ['hern\u00e1ndez mondrag\u00f3n', 'guti\u00e9rrez-aguilar', 'garc\u00eda contreras']"
+      ]
+    },
+    {
+      "id": "ref-93",
+      "citation": "Li Q-L, Zhou P-H, Yao L-Q et al. Early diagnosis and management of delayed bleeding in the submucosal tunnel after peroral endoscopic myotomy for achalasia (with video). Gastrointest Endosc 2013; 78: 370\u2013374 doi:10.1016/j.gie.2013.04.172",
+      "doi": "10.1016/j.gie.2013.04.172"
+    },
+    {
+      "id": "ref-94",
+      "citation": "Nabi Z, Chavan R, Ramchandani M et al. Endoscopic submucosal dissection and tunneling procedures using novel image-enhanced technique. VideoGIE 2022; 7: 158\u2013163 doi:10.1016/j.vgie.2021.11.005",
+      "doi": "10.1016/j.vgie.2021.11.005"
+    },
+    {
+      "id": "ref-95",
+      "citation": "Wang Y, Liu Z-Q, Xu M-D et al. Clinical and endoscopic predictors for intraprocedural mucosal injury during per-oral endoscopic myotomy. Gastrointest Endosc 2019; 89: 769\u2013778 doi:10.1016/j. gie.2018.09.003. doi:10.1016/j.gie.2018.09.003",
+      "doi": "10.1016/j.gie.2018.09.003",
+      "lowConfidence": true,
+      "verificationNote": "Crossref could not resolve automatically (PDF-extracted DOI likely had truncation artifacts; needs manual verification against source PDF)."
+    },
+    {
+      "id": "ref-96",
+      "citation": "Zhang X-C, Li Q-L, Xu M-D et al. Major perioperative adverse events of peroral endoscopic myotomy: a systematic 5-year analysis. Endoscopy 2016; 48: 967\u2013978 doi:10.1055/s-0042-110397",
+      "doi": "10.1055/s-0042-110397"
+    },
+    {
+      "id": "ref-97",
+      "citation": "Yeniova A\u00d6, Yoo IK, Cho JY. Mucosal injury during per-oral endoscopic myotomy: a single-center experience. Turk J Gastroenterol 2022; 33: 985\u2013994 doi:10.5152/tjg.2022.21949",
+      "doi": "10.5152/tjg.2022.21949"
+    },
+    {
+      "id": "ref-98",
+      "citation": "Gonzalez J-M, Benezech A, Barthet M. Complications of submucosal endoscopy. Best Pract Res Clin Gastroenterol 2016; 30: 783\u2013791 doi:10.1016/j.bpg.2016.10.015",
+      "doi": "10.1016/j.bpg.2016.10.015"
+    },
+    {
+      "id": "ref-99",
+      "citation": "Modayil R, Friedel D, Stavropoulos SN. Endoscopic suture repair of a large mucosal perforation during peroral endoscopic myotomy for treatment of achalasia. Gastrointest Endosc 2014; 80: 1169\u20131170 doi:10.1016/j.gie.2014.03.035",
+      "doi": "10.1016/j.gie.2014.03.035"
+    },
+    {
+      "id": "ref-100",
+      "citation": "Crespin OM, Liu LWC, Parmar A et al. Safety and efficacy of POEM for treatment of achalasia: a systematic review of the literature. Surg Endosc 2017; 31: 2187\u20132201 doi:10.1007/s00464-016-5217-y",
+      "doi": "10.1007/s00464-016-5217-y",
+      "lowConfidence": true,
+      "confidenceIssues": [
+        "year 2187 vs match year 2016"
+      ]
+    },
+    {
+      "id": "ref-101",
+      "citation": "Liu X, Yao L, Cheng J et al. Landscape of adverse events related to peroral endoscopic myotomy in 3,135 patients and a risk-scoring system to predict major adverse events. Clin Gastroenterol Hepatol 2021; 19: 1959\u20131966.e3 doi:10.1016/j.cgh.2021.04.033 Tate David J et al. Curriculum for training \u2026 Endoscopy | \u00a9 2025. European Society of Gastrointestinal Endoscopy. All rights reserved. === PAGE 30 ===",
+      "doi": "10.1016/j.cgh.2021.04.033",
+      "lowConfidence": true,
+      "confidenceIssues": [
+        "year 2025 vs match year 2021"
+      ]
+    },
+    {
+      "id": "ref-102",
+      "citation": "Darisetty S, Nabi Z, Ramchandani M et al. Anesthesia in per-oral endoscopic myotomy: A large tertiary care centre experience. Indian J Gastroenterol 2017; 36: 305\u2013312 doi:10.1007/s12664-017-07820. doi:10.1007/s12664-017-0782-0",
+      "doi": "10.1007/s12664-017-0782-0",
+      "lowConfidence": true,
+      "verificationNote": "Crossref could not resolve automatically (PDF-extracted DOI likely had truncation artifacts; needs manual verification against source PDF)."
+    },
+    {
+      "id": "ref-103",
+      "citation": "Chiapponi C, Stocker U, K\u00f6rner M et al. Emergency percutaneous needle decompression for tension pneumoperitoneum. BMC Gastroenterol 2011; 11: 48 doi:10.1186/1471-230X-11-48",
+      "doi": "10.1186/1471-230x-11-48"
+    },
+    {
+      "id": "ref-104",
+      "citation": "Paspatis GA, Arvanitakis M, Dumonceau J-M et al. Diagnosis and management of iatrogenic endoscopic perforations: European Society of Gastrointestinal Endoscopy (ESGE) Position Statement \u2013 Update 2020. Endoscopy 2020; 52: 792\u2013810 doi:10.1055/a-12223191. doi:10.1055/a-1222-3191",
+      "doi": "10.1055/a-1222-3191",
+      "lowConfidence": true,
+      "verificationNote": "Crossref could not resolve automatically (PDF-extracted DOI likely had truncation artifacts; needs manual verification against source PDF)."
+    },
+    {
+      "id": "ref-105",
+      "citation": "Nabi Z, Ramchandani M, Chavan R et al. Double tunnel technique reduces technical failure during POEM in cases with severe submucosal fibrosis. Endosc Int Open 2021; 9: E1335\u2013E1341 doi:10.1055/ a-1499-6817. doi:10.1055/a-1499-6817",
+      "doi": "10.1055/a-1499-6817"
+    },
+    {
+      "id": "ref-106",
+      "citation": "Li Y, LingHu E, Ding H et al. Peroral endoscopic myotomy with simultaneous submucosal and muscle dissection for achalasia with severe interlayer adhesions. Gastrointest Endosc 2016; 83: 651\u2013652 doi:10.1016/j.gie.2015.09.030",
+      "doi": "10.1016/j.gie.2015.09.030"
+    },
+    {
+      "id": "ref-107",
+      "citation": "Feng J, Chai N, Zhang W et al. Long-term outcomes of peroral endoscopic myotomy with simultaneous submucosal and muscle dissection (POEM-SSMD) for achalasia with severe interlayer adhesions. Chin Med J (Engl) 2022; 135: 724\u2013726 doi:10.1097/ CM9.0000000000001971. doi:10.1097/cm9.0000000000001971",
+      "doi": "10.1097/cm9.0000000000001971"
+    },
+    {
+      "id": "ref-108",
+      "citation": "Philips GM, Dacha S, Keilin SA et al. Concurrent myotomy and tunneling after establishment of a half tunnel instead of myotomy after establishment of a full tunnel: a more efficient method of peroral endoscopic myotomy. Endosc Int Open 2016; 4: E403\u2013E408 doi:10.1055/s-0042-101787",
+      "doi": "10.1055/s-0042-101787"
+    },
+    {
+      "id": "ref-109",
+      "citation": "Lin Y-J, Liu S-Z, Li L-S et al. Repeat peroral endoscopic myotomy with simultaneous submucosal and muscle dissection as a salvage option for recurrent achalasia. World J Gastroenterol 2023; 29: 2349\u20132358 doi:10.3748/wjg.v29.i15.2349",
+      "doi": "10.3748/wjg.v29.i15.2349"
+    },
+    {
+      "id": "ref-110",
+      "citation": "Liu W, Zeng H-Z, Chen H-L et al. Open peroral endoscopic myotomy (O-POEM) for the treatment of achalasia. Dis Esophagus 2017; 30: 1\u20132 doi:10.1093/dote/dox070",
+      "doi": "10.1093/dote/dox070"
+    },
+    {
+      "id": "ref-111",
+      "citation": "Tan Y, Li C, Yan J et al. Difficult peroral endoscopic myotomy: definition and management strategies. Expert Rev Gastroenterol Hepatol 2019; 13: 933\u2013942 doi:10.1080/17474124.2019.1674648",
+      "doi": "10.1080/17474124.2019.1674648"
+    },
+    {
+      "id": "ref-112",
+      "citation": "Shiwaku H, Inoue H, Yamashita K et al. Peroral endoscopic myotomy for esophageal achalasia: outcomes of the first over 100 patients with short-term follow-up. Surg Endosc 2016; 30: 4817\u20134826 doi:10.1007/s00464-016-4813-1",
+      "doi": "10.1007/s00464-016-4813-1"
+    },
+    {
+      "id": "ref-113",
+      "citation": "Misra L, Fukami N, Nikolic K et al. Peroral endoscopic myotomy: procedural complications and pain management for the perioperative clinician. Med Devices (Auckl) 2017; 10: 53\u201359. doi:10.2147/mder.s115632",
+      "doi": "10.2147/mder.s115632",
+      "lowConfidence": true,
+      "verificationNote": "Crossref could not resolve automatically (PDF-extracted DOI likely had truncation artifacts; needs manual verification against source PDF)."
+    },
+    {
+      "id": "ref-114",
+      "citation": "Nabi Z, Reddy DN, Ramchandani M. Adverse events during and after per-oral endoscopic myotomy: prevention, diagnosis, and management. Gastrointest Endosc 2018; 87: 4\u201317 doi:10.1016/j. gie.2017.09.029. doi:10.1016/j.gie.2017.09.029",
+      "doi": "10.1016/j.gie.2017.09.029",
+      "lowConfidence": true,
+      "verificationNote": "Crossref could not resolve automatically (PDF-extracted DOI likely had truncation artifacts; needs manual verification against source PDF)."
+    },
+    {
+      "id": "ref-115",
+      "citation": "Ujiki MB, Yetasook AK, Zapf M et al. Peroral endoscopic myotomy: A short-term comparison with the standard laparoscopic approach. Surgery 2013; 154: 893\u2013897; discussion 897\u2013900. doi:10.1016/j.surg.2013.04.042",
+      "doi": "10.1016/j.surg.2013.04.042"
+    },
+    {
+      "id": "ref-116",
+      "citation": "Elmunzer BJ, Lewis BR, Miller KF et al. Paravertebral anesthetic nerve block for pain control after peroral endoscopic myotomy. Tech Innov Gastrointest Endosc 2021; 23: 297\u2013303. doi:10.1016/j.tige.2021.06.006",
+      "doi": "10.1016/j.tige.2021.06.006"
+    },
+    {
+      "id": "ref-117",
+      "citation": "Rai M, Nazarin A, Taylor C et al. A randomized controlled pilot study of topical ropivacaine for prevention of post-POEM pain. J Can Assoc Gastroenterol 2022; 5: 221\u2013225. doi:10.1093/jcag/gwac007",
+      "doi": "10.1093/jcag/gwac007"
+    },
+    {
+      "id": "ref-118",
+      "citation": "Xie G, Li S, Zeng M et al. Oxycodone is superior to morphine for pain relief following peroral oesophageal myotomy: a prospective, randomized, controlled trial. Wideochir Inne Tech Maloinwazyjne 2022; 17: 624\u2013633. doi:10.5114/wiitm.2022.118544",
+      "doi": "10.5114/wiitm.2022.118544"
+    },
+    {
+      "id": "ref-119",
+      "citation": "Sternbach JM, El Khoury R, Teitelbaum EN et al. Early esophagram in per-oral endoscopic myotomy (POEM) for achalasia does not predict long-term outcomes. Surgery 2015; 158: 1128\u20131135; discussion 1135\u20131136 doi:10.1016/j.surg.2015.05.023",
+      "doi": "10.1016/j.surg.2015.05.023"
+    },
+    {
+      "id": "ref-120",
+      "citation": "DeWitt JM, Siwiec RM, Perkins A et al. Evaluation of timed barium esophagram after per-oral endoscopic myotomy to predict clinical response. Endosc Int Open 2021; 9: E1692\u2013E1701 doi:10.1055/a1546-8415. doi:10.1055/a-1546-8415",
+      "doi": "10.1055/a-1546-8415",
+      "lowConfidence": true,
+      "verificationNote": "Crossref could not resolve automatically (PDF-extracted DOI likely had truncation artifacts; needs manual verification against source PDF)."
+    },
+    {
+      "id": "ref-121",
+      "citation": "Pannu D, Yang D, Abbitt PL et al. Prospective evaluation of CT esophagram findings after peroral endoscopic myotomy. Gastrointest Endosc 2016; 84: 408\u2013415 doi:10.1016/j.gie.2016.02.022",
+      "doi": "10.1016/j.gie.2016.02.022"
+    },
+    {
+      "id": "ref-122",
+      "citation": "Cai M-Y, Zhou P-H, Yao L-Q et al. Thoracic CT after peroral endoscopic myotomy for the treatment of achalasia. Gastrointest Endosc 2014; 80: 1046\u20131055 doi:10.1016/j.gie.2014.05.004",
+      "doi": "10.1016/j.gie.2014.05.004"
+    },
+    {
+      "id": "ref-123",
+      "citation": "Barret M, Dohan A, Oudjit A et al. Meglumine diatrizoate esophagogram after peroral endoscopic myotomy (POEM): identification of imaging findings associated with clinical complications and longer hospital stay. Eur Radiol 2020; 30: 4175\u20134181 doi:10.1007/s00330020-06758-0. doi:10.1007/s00330-020-06758-0",
+      "doi": "10.1007/s00330-020-06758-0",
+      "lowConfidence": true,
+      "verificationNote": "Crossref could not resolve automatically (PDF-extracted DOI likely had truncation artifacts; needs manual verification against source PDF)."
+    },
+    {
+      "id": "ref-124",
+      "citation": "Chartier M, Barat M, Dohan A et al. Clinical impact of routine CT esophagogram after peroral endoscopic myotomy (POEM) for esophageal motility disorders. Endosc Int Open 2021; 9: E1355\u2013 E1360 doi:10.1055/a-1512-9638",
+      "doi": "10.1055/a-1512-9638"
+    },
+    {
+      "id": "ref-125",
+      "citation": "El Khoury R, Teitelbaum EN, Sternbach JM et al. Evaluation of the need for routine esophagram after peroral endoscopic myotomy (POEM). Surg Endosc 2016; 30: 2969\u20132974 doi:10.1007/s00464015-4585-z. doi:10.1007/s00464-015-4585-z",
+      "doi": "10.1007/s00464-015-4585-z",
+      "lowConfidence": true,
+      "verificationNote": "Crossref could not resolve automatically (PDF-extracted DOI likely had truncation artifacts; needs manual verification against source PDF)."
+    },
+    {
+      "id": "ref-126",
+      "citation": "Yang S, Zeng M-S, Zhang Z-Y et al. Pneumomediastinum and pneumoperitoneum on computed tomography after peroral endoscopic myotomy (POEM): postoperative changes or complications? Acta Radiol 2015; 56: 1216\u20131221 doi:10.1177/0284185114551399",
+      "doi": "10.1177/0284185114551399"
+    },
+    {
+      "id": "ref-127",
+      "citation": "Levy JL, Levine MS, Rubesin SE et al. Findings of esophagography for 25 patients after peroral endoscopic myotomy for achalasia. AJR Am J Roentgenol 2016; 207: 1185\u20131193 doi:10.2214/AJR.16.16365",
+      "doi": "10.2214/ajr.16.16365"
+    },
+    {
+      "id": "ref-128",
+      "citation": "Lemmens J, Klarenbeek B, Verstegen M et al. Performance of a consensus-based algorithm for diagnosing anastomotic leak after minimally invasive esophagectomy for esophageal cancer. Dis Esophagus 2023; 36: doad016 doi:10.1093/dote/doad016",
+      "doi": "10.1093/dote/doad016"
+    },
+    {
+      "id": "ref-129",
+      "citation": "Benias PC, Korrapati P, Raphael KL et al. Safety and feasibility of performing peroral endoscopic myotomy as an outpatient procedure with same-day discharge. Gastrointest Endosc 2019; 90: 570\u2013578 doi:10.1016/j.gie.2019.04.247",
+      "doi": "10.1016/j.gie.2019.04.247"
+    },
+    {
+      "id": "ref-130",
+      "citation": "Cloutier Z, Mann A, Doumouras AG et al. Same-day discharge is safe and feasible following POEM surgery for esophageal motility disorders. Surg Endosc 2021; 35: 3398\u20133404 doi:10.1007/s00464-02007781-4. doi:10.1007/s00464-020-07781-4",
+      "doi": "10.1007/s00464-020-07781-4",
+      "lowConfidence": true,
+      "verificationNote": "Crossref could not resolve automatically (PDF-extracted DOI likely had truncation artifacts; needs manual verification against source PDF)."
+    },
+    {
+      "id": "ref-131",
+      "citation": "Fujiyoshi Y, Inoue H, Abad MRA et al. Importance of second-look endoscopy after per-oral endoscopic myotomy for safe postoperative management. Dig Endosc 2021; 33: 364\u2013372 doi:10.1111/ den.13770. doi:10.1111/den.13770",
+      "doi": "10.1111/den.13770"
+    },
+    {
+      "id": "ref-132",
+      "citation": "Repici A, Fuccio L, Maselli R et al. GERD after per-oral endoscopic myotomy as compared with Heller\u2019s myotomy with fundoplication: a systematic review with meta-analysis. Gastrointest Endosc 2018; 87: 934\u2013943.e18 doi:10.1016/j.gie.2017.10.022",
+      "doi": "10.1016/j.gie.2017.10.022"
+    },
+    {
+      "id": "ref-133",
+      "citation": "Al Lehibi A, Elkholy S, Gouda M et al. Peroral endoscopic myotomy (POEM) for the treatment of achalasia: A multicenter Middle Eastern experience. Saudi J Gastroenterol 2022; 28: 74\u201379. doi:10.4103/sjg.sjg_49_21",
+      "doi": "10.4103/sjg.sjg_49_21"
+    },
+    {
+      "id": "ref-134",
+      "citation": "Ching Hui Yee C, Youssef M, Woo M et al. Peroral endoscopic myotomy for complex achalasia and the POEM difficulty score: An update. DEN Open 2025; 5: e70055 doi:10.1002/deo2.70055 Tate David J et al. Curriculum for training \u2026 Endoscopy | \u00a9 2025. European Society of Gastrointestinal Endoscopy. All rights reserved. Position Statement === PAGE 31 ===",
+      "doi": "10.1002/deo2.70055"
+    }
+  ]
+}

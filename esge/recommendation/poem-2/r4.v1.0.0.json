@@ -1,0 +1,46 @@
+{
+  "$schema": "https://schema.evideris.com/schemas/recommendation.schema.json",
+  "$id": "https://schema.evideris.com/esge/recommendation/poem-2/r4.v1.0.0.json",
+  "lineageId": "rec-poem-2-r4-the-settings-provided-by-the-manufacturer-of-the-electrosurg",
+  "type": "recommendation",
+  "version": "1.0.0",
+  "release": "r2026.07",
+  "supersedes": null,
+  "supersededBy": null,
+  "language": [
+    "en"
+  ],
+  "withinCurriculum": "cur-poem-2-2025",
+  "withinSection": "sec-poem-2-preparation",
+  "number": 4,
+  "title": {
+    "en": "The settings provided by the manufacturer of the electrosurgical unit should be favored,"
+  },
+  "statement": {
+    "en": "The settings provided by the manufacturer of the electrosurgical unit should be favored, tailored to the specific type of knife and coagulation forceps being used."
+  },
+  "grade": {
+    "strength": "best-practice",
+    "evidenceQuality": "no-evidence-available"
+  },
+  "levelOfAgreement": 94,
+  "references": [],
+  "_meta": {
+    "provenance": {
+      "type": "verbatim",
+      "source_doi": "10.1055/a-2569-7634"
+    },
+    "encodedBy": "human:david",
+    "encodedAt": "2026-07-03",
+    "fieldProvenance": {
+      "commentary": {
+        "type": "verbatim",
+        "source_doi": "10.1055/a-2569-7634",
+        "source_span": "Paragraph(s) preceding the N RECOMMENDATION block in body; back-to-back groups share commentary."
+      }
+    }
+  },
+  "commentary": {
+    "en": "Subcutaneous emphysema invariably resolves spontaneously and does not require treatment Are there technical adaptations required for difficult POEM procedures? 44 ESGE suggests creating a second tunnel in an alternative orientation when poor mucosal lifting impedes the initiation of the tunnel Weak; Very low Postoperative care 45 In the absence of AEs, resume fluids on day 1, soft diet on day 3, and normal diet on day 7 post-POEM 46 ESGE recommends the use of paracetamol and/or NSAIDs as first line for POEM post-procedural pain, with the consideration of opioids if the initial approach fails Strong; Low 47 ESGE recommends against the routine use of standard or CT fluoroscopic esophagrams after POEM in asymptomatic patients Strong; Very low 48 ESGE suggests favoring the use of a CT esophagram with oral water-soluble contrast over a standard fluoroscopic esophagram in symptomatic patients with suspected post-procedural AEs Weak; Very low AE, adverse event; CT, computed tomography; GEJ, gastroesophageal junction; HRM, high resolution manometry; OTS, over the scope; NSAID, nonsteroidal antiinflammatory drug; TTS, through the scope. 1 Recommendations with no quality of evidence or strength of recommendation given were not suitable for GRADE assessment and are based on good practice statements."
+  }
+}

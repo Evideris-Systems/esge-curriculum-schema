@@ -1,0 +1,46 @@
+{
+  "$schema": "https://schema.evideris.com/schemas/recommendation.schema.json",
+  "$id": "https://schema.evideris.com/esge/recommendation/poem-2/r1.v1.0.0.json",
+  "lineageId": "rec-poem-2-r1-a-poem-equipment-checklist-should-be-used-before-commencing",
+  "type": "recommendation",
+  "version": "1.0.0",
+  "release": "r2026.07",
+  "supersedes": null,
+  "supersededBy": null,
+  "language": [
+    "en"
+  ],
+  "withinCurriculum": "cur-poem-2-2025",
+  "withinSection": "sec-poem-2-preparation",
+  "number": 1,
+  "title": {
+    "en": "A POEM equipment checklist should be used before commencing the procedure to ensure the"
+  },
+  "statement": {
+    "en": "A POEM equipment checklist should be used before commencing the procedure to ensure the availability and proper functioning of all necessary materials."
+  },
+  "grade": {
+    "strength": "best-practice",
+    "evidenceQuality": "no-evidence-available"
+  },
+  "levelOfAgreement": 91,
+  "references": [],
+  "_meta": {
+    "provenance": {
+      "type": "verbatim",
+      "source_doi": "10.1055/a-2569-7634"
+    },
+    "encodedBy": "human:david",
+    "encodedAt": "2026-07-03",
+    "fieldProvenance": {
+      "commentary": {
+        "type": "verbatim",
+        "source_doi": "10.1055/a-2569-7634",
+        "source_span": "Paragraph(s) preceding the N RECOMMENDATION block in body; back-to-back groups share commentary."
+      }
+    }
+  },
+  "commentary": {
+    "en": "As a result, both the ESGE and the European Society of Gastroenterology and Endoscopy Nurses and Associates (ESGENA) recommend the incorporation of safety checklists into all endoscopic procedures. The verification of the availability and functionality of endoscopy equipment is an integral component of these checklists [7]. recommended? Traditionally, POEM has been performed with triangle-tip electrosurgical knives [2]. The use of scissor- and needle-type knives has been reported in several cohorts with excellent results [8, 9]. We did not identify any studies directly comparing the outcomes of POEM based on the shape of the knife\u2019s tip. It appears unlikely that the choice of tip shape significantly influences the efficacy or safety of the procedure. As such, this decision should be made based on local expertise and the availability of specific instruments [2]. SOURCE AND SCOPE This manuscript represents the outcome of a formal Delphi process resulting in an official Position Statement of the ESGE and provides a framework to develop and maintain skills in POEM. This curriculum is set out in terms of the environment for training, the theoretical knowledge and practical skills required for completion of training, and how competence should be defined and evidenced prior to independent practice."
+  }
+}

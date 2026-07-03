@@ -1,0 +1,46 @@
+{
+  "$schema": "https://schema.evideris.com/schemas/recommendation.schema.json",
+  "$id": "https://schema.evideris.com/esge/recommendation/poem-2/r17.v1.0.0.json",
+  "lineageId": "rec-poem-2-r17-to-create-the-mucosotomy-the-first-incision-should-be-made-a",
+  "type": "recommendation",
+  "version": "1.0.0",
+  "release": "r2026.07",
+  "supersedes": null,
+  "supersededBy": null,
+  "language": [
+    "en"
+  ],
+  "withinCurriculum": "cur-poem-2-2025",
+  "withinSection": "sec-poem-2-submucosal-tunneling",
+  "number": 17,
+  "title": {
+    "en": "To create the mucosotomy, the first incision should be made at the site of previous injection with"
+  },
+  "statement": {
+    "en": "To create the mucosotomy, the first incision should be made at the site of previous injection with the fewest possible taps on the electrosurgical unit using a cutting mode, with the knife tip at 45\u201380\u00b0 to the mucosal surface."
+  },
+  "grade": {
+    "strength": "best-practice",
+    "evidenceQuality": "no-evidence-available"
+  },
+  "levelOfAgreement": 80,
+  "references": [],
+  "_meta": {
+    "provenance": {
+      "type": "verbatim",
+      "source_doi": "10.1055/a-2569-7634"
+    },
+    "encodedBy": "human:david",
+    "encodedAt": "2026-07-03",
+    "fieldProvenance": {
+      "commentary": {
+        "type": "verbatim",
+        "source_doi": "10.1055/a-2569-7634",
+        "source_span": "Paragraph(s) preceding the N RECOMMENDATION block in body; back-to-back groups share commentary."
+      }
+    }
+  },
+  "commentary": {
+    "en": "An incision that is too short may result in tearing of the tunnel entrance due to endoscope passage, making closure more challenging while compromising the ability to complete the procedure. 6.1 How to access the tunnel No studies are available for this step of the POEM procedure. To enter the submucosal space, a conical transparent tunneling cap can be used to burrow under the incision margins at the caudal end of the incision, keeping the mucosa and muscularis propria separated for a safe entry after submucosal injection. Spray coagulation is usually preferred for entry. The endoscope distal attachment can be used to prevent injury to the mucosal entry point. No comparative studies are available. Dissection should proceed close to the muscularis propria layer to ensure the mucosal layer is not injured. Superficial injury to the muscle layer is of little consequence as dissection of the muscle will be performed anyway during the myotomy. The scope should be pushed far enough into the submucosal tunnel and against the advancing submucosa\u2013muscularis propria interface to exert gentle force and facilitate dissection using electrosurgical energy in the correct plane. Precise dissection within the tunnel can be achieved using rotation of the right hand to guide the knife along the muscularis propria. This movement, together with left-handed manipu"
+  }
+}

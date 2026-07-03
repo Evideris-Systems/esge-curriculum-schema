@@ -1,0 +1,46 @@
+{
+  "$schema": "https://schema.evideris.com/schemas/recommendation.schema.json",
+  "$id": "https://schema.evideris.com/esge/recommendation/poem-2/r22.v1.0.0.json",
+  "lineageId": "rec-poem-2-r22-the-distance-between-the-incisors-and-the-gej-should-be-asse",
+  "type": "recommendation",
+  "version": "1.0.0",
+  "release": "r2026.07",
+  "supersedes": null,
+  "supersededBy": null,
+  "language": [
+    "en"
+  ],
+  "withinCurriculum": "cur-poem-2-2025",
+  "withinSection": "sec-poem-2-submucosal-tunneling",
+  "number": 22,
+  "title": {
+    "en": "The distance between the incisors and the GEJ should be assessed before starting the POEM procedure."
+  },
+  "statement": {
+    "en": "The distance between the incisors and the GEJ should be assessed before starting the POEM procedure."
+  },
+  "grade": {
+    "strength": "best-practice",
+    "evidenceQuality": "no-evidence-available"
+  },
+  "levelOfAgreement": 100,
+  "references": [],
+  "_meta": {
+    "provenance": {
+      "type": "verbatim",
+      "source_doi": "10.1055/a-2569-7634"
+    },
+    "encodedBy": "human:david",
+    "encodedAt": "2026-07-03",
+    "fieldProvenance": {
+      "commentary": {
+        "type": "verbatim",
+        "source_doi": "10.1055/a-2569-7634",
+        "source_span": "Paragraph(s) preceding the N RECOMMENDATION block in body; back-to-back groups share commentary."
+      }
+    }
+  },
+  "commentary": {
+    "en": "Nevertheless, there is not a perfect match between intraluminal and intratunnel measurements. A mathematical formula has been proposed to predict the GEJ through the tunnel, using the measurement of this landmark via the lumen and the maximum esophageal dilation point, assessed by a computed tomography (CT) scan or esophagogram [51]. When inside the tunnel, the appearance of palisade veins on the mucosal side of the tunnel, the narrowing of the lumen associated with resistance on endoscope passage, with an increased vascularity and \u201cspindle-shaped veins,\u201d followed by the sudden increase in the submucosal space with the appearance of large perforating vessels and aberrant gastric muscle bundles indicates the GEJ [52]. The presence of a dye bulge on gastric retroflexion also indicates the GEJ [53]. Additionally, previous injection of indocyanine green in the cardia can help the endoscopist to recognize the GEJ during the tunneling process [54]. When using a posterior submucosal tunnel approach, the oblique muscles and two penetrating vessels, which branch off the left gastric artery, can be seen in the gastric cardia of some patients indicating the potential correct extent of the submucosal tunnel [55] (\u25b6Fig. 2). into the stomach and how can this be confirmed?"
+  }
+}

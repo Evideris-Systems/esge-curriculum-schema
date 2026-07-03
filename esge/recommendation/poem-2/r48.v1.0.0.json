@@ -1,0 +1,46 @@
+{
+  "$schema": "https://schema.evideris.com/schemas/recommendation.schema.json",
+  "$id": "https://schema.evideris.com/esge/recommendation/poem-2/r48.v1.0.0.json",
+  "lineageId": "rec-poem-2-r48-esge-suggests-favoring-the-use-of-a-ct-esophagram-with-oral",
+  "type": "recommendation",
+  "version": "1.0.0",
+  "release": "r2026.07",
+  "supersedes": null,
+  "supersededBy": null,
+  "language": [
+    "en"
+  ],
+  "withinCurriculum": "cur-poem-2-2025",
+  "withinSection": "sec-poem-2-postoperative-care",
+  "number": 48,
+  "title": {
+    "en": "ESGE suggests favoring the use of a CT esophagram with oral water-soluble contrast over a standard"
+  },
+  "statement": {
+    "en": "ESGE suggests favoring the use of a CT esophagram with oral water-soluble contrast over a standard fluoroscopic esophagram in symptomatic patients with suspected post-procedural adverse events."
+  },
+  "grade": {
+    "strength": "weak",
+    "evidenceQuality": "very-low"
+  },
+  "levelOfAgreement": 86,
+  "references": [],
+  "_meta": {
+    "provenance": {
+      "type": "verbatim",
+      "source_doi": "10.1055/a-2569-7634"
+    },
+    "encodedBy": "human:david",
+    "encodedAt": "2026-07-03",
+    "fieldProvenance": {
+      "commentary": {
+        "type": "verbatim",
+        "source_doi": "10.1055/a-2569-7634",
+        "source_span": "Paragraph(s) preceding the N RECOMMENDATION block in body; back-to-back groups share commentary."
+      }
+    }
+  },
+  "commentary": {
+    "en": "The benefit of second-look endoscopy has been explored in a single-center retrospective study comprising 447 patients [131]. Abnormal findings were detected in 71 patients (14.3 %). Newly detected AEs that necessitated endoscopic intervention or deviation from the standard postoperative protocol were observed in 12 patients (2.4 %). These included entry site dehiscence in eight patients (1.6 %), submucosal hemorrhage or hematoma in two patients (0.4 %), and dehiscence at the site of an intraoperative perforation that had been closed with endoclips in two patients (0.4 %). Multivariate analysis indicated that an extended duration of operation and the presence of intraoperative AEs were the predictors of clinically significant findings at second-look endoscopy. Therefore, second-look endoscopy could potentially be reserved for selected patients. after POEM to reduce the rate of adverse events? PPIs have been widely studied in the literature for the management of post-POEM GERD, which is reported to occur in up to almost 30 % of the cases [132]. While PPIs are effective in this setting, no evidence was found for the use of PPIs in the periprocedural setting to reduce AEs such as late bleeding or pain, or to induce better healing of the mucosotomy. While this practice is seen in some studies as a routine, supposedly aimed at"
+  }
+}
