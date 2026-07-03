@@ -1,0 +1,629 @@
+{
+  "$schema": "https://schema.evideris.com/schemas/cat.schema.json",
+  "$id": "https://schema.evideris.com/esge/cat/ppat.v1.0.0.json",
+  "lineageId": "cat-ppat",
+  "type": "cat",
+  "version": "1.0.0",
+  "release": "r2026.07",
+  "supersedes": null,
+  "supersededBy": null,
+  "language": [
+    "en"
+  ],
+  "catFamily": "PPAT",
+  "title": {
+    "en": "Precision POEM Assessment Tool"
+  },
+  "description": {
+    "en": "The Precision POEM Assessment Tool (PPAT) is an ESGE competency assessment tool that is being made available alongside this position statement to facilitate a structured dialogue between POEM trainers and their trainees concerning the quality of a POEM procedure. It aligns with the recommendations in this part of the curriculum (Table 1), with the relevant recommendation that each PPAT component was based on indicated where applicable in Table 4."
+  },
+  "applicableModalities": [
+    "m-poem"
+  ],
+  "introducedIn": "cur-poem-2-2025",
+  "scoringScale": {
+    "kind": "ordinal",
+    "levels": [
+      {
+        "value": 1,
+        "label": {
+          "en": "Very poor"
+        }
+      },
+      {
+        "value": 2,
+        "label": {
+          "en": "Poor"
+        }
+      },
+      {
+        "value": 3,
+        "label": {
+          "en": "Intermediate"
+        }
+      },
+      {
+        "value": 4,
+        "label": {
+          "en": "Good"
+        }
+      },
+      {
+        "value": 5,
+        "label": {
+          "en": "Very good"
+        }
+      }
+    ]
+  },
+  "items": [
+    {
+      "label": {
+        "en": "Tip control"
+      },
+      "guidance": {
+        "en": "Controlled, precise, fine, purposeful movements"
+      },
+      "applicability": {
+        "live": "mandatory",
+        "video": "mandatory"
+      },
+      "assessesRecommendations": [
+        {
+          "lineageId": "rec-poem-2-r5"
+        }
+      ],
+      "lineageId": "cat-ppat-tip-control"
+    },
+    {
+      "label": {
+        "en": "Appreciation of planes"
+      },
+      "guidance": {
+        "en": "Appreciation of planes and cutting line at all stages of the procedure. Anticipates areas of difficulty and able to optimize technique to improve the plane and safely proceed"
+      },
+      "applicability": {
+        "live": "mandatory",
+        "video": "mandatory"
+      },
+      "assessesRecommendations": [
+        {
+          "lineageId": "rec-poem-2-r5"
+        }
+      ],
+      "lineageId": "cat-ppat-appreciation-of-planes"
+    },
+    {
+      "label": {
+        "en": "Periodic checks"
+      },
+      "guidance": {
+        "en": "Frequently checks ESU settings before using thermal energy (after every change in settings), use of CO2 rather than air, mucosal integrity, and abdominal distension, and maintains good communication with the anesthetic team"
+      },
+      "applicability": {
+        "live": "mandatory",
+        "video": "not-applicable"
+      },
+      "assessesRecommendations": [
+        {
+          "lineageId": "rec-poem-2-r5"
+        }
+      ],
+      "lineageId": "cat-ppat-periodic-checks"
+    },
+    {
+      "label": {
+        "en": "Achieves good orientation"
+      },
+      "guidance": {
+        "en": "Able to easily achieve orientation, tunnel easily advanced perpendicular to the circular muscle. In more difficult cases, achieves a good orientation with repeated withdrawal, advancement, and rotation of the scope"
+      },
+      "applicability": {
+        "live": "mandatory",
+        "video": "not-applicable"
+      },
+      "assessesRecommendations": [
+        {
+          "lineageId": "rec-poem-2-r5"
+        }
+      ],
+      "lineageId": "cat-ppat-achieves-good-orientation"
+    },
+    {
+      "label": {
+        "en": "Thorough esophageal cleansing before mucosal incision"
+      },
+      "guidance": {
+        "en": "Meticulously cleanses the esophagus to minimize the risk of contamination of the submucosal tunnel, ensuring optimal mucosal visualization. Carefully examines the esophagus to exclude the presence of esophageal cancer or pseudoachalasia"
+      },
+      "applicability": {
+        "live": "mandatory",
+        "video": "mandatory"
+      },
+      "assessesRecommendations": [
+        {
+          "lineageId": "rec-poem-2-r9"
+        }
+      ],
+      "lineageId": "cat-ppat-thorough-esophageal-cleansing-before-mucosal-incis"
+    },
+    {
+      "label": {
+        "en": "Documentation of obstructive esophageal spastic segments"
+      },
+      "guidance": {
+        "en": "Consistently and independently documents all observed obstructive esophageal spastic segments, accurately evaluates and correlates them with HRM and imaging test findings"
+      },
+      "applicability": {
+        "live": "mandatory",
+        "video": "not-applicable"
+      },
+      "assessesRecommendations": [
+        {
+          "lineageId": "rec-poem-2-r10"
+        }
+      ],
+      "lineageId": "cat-ppat-documentation-of-obstructive-esophageal-spastic-se"
+    },
+    {
+      "label": {
+        "en": "Identification of anatomical landmarks"
+      },
+      "guidance": {
+        "en": "Effectively and independently identifies all key anatomical landmarks including the upper esophageal sphincter, and the GEJ"
+      },
+      "applicability": {
+        "live": "mandatory",
+        "video": "not-applicable"
+      },
+      "assessesRecommendations": [
+        {
+          "lineageId": "rec-poem-2-r11"
+        }
+      ],
+      "lineageId": "cat-ppat-identification-of-anatomical-landmarks"
+    },
+    {
+      "label": {
+        "en": "Identification of anterior vs. posterior approaches"
+      },
+      "guidance": {
+        "en": "Independently and accurately identifies anterior (1-2 o'clock in supine position) or posterior (5-6 o'clock) orientation based on gastroesophageal landmarks and gravity"
+      },
+      "applicability": {
+        "live": "mandatory",
+        "video": "not-applicable"
+      },
+      "assessesRecommendations": [
+        {
+          "lineageId": "rec-poem-2-r12"
+        }
+      ],
+      "lineageId": "cat-ppat-identification-of-anterior-vs-posterior-approaches"
+    },
+    {
+      "label": {
+        "en": "Identification of the mucosotomy site"
+      },
+      "guidance": {
+        "en": "Independent, justifiable, identification of the mucosotomy site. Considers length of myotomy, length of spastic segment, appropriately allows enough space for the myotomy"
+      },
+      "applicability": {
+        "live": "mandatory",
+        "video": "not-applicable"
+      },
+      "assessesRecommendations": [
+        {
+          "lineageId": "rec-poem-2-r10"
+        },
+        {
+          "lineageId": "rec-poem-2-r12"
+        },
+        {
+          "lineageId": "rec-poem-2-r17"
+        }
+      ],
+      "lineageId": "cat-ppat-identification-of-the-mucosotomy-site"
+    },
+    {
+      "label": {
+        "en": "Submucosal injection"
+      },
+      "guidance": {
+        "en": "Efficiently finds the submucosal plane. Caution is taken to avoid mucosal and intrathoracic injection. Dynamic injection of an adequate volume to obtain a lift large enough to facilitate a safe mucosotomy incision"
+      },
+      "applicability": {
+        "live": "optional",
+        "video": "optional"
+      },
+      "assessesRecommendations": [],
+      "lineageId": "cat-ppat-submucosal-injection"
+    },
+    {
+      "label": {
+        "en": "First incision of the mucosotomy"
+      },
+      "guidance": {
+        "en": "Meticulously performs the mucosotomy by making the first incision at the site of previous injection. Uses the fewest possible taps on the electrosurgical unit with a cutting current. Maintains the knife tip at a 45-80\u00b0 angle to the mucosal surface"
+      },
+      "applicability": {
+        "live": "mandatory",
+        "video": "mandatory"
+      },
+      "assessesRecommendations": [
+        {
+          "lineageId": "rec-poem-2-r17"
+        }
+      ],
+      "lineageId": "cat-ppat-first-incision-of-the-mucosotomy"
+    },
+    {
+      "label": {
+        "en": "Extending the mucosotomy incision"
+      },
+      "guidance": {
+        "en": "Controlled, safe, and precise longitudinal extension of the incision, maintaining the direction of the tunnel. Gently lifts the mucosa at the caudal end and repeatedly injects the submucosa, if required, to avoid damage to the muscle. Appropriate length (1.5-2 cm) to facilitate entry"
+      },
+      "applicability": {
+        "live": "mandatory",
+        "video": "mandatory"
+      },
+      "assessesRecommendations": [
+        {
+          "lineageId": "rec-poem-2-r18"
+        }
+      ],
+      "lineageId": "cat-ppat-extending-the-mucosotomy-incision"
+    },
+    {
+      "label": {
+        "en": "Accessing the submucosal tunnel"
+      },
+      "guidance": {
+        "en": "Careful, precise, controlled trimming of the submucosa at the caudal incision end. Uses the cap to protect the mucosa from thermal injury and submucosal injection to avoid muscle injury. Trimming easily allows access to the tunnel"
+      },
+      "applicability": {
+        "live": "mandatory",
+        "video": "mandatory"
+      },
+      "assessesRecommendations": [
+        {
+          "lineageId": "rec-poem-2-r19"
+        },
+        {
+          "lineageId": "rec-poem-2-r20"
+        }
+      ],
+      "lineageId": "cat-ppat-accessing-the-submucosal-tunnel"
+    },
+    {
+      "label": {
+        "en": "Submucosal tunneling"
+      },
+      "guidance": {
+        "en": "Meticulously performs submucosal tunneling using a combination of CO2 insufflation, frequent injection of saline and chromic dye, and a gentle forward pressure of the cap to expand the submucosa-muscularis propria interface. Avoids creating multiple dissection planes"
+      },
+      "applicability": {
+        "live": "mandatory",
+        "video": "mandatory"
+      },
+      "assessesRecommendations": [
+        {
+          "lineageId": "rec-poem-2-r21"
+        }
+      ],
+      "lineageId": "cat-ppat-submucosal-tunneling"
+    },
+    {
+      "label": {
+        "en": "Maintaining direction"
+      },
+      "guidance": {
+        "en": "Periodically checks the direction of the tunnel by withdrawing the scope. Able to identify any deviation in direction and correct it in timely fashion"
+      },
+      "applicability": {
+        "live": "mandatory",
+        "video": "mandatory"
+      },
+      "assessesRecommendations": [
+        {
+          "lineageId": "rec-poem-2-r21"
+        }
+      ],
+      "lineageId": "cat-ppat-maintaining-direction"
+    },
+    {
+      "label": {
+        "en": "Recognizing the GEJ"
+      },
+      "guidance": {
+        "en": "Meticulously measures the distance between the incisors and the GEJ before starting the procedure. Accurately identifies the GEJ using key anatomical observations such as palisade veins, increased vascularity, spindle-shaped veins, large perforating vessels, and/or the narrowing of the lumen"
+      },
+      "applicability": {
+        "live": "mandatory",
+        "video": "mandatory"
+      },
+      "assessesRecommendations": [
+        {
+          "lineageId": "rec-poem-2-r22"
+        },
+        {
+          "lineageId": "rec-poem-2-r23"
+        }
+      ],
+      "lineageId": "cat-ppat-recognizing-the-gej"
+    },
+    {
+      "label": {
+        "en": "Extending the submucosal tunnel into the stomach"
+      },
+      "guidance": {
+        "en": "Meticulously extends the submucosal tunnel at least 3 cm distal to the GEJ and confirms the correct extension using a combination of anatomical landmarks and, if necessary, the double-scope method to ensure an acceptable length for gastric myotomy"
+      },
+      "applicability": {
+        "live": "mandatory",
+        "video": "mandatory"
+      },
+      "assessesRecommendations": [
+        {
+          "lineageId": "rec-poem-2-r24"
+        },
+        {
+          "lineageId": "rec-poem-2-r25"
+        }
+      ],
+      "lineageId": "cat-ppat-extending-the-submucosal-tunnel-into-the-stomach"
+    },
+    {
+      "label": {
+        "en": "Starts at appropriate site"
+      },
+      "guidance": {
+        "en": "Meticulously performs the myotomy in a cranial to caudal manner, starting 2 cm or more below the caudal extent of the mucosotomy site, using controlled sequential single taps with the knife"
+      },
+      "applicability": {
+        "live": "mandatory",
+        "video": "mandatory"
+      },
+      "assessesRecommendations": [
+        {
+          "lineageId": "rec-poem-2-r26"
+        }
+      ],
+      "lineageId": "cat-ppat-starts-at-appropriate-site"
+    },
+    {
+      "label": {
+        "en": "Choice of anterior or posterior myotomy"
+      },
+      "guidance": {
+        "en": "Meticulously chooses the appropriate orientation for myotomy, performing it on either the anterior (1-2 o'clock) or posterior (5-6 o'clock) side, and avoids the same orientation as any previous surgical or endoscopic myotomy"
+      },
+      "applicability": {
+        "live": "mandatory",
+        "video": "not-applicable"
+      },
+      "assessesRecommendations": [
+        {
+          "lineageId": "rec-poem-2-r28"
+        },
+        {
+          "lineageId": "rec-poem-2-r29"
+        }
+      ],
+      "lineageId": "cat-ppat-choice-of-anterior-or-posterior-myotomy"
+    },
+    {
+      "label": {
+        "en": "Approach to myotomy: mucosal to adventitial or adventitial to mucosal"
+      },
+      "guidance": {
+        "en": "Meticulous choice of approach based on the amount of space in the tunnel. Avoids excessive traction/pressure on the muscle with the knife. Controlled, stepwise incisions made. Able to seamlessly switch between approaches. Maintains the direction perpendicular to the circular muscle"
+      },
+      "applicability": {
+        "live": "mandatory",
+        "video": "mandatory"
+      },
+      "assessesRecommendations": [
+        {
+          "lineageId": "rec-poem-2-r27"
+        }
+      ],
+      "lineageId": "cat-ppat-approach-to-myotomy-mucosal-to-adventitial-or-adve"
+    },
+    {
+      "label": {
+        "en": "Use of adventitial injection to improve safety"
+      },
+      "guidance": {
+        "en": "Repeatedly uses injection into the adventitial space to prevent thermal injury to mediastinal structures when using the mucosal to adventitial approach"
+      },
+      "applicability": {
+        "live": "optional",
+        "video": "optional"
+      },
+      "assessesRecommendations": [
+        {
+          "lineageId": "rec-poem-2-r27"
+        }
+      ],
+      "lineageId": "cat-ppat-use-of-adventitial-injection-to-improve-safety"
+    },
+    {
+      "label": {
+        "en": "Length of the myotomy"
+      },
+      "guidance": {
+        "en": "Independently extends the myotomy 2-3 cm distal to the GEJ and decides the esophageal myotomy length based on the disease being treated, such as 4-7 cm for type I and II achalasia and tailored for type III achalasia and spastic esophageal motility disorders"
+      },
+      "applicability": {
+        "live": "mandatory",
+        "video": "not-applicable"
+      },
+      "assessesRecommendations": [
+        {
+          "lineageId": "rec-poem-2-r31"
+        },
+        {
+          "lineageId": "rec-poem-2-r32"
+        },
+        {
+          "lineageId": "rec-poem-2-r33"
+        },
+        {
+          "lineageId": "rec-poem-2-r34"
+        }
+      ],
+      "lineageId": "cat-ppat-length-of-the-myotomy"
+    },
+    {
+      "label": {
+        "en": "Ensures completeness of myotomy"
+      },
+      "guidance": {
+        "en": "Meticulously inspects the myotomy to ensure complete disruption of the circular layer"
+      },
+      "applicability": {
+        "live": "mandatory",
+        "video": "mandatory"
+      },
+      "assessesRecommendations": [
+        {
+          "lineageId": "rec-poem-2-r30"
+        }
+      ],
+      "lineageId": "cat-ppat-ensures-completeness-of-myotomy"
+    },
+    {
+      "label": {
+        "en": "Closing the mucosal incision"
+      },
+      "guidance": {
+        "en": "Even and accurate placement of clips. Ensures adequate positioning and tissue eversion prior to clip deployment to provide a secure zipper-type closure"
+      },
+      "applicability": {
+        "live": "mandatory",
+        "video": "mandatory"
+      },
+      "assessesRecommendations": [
+        {
+          "lineageId": "rec-poem-2-r35"
+        },
+        {
+          "lineageId": "rec-poem-2-r36"
+        }
+      ],
+      "lineageId": "cat-ppat-closing-the-mucosal-incision"
+    },
+    {
+      "label": {
+        "en": "Preventing and managing bleeding during submucosal tunneling and myotomy"
+      },
+      "guidance": {
+        "en": "Proactively identifies nonbleeding vessels based on size, avoids very large vessels which do not hamper tunnel progression. Pretreats vessels up to 1-1.5 mm with the knife, and considers coagulation forceps for larger vessels. Uses water irrigation and endoscope cap pressure to manage active bleeding effectively. Identifies and treats any bleeding vessels prior to tunnel closure. Appreciates the higher risk of bleeding in the cardia"
+      },
+      "applicability": {
+        "live": "mandatory",
+        "video": "mandatory"
+      },
+      "assessesRecommendations": [
+        {
+          "lineageId": "rec-poem-2-r37"
+        },
+        {
+          "lineageId": "rec-poem-2-r38"
+        }
+      ],
+      "lineageId": "cat-ppat-preventing-and-managing-bleeding-during-submucosal"
+    },
+    {
+      "label": {
+        "en": "Preventing mucosal injuries"
+      },
+      "guidance": {
+        "en": "Carefully avoids mucosal injuries when applying energy, using instruments, and during scope passage within the tunnel. Repeatedly uses injection. Performs dissection close to the muscularis propria and maintains a wide enough tunnel to avoid spray coagulation contact with the mucosa. Is particularly careful while crossing the GEJ. Promptly identifies and treats any mucosal injuries or perforations to prevent expansion and contamination"
+      },
+      "applicability": {
+        "live": "mandatory",
+        "video": "mandatory"
+      },
+      "assessesRecommendations": [
+        {
+          "lineageId": "rec-poem-2-r39"
+        }
+      ],
+      "lineageId": "cat-ppat-preventing-mucosal-injuries"
+    },
+    {
+      "label": {
+        "en": "Managing mucosal injuries"
+      },
+      "guidance": {
+        "en": "Promptly identifies mucosal injuries during and after the procedure. Treats current or potential perforations with appropriate techniques such as TTS or OTS clips, or endoscopic suturing"
+      },
+      "applicability": {
+        "live": "optional",
+        "video": "optional"
+      },
+      "assessesRecommendations": [
+        {
+          "lineageId": "rec-poem-2-r39"
+        },
+        {
+          "lineageId": "rec-poem-2-r40"
+        }
+      ],
+      "lineageId": "cat-ppat-managing-mucosal-injuries"
+    },
+    {
+      "label": {
+        "en": "Preventing and managing gas-related adverse events"
+      },
+      "guidance": {
+        "en": "Independently ensures the insufflation unit is set to use CO2 at a low flow rate (~1.2 L/minute). Continuously assesses the patient for abdominal distension and interrupts the procedure to perform needle decompression of a capnoperitoneum when necessary. Maintains excellent communication with the anesthetic team, promptly responding to changes in hemodynamics, tidal volumes, ventilation, and capnography to review the patient for pleural effusion, capnothorax, or capnoperitoneum. Manages minor levels of capnoperitoneum conservatively and performs needle decompression for large, tense capnoperitoneum associated with hemodynamic or ventilatory compromise"
+      },
+      "applicability": {
+        "live": "mandatory",
+        "video": "not-applicable"
+      },
+      "assessesRecommendations": [
+        {
+          "lineageId": "rec-poem-2-r41"
+        },
+        {
+          "lineageId": "rec-poem-2-r42"
+        },
+        {
+          "lineageId": "rec-poem-2-r43"
+        }
+      ],
+      "lineageId": "cat-ppat-preventing-and-managing-gas-related-adverse-events"
+    },
+    {
+      "label": {
+        "en": "Managing submucosal fibrosis during POEM"
+      },
+      "guidance": {
+        "en": "Promptly recognizes and addresses submucosal fibrosis when poor mucosal lifting impedes tunnel initiation. Creates a second tunnel in an alternative orientation when necessary. Considers concomitant submucosal and muscular dissection in cases of severe fibrosis or obstructing spastic segments"
+      },
+      "applicability": {
+        "live": "optional",
+        "video": "optional"
+      },
+      "assessesRecommendations": [
+        {
+          "lineageId": "rec-poem-2-r44"
+        }
+      ],
+      "lineageId": "cat-ppat-managing-submucosal-fibrosis-during-poem"
+    }
+  ],
+  "_meta": {
+    "provenance": {
+      "type": "verbatim",
+      "source_doi": "10.1055/a-2569-7634"
+    },
+    "encodedBy": "human:david",
+    "encodedAt": "2026-07-03"
+  }
+}

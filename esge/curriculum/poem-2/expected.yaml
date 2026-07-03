@@ -11,7 +11,7 @@ forCurriculum: cur-poem-2-2025
 mainStatements:    15   # verbatim from MAIN RECOMMENDATION summary box (p1-2)
 sections:          10   # 3-12 numbered top-level chapters
 qis:               0    # POEM II does not have a Table 6 of QIs
-gpatItems:         0    # PPAT (Precision POEM Assessment Tool) encoded separately; may be added as cat artifact in a follow-up
+gpatItems:         29    # 29 components across 8 domains, from Table 4
 references:        134  # 134/134 Crossref-resolved (7 low-confidence)
 
 recommendations:

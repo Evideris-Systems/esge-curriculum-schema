@@ -561,7 +561,8 @@
     "31 additional recommendations auto-extracted from source PDF via scripts/extract-recommendations.py (verbatim statement+GRADE+sub-items+references; all pass source-trace)",
     "All 18 Table 6 QIs encoded (was 5 \u2014 added 13 more via scripts/extract-qis.py one-shot extractor)",
     "Second curriculum ingested: ESGE ESD 2019 (Pimentel-Nunes/Pioche). 1 curriculum wrapper + 17 recommendations + 3 QIs + 77-ref bibliography. First curriculum with LoA-only (no GRADE); schema updated to allow top-level levelOfAgreement on rec + optional grade block.",
-    "Third curriculum: POEM Part II (Tate co-first-author). 48 recommendations with GRADE + LoA, 134-ref bibliography (all Crossref-resolved), 15 verbatim main statements. Sub-item label schema relaxed to allow Arabic numerals (paper uses 1.,2.,3. instead of (i)(ii)(iii)). PPAT (Precision POEM Assessment Tool, 28 components) shell only; full component encoding deferred to a follow-up session."
+    "Third curriculum: POEM Part II (Tate co-first-author). 48 recommendations with GRADE + LoA, 134-ref bibliography (all Crossref-resolved), 15 verbatim main statements. Sub-item label schema relaxed to allow Arabic numerals (paper uses 1.,2.,3. instead of (i)(ii)(iii)). PPAT (Precision POEM Assessment Tool, 28 components) shell only; full component encoding deferred to a follow-up session.",
+    "PPAT (Precision POEM Assessment Tool) full component encoding: 29 items across 8 domains, 25 mandatory + 4 non-mandatory (x, xxi, xxvii, xxix). Verbatim from source Table 4."
   ],
   "patchBumps": [],
   "_meta": {

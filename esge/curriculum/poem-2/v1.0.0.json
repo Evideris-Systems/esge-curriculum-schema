@@ -316,7 +316,9 @@
     "rec-poem-2-r48-esge-suggests-favoring-the-use-of-a-ct-esophagram-with-oral"
   ],
   "qis": [],
-  "cats": [],
+  "cats": [
+    "cat-ppat"
+  ],
   "kpis": [],
   "standards": [],
   "_meta": {
