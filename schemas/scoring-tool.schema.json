@@ -143,7 +143,11 @@
     "supersedes": true,
     "supersededBy": true,
     "language": true,
-    "_meta": true
+    "_meta": true,
+    "withinCurriculum": {
+      "$ref": "_common.schema.json#/$defs/lineageId",
+      "description": "Curriculum lineageId that introduces / defines this scoring tool. Used by the reader to filter tools per-curriculum so that e.g. SMSA (an EMR tool) does not render on POEM or ESD pages."
+    }
   },
   "additionalProperties": false
 }

@@ -7,70 +7,163 @@
   "release": "r2026.07",
   "supersedes": null,
   "supersededBy": null,
-  "language": ["en"],
-
-  "title": { "en": "SMSA (size, morphology, site, and access) score" },
-  "description": { "en": "The SMSA score is composed of four domains, which are allocated points; adding the points for each domain results in a score of 1–4." },
+  "language": [
+    "en"
+  ],
+  "title": {
+    "en": "SMSA (size, morphology, site, and access) score"
+  },
+  "description": {
+    "en": "The SMSA score is composed of four domains, which are allocated points; adding the points for each domain results in a score of 1\u20134."
+  },
   "domain": "polypectomy-difficulty",
-
   "scale": {
     "kind": "composite-additive",
     "min": 4,
     "max": 12,
     "bands": [
-      { "label": { "en": "1" },     "from": 4,  "to": 5  },
-      { "label": { "en": "2" },     "from": 6,  "to": 9  },
-      { "label": { "en": "3" },     "from": 9,  "to": 12 },
-      { "label": { "en": "4" },     "from": 13, "to": 99 }
+      {
+        "label": {
+          "en": "1"
+        },
+        "from": 4,
+        "to": 5
+      },
+      {
+        "label": {
+          "en": "2"
+        },
+        "from": 6,
+        "to": 9
+      },
+      {
+        "label": {
+          "en": "3"
+        },
+        "from": 9,
+        "to": 12
+      },
+      {
+        "label": {
+          "en": "4"
+        },
+        "from": 13,
+        "to": 99
+      }
     ]
   },
-
   "inputs": [
     {
       "name": "size",
-      "label": { "en": "Size, cm" },
+      "label": {
+        "en": "Size, cm"
+      },
       "values": [
-        { "score": 1, "label": { "en": "< 1 cm" } },
-        { "score": 3, "label": { "en": "1–1.9" } },
-        { "score": 5, "label": { "en": "2–2.9" } },
-        { "score": 7, "label": { "en": "3–3.9" } },
-        { "score": 9, "label": { "en": "> 4" } }
+        {
+          "score": 1,
+          "label": {
+            "en": "< 1 cm"
+          }
+        },
+        {
+          "score": 3,
+          "label": {
+            "en": "1\u20131.9"
+          }
+        },
+        {
+          "score": 5,
+          "label": {
+            "en": "2\u20132.9"
+          }
+        },
+        {
+          "score": 7,
+          "label": {
+            "en": "3\u20133.9"
+          }
+        },
+        {
+          "score": 9,
+          "label": {
+            "en": "> 4"
+          }
+        }
       ]
     },
     {
       "name": "morphology",
-      "label": { "en": "Morphology" },
+      "label": {
+        "en": "Morphology"
+      },
       "values": [
-        { "score": 1, "label": { "en": "Pedunculated" } },
-        { "score": 2, "label": { "en": "Sessile" } },
-        { "score": 3, "label": { "en": "Flat" } }
+        {
+          "score": 1,
+          "label": {
+            "en": "Pedunculated"
+          }
+        },
+        {
+          "score": 2,
+          "label": {
+            "en": "Sessile"
+          }
+        },
+        {
+          "score": 3,
+          "label": {
+            "en": "Flat"
+          }
+        }
       ]
     },
     {
       "name": "site",
-      "label": { "en": "Site" },
+      "label": {
+        "en": "Site"
+      },
       "values": [
-        { "score": 1, "label": { "en": "Left colon" } },
-        { "score": 2, "label": { "en": "Right colon" } }
+        {
+          "score": 1,
+          "label": {
+            "en": "Left colon"
+          }
+        },
+        {
+          "score": 2,
+          "label": {
+            "en": "Right colon"
+          }
+        }
       ]
     },
     {
       "name": "access",
-      "label": { "en": "Access" },
+      "label": {
+        "en": "Access"
+      },
       "values": [
-        { "score": 1, "label": { "en": "Easy" } },
-        { "score": 3, "label": { "en": "Difficult" } }
+        {
+          "score": 1,
+          "label": {
+            "en": "Easy"
+          }
+        },
+        {
+          "score": 3,
+          "label": {
+            "en": "Difficult"
+          }
+        }
       ]
     }
   ],
-
   "references": [
     {
       "id": "ref-36",
-      "citation": "Gupta S, Miskovic D, Bhandari P et al. A novel method for determining the difficulty of colonoscopic polypectomy. Frontline Gastroenterol 2013; 4: 244–248. doi:10.1136/flgastro-2013-100331"
+      "citation": "Gupta S, Miskovic D, Bhandari P et al. A novel method for determining the difficulty of colonoscopic polypectomy. Frontline Gastroenterol 2013; 4: 244\u2013248. doi:10.1136/flgastro-2013-100331"
     }
   ],
-
   "_meta": {
     "provenance": {
       "type": "verbatim",
@@ -78,5 +171,6 @@
     },
     "encodedBy": "human:david",
     "encodedAt": "2026-06-27"
-  }
+  },
+  "withinCurriculum": "cur-emr-colon-2023"
 }
