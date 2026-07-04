@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://schema.evideris.com/schemas/figure.schema.json",
+  "title": "Figure (source-canonical)",
+  "description": "A figure from an ESGE Position Statement. Stored as caption + source URL only; images are hotlinked from the publisher's CDN (Thieme Connect for Endoscopy papers) rather than rehosted, so we don't need to worry about redistribution rights. Full-res URL for the modal / zoom target; thumbnail URL for the inline card.",
+  "type": "object",
+  "required": ["$id", "lineageId", "type", "version", "release", "language", "withinCurriculum", "number", "caption", "sourceUrls", "_meta"],
+  "properties": {
+    "$schema": { "type": "string", "format": "uri" },
+    "$id":     { "$ref": "_common.schema.json#/$defs/versionedUrl" },
+    "lineageId": { "$ref": "_common.schema.json#/$defs/lineageId" },
+    "type":      { "const": "figure" },
+    "version":   { "$ref": "_common.schema.json#/$defs/semverString" },
+    "release":   { "$ref": "_common.schema.json#/$defs/calverRelease" },
+    "supersedes":   { "anyOf": [{ "type": "null" }, { "$ref": "_common.schema.json#/$defs/versionedUrl" }] },
+    "supersededBy": { "anyOf": [{ "type": "null" }, { "$ref": "_common.schema.json#/$defs/versionedUrl" }] },
+    "language": {
+      "type": "array",
+      "items": { "type": "string", "pattern": "^[a-z]{2}(-[A-Z]{2})?$" },
+      "minItems": 1, "uniqueItems": true
+    },
+    "withinCurriculum": { "$ref": "_common.schema.json#/$defs/lineageId" },
+    "number":     { "type": "integer", "minimum": 1, "description": "Figure N (as printed)." },
+    "caption":    { "$ref": "_common.schema.json#/$defs/localeKeyedString" },
+    "panels": {
+      "type": "array",
+      "description": "Optional per-panel labels + short descriptions (e.g. Fig 2a, 2b, 2c). Panel captions are usually embedded in the main figure caption; this array is for future per-panel cross-reference.",
+      "items": {
+        "type": "object",
+        "required": ["label"],
+        "properties": {
+          "label": { "type": "string", "pattern": "^[a-z]$|^[0-9]+$|^[ivx]+$" },
+          "description": { "$ref": "_common.schema.json#/$defs/localeKeyedString" }
+        },
+        "additionalProperties": false
+      }
+    },
+    "sourceUrls": {
+      "type": "object",
+      "description": "Publisher-hosted image URLs. Reader hotlinks these directly.",
+      "required": ["fullRes"],
+      "properties": {
+        "fullRes":   { "type": "string", "format": "uri" },
+        "thumbnail": { "type": "string", "format": "uri" }
+      },
+      "additionalProperties": false
+    },
+    "_meta": { "$ref": "_common.schema.json#/$defs/metaBlock" }
+  },
+  "additionalProperties": false,
+  "$comment": "Figures live at esge/figure/<curriculum-slug>/fig-<N>.v1.0.0.json. Copyright: images are © the publisher (Thieme for Endoscopy papers) and NOT included in the source-canonical repo's CC BY 4.0 licence — we only store caption text (allowed under CC BY 4.0) plus a URL back to the publisher's CDN."
+}

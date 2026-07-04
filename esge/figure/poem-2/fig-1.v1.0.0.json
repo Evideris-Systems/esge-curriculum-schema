@@ -1,0 +1,31 @@
+{
+  "$schema": "https://schema.evideris.com/schemas/figure.schema.json",
+  "$id": "https://schema.evideris.com/esge/figure/poem-2/fig-1.v1.0.0.json",
+  "lineageId": "fig-poem-2-1",
+  "type": "figure",
+  "version": "1.0.0",
+  "release": "r2026.07",
+  "supersedes": null,
+  "supersededBy": null,
+  "language": [
+    "en"
+  ],
+  "withinCurriculum": "cur-poem-2-2025",
+  "number": 1,
+  "caption": {
+    "en": "The ESGE suggested peroral endoscopic myotomy (POEM) equipment checklist."
+  },
+  "panels": [],
+  "sourceUrls": {
+    "fullRes": "https://www.thieme-connect.de/media/endoscopy/202508/10-1055-a-2569-7634-i25305en1.gif",
+    "thumbnail": "https://www.thieme-connect.de/media/endoscopy/202508/thumbnails/10-1055-a-2569-7634-i25305en1.gif"
+  },
+  "_meta": {
+    "provenance": {
+      "type": "verbatim",
+      "source_doi": "10.1055/a-2569-7634"
+    },
+    "encodedBy": "human:david",
+    "encodedAt": "2026-07-04"
+  }
+}

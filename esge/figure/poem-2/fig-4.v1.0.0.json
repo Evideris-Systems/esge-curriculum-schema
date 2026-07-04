@@ -1,0 +1,68 @@
+{
+  "$schema": "https://schema.evideris.com/schemas/figure.schema.json",
+  "$id": "https://schema.evideris.com/esge/figure/poem-2/fig-4.v1.0.0.json",
+  "lineageId": "fig-poem-2-4",
+  "type": "figure",
+  "version": "1.0.0",
+  "release": "r2026.07",
+  "supersedes": null,
+  "supersededBy": null,
+  "language": [
+    "en"
+  ],
+  "withinCurriculum": "cur-poem-2-2025",
+  "number": 4,
+  "caption": {
+    "en": "Images of the management of a mucosal injury type 1 and evolution to a mucosal injury type 2 when left untreated (different patients) showing: a a mucosal injury type 1 viewed in the tunnel (delineated by a dotted line); b the same injury viewed from the esophageal lumen (delineated by a dotted line) a few seconds after the injury occurred; c the onset of surrounding erythema 20 minutes after the injury occurred; d a through-the-scope clip placed to treat the mucosal injury; e the final appearance after closure; f a type 2 mucosal injury that evolved over 48 hours from an unrecognized type 1 mucosal injury."
+  },
+  "panels": [
+    {
+      "label": "a",
+      "description": {
+        "en": "Mucosal injury type 1 viewed in the tunnel (dotted line)."
+      }
+    },
+    {
+      "label": "b",
+      "description": {
+        "en": "Same injury viewed from the esophageal lumen a few seconds after occurrence."
+      }
+    },
+    {
+      "label": "c",
+      "description": {
+        "en": "Onset of surrounding erythema 20 minutes after the injury occurred."
+      }
+    },
+    {
+      "label": "d",
+      "description": {
+        "en": "Through-the-scope clip placed to treat the mucosal injury."
+      }
+    },
+    {
+      "label": "e",
+      "description": {
+        "en": "Final appearance after closure."
+      }
+    },
+    {
+      "label": "f",
+      "description": {
+        "en": "Type 2 mucosal injury that evolved over 48 hours from an unrecognized type 1 injury."
+      }
+    }
+  ],
+  "sourceUrls": {
+    "fullRes": "https://www.thieme-connect.de/media/endoscopy/202508/10-1055-a-2569-7634-i25305en4.jpg",
+    "thumbnail": "https://www.thieme-connect.de/media/endoscopy/202508/thumbnails/10-1055-a-2569-7634-i25305en4.jpg"
+  },
+  "_meta": {
+    "provenance": {
+      "type": "verbatim",
+      "source_doi": "10.1055/a-2569-7634"
+    },
+    "encodedBy": "human:david",
+    "encodedAt": "2026-07-04"
+  }
+}

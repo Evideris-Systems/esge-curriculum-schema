@@ -1,0 +1,56 @@
+{
+  "$schema": "https://schema.evideris.com/schemas/figure.schema.json",
+  "$id": "https://schema.evideris.com/esge/figure/poem-2/fig-2.v1.0.0.json",
+  "lineageId": "fig-poem-2-2",
+  "type": "figure",
+  "version": "1.0.0",
+  "release": "r2026.07",
+  "supersedes": null,
+  "supersededBy": null,
+  "language": [
+    "en"
+  ],
+  "withinCurriculum": "cur-poem-2-2025",
+  "number": 2,
+  "caption": {
+    "en": "Important endoscopic appearances correlating with the landmarks of the gastroesophageal junction (GEJ) during peroral endoscopic myotomy (POEM) include: a spindle-shaped veins marking the approximate location of the GEJ (arrows) \u2013 a narrow submucosal dissection plane with significant submucosal fibrosis is seen in this image (delineated by the dotted line); b a dye-stained bulge upon retroflexion in the gastric cardia (*); c narrowing of the submucosal tunnel representing the position of the GEJ (diaphragm + lower esophageal sphincter) (*); d penetrating vessels (PV) at the GEJ."
+  },
+  "panels": [
+    {
+      "label": "a",
+      "description": {
+        "en": "Spindle-shaped veins marking the approximate location of the GEJ; narrow submucosal dissection plane with significant submucosal fibrosis (dotted line)."
+      }
+    },
+    {
+      "label": "b",
+      "description": {
+        "en": "Dye-stained bulge upon retroflexion in the gastric cardia."
+      }
+    },
+    {
+      "label": "c",
+      "description": {
+        "en": "Narrowing of the submucosal tunnel representing the position of the GEJ (diaphragm + lower esophageal sphincter)."
+      }
+    },
+    {
+      "label": "d",
+      "description": {
+        "en": "Penetrating vessels (PV) at the GEJ."
+      }
+    }
+  ],
+  "sourceUrls": {
+    "fullRes": "https://www.thieme-connect.de/media/endoscopy/202508/10-1055-a-2569-7634-i25305en2.jpg",
+    "thumbnail": "https://www.thieme-connect.de/media/endoscopy/202508/thumbnails/10-1055-a-2569-7634-i25305en2.jpg"
+  },
+  "_meta": {
+    "provenance": {
+      "type": "verbatim",
+      "source_doi": "10.1055/a-2569-7634"
+    },
+    "encodedBy": "human:david",
+    "encodedAt": "2026-07-04"
+  }
+}
