@@ -1,0 +1,31 @@
+{
+  "$schema": "https://schema.evideris.com/schemas/figure.schema.json",
+  "$id": "https://schema.evideris.com/esge/figure/emr-colon/fig-1.v1.0.0.json",
+  "lineageId": "fig-emr-colon-1",
+  "type": "figure",
+  "version": "1.0.0",
+  "release": "r2026.07",
+  "supersedes": null,
+  "supersededBy": null,
+  "language": [
+    "en"
+  ],
+  "withinCurriculum": "cur-emr-colon-2023",
+  "number": 1,
+  "caption": {
+    "en": "Fig. 1 Illustration of the proposed stepwise approach to cancer detection within colorectal polyps. First look for surrogate markers of cancer and the presence of a demarcated area. A demarcated area with a disordered vascular pattern implies the lesion is at very high or overt risk of cancer and should be considered for en bloc endoscopic resection or surgery (multidisciplinary decision). If there is no demarcated area or the demarcated area contains no disordered vascular pattern, the four parameters of covert cancer risk should be determined to identify the covert risk of cancer and need for en bloc endoscopic resection. LNPCP, large non-pedunculated colorectal polyp; EMR, endoscopic mucosal resection; Paris, Paris classification; sm, submucosa; NICE, Narrow-band imaging International Colorectal Endoscopic classification; JNET, Japan NBI Expert Team. * Requires a multidisciplinary approach."
+  },
+  "panels": [],
+  "sourceUrls": {
+    "fullRes": "https://www.thieme-connect.de/media/endoscopy/202307/10-1055-a-2077-0497-i22981en1.gif",
+    "thumbnail": "https://www.thieme-connect.de/media/endoscopy/202307/thumbnails/10-1055-a-2077-0497-i22981en1.gif"
+  },
+  "_meta": {
+    "provenance": {
+      "type": "verbatim",
+      "source_doi": "10.1055/a-2077-0497"
+    },
+    "encodedBy": "human:david",
+    "encodedAt": "2026-07-04"
+  }
+}

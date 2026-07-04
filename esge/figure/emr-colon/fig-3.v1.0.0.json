@@ -1,0 +1,31 @@
+{
+  "$schema": "https://schema.evideris.com/schemas/figure.schema.json",
+  "$id": "https://schema.evideris.com/esge/figure/emr-colon/fig-3.v1.0.0.json",
+  "lineageId": "fig-emr-colon-3",
+  "type": "figure",
+  "version": "1.0.0",
+  "release": "r2026.07",
+  "supersedes": null,
+  "supersededBy": null,
+  "language": [
+    "en"
+  ],
+  "withinCurriculum": "cur-emr-colon-2023",
+  "number": 3,
+  "caption": {
+    "en": "Fig. 3 Images showing a standardized approach to scar assessment after endoscopic mucosal resection."
+  },
+  "panels": [],
+  "sourceUrls": {
+    "fullRes": "https://www.thieme-connect.de/media/endoscopy/202307/10-1055-a-2077-0497-i22981en3.gif",
+    "thumbnail": "https://www.thieme-connect.de/media/endoscopy/202307/thumbnails/10-1055-a-2077-0497-i22981en3.gif"
+  },
+  "_meta": {
+    "provenance": {
+      "type": "verbatim",
+      "source_doi": "10.1055/a-2077-0497"
+    },
+    "encodedBy": "human:david",
+    "encodedAt": "2026-07-04"
+  }
+}

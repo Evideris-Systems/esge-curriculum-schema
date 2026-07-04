@@ -83,5 +83,8 @@
         "source_span": "Hand-extracted from source PDF after careful cross-rec attribution; PDF column flow had scattered these sub-items across the narrative subsection containing R17."
       }
     }
-  }
+  },
+  "figureRefs": [
+    "fig-emr-colon-2"
+  ]
 }
