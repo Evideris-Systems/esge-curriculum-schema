@@ -34,6 +34,7 @@ TYPE_TO_SCHEMA = {
     "qi":             "qi.schema.json",
     "cat":            "cat.schema.json",
     "figure":         "figure.schema.json",
+    "table":          "table.schema.json",
     "references":     "references.schema.json",
 }
 

@@ -1,0 +1,84 @@
+{
+  "$schema": "https://schema.evideris.com/schemas/table.schema.json",
+  "$id": "https://schema.evideris.com/esge/table/emr-colon/table-5.v1.0.0.json",
+  "lineageId": "table-emr-colon-5",
+  "type": "table",
+  "version": "1.0.0",
+  "release": "r2026.07",
+  "supersedes": null,
+  "supersededBy": null,
+  "language": [
+    "en"
+  ],
+  "withinCurriculum": "cur-emr-colon-2023",
+  "number": "5",
+  "title": {
+    "en": "Table 5 Possible conversion of GPAT thresholds to SMSA scores for increasing difficulty of polypectomy, allowing for potential accreditation of specific difficulties of polypectomy."
+  },
+  "columns": [
+    {
+      "header": {
+        "en": "Possible GPAT threshold for accreditation[ 1 ]"
+      }
+    },
+    {
+      "header": {
+        "en": "SMSA score"
+      }
+    }
+  ],
+  "rows": [
+    {
+      "cells": [
+        {
+          "en": "0.13 (0\u20130.25)"
+        },
+        {
+          "en": "2"
+        }
+      ],
+      "isGroupHeader": false
+    },
+    {
+      "cells": [
+        {
+          "en": "0.38 (0.26\u20130.5)"
+        },
+        {
+          "en": "3"
+        }
+      ],
+      "isGroupHeader": false
+    },
+    {
+      "cells": [
+        {
+          "en": "0.63 (0.51\u20130.75)"
+        },
+        {
+          "en": "4"
+        }
+      ],
+      "isGroupHeader": false
+    },
+    {
+      "cells": [
+        {
+          "en": "0.88 (0.76\u20131.0)"
+        },
+        {
+          "en": "+"
+        }
+      ],
+      "isGroupHeader": false
+    }
+  ],
+  "_meta": {
+    "provenance": {
+      "type": "verbatim",
+      "source_doi": "10.1055/a-2077-0497"
+    },
+    "encodedBy": "human:david",
+    "encodedAt": "2026-07-04"
+  }
+}

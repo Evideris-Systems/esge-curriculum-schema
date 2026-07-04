@@ -1,0 +1,80 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://schema.evideris.com/schemas/table.schema.json",
+  "title": "Table (source-canonical)",
+  "description": "A data / reference table from an ESGE Position Statement — clinical decision tables, side-by-side comparisons, scoring rubrics, etc. Distinct from `cat` (which is an assessment instrument with score-per-item semantics) and from `qi` (which is a single indicator with target thresholds). Stored as structured rows so the reader can display it as a proper HTML table.",
+  "type": "object",
+  "required": ["$id", "lineageId", "type", "version", "release", "language", "withinCurriculum", "number", "title", "columns", "rows", "_meta"],
+  "properties": {
+    "$schema": { "type": "string", "format": "uri" },
+    "$id":     { "$ref": "_common.schema.json#/$defs/versionedUrl" },
+    "lineageId": { "$ref": "_common.schema.json#/$defs/lineageId" },
+    "type":      { "const": "table" },
+    "version":   { "$ref": "_common.schema.json#/$defs/semverString" },
+    "release":   { "$ref": "_common.schema.json#/$defs/calverRelease" },
+    "supersedes":   { "anyOf": [{ "type": "null" }, { "$ref": "_common.schema.json#/$defs/versionedUrl" }] },
+    "supersededBy": { "anyOf": [{ "type": "null" }, { "$ref": "_common.schema.json#/$defs/versionedUrl" }] },
+    "language": {
+      "type": "array",
+      "items": { "type": "string", "pattern": "^[a-z]{2}(-[A-Z]{2})?$" },
+      "minItems": 1, "uniqueItems": true
+    },
+    "withinCurriculum": { "$ref": "_common.schema.json#/$defs/lineageId" },
+    "number":     { "type": "string", "pattern": "^\\d+[a-z]?$", "description": "Table N (as printed) — may include letter suffix (e.g. '2a', '2b')." },
+    "title":      { "$ref": "_common.schema.json#/$defs/localeKeyedString" },
+    "columns": {
+      "type": "array",
+      "description": "Column headers, left-to-right.",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["header"],
+        "properties": {
+          "header": { "$ref": "_common.schema.json#/$defs/localeKeyedString" },
+          "align":  { "enum": ["left", "right", "center"] }
+        },
+        "additionalProperties": false
+      }
+    },
+    "rows": {
+      "type": "array",
+      "description": "Table body rows. Each row's `cells` length should match `columns` length.",
+      "items": {
+        "type": "object",
+        "required": ["cells"],
+        "properties": {
+          "cells": {
+            "type": "array",
+            "items": { "$ref": "_common.schema.json#/$defs/localeKeyedString" }
+          },
+          "isGroupHeader": {
+            "type": "boolean",
+            "description": "True when this row is a spanning sub-heading (e.g. 'Adverse events' before a group of QIs). Renderer emits a full-width `<th>` row instead of `<td>`s."
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "footnotes": {
+      "type": "array",
+      "description": "Optional footnote markers → text (e.g. superscript 1 → citation).",
+      "items": {
+        "type": "object",
+        "required": ["marker", "text"],
+        "properties": {
+          "marker": { "type": "string" },
+          "text":   { "$ref": "_common.schema.json#/$defs/localeKeyedString" }
+        },
+        "additionalProperties": false
+      }
+    },
+    "assessesRecommendations": {
+      "type": "array",
+      "description": "Optional back-references to recommendation lineageIds that this table supports.",
+      "items": { "$ref": "_common.schema.json#/$defs/lineageId" }
+    },
+    "_meta": { "$ref": "_common.schema.json#/$defs/metaBlock" }
+  },
+  "additionalProperties": false,
+  "$comment": "Tables live at esge/table/<curriculum-slug>/table-<N>.v1.0.0.json. Copyright: table content is CC BY 4.0 verbatim from source (allowed under the paper's licence)."
+}

@@ -1,0 +1,86 @@
+{
+  "$schema": "https://schema.evideris.com/schemas/table.schema.json",
+  "$id": "https://schema.evideris.com/esge/table/emr-colon/table-1.v1.0.0.json",
+  "lineageId": "table-emr-colon-1",
+  "type": "table",
+  "version": "1.0.0",
+  "release": "r2026.07",
+  "supersedes": null,
+  "supersededBy": null,
+  "language": [
+    "en"
+  ],
+  "withinCurriculum": "cur-emr-colon-2023",
+  "number": "1",
+  "title": {
+    "en": "Table 1 Situations in which en bloc endoscopic resection or surgery may be preferred over a piecemeal endoscopic mucosal resection (EMR)."
+  },
+  "columns": [
+    {
+      "header": {
+        "en": "En bloc resection (endoscopy) preferred"
+      }
+    },
+    {
+      "header": {
+        "en": "Surgery preferred"
+      }
+    },
+    {
+      "header": {
+        "en": "Piecemeal EMR standard of care alternative"
+      }
+    }
+  ],
+  "rows": [
+    {
+      "cells": [
+        {
+          "en": "Endoscopic imaging suggests superficial submucosal invasive cancer (Kudo Vi, JNET 2B) (see Recommendation 3)"
+        },
+        {
+          "en": "Endoscopic imaging suggests risk of deep submucosal invasive cancer (Kudo Vn / JNET 3/ NICE III) (see Recommendation 3)"
+        },
+        {
+          "en": "All other cases"
+        }
+      ],
+      "isGroupHeader": false
+    },
+    {
+      "cells": [
+        {
+          "en": "Bulky LNPCP (Is, IIa + Is with nodule > 10 mm) in the rectum (risk of covert SMI)"
+        },
+        {
+          "en": "LNPCPs with Paris 0-IIa + c morphology without ulceration"
+        }
+      ],
+      "isGroupHeader": false
+    },
+    {
+      "cells": [
+        {
+          "en": "LNPCPs invading deeply into the appendiceal orifice (also consider FTR)"
+        }
+      ],
+      "isGroupHeader": true
+    },
+    {
+      "cells": [
+        {
+          "en": "Inadequate endoscopic access even by an expert"
+        }
+      ],
+      "isGroupHeader": true
+    }
+  ],
+  "_meta": {
+    "provenance": {
+      "type": "verbatim",
+      "source_doi": "10.1055/a-2077-0497"
+    },
+    "encodedBy": "human:david",
+    "encodedAt": "2026-07-04"
+  }
+}

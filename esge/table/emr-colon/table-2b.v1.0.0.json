@@ -1,0 +1,186 @@
+{
+  "$schema": "https://schema.evideris.com/schemas/table.schema.json",
+  "$id": "https://schema.evideris.com/esge/table/emr-colon/table-2b.v1.0.0.json",
+  "lineageId": "table-emr-colon-2b",
+  "type": "table",
+  "version": "1.0.0",
+  "release": "r2026.07",
+  "supersedes": null,
+  "supersededBy": null,
+  "language": [
+    "en"
+  ],
+  "withinCurriculum": "cur-emr-colon-2023",
+  "number": "2b",
+  "title": {
+    "en": "Table 2b Scoring system for the SMSA+ score[ 1 ]."
+  },
+  "columns": [
+    {
+      "header": {
+        "en": "Size, cm"
+      }
+    },
+    {
+      "header": {
+        "en": "Points"
+      }
+    },
+    {
+      "header": {
+        "en": "Difficult location [ 2 ]"
+      }
+    },
+    {
+      "header": {
+        "en": "Points"
+      }
+    },
+    {
+      "header": {
+        "en": "Non-lifting/ previous attempt"
+      }
+    },
+    {
+      "header": {
+        "en": "Points"
+      }
+    },
+    {
+      "header": {
+        "en": "Granularity"
+      }
+    },
+    {
+      "header": {
+        "en": "Points"
+      }
+    }
+  ],
+  "rows": [
+    {
+      "cells": [
+        {
+          "en": "< 4"
+        },
+        {
+          "en": "0"
+        },
+        {
+          "en": "No"
+        },
+        {
+          "en": "0"
+        },
+        {
+          "en": "No"
+        },
+        {
+          "en": "0"
+        },
+        {
+          "en": "Granular"
+        },
+        {
+          "en": "0"
+        }
+      ],
+      "isGroupHeader": false
+    },
+    {
+      "cells": [
+        {
+          "en": "\u2265 4"
+        },
+        {
+          "en": "1"
+        },
+        {
+          "en": "Yes"
+        },
+        {
+          "en": "1"
+        },
+        {
+          "en": "Yes"
+        },
+        {
+          "en": "1"
+        },
+        {
+          "en": "Non-granular \u2265 20 mm"
+        },
+        {
+          "en": "1"
+        }
+      ],
+      "isGroupHeader": false
+    },
+    {
+      "cells": [
+        {
+          "en": "SMSA+ score"
+        },
+        {
+          "en": "Positive"
+        },
+        {
+          "en": "Negative"
+        },
+        {
+          "en": " "
+        },
+        {
+          "en": " "
+        },
+        {
+          "en": " "
+        },
+        {
+          "en": " "
+        },
+        {
+          "en": " "
+        }
+      ],
+      "isGroupHeader": false
+    },
+    {
+      "cells": [
+        {
+          "en": "Total points"
+        },
+        {
+          "en": "\u2265 1"
+        },
+        {
+          "en": "< 1"
+        },
+        {
+          "en": " "
+        },
+        {
+          "en": " "
+        },
+        {
+          "en": " "
+        },
+        {
+          "en": " "
+        },
+        {
+          "en": " "
+        }
+      ],
+      "isGroupHeader": false
+    }
+  ],
+  "_meta": {
+    "provenance": {
+      "type": "verbatim",
+      "source_doi": "10.1055/a-2077-0497"
+    },
+    "encodedBy": "human:david",
+    "encodedAt": "2026-07-04"
+  }
+}

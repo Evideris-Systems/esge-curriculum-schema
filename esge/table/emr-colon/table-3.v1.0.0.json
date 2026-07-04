@@ -1,0 +1,227 @@
+{
+  "$schema": "https://schema.evideris.com/schemas/table.schema.json",
+  "$id": "https://schema.evideris.com/esge/table/emr-colon/table-3.v1.0.0.json",
+  "lineageId": "table-emr-colon-3",
+  "type": "table",
+  "version": "1.0.0",
+  "release": "r2026.07",
+  "supersedes": null,
+  "supersededBy": null,
+  "language": [
+    "en"
+  ],
+  "withinCurriculum": "cur-emr-colon-2023",
+  "number": "3",
+  "title": {
+    "en": "Table 3 Differences highlighted in this curriculum between the best practice technique for cold versus hot snare endoscopic mucosal resection (EMR)[ 1 ]."
+  },
+  "columns": [
+    {
+      "header": {
+        "en": "Domain"
+      }
+    },
+    {
+      "header": {
+        "en": "Cold EMR statement"
+      }
+    },
+    {
+      "header": {
+        "en": "Hot EMR statement"
+      }
+    },
+    {
+      "header": {
+        "en": "Rationale"
+      }
+    }
+  ],
+  "rows": [
+    {
+      "cells": [
+        {
+          "en": "Injection technique"
+        }
+      ],
+      "isGroupHeader": true
+    },
+    {
+      "cells": [
+        {
+          "en": "Approach to lesion lifting"
+        },
+        {
+          "en": "Use injection to improve lesion access and visualization; Recommendation 16(i)"
+        },
+        {
+          "en": "Do not attempt to lift the whole lesion at once. Start by lifting only the part you will start to resect. Then follow a process of sequential inject and resect for larger lesions; Recommendation 19(i)"
+        },
+        {
+          "en": "Injection is not required for cold snare EMR; if it is used it is to aid polyp access or to better define margins. Over-injection can increase the tension in the colonic mucosa and prevent tissue capture during hot snare EMR. Because dedicated cold snares capture tissue more easily and target lesions for cold snare EMR are often smaller, the importance of this is reduced"
+        }
+      ],
+      "isGroupHeader": false
+    },
+    {
+      "cells": [
+        {
+          "en": "Snare placement technique"
+        }
+      ],
+      "isGroupHeader": true
+    },
+    {
+      "cells": [
+        {
+          "en": "Snare type"
+        },
+        {
+          "en": "Use a dedicated cold snare; Recommendation 17(i)"
+        },
+        {
+          "en": "Use an appropriate snare for the lesion and situation; Recommendation 20(i)"
+        },
+        {
+          "en": "For cold snare EMR, crisper resection margins which are easier to examine for residual tissue can be achieved using a dedicated cold snare. This is especially important for piecemeal cold snare polypectomy. In hot snare polypectomy, electrosurgical energy ensures interpretable resection margins. Different snares may be required in different situations; see curriculum text, Recommendation 20(i)"
+        }
+      ],
+      "isGroupHeader": false
+    },
+    {
+      "cells": [
+        {
+          "en": "Snare size"
+        },
+        {
+          "en": "A maximum snare diameter of 10 mm is recommended for piecemeal cold snare polypectomy; Recommendation 17(ii)"
+        },
+        {
+          "en": "Use of an appropriate size snare for the lesion (maximum 15 mm snare for the right colon and 20 mm for the left colon); Recommendation 20(ii)"
+        },
+        {
+          "en": "Snare sizes > 10 mm do not tend to reliably transect tissue without electrosurgical energy. The snare sizes denoted in the recommendation are those recommended for hot snare EMR to ensure safety [ 116 ]"
+        }
+      ],
+      "isGroupHeader": false
+    },
+    {
+      "cells": [
+        {
+          "en": "Maximizing tissue capture"
+        },
+        {
+          "en": "For cold snare using a dedicated thin-wire snare pushing the snare against the colonic wall is also effective to maximize tissue capture; Recommendation 17(viii)"
+        },
+        {
+          "en": "Use aspiration of luminal gas and firm downward pressure with the tip of the endoscope whilst closing the snare to aid tissue capture; Recommendation 20(viii)"
+        },
+        {
+          "en": "Use of a dedicated thin-wire snare for cold snare EMR often allows more reliable capture of tissue without requiring the maneuvers described in Recommendation 20(viii) which are useful when using a thicker wire snare for hot snare EMR"
+        }
+      ],
+      "isGroupHeader": false
+    },
+    {
+      "cells": [
+        {
+          "en": "Snare closure"
+        },
+        {
+          "en": "The endoscopist issues an instruction to cut the tissue and the assistant closes the snare fully or the endoscopist takes the snare themselves and cuts the tissue. The assistant should not re-open the snare unless instructed to do so by the endoscopist; Recommendation 17(xiii)"
+        },
+        {
+          "en": "At this stage the endoscopist may take the snare and close the handle such that approximately 1 cm remains between the fingers holding the snare handle and the thumb. Tactile feedback helps the endoscopist to detect entrapped muscularis propria and therefore minimizes the risk of perforation; Recommendation 20(xiii). (Alternative) Placing a marker on the handle of the snare at the position where (during closure outside the patient) the tip of the snare is seen to enter the sheath may be an alternative to assess the extent of closure, such that the snare may remain with the assistant; Recommendation 20(xiv)"
+        },
+        {
+          "en": "Transection during cold snare EMR is usually with the assistant. Unlike hot snare EMR, the assistant fully closes their hand until the tissue transects because the technique is dependent upon mechanical pressure of the snare wire on the captured tissue. During hot snare EMR, full closure of the snare is not desirable, thereby allowing electrosurgical energy to transect the tissue"
+        }
+      ],
+      "isGroupHeader": false
+    },
+    {
+      "cells": [
+        {
+          "en": "Failed transection"
+        },
+        {
+          "en": "If the tissue does not transect after 5 seconds, the endoscopist should pull gently on the snare catheter such that the tissue abuts the tip of the endoscope (guillotine technique) [ 107 ]; Recommendation 17(xiv). If the tissue still does not cut despite attempting use of the guillotine technique, ask the assistant to slowly open the snare, while continuing gentle traction on the polyp. This usually leads to the mucosa specimen sliding over a submucosal protrusion; Recommendation 17(xv). If the tissue still does not transect the snare should be re-opened and the procedure repeated; Recommendation 17(xvi). We recommend against the addition of electrosurgical energy in the situation where complete closure of the snare during cold snare resection does not transect despite the above measures as this risks muscularis propria injury; Recommendation 17(xvii)"
+        },
+        {
+          "en": "Check the mobility of captured tissue with the snare closed ensuring it moves independently to the muscularis propria of the colon; Recommendation 20(xv)"
+        },
+        {
+          "en": "Failed transection in cold snare EMR often describes the situation where too much submucosa has been captured. In this case gentle traction on the endoscope tip can solve the problem (guillotine technique). It is possible to capture the muscularis propria during cold snare EMR so excessive force or adding electrosurgical energy should be strongly discouraged. In this situation the snare should be re-opened and the positioning revised. In hot snare EMR, the intention is to capture submucosa. Here safety checks should be made to ensure the muscularis propria is not captured as described in the recommendations"
+        }
+      ],
+      "isGroupHeader": false
+    },
+    {
+      "cells": [
+        {
+          "en": "Inspection of the post-EMR defect"
+        }
+      ],
+      "isGroupHeader": true
+    },
+    {
+      "cells": [
+        {
+          "en": "Detection of residual adenoma"
+        },
+        {
+          "en": "Topical application of a chromic dye (or the injectate if it contains a chromic dye) can be helpful for assessing the defect and the margin after cold snare polypectomy for residual adenoma [ 108 ]; Recommendation 18(ii)"
+        },
+        {
+          "en": "Topical application of the injectate (containing a chromic dye) can be helpful for areas of the defect where there is uncertainty as to the presence of muscularis propria injury ([ Fig. 2 ], images D7 and D8). If the defect stains blue this area represents submucosa and the muscularis propria is uninjured [ 108 ] [ 120 ]; Recommendation 22(x)"
+        },
+        {
+          "en": "Topical application of a chromic dye can be extremely useful to check for residual at the margin of a cold/hot snare defect. Muscularis propria injury is extremely rare in cold snare EMR but in hot snare it should be routinely sought; a chromic dye makes the delineation between submucosa and muscularis clear"
+        }
+      ],
+      "isGroupHeader": false
+    },
+    {
+      "cells": [
+        {
+          "en": "Treatment of bleeding"
+        },
+        {
+          "en": "Bleeding from within a cold snare polypectomy defect does not need treatment unless pulsatile; Recommendation 18(iv)"
+        },
+        {
+          "en": "The submucosa of the defect should be further inspected for bleeding vessels. These should be coagulated [ 118 ]; Recommendation 22(v)"
+        },
+        {
+          "en": "Persistent active bleeding in hot snare EMR suggests a large, transected blood vessel which should be cauterized (techniques described in Recommendation 29). Immediate oozing bleeding is common after cold snare EMR but always stops spontaneously if non-pulsatile"
+        }
+      ],
+      "isGroupHeader": false
+    },
+    {
+      "cells": [
+        {
+          "en": "Perforation"
+        },
+        {
+          "en": "Be aware that perforation of the muscularis propria after cold snare polypectomy is extremely rare and described only in case reports [ 109 ] [ 110 ]. This should be treated appropriately if it occurs; Recommendation 18(v)"
+        },
+        {
+          "en": "The muscularis propria should be inspected if visible and described using the Sydney Classification of Deep Mural Injury [ 57 ] ([ Fig. 2 ], images D7\u2013D9). Any areas suspicious or uncertain for injury to the muscularis propria (DMI types II\u2013V) should be closed with an endoscopic closure method; Recommendation 22(ix)"
+        },
+        {
+          "en": "Injury to the muscularis propria during cold snare EMR is rare. If muscularis propria is caught in a snare closed without electrosurgical energy, the snare will not transect. Gentle traction against the tip of the instrument is acceptable as this will not injure the muscularis propria. Excessive force should be avoided, as should the use of electrosurgical energy, because this situation could allow transection of the muscularis propria. In hot snare EMR, defect inspection for injury to the muscularis propria is critical and should always be performed as described in Recommendation 22(ix)"
+        }
+      ],
+      "isGroupHeader": false
+    }
+  ],
+  "_meta": {
+    "provenance": {
+      "type": "verbatim",
+      "source_doi": "10.1055/a-2077-0497"
+    },
+    "encodedBy": "human:david",
+    "encodedAt": "2026-07-04"
+  }
+}
