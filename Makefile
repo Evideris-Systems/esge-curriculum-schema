@@ -1,8 +1,15 @@
-.PHONY: check schema-check source-trace verify-citations completeness completeness-vs-expected release-hashes validate self all
+.PHONY: check ci-check schema-check source-trace verify-citations completeness completeness-vs-expected release-hashes validate self all
 
-# Default: full check pipeline (used by CI).
+# Full release check. Requires locally acquired source text and either network
+# access or a populated citation cache.
 check: schema-check validate release-hashes source-trace verify-citations completeness completeness-vs-expected
 	@echo "✓ All correctness checks passed."
+
+# Deterministic clean-check for consumers and CI runners. This verifies every
+# repository-contained invariant. It deliberately excludes source-trace and
+# verify-citations because their source text/metadata live outside this repo.
+ci-check: schema-check validate release-hashes completeness completeness-vs-expected
+	@echo "✓ Clean-check passed (external source trace and citation resolution not run)."
 
 # Pre-flight: meta-schema check on the schemas themselves.
 schema-check:

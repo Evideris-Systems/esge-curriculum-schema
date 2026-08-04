@@ -84,6 +84,23 @@ python3 scripts/update-release-hashes.py --write --root esge releases/r2026.07.j
 make check
 ```
 
+`make check` is the release-authoring gate. It also traces text against locally
+acquired publication sources in `.cache/sources/` and resolves citations using
+the local citation cache or external services. Those inputs are deliberately
+not committed because they contain third-party publication text or are
+network-dependent.
+
+Consumers and clean CI runners should use:
+
+```bash
+make ci-check
+```
+
+This deterministic check validates the schemas and instances, release member
+paths and hashes, provenance requirements, and expected-content counts using
+only repository-contained inputs. It does not replace the external source-trace
+and citation-resolution parts of the full release check.
+
 ## Hosting
 
 `schema.evideris.com` is the identifier namespace and planned publication
