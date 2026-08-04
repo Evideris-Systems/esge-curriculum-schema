@@ -1,7 +1,7 @@
-.PHONY: check schema-check source-trace verify-citations completeness completeness-vs-expected validate self all
+.PHONY: check schema-check source-trace verify-citations completeness completeness-vs-expected release-hashes validate self all
 
 # Default: full check pipeline (used by CI).
-check: schema-check validate source-trace verify-citations completeness completeness-vs-expected
+check: schema-check validate release-hashes source-trace verify-citations completeness completeness-vs-expected
 	@echo "✓ All correctness checks passed."
 
 # Pre-flight: meta-schema check on the schemas themselves.
@@ -11,6 +11,10 @@ schema-check:
 # Strict JSON Schema 2020-12 validation of every instance file.
 validate:
 	@python3 scripts/validate.py
+
+# Every release member is bound to one repository path and raw-file hash.
+release-hashes:
+	@python3 scripts/update-release-hashes.py --root esge releases/*.json
 
 # Every text field must grep-match the cached source PDF (or carry source_span override).
 source-trace:
