@@ -50,6 +50,7 @@ esge/           # The actual content — versioned JSON instances
 
 - **Per-artifact SemVer** (`v1.0.0`) — each curriculum, recommendation, etc. has its own.
 - **Release CalVer** (`r2026.07`) — monthly manifest snapshot pointing at all artifacts shipped together.
+- Each release member records its repository-relative `path` and raw-file `sha256`; `make check` rejects stale hashes.
 - Trainee logs cite the **per-artifact SemVer**, never the CalVer.
 - Breaking-change rules and the autoupdate workflow live in the parent design doc (see [evideris](https://github.com/Evideris-Systems/evideris) `docs/plans/2026-06-15-evideris-endoscopy-design.md` §4.4).
 
@@ -61,6 +62,8 @@ Versioned URLs are served at `https://schema.evideris.com/...` (DNS / nginx setu
 ## Contributing
 
 Issues and PRs welcome from the community. Curriculum content edits should be PR'd against the relevant JSON file with the per-artifact SemVer bump appropriate to the change (see breaking-change rules). The autoupdate skill (separate repo) handles bulk ingest from new ESGE publications.
+
+After changing release membership or a released artifact, refresh the manifest with `python3 scripts/update-release-hashes.py --write --root esge releases/<release>.json`, then run `make check`.
 
 ## Citing
 

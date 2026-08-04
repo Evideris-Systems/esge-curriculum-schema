@@ -128,7 +128,9 @@
       "type": "object",
       "required": [
         "lineageId",
-        "version"
+        "version",
+        "path",
+        "sha256"
       ],
       "properties": {
         "lineageId": {
@@ -136,6 +138,14 @@
         },
         "version": {
           "$ref": "_common.schema.json#/$defs/semverString"
+        },
+        "path": {
+          "type": "string",
+          "pattern": "^esge/[A-Za-z0-9._/-]+\\.json$"
+        },
+        "sha256": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$"
         }
       },
       "additionalProperties": false
