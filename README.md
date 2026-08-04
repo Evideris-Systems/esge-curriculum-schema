@@ -1,72 +1,108 @@
 # ESGE Curriculum Schema
 
-A versioned, machine-readable JSON Schema 2020-12 representation of the **European Society of Gastrointestinal Endoscopy (ESGE)** curricula and Competency Assessment Tools (CATs).
+A versioned, machine-readable JSON Schema 2020-12 representation of European
+Society of Gastrointestinal Endoscopy (ESGE) curricula, source-defined
+assessment tools and related publication artifacts.
 
-> **Status:** v0 — schema shape locked, validator files in place, first curriculum (Tate EMR 2023) being seeded. Open for review and adoption.
-> **Licence:** [CC BY 4.0](./LICENSE) — fork it, build on it, integrate it. Just attribute.
+> **Status:** `r2026.07` is a review release containing EMR, ESD and POEM Part
+> II. It is not approved as production certification policy.
+
+## Rights and licence
+
+The [CC BY 4.0 licence](./LICENSE) covers Evideris-authored schema definitions,
+validation code and release metadata. Encoded ESGE/Thieme publication content
+retains the rights of its original authors and publishers. This repository does
+not by itself grant permission to relicense or redistribute that third-party
+content; confirm the applicable authority before external or production use.
+
+Every artifact records its own source and provenance. Release manifests record
+which exact versions are assembled together, but do not replace the rights
+status of their members.
 
 ## What this is
 
-A canonical schema for expressing what ESGE publishes:
+The source-canonical layer expresses what the underlying publications define:
 
-- **Curriculum** publications (their Delphi-derived position statements)
-- **Recommendations** (GRADE-classified numbered statements)
-- **Competencies** (atomic skills, surviving across curriculum revisions)
-- **EPAs** (Entrustable Professional Activities — bundles of competencies with trust levels)
-- **Standards** (institutional/unit-level requirements feeding centre accreditation)
-- **Scoring tools** (SMSA, NICE, JNET, Sydney DMI, …)
-- **KPIs** (training-target metrics)
-- **QIs** (lifelong quality indicators)
-- **CATs** (Competency Assessment Tools — DOPS, GPAT, …)
+- curriculum wrappers and bibliography records;
+- GRADE-classified recommendations and main statements;
+- institutional standards, KPIs and quality indicators;
+- source-defined scoring and competency assessment tools such as SMSA, GPAT and
+  PPAT;
+- publication figures and tables retained for traceability and rights review.
 
-Plus a **release manifest** that snapshots which versions of which artifacts ship together each month.
+Evideris-authored competencies, EPAs, evidence criteria and
+recommendation-to-competency mappings live in the separate
+[`evideris-curriculum-derived`](https://github.com/Evideris-Systems/evideris-curriculum-derived)
+repository. They are deliberately not represented as source-canonical ESGE
+publication content.
 
 ## Why it exists
 
-Trainee e-portfolios, centre accreditation evidence packs, and cross-border training recognition all need to point at *the same* canonical version of the curriculum. Right now they don't: every system rolls its own data model and they don't interoperate.
+Trainee e-portfolios, centre accreditation evidence packs and cross-border
+training recognition need stable identifiers for the same published material.
+The repository supplies versioned artifacts and a release manifest so consumers
+can pin an exact, reviewable snapshot rather than silently choosing the latest
+file.
 
-This repo is the shared schema layer. If your trainee e-portfolio cites
-`https://schema.evideris.com/esge/competency/emr-cln/snare-capture.v1.0.0.json`,
-any other ESGE-aligned system can resolve and interpret that pin.
+For example, a consumer can pin
+`esge/recommendation/emr-colon/r1.v1.0.0.json` together with its release path and
+SHA-256.
 
 ## Layout
 
-```
-schemas/        # JSON Schema 2020-12 validator files (one per artifact type)
-releases/       # Monthly release manifests (r2026.07.json, ...)
-esge/           # The actual content — versioned JSON instances
-  curriculum/
+```text
+schemas/        # JSON Schema 2020-12 validators
+releases/       # Calendar-versioned release manifests
+esge/           # Versioned source-canonical instances
+  curriculum/   # Publication wrappers and bibliography records
   recommendation/
-  competency/
-  epa/
   standard/
   scoring-tool/
   kpi/
   qi/
   cat/
+  figure/
+  table/
+scripts/        # Validation, source-trace and release-hash tooling
 ```
 
-## Versioning
+## Versioning and release integrity
 
-- **Per-artifact SemVer** (`v1.0.0`) — each curriculum, recommendation, etc. has its own.
-- **Release CalVer** (`r2026.07`) — monthly manifest snapshot pointing at all artifacts shipped together.
-- Each release member records its repository-relative `path` and raw-file `sha256`; `make check` rejects stale hashes.
-- Trainee logs cite the **per-artifact SemVer**, never the CalVer.
-- Breaking-change rules and the autoupdate workflow live in the parent design doc (see [evideris](https://github.com/Evideris-Systems/evideris) `docs/plans/2026-06-15-evideris-endoscopy-design.md` §4.4).
+- Each artifact has its own semantic version, such as `v1.0.0`.
+- A release uses calendar versioning, such as `r2026.07`, and selects exact
+  artifact versions.
+- Every release member records a repository-relative `path` and raw-file
+  `sha256`; `make check` rejects missing, moved or modified members.
+- Downstream records should cite the artifact lineage and semantic version and
+  retain the release/bundle digest used at the time.
+
+After changing release membership or a released artifact, refresh the manifest
+and run the full checks:
+
+```bash
+python3 scripts/update-release-hashes.py --write --root esge releases/r2026.07.json
+make check
+```
 
 ## Hosting
 
-Versioned URLs are served at `https://schema.evideris.com/...` (DNS / nginx setup pending). Until then, raw GitHub URLs work:
-`https://raw.githubusercontent.com/Evideris-Systems/esge-curriculum-schema/main/esge/<type>/<path>`.
+`schema.evideris.com` is the identifier namespace and planned publication
+endpoint. It is not a runtime dependency for the certification application.
+Until publication is configured, consumers should use a pinned Git commit or
+bundle rather than a mutable raw-GitHub URL.
 
 ## Contributing
 
-Issues and PRs welcome from the community. Curriculum content edits should be PR'd against the relevant JSON file with the per-artifact SemVer bump appropriate to the change (see breaking-change rules). The autoupdate skill (separate repo) handles bulk ingest from new ESGE publications.
-
-After changing release membership or a released artifact, refresh the manifest with `python3 scripts/update-release-hashes.py --write --root esge releases/<release>.json`, then run `make check`.
+Issues and pull requests are welcome. Content changes require source evidence,
+an appropriate artifact version change, refreshed release hashes and a passing
+`make check`. Adding content to the repository does not settle its publication
+or redistribution rights.
 
 ## Citing
 
-> Evideris Systems BV. ESGE Curriculum Schema. https://github.com/Evideris-Systems/esge-curriculum-schema. CC BY 4.0.
+> Evideris Systems BV. ESGE Curriculum Schema (schema, validation tooling and
+> release metadata). https://github.com/Evideris-Systems/esge-curriculum-schema.
+> CC BY 4.0. Encoded publication content retains its original rights.
 
-Once a stable v1.0.0 ships, a Zenodo DOI will be issued.
+Once a stable schema release ships, a Zenodo DOI can be issued for the
+Evideris-authored schema and tooling.

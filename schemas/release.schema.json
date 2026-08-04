@@ -119,6 +119,7 @@
       }
     },
     "_meta": {
+      "description": "Authorship/provenance of the release manifest itself. For a multi-curriculum assembly, use evideris-design provenance and list every included curriculum lineage in derived_from; member artifacts retain their own provenance and rights.",
       "$ref": "_common.schema.json#/$defs/metaBlock"
     }
   },

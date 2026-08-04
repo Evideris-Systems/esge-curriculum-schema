@@ -837,8 +837,13 @@
   "patchBumps": [],
   "_meta": {
     "provenance": {
-      "type": "verbatim",
-      "source_doi": "10.1055/a-2077-0497"
+      "type": "evideris-design",
+      "reason": "This metadata describes Evideris's assembly of the r2026.07 release manifest, not the publication provenance or redistribution rights of its members. Each selected artifact retains its own source DOI and provenance.",
+      "derived_from": [
+        "cur-emr-colon-2023",
+        "cur-esd-2019",
+        "cur-poem-2-2025"
+      ]
     },
     "encodedBy": "human:david",
     "encodedAt": "2026-06-27"
