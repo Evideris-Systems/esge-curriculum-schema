@@ -27,5 +27,12 @@
     },
     "encodedBy": "human:david",
     "encodedAt": "2026-07-04"
+  },
+  "asset": {
+    "path": "esge/figure/emr-colon/assets/fig-1.png",
+    "mediaType": "image/png",
+    "sha256": "b0cd3229fb6f23ab44cf7882a0f96c300eb23351f45236abe851acd2d9387e0c",
+    "width": 1241,
+    "height": 697
   }
 }

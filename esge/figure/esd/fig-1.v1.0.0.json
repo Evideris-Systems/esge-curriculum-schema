@@ -7,7 +7,9 @@
   "release": "r2026.07",
   "supersedes": null,
   "supersededBy": null,
-  "language": ["en"],
+  "language": [
+    "en"
+  ],
   "withinCurriculum": "cur-esd-2019",
   "number": 1,
   "caption": {
@@ -25,5 +27,12 @@
     },
     "encodedBy": "other:codex-publisher-dom-import",
     "encodedAt": "2026-08-09"
+  },
+  "asset": {
+    "path": "esge/figure/esd/assets/fig-1.png",
+    "mediaType": "image/png",
+    "sha256": "96bda4ce7833815a838e685ce89677f613518acd836f62af896319e3715f2215",
+    "width": 1241,
+    "height": 764
   }
 }

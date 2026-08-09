@@ -850,49 +850,49 @@
       "lineageId": "fig-emr-colon-1",
       "version": "1.0.0",
       "path": "esge/figure/emr-colon/fig-1.v1.0.0.json",
-      "sha256": "5a7d666accd7d1bfbdddffb692a6c4b4b0fee9c87f16cb9a91ce514d5c5a116d"
+      "sha256": "7775169518e0bb7e752b7543682708cf246d9f80e4631c3e43f7722aa8d98d0e"
     },
     {
       "lineageId": "fig-emr-colon-2",
       "version": "1.0.0",
       "path": "esge/figure/emr-colon/fig-2.v1.0.0.json",
-      "sha256": "005cfa385c4c677543a4ec95880c4f580970a4c226f7188e4b7cda795cfaa84c"
+      "sha256": "794f03ac4b26518f24f5a1c8b394b5fbcffa291a6153becae6bf38786a451d30"
     },
     {
       "lineageId": "fig-emr-colon-3",
       "version": "1.0.0",
       "path": "esge/figure/emr-colon/fig-3.v1.0.0.json",
-      "sha256": "c50cd29304346ea9dd53be4497dbd9c9596f2a6df7207206b89fcfb9d9b6f588"
+      "sha256": "8028b9e541bb6ee795414d068019bde06124935083e6c8d65b1bfbbd6fac4b16"
     },
     {
       "lineageId": "fig-esd-1",
       "version": "1.0.0",
       "path": "esge/figure/esd/fig-1.v1.0.0.json",
-      "sha256": "8d023260bf7ecbb5d1149a4a0a928791b988f4b0acd1558c5283759e76d27824"
+      "sha256": "48a17620c0fc6217dace95ecbefcc6966eaf22534a305fe424c7ebdcd7de67dc"
     },
     {
       "lineageId": "fig-poem-2-1",
       "version": "1.0.0",
       "path": "esge/figure/poem-2/fig-1.v1.0.0.json",
-      "sha256": "62e120f4174c6434d1df04b8ac5b7a295235367a1e36b73bcda086c498333a8e"
+      "sha256": "81c112e9b0d151b3fc7934b23f30e413cef2b5872209f78a268c94a478891d29"
     },
     {
       "lineageId": "fig-poem-2-2",
       "version": "1.0.0",
       "path": "esge/figure/poem-2/fig-2.v1.0.0.json",
-      "sha256": "fc8972634a87b8444ce4bf7b3225e3d74d2e1c63b12243d5c298b25d505a0db3"
+      "sha256": "5faf339dec768693b35db1b87bc37832ab74d391e43818b1bd5d10c9cb0e3ddf"
     },
     {
       "lineageId": "fig-poem-2-3",
       "version": "1.0.0",
       "path": "esge/figure/poem-2/fig-3.v1.0.0.json",
-      "sha256": "e50aafb3175f52641a54daffc5e814db492875903edcef113f0799571768769e"
+      "sha256": "7055f8f9370e366ddef5df5d827cd4cd734eef4a1f3018a7aa34a90e7d42d15f"
     },
     {
       "lineageId": "fig-poem-2-4",
       "version": "1.0.0",
       "path": "esge/figure/poem-2/fig-4.v1.0.0.json",
-      "sha256": "155103de9f6253f4c918de87ec5f96f533701cf9b84bf7f5220af30e62c17ed5"
+      "sha256": "db922087ec8335576c0f5c0c2576163e5f11436022ce90d38744907306c14cdd"
     }
   ],
   "tables": [
@@ -953,15 +953,15 @@
   ],
   "majorBumps": [
     "PRE-FLIGHT RELEASE WITHDRAWN: prior r2026.07 contained fabricated/stub references and unflagged invented content. See docs/plans/2026-06-26-batch1-fidelity-audit.md in the evideris repo.",
-    "Removed: 11 competencies + 1 EPA + NICE/JNET/Sydney-DMI scoring tools — moved to evideris-curriculum-derived (sibling repo)",
-    "Removed: assessesCompetencies on recs, evidenceRequired on standards, assessesCompetencies on CAT items — moved to derived layer as separate artifact types"
+    "Removed: 11 competencies + 1 EPA + NICE/JNET/Sydney-DMI scoring tools \u2014 moved to evideris-curriculum-derived (sibling repo)",
+    "Removed: assessesCompetencies on recs, evidenceRequired on standards, assessesCompetencies on CAT items \u2014 moved to derived layer as separate artifact types"
   ],
   "minorBumps": [
     "Added: per-artifact _meta envelope with provenance (verbatim/paraphrased + source DOI)",
     "Added: refs-cur-emr-colon-2023 (separate references artifact with all 150 source bibliography entries resolved to Crossref DOIs; 14 marked lowConfidence for hand-verification)",
-    "Curriculum wrapper: all 11 main statements re-extracted verbatim (Statement 4 corrected); 8 sections (was 7 — added Section 6 Surveillance); per-author competing interests (was lumped); full author affiliations from PDF",
+    "Curriculum wrapper: all 11 main statements re-extracted verbatim (Statement 4 corrected); 8 sections (was 7 \u2014 added Section 6 Surveillance); per-author competing interests (was lumped); full author affiliations from PDF",
     "31 additional recommendations auto-extracted from source PDF via scripts/extract-recommendations.py (verbatim statement+GRADE+sub-items+references; all pass source-trace)",
-    "All 18 Table 6 QIs encoded (was 5 — added 13 more via scripts/extract-qis.py one-shot extractor)",
+    "All 18 Table 6 QIs encoded (was 5 \u2014 added 13 more via scripts/extract-qis.py one-shot extractor)",
     "Second curriculum ingested: ESGE ESD 2019 (Pimentel-Nunes/Pioche). 1 curriculum wrapper + 17 recommendations + 3 QIs + 77-ref bibliography. First curriculum with LoA-only (no GRADE); schema updated to allow top-level levelOfAgreement on rec + optional grade block.",
     "Third curriculum: POEM Part II (Tate co-first-author). 48 recommendations with GRADE + LoA, 134-ref bibliography (all Crossref-resolved), 15 verbatim main statements. Sub-item label schema relaxed to allow Arabic numerals (paper uses 1.,2.,3. instead of (i)(ii)(iii)). PPAT (Precision POEM Assessment Tool, 28 components) shell only; full component encoding deferred to a follow-up session.",
     "PPAT (Precision POEM Assessment Tool) full component encoding: 29 items across 8 domains, 25 mandatory + 4 non-mandatory (x, xxi, xxvii, xxix). Verbatim from source Table 4."

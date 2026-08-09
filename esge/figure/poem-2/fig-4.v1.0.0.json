@@ -64,5 +64,12 @@
     },
     "encodedBy": "human:david",
     "encodedAt": "2026-07-04"
+  },
+  "asset": {
+    "path": "esge/figure/poem-2/assets/fig-4.png",
+    "mediaType": "image/png",
+    "sha256": "07bbf7662e97517563992e9d2a95aa5f107480de7cc54b83f58be0365f9aacdf",
+    "width": 1241,
+    "height": 687
   }
 }

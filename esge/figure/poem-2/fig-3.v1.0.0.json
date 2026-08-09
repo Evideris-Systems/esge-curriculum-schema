@@ -13,13 +13,13 @@
   "withinCurriculum": "cur-poem-2-2025",
   "number": 3,
   "caption": {
-    "en": "Images showing best practice technique for closure of the mucosotomy using through-the-scope clips: a the clip (short-dashed line) and mucosal incision (long-dashed line) are not in the same axis, with the clip needing to be rotated anticlockwise by angle \u03b8 to achieve optimal closure b the clip and the defect are in the same axis after repositioning of the clip (dash-dotted line) and the hilt of the clip is centered on the incision line; c good position of the closed clip, leading to edge eversion and symmetrical closure."
+    "en": "Images showing best practice technique for closure of the mucosotomy using through-the-scope clips: a the clip (short-dashed line) and mucosal incision (long-dashed line) are not in the same axis, with the clip needing to be rotated anticlockwise by angle θ to achieve optimal closure b the clip and the defect are in the same axis after repositioning of the clip (dash-dotted line) and the hilt of the clip is centered on the incision line; c good position of the closed clip, leading to edge eversion and symmetrical closure."
   },
   "panels": [
     {
       "label": "a",
       "description": {
-        "en": "The clip (short-dashed line) and mucosal incision (long-dashed line) are not in the same axis, with the clip needing to be rotated anticlockwise by angle \u03b8 to achieve optimal closure."
+        "en": "The clip (short-dashed line) and mucosal incision (long-dashed line) are not in the same axis, with the clip needing to be rotated anticlockwise by angle θ to achieve optimal closure."
       }
     },
     {
@@ -46,5 +46,12 @@
     },
     "encodedBy": "human:david",
     "encodedAt": "2026-07-04"
+  },
+  "asset": {
+    "path": "esge/figure/poem-2/assets/fig-3.png",
+    "mediaType": "image/png",
+    "sha256": "c1867ea8ba05ded3b62e33264f7980aa9974065c0509a32b218ab666ef37a01b",
+    "width": 1241,
+    "height": 370
   }
 }

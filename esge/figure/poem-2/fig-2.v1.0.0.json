@@ -13,7 +13,7 @@
   "withinCurriculum": "cur-poem-2-2025",
   "number": 2,
   "caption": {
-    "en": "Important endoscopic appearances correlating with the landmarks of the gastroesophageal junction (GEJ) during peroral endoscopic myotomy (POEM) include: a spindle-shaped veins marking the approximate location of the GEJ (arrows) \u2013 a narrow submucosal dissection plane with significant submucosal fibrosis is seen in this image (delineated by the dotted line); b a dye-stained bulge upon retroflexion in the gastric cardia (*); c narrowing of the submucosal tunnel representing the position of the GEJ (diaphragm + lower esophageal sphincter) (*); d penetrating vessels (PV) at the GEJ."
+    "en": "Important endoscopic appearances correlating with the landmarks of the gastroesophageal junction (GEJ) during peroral endoscopic myotomy (POEM) include: a spindle-shaped veins marking the approximate location of the GEJ (arrows) – a narrow submucosal dissection plane with significant submucosal fibrosis is seen in this image (delineated by the dotted line); b a dye-stained bulge upon retroflexion in the gastric cardia (*); c narrowing of the submucosal tunnel representing the position of the GEJ (diaphragm + lower esophageal sphincter) (*); d penetrating vessels (PV) at the GEJ."
   },
   "panels": [
     {
@@ -52,5 +52,12 @@
     },
     "encodedBy": "human:david",
     "encodedAt": "2026-07-04"
+  },
+  "asset": {
+    "path": "esge/figure/poem-2/assets/fig-2.png",
+    "mediaType": "image/png",
+    "sha256": "98bc0489bcfe0824b6854afa36abe613f738ea940b9c0b1978437eb5388f3a48",
+    "width": 1240,
+    "height": 267
   }
 }

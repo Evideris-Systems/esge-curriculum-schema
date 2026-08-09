@@ -27,5 +27,12 @@
     },
     "encodedBy": "human:david",
     "encodedAt": "2026-07-04"
+  },
+  "asset": {
+    "path": "esge/figure/poem-2/assets/fig-1.png",
+    "mediaType": "image/png",
+    "sha256": "ae8f1937c3fd8f58e1d1358d45f0db657cd031e66a30a0805fd0ac07d228e67a",
+    "width": 601,
+    "height": 653
   }
 }
