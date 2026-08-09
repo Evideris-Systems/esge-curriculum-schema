@@ -21,113 +21,116 @@
   },
   "grade": {
     "strength": "best-practice",
-    "evidenceQuality": "low",
-    "levelOfAgreement": 91
+    "evidenceQuality": "low"
   },
-  "subItems": [
-    {
-      "label": "i",
-      "text": {
-        "en": "The suspected perforation should be classified according to the Sydney DMI score. DMI types II\u2013V should be closed endoscopically."
-      },
-      "levelOfAgreement": 95,
-      "references": [
-        "ref-57"
-      ]
-    },
-    {
-      "label": "ii",
-      "text": {
-        "en": "The endoscopist should first consider completing the resection, or at least clear the polyp tissue surrounding the perforation, if it is safe/appropriate to do so."
-      },
-      "levelOfAgreement": 95
-    },
-    {
-      "label": "iii",
-      "text": {
-        "en": "In the context of an observed DMI type IV or V with abdominal distension and patient instability, a 16 G or larger bore needle should be inserted into the peritoneum to decompress a capnoperitoneum."
-      },
-      "levelOfAgreement": 83,
-      "references": [
-        "ref-139"
-      ]
-    },
-    {
-      "label": "iv",
-      "text": {
-        "en": "The safety and appropriateness of completing the resection (prior to managing the perforation) depends on: the bowel preparation, competence of the endoscopist, size of the perforation, stage of the resection, whether peritoneal contamination is imminent, and patient stability."
-      },
-      "levelOfAgreement": 95
-    },
-    {
-      "label": "v",
-      "text": {
-        "en": "Through-the-scope (TTS) endoscopic clips should be the first-line choice to close a perforation during EMR."
-      },
-      "levelOfAgreement": 95
-    },
-    {
-      "label": "vi",
-      "text": {
-        "en": "Clip placement should consider the effect of gravity. Start on the same side of the wound as the fluid pool, so the clip stem falls away from the wound, allowing further clip placement. Start on an area of normal tissue if possible (not directly on the perforation) and proceed along the axis of the perforation to achieve a zipper-type closure."
-      },
-      "levelOfAgreement": 96
-    },
-    {
-      "label": "vii",
-      "text": {
-        "en": "Maximum tissue capture with TTS clipping can be achieved using rotation of the clip shaft and suction of luminal gas prior to closure."
-      },
-      "levelOfAgreement": 95
-    },
-    {
-      "label": "viii",
-      "text": {
-        "en": "If at this point, closure is not possible consider consulting a more experienced colleague/trainer if possible."
-      },
-      "levelOfAgreement": 89
-    },
-    {
-      "label": "ix",
-      "text": {
-        "en": "If closure is not possible using TTS endoscopic clips, other techniques available include: over-the-scope (OTS) clips, nylon poly-loop plus clips, or endoscopic suturing. These techniques are outside the remit of this competency framework."
-      },
-      "levelOfAgreement": 92
-    },
-    {
-      "label": "x",
-      "text": {
-        "en": "Administer intravenous antibiotics in the case of intraprocedural perforation, considering any medication allergies/interactions."
-      },
-      "levelOfAgreement": 92
-    },
-    {
-      "label": "xi",
-      "text": {
-        "en": "Post-procedure, consider a computed tomography (CT) scan if there is persistent pain despite intravenous analgesia following the procedure."
-      },
-      "levelOfAgreement": 82
-    },
-    {
-      "label": "xii",
-      "text": {
-        "en": "Post-procedure, consider review by a surgeon. Base the need for referral to surgery on the degree of observed fecal contamination, presence/absence of persistent post-procedural pain, and CT scan appearances."
-      },
-      "levelOfAgreement": 92
-    }
-  ],
   "references": [
-    "ref-57",
-    "ref-138",
-    "ref-139",
-    "ref-140"
+    "ref-135",
+    "ref-136",
+    "ref-137",
+    "ref-138"
   ],
   "_meta": {
     "provenance": {
       "type": "verbatim",
       "source_doi": "10.1055/a-2077-0497"
     },
-    "encodedBy": "human:david",
-    "encodedAt": "2026-06-28"
-  }
+    "encodedBy": "other:codex-publisher-dom-import",
+    "encodedAt": "2026-08-09"
+  },
+  "subItems": [
+    {
+      "label": "i",
+      "levelOfAgreement": 95,
+      "text": {
+        "en": "Use the endoscope flushing pump to identify the exact place where bleeding is occurring within the mucosal defect."
+      }
+    },
+    {
+      "label": "ii",
+      "levelOfAgreement": 90,
+      "text": {
+        "en": "Re-injection may help to isolate/make the bleeding vessel visible."
+      }
+    },
+    {
+      "label": "iii",
+      "levelOfAgreement": 83,
+      "text": {
+        "en": "Consider the use of image-enhancement techniques (e. g. red dichromatic imaging [RDI] [135] [136]) to identify the bleeding vessel."
+      },
+      "references": [
+        "ref-135",
+        "ref-136"
+      ]
+    },
+    {
+      "label": "iv",
+      "levelOfAgreement": 93,
+      "text": {
+        "en": "Ensure the patient position is optimal so that blood flows away from the resection site to improve visualization (use gravity)."
+      }
+    },
+    {
+      "label": "v",
+      "levelOfAgreement": 95,
+      "text": {
+        "en": "If significant bleeding occurs, tamponade of the vessel with the endoscope cap or any instrument may be useful until the required device is available and may help to identify the source of bleeding."
+      }
+    },
+    {
+      "label": "vi",
+      "levelOfAgreement": 91,
+      "text": {
+        "en": "For mild/moderate bleeding, start with STSC [137] (e. g. ERBE soft coagulation effect 4, 80 W). The technique is as follows: use the tip of the snare to apply light pressure precisely over the bleeding point (confirmed by cessation of bleeding); apply electrosurgical energy for 1–2 seconds, then lift the snare and re-assess bleeding."
+      },
+      "references": [
+        "ref-137"
+      ]
+    },
+    {
+      "label": "vii",
+      "levelOfAgreement": 87,
+      "text": {
+        "en": "If STSC is ineffective after application of the correctly applied technique (as above), switch instrument to a coagulation forceps."
+      }
+    },
+    {
+      "label": "viii",
+      "levelOfAgreement": 92,
+      "text": {
+        "en": "For severe bleeding, start with a coagulation forceps."
+      }
+    },
+    {
+      "label": "ix",
+      "levelOfAgreement": 94,
+      "text": {
+        "en": "Use of the coagulation forceps should proceed as follows: the suspected vessel is captured with the forceps; cessation of bleeding confirms correct forceps placement; the vessel is then gently tented away from the deeper structures and electrosurgical energy is applied (using the same settings for the electrosurgical unit as for STSC [e. g. ERBE soft coagulation effect 4, 80 W]) until a visible cautery effect is observed; the tissue is released and the endoscope flushing pump is used to confirm cessation of bleeding."
+      }
+    },
+    {
+      "label": "x",
+      "levelOfAgreement": 91,
+      "text": {
+        "en": "In exceptional circumstances, where thermal energy does not control intraprocedural bleeding, mechanical control with clips may be required. This may however interfere with progression of the resection. A clip should be closed on a site of bleeding and only fired if cessation of bleeding is confirmed."
+      }
+    },
+    {
+      "label": "xi",
+      "levelOfAgreement": 86,
+      "text": {
+        "en": "Consider the use of a topical hemostatic agent [138] if there is diffuse intraprocedural bleeding that cannot be controlled using the other methods discussed."
+      },
+      "references": [
+        "ref-138"
+      ]
+    },
+    {
+      "label": "xii",
+      "levelOfAgreement": 87,
+      "text": {
+        "en": "The injection of adrenaline (1:10 000) may reduce the rate of bleeding in difficult circumstances."
+      }
+    }
+  ]
 }

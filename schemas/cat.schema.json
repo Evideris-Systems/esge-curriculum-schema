@@ -38,6 +38,37 @@
       },
       "additionalProperties": false
     },
+    "scoreFormula": {
+      "$ref": "_common.schema.json#/$defs/localeKeyedString"
+    },
+    "scoringNotes": {
+      "type": "array",
+      "items": { "$ref": "_common.schema.json#/$defs/localeKeyedString" }
+    },
+    "overallMaximumScore": {
+      "type": "number",
+      "minimum": 0
+    },
+    "domains": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["title", "maximumScore", "itemLineageIds"],
+        "properties": {
+          "title": { "$ref": "_common.schema.json#/$defs/localeKeyedString" },
+          "maximumScore": { "type": "number", "minimum": 0 },
+          "itemLineageIds": {
+            "type": "array",
+            "items": { "$ref": "_common.schema.json#/$defs/lineageId" }
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "resourceUrls": {
+      "type": "array",
+      "items": { "type": "string", "format": "uri" }
+    },
     "items": {
       "type": "array",
       "minItems": 1,
@@ -48,6 +79,7 @@
           "lineageId": { "$ref": "_common.schema.json#/$defs/lineageId" },
           "label":     { "$ref": "_common.schema.json#/$defs/localeKeyedString" },
           "guidance":  { "$ref": "_common.schema.json#/$defs/localeKeyedString" },
+          "poorGuidance": { "$ref": "_common.schema.json#/$defs/localeKeyedString" },
           "assessesRecommendations": {
             "type": "array",
             "items": {

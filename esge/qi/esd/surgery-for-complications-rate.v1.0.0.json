@@ -19,6 +19,8 @@
   },
   "unit": "%",
   "desiredStandard": 1,
+  "desiredComparator": "<",
+  "sourceOrder": 3,
   "levelOfAgreement": 95,
   "appliesTo": "practitioner",
   "derivedFromRecommendation": "rec-esd-r17-prospective-database-quality-targets-en-bloc-90-perforation",

@@ -5,6 +5,8 @@ All notable changes to the ESGE Curriculum Schema. Follows per-artifact SemVer +
 ## Unreleased — r2026.07 (in progress)
 
 ### Added
+- Verified local image assets for all eight release-listed figures, extracted
+  from the authoritative publication PDFs with reproducible crop coordinates.
 - Initial repo skeleton: directory tree, LICENSE (CC BY 4.0), README.
 - JSON Schema 2020-12 validator files for all nine artifact types: `release`, `curriculum`, `recommendation`, `competency`, `epa`, `standard`, `scoringTool`, `kpi`, `qi`, `cat`.
 - Common envelope shared by all artifacts (`schemas/_common.schema.json`): versioned URL, `lineageId`, `type` discriminator, per-artifact SemVer, repo CalVer release tag, supersedes/supersededBy chain, language array.

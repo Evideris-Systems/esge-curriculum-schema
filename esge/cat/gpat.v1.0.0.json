@@ -24,6 +24,18 @@
     ]
   },
 
+  "scoreFormula": {
+    "en": "Total score for all components / (number of components answered × 5) × 100%."
+  },
+  "scoringNotes": [
+    {
+      "en": "The score for each component can be between 1 and 5. Mandatory components are always included in the denominator; non-mandatory components only contribute to the denominator if scored."
+    },
+    {
+      "en": "The GPAT is a work in progress. It will undergo prospective evaluation to ensure that it performs at least as well as the other instruments available."
+    }
+  ],
+
   "items": [
     {
       "lineageId": "cat-gpat-tip-control",

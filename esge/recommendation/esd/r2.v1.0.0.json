@@ -14,29 +14,36 @@
   "withinSection": "sec-esd-skills-competence",
   "number": 2,
   "title": {
-    "en": "Training in ESD should be considered only by fully trained endoscopists."
+    "en": "Training in ESD should be considered only by fully trained endoscopists. Proficiency in EMR and adverse event management is recommended before starting ESD training."
   },
   "statement": {
     "en": "Training in ESD should be considered only by fully trained endoscopists. Proficiency in EMR and adverse event management is recommended before starting ESD training."
   },
   "levelOfAgreement": 100,
-  "references": [],
+  "references": [
+    "ref-22",
+    "ref-23",
+    "ref-24",
+    "ref-25",
+    "ref-26",
+    "ref-27",
+    "ref-28",
+    "ref-29",
+    "ref-30",
+    "ref-31"
+  ],
   "_meta": {
     "provenance": {
       "type": "verbatim",
       "source_doi": "10.1055/a-0996-0912"
     },
-    "encodedBy": "human:david",
-    "encodedAt": "2026-07-01",
-    "fieldProvenance": {
-      "commentary": {
-        "type": "verbatim",
-        "source_doi": "10.1055/a-0996-0912",
-        "source_span": "Paragraph(s) of prose in the source body immediately preceding the RECOMMENDATION block; shared with adjacent back-to-back RECOMMENDATIONs where the source clusters them without intervening prose. PDF hyphenation healed, running footers and page markers stripped."
-      }
-    }
+    "encodedBy": "other:codex-publisher-dom-import",
+    "encodedAt": "2026-08-09"
   },
   "commentary": {
-    "en": "As ESD is a precise and challenging procedure, operators should have knowledge of therapeutic endoscopy and particularly of resection of superficial digestive neoplasia (i. e. using EMR) [22]. An objective indicator to consider starting ESD training is to have performed at least 1000 upper GI endoscopies, because it has been shown that trainees with that number of endoscopies can efficiently acquire gastric ESD skills [24]. For colorectal ESD, a minimum of 500 colonoscopies appears to be required before considering training [25]. ESD trainees must acquire proper handling and control of the endoscope with all left-handed angulations of the scope, and rotation of the shaft using the left wrist and arm. Right-handed controls of insertion/retraction of the scope may support rotation of the shaft, even in diagnostic procedures [26]. Overall, management of adverse events is also required before starting to perform the ESD technique, with experience at least in hemostatic techniques for active bleeding and closure techniques for perforations using clips, over-the-scope clips (OTSCs), endoscopic suturing, and stent placement (for esophageal perforations). Expertise in hemostasis is strongly advised"
-  }
+    "en": "An endoscopy background is needed to begin ESD procedures safely. Japanese experts consider that a minimum of 4 years of endoscopy experience after graduation is needed [22], although they underline the importance of acquiring the skills whatever time is needed for this [23]. As ESD is a precise and challenging procedure, operators should have knowledge of therapeutic endoscopy and particularly of resection of superficial digestive neoplasia (i. e. using EMR) [22]. An objective indicator to consider starting ESD training is to have performed at least 1000 upper GI endoscopies, because it has been shown that trainees with that number of endoscopies can efficiently acquire gastric ESD skills [24]. For colorectal ESD, a minimum of 500 colonoscopies appears to be required before considering training [25]. ESD trainees must acquire proper handling and control of the endoscope with all left-handed angulations of the scope, and rotation of the shaft using the left wrist and arm. Right-handed controls of insertion/retraction of the scope may support rotation of the shaft, even in diagnostic procedures [26].\n\nOverall, management of adverse events is also required before starting to perform the ESD technique, with experience at least in hemostatic techniques for active bleeding and closure techniques for perforations using clips, over-the-scope clips (OTSCs), endoscopic suturing, and stent placement (for esophageal perforations). Expertise in hemostasis is strongly advised because most of the difficulties during ESD procedures and training are related to uncontrolled bleeding [24] [27].\n\nESD is an advanced endoscopy technique demanding precise control of the endoscope. Obviously, beginning endoscopy with the ESD technique is not advised and previous experience in endoscopic resection using EMR is logically recommended. All of the reports on the ESD learning curve have involved experienced endoscopists who are already routinely performing EMR. From a technical point of view, maneuverability of the scope, placement, submucosal injection, and management of adverse events are required to perform EMR. The precision required for ESD, with meticulous movements, is a further step that would seem impossible to master without baseline EMR skills [28] [29] [30] [31]. At the time of writing this curriculum, initial ESD teaching without previous EMR skills has not been evaluated nor compared with the training of EMR-skilled endoscopists. In units with large volumes of ESD cases, some trainees may have early access to ESD without a large experience in EMR but the basic skills of injection, hemostasis, and perforation closure should be mastered before undertaking any independent ESD procedure.\n\nCap-assisted EMR (EMRc) or band-ligation EMR (EMRb) are advanced resection techniques essentially used for esophageal and, to a lesser degree, gastric and rectal lesions. Their techniques are different from the ESD technique and this step does not seem absolutely necessary to pave the ESD training pathway. ESD training programs based on specific EMRb or EMRc experience have never been specifically tested, as their specific technical skills do not seem to be linked to ESD skills. However, when ESD is proving difficult to perform, knowledge and experience with these techniques may be helpful as they may be used as rescue therapeutic options in some situations."
+  },
+  "commentaryForRecommendations": [
+    2
+  ]
 }

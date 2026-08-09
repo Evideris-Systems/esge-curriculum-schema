@@ -28,7 +28,7 @@ The source-canonical layer expresses what the underlying publications define:
 - institutional standards, KPIs and quality indicators;
 - source-defined scoring and competency assessment tools such as SMSA, GPAT and
   PPAT;
-- publication figures and tables retained for traceability and rights review.
+- publication figures and tables retained as verified source artifacts.
 
 Evideris-authored competencies, EPAs, evidence criteria and
 recommendation-to-competency mappings live in the separate
@@ -73,6 +73,9 @@ scripts/        # Validation, source-trace and release-hash tooling
   artifact versions.
 - Every release member records a repository-relative `path` and raw-file
   `sha256`; `make check` rejects missing, moved or modified members.
+- Every figure JSON also binds its PDF-extracted image asset by path, media
+  type, dimensions and SHA-256. Original publisher URLs remain as provenance,
+  not as a runtime image dependency.
 - Downstream records should cite the artifact lineage and semantic version and
   retain the release/bundle digest used at the time.
 

@@ -14,89 +14,155 @@
   "withinSection": "sec-emr-during-emr",
   "number": 26,
   "title": {
-    "en": "Strategies for difficult to access LNPCPs"
+    "en": "Strategies for difficult to access LNPCPS"
   },
   "statement": {
     "en": "ESGE recommends that the strategies detailed below could be employed to facilitate access to the target LNPCP where this is difficult."
   },
   "grade": {
-    "strength": "strong",
+    "strength": "moderately-strong",
     "evidenceQuality": "low"
   },
-  "subItems": [
-    {
-      "label": "i",
-      "text": {
-        "en": "The position of the patient is critical, using gravity to maximize the luminal view and access to the lesion. Consider the right lateral position for lesions in the sigmoid, descending colon, splenic flexure, and cecal pole; the left lateral position for lesions in the hepatic flexure and ascending colon; the supine position for lesions in the transverse colon; and the prone position if other positions are difficult in a patient with a long redundant colon, particularly for lesions in the rectosigmoid."
-      },
-      "levelOfAgreement": 88,
-      "references": [
-        "ref-131"
-      ]
-    },
-    {
-      "label": "ii",
-      "text": {
-        "en": "Ileocecal valve: use a distal attachment. Assess the lesion carefully prior to resection. Be aware that risk factors for failed endoscopic resection are: deep ingrowth into the ileum and circumferential involvement of the ileocecal valve lips. Start by using dynamic injection to encourage the ileal margin of the lesion into the colonic lumen. Start resection from this margin. A small stiff snare often helps at this location."
-      },
-      "levelOfAgreement": 92,
-      "references": [
-        "ref-132"
-      ]
-    },
-    {
-      "label": "iii",
-      "text": {
-        "en": "Appendiceal orifice: lesion assessment is critical. Risk factors for failure of endoscopic resection include invasion of the lesion beyond the endoscopic view into the appendiceal orifice and > 50 % circumferential involvement of the appendiceal orifice. A small stiff snare often helps in this location, as may use of the underwater technique."
-      },
-      "levelOfAgreement": 92,
-      "references": [
-        "ref-34",
-        "ref-133"
-      ]
-    },
-    {
-      "label": "iv",
-      "text": {
-        "en": "Rectosigmoid: consider use of a gastroscope, which will offer the ability for retroflexion."
-      },
-      "levelOfAgreement": 92
-    },
-    {
-      "label": "v",
-      "text": {
-        "en": "Flexures: use of distal attachments may help."
-      },
-      "levelOfAgreement": 93
-    },
-    {
-      "label": "vi",
-      "text": {
-        "en": "Anorectal junction: use a distal attachment. Use a small snare to commence resection at the anal verge, allowing expansion of the mucosal defect into the rectum and facilitating further resection. Use local anesthetic as part of the injectate in this area to provide analgesia after the procedure."
-      },
-      "levelOfAgreement": 91,
-      "references": [
-        "ref-92",
-        "ref-134"
-      ]
-    }
-  ],
   "references": [
-    "ref-9",
-    "ref-34",
-    "ref-92",
-    "ref-130",
-    "ref-131",
-    "ref-132",
-    "ref-133",
-    "ref-134"
+    "ref-10"
   ],
   "_meta": {
     "provenance": {
       "type": "verbatim",
       "source_doi": "10.1055/a-2077-0497"
     },
-    "encodedBy": "human:david",
-    "encodedAt": "2026-06-28"
-  }
+    "encodedBy": "other:codex-publisher-dom-import",
+    "encodedAt": "2026-08-09"
+  },
+  "subItems": [
+    {
+      "label": "i",
+      "levelOfAgreement": 96,
+      "text": {
+        "en": "Change patient position to respect the influence of gravity on fluid/blood (away from the lesion) and to optimize views."
+      }
+    },
+    {
+      "label": "ii",
+      "levelOfAgreement": 94,
+      "text": {
+        "en": "Optimize patient sedation."
+      }
+    },
+    {
+      "label": "iii",
+      "levelOfAgreement": 93,
+      "text": {
+        "en": "Administration of antispasmodics."
+      }
+    },
+    {
+      "label": "iv",
+      "levelOfAgreement": 96,
+      "text": {
+        "en": "Excellent basic colonoscopy technique to arrive at the lesion without looping."
+      }
+    },
+    {
+      "label": "v",
+      "levelOfAgreement": 86,
+      "text": {
+        "en": "Use of external pressure to prevent loop formation during insertion."
+      }
+    },
+    {
+      "label": "vi",
+      "levelOfAgreement": 93,
+      "text": {
+        "en": "Use of different endoscopes with different lengths, stiffness, and tip-bending properties etc. (e. g. pediatric colonoscope, gastroscope, balloon-enteroscope)."
+      }
+    },
+    {
+      "label": "vii",
+      "levelOfAgreement": 90,
+      "text": {
+        "en": "Ask assistant/nurse to hold the endoscope as needed."
+      }
+    },
+    {
+      "label": "viii",
+      "levelOfAgreement": 94,
+      "text": {
+        "en": "Position the lesion at 5–6 o’clock."
+      }
+    },
+    {
+      "label": "ix",
+      "levelOfAgreement": 91,
+      "text": {
+        "en": "Use retroflexion where possible and appropriate."
+      }
+    },
+    {
+      "label": "x",
+      "levelOfAgreement": 94,
+      "text": {
+        "en": "Use luminal insufflation and desufflation."
+      }
+    },
+    {
+      "label": "xi",
+      "levelOfAgreement": 91,
+      "text": {
+        "en": "Use of a transparent distal attachment (e. g. for flexures, ileocecal valve, or dentate line)."
+      }
+    },
+    {
+      "label": "xii",
+      "levelOfAgreement": 85,
+      "text": {
+        "en": "Resection technique: commence resection in a way that facilitates access to the most difficult part of the lesion early in the procedure to optimize the chance of complete resection."
+      }
+    },
+    {
+      "label": "xiii",
+      "levelOfAgreement": 94,
+      "text": {
+        "en": "Resection technique: use submucosal lifting to promote access to the required part of the lesion."
+      }
+    },
+    {
+      "label": "xiv",
+      "levelOfAgreement": 92,
+      "text": {
+        "en": "Resection technique: use snare resection of the surrounding lifting mucosa to create a step for snare placement on difficult-to-capture tissue."
+      }
+    },
+    {
+      "label": "xv",
+      "levelOfAgreement": 85,
+      "text": {
+        "en": "Resection technique: create a step into the submucosal plane to assist snare placement (hybrid-EMR)."
+      }
+    },
+    {
+      "label": "xvi",
+      "levelOfAgreement": 85,
+      "text": {
+        "en": "Resection technique: use an avulsion technique such as cold avulsion."
+      }
+    },
+    {
+      "label": "xvii",
+      "levelOfAgreement": 95,
+      "text": {
+        "en": "Consider asking for a second opinion from a more experienced colleague at the time or before a second attempt. Consider that you may not be the best person to perform the second attempt."
+      }
+    },
+    {
+      "label": "xviii",
+      "levelOfAgreement": 85,
+      "text": {
+        "en": "Try a second attempt at EMR prior to surgery (two-stage EMR) [10]."
+      },
+      "references": [
+        "ref-10"
+      ]
+    }
+  ]
 }

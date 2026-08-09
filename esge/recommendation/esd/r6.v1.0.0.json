@@ -14,7 +14,7 @@
   "withinSection": "sec-esd-training",
   "number": 6,
   "title": {
-    "en": "Practice on animal and/or ex vivo models is useful to gain the basic ESD skills."
+    "en": "Practice on animal and/or ex vivo models is useful to gain the basic ESD skills. ESGE recommends performing at least 20 ESD procedures in these models before human practice, with the goal of at least eight en bloc complete resections in the last 10 training cases, with no perforation."
   },
   "statement": {
     "en": "Practice on animal and/or ex vivo models is useful to gain the basic ESD skills. ESGE recommends performing at least 20 ESD procedures in these models before human practice, with the goal of at least eight en bloc complete resections in the last 10 training cases, with no perforation."
@@ -26,17 +26,7 @@
       "type": "verbatim",
       "source_doi": "10.1055/a-0996-0912"
     },
-    "encodedBy": "human:david",
-    "encodedAt": "2026-07-01",
-    "fieldProvenance": {
-      "commentary": {
-        "type": "verbatim",
-        "source_doi": "10.1055/a-0996-0912",
-        "source_span": "Paragraph(s) of prose in the source body immediately preceding the RECOMMENDATION block; shared with adjacent back-to-back RECOMMENDATIONs where the source clusters them without intervening prose. PDF hyphenation healed, running footers and page markers stripped."
-      }
-    }
-  },
-  "commentary": {
-    "en": "Once the basic theoretical knowledge has been mastered, and before beginning ESD in models, attending live demonstrations or meetings is probably a good way (controlled information) to learn the prerequisites from experts [22]. These attendances may help trainees to learn some tricks, understand techniques with different devices, in both easy and difficult locations, with the aim of improving their performance. Nevertheless, this point is based on expert opinion and clinical evidence is still lacking [32], because it has not yet been demonstrated that attendance at live demonstrations is able to improve ESD outcomes in trainees. With regard to beginning ESD training in humans, it is our opinion that this should be strongly discouraged. The complexity of the technique and the potential serious side effects, as well as several alternative options for training, are strong reasons to avoid taking the initial training steps in humans. A French study on initial rectal ESD experience in humans without supervision demonstrated how dangerous ESD can be in nonexperienced hands [33]. In this study, the initial perforation rate was 34 % and the initial R0 resection rate only 52 %. Therefore, beginning ESD training in humans is strongly discouraged as it may be both dangerous and ineffective."
+    "encodedBy": "other:codex-publisher-dom-import",
+    "encodedAt": "2026-08-09"
   }
 }

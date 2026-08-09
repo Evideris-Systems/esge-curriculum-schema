@@ -39,11 +39,24 @@
         "null"
       ]
     },
+    "desiredComparator": {
+      "enum": [">", ">=", "<", "<=", "="],
+      "description": "Comparator printed with the desired standard; omitted when the source gives a bare target value."
+    },
     "minimumStandard": {
       "type": [
         "number",
         "null"
       ]
+    },
+    "minimumComparator": {
+      "enum": [">", ">=", "<", "<=", "="],
+      "description": "Comparator printed with the minimum standard; omitted when the source gives a bare target value."
+    },
+    "sourceOrder": {
+      "type": "integer",
+      "minimum": 1,
+      "description": "Row order in the source publication's quality-indicator table."
     },
     "originData": {
       "type": "object",

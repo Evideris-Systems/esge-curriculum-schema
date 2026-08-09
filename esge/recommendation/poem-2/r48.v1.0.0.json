@@ -14,7 +14,7 @@
   "withinSection": "sec-poem-2-postoperative-care",
   "number": 48,
   "title": {
-    "en": "ESGE suggests favoring the use of a CT esophagram with oral water-soluble contrast over a standard"
+    "en": "ESGE suggests favoring the use of a CT esophagram with oral water-soluble contrast over a standard fluoroscopic esophagram in symptomatic patients with suspected post-procedural adverse events."
   },
   "statement": {
     "en": "ESGE suggests favoring the use of a CT esophagram with oral water-soluble contrast over a standard fluoroscopic esophagram in symptomatic patients with suspected post-procedural adverse events."
@@ -24,23 +24,32 @@
     "evidenceQuality": "very-low"
   },
   "levelOfAgreement": 86,
-  "references": [],
+  "references": [
+    "ref-104",
+    "ref-119",
+    "ref-120",
+    "ref-121",
+    "ref-122",
+    "ref-123",
+    "ref-124",
+    "ref-125",
+    "ref-126",
+    "ref-127",
+    "ref-128"
+  ],
   "_meta": {
     "provenance": {
       "type": "verbatim",
       "source_doi": "10.1055/a-2569-7634"
     },
-    "encodedBy": "human:david",
-    "encodedAt": "2026-07-03",
-    "fieldProvenance": {
-      "commentary": {
-        "type": "verbatim",
-        "source_doi": "10.1055/a-2569-7634",
-        "source_span": "Paragraph(s) preceding the N RECOMMENDATION block in body; back-to-back groups share commentary."
-      }
-    }
+    "encodedBy": "other:codex-publisher-dom-import",
+    "encodedAt": "2026-08-09"
   },
   "commentary": {
-    "en": "Post-procedural pain is common after POEM, with up to 10 % of patients complaining of severe pain [74, 113]. Substernal chest discomfort is usually the main complaint and reduces over time. Nearly 80 % of patients may need analgesia, particularly in the first day [44], requiring paracetamol, opioids, or nonsteroidal anti-inflammatory drugs for symptomatic control, sometimes with a combined approach. When used, opioids are usually not needed in large or prolonged doses, and chronic pain is usually related to residual achalasia symptoms rather than the procedure itself [113]. Compared with laparoscopic Heller\u2019s myotomy, post-procedure pain may be similar or lower after POEM [114], with low need for opioids within the first 4 hours, and no opioid requirement after 4 hours, particularly when using a multimodal analgesic approach [115]. Other analgesic strategies have been evaluated, such as preprocedural paravertebral nerve block [116] or intraprocedural tunnel irrigation with 30 mL 0.2 % ropivacaine [117]; however, these have not shown a significant reduction in pain-related outcomes. If opioids are needed, an RCT of 73 patients compared the use of two opioids for the management of post-procedural pain (0.08 mg/kg oxycodone [n = 36] or morphine [n = 37] given 15 minutes before the end of the POEM procedure), showing better efficacy with the former [118].\n\nafter POEM? The initial POEM series recommended a standard fluoroscopic esophagram postoperatively for the early detection of AEs. In our systematic search, we identified nine studies directly assessing the yield of conventional and/or CT esophagrams on day 1 after POEM [119\u2013127]. Both imaging modalities demonstrated high sensitivity but low specificity for clinically relevant AEs. Abnormal findings, such as capnoperitoneum, capnomediastinum, or pleural effusions were frequently observed in asymptomatic patients and did not correlate with unfavorable patient outcomes or lead to modifications in therapeutic management [121, 122, 124, 127]. Moreover, two retrospective studies found that esophageal emptying parameters assessed in early esophagrams did not predict the clinical response to POEM [119, 120]. Among the cohorts evaluating the role of CT esophagograms, radiological findings that prompted changes in patient management were mainly observed in patients with symptoms [121, 122, 124]. In symptomatic patients, early imaging contributed to the timely identification and treatment of leaks, perforations, and infectious AEs. We did not find any head-to-head studies comparing the use of CT versus standard fluoroscopic esophagrams (Table 10 s). In alignment with a consensus-based algorithm from the surgical literature to detect anastomotic leakage after minimally invasive esophagectomy and ESGE guidelines for the management of iatrogenic perforations, we favor the use of CT esophagrams over standard fluoroscopic esophagrams owing to their higher sensitivity in diagnosing small esophageal leaks and other extraluminal abnormalities [104, 128]. Furthermore, relevant abnormal findings in standard fluoroscopy are almost invariably followed by a CT esophagram. In conclusion, the rate of imaging abnormalities requiring intervention after POEM is very low. Routine imaging is associated with radiation exposure, increased resource use, and potential AEs related to contrast ingestion. Therefore, the use of a CT esophagram after POEM should be considered primarily for symptomatic patients.\n\nafter POEM? Second-look endoscopy adds to both the costs and logistical challenges. Several reports indicate that POEM can be safely performed without the need for routine postoperative examinations and may even be conducted on an outpatient basis for certain individuals [129, 130]. The benefit of second-look endoscopy has been explored in a single-center retrospective study comprising 447 patients [131]. Abnormal findings were detected in 71 patients (14.3 %). Newly detected AEs that necessitated endoscopic intervention or deviation from the standard postoperative protocol were observed in 12 patients (2.4 %). These included entry site dehiscence in eight patients (1.6 %), submucosal hemorrhage or hematoma in two patients (0.4 %), and dehiscence at the site of an intraoperative perforation that had been closed with endoclips in two patients (0.4 %). Multivariate analysis indicated that an extended duration of operation and the presence of intraoperative AEs were the predictors of clinically significant findings at second-look endoscopy. Therefore, second-look endoscopy could potentially be reserved for selected patients.\n\nafter POEM to reduce the rate of adverse events? PPIs have been widely studied in the literature for the management of post-POEM GERD, which is reported to occur in up to almost 30 % of the cases [132]. While PPIs are effective in this setting, no evidence was found for the use of PPIs in the periprocedural setting to reduce AEs such as late bleeding or pain, or to induce better healing of the mucosotomy. While this practice is seen in some studies as a routine, supposedly aimed at"
-  }
+    "en": "The initial POEM series recommended a standard fluoroscopic esophagram postoperatively for the early detection of AEs. In our systematic search, we identified nine studies directly assessing the yield of conventional and/or CT esophagrams on day 1 after POEM [119] [120] [121] [122] [123] [124] [125] [126] [127]. Both imaging modalities demonstrated high sensitivity but low specificity for clinically relevant AEs. Abnormal findings, such as capnoperitoneum, capnomediastinum, or pleural effusions were frequently observed in asymptomatic patients and did not correlate with unfavorable patient outcomes or lead to modifications in therapeutic management [121] [122] [124] [127]. Moreover, two retrospective studies found that esophageal emptying parameters assessed in early esophagrams did not predict the clinical response to POEM [119] [120]. Among the cohorts evaluating the role of CT esophagograms, radiological findings that prompted changes in patient management were mainly observed in patients with symptoms [121] [122] [124]. In symptomatic patients, early imaging contributed to the timely identification and treatment of leaks, perforations, and infectious AEs.\n\nWe did not find any head-to-head studies comparing the use of CT versus standard fluoroscopic esophagrams (Table 10 s). In alignment with a consensus-based algorithm from the surgical literature to detect anastomotic leakage after minimally invasive esophagectomy and ESGE guidelines for the management of iatrogenic perforations, we favor the use of CT esophagrams over standard fluoroscopic esophagrams owing to their higher sensitivity in diagnosing small esophageal leaks and other extraluminal abnormalities [104] [128]. Furthermore, relevant abnormal findings in standard fluoroscopy are almost invariably followed by a CT esophagram.\n\nIn conclusion, the rate of imaging abnormalities requiring intervention after POEM is very low. Routine imaging is associated with radiation exposure, increased resource use, and potential AEs related to contrast ingestion. Therefore, the use of a CT esophagram after POEM should be considered primarily for symptomatic patients."
+  },
+  "commentaryForRecommendations": [
+    47,
+    48
+  ]
 }

@@ -20,23 +20,27 @@
     "en": "Endoscopists involved in ESD should have specific knowledge of the instrumentation, technique, and electrosurgical equipment."
   },
   "levelOfAgreement": 100,
-  "references": [],
+  "references": [
+    "ref-59",
+    "ref-60",
+    "ref-61",
+    "ref-62",
+    "ref-63",
+    "ref-64",
+    "ref-65"
+  ],
   "_meta": {
     "provenance": {
       "type": "verbatim",
       "source_doi": "10.1055/a-0996-0912"
     },
-    "encodedBy": "human:david",
-    "encodedAt": "2026-07-01",
-    "fieldProvenance": {
-      "commentary": {
-        "type": "verbatim",
-        "source_doi": "10.1055/a-0996-0912",
-        "source_span": "Paragraph(s) of prose in the source body immediately preceding the RECOMMENDATION block; shared with adjacent back-to-back RECOMMENDATIONs where the source clusters them without intervening prose. PDF hyphenation healed, running footers and page markers stripped."
-      }
-    }
+    "encodedBy": "other:codex-publisher-dom-import",
+    "encodedAt": "2026-08-09"
   },
   "commentary": {
-    "en": "Furthermore, particularly in low volume centers, in order to avoid spaced training, mixing practice on animal models with the first human procedures is a good option to maintain regular and frequent ESD practice and to achieve high quality results for R0 resection and perforation rates [58]. In fact, a step-up training protocol over a 12-month period of 50 observational and supervised ESD procedures, as well as 24 animal procedures, showed excellent results, particularly in the rectum and stomach, with more than 90 % of procedures achieving R0 resections [53]. A logbook and a preclinical database suggested by ESGE for ESD training are available for trainees on the ESGE website (https://www.esge.com/esd-training-curriculum/). ESD is a complex and technically demanding procedure. Accordingly, in order to perform safe and effective treatment, while avoiding serious complications, endoscopists should have a full understanding of not only the technique but also the different instruments and the electrosurgical unit (ESU) that are needed to perform a safe ESD [59, 60]. We recommend that endoscopists should have extensive knowledge of all the devices that can be used for ESD, such as knives, injection agents, caps and hoods, and hemostatic and traction devices, as this information can be important in more difficult and com"
-  }
+    "en": "ESD is a complex and technically demanding procedure. Accordingly, in order to perform safe and effective treatment, while avoiding serious complications, endoscopists should have a full understanding of not only the technique but also the different instruments and the electrosurgical unit (ESU) that are needed to perform a safe ESD [59] [60]. We recommend that endoscopists should have extensive knowledge of all the devices that can be used for ESD, such as knives, injection agents, caps and hoods, and hemostatic and traction devices, as this information can be important in more difficult and complex situations [59] [60] [61] [62]. In fact, there are several knives available to perform ESD, each one with its own particularities and advantages over others for use in certain situations [59] [60] [63] [64], but without enough evidence to recommend one knife over another. As a general rule, we recommend that endoscopists should use the equipment that they feel comfortable with, ideally the same as they have used in training, but at the same time should know the full ESD “armamentarium” so they can choose other options in more difficult/complex scenarios.\n\nEndoscopists should also know the principles and features of the ESUs that can be used for ESD. In fact, each ESU has its own settings and types of current; the recommended settings vary according not only to the cutting device that is being used but also with the lesions and organs in which the current is applied. Some manufacturers provide specific instructions for performing ESD [65]. In the absence of these, we recommend that endoscopists contact the manufacturer of their own ESU before starting ESD in humans."
+  },
+  "commentaryForRecommendations": [
+    11
+  ]
 }

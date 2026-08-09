@@ -12,14 +12,15 @@
   ],
   "withinCurriculum": "cur-emr-colon-2023",
   "title": {
-    "en": "Number of procedures performed independently per year (lesions \u226520 mm)"
+    "en": "Number of procedures performed independently per year (lesions ≥20 mm)"
   },
   "metric": {
-    "en": "Number of procedures performed independently per year (lesions \u226520 mm)"
+    "en": "Number of procedures performed independently per year (lesions ≥20 mm)"
   },
   "unit": "procedures/year",
-  "desiredStandard": null,
-  "minimumStandard": 70,
+  "desiredStandard": 70,
+  "minimumStandard": null,
+  "sourceOrder": 2,
   "originData": {
     "source": "delphi",
     "value": null,

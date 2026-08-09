@@ -1,14 +1,14 @@
-.PHONY: check ci-check schema-check source-trace verify-citations completeness completeness-vs-expected release-hashes validate self all
+.PHONY: check ci-check schema-check source-trace source-fidelity verify-citations completeness completeness-vs-expected figure-assets release-hashes validate self all
 
 # Full release check. Requires locally acquired source text and either network
 # access or a populated citation cache.
-check: schema-check validate release-hashes source-trace verify-citations completeness completeness-vs-expected
+check: schema-check validate release-hashes figure-assets source-trace source-fidelity verify-citations completeness completeness-vs-expected
 	@echo "✓ All correctness checks passed."
 
 # Deterministic clean-check for consumers and CI runners. This verifies every
 # repository-contained invariant. It deliberately excludes source-trace and
 # verify-citations because their source text/metadata live outside this repo.
-ci-check: schema-check validate release-hashes completeness completeness-vs-expected
+ci-check: schema-check validate release-hashes figure-assets source-fidelity completeness completeness-vs-expected
 	@echo "✓ Clean-check passed (external source trace and citation resolution not run)."
 
 # Pre-flight: meta-schema check on the schemas themselves.
@@ -23,9 +23,19 @@ validate:
 release-hashes:
 	@python3 scripts/update-release-hashes.py --root esge releases/*.json
 
+# Every figure JSON must bind one real, non-symlinked image with matching
+# SHA-256 and pixel dimensions; every stored image must be referenced.
+figure-assets:
+	@python3 scripts/verify-figure-assets.py
+
 # Every text field must grep-match the cached source PDF (or carry source_span override).
 source-trace:
 	@python3 scripts/source-trace.py
+
+# Parent-aware source fidelity: recommendation, section, order, sub-item,
+# agreement, and shared-rationale hashes generated from publisher HTML DOM.
+source-fidelity:
+	@python3 scripts/source-fidelity.py
 
 # Every references[].citation must resolve via Crossref / OpenAlex / NCBI.
 verify-citations:

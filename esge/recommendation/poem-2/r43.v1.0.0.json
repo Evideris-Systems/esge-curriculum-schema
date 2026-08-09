@@ -14,7 +14,7 @@
   "withinSection": "sec-poem-2-adverse-events",
   "number": 43,
   "title": {
-    "en": "Drainage of capnoperitoneum using needle decompression is required if hemodynamic or respiratory compromise occur during the procedure."
+    "en": "Drainage of capnoperitoneum using needle decompression is required if hemodynamic or respiratory compromise occur during the procedure. Subcutaneous emphysema invariably resolves spontaneously and does not require treatment."
   },
   "statement": {
     "en": "Drainage of capnoperitoneum using needle decompression is required if hemodynamic or respiratory compromise occur during the procedure. Subcutaneous emphysema invariably resolves spontaneously and does not require treatment."
@@ -24,23 +24,29 @@
     "evidenceQuality": "no-evidence-available"
   },
   "levelOfAgreement": 100,
-  "references": [],
+  "references": [
+    "ref-2",
+    "ref-98",
+    "ref-100",
+    "ref-101",
+    "ref-102",
+    "ref-103",
+    "ref-104"
+  ],
   "_meta": {
     "provenance": {
       "type": "verbatim",
       "source_doi": "10.1055/a-2569-7634"
     },
-    "encodedBy": "human:david",
-    "encodedAt": "2026-07-03",
-    "fieldProvenance": {
-      "commentary": {
-        "type": "verbatim",
-        "source_doi": "10.1055/a-2569-7634",
-        "source_span": "Paragraph(s) preceding the N RECOMMENDATION block in body; back-to-back groups share commentary."
-      }
-    }
+    "encodedBy": "other:codex-publisher-dom-import",
+    "encodedAt": "2026-08-09"
   },
   "commentary": {
-    "en": "CO2 is preferred during POEM across a majority of studies, as it has been shown to reduce the incidence of AEs in comparison to room air. Our recommendation is in accordance with prior ESGE guidelines, as there is no new evidence to suggest a different approach [2]. A review found an overall rate of gas-related AEs during POEM of 36 % [100]. The most frequent was capnoperitoneum (27 %), which can lead to respiratory or hemodynamic compromise. Subcutaneous emphysema and capnomediastinum are usually clinically silent and disappear spontaneously after a few days [98]. One study developed a prediction model for gas-related AEs including four risk factors: (i) air insufflation (OR 9.1, 95 %CI 4.4\u201318.5); (ii) mucosal injury (OR 1.6, 95 %CI 1.0\u20132.5); (iii) long operation time (OR 2.2, 95 %CI 1.3\u20133.7); and (iv) selective myotomy (OR 2.2, 95 %CI 1.1\u20134.5) [101]. The following considerations pertain to the management of gas-related AEs during POEM procedures 1. The insufflation unit should be checked to ensure that CO2 at low flow rate (~1.2 L/minute) rather than air is being used. 2. The patient should be continuously assessed for abdominal distension. If necessary, the procedure should be interrupted to perform needle decompression of a capnoperitoneum. 3. Good communication with the anesthetic team is necessary. Changes in hemodynamics, tidal volumes, ventilation, and capnography should prompt a clinical review of the patient, particularly for pleural effusion, capnothorax, or capnoperitoneum. 4. Minor levels of capnoperitoneum may be treated conservatively by temporarily pausing the procedure and waiting for absorption of the CO2. 5. In the presence of a large tense capnoperitoneum associated with hemodynamic compromise or ventilatory compromise, needle decompression should be performed. One study suggests that the decision to intervene for capnoperitoneum could be based on end-tidal CO2 (> 50 mmHg) [102]."
-  }
+    "en": "CO2 is preferred during POEM across a majority of studies, as it has been shown to reduce the incidence of AEs in comparison to room air. Our recommendation is in accordance with prior ESGE guidelines, as there is no new evidence to suggest a different approach [2]. A review found an overall rate of gas-related AEs during POEM of 36% [100]. The most frequent was capnoperitoneum (27%), which can lead to respiratory or hemodynamic compromise. Subcutaneous emphysema and capnomediastinum are usually clinically silent and disappear spontaneously after a few days [98]. One study developed a prediction model for gas-related AEs including four risk factors: (i) air insufflation (OR 9.1, 95%CI 4.4–18.5); (ii) mucosal injury (OR 1.6, 95%CI 1.0–2.5); (iii) long operation time (OR 2.2, 95%CI 1.3–3.7); and (iv) selective myotomy (OR 2.2, 95%CI 1.1–4.5) [101].\n\nThe following considerations pertain to the management of gas-related AEs during POEM procedures\n\nThe presence of a capnoperitoneum should be confirmed by abdominal examination, noting distension and a tympanic abdomen on percussion. Care should be taken to ensure that the stomach is deflated before attributing abdominal distension to capnoperitoneum. The decompression site should be identified avoiding vasculature, infected skin, or scar tissue. Multiple options have been described for the insertion point; either in the midline 2 cm below the umbilicus along the median line, or on a lateral part of the abdomen 5 cm superior and medial to the anterior superior iliac spine, or 3 cm below the left subcostal area at the midclavicular line [103] [104].\n\nThe overlying skin should be cleansed with a sterilizing solution. A test puncture might be performed using a 21-gauge needle; thereafter, an 18- or 20-gauge trocar should be used [103]. The catheter and needle should be inserted into the peritoneal cavity while applying suction on a water-filled syringe. Bubbling in the water is used to confirm the presence of gas, indicating an adequate depth of insertion. The needle may then be withdrawn while leaving the plastic catheter sheath in place. The water-filled syringe is then attached to the catheter and the plunger removed. Bubbling through the water-filled syringe is used to denote continued drainage of gas. The syringe should be secured and left in place until completion of the procedure, or longer until adequate decompression is achieved."
+  },
+  "commentaryForRecommendations": [
+    41,
+    42,
+    43
+  ]
 }

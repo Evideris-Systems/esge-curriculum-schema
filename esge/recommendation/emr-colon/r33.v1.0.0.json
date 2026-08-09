@@ -23,94 +23,83 @@
     "strength": "best-practice",
     "evidenceQuality": "low"
   },
-  "subItems": [
-    {
-      "label": "i",
-      "text": {
-        "en": "Assessment of quality of bowel preparation."
-      },
-      "levelOfAgreement": 95
-    },
-    {
-      "label": "ii",
-      "text": {
-        "en": "Completeness of the colonoscopy."
-      },
-      "levelOfAgreement": 96
-    },
-    {
-      "label": "iii",
-      "text": {
-        "en": "Recognition of the EMR scar, extensive imaging (high definition, virtual chromoendoscopy, +/\u2212chromoendoscopy, nearfocus/magnification) and photodocumentation."
-      },
-      "levelOfAgreement": 95,
-      "references": [
-        "ref-87",
-        "ref-145"
-      ]
-    },
-    {
-      "label": "iv",
-      "text": {
-        "en": "Presence of any residual or recurrent adenoma recognized by a transition in pit/vascular pattern (e. g. NICE I to NICE II; Kudo I to Kudo III/IV) (\u25b6Fig. 3)."
-      },
-      "levelOfAgreement": 96
-    },
-    {
-      "label": "v",
-      "text": {
-        "en": "The presence of clip artifact. Recognize that clip artifact itself does not need treatment, but, where there is doubt, treatment is safe and prevents unnecessary further procedures for patients."
-      },
-      "levelOfAgreement": 96,
-      "references": [
-        "ref-146",
-        "ref-147"
-      ]
-    },
-    {
-      "label": "vi",
-      "text": {
-        "en": "Targeted biopsies and endoscopic treatment of any potential residual or recurrent adenoma should be performed."
-      },
-      "levelOfAgreement": 96
-    },
-    {
-      "label": "vii",
-      "text": {
-        "en": "Additional polyps/LNPCPs should be noted and removed if feasible or a plan for their removal made."
-      },
-      "levelOfAgreement": 99
-    },
-    {
-      "label": "viii",
-      "text": {
-        "en": "Need/timing for further surveillance."
-      },
-      "levelOfAgreement": 93,
-      "references": [
-        "ref-58"
-      ]
-    }
-  ],
   "references": [
-    "ref-9",
-    "ref-58",
-    "ref-87",
-    "ref-145",
-    "ref-146",
-    "ref-147",
-    "ref-148",
-    "ref-149"
+    "ref-144"
   ],
   "_meta": {
     "provenance": {
       "type": "verbatim",
       "source_doi": "10.1055/a-2077-0497"
     },
-    "encodedBy": "human:david",
-    "encodedAt": "2026-06-28"
+    "encodedBy": "other:codex-publisher-dom-import",
+    "encodedAt": "2026-08-09"
   },
-  "figureRefs": [
-    "fig-emr-colon-3"
+  "subItems": [
+    {
+      "label": "i",
+      "levelOfAgreement": 96,
+      "text": {
+        "en": "Give information about which adverse events could still occur after the procedure (bleeding, serositis, delayed perforation)."
+      }
+    },
+    {
+      "label": "ii",
+      "levelOfAgreement": 94,
+      "text": {
+        "en": "The criteria for seeking medical attention should be discussed with the patient. As a minimum, the patient should be instructed to seek medical attention (perhaps at the institution where the resection was performed, with specific contact details given) if they experience: persistent abdominal pain that does not respond to simple analgesics; frequent hematochezia, with an explicit threshold regarding when to seek medical attention (perhaps blood in the stool every 30 minutes or less)."
+      }
+    },
+    {
+      "label": "iii",
+      "levelOfAgreement": 87,
+      "text": {
+        "en": "Give an explanation about post-procedural diet. After standard EMR, this could be clear fluids overnight and standard diet the day after, but this should be modified depending on the complexity and radicality of the procedure."
+      }
+    },
+    {
+      "label": "iv",
+      "levelOfAgreement": 96,
+      "text": {
+        "en": "Individualized advice should be given about the timing of restarting antiplatelet/anticoagulant medication based on the published evidence and in consultation with the prescribing specialists."
+      }
+    },
+    {
+      "label": "v",
+      "levelOfAgreement": 96,
+      "text": {
+        "en": "A follow-up plan to discuss pathology results and potential outcomes should be made. Discuss the expected time until histopathology results are known."
+      }
+    },
+    {
+      "label": "vi",
+      "levelOfAgreement": 93,
+      "text": {
+        "en": "The need for surveillance colonoscopy based on the size and histology should be estimated. It should be explained that this will be confirmed once the histopathology results are known."
+      }
+    },
+    {
+      "label": "vii",
+      "levelOfAgreement": 93,
+      "text": {
+        "en": "If the colonoscopy identifies malignancy, an LNPCP in a young patient, or a suspicion of a hereditary syndrome, screening of family members following established guidelines should be recommended [144]."
+      },
+      "references": [
+        "ref-144"
+      ]
+    },
+    {
+      "label": "viii",
+      "levelOfAgreement": 96,
+      "text": {
+        "en": "If the procedure was not completed, the reasons why and the next steps in management should be discussed."
+      }
+    },
+    {
+      "label": "ix",
+      "levelOfAgreement": 83,
+      "text": {
+        "en": "The importance of not travelling to remote areas (without access to emergency medical care) for a minimum of 14 days should be discussed."
+      }
+    }
   ]
 }

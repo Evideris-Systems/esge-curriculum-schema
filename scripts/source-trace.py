@@ -33,7 +33,9 @@ TEXT_PATHS = {
     "scoringTool":    ["title.en", "description.en", "scale.bands[*].label.en", "inputs[*].label.en", "inputs[*].values[*].label.en"],
     "kpi":            ["title.en", "metric.en"],
     "qi":             ["title.en", "metric.en"],
-    "cat":            ["title.en", "description.en", "items[*].label.en", "items[*].guidance.en"],
+    "cat":            ["title.en", "description.en", "scoreFormula.en", "scoringNotes[*].en", "domains[*].title.en", "items[*].label.en", "items[*].guidance.en", "items[*].poorGuidance.en"],
+    "figure":         ["caption.en", "panels[*].label", "panels[*].description.en"],
+    "table":          ["title.en", "columns[*].header.en", "rows[*].cells[*].en", "footnotes[*].text.en"],
 }
 
 
@@ -45,7 +47,7 @@ def normalise(s: str) -> str:
     # Strip inline citation tags like [28] or [28, 33] or [59–61] — extractors
     # typically remove these from rec text, so source haystack must do likewise.
     # Handles ranges with en-dash (U+2013), em-dash (U+2014), or hyphen.
-    s = re.sub(r"\s*\[\d+(?:[,\s\-–—]+\d+)*\]\s*", " ", s)
+    s = re.sub(r"\s*\[\s*\d+(?:[,\s\-–—]+\d+)*\s*\]\s*", " ", s)
     # Join hyphenated line breaks: "pedun- culated" -> "pedunculated".
     s = re.sub(r"(\w)-\s+(\w)", r"\1\2", s)
     # Same for slash-line-break: "size/ type" -> "size/type".
@@ -55,6 +57,15 @@ def normalise(s: str) -> str:
     # Strip ▶ glyph and similar.
     s = s.replace("▶", "").replace("–", "-").replace("—", "-")
     s = s.replace("’", "'").replace("“", '"').replace("”", '"')
+    # Publisher HTML encloses figure/table references in square brackets while
+    # the PDF text layer commonly drops those brackets. They are presentation,
+    # not semantic content, so compare both forms identically.
+    s = re.sub(r"\[\s*((?:fig\.|table)\s*[^\]]+)\]", r"\1", s, flags=re.I)
+    s = re.sub(r"\b(fig\.|table)\s*(\d)", r"\1 \2", s, flags=re.I)
+    # PDF extraction may retain a space after comparison operators; publisher
+    # HTML uses a hair space that the DOM importer removes.
+    s = re.sub(r"([<>≤≥])\s+(\d)", r"\1\2", s)
+    s = re.sub(r"\+/[−-]\s*", "+/-", s)
     s = re.sub(r"\s+", " ", s)
     return s.strip().lower()
 

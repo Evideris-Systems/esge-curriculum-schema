@@ -11,7 +11,7 @@
     "en"
   ],
   "withinCurriculum": "cur-emr-colon-2023",
-  "withinSection": "sec-emr-after-emr",
+  "withinSection": "sec-emr-during-emr",
   "number": 31,
   "title": {
     "en": "Management of post-EMR bleeding"
@@ -23,90 +23,101 @@
     "strength": "strong",
     "evidenceQuality": "moderate"
   },
-  "subItems": [
-    {
-      "label": "i",
-      "text": {
-        "en": "Persistent abdominal pain despite simple analgesics."
-      },
-      "levelOfAgreement": 97,
-      "references": [
-        "ref-142",
-        "ref-143"
-      ]
-    },
-    {
-      "label": "ii",
-      "text": {
-        "en": "Persistent abdominal distension associated with abdominal pain."
-      },
-      "levelOfAgreement": 96
-    },
-    {
-      "label": "iii",
-      "text": {
-        "en": "Hemodynamic instability/shock (fever, tachycardia, hypoxia etc.)."
-      },
-      "levelOfAgreement": 97
-    },
-    {
-      "label": "iv",
-      "text": {
-        "en": "Peritonism on clinical examination."
-      },
-      "levelOfAgreement": 97
-    },
-    {
-      "label": "v",
-      "text": {
-        "en": "Persistent large-volume rectal bleeding."
-      },
-      "levelOfAgreement": 97
-    },
-    {
-      "label": "vi",
-      "text": {
-        "en": "The need for surveillance colonoscopy based on the size and histology should be estimated. It should be explained that this will be confirmed once the histopathology results are known."
-      },
-      "levelOfAgreement": 93
-    },
-    {
-      "label": "vii",
-      "text": {
-        "en": "If the colonoscopy identifies malignancy, an LNPCP in a young patient, or a suspicion of a hereditary syndrome, screening of family members following established guidelines should be recommended."
-      },
-      "levelOfAgreement": 93,
-      "references": [
-        "ref-144"
-      ]
-    },
-    {
-      "label": "viii",
-      "text": {
-        "en": "If the procedure was not completed, the reasons why and the next steps in management should be discussed."
-      },
-      "levelOfAgreement": 96
-    },
-    {
-      "label": "ix",
-      "text": {
-        "en": "The importance of not travelling to remote areas (without access to emergency medical care) for a minimum of 14 days should be discussed."
-      },
-      "levelOfAgreement": 83
-    }
-  ],
   "references": [
-    "ref-141",
-    "ref-142",
-    "ref-143",
-    "ref-144"
+    "ref-140",
+    "ref-141"
   ],
   "_meta": {
     "provenance": {
       "type": "verbatim",
       "source_doi": "10.1055/a-2077-0497"
     },
-    "encodedBy": "human:david",
-    "encodedAt": "2026-06-28"
-  }
+    "encodedBy": "other:codex-publisher-dom-import",
+    "encodedAt": "2026-08-09"
+  },
+  "subItems": [
+    {
+      "label": "i",
+      "levelOfAgreement": 96,
+      "text": {
+        "en": "Pre-intervention: resuscitation of patient with fluids and blood products if required."
+      }
+    },
+    {
+      "label": "ii",
+      "levelOfAgreement": 96,
+      "text": {
+        "en": "Pre-intervention: address any coagulopathy."
+      }
+    },
+    {
+      "label": "iii",
+      "levelOfAgreement": 96,
+      "text": {
+        "en": "Pre-intervention: perform close monitoring after initial resuscitation."
+      }
+    },
+    {
+      "label": "iv",
+      "levelOfAgreement": 96,
+      "text": {
+        "en": "Decision for intervention: use the frequency of hematochezia, American Society of Anesthesiologists (ASA) score, and need for transfusion as a guide to which patients require repeat colonoscopy and hemostatic measures [140]. Most patients do not require re-intervention."
+      },
+      "references": [
+        "ref-140"
+      ]
+    },
+    {
+      "label": "v",
+      "levelOfAgreement": 96,
+      "text": {
+        "en": "Locate the resection defect and use the endoscope flushing pump to irrigate it."
+      }
+    },
+    {
+      "label": "vi",
+      "levelOfAgreement": 96,
+      "text": {
+        "en": "There is usually a single large vessel responsible for delayed bleeding after EMR. This vessel is often identified by an adherent clot. Any clot adherent to the defect after EMR should be removed using a cold snare and therapy should be directed at the underlying vessel."
+      }
+    },
+    {
+      "label": "vii",
+      "levelOfAgreement": 93,
+      "text": {
+        "en": "Hemostatic forceps should be used following the above technique to cauterize the causative vessel. The technique is described in Recommendation 29 (ix)."
+      }
+    },
+    {
+      "label": "viii",
+      "levelOfAgreement": 95,
+      "text": {
+        "en": "Clips can be placed as primary therapy but are often more useful as security after control is achieved using coagulation forceps."
+      }
+    },
+    {
+      "label": "ix",
+      "levelOfAgreement": 90,
+      "text": {
+        "en": "A topical hemostatic agent can be useful, but is often only a temporary measure to control bleeding."
+      }
+    },
+    {
+      "label": "x",
+      "levelOfAgreement": 96,
+      "text": {
+        "en": "In rare cases, where endoscopic therapy fails, consider interventional radiology [141] as the next step. Leaving a clip on/near the causative vessel may allow the radiologist to visualize the causative vessel more easily in this situation."
+      },
+      "references": [
+        "ref-141"
+      ]
+    },
+    {
+      "label": "xi",
+      "levelOfAgreement": 96,
+      "text": {
+        "en": "If endoscopic therapy fails and interventional radiology either fails or is unavailable, consider surgery."
+      }
+    }
+  ]
 }

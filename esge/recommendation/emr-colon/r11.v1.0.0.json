@@ -24,68 +24,110 @@
     "evidenceQuality": "moderate"
   },
   "references": [
-    "ref-28",
-    "ref-37",
-    "ref-38",
-    "ref-58",
-    "ref-97",
-    "ref-98"
+    "ref-84",
+    "ref-90",
+    "ref-91",
+    "ref-92",
+    "ref-93",
+    "ref-94"
   ],
   "_meta": {
     "provenance": {
       "type": "verbatim",
       "source_doi": "10.1055/a-2077-0497"
     },
-    "encodedBy": "human:david",
-    "encodedAt": "2026-06-28",
-    "fieldProvenance": {
-      "subItems": {
-        "type": "verbatim",
-        "source_doi": "10.1055/a-2077-0497",
-        "source_span": "Hand-extracted from source PDF after careful cross-rec attribution; PDF column flow had scattered these sub-items across the narrative subsection containing R11."
-      }
-    }
+    "encodedBy": "other:codex-publisher-dom-import",
+    "encodedAt": "2026-08-09"
   },
   "subItems": [
     {
       "label": "i",
+      "levelOfAgreement": 97,
       "text": {
-        "en": "Adequate colon cleanliness according to the Boston Bowel Preparation scale (BBPS) or another similar scale. BBPS < 2 in the colonic segment containing the LNPCP for resection suggests inadequate preparation for EMR and an increased risk of failure and complications."
-      },
-      "levelOfAgreement": 86,
-      "references": [
-        "ref-58",
-        "ref-97"
-      ]
+        "en": "Informed patient consent."
+      }
     },
     {
       "label": "ii",
+      "levelOfAgreement": 96,
       "text": {
-        "en": "LNPCPs with endoscopic imaging suggestive of overt superficial SMI or those with high risk of covert SMI should be considered for en bloc resection (see Recommendation 4)."
-      },
-      "levelOfAgreement": 95,
-      "references": [
-        "ref-28"
-      ]
+        "en": "The appropriateness of the procedure and the risk of adverse events should be considered in the context of patient co-morbidities and life expectancy."
+      }
     },
     {
       "label": "iii",
+      "levelOfAgreement": 92,
       "text": {
-        "en": "An alternative option for large nodules or small areas within LNPCPs suspicious for SMI is piecemeal resection with en bloc resection of the suspicious area for better pathology reporting."
-      },
-      "levelOfAgreement": 84
+        "en": "Relevant specialty review of co-morbid conditions is only needed in specific cases; most patients do not require a specialist consultation prior to EMR."
+      }
     },
     {
       "label": "iv",
+      "levelOfAgreement": 96,
       "text": {
-        "en": "En bloc EMR for LNPCPs \u226515 mm (right colon) and \u226520 mm (left colon) should not always be pursued at all costs when there is no overt and low covert risk of SMI, owing to the increased risk of intraprocedural complications (e. g. intraprocedural perforation) without benefit in terms of adenoma recurrence."
+        "en": "Anticoagulant and antiplatelet use should be assessed and a plan for adjustment should be discussed with the patient prior to EMR [84] [90]."
       },
-      "levelOfAgreement": 89,
       "references": [
-        "ref-37",
-        "ref-38",
-        "ref-98"
+        "ref-84",
+        "ref-90"
       ]
+    },
+    {
+      "label": "v",
+      "levelOfAgreement": 89,
+      "text": {
+        "en": "The need for prophylactic antibiotics in relation to underlying health conditions should be determined as per published guidance [91] [92]."
+      },
+      "references": [
+        "ref-91",
+        "ref-92"
+      ]
+    },
+    {
+      "label": "vi",
+      "levelOfAgreement": 93,
+      "text": {
+        "en": "Local guidelines should be followed in preparing patients with an implantable cardioverter–defibrillator, spinal stimulator, or deep-brain stimulator to undergo EMR."
+      }
+    },
+    {
+      "label": "vii",
+      "levelOfAgreement": 85,
+      "text": {
+        "en": "(If the procedure is to be performed under monitored anesthesia care) anesthetist/perioperative physician review should be arranged as per local guidance."
+      }
+    },
+    {
+      "label": "viii",
+      "levelOfAgreement": 92,
+      "text": {
+        "en": "Social factors that may warrant an overnight stay should be assessed prior to booking the procedure. Alternatively, frail patients living on their own can be asked to stay with family members, given that overnight hospital stays may not always be practical owing to local hospital bed constraints."
+      }
+    },
+    {
+      "label": "ix",
+      "levelOfAgreement": 95,
+      "text": {
+        "en": "The quality of previous bowel preparation should be discussed when this was previously poor and the importance of good bowel preparation should be emphasized [93] [94]."
+      },
+      "references": [
+        "ref-93",
+        "ref-94"
+      ]
+    },
+    {
+      "label": "x",
+      "levelOfAgreement": 92,
+      "text": {
+        "en": "Prior radiographic imaging findings relevant to the lesion for resection should be reviewed by the proceduralist when available; however, radiographic imaging is generally not required prior to EMR."
+      }
+    },
+    {
+      "label": "xi",
+      "levelOfAgreement": 82,
+      "text": {
+        "en": "Patients should be advised not to plan any travel (without emergent access to hospital emergency services) in the 14 days after EMR."
+      }
     }
   ]
 }

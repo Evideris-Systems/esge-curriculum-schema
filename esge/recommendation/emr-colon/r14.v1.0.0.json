@@ -14,7 +14,7 @@
   "withinSection": "sec-emr-before-emr",
   "number": 14,
   "title": {
-    "en": "Considerations before EMR of an LNPCP"
+    "en": "Considerations before emr of an LNPCP"
   },
   "statement": {
     "en": "ESGE recommends that the points given in the following list should be considered by a competent EMR practitioner prior to EMR once an LNPCP has been judged endoscopically resectable."
@@ -23,100 +23,83 @@
     "strength": "best-practice",
     "evidenceQuality": "low"
   },
-  "subItems": [
-    {
-      "label": "i",
-      "text": {
-        "en": "Use injection to improve lesion access and visualization (\u25b6Fig. 2, image B2)."
-      },
-      "levelOfAgreement": 86
-    },
-    {
-      "label": "ii",
-      "text": {
-        "en": "Ensure air is expelled from the injection catheter prior to first injection (priming)."
-      },
-      "levelOfAgreement": 88
-    },
-    {
-      "label": "iii",
-      "text": {
-        "en": "Injection through clearly benign lesions is acceptable if necessary. Caution should be exercised when attempting injection through LNPCPs suspected of containing SMIC because of the risk of malignant seeding."
-      },
-      "levelOfAgreement": 88,
-      "references": [
-        "ref-111"
-      ]
-    },
-    {
-      "label": "iv",
-      "text": {
-        "en": "Injection should be performed dynamically. The injection is started (short stab, tangential to the mucosa) as the tissue is being punctured and then the catheter is pulled back and lifted up/away in the desired direction."
-      },
-      "levelOfAgreement": 87,
-      "references": [
-        "ref-112"
-      ]
-    },
-    {
-      "label": "v",
-      "text": {
-        "en": "Avoid intramucosal blebs (\u25b6Fig. 2, image B4). If these occur, puncture them and re-attempt submucosal injection."
-      },
-      "levelOfAgreement": 87,
-      "references": [
-        "ref-113"
-      ]
-    },
-    {
-      "label": "vi",
-      "text": {
-        "en": "Stop the injection if no lifting is noted (likely transmural/ intraperitoneal injection)."
-      },
-      "levelOfAgreement": 88
-    },
-    {
-      "label": "vii",
-      "text": {
-        "en": "Obtain an appropriate and sustained lifting of the lesion (\u25b6Fig. 2, image B2)."
-      },
-      "levelOfAgreement": 86
-    },
-    {
-      "label": "viii",
-      "text": {
-        "en": "Do not over-lift, especially in narrow segments (e. g. sigmoid colon) or at flexures."
-      },
-      "levelOfAgreement": 85
-    },
-    {
-      "label": "ix",
-      "text": {
-        "en": "Placement of the snare should be under direct visualization and aligned precisely with the advancing edge of the mucosal defect (if piecemeal) (\u25b6Fig. 2, image C2)."
-      },
-      "levelOfAgreement": 93
-    }
-  ],
   "references": [
-    "ref-5",
-    "ref-95",
-    "ref-96",
+    "ref-28",
+    "ref-37",
+    "ref-38",
+    "ref-58",
     "ref-97",
-    "ref-109",
-    "ref-110",
-    "ref-111",
-    "ref-112",
-    "ref-113"
+    "ref-98"
   ],
   "_meta": {
     "provenance": {
       "type": "verbatim",
       "source_doi": "10.1055/a-2077-0497"
     },
-    "encodedBy": "human:david",
-    "encodedAt": "2026-06-28"
+    "encodedBy": "other:codex-publisher-dom-import",
+    "encodedAt": "2026-08-09"
   },
-  "figureRefs": [
-    "fig-emr-colon-2"
+  "subItems": [
+    {
+      "label": "i",
+      "levelOfAgreement": 86,
+      "text": {
+        "en": "Adequate colon cleanliness according to the Boston Bowel Preparation scale (BBPS) [97] or another similar scale. BBPS <2 in the colonic segment containing the LNPCP for resection suggests inadequate preparation for EMR and an increased risk of failure and complications [58]."
+      },
+      "references": [
+        "ref-58",
+        "ref-97"
+      ]
+    },
+    {
+      "label": "ii",
+      "levelOfAgreement": 95,
+      "text": {
+        "en": "LNPCPs with endoscopic imaging suggestive of overt superficial SMI or those with high risk of covert SMI [28] should be considered for en bloc resection (see Recommendation 4)."
+      },
+      "references": [
+        "ref-28"
+      ]
+    },
+    {
+      "label": "iii",
+      "levelOfAgreement": 84,
+      "text": {
+        "en": "An alternative option for large nodules or small areas within LNPCPs suspicious for SMI is piecemeal resection with en bloc resection of the suspicious area for better pathology reporting."
+      }
+    },
+    {
+      "label": "iv",
+      "levelOfAgreement": 89,
+      "text": {
+        "en": "En bloc EMR for LNPCPs ≥15 mm (right colon) and ≥20 mm (left colon) should not always be pursued at all costs when there is no overt and low covert risk of SMI, owing to the increased risk of intraprocedural complications (e. g. intraprocedural perforation [98]) without benefit in terms of adenoma recurrence [37] [38]."
+      },
+      "references": [
+        "ref-37",
+        "ref-38",
+        "ref-98"
+      ]
+    },
+    {
+      "label": "v",
+      "levelOfAgreement": 96,
+      "text": {
+        "en": "The endoscopist should consider their own capacity to complete the procedure on that occasion. Credentialling (see Recommendation 37) and the SMSA score ([Table 2]) can help in this determination. If there is doubt as to the competency of the endoscopist, or that the lesion can be fully resected in a single session, and the potential adverse events of such a resection managed, the endoscopist should not attempt resection and should consider referring the patient to an EMR specialist."
+      }
+    },
+    {
+      "label": "vi",
+      "levelOfAgreement": 94,
+      "text": {
+        "en": "The endoscopist must be able to obtain optimal endoscopic access to the LNPCP under consideration for EMR (short scope position without looping, allowing one-to-one movement)."
+      }
+    },
+    {
+      "label": "vii",
+      "levelOfAgreement": 94,
+      "text": {
+        "en": "A plan should be devised for a systematic approach to resection of the LNPCP under consideration for EMR."
+      }
+    }
   ]
 }

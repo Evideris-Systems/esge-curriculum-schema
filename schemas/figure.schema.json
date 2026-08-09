@@ -14,6 +14,7 @@
     "withinCurriculum",
     "number",
     "caption",
+    "asset",
     "sourceUrls",
     "_meta"
   ],
@@ -97,9 +98,47 @@
         "additionalProperties": false
       }
     },
+    "asset": {
+      "type": "object",
+      "description": "Repository-contained image extracted from the authoritative publication PDF and bound by SHA-256.",
+      "required": [
+        "path",
+        "mediaType",
+        "sha256",
+        "width",
+        "height"
+      ],
+      "properties": {
+        "path": {
+          "type": "string",
+          "pattern": "^esge/figure/[A-Za-z0-9._/-]+\\.(png|jpg|jpeg|gif|webp)$"
+        },
+        "mediaType": {
+          "enum": [
+            "image/png",
+            "image/jpeg",
+            "image/gif",
+            "image/webp"
+          ]
+        },
+        "sha256": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$"
+        },
+        "width": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "height": {
+          "type": "integer",
+          "minimum": 1
+        }
+      },
+      "additionalProperties": false
+    },
     "sourceUrls": {
       "type": "object",
-      "description": "Publisher-hosted image URLs. Reader hotlinks these directly.",
+      "description": "Original publisher-hosted image URLs retained for source provenance and comparison; readers use the verified local asset.",
       "required": [
         "fullRes"
       ],
@@ -120,5 +159,5 @@
     }
   },
   "additionalProperties": false,
-  "$comment": "Figures live at esge/figure/<curriculum-slug>/fig-<N>.v1.0.0.json. Copyright: images are \u00a9 the publisher (Thieme for Endoscopy papers) and NOT included in the source-canonical repo's CC BY 4.0 licence \u2014 we only store caption text (allowed under CC BY 4.0) plus a URL back to the publisher's CDN."
+  "$comment": "Figures live at esge/figure/<curriculum-slug>/fig-<N>.v1.0.0.json. Their image assets retain the publication rights recorded by the source owner and are not covered by the repository's software/schema licence."
 }

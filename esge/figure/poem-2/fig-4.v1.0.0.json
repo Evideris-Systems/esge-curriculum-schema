@@ -19,13 +19,13 @@
     {
       "label": "a",
       "description": {
-        "en": "Mucosal injury type 1 viewed in the tunnel (dotted line)."
+        "en": "A mucosal injury type 1 viewed in the tunnel (delineated by a dotted line)."
       }
     },
     {
       "label": "b",
       "description": {
-        "en": "Same injury viewed from the esophageal lumen a few seconds after occurrence."
+        "en": "The same injury viewed from the esophageal lumen (delineated by a dotted line) a few seconds after the injury occurred."
       }
     },
     {
@@ -43,7 +43,7 @@
     {
       "label": "e",
       "description": {
-        "en": "Final appearance after closure."
+        "en": "The final appearance after closure"
       }
     },
     {
@@ -64,5 +64,12 @@
     },
     "encodedBy": "human:david",
     "encodedAt": "2026-07-04"
+  },
+  "asset": {
+    "path": "esge/figure/poem-2/assets/fig-4.png",
+    "mediaType": "image/png",
+    "sha256": "07bbf7662e97517563992e9d2a95aa5f107480de7cc54b83f58be0365f9aacdf",
+    "width": 1241,
+    "height": 687
   }
 }

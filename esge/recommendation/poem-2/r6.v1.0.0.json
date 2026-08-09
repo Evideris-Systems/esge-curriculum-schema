@@ -14,10 +14,10 @@
   "withinSection": "sec-poem-2-preparation",
   "number": 6,
   "title": {
-    "en": "ESGE recommends managing antithrombotic therapy by assessing the patient\u2019s thrombotic risk and"
+    "en": "ESGE recommends managing antithrombotic therapy by assessing the patient’s thrombotic risk and recognizing POEM as a procedure with a high risk of bleeding."
   },
   "statement": {
-    "en": "ESGE recommends managing antithrombotic therapy by assessing the patient\u2019s thrombotic risk and recognizing POEM as a procedure with a high risk of bleeding."
+    "en": "ESGE recommends managing antithrombotic therapy by assessing the patient’s thrombotic risk and recognizing POEM as a procedure with a high risk of bleeding."
   },
   "grade": {
     "strength": "strong",
@@ -30,17 +30,7 @@
       "type": "verbatim",
       "source_doi": "10.1055/a-2569-7634"
     },
-    "encodedBy": "human:david",
-    "encodedAt": "2026-07-03",
-    "fieldProvenance": {
-      "commentary": {
-        "type": "verbatim",
-        "source_doi": "10.1055/a-2569-7634",
-        "source_span": "Paragraph(s) preceding the N RECOMMENDATION block in body; back-to-back groups share commentary."
-      }
-    }
-  },
-  "commentary": {
-    "en": "on factors such as the brand and model of the electrosurgical unit, the type of knife employed, and the operator\u2019s preferences. A compilation of the most frequently encountered settings in the published literature is presented in"
+    "encodedBy": "other:codex-publisher-dom-import",
+    "encodedAt": "2026-08-09"
   }
 }

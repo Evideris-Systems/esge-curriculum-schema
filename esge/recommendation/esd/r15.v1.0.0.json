@@ -14,29 +14,33 @@
   "withinSection": "sec-esd-knowledge-competence",
   "number": 15,
   "title": {
-    "en": "ESD should be performed only in a setting where early and delayed"
+    "en": "ESD should be performed only in a setting where early and delayed complications can be managed adequately, namely with the possibility of admitting patients to a ward, and access to appropriate emergency surgical teams for the organ being treated with ESD. In addition, centers performing ESD should have access to expert gastrointestinal pathology."
   },
   "statement": {
     "en": "ESD should be performed only in a setting where early and delayed complications can be managed adequately, namely with the possibility of admitting patients to a ward, and access to appropriate emergency surgical teams for the organ being treated with ESD. In addition, centers performing ESD should have access to expert gastrointestinal pathology."
   },
   "levelOfAgreement": 100,
-  "references": [],
+  "references": [
+    "ref-6",
+    "ref-67",
+    "ref-68",
+    "ref-69",
+    "ref-70",
+    "ref-71"
+  ],
   "_meta": {
     "provenance": {
       "type": "verbatim",
       "source_doi": "10.1055/a-0996-0912"
     },
-    "encodedBy": "human:david",
-    "encodedAt": "2026-07-01",
-    "fieldProvenance": {
-      "commentary": {
-        "type": "verbatim",
-        "source_doi": "10.1055/a-0996-0912",
-        "source_span": "Paragraph(s) of prose in the source body immediately preceding the RECOMMENDATION block; shared with adjacent back-to-back RECOMMENDATIONs where the source clusters them without intervening prose. PDF hyphenation healed, running footers and page markers stripped."
-      }
-    }
+    "encodedBy": "other:codex-publisher-dom-import",
+    "encodedAt": "2026-08-09"
   },
   "commentary": {
-    "en": "We therefore recommend that endoscopists should be familiar with the different types of resection, as defined by the ESGE [6]: Low risk resection (\u201ccurative\u201d): low risk for local or distant recurrence; no further immediate therapy is required; is defined as an R0 resection, with no poor prognosis features (less than the cut-off invasion for the specific organ, and no lymphovascular invasion). Local risk resection: as above, with the exception of positive lateral margins; even though this type of resection increases the risk of local recurrence, most times the patient will be cured in the long-term, so only endoscopic follow-up and putative treatment is recommended. High risk resection (\u201cnon-curative\u201d): in this case there is a real risk of distant disease and adjuvant treatment should be considered on a case-by-case basis; it is defined as an R1 resection (positive vertical margins), deep sm invasion (beyond the organ-specific \u03bcm limit), poorly differentiated tumor, or lymphovascular invasion. Endoscopists should know that the specific criteria are different for each organ. ESGE recommends that further decisions should be made by multidisciplinary teams."
-  }
+    "en": "The decision to start ESD in their own center has several implications for the endoscopy team and in the hospital where ESD is going to be performed. Because ESD has the potential for serious and fatal adverse events, it is our opinion that only someone with the proper training, knowledge, and skills should start a new and risky technique on their own. Moreover, the confirmation that an endoscopist fulfils these requirements cannot be made objectively by that individual. For these reasons, it is our opinion that confirmation of the ability of an endoscopist to start ESD should be made by someone else, ideally an expert in ESD. However, we recognize that a definition of a “recognized ESD expert” is lacking. We suggest that a recognized ESD expert could be a person with extensive experience in ESD, with more than 100 ESDs performed and receiving referrals from other hospitals on a regular basis. This recognition of competence should preferably be provided by the ESD expert who has provided training. An ideal scenario would be for an endoscopist to perform their first ESD procedure by themselves in their own center but with the expert present in the endoscopy room.\n\nWith regard to the centers in which ESD can be performed, it is ESGE’s opinion that ESD cannot be done in every center. Independently of the quality and skills of the endoscopist, the possibility of significant bleeding and perforation is always present and only centers that can handle these complications should be certified to perform ESD. In Japan and Asia, patients undergoing ESD are usually admitted to hospital for several days [67], in contrast to Western countries where they are only admitted for 1 – 2 days [68] or even treated as outpatients [69]. Nevertheless, it appears that a treatment strategy with at least the possibility of admitting the patient to the hospital is fundamental to forearm a serious adverse event [70]. Moreover, even though most ESD complications can be solved endoscopically, surgery may be needed in almost 1% of procedures, particularly in centers with less experience [71]. For all these reasons, it is our opinion that ESD should be performed only in a center where complications can be managed adequately, namely with the possibility of admitting patients to a ward, and access to appropriate emergency surgical teams for the organ being treated with ESD.\n\nIn addition, it is ESGE’s opinion that centers performing ESD should have access to expert GI pathology. The histopathological diagnosis of an endoscopic resection specimen is the basis for further clinical decision-making (low vs. high vs. local risk resection; need for further treatment or not) [6]. Therefore, the report on the specimen needs to include all the relevant information required to make that decision. For all ESD specimens, the following risk factors have to be reported: depth of invasion, lymphatic vessel permeation, blood vessel permeation, budding (for colorectal lesions), perineural invasion, resection margin involvement, as well as typing and grading of the neoplasia according to the World Health Organization (WHO) classification [6]. It is our opinion that this can be made in a proper manner only by an expert GI pathologist who has continuous interaction with the endoscopist, ideally in an oncological multidisciplinary team."
+  },
+  "commentaryForRecommendations": [
+    14,
+    15
+  ]
 }

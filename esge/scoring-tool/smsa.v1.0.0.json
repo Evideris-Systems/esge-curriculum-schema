@@ -20,7 +20,7 @@
   "scale": {
     "kind": "composite-additive",
     "min": 4,
-    "max": 12,
+    "max": 17,
     "bands": [
       {
         "label": {
@@ -48,7 +48,7 @@
           "en": "4"
         },
         "from": 13,
-        "to": 99
+        "to": 17
       }
     ]
   },

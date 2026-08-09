@@ -14,10 +14,10 @@
   "withinSection": "sec-poem-2-adverse-events",
   "number": 37,
   "title": {
-    "en": "Prophylactic hemostasis for nonbleeding vessels should be guided by vessel size."
+    "en": "Prophylactic hemostasis for nonbleeding vessels should be guided by vessel size. Very large vessels that do not hamper tunnel progression should be avoided; vessels up to 1–1.5 mm should be pretreated using the knife, and vessels larger than 1.5–2 mm should be considered for prophylactic treatment using coagulation forceps."
   },
   "statement": {
-    "en": "Prophylactic hemostasis for nonbleeding vessels should be guided by vessel size. Very large vessels that do not hamper tunnel progression should be avoided; vessels up to 1\u20131.5 mm should be pretreated using the knife, and vessels larger than 1.5\u20132 mm should be considered for prophylactic treatment using coagulation forceps."
+    "en": "Prophylactic hemostasis for nonbleeding vessels should be guided by vessel size. Very large vessels that do not hamper tunnel progression should be avoided; vessels up to 1–1.5 mm should be pretreated using the knife, and vessels larger than 1.5–2 mm should be considered for prophylactic treatment using coagulation forceps."
   },
   "grade": {
     "strength": "best-practice",
@@ -30,58 +30,7 @@
       "type": "verbatim",
       "source_doi": "10.1055/a-2569-7634"
     },
-    "encodedBy": "human:david",
-    "encodedAt": "2026-07-03",
-    "fieldProvenance": {
-      "commentary": {
-        "type": "verbatim",
-        "source_doi": "10.1055/a-2569-7634",
-        "source_span": "Paragraph(s) preceding the N RECOMMENDATION block in body; back-to-back groups share commentary."
-      }
-    }
-  },
-  "subItems": [
-    {
-      "label": "1",
-      "text": {
-        "en": "Care should be taken not to perforate the mucosa when passing instruments through the working channel, applying energy, opening instruments, and during passage of the scope within the tunnel. Where a needle is used for injection, blunt injection is favored to avoid inadvertent mucosal injury."
-      }
-    },
-    {
-      "label": "2",
-      "text": {
-        "en": "General advice to avoid mucosal injury includes liberal use of submucosal injection, performing dissection close to the muscularis propria, ensuring a tunnel wide enough to avoid spray coagulation contact with the mucosal side, and avoiding long bursts of spray coagulation."
-      }
-    },
-    {
-      "label": "3",
-      "text": {
-        "en": "The integrity of the mucosal lining should be checked during the procedure and after performing the myotomy for any injury or perforation. Mucosal injury can be identified by blanching of the mucosa or an actual hole. Any mucosal perforations should be promptly treated to avoid expansion of the perforation, and mediastinal or peritoneal contamination."
-      }
-    },
-    {
-      "label": "4",
-      "text": {
-        "en": "Mucosal injuries occur most commonly whilst crossing the GEJ [95]. Care should be taken when extending the submucosal tunnel across the GEJ as the tunnel commonly narrows at this point."
-      }
-    },
-    {
-      "label": "5",
-      "text": {
-        "en": "Mucosal injuries should be promptly identified and treated as they represent potential full-thickness perforations after myotomy. If a type I mucosal injury represents sufficient damage to the mucosa, this may lead to type II mucosal injury after the procedure. Mucosal injuries should be closed as soon as possible after tunnel passage as they can rapidly increase in size."
-      }
-    },
-    {
-      "label": "6",
-      "text": {
-        "en": "Small mucosal injuries should be closed with the use of TTS clips [98]. Strategies to treat larger mucosal injuries include the use of OTS clips or endoscopic suturing devices [99]. 9.3 How to prevent and manage gas-related adverse events"
-      }
-    }
-  ],
-  "commentary": {
-    "en": "A retrospective study showed that mean procedure times for POEM were significantly shorter with the full-thickness approach (62 vs. 88 minutes; P < 0.01), with similar symptom relief rates, post-procedural manometry outcomes, and AEs [73]. Another retrospective study reported similar results, with mean procedure times being significantly shorter with fullthickness myotomy (P = 0.02). There was no increase in any procedure-related AEs after full-thickness myotomy, with similar results also for treatment success (Eckardt score \u22643, 96.0 % vs. 95.0 %), post-treatment symptom score and esophageal sphincter pressure, and the overall clinical reflux complication rate (21.2 % vs. 16.5 %; P = 0.38) [74]. Similar results were found in other studies (Table 7 s) [75, 76]. In contrast, a smaller retrospective study, including 56 patients, showed that full-thickness myotomy was a predictive factor for clinically relevant GERD [77]. Despite these findings, a subsequent metanalysis did not find a statistically significant difference between selective and full-thickness myotomy in terms of clinical reflux or pH monitoring outcomes [78].\n\nMultiple studies, including RCTs, have addressed the length of the myotomy created during POEM. In general, shorter myotomy length has been shown to induce similar rates of procedural and clinical success in patients with types I and II achalasia, with no increase in AEs or GERD, but with significantly reduced procedural times [79\u201382]. The majority of studies on POEM describe a gastric myotomy length of 2\u20133 cm [83, 84]. A longer myotomy length may correlate with increased rates of reflux esophagitis (Table 8 s) [58]. Furthermore, endoscopic functional luminal impendence planimetry (EndoFLIP) measurements of progressive gastric myotomy suggest that > 2 cm gives no further benefit in terms of GEJ distensibility [85]. EndoFLIP is a technology that measures the distensibility index (area/pressure) of sphincters in the gastrointestinal tract. It is particularly useful when measured pre- and post-POEM to assess the relaxation of the LES after therapy. One uncontrolled study suggested low post-POEM distensibility index values (< 7 mm2/mmHg) were predictive of clinical failure [86]. Whilst clinically useful in certain cases, this expert panel does not currently recommend the routine use of peri-POEM EndoFLIP owing to cost and availability concerns, and its uncertain benefit in clinically relevant outcomes. In patients with type III achalasia and other spastic esophageal disorders, myotomy length is often tailored to HRM findings, allowing for tailored myotomy. This has been shown to correlate with improved clinical success in type III achalasia and spastic esophageal disorders (Table 9 s) [87, 88]."
-  },
-  "figureRefs": [
-    "fig-poem-2-4"
-  ]
+    "encodedBy": "other:codex-publisher-dom-import",
+    "encodedAt": "2026-08-09"
+  }
 }

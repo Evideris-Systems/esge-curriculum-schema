@@ -1,0 +1,1368 @@
+{
+  "$schema": "https://schema.evideris.com/schemas/table.schema.json",
+  "$id": "https://schema.evideris.com/esge/table/poem-2/table-1.v1.0.0.json",
+  "lineageId": "table-poem-2-1",
+  "type": "table",
+  "version": "1.0.0",
+  "release": "r2026.07",
+  "supersedes": null,
+  "supersededBy": null,
+  "language": [
+    "en"
+  ],
+  "withinCurriculum": "cur-poem-2-2025",
+  "number": "1",
+  "title": {
+    "en": "Table 1 Table of recommendations."
+  },
+  "columns": [
+    {
+      "header": {
+        "en": "Recommendation number"
+      }
+    },
+    {
+      "header": {
+        "en": "Recommendation"
+      }
+    },
+    {
+      "header": {
+        "en": "Quality of evidence; Strength of recommendation"
+      }
+    }
+  ],
+  "rows": [
+    {
+      "cells": [
+        {
+          "en": "POEM preparation"
+        },
+        {
+          "en": ""
+        }
+      ],
+      "isGroupHeader": true,
+      "rowSpans": [
+        1,
+        1
+      ],
+      "colSpans": [
+        2,
+        2
+      ]
+    },
+    {
+      "cells": [
+        {
+          "en": "1"
+        },
+        {
+          "en": "A POEM equipment checklist should be used before commencing the procedure to ensure the availability and proper functioning of all necessary materials"
+        },
+        {
+          "en": ""
+        }
+      ],
+      "isGroupHeader": false,
+      "rowSpans": [
+        1,
+        1,
+        1
+      ],
+      "colSpans": [
+        1,
+        1,
+        2
+      ]
+    },
+    {
+      "cells": [
+        {
+          "en": "2"
+        },
+        {
+          "en": "The shape of the tip of the electrosurgical knife should be based on local expertise and availability"
+        },
+        {
+          "en": ""
+        }
+      ],
+      "isGroupHeader": false,
+      "rowSpans": [
+        1,
+        1,
+        1
+      ],
+      "colSpans": [
+        1,
+        1,
+        2
+      ]
+    },
+    {
+      "cells": [
+        {
+          "en": "3"
+        },
+        {
+          "en": "ESGE suggests using waterjet integrated electrosurgical knives for POEM"
+        },
+        {
+          "en": "Weak; Very low"
+        }
+      ],
+      "isGroupHeader": false,
+      "rowSpans": [
+        1,
+        1,
+        1
+      ],
+      "colSpans": [
+        1,
+        1,
+        2
+      ]
+    },
+    {
+      "cells": [
+        {
+          "en": "4"
+        },
+        {
+          "en": "The settings provided by the manufacturer of the electrosurgical unit should be favored, tailored to the specific type of knife and coagulation forceps being used"
+        },
+        {
+          "en": ""
+        }
+      ],
+      "isGroupHeader": false,
+      "rowSpans": [
+        1,
+        1,
+        1
+      ],
+      "colSpans": [
+        1,
+        1,
+        2
+      ]
+    },
+    {
+      "cells": [
+        {
+          "en": "5"
+        },
+        {
+          "en": "ESGE suggests that patients adhere to a clear liquid diet for a minimum of 48 hours and abstain from all oral intake (nil by mouth) for at least 8 hours prior to the procedure. This fasting period may be increased according to the amount of esophageal food retention upon upper gastrointestinal endoscopy or the detection of a sigmoid-type esophagus in the previous work-up"
+        },
+        {
+          "en": "Weak; Very low"
+        }
+      ],
+      "isGroupHeader": false,
+      "rowSpans": [
+        1,
+        1,
+        1
+      ],
+      "colSpans": [
+        1,
+        1,
+        2
+      ]
+    },
+    {
+      "cells": [
+        {
+          "en": "6"
+        },
+        {
+          "en": "ESGE recommends managing antithrombotic therapy by assessing the patient’s thrombotic risk and recognizing POEM as a procedure with a high risk of bleeding"
+        },
+        {
+          "en": "Strong; Low"
+        }
+      ],
+      "isGroupHeader": false,
+      "rowSpans": [
+        1,
+        1,
+        1
+      ],
+      "colSpans": [
+        1,
+        1,
+        2
+      ]
+    },
+    {
+      "cells": [
+        {
+          "en": "7"
+        },
+        {
+          "en": "ESGE recommends counseling patients on antithrombotic therapy undergoing POEM about the higher risk of bleeding"
+        },
+        {
+          "en": "Strong; Very low"
+        }
+      ],
+      "isGroupHeader": false,
+      "rowSpans": [
+        1,
+        1,
+        1
+      ],
+      "colSpans": [
+        1,
+        1,
+        2
+      ]
+    },
+    {
+      "cells": [
+        {
+          "en": "8"
+        },
+        {
+          "en": "ESGE recommends a single prophylactic antibiotic dose before POEM. The selection and dosage of antibiotics should align with local and national protocols"
+        },
+        {
+          "en": "Strong; Very low"
+        }
+      ],
+      "isGroupHeader": false,
+      "rowSpans": [
+        1,
+        1,
+        1
+      ],
+      "colSpans": [
+        1,
+        1,
+        2
+      ]
+    },
+    {
+      "cells": [
+        {
+          "en": "Cleaning and inspection"
+        },
+        {
+          "en": ""
+        }
+      ],
+      "isGroupHeader": true,
+      "rowSpans": [
+        1,
+        1
+      ],
+      "colSpans": [
+        2,
+        2
+      ]
+    },
+    {
+      "cells": [
+        {
+          "en": "9"
+        },
+        {
+          "en": "A thorough esophageal cleansing before mucosal incision is mandatory. There should be no residual dietary liquid or food in the lumen"
+        },
+        {
+          "en": ""
+        }
+      ],
+      "isGroupHeader": false,
+      "rowSpans": [
+        1,
+        1,
+        1
+      ],
+      "colSpans": [
+        1,
+        1,
+        2
+      ]
+    },
+    {
+      "cells": [
+        {
+          "en": "10"
+        },
+        {
+          "en": "Any observed obstructive esophageal spastic segment during endoscopy should be documented, with an evaluation of its correlation with HRM and imaging test findings"
+        },
+        {
+          "en": ""
+        }
+      ],
+      "isGroupHeader": false,
+      "rowSpans": [
+        1,
+        1,
+        1
+      ],
+      "colSpans": [
+        1,
+        1,
+        2
+      ]
+    },
+    {
+      "cells": [
+        {
+          "en": "11"
+        },
+        {
+          "en": "POEM operators should plan the procedure and aim to identify the following anatomical landmarks: the upper esophageal sphincter, the spine, and the GEJ"
+        },
+        {
+          "en": ""
+        }
+      ],
+      "isGroupHeader": false,
+      "rowSpans": [
+        1,
+        1,
+        1
+      ],
+      "colSpans": [
+        1,
+        1,
+        2
+      ]
+    },
+    {
+      "cells": [
+        {
+          "en": "12"
+        },
+        {
+          "en": "POEM operators should clearly distinguish between the anterior and posterior walls of the esophagus before the mucosal incision"
+        },
+        {
+          "en": ""
+        }
+      ],
+      "isGroupHeader": false,
+      "rowSpans": [
+        1,
+        1,
+        1
+      ],
+      "colSpans": [
+        1,
+        1,
+        2
+      ]
+    },
+    {
+      "cells": [
+        {
+          "en": "Mucosal incision"
+        },
+        {
+          "en": ""
+        }
+      ],
+      "isGroupHeader": true,
+      "rowSpans": [
+        1,
+        1
+      ],
+      "colSpans": [
+        2,
+        2
+      ]
+    },
+    {
+      "cells": [
+        {
+          "en": "13"
+        },
+        {
+          "en": "Use at least 5–10 mL of lifting agent, which should be injected using a needle at the desired point where the mucosotomy will commence"
+        },
+        {
+          "en": ""
+        }
+      ],
+      "isGroupHeader": false,
+      "rowSpans": [
+        1,
+        1,
+        1
+      ],
+      "colSpans": [
+        1,
+        1,
+        2
+      ]
+    },
+    {
+      "cells": [
+        {
+          "en": "14"
+        },
+        {
+          "en": "ESGE suggests the use of saline instead of colloids for submucosal tunneling owing to its lower cost and because a lasting submucosal injection is not generally needed for POEM"
+        },
+        {
+          "en": "Weak; Very low"
+        }
+      ],
+      "isGroupHeader": false,
+      "rowSpans": [
+        1,
+        1,
+        1
+      ],
+      "colSpans": [
+        1,
+        1,
+        2
+      ]
+    },
+    {
+      "cells": [
+        {
+          "en": "15"
+        },
+        {
+          "en": "The use of a chromic dye during submucosal tunneling facilitates the identification of vessels and the correct dissection plane"
+        },
+        {
+          "en": ""
+        }
+      ],
+      "isGroupHeader": false,
+      "rowSpans": [
+        1,
+        1,
+        1
+      ],
+      "colSpans": [
+        1,
+        1,
+        2
+      ]
+    },
+    {
+      "cells": [
+        {
+          "en": "16"
+        },
+        {
+          "en": "The use of adrenaline in the submucosal solution is not advisable owing to the low risk of severe intraprocedural bleeding during POEM and the potential risk of AEs"
+        },
+        {
+          "en": ""
+        }
+      ],
+      "isGroupHeader": false,
+      "rowSpans": [
+        1,
+        1,
+        1
+      ],
+      "colSpans": [
+        1,
+        1,
+        2
+      ]
+    },
+    {
+      "cells": [
+        {
+          "en": "17"
+        },
+        {
+          "en": "To create the mucosotomy, the first incision should be made at the site of previous injection with the fewest possible taps on the electrosurgical unit using a cutting mode, with the knife tip at 45–80° to the mucosal surface"
+        },
+        {
+          "en": ""
+        }
+      ],
+      "isGroupHeader": false,
+      "rowSpans": [
+        1,
+        1,
+        1
+      ],
+      "colSpans": [
+        1,
+        1,
+        2
+      ]
+    },
+    {
+      "cells": [
+        {
+          "en": "18"
+        },
+        {
+          "en": "After adequate submucosal injection (through a needle or knife), the incision should be extended by 1.5–2 cm in the longitudinal axis from cranial to caudal, in the planned direction of the tunnel"
+        },
+        {
+          "en": ""
+        }
+      ],
+      "isGroupHeader": false,
+      "rowSpans": [
+        1,
+        1,
+        1
+      ],
+      "colSpans": [
+        1,
+        1,
+        2
+      ]
+    },
+    {
+      "cells": [
+        {
+          "en": "Submucosal tunneling"
+        },
+        {
+          "en": ""
+        }
+      ],
+      "isGroupHeader": true,
+      "rowSpans": [
+        1,
+        1
+      ],
+      "colSpans": [
+        2,
+        2
+      ]
+    },
+    {
+      "cells": [
+        {
+          "en": "19"
+        },
+        {
+          "en": "The submucosa should be carefully trimmed at the caudal end of the incision to widen the tunnel opening and facilitate entry"
+        },
+        {
+          "en": ""
+        }
+      ],
+      "isGroupHeader": false,
+      "rowSpans": [
+        1,
+        1,
+        1
+      ],
+      "colSpans": [
+        1,
+        1,
+        2
+      ]
+    },
+    {
+      "cells": [
+        {
+          "en": "20"
+        },
+        {
+          "en": "A transparent distal endoscope attachment facilitates access to and dissection of the tunnel. It should be used to protect the mucosa from thermal injury during trimming as mucosal injury may hamper closure"
+        },
+        {
+          "en": ""
+        }
+      ],
+      "isGroupHeader": false,
+      "rowSpans": [
+        1,
+        1,
+        1
+      ],
+      "colSpans": [
+        1,
+        1,
+        2
+      ]
+    },
+    {
+      "cells": [
+        {
+          "en": "21"
+        },
+        {
+          "en": "Dissection within the tunnel should be performed using sequential injection of saline and chromic dye (if available using the knife jet function) and dissection with the knife. Pushing the endoscope forward gently against the advancing submucosa–muscularis propria interface is important to facilitate mucosal tunneling"
+        },
+        {
+          "en": ""
+        }
+      ],
+      "isGroupHeader": false,
+      "rowSpans": [
+        1,
+        1,
+        1
+      ],
+      "colSpans": [
+        1,
+        1,
+        2
+      ]
+    },
+    {
+      "cells": [
+        {
+          "en": "22"
+        },
+        {
+          "en": "The distance between the incisors and the GEJ should be assessed before starting the POEM procedure"
+        },
+        {
+          "en": ""
+        }
+      ],
+      "isGroupHeader": false,
+      "rowSpans": [
+        1,
+        1,
+        1
+      ],
+      "colSpans": [
+        1,
+        1,
+        2
+      ]
+    },
+    {
+      "cells": [
+        {
+          "en": "23"
+        },
+        {
+          "en": "The following observations are useful to identify the GEJ: (i) the appearance of palisade veins on the mucosal side of the tunnel; (ii) an increased vascularity and presence of “spindle-shaped veins”; (iii) the narrowing of the lumen associated with resistance to endoscope passage, followed by the sudden increase in the submucosal space with the appearance of large perforating vessels (“two penetrating vessels”) and oblique gastric muscle bundles (“sling fibers”); (iv) the observation of a dye-stained bulge upon retroflexion in the gastric cardia; and (v) transillumination by a second endoscope"
+        },
+        {
+          "en": ""
+        }
+      ],
+      "isGroupHeader": false,
+      "rowSpans": [
+        1,
+        1,
+        1
+      ],
+      "colSpans": [
+        1,
+        1,
+        2
+      ]
+    },
+    {
+      "cells": [
+        {
+          "en": "24"
+        },
+        {
+          "en": "The submucosal tunnel should be extended at least 3 cm distal to the GEJ to allow a gastric myotomy of acceptable length"
+        },
+        {
+          "en": ""
+        }
+      ],
+      "isGroupHeader": false,
+      "rowSpans": [
+        1,
+        1,
+        1
+      ],
+      "colSpans": [
+        1,
+        1,
+        2
+      ]
+    },
+    {
+      "cells": [
+        {
+          "en": "25"
+        },
+        {
+          "en": "ESGE suggests using a combination of anatomical landmarks to identify the GEJ (see Recommendation 23), and consideration of the double-scope method in cases of doubt or altered anatomy to confirm the correct extension of the submucosal tunnel into the stomach"
+        },
+        {
+          "en": "Weak; Low"
+        }
+      ],
+      "isGroupHeader": false,
+      "rowSpans": [
+        1,
+        1,
+        1
+      ],
+      "colSpans": [
+        1,
+        1,
+        2
+      ]
+    },
+    {
+      "cells": [
+        {
+          "en": "Myotomy"
+        },
+        {
+          "en": ""
+        }
+      ],
+      "isGroupHeader": true,
+      "rowSpans": [
+        1,
+        1
+      ],
+      "colSpans": [
+        2,
+        2
+      ]
+    },
+    {
+      "cells": [
+        {
+          "en": "26"
+        },
+        {
+          "en": "The myotomy should be performed in a cranial to caudal manner, starting 2 cm or more below the caudal extent of the mucosotomy site"
+        },
+        {
+          "en": ""
+        }
+      ],
+      "isGroupHeader": false,
+      "rowSpans": [
+        1,
+        1,
+        1
+      ],
+      "colSpans": [
+        1,
+        1,
+        2
+      ]
+    },
+    {
+      "cells": [
+        {
+          "en": "27"
+        },
+        {
+          "en": "The myotomy should be performed using mucosal to adventitial or adventitial to mucosal approaches, or a combination"
+        },
+        {
+          "en": ""
+        }
+      ],
+      "isGroupHeader": false,
+      "rowSpans": [
+        1,
+        1,
+        1
+      ],
+      "colSpans": [
+        1,
+        1,
+        2
+      ]
+    },
+    {
+      "cells": [
+        {
+          "en": "28"
+        },
+        {
+          "en": "ESGE recommends that POEM can be performed on either the anterior (1–2 o’clock in supine position) or posterior (5–6 o’clock) side"
+        },
+        {
+          "en": "Strong; Moderate"
+        }
+      ],
+      "isGroupHeader": false,
+      "rowSpans": [
+        1,
+        1,
+        1
+      ],
+      "colSpans": [
+        1,
+        1,
+        2
+      ]
+    },
+    {
+      "cells": [
+        {
+          "en": "29"
+        },
+        {
+          "en": "ESGE recommends against performing POEM in the same orientation as a previous surgical or endoscopic myotomy"
+        },
+        {
+          "en": "Strong; Very low"
+        }
+      ],
+      "isGroupHeader": false,
+      "rowSpans": [
+        1,
+        1,
+        1
+      ],
+      "colSpans": [
+        1,
+        1,
+        2
+      ]
+    },
+    {
+      "cells": [
+        {
+          "en": "30"
+        },
+        {
+          "en": "ESGE suggests that either a full-thickness or selective myotomy approach is acceptable because of their similar rates of intraprocedural AEs, reflux on post-POEM pH-monitoring studies, and erosive esophagitis, but that full-thickness myotomy may be faster to perform"
+        },
+        {
+          "en": "Weak; Very low"
+        }
+      ],
+      "isGroupHeader": false,
+      "rowSpans": [
+        1,
+        1,
+        1
+      ],
+      "colSpans": [
+        1,
+        1,
+        2
+      ]
+    },
+    {
+      "cells": [
+        {
+          "en": "31"
+        },
+        {
+          "en": "ESGE recommends that the myotomy should be extended 2–3 cm distal to the GEJ to allow complete disruption of the lower esophageal sphincter"
+        },
+        {
+          "en": "Strong; Moderate"
+        }
+      ],
+      "isGroupHeader": false,
+      "rowSpans": [
+        1,
+        1,
+        1
+      ],
+      "colSpans": [
+        1,
+        1,
+        2
+      ]
+    },
+    {
+      "cells": [
+        {
+          "en": "32"
+        },
+        {
+          "en": "ESGE recommends that the myotomy length should be tailored to the disease being treated, with evidence favoring short esophageal-side myotomy if indicated because of decreased AEs and procedure times"
+        },
+        {
+          "en": "Strong; Very low"
+        }
+      ],
+      "isGroupHeader": false,
+      "rowSpans": [
+        1,
+        1,
+        1
+      ],
+      "colSpans": [
+        1,
+        1,
+        2
+      ]
+    },
+    {
+      "cells": [
+        {
+          "en": "33"
+        },
+        {
+          "en": "For types I and II achalasia, ESGE recommends an esophageal myotomy length of 4–7 cm and a gastric myotomy length of 2–3 cm in view of shorter procedure times, similar efficacy, and similar rates of AEs"
+        },
+        {
+          "en": "Strong; Low"
+        }
+      ],
+      "isGroupHeader": false,
+      "rowSpans": [
+        1,
+        1,
+        1
+      ],
+      "colSpans": [
+        1,
+        1,
+        2
+      ]
+    },
+    {
+      "cells": [
+        {
+          "en": "34"
+        },
+        {
+          "en": "For type III achalasia and other spastic esophageal motility disorders, ESGE recommends tailoring the length of the myotomy to the length of the spastic segment"
+        },
+        {
+          "en": "Strong; Very low"
+        }
+      ],
+      "isGroupHeader": false,
+      "rowSpans": [
+        1,
+        1,
+        1
+      ],
+      "colSpans": [
+        1,
+        1,
+        2
+      ]
+    },
+    {
+      "cells": [
+        {
+          "en": "Mucosal closure"
+        },
+        {
+          "en": ""
+        }
+      ],
+      "isGroupHeader": true,
+      "rowSpans": [
+        1,
+        1
+      ],
+      "colSpans": [
+        2,
+        2
+      ]
+    },
+    {
+      "cells": [
+        {
+          "en": "35"
+        },
+        {
+          "en": "ESGE recommends the use of TTS clips for mucosal closure owing to their high efficacy and availability, and lower price compared with other closure methods"
+        },
+        {
+          "en": "Strong; Low"
+        }
+      ],
+      "isGroupHeader": false,
+      "rowSpans": [
+        1,
+        1,
+        1
+      ],
+      "colSpans": [
+        1,
+        1,
+        2
+      ]
+    },
+    {
+      "cells": [
+        {
+          "en": "36"
+        },
+        {
+          "en": "ESGE suggests that OTS clips and endoscopic suturing can be considered if closure with conventional TTS clips fails"
+        },
+        {
+          "en": "Weak; Very low"
+        }
+      ],
+      "isGroupHeader": false,
+      "rowSpans": [
+        1,
+        1,
+        1
+      ],
+      "colSpans": [
+        1,
+        1,
+        2
+      ]
+    },
+    {
+      "cells": [
+        {
+          "en": "Adverse events"
+        },
+        {
+          "en": ""
+        }
+      ],
+      "isGroupHeader": true,
+      "rowSpans": [
+        1,
+        1
+      ],
+      "colSpans": [
+        2,
+        2
+      ]
+    },
+    {
+      "cells": [
+        {
+          "en": "37"
+        },
+        {
+          "en": "Prophylactic hemostasis for nonbleeding vessels should be guided by vessel size. Very large vessels that do not hamper tunnel progression should be avoided; vessels up to 1–1.5 mm should be pretreated using the knife, and vessels larger than 1.5–2 mm should be considered for prophylactic treatment using coagulation forceps"
+        },
+        {
+          "en": ""
+        }
+      ],
+      "isGroupHeader": false,
+      "rowSpans": [
+        1,
+        1,
+        1
+      ],
+      "colSpans": [
+        1,
+        1,
+        2
+      ]
+    },
+    {
+      "cells": [
+        {
+          "en": "38"
+        },
+        {
+          "en": "Water irrigation should be used to precisely identify the site of bleeding, combined with pressure from the endoscope cap to tamponade bleeding during device exchange. The technique of hemostasis should be determined by the size of the bleeding vessel"
+        },
+        {
+          "en": ""
+        }
+      ],
+      "isGroupHeader": false,
+      "rowSpans": [
+        1,
+        1,
+        1
+      ],
+      "colSpans": [
+        1,
+        1,
+        2
+      ]
+    },
+    {
+      "cells": [
+        {
+          "en": "39"
+        },
+        {
+          "en": "Mucosal injury during POEM should be proactively sought during the procedure and particularly before completion. Mucosal injury can be represented on a spectrum from whitening of the overlying mucosa to a full-thickness perforation"
+        },
+        {
+          "en": ""
+        }
+      ],
+      "isGroupHeader": false,
+      "rowSpans": [
+        1,
+        1,
+        1
+      ],
+      "colSpans": [
+        1,
+        1,
+        2
+      ]
+    },
+    {
+      "cells": [
+        {
+          "en": "40"
+        },
+        {
+          "en": "Any suspected current or potential mucosal perforation during POEM should be considered for endoscopic treatment"
+        },
+        {
+          "en": ""
+        }
+      ],
+      "isGroupHeader": false,
+      "rowSpans": [
+        1,
+        1,
+        1
+      ],
+      "colSpans": [
+        1,
+        1,
+        2
+      ]
+    },
+    {
+      "cells": [
+        {
+          "en": "41"
+        },
+        {
+          "en": "ESGE recommends performing POEM using low flow CO2 insufflation"
+        },
+        {
+          "en": "Strong; Low"
+        }
+      ],
+      "isGroupHeader": false,
+      "rowSpans": [
+        1,
+        1,
+        1
+      ],
+      "colSpans": [
+        1,
+        1,
+        2
+      ]
+    },
+    {
+      "cells": [
+        {
+          "en": "42"
+        },
+        {
+          "en": "A high index of suspicion for gas-related AEs is required during POEM, which include (in order of frequency observed from high to low) capnoperitoneum, capnothorax, and capnomediastinum"
+        },
+        {
+          "en": ""
+        }
+      ],
+      "isGroupHeader": false,
+      "rowSpans": [
+        1,
+        1,
+        1
+      ],
+      "colSpans": [
+        1,
+        1,
+        2
+      ]
+    },
+    {
+      "cells": [
+        {
+          "en": "43"
+        },
+        {
+          "en": "Drainage of capnoperitoneum using needle decompression is required if hemodynamic or respiratory compromise occur during the procedure. Subcutaneous emphysema invariably resolves spontaneously and does not require treatment"
+        },
+        {
+          "en": ""
+        }
+      ],
+      "isGroupHeader": false,
+      "rowSpans": [
+        1,
+        1,
+        1
+      ],
+      "colSpans": [
+        1,
+        1,
+        2
+      ]
+    },
+    {
+      "cells": [
+        {
+          "en": "Are there technical adaptations required for difficult POEM procedures?"
+        },
+        {
+          "en": ""
+        }
+      ],
+      "isGroupHeader": true,
+      "rowSpans": [
+        1,
+        1
+      ],
+      "colSpans": [
+        2,
+        2
+      ]
+    },
+    {
+      "cells": [
+        {
+          "en": "44"
+        },
+        {
+          "en": "ESGE suggests creating a second tunnel in an alternative orientation when poor mucosal lifting impedes the initiation of the tunnel"
+        },
+        {
+          "en": "Weak; Very low"
+        }
+      ],
+      "isGroupHeader": false,
+      "rowSpans": [
+        1,
+        1,
+        1
+      ],
+      "colSpans": [
+        1,
+        1,
+        2
+      ]
+    },
+    {
+      "cells": [
+        {
+          "en": "Postoperative care"
+        },
+        {
+          "en": ""
+        }
+      ],
+      "isGroupHeader": true,
+      "rowSpans": [
+        1,
+        1
+      ],
+      "colSpans": [
+        2,
+        2
+      ]
+    },
+    {
+      "cells": [
+        {
+          "en": "45"
+        },
+        {
+          "en": "In the absence of AEs, resume fluids on day 1, soft diet on day 3, and normal diet on day 7 post-POEM"
+        },
+        {
+          "en": ""
+        }
+      ],
+      "isGroupHeader": false,
+      "rowSpans": [
+        1,
+        1,
+        1
+      ],
+      "colSpans": [
+        1,
+        1,
+        2
+      ]
+    },
+    {
+      "cells": [
+        {
+          "en": "46"
+        },
+        {
+          "en": "ESGE recommends the use of paracetamol and/or NSAIDs as first line for POEM post-procedural pain, with the consideration of opioids if the initial approach fails"
+        },
+        {
+          "en": "Strong; Low"
+        }
+      ],
+      "isGroupHeader": false,
+      "rowSpans": [
+        1,
+        1,
+        1
+      ],
+      "colSpans": [
+        1,
+        1,
+        2
+      ]
+    },
+    {
+      "cells": [
+        {
+          "en": "47"
+        },
+        {
+          "en": "ESGE recommends against the routine use of standard or CT fluoroscopic esophagrams after POEM in asymptomatic patients"
+        },
+        {
+          "en": "Strong; Very low"
+        }
+      ],
+      "isGroupHeader": false,
+      "rowSpans": [
+        1,
+        1,
+        1
+      ],
+      "colSpans": [
+        1,
+        1,
+        2
+      ]
+    },
+    {
+      "cells": [
+        {
+          "en": "48"
+        },
+        {
+          "en": "ESGE suggests favoring the use of a CT esophagram with oral water-soluble contrast over a standard fluoroscopic esophagram in symptomatic patients with suspected post-procedural AEs"
+        },
+        {
+          "en": "Weak; Very low"
+        }
+      ],
+      "isGroupHeader": false,
+      "rowSpans": [
+        1,
+        1,
+        1
+      ],
+      "colSpans": [
+        1,
+        1,
+        2
+      ]
+    }
+  ],
+  "_meta": {
+    "provenance": {
+      "type": "verbatim",
+      "source_doi": "10.1055/a-2569-7634"
+    },
+    "encodedBy": "other:codex-publisher-dom-import",
+    "encodedAt": "2026-08-09"
+  }
+}

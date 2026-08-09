@@ -27,7 +27,7 @@
   },
   "levelOfAgreement": 83,
   "appliesTo": "trainee",
-  "derivedFromRecommendation": "rec-emr-cln-r37-training-completion",
+  "derivedFromRecommendation": "rec-emr-cln-r37-completion-training-emr",
   "_meta": {
     "provenance": {
       "type": "paraphrased",

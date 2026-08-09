@@ -1,0 +1,800 @@
+{
+  "schemaVersion": 1,
+  "slug": "poem-2",
+  "sourceDoi": "10.1055/a-2569-7634",
+  "sourceUrl": "https://www.thieme-connect.de/products/ejournals/html/10.1055/a-2569-7634",
+  "extractionMethod": "publisher-html-dom",
+  "reviewedAt": "2026-08-09",
+  "recommendations": [
+    {
+      "number": 1,
+      "lineageId": "rec-poem-2-r1-a-poem-equipment-checklist-should-be-used-before-commencing",
+      "withinSection": "sec-poem-2-preparation",
+      "statementSha256": "574127fab25ffda22a54a1896538064339f8500e66acb195ecb7daf0188280fc",
+      "grade": {
+        "strength": "best-practice",
+        "evidenceQuality": "no-evidence-available"
+      },
+      "levelOfAgreement": 91,
+      "subItems": [],
+      "commentary": {
+        "forRecommendations": [
+          1
+        ],
+        "textSha256": "25deda1dd9bd6995fca08d1535b89929267d5c0e9c27e09ee803a2e1533aff82"
+      }
+    },
+    {
+      "number": 2,
+      "lineageId": "rec-poem-2-r2-the-shape-of-the-tip-of-the-electrosurgical-knife-should-be",
+      "withinSection": "sec-poem-2-preparation",
+      "statementSha256": "502a1ceb44d3ac4daad6228685d78ef15dc8fae448e3530ee7aa75e58028f02d",
+      "grade": {
+        "strength": "best-practice",
+        "evidenceQuality": "no-evidence-available"
+      },
+      "levelOfAgreement": 94,
+      "subItems": []
+    },
+    {
+      "number": 3,
+      "lineageId": "rec-poem-2-r3-esge-suggests-using-waterjet-integrated-electrosurgical-kniv",
+      "withinSection": "sec-poem-2-preparation",
+      "statementSha256": "1588d584ba976b82345a88ec96c50b3f3053ed7207eab53b2f9a3d6f07809262",
+      "grade": {
+        "strength": "weak",
+        "evidenceQuality": "very-low"
+      },
+      "levelOfAgreement": 80,
+      "subItems": [],
+      "commentary": {
+        "forRecommendations": [
+          2,
+          3
+        ],
+        "textSha256": "95b7690b162a38e505b93dfdf70c452f3bcc5dd909307a4c52e3f44273ca7f13"
+      }
+    },
+    {
+      "number": 4,
+      "lineageId": "rec-poem-2-r4-the-settings-provided-by-the-manufacturer-of-the-electrosurg",
+      "withinSection": "sec-poem-2-preparation",
+      "statementSha256": "2f45ff997b6a58cb4bbf27d336671e39ce38894d17c3e0fbe1465054b142287a",
+      "grade": {
+        "strength": "best-practice",
+        "evidenceQuality": "no-evidence-available"
+      },
+      "levelOfAgreement": 94,
+      "subItems": [],
+      "commentary": {
+        "forRecommendations": [
+          4
+        ],
+        "textSha256": "36e839d87e281e981e25b3b9d99ee0942726df46260dbc029279127aac2892fd"
+      }
+    },
+    {
+      "number": 5,
+      "lineageId": "rec-poem-2-r5-esge-suggests-that-patients-adhere-to-a-clear-liquid-diet-fo",
+      "withinSection": "sec-poem-2-preparation",
+      "statementSha256": "abe7e492da755e860b835c39da39bb2d5299a2c53a07adce4373059ac97ea234",
+      "grade": {
+        "strength": "weak",
+        "evidenceQuality": "very-low"
+      },
+      "levelOfAgreement": 94,
+      "subItems": [],
+      "commentary": {
+        "forRecommendations": [
+          5
+        ],
+        "textSha256": "eeb7797257c3aaa57403d14140c6ed414a2911e584abcbd9cf2a15ea37338798"
+      }
+    },
+    {
+      "number": 6,
+      "lineageId": "rec-poem-2-r6-esge-recommends-managing-antithrombotic-therapy-by-assessing",
+      "withinSection": "sec-poem-2-preparation",
+      "statementSha256": "c22688d2ae2bbd2450ed1a017898ffbf0eeb2d11cfc55ad9f33d2dd4e0f63c18",
+      "grade": {
+        "strength": "strong",
+        "evidenceQuality": "low"
+      },
+      "levelOfAgreement": 97,
+      "subItems": []
+    },
+    {
+      "number": 7,
+      "lineageId": "rec-poem-2-r7-esge-recommends-counseling-patients-on-antithrombotic-therap",
+      "withinSection": "sec-poem-2-preparation",
+      "statementSha256": "985dff353e0f5d4b5f8467009ab722967c5997cd33f64c3f54c01a2c4838e9a2",
+      "grade": {
+        "strength": "strong",
+        "evidenceQuality": "very-low"
+      },
+      "levelOfAgreement": 94,
+      "subItems": [],
+      "commentary": {
+        "forRecommendations": [
+          6,
+          7
+        ],
+        "textSha256": "5aff00697775830ba5f5009a57018bea63407c352df6651c0e26e9f405ed3165"
+      }
+    },
+    {
+      "number": 8,
+      "lineageId": "rec-poem-2-r8-esge-recommends-a-single-prophylactic-antibiotic-dose-before",
+      "withinSection": "sec-poem-2-preparation",
+      "statementSha256": "f46e92d9070708ce0f16449a51e3a9c434b4e8bb7ece73bb4b0f7031e4161918",
+      "grade": {
+        "strength": "strong",
+        "evidenceQuality": "very-low"
+      },
+      "levelOfAgreement": 89,
+      "subItems": [],
+      "commentary": {
+        "forRecommendations": [
+          8
+        ],
+        "textSha256": "604550902dee4ab2ce1b9e030fc14bb20be758af67ab14042921b8a881f8d4ec"
+      }
+    },
+    {
+      "number": 9,
+      "lineageId": "rec-poem-2-r9-a-thorough-esophageal-cleansing-before-mucosal-incision-is-m",
+      "withinSection": "sec-poem-2-cleaning-inspection",
+      "statementSha256": "3203937828cf38e4e8d0229c44124a25bb255714232c1a11751dc6262903abfd",
+      "grade": {
+        "strength": "best-practice",
+        "evidenceQuality": "no-evidence-available"
+      },
+      "levelOfAgreement": 100,
+      "subItems": []
+    },
+    {
+      "number": 10,
+      "lineageId": "rec-poem-2-r10-any-observed-obstructive-esophageal-spastic-segment-during-e",
+      "withinSection": "sec-poem-2-cleaning-inspection",
+      "statementSha256": "57295b1d31f8124596a5268d04716499b2902aabacd24ad4ccb4a0c53560d22b",
+      "grade": {
+        "strength": "best-practice",
+        "evidenceQuality": "no-evidence-available"
+      },
+      "levelOfAgreement": 80,
+      "subItems": []
+    },
+    {
+      "number": 11,
+      "lineageId": "rec-poem-2-r11-poem-operators-should-plan-the-procedure-and-aim-to-identify",
+      "withinSection": "sec-poem-2-cleaning-inspection",
+      "statementSha256": "b8a7760813664242618e473041ef581fd7d1765d73aa0dc38cba165911143bda",
+      "grade": {
+        "strength": "best-practice",
+        "evidenceQuality": "no-evidence-available"
+      },
+      "levelOfAgreement": 83,
+      "subItems": []
+    },
+    {
+      "number": 12,
+      "lineageId": "rec-poem-2-r12-poem-operators-should-clearly-distinguish-between-the-anteri",
+      "withinSection": "sec-poem-2-cleaning-inspection",
+      "statementSha256": "164ad4103a83a8450ce1c5d12a7e19fb98c98febf00737a7849d819b76669cd3",
+      "grade": {
+        "strength": "best-practice",
+        "evidenceQuality": "no-evidence-available"
+      },
+      "levelOfAgreement": 97,
+      "subItems": [],
+      "commentary": {
+        "forRecommendations": [
+          9,
+          10,
+          11,
+          12
+        ],
+        "textSha256": "8cb9eb2c9954fd5ebe82ca4333130f34ebb16fb5334921c13b9de029572a8043"
+      }
+    },
+    {
+      "number": 13,
+      "lineageId": "rec-poem-2-r13-use-at-least-5-10-ml-of-lifting-agent-which-should-be-inject",
+      "withinSection": "sec-poem-2-mucosal-incision",
+      "statementSha256": "fd33e9502465d2ce8fd4ae16c15cf3cab0f3e7e83b739cbc830ceaa453514daa",
+      "grade": {
+        "strength": "best-practice",
+        "evidenceQuality": "no-evidence-available"
+      },
+      "levelOfAgreement": 89,
+      "subItems": []
+    },
+    {
+      "number": 14,
+      "lineageId": "rec-poem-2-r14-esge-suggests-the-use-of-saline-instead-of-colloids-for-subm",
+      "withinSection": "sec-poem-2-mucosal-incision",
+      "statementSha256": "a8dfe34794b3f39fb27a03a101f31295d22c382cd1aca8378a0f0dc3ab23830a",
+      "grade": {
+        "strength": "weak",
+        "evidenceQuality": "very-low"
+      },
+      "levelOfAgreement": 86,
+      "subItems": []
+    },
+    {
+      "number": 15,
+      "lineageId": "rec-poem-2-r15-the-use-of-a-chromic-dye-during-submucosal-tunneling-facilit",
+      "withinSection": "sec-poem-2-mucosal-incision",
+      "statementSha256": "320fd826d094b2978b92d19aba577f9365525d5e02700d4d07d3ca0d3e420fdf",
+      "grade": {
+        "strength": "best-practice",
+        "evidenceQuality": "no-evidence-available"
+      },
+      "levelOfAgreement": 91,
+      "subItems": []
+    },
+    {
+      "number": 16,
+      "lineageId": "rec-poem-2-r16-the-use-of-adrenaline-in-the-submucosal-solution-is-not-advi",
+      "withinSection": "sec-poem-2-mucosal-incision",
+      "statementSha256": "5e0c57ad2e227ad74e6ae4874dae0fde6203b968ba8ad80bb108fa34abe56dd0",
+      "grade": {
+        "strength": "best-practice",
+        "evidenceQuality": "no-evidence-available"
+      },
+      "levelOfAgreement": 89,
+      "subItems": [],
+      "commentary": {
+        "forRecommendations": [
+          13,
+          14,
+          15,
+          16
+        ],
+        "textSha256": "065f4369e13277521332121da5027cf4fd84a9e7e497a723aa2b86391eec266f"
+      }
+    },
+    {
+      "number": 17,
+      "lineageId": "rec-poem-2-r17-to-create-the-mucosotomy-the-first-incision-should-be-made-a",
+      "withinSection": "sec-poem-2-mucosal-incision",
+      "statementSha256": "24176cb7d81681ae8ba7f94fb250b42a1f3019957b02c3af6079cc03d1cabf17",
+      "grade": {
+        "strength": "best-practice",
+        "evidenceQuality": "no-evidence-available"
+      },
+      "levelOfAgreement": 80,
+      "subItems": []
+    },
+    {
+      "number": 18,
+      "lineageId": "rec-poem-2-r18-after-adequate-submucosal-injection-through-a-needle-or-knif",
+      "withinSection": "sec-poem-2-mucosal-incision",
+      "statementSha256": "a7a7fe388e9170b1a743bac96026aa84238d7059d6bf4f3cb7c8095a636a23ba",
+      "grade": {
+        "strength": "best-practice",
+        "evidenceQuality": "no-evidence-available"
+      },
+      "levelOfAgreement": 91,
+      "subItems": [],
+      "commentary": {
+        "forRecommendations": [
+          17,
+          18
+        ],
+        "textSha256": "2fba0cddec88d626ea67faadfa045ee034986de0692d99d90713d2db3b3ba312"
+      }
+    },
+    {
+      "number": 19,
+      "lineageId": "rec-poem-2-r19-the-submucosa-should-be-carefully-trimmed-at-the-caudal-end",
+      "withinSection": "sec-poem-2-submucosal-tunneling",
+      "statementSha256": "d16d39005aa236f0dec66df8c63db68dd00df0307802cdcf645f666078b89194",
+      "grade": {
+        "strength": "best-practice",
+        "evidenceQuality": "no-evidence-available"
+      },
+      "levelOfAgreement": 97,
+      "subItems": []
+    },
+    {
+      "number": 20,
+      "lineageId": "rec-poem-2-r20-a-transparent-distal-endoscope-attachment-facilitates-access",
+      "withinSection": "sec-poem-2-submucosal-tunneling",
+      "statementSha256": "6fe55ff9a48ab7e26021a27e722b78970d93f1853bbfac3e34ad240d8360ce8e",
+      "grade": {
+        "strength": "best-practice",
+        "evidenceQuality": "no-evidence-available"
+      },
+      "levelOfAgreement": 80,
+      "subItems": [],
+      "commentary": {
+        "forRecommendations": [
+          19,
+          20
+        ],
+        "textSha256": "e70f2b0fcabaa14ffabd15fd3f334e254415cbc6ecf65306402c3e67c50f1204"
+      }
+    },
+    {
+      "number": 21,
+      "lineageId": "rec-poem-2-r21-dissection-within-the-tunnel-should-be-performed-using-seque",
+      "withinSection": "sec-poem-2-submucosal-tunneling",
+      "statementSha256": "f5af3696df33516a351ab80c19a7e06931070a83db16531ffe414f4f1f2114e3",
+      "grade": {
+        "strength": "best-practice",
+        "evidenceQuality": "no-evidence-available"
+      },
+      "levelOfAgreement": 89,
+      "subItems": [
+        {
+          "label": "1",
+          "textSha256": "fb8becc6e29a3ab1646f4b62b223f4ddfc0bb6fb63a61b44b105f62f20d23153",
+          "levelOfAgreement": null
+        },
+        {
+          "label": "2",
+          "textSha256": "d37616ccdc6490e822bb173a4551257708c08915d4b6bf39f0ae162fc915d577",
+          "levelOfAgreement": null
+        },
+        {
+          "label": "3",
+          "textSha256": "539936a07f4e61a94c4f8cdf0e01e86f1ef0b2b551c84b80d555768ffd907411",
+          "levelOfAgreement": null
+        },
+        {
+          "label": "4",
+          "textSha256": "479b76dbd14e8eb6601d133bd2b9bb872bf40ef85bdfcc33d3bf2b94e77117fb",
+          "levelOfAgreement": null
+        }
+      ],
+      "commentary": {
+        "forRecommendations": [
+          21
+        ],
+        "textSha256": "deb070bce59d2cc3ff7b7489d74f6f6c2bb520151793f7941e656b65a2b75701"
+      }
+    },
+    {
+      "number": 22,
+      "lineageId": "rec-poem-2-r22-the-distance-between-the-incisors-and-the-gej-should-be-asse",
+      "withinSection": "sec-poem-2-submucosal-tunneling",
+      "statementSha256": "f3f3c05f906fb72d32f8d2ac2a4667a4d440af3b33b8cc51fd87e09507c84f36",
+      "grade": {
+        "strength": "best-practice",
+        "evidenceQuality": "no-evidence-available"
+      },
+      "levelOfAgreement": 100,
+      "subItems": []
+    },
+    {
+      "number": 23,
+      "lineageId": "rec-poem-2-r23-the-following-observations-are-useful-to-identify-the-gej-i",
+      "withinSection": "sec-poem-2-submucosal-tunneling",
+      "statementSha256": "7b1a29e4b3ff1ee05c19074bc694fd8b19d9e90d369bd3ad1d38e3ad060a7c74",
+      "grade": {
+        "strength": "best-practice",
+        "evidenceQuality": "no-evidence-available"
+      },
+      "levelOfAgreement": 97,
+      "subItems": [],
+      "commentary": {
+        "forRecommendations": [
+          22,
+          23
+        ],
+        "textSha256": "4f85ee8d794e8f62177cf2e6c3300dfdb01540523fff591b63ca07b775953c5c"
+      }
+    },
+    {
+      "number": 24,
+      "lineageId": "rec-poem-2-r24-the-submucosal-tunnel-should-be-extended-at-least-3-cm-dista",
+      "withinSection": "sec-poem-2-submucosal-tunneling",
+      "statementSha256": "d14ce1d2df2b86e33a1449463c3254d29b486a593bac5e6478b5556a97ab97f7",
+      "grade": {
+        "strength": "best-practice",
+        "evidenceQuality": "no-evidence-available"
+      },
+      "levelOfAgreement": 91,
+      "subItems": []
+    },
+    {
+      "number": 25,
+      "lineageId": "rec-poem-2-r25-esge-suggests-using-a-combination-of-anatomical-landmarks-to",
+      "withinSection": "sec-poem-2-submucosal-tunneling",
+      "statementSha256": "da95270863faa0bf102f65b01194cc9deefeea60c7eb409e0d826574d04b6a46",
+      "grade": {
+        "strength": "weak",
+        "evidenceQuality": "low"
+      },
+      "levelOfAgreement": 80,
+      "subItems": [],
+      "commentary": {
+        "forRecommendations": [
+          24,
+          25
+        ],
+        "textSha256": "874b1be52446291131d55cfd0c45a243736e85096c5665a2427f06277259e02d"
+      }
+    },
+    {
+      "number": 26,
+      "lineageId": "rec-poem-2-r26-the-myotomy-should-be-performed-in-a-cranial-to-caudal-manne",
+      "withinSection": "sec-poem-2-myotomy",
+      "statementSha256": "05e0b055b247ec8437183ca80939dce213b61612d78074d8799af0bc432076b2",
+      "grade": {
+        "strength": "best-practice",
+        "evidenceQuality": "no-evidence-available"
+      },
+      "levelOfAgreement": 80,
+      "subItems": []
+    },
+    {
+      "number": 27,
+      "lineageId": "rec-poem-2-r27-the-myotomy-should-be-performed-using-mucosal-to-adventitial",
+      "withinSection": "sec-poem-2-myotomy",
+      "statementSha256": "308bd60e671c36a22d84ddf2679544a3a6b8f9bcf6ed6cca74de90dcdbf794bd",
+      "grade": {
+        "strength": "best-practice",
+        "evidenceQuality": "no-evidence-available"
+      },
+      "levelOfAgreement": 83,
+      "subItems": [],
+      "commentary": {
+        "forRecommendations": [
+          26,
+          27
+        ],
+        "textSha256": "7d4bb6cf0207d7ad7d0f115ef747d0899c04e009f6f41a8a1d31385f3fabc288"
+      }
+    },
+    {
+      "number": 28,
+      "lineageId": "rec-poem-2-r28-esge-recommends-that-poem-can-be-performed-on-either-the-ant",
+      "withinSection": "sec-poem-2-myotomy",
+      "statementSha256": "7c92b7e95e4fd5941226501acb7e51c7934dfe448ccc10e6ac75ad0e96fa1241",
+      "grade": {
+        "strength": "strong",
+        "evidenceQuality": "moderate"
+      },
+      "levelOfAgreement": 91,
+      "subItems": []
+    },
+    {
+      "number": 29,
+      "lineageId": "rec-poem-2-r29-esge-recommends-against-performing-poem-in-the-same-orientat",
+      "withinSection": "sec-poem-2-myotomy",
+      "statementSha256": "ec4da5897187be7f5900ce8c37fe7bca1538225aa5e2a670c797e336811f4725",
+      "grade": {
+        "strength": "strong",
+        "evidenceQuality": "very-low"
+      },
+      "levelOfAgreement": 100,
+      "subItems": [],
+      "commentary": {
+        "forRecommendations": [
+          28,
+          29
+        ],
+        "textSha256": "c9a170d9710edf504525183f7cfb54fd25e65887534ba7b0167c75d40f930fb7"
+      }
+    },
+    {
+      "number": 30,
+      "lineageId": "rec-poem-2-r30-esge-suggests-that-either-a-full-thickness-or-selective-myot",
+      "withinSection": "sec-poem-2-myotomy",
+      "statementSha256": "4efef885e6474413ebad16c7de734e35b09059b93743a7cebab1d93e10dd22fe",
+      "grade": {
+        "strength": "weak",
+        "evidenceQuality": "very-low"
+      },
+      "levelOfAgreement": 80,
+      "subItems": [],
+      "commentary": {
+        "forRecommendations": [
+          30
+        ],
+        "textSha256": "7f4eac7553518fb9666c6cfcc7271c62195cdfae02a9f30b2337aa7981e41654"
+      }
+    },
+    {
+      "number": 31,
+      "lineageId": "rec-poem-2-r31-esge-recommends-that-the-myotomy-should-be-extended-2-3-cm-d",
+      "withinSection": "sec-poem-2-myotomy",
+      "statementSha256": "32e6aeb0ebee334402b1c0b6ac8e015d0d674f9c085280784287c21a96507d46",
+      "grade": {
+        "strength": "strong",
+        "evidenceQuality": "moderate"
+      },
+      "levelOfAgreement": 89,
+      "subItems": []
+    },
+    {
+      "number": 32,
+      "lineageId": "rec-poem-2-r32-esge-recommends-that-the-myotomy-length-should-be-tailored-t",
+      "withinSection": "sec-poem-2-myotomy",
+      "statementSha256": "c0fcfe478451c089ce440e1db882c49950d1df16fa52a384b411095676d490f2",
+      "grade": {
+        "strength": "strong",
+        "evidenceQuality": "very-low"
+      },
+      "levelOfAgreement": 89,
+      "subItems": []
+    },
+    {
+      "number": 33,
+      "lineageId": "rec-poem-2-r33-for-types-i-and-ii-achalasia-esge-recommends-an-esophageal-m",
+      "withinSection": "sec-poem-2-myotomy",
+      "statementSha256": "d776f34dd55e34d4954ea7153a5c24fb718719311dfb22f9d9db75c5d536c1b1",
+      "grade": {
+        "strength": "strong",
+        "evidenceQuality": "low"
+      },
+      "levelOfAgreement": 97,
+      "subItems": []
+    },
+    {
+      "number": 34,
+      "lineageId": "rec-poem-2-r34-for-type-iii-achalasia-and-other-spastic-esophageal-motility",
+      "withinSection": "sec-poem-2-myotomy",
+      "statementSha256": "5ebf37749bcb1389c12bd976075ff3ec93cd5d52ed5ffbbcceb185bd5728db3c",
+      "grade": {
+        "strength": "strong",
+        "evidenceQuality": "very-low"
+      },
+      "levelOfAgreement": 97,
+      "subItems": [],
+      "commentary": {
+        "forRecommendations": [
+          31,
+          32,
+          33,
+          34
+        ],
+        "textSha256": "5d915c8dbb0a3cc0a62541047115c52a7291b547271cd27ce0f0a210f521efa4"
+      }
+    },
+    {
+      "number": 35,
+      "lineageId": "rec-poem-2-r35-esge-recommends-the-use-of-through-the-scope-clips-for-mucos",
+      "withinSection": "sec-poem-2-mucosal-closure",
+      "statementSha256": "f0d7dfe4fc053f9ddc7fe5866945443903ceee35285d5e4259f21a13f63c4b3b",
+      "grade": {
+        "strength": "strong",
+        "evidenceQuality": "low"
+      },
+      "levelOfAgreement": 100,
+      "subItems": []
+    },
+    {
+      "number": 36,
+      "lineageId": "rec-poem-2-r36-esge-suggests-that-over-the-scope-clips-and-endoscopic-sutur",
+      "withinSection": "sec-poem-2-mucosal-closure",
+      "statementSha256": "803447e0b11f57f61e2c1f0715c42be313505703037e72147166d49261707994",
+      "grade": {
+        "strength": "weak",
+        "evidenceQuality": "very-low"
+      },
+      "levelOfAgreement": 91,
+      "subItems": [],
+      "commentary": {
+        "forRecommendations": [
+          35,
+          36
+        ],
+        "textSha256": "a0883f7b885a61fb81434b6ca709444acb899ee00ebcae4e0caf5fb4da621bd8"
+      }
+    },
+    {
+      "number": 37,
+      "lineageId": "rec-poem-2-r37-prophylactic-hemostasis-for-nonbleeding-vessels-should-be-gu",
+      "withinSection": "sec-poem-2-adverse-events",
+      "statementSha256": "828695da2815d565a25013503d1bda9427d565fe2895daa96e680559bb92e8ef",
+      "grade": {
+        "strength": "best-practice",
+        "evidenceQuality": "no-evidence-available"
+      },
+      "levelOfAgreement": 94,
+      "subItems": []
+    },
+    {
+      "number": 38,
+      "lineageId": "rec-poem-2-r38-water-irrigation-should-be-used-to-precisely-identify-the-si",
+      "withinSection": "sec-poem-2-adverse-events",
+      "statementSha256": "58297368c18a27524ad94ddd0fbf879e8d640373aec34ef650eff6cd5c704a1d",
+      "grade": {
+        "strength": "best-practice",
+        "evidenceQuality": "no-evidence-available"
+      },
+      "levelOfAgreement": 94,
+      "subItems": [],
+      "commentary": {
+        "forRecommendations": [
+          37,
+          38
+        ],
+        "textSha256": "6022d9e9c2d58ea27f8413b429202b92fc113806d1a8869af4b05ce4cce4dae9"
+      }
+    },
+    {
+      "number": 39,
+      "lineageId": "rec-poem-2-r39-mucosal-injury-during-poem-should-be-proactively-sought-duri",
+      "withinSection": "sec-poem-2-adverse-events",
+      "statementSha256": "e73b959e61c157e17e0f88622fb6c0deb12a9ffe757da02a5a81a795f5df7896",
+      "grade": {
+        "strength": "best-practice",
+        "evidenceQuality": "no-evidence-available"
+      },
+      "levelOfAgreement": 97,
+      "subItems": []
+    },
+    {
+      "number": 40,
+      "lineageId": "rec-poem-2-r40-any-suspected-current-or-potential-mucosal-perforation-durin",
+      "withinSection": "sec-poem-2-adverse-events",
+      "statementSha256": "28dfbac842f6fcd5204f4d1c81220d6830e0618188758e2eb8c6e71573046b9b",
+      "grade": {
+        "strength": "best-practice",
+        "evidenceQuality": "no-evidence-available"
+      },
+      "levelOfAgreement": 89,
+      "subItems": [],
+      "commentary": {
+        "forRecommendations": [
+          39,
+          40
+        ],
+        "textSha256": "b775e269078fefb88db751cafe3b29d0f687e6470c0b548751c302b948a78380"
+      }
+    },
+    {
+      "number": 41,
+      "lineageId": "rec-poem-2-r41-esge-recommends-performing-poem-using-low-flow-co2-insufflat",
+      "withinSection": "sec-poem-2-adverse-events",
+      "statementSha256": "67e2314af2917251e9764e47b987c32fefd924eb567764a02298fa3353c99179",
+      "grade": {
+        "strength": "strong",
+        "evidenceQuality": "low"
+      },
+      "levelOfAgreement": 94,
+      "subItems": []
+    },
+    {
+      "number": 42,
+      "lineageId": "rec-poem-2-r42-a-high-index-of-suspicion-for-gas-related-adverse-events-is",
+      "withinSection": "sec-poem-2-adverse-events",
+      "statementSha256": "6f87b835267a5d1b6c7a21d29b8affd4051dc415ee79857d58252b1718135a89",
+      "grade": {
+        "strength": "best-practice",
+        "evidenceQuality": "no-evidence-available"
+      },
+      "levelOfAgreement": 97,
+      "subItems": [
+        {
+          "label": "1",
+          "textSha256": "ddf7a20c4f859eaf6abb78dca74bb61a91e7dc7f7c9666961afbc17d1ed84a3d",
+          "levelOfAgreement": null
+        },
+        {
+          "label": "2",
+          "textSha256": "2e7ae3999034ac5469df5b8d47f6bec3427005ab3794f2ced15e0309232ed85d",
+          "levelOfAgreement": null
+        },
+        {
+          "label": "3",
+          "textSha256": "d45f9cf47e0061450a7b46aa9df71a87b0f94744ecba23d79c8257005fd8e581",
+          "levelOfAgreement": null
+        },
+        {
+          "label": "4",
+          "textSha256": "bed97a1940701ca4189a41f62d1dd92feac320e861e7a4e6dc0f3e56617335f3",
+          "levelOfAgreement": null
+        },
+        {
+          "label": "5",
+          "textSha256": "a8ed888dd1b019e45c246e5c8f01b604d411dcad2308914ecdc634dcb84e2aa4",
+          "levelOfAgreement": null
+        }
+      ]
+    },
+    {
+      "number": 43,
+      "lineageId": "rec-poem-2-r43-drainage-of-capnoperitoneum-using-needle-decompression-is-re",
+      "withinSection": "sec-poem-2-adverse-events",
+      "statementSha256": "9bcd748e47840e0f4a263629c27921e2d2eb15dc9438cb0b350a97e9f2e625ec",
+      "grade": {
+        "strength": "best-practice",
+        "evidenceQuality": "no-evidence-available"
+      },
+      "levelOfAgreement": 100,
+      "subItems": [],
+      "commentary": {
+        "forRecommendations": [
+          41,
+          42,
+          43
+        ],
+        "textSha256": "619f1e0659459d60a3ad0707c3e3febbb19a310033aa046a0e0ddd444bc20af6"
+      }
+    },
+    {
+      "number": 44,
+      "lineageId": "rec-poem-2-r44-esge-suggests-creating-a-second-tunnel-in-an-alternative-ori",
+      "withinSection": "sec-poem-2-technical-adaptations",
+      "statementSha256": "f583375adb291b6de456bca850cc10a034a7bfcfc7961b235c02eeade4f4307d",
+      "grade": {
+        "strength": "weak",
+        "evidenceQuality": "very-low"
+      },
+      "levelOfAgreement": 89,
+      "subItems": []
+    },
+    {
+      "number": 45,
+      "lineageId": "rec-poem-2-r45-in-the-absence-of-adverse-events-resume-fluids-on-day-1-soft",
+      "withinSection": "sec-poem-2-postoperative-care",
+      "statementSha256": "b9627db38a8c3eb17ed4220950dd3b4bf421dfa5f4c15f04c698d8ead2b16ce6",
+      "grade": {
+        "strength": "best-practice",
+        "evidenceQuality": "no-evidence-available"
+      },
+      "levelOfAgreement": 80,
+      "subItems": [],
+      "commentary": {
+        "forRecommendations": [
+          45
+        ],
+        "textSha256": "51f6d34a86c9d84d131e3f0b0d5c6092bf64a0146a694822fb3394989b83dd8c"
+      }
+    },
+    {
+      "number": 46,
+      "lineageId": "rec-poem-2-r46-esge-recommends-the-use-of-paracetamol-and-or-nonsteroidal-a",
+      "withinSection": "sec-poem-2-postoperative-care",
+      "statementSha256": "22400519c9fbb57b26139080c3b922135dcd7cde620e0f2a5a4e8f744d90a7e7",
+      "grade": {
+        "strength": "strong",
+        "evidenceQuality": "low"
+      },
+      "levelOfAgreement": 83,
+      "subItems": [],
+      "commentary": {
+        "forRecommendations": [
+          46
+        ],
+        "textSha256": "79cb961b035783910eb28bd7f73929b0fb722b8a905969cab0a33eb08510f947"
+      }
+    },
+    {
+      "number": 47,
+      "lineageId": "rec-poem-2-r47-esge-recommends-against-the-routine-use-of-standard-or-ct-fl",
+      "withinSection": "sec-poem-2-postoperative-care",
+      "statementSha256": "37ae177cd4c0b893ea3f247801c1e1c8dc85d9eaaead2919d385f3777ceb2960",
+      "grade": {
+        "strength": "strong",
+        "evidenceQuality": "very-low"
+      },
+      "levelOfAgreement": 83,
+      "subItems": []
+    },
+    {
+      "number": 48,
+      "lineageId": "rec-poem-2-r48-esge-suggests-favoring-the-use-of-a-ct-esophagram-with-oral",
+      "withinSection": "sec-poem-2-postoperative-care",
+      "statementSha256": "53be237d24e4aa6415ed98643d3a4693cf200c528db59f26e92598e148d6b74e",
+      "grade": {
+        "strength": "weak",
+        "evidenceQuality": "very-low"
+      },
+      "levelOfAgreement": 86,
+      "subItems": [],
+      "commentary": {
+        "forRecommendations": [
+          47,
+          48
+        ],
+        "textSha256": "e826ad85d792042e482719446fd1d278306efa5793bc3fc45df93fc85fb78d4b"
+      }
+    }
+  ]
+}

@@ -14,7 +14,7 @@
   "withinSection": "sec-poem-2-myotomy",
   "number": 27,
   "title": {
-    "en": "The myotomy should be performed using mucosal to adventitial or adventitial to mucosal approaches,"
+    "en": "The myotomy should be performed using mucosal to adventitial or adventitial to mucosal approaches, or a combination."
   },
   "statement": {
     "en": "The myotomy should be performed using mucosal to adventitial or adventitial to mucosal approaches, or a combination."
@@ -24,23 +24,22 @@
     "evidenceQuality": "no-evidence-available"
   },
   "levelOfAgreement": 83,
-  "references": [],
+  "references": [
+    "ref-59"
+  ],
   "_meta": {
     "provenance": {
       "type": "verbatim",
       "source_doi": "10.1055/a-2569-7634"
     },
-    "encodedBy": "human:david",
-    "encodedAt": "2026-07-03",
-    "fieldProvenance": {
-      "commentary": {
-        "type": "verbatim",
-        "source_doi": "10.1055/a-2569-7634",
-        "source_span": "Paragraph(s) preceding the N RECOMMENDATION block in body; back-to-back groups share commentary."
-      }
-    }
+    "encodedBy": "other:codex-publisher-dom-import",
+    "encodedAt": "2026-08-09"
   },
   "commentary": {
-    "en": "Accurate identification of the LES is vital to ensure complete sphincter disruption, thereby maximizing the clinical efficacy of POEM [56]. The endoscopist should recognize the anatomical landmarks of the GEJ. In the double-scope transillumination technique, a second endoscope (usually a pediatric gastroscope) is passed into the gastric lumen in order to observe, in retroflexion, the light of the first scope inside the submucosal tunnel [57]; this can help to identify the GEJ and guide further gastric myotomy. In one case series, this technique indicated the tunnel extent to be inadequate in 50 % of patients, and the tunnel was extended a further 1 to 2 cm [57]. An RCT concluded that a second endoscope is useful for ensuring a complete gastric myotomy, also describing a minimal increase in procedural time, without any increased morbidity. The authors suggested that it may be particularly helpful in cases of altered anatomy that can make identification of the GEJ difficult [58].\n\nA cranial to caudal (top-down) or caudal to cranial (bottomup) technique can be used for the myotomy depending on operator preference. The panel favors a cranial to caudal approach when starting out in POEM training, which is the standard approach for the myotomy. The myotomy should be started 2 cm or more below the caudal extent of the mucosotomy site to maintain an adequately protective mucosal flap. The caudal to cranial technique has also been described and could reduce myotomy procedural time, but high quality comparative data are lacking [59]. In this modality, the myotomy is started 2\u20133 cm caudal to the GEJ at the distal end of the tunnel and continued cranially. For the initial incision, the tip of the knife should be held against the muscle and a slow controlled incision should be made using sequential single taps on the foot pedal of the electrosurgical unit ("
-  }
+    "en": "A cranial to caudal (top-down) or caudal to cranial (bottom-up) technique can be used for the myotomy depending on operator preference. The panel favors a cranial to caudal approach when starting out in POEM training, which is the standard approach for the myotomy. The myotomy should be started 2 cm or more below the caudal extent of the mucosotomy site to maintain an adequately protective mucosal flap. The caudal to cranial technique has also been described and could reduce myotomy procedural time, but high quality comparative data are lacking [59]. In this modality, the myotomy is started 2–3 cm caudal to the GEJ at the distal end of the tunnel and continued cranially.\n\nFor the initial incision, the tip of the knife should be held against the muscle and a slow controlled incision should be made using sequential single taps on the foot pedal of the electrosurgical unit ([Table 2]) until the knife tip passes through the muscle layer toward the adventitial side, away from the mucosa. It can be helpful to use the cut current (e. g. Endocut Q, effect 2) for this initial step to improve visualization of the different muscle layers. For selective myotomy, the aim is to place the tip of the knife in the intermuscular space, between the circular and the longitudinal muscle layers. For full-thickness myotomy, once the initial incision is made, an injection into the adventitial side can be used to create a cushion, providing a safety margin to protect against thermal injury to the mediastinal structures.\n\nA mucosal to adventitial or adventitial to mucosal technique can be used to continue the myotomy. The mucosal to adventitial technique is preferred for safety reasons; however, the adventitial to mucosal approach can be used when there is limited adventitial space, which would risk thermal injury to mediastinal structures. For the adventitial to mucosal technique, the knife tip is hooked just behind the muscle fibers and gentle traction is applied toward the mucosal layer. When using this technique, care should be taken to ensure sufficient space between the muscularis propria and mucosa prior to cutting. Similarly, the amount of pressure should be limited to avoid inadvertent injury to the mucosa. For the mucosal to adventitial technique, the knife is extended caudally against the mucosal side of the progressing myotomy edge. In a stepwise fashion, diathermy is applied until the desired depth of myotomy is achieved. Prior injection into the adventitial space is recommended. Care should be taken to preferentially avoid or precoagulate large vessels in the cardia.\n\nAfter completion, the myotomy should be carefully evaluated to confirm that an adequate length and complete disruption of the LES has been achieved."
+  },
+  "commentaryForRecommendations": [
+    26,
+    27
+  ]
 }

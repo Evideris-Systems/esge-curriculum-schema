@@ -23,146 +23,71 @@
     "strength": "weak",
     "evidenceQuality": "low"
   },
-  "subItems": [
-    {
-      "label": "i",
-      "text": {
-        "en": "Change patient position to respect the influence of gravity on fluid/blood (away from the lesion) and to optimize views."
-      },
-      "levelOfAgreement": 96
-    },
-    {
-      "label": "ii",
-      "text": {
-        "en": "Optimize patient sedation."
-      },
-      "levelOfAgreement": 94
-    },
-    {
-      "label": "iii",
-      "text": {
-        "en": "Administration of antispasmodics."
-      },
-      "levelOfAgreement": 93
-    },
-    {
-      "label": "iv",
-      "text": {
-        "en": "Excellent basic colonoscopy technique to arrive at the lesion without looping."
-      },
-      "levelOfAgreement": 96
-    },
-    {
-      "label": "v",
-      "text": {
-        "en": "Use of external pressure to prevent loop formation during insertion."
-      },
-      "levelOfAgreement": 86
-    },
-    {
-      "label": "vi",
-      "text": {
-        "en": "Use of different endoscopes with different lengths, stiffness, and tip-bending properties etc. (e. g. pediatric colonoscope, gastroscope, balloon-enteroscope)."
-      },
-      "levelOfAgreement": 93
-    },
-    {
-      "label": "vii",
-      "text": {
-        "en": "Ask assistant/nurse to hold the endoscope as needed."
-      },
-      "levelOfAgreement": 90
-    },
-    {
-      "label": "viii",
-      "text": {
-        "en": "Position the lesion at 5\u20136 o\u2019clock."
-      },
-      "levelOfAgreement": 94
-    },
-    {
-      "label": "ix",
-      "text": {
-        "en": "Use retroflexion where possible and appropriate."
-      },
-      "levelOfAgreement": 91
-    },
-    {
-      "label": "x",
-      "text": {
-        "en": "Use luminal insufflation and desufflation."
-      },
-      "levelOfAgreement": 94
-    },
-    {
-      "label": "xi",
-      "text": {
-        "en": "Use of a transparent distal attachment (e. g. for flexures, ileocecal valve, or dentate line)."
-      },
-      "levelOfAgreement": 91
-    },
-    {
-      "label": "xii",
-      "text": {
-        "en": "Resection technique: commence resection in a way that facilitates access to the most difficult part of the lesion early in the procedure to optimize the chance of complete resection."
-      },
-      "levelOfAgreement": 85
-    },
-    {
-      "label": "xiii",
-      "text": {
-        "en": "Resection technique: use submucosal lifting to promote access to the required part of the lesion."
-      },
-      "levelOfAgreement": 94
-    },
-    {
-      "label": "xiv",
-      "text": {
-        "en": "Resection technique: use snare resection of the surrounding lifting mucosa to create a step for snare placement on difficult-to-capture tissue."
-      },
-      "levelOfAgreement": 92
-    },
-    {
-      "label": "xv",
-      "text": {
-        "en": "Resection technique: create a step into the submucosal plane to assist snare placement (hybrid-EMR)."
-      },
-      "levelOfAgreement": 85
-    },
-    {
-      "label": "xvi",
-      "text": {
-        "en": "Resection technique: use an avulsion technique such as cold avulsion."
-      },
-      "levelOfAgreement": 85
-    },
-    {
-      "label": "xvii",
-      "text": {
-        "en": "Consider asking for a second opinion from a more experienced colleague at the time or before a second attempt. Consider that you may not be the best person to perform the second attempt."
-      },
-      "levelOfAgreement": 95
-    },
-    {
-      "label": "xviii",
-      "text": {
-        "en": "Try a second attempt at EMR prior to surgery (two-stage EMR)."
-      },
-      "levelOfAgreement": 85,
-      "references": [
-        "ref-10"
-      ]
-    }
-  ],
-  "references": [
-    "ref-10"
-  ],
+  "references": [],
   "_meta": {
     "provenance": {
       "type": "verbatim",
       "source_doi": "10.1055/a-2077-0497"
     },
-    "encodedBy": "human:david",
-    "encodedAt": "2026-06-28"
-  }
+    "encodedBy": "other:codex-publisher-dom-import",
+    "encodedAt": "2026-08-09"
+  },
+  "subItems": [
+    {
+      "label": "i",
+      "levelOfAgreement": 92,
+      "text": {
+        "en": "Use of an endoscopic retrieval net is recommended when performing piecemeal polypectomy."
+      }
+    },
+    {
+      "label": "ii",
+      "levelOfAgreement": 88,
+      "text": {
+        "en": "If performing en bloc resection, the snare can be used to retrieve the resected polyp tissue."
+      }
+    },
+    {
+      "label": "iii",
+      "levelOfAgreement": 86,
+      "text": {
+        "en": "(If using a snare) care should be taken to ensure the snare does not cut through the lesion and that the scope is used to protect the specimen at retrieval through the anus by pulling the specimen up against the scope tip."
+      }
+    },
+    {
+      "label": "iv",
+      "levelOfAgreement": 84,
+      "text": {
+        "en": "Suction of transected tissue through the endoscope channel for retrieval may interfere with histologic interpretation."
+      }
+    },
+    {
+      "label": "v",
+      "levelOfAgreement": 89,
+      "text": {
+        "en": "The retrieval device should be positioned at 6 o’clock (when using a colonoscope)."
+      }
+    },
+    {
+      "label": "vi",
+      "levelOfAgreement": 92,
+      "text": {
+        "en": "Pieces should be captured using a sequential place, close, compact, and open approach."
+      }
+    },
+    {
+      "label": "vii",
+      "levelOfAgreement": 94,
+      "text": {
+        "en": "All pieces should be captured."
+      }
+    },
+    {
+      "label": "viii",
+      "levelOfAgreement": 88,
+      "text": {
+        "en": "Pinning the polyp tissue to a corkboard after en bloc resection is useful, but this is not useful after piecemeal resection (apart from when a large piece suspicious for SMI is resected)."
+      }
+    }
+  ]
 }

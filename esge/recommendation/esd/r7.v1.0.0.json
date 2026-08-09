@@ -20,23 +20,36 @@
     "en": "ESGE recommends supervision during training as it seems effective in improving the skills of trainees."
   },
   "levelOfAgreement": 95,
-  "references": [],
+  "references": [
+    "ref-24",
+    "ref-30",
+    "ref-31",
+    "ref-33",
+    "ref-34",
+    "ref-35",
+    "ref-36",
+    "ref-37",
+    "ref-38",
+    "ref-39",
+    "ref-40",
+    "ref-41",
+    "ref-42",
+    "ref-43",
+    "ref-44"
+  ],
   "_meta": {
     "provenance": {
       "type": "verbatim",
       "source_doi": "10.1055/a-0996-0912"
     },
-    "encodedBy": "human:david",
-    "encodedAt": "2026-07-01",
-    "fieldProvenance": {
-      "commentary": {
-        "type": "verbatim",
-        "source_doi": "10.1055/a-0996-0912",
-        "source_span": "Paragraph(s) of prose in the source body immediately preceding the RECOMMENDATION block; shared with adjacent back-to-back RECOMMENDATIONs where the source clusters them without intervening prose. PDF hyphenation healed, running footers and page markers stripped."
-      }
-    }
+    "encodedBy": "other:codex-publisher-dom-import",
+    "encodedAt": "2026-08-09"
   },
   "commentary": {
-    "en": "Once the basic theoretical knowledge has been mastered, and before beginning ESD in models, attending live demonstrations or meetings is probably a good way (controlled information) to learn the prerequisites from experts [22]. These attendances may help trainees to learn some tricks, understand techniques with different devices, in both easy and difficult locations, with the aim of improving their performance. Nevertheless, this point is based on expert opinion and clinical evidence is still lacking [32], because it has not yet been demonstrated that attendance at live demonstrations is able to improve ESD outcomes in trainees. With regard to beginning ESD training in humans, it is our opinion that this should be strongly discouraged. The complexity of the technique and the potential serious side effects, as well as several alternative options for training, are strong reasons to avoid taking the initial training steps in humans. A French study on initial rectal ESD experience in humans without supervision demonstrated how dangerous ESD can be in nonexperienced hands [33]. In this study, the initial perforation rate was 34 % and the initial R0 resection rate only 52 %. Therefore, beginning ESD training in humans is strongly discouraged as it may be both dangerous and ineffective."
-  }
+    "en": "There is some clinical evidence to support the positive impact of animal model training before beginning ESD in humans, but prospective comparative studies are still not available. Nevertheless, training in a live porcine model was considered very realistic by participants compared with the human setting and was highly appreciated as a learning tool [34] [35]. Moreover, the outcomes of ESD, even with previous animal training albeit not in the respective human organ [33], do not encourage the proposal of comparative studies between trainees who have experienced previous animal training and those who have not.\n\nESD training is associated with a clear learning curve both in animal models and in human procedures [36] [37] [38] [39] [40]. Hands-on training on animal models produces an improvement in ESD outcomes, with an increase in the complete resection rate and a decrease in the perforation rate [30] [31] [38] [41]. In an American experience with three trainees who performed 30 procedures each, the inflexion of the learning curve was achieved after nine procedures on a colonic model, although students were still progressing throughout the 30 procedures [41]. Animal model training is also effective in improving the skills needed for the management of ESD adverse events (bleeding and perforation) [42].\n\nDespite the lack of evidence demonstrating a relationship between ESD results in animal training and subsequent initial human experience, ESGE recommends an initial experience in animal models before human practice. Different animal models (ex vivo pig stomach or esophagus, bovine or pig colon, living animal models) exist, but there are no comparative data on the training capacity of these different models. For initial experience, ex vivo models are probably sufficient to allow training without sacrificing animals. In expert centers with strong supervision, initial training experience in humans may sometimes be proposed but clinical evidence is lacking to sustain this strategy.\n\nIn Japan, the number of ex vivo or animal training courses needed before starting ESD training in humans is five or less [24]. However, learning curves are different from one trainee to another; therefore, determining a minimum number of courses and/or procedures appears difficult. A performance objective appears more relevant and each student should record their results (complete resections, perforations) during animal training (Appendix 1s; see online-only Supplementary material). ESGE proposes a quality goal of a complete resection rate of at least 80% without perforations during 10 consecutive procedures to define a trained student, as previously suggested [31] [43].\n\nIn a prospective comparative study in a bovine rectum model, 20% of 20 students without any supervision reached this goal after 10 procedures, 50% after 20 procedures, and 55% after 30 procedures [31]. With virtual supervision, the rate of students who achieved the goal was 32%, 63%, and 74% after 10, 20, and 30 procedures, respectively, underlining the positive effect of supervision during animal training. In a study from USA and Japan, video-based post-procedure analysis and recommendation by an expert allowed two students to complete three successive R0 resections without perforations after 25 procedures [44].\n\nThe role of dedicated software or video watching is not yet clearly defined. When point-by-point supervision is available, this was shown to increase the number of students who reached an 80% rate of complete resections without perforations after 30 procedures [31]. These results underline the effectiveness of supervision during training [44], either with on-site experts if possible or with virtual supervision if a local expert is not accessible.\n\nTo reach the goal, ESGE recommends a minimum number of 20 procedures, with supervision if possible, but half of the trainees will probably need more training to fulfill the quality threshold of an 80% rate of en bloc complete resections (all marks visible in the specimen) without perforation in 10 consecutive procedures."
+  },
+  "commentaryForRecommendations": [
+    6,
+    7
+  ]
 }

@@ -1,0 +1,38 @@
+{
+  "$schema": "https://schema.evideris.com/schemas/figure.schema.json",
+  "$id": "https://schema.evideris.com/esge/figure/esd/fig-1.v1.0.0.json",
+  "lineageId": "fig-esd-1",
+  "type": "figure",
+  "version": "1.0.0",
+  "release": "r2026.07",
+  "supersedes": null,
+  "supersededBy": null,
+  "language": [
+    "en"
+  ],
+  "withinCurriculum": "cur-esd-2019",
+  "number": 1,
+  "caption": {
+    "en": "Diagram summarizing the ESGE training curriculum for endoscopic submucosal dissection (ESD). EMR, endoscopic mucosal resection. Source: ESGE."
+  },
+  "panels": [],
+  "sourceUrls": {
+    "fullRes": "https://www.thieme-connect.de/media/endoscopy/201910/10-1055-a-0996-0912-i18224en1.jpg",
+    "thumbnail": "https://www.thieme-connect.de/media/endoscopy/201910/thumbnails/10-1055-a-0996-0912-i18224en1.jpg"
+  },
+  "_meta": {
+    "provenance": {
+      "type": "verbatim",
+      "source_doi": "10.1055/a-0996-0912"
+    },
+    "encodedBy": "other:codex-publisher-dom-import",
+    "encodedAt": "2026-08-09"
+  },
+  "asset": {
+    "path": "esge/figure/esd/assets/fig-1.png",
+    "mediaType": "image/png",
+    "sha256": "96bda4ce7833815a838e685ce89677f613518acd836f62af896319e3715f2215",
+    "width": 1241,
+    "height": 764
+  }
+}

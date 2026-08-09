@@ -14,7 +14,7 @@
   "withinSection": "sec-poem-2-cleaning-inspection",
   "number": 9,
   "title": {
-    "en": "A thorough esophageal cleansing before mucosal incision is mandatory."
+    "en": "A thorough esophageal cleansing before mucosal incision is mandatory. There should be no residual dietary liquid or food in the lumen."
   },
   "statement": {
     "en": "A thorough esophageal cleansing before mucosal incision is mandatory. There should be no residual dietary liquid or food in the lumen."
@@ -30,17 +30,7 @@
       "type": "verbatim",
       "source_doi": "10.1055/a-2569-7634"
     },
-    "encodedBy": "human:david",
-    "encodedAt": "2026-07-03",
-    "fieldProvenance": {
-      "commentary": {
-        "type": "verbatim",
-        "source_doi": "10.1055/a-2569-7634",
-        "source_span": "Paragraph(s) preceding the N RECOMMENDATION block in body; back-to-back groups share commentary."
-      }
-    }
-  },
-  "commentary": {
-    "en": "arising from the low number of events and limited sample size, and the potential risk of publication bias (Table 4 s). Whether a single dose of antibiotic can be omitted has not been formally addressed and cannot be recommended at this stage.\n\nanatomical landmarks should be recognized before the mucosal incision? POEM can be performed with the patient in either the supine or left lateral position, depending on the operator\u2019s preference. It is imperative to spend sufficient time cleansing the esophagus before initiating tunnel creation to prevent contamination of the peritoneum and mediastinum. The endoscopist must ensure that there is no residual dietary liquid or food within the lumen [20]. In a study of 71 patients, there was a discordance of up to 5 cm on average between high resolution manometry (HRM),"
+    "encodedBy": "other:codex-publisher-dom-import",
+    "encodedAt": "2026-08-09"
   }
 }

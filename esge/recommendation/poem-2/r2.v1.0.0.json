@@ -30,17 +30,7 @@
       "type": "verbatim",
       "source_doi": "10.1055/a-2569-7634"
     },
-    "encodedBy": "human:david",
-    "encodedAt": "2026-07-03",
-    "fieldProvenance": {
-      "commentary": {
-        "type": "verbatim",
-        "source_doi": "10.1055/a-2569-7634",
-        "source_span": "Paragraph(s) preceding the N RECOMMENDATION block in body; back-to-back groups share commentary."
-      }
-    }
-  },
-  "commentary": {
-    "en": "Achalasia is an esophageal motility disorder, characterized by the failure of the lower esophageal sphincter (LES) to relax properly, associated with loss of peristalsis leading to impaired movement of food and liquid from the esophagus into the stomach [1\u20133]. The incidence of achalasia is approximately 1.6 cases per 100 000 and it usually presents between the ages of 25 and 60, with men and women equally affected [4] The treatment of achalasia is aimed at lowering the resting pressure of the LES [5]. Recent European guidelines suggest that peroral endoscopic myotomy (POEM) has comparable efficacy to graded pneumatic dilation and laparoscopic Heller\u2019s myotomy, and that treatment decisions in achalasia should be made based on patient-specific characteristics, possible adverse events (AEs), and a local expertise [1, 2]. This second part of this curriculum is focused on the technical act of performing POEM and includes a deconstructed approach that is amenable to standardized training. A competency assessment tool based on the curriculum is also provided at the end of the document. At present, no other such document exists for training in POEM in Europe.\n\nThe methods used to draft this manuscript are as described in the curriculum Part I [6], with the taskforces having the same membership (Appendix 1 s, see online-only Supplementary material). The specific PICO questions and search strategies for Part II are available in Appendix 2 s. Subsequently, taskforces evaluated the available literature (Table 1 s) using the Grading of Recommendations Assessment, Development and Evaluation (GRADE) system. The GRADE system was used to assess the quality of evidence by study outcome and overall certainty, as well as to grade the recommendations. The quality and risk of bias of individual studies were assessed using the ROB-2 scale for randomized controlled trials (RCTs), the Newcastle\u2013Ottawa Scale or Robins-I for observational studies, and the QUADAS-2 tool for diagnostic accuracy studies. Where necessary, the authors performed their own meta-analyses to supplement those previously published (Appendix 3 s). The outcomes of each voting round are detailed in Appendix 4 s."
+    "encodedBy": "other:codex-publisher-dom-import",
+    "encodedAt": "2026-08-09"
   }
 }

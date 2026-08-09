@@ -1,0 +1,235 @@
+{
+  "schemaVersion": 1,
+  "slug": "esd",
+  "sourceDoi": "10.1055/a-0996-0912",
+  "sourceUrl": "https://www.thieme-connect.de/products/ejournals/html/10.1055/a-0996-0912",
+  "extractionMethod": "publisher-html-dom",
+  "reviewedAt": "2026-08-09",
+  "recommendations": [
+    {
+      "number": 1,
+      "lineageId": "rec-esd-r1-advanced-endoscopy-diagnostic-practice-before-esd-training",
+      "withinSection": "sec-esd-skills-competence",
+      "statementSha256": "fe9fa6f1d0207616c03e06ffcc266f030c8b388f029973ca9926c44707908fcc",
+      "grade": null,
+      "levelOfAgreement": 95,
+      "subItems": [],
+      "commentary": {
+        "forRecommendations": [
+          1
+        ],
+        "textSha256": "1e0cb5cc5925c6640010ecd59328d8b667d7320e190fd1eeccb58ec249bef119"
+      }
+    },
+    {
+      "number": 2,
+      "lineageId": "rec-esd-r2-prior-training-required-emr-adverse-event-management",
+      "withinSection": "sec-esd-skills-competence",
+      "statementSha256": "2ed5f3319a20ba7c23c174c3993b9e413b39bcee2fac079a0f9555af74c26125",
+      "grade": null,
+      "levelOfAgreement": 100,
+      "subItems": [],
+      "commentary": {
+        "forRecommendations": [
+          2
+        ],
+        "textSha256": "31401c44d8cd493a9e810430602207cac10e9fc715520561a304036853e723ad"
+      }
+    },
+    {
+      "number": 3,
+      "lineageId": "rec-esd-r3-knowledge-of-esd-theory-before-and-during-training",
+      "withinSection": "sec-esd-skills-competence",
+      "statementSha256": "5937140f208a6e6de053cba13f025ef65c7db65ea7653ba74d42c98f91115037",
+      "grade": null,
+      "levelOfAgreement": 95,
+      "subItems": [],
+      "commentary": {
+        "forRecommendations": [
+          3
+        ],
+        "textSha256": "b9f3afc63a3a787f9eae6410135290ba881f44d97a039f4963ce24f777b6285c"
+      }
+    },
+    {
+      "number": 4,
+      "lineageId": "rec-esd-r4-live-conferences-and-meetings",
+      "withinSection": "sec-esd-training",
+      "statementSha256": "3275de314775e7051ff1b9492d416adb41743a9f757b43b071b5b49b86442464",
+      "grade": null,
+      "levelOfAgreement": 95,
+      "subItems": []
+    },
+    {
+      "number": 5,
+      "lineageId": "rec-esd-r5-esge-discourages-initial-esd-training-in-humans",
+      "withinSection": "sec-esd-training",
+      "statementSha256": "e6b6fcc2a3d52cb54bf716b8e6bc7e5fe2ab742028bbee638a684926932b4a0a",
+      "grade": null,
+      "levelOfAgreement": 95,
+      "subItems": [],
+      "commentary": {
+        "forRecommendations": [
+          4,
+          5
+        ],
+        "textSha256": "8ec54e0d11f93eb2372d871983cf4799ab0e63802545ea990a684b6bcc3a47ea"
+      }
+    },
+    {
+      "number": 6,
+      "lineageId": "rec-esd-r6-animal-ex-vivo-practice-20-procedures-before-humans",
+      "withinSection": "sec-esd-training",
+      "statementSha256": "795ba9616523e63d5fc9f0c6173b4a4516065800df793ea686ef5bba467c6a9d",
+      "grade": null,
+      "levelOfAgreement": 95,
+      "subItems": []
+    },
+    {
+      "number": 7,
+      "lineageId": "rec-esd-r7-supervision-during-training",
+      "withinSection": "sec-esd-training",
+      "statementSha256": "e93418eff577aa3dc0f468a686543d0461dcdbccab3d49000a641db5d49dd841",
+      "grade": null,
+      "levelOfAgreement": 95,
+      "subItems": [],
+      "commentary": {
+        "forRecommendations": [
+          6,
+          7
+        ],
+        "textSha256": "ed1c44a4879b9a795fc4f423b7eb41169888d2701b1f2ab8edcf87d83524dd78"
+      }
+    },
+    {
+      "number": 8,
+      "lineageId": "rec-esd-r8-observation-of-experts-20-procedures-5-as-assistant",
+      "withinSection": "sec-esd-training",
+      "statementSha256": "f2488158890ae95aac5ed2425ee7224db4ca2a084a0fcc5684201f203c09834a",
+      "grade": null,
+      "levelOfAgreement": 91,
+      "subItems": [],
+      "commentary": {
+        "forRecommendations": [
+          8
+        ],
+        "textSha256": "dc405a927e3a2cecf7029abd640de574b0051ae7692b028f056e2ca8d5f11d05"
+      }
+    },
+    {
+      "number": 9,
+      "lineageId": "rec-esd-r9-first-human-procedures-small-30mm-lesions-in-antrum-or-rectu",
+      "withinSection": "sec-esd-training",
+      "statementSha256": "4e9ca4356bece33d4fc22d6a211e3ebbb65e6146d685063a7cc0c3230bf6507c",
+      "grade": null,
+      "levelOfAgreement": 95,
+      "subItems": []
+    },
+    {
+      "number": 10,
+      "lineageId": "rec-esd-r10-first-10-human-procedures-under-supervision",
+      "withinSection": "sec-esd-training",
+      "statementSha256": "15cc47541739ebbb05e3b30474c93f498ba6bd72af8500b006651ef66f2f8a65",
+      "grade": null,
+      "levelOfAgreement": 91,
+      "subItems": [],
+      "commentary": {
+        "forRecommendations": [
+          9,
+          10
+        ],
+        "textSha256": "e2d70e0db04cca7492884b04f5b7c4379d5cf67909a90d9eed1a9e22204c1934"
+      }
+    },
+    {
+      "number": 11,
+      "lineageId": "rec-esd-r11-knowledge-of-instrumentation-technique-and-esu",
+      "withinSection": "sec-esd-knowledge-competence",
+      "statementSha256": "512c6fa84b034065f9e408862af8861f2bd9f0b35c9c41751500122a96254f5e",
+      "grade": null,
+      "levelOfAgreement": 100,
+      "subItems": [],
+      "commentary": {
+        "forRecommendations": [
+          11
+        ],
+        "textSha256": "bbb209f66dec8e13e075e3e77879127271124b065fd3f9b6d4112bfced6fe104"
+      }
+    },
+    {
+      "number": 12,
+      "lineageId": "rec-esd-r12-estimating-probability-of-curative-resection",
+      "withinSection": "sec-esd-knowledge-competence",
+      "statementSha256": "c878d8034371d6aa2071ff875d3c09bc0a7c2a99486744b564b3025ffb41ad57",
+      "grade": null,
+      "levelOfAgreement": 95,
+      "subItems": []
+    },
+    {
+      "number": 13,
+      "lineageId": "rec-esd-r13-interpretation-of-histopathology-of-the-esd-specimen",
+      "withinSection": "sec-esd-knowledge-competence",
+      "statementSha256": "853fdc33a3125dff3fb51f4d40815d1b696b0810f0837245c025d17fdeea9d52",
+      "grade": null,
+      "levelOfAgreement": 100,
+      "subItems": [],
+      "commentary": {
+        "forRecommendations": [
+          12,
+          13
+        ],
+        "textSha256": "942e75b1bbd6fe7f20006013fbd521d6fef42282eea81508c19df6f74c757dea"
+      }
+    },
+    {
+      "number": 14,
+      "lineageId": "rec-esd-r14-expert-confirmation-before-starting-esd-at-own-centre",
+      "withinSection": "sec-esd-knowledge-competence",
+      "statementSha256": "afb0b34c7d507a630390d947adcf3aef2519b7991f044f8f3c66ccd3a0f3c6eb",
+      "grade": null,
+      "levelOfAgreement": 91,
+      "subItems": []
+    },
+    {
+      "number": 15,
+      "lineageId": "rec-esd-r15-setting-requirements-inpatient-ward-surgical-backup-expert-p",
+      "withinSection": "sec-esd-knowledge-competence",
+      "statementSha256": "bfc22ad6206528b66253f2af31ab4fcf286964c8db8352982b64cd58741de11f",
+      "grade": null,
+      "levelOfAgreement": 100,
+      "subItems": [],
+      "commentary": {
+        "forRecommendations": [
+          14,
+          15
+        ],
+        "textSha256": "24b7ac9384ee6c740b8e624c461bbd1c60027f349716730b8b9fb9cbe5071117"
+      }
+    },
+    {
+      "number": 16,
+      "lineageId": "rec-esd-r16-minimum-case-load-25-esd-procedures-per-year",
+      "withinSection": "sec-esd-knowledge-competence",
+      "statementSha256": "5e35f949630293463f916d9fed1144c14ade7acf2103c4dcfcc3dd69eb325f6e",
+      "grade": null,
+      "levelOfAgreement": 100,
+      "subItems": []
+    },
+    {
+      "number": 17,
+      "lineageId": "rec-esd-r17-prospective-database-quality-targets-en-bloc-90-perforation",
+      "withinSection": "sec-esd-knowledge-competence",
+      "statementSha256": "431068220ca469ce5a9afa1a666ea4171377d9993354c8a145e50fc22e37e638",
+      "grade": null,
+      "levelOfAgreement": 95,
+      "subItems": [],
+      "commentary": {
+        "forRecommendations": [
+          16,
+          17
+        ],
+        "textSha256": "cb6747ce7d4aac20a92d7c318819d8009c034cf8b882ad90284239b10289f795"
+      }
+    }
+  ]
+}

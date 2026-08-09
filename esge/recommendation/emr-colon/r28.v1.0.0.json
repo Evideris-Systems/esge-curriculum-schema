@@ -14,7 +14,7 @@
   "withinSection": "sec-emr-during-emr",
   "number": 28,
   "title": {
-    "en": "Determing whether EMR procedures should be taken over by the supervising practitioner"
+    "en": "Determining whether EMR procedures should be taken over by the supervising practitioner"
   },
   "statement": {
     "en": "ESGE recommends the criteria listed below should be considered when determining when/if trainee EMR procedures should be taken over by their supervising practitioner."
@@ -23,98 +23,106 @@
     "strength": "best-practice",
     "evidenceQuality": "low"
   },
-  "subItems": [
-    {
-      "label": "i",
-      "text": {
-        "en": "Use the endoscope flushing pump to identify the exact place where bleeding is occurring within the mucosal defect."
-      },
-      "levelOfAgreement": 95
-    },
-    {
-      "label": "ii",
-      "text": {
-        "en": "Re-injection may help to isolate/make the bleeding vessel visible."
-      },
-      "levelOfAgreement": 90
-    },
-    {
-      "label": "iii",
-      "text": {
-        "en": "Consider the use of image-enhancement techniques (e. g. red dichromatic imaging [RDI] ) to identify the bleeding vessel."
-      },
-      "levelOfAgreement": 83,
-      "references": [
-        "ref-135",
-        "ref-136"
-      ]
-    },
-    {
-      "label": "iv",
-      "text": {
-        "en": "Ensure the patient position is optimal so that blood flows away from the resection site to improve visualization (use gravity)."
-      },
-      "levelOfAgreement": 93
-    },
-    {
-      "label": "v",
-      "text": {
-        "en": "If significant bleeding occurs, tamponade of the vessel with the endoscope cap or any instrument may be useful until the required device is available and may help to identify the source of bleeding."
-      },
-      "levelOfAgreement": 95
-    },
-    {
-      "label": "vi",
-      "text": {
-        "en": "For mild/moderate bleeding, start with STSC (e. g. ERBE soft coagulation effect 4, 80 W). The technique is as follows: \u25aause the tip of the snare to apply light pressure precisely over the bleeding point (confirmed by cessation of bleeding) \u25aaapply electrosurgical energy for 1\u20132 seconds, then lift the snare and re-assess bleeding."
-      },
-      "levelOfAgreement": 91,
-      "references": [
-        "ref-137"
-      ]
-    },
-    {
-      "label": "vii",
-      "text": {
-        "en": "If STSC is ineffective after application of the correctly applied technique (as above), switch instrument to a coagulation forceps."
-      },
-      "levelOfAgreement": 87
-    },
-    {
-      "label": "viii",
-      "text": {
-        "en": "For severe bleeding, start with a coagulation forceps."
-      },
-      "levelOfAgreement": 92
-    },
-    {
-      "label": "ix",
-      "text": {
-        "en": "Use of the coagulation forceps should proceed as follows: \u25aathe suspected vessel is captured with the forceps \u25aacessation of bleeding confirms correct forceps placement \u25aathe vessel is then gently tented away from the deeper structures and electrosurgical energy is applied (using the same settings for the electrosurgical unit as for STSC [e. g. ERBE soft coagulation effect 4, 80 W]) until a visible cautery effect is observed \u25aathe tissue is released and the endoscope flushing pump is used to confirm cessation of bleeding."
-      },
-      "levelOfAgreement": 94
-    },
-    {
-      "label": "x",
-      "text": {
-        "en": "In exceptional circumstances, where thermal energy does not control intraprocedural bleeding, mechanical control with"
-      }
-    }
-  ],
-  "commentary": {
-    "en": "Safe and complete LNPCP resection will increase the duration of a procedure. Even if the LNPCP resection is the only planned activity, adequate time is necessary to both enable the resection to be completed and to deal with any associated problems or complications. The allocation of time for procedures can be complex, and will be influenced by the experience of the endoscopist, the other factors listed above, and whether the case is being used for training purposes. Failure of the system to ensure the patent arrives promptly, with the correct bowel preparation administered, and that the correct time has been allocated will have an impact on the procedure. Time pressure is perceived differently between individuals; however, time pressure generally impairs performance because it places constraints on the capacity for thought and action that limit exploration and increases reliance on welllearned or heuristic strategies. The resulting time pressure increases speed at the expense of quality. The outcome of this can be incomplete resection, or a suboptimal technique with a higher likelihood of recurrence or complications. 4.6 Techniques to manage adverse events related to EMR"
-  },
-  "references": [
-    "ref-135",
-    "ref-136",
-    "ref-137"
-  ],
+  "references": [],
   "_meta": {
     "provenance": {
       "type": "verbatim",
       "source_doi": "10.1055/a-2077-0497"
     },
-    "encodedBy": "human:david",
-    "encodedAt": "2026-06-28"
-  }
+    "encodedBy": "other:codex-publisher-dom-import",
+    "encodedAt": "2026-08-09"
+  },
+  "subItems": [
+    {
+      "label": "i",
+      "levelOfAgreement": 95,
+      "text": {
+        "en": "Trainee is unable to carry out the instructions of the trainer despite comprehending them."
+      }
+    },
+    {
+      "label": "ii",
+      "levelOfAgreement": 94,
+      "text": {
+        "en": "Lack of adequate progress due to any reason relevant to the level of training or competency."
+      }
+    },
+    {
+      "label": "iii",
+      "levelOfAgreement": 90,
+      "text": {
+        "en": "Patient withdraws consent for a training procedure to be performed."
+      }
+    },
+    {
+      "label": "iv",
+      "levelOfAgreement": 93,
+      "text": {
+        "en": "Patient is in significant discomfort and this is thought to be due to the involvement of a trainee."
+      }
+    },
+    {
+      "label": "v",
+      "levelOfAgreement": 94,
+      "text": {
+        "en": "Patient becomes medically unstable."
+      }
+    },
+    {
+      "label": "vi",
+      "levelOfAgreement": 95,
+      "text": {
+        "en": "Suspicion of area(s) of SMI within the lesion for EMR, which are deemed not to have been sufficiently/adequately interrogated prior to the EMR or by the trainee, and/or where a precise en bloc resection is required that may not be achievable by the trainee."
+      }
+    },
+    {
+      "label": "vii",
+      "levelOfAgreement": 94,
+      "text": {
+        "en": "Unstable colonoscope position, with the trainee not able to maintain the optimal position on the lesion for snare placement (5–6 o’clock) despite input from the trainer."
+      }
+    },
+    {
+      "label": "viii",
+      "levelOfAgreement": 93,
+      "text": {
+        "en": "Trainee unable to obtain adequate submucosal lift."
+      }
+    },
+    {
+      "label": "ix",
+      "levelOfAgreement": 94,
+      "text": {
+        "en": "Trainee repeatedly cold snares the target lesion or resections lead only to superficial scraping of polyp tissue and incomplete excision of the mucosal layer."
+      }
+    },
+    {
+      "label": "x",
+      "levelOfAgreement": 94,
+      "text": {
+        "en": "Severe intraprocedural bleeding if the trainee is not competent/able to address this."
+      }
+    },
+    {
+      "label": "xi",
+      "levelOfAgreement": 95,
+      "text": {
+        "en": "Perforation if the trainee is not competent/able to address this."
+      }
+    },
+    {
+      "label": "xii",
+      "levelOfAgreement": 92,
+      "text": {
+        "en": "Trainee requests that the supervisor takes over the procedure."
+      }
+    },
+    {
+      "label": "xiii",
+      "levelOfAgreement": 96,
+      "text": {
+        "en": "Time constraints – when the endoscopy procedure, program, or unit is running significantly behind schedule, and the training episode is likely to be contributing to this."
+      }
+    }
+  ]
 }

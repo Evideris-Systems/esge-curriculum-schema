@@ -17,7 +17,7 @@
     "en": "Interpretation of pathology reports"
   },
   "statement": {
-    "en": "TS EGSE recommends that the features of the pathologic report concerning the specimen retrieved after EMR that are detailed in the following list be fully interpretable by a competent EMR practitioner."
+    "en": "ESGE recommends that the features of the pathologic report concerning the specimen retrieved after EMR that are detailed in the following list be fully interpretable by a competent EMR practitioner."
   },
   "grade": {
     "strength": "strong",
@@ -39,30 +39,23 @@
       "type": "verbatim",
       "source_doi": "10.1055/a-2077-0497"
     },
-    "encodedBy": "human:david",
-    "encodedAt": "2026-06-28",
-    "fieldProvenance": {
-      "subItems": {
-        "type": "verbatim",
-        "source_doi": "10.1055/a-2077-0497",
-        "source_span": "Hand-extracted from source PDF after careful cross-rec attribution; PDF column flow had scattered these sub-items across the narrative subsection containing R7."
-      }
-    }
+    "encodedBy": "other:codex-publisher-dom-import",
+    "encodedAt": "2026-08-09"
   },
   "subItems": [
     {
       "label": "i",
+      "levelOfAgreement": 97,
       "text": {
-        "en": "General histologic category of the lesion: carcinoma, adenoma \u2013 tubular or tubulovillous, villous adenoma, traditional serrated adenoma, sessile serrated lesion (SSL), hyperplastic polyp."
-      },
-      "levelOfAgreement": 97
+        "en": "General histologic category of the lesion: carcinoma, adenoma – tubular or tubulovillous, villous adenoma, traditional serrated adenoma, sessile serrated lesion (SSL), hyperplastic polyp."
+      }
     },
     {
       "label": "ii",
-      "text": {
-        "en": "Degree of cytologic dysplasia \u2013 no, low grade or high grade (WHO/Vienna classification)."
-      },
       "levelOfAgreement": 96,
+      "text": {
+        "en": "Degree of cytologic dysplasia – no, low grade or high grade (WHO [62]/ Vienna classification [63])."
+      },
       "references": [
         "ref-62",
         "ref-63"
@@ -70,41 +63,41 @@
     },
     {
       "label": "iii",
+      "levelOfAgreement": 96,
       "text": {
         "en": "Horizontal and deep margin free of polyp (completeness of excision [relevant only for en bloc resection])."
-      },
-      "levelOfAgreement": 96
+      }
     },
     {
       "label": "iv",
-      "text": {
-        "en": "Understand that neither \"carcinoma in situ\" nor \"intramucosal cancer\" stated in pathology reporting are indications for earlier follow-up or surgery, both being comparable to high grade dysplasia. Both terms should be interpreted as high grade dysplasia and managed endoscopically."
-      },
       "levelOfAgreement": 93,
+      "text": {
+        "en": "Understand that neither “carcinoma in situ” nor “intramucosal cancer” [63] stated in pathology reporting are indications for earlier follow-up or surgery, both being comparable to high grade dysplasia. Both terms should be interpreted as high grade dysplasia and managed endoscopically."
+      },
       "references": [
         "ref-63"
       ]
     },
     {
       "label": "v",
+      "levelOfAgreement": 94,
       "text": {
         "en": "Completeness of piecemeal EMR is a judgement made endoscopically at the time of the index procedure in conjunction with the results of histopathology. It is confirmed at surveillance procedures via the endoscopic and/or histologic assessment of the resection scar."
-      },
-      "levelOfAgreement": 94
+      }
     },
     {
       "label": "vi",
+      "levelOfAgreement": 94,
       "text": {
         "en": "Differentiation of submucosal invasive cancer (SMIC): well, moderately, or poorly differentiated."
-      },
-      "levelOfAgreement": 94
+      }
     },
     {
       "label": "vii",
-      "text": {
-        "en": "Depth of invasion from the muscularis mucosae (< 1000 \u00b5m vs. \u22651000 \u00b5m; sessile polyp)."
-      },
       "levelOfAgreement": 90,
+      "text": {
+        "en": "Depth of invasion from the muscularis mucosae (<1000 µm vs. ≥1000 µm; sessile polyp) [64] [65]."
+      },
       "references": [
         "ref-64",
         "ref-65"
@@ -112,10 +105,10 @@
     },
     {
       "label": "viii",
-      "text": {
-        "en": "Presence of lymphovascular invasion."
-      },
       "levelOfAgreement": 94,
+      "text": {
+        "en": "Presence of lymphovascular invasion [59] [60] [61]."
+      },
       "references": [
         "ref-59",
         "ref-60",
@@ -124,10 +117,10 @@
     },
     {
       "label": "ix",
-      "text": {
-        "en": "Presence of tumor budding."
-      },
       "levelOfAgreement": 94,
+      "text": {
+        "en": "Presence of tumor budding [66] [67]."
+      },
       "references": [
         "ref-66",
         "ref-67"

@@ -33,74 +33,74 @@
       "type": "verbatim",
       "source_doi": "10.1055/a-2077-0497"
     },
-    "encodedBy": "human:david",
-    "encodedAt": "2026-06-28",
-    "fieldProvenance": {
-      "subItems": {
-        "type": "verbatim",
-        "source_doi": "10.1055/a-2077-0497",
-        "source_span": "Hand-extracted from source PDF after careful cross-rec attribution; PDF column flow had scattered these sub-items across the narrative subsection containing R16."
-      }
-    }
+    "encodedBy": "other:codex-publisher-dom-import",
+    "encodedAt": "2026-08-09"
   },
   "subItems": [
     {
       "label": "i",
+      "levelOfAgreement": 86,
       "text": {
-        "en": "Use injection to improve lesion access and visualization (Fig. 2, image B2)."
-      },
-      "levelOfAgreement": 86
+        "en": "Use injection to improve lesion access and visualization ([Fig. 2], image B2)."
+      }
     },
     {
       "label": "ii",
+      "levelOfAgreement": 88,
       "text": {
         "en": "Ensure air is expelled from the injection catheter prior to first injection (priming)."
-      },
-      "levelOfAgreement": 88
+      }
     },
     {
       "label": "iii",
-      "text": {
-        "en": "Injection through clearly benign lesions is acceptable if necessary. Caution should be exercised when attempting injection through LNPCPs suspected of containing SMIC because of the risk of malignant seeding."
-      },
       "levelOfAgreement": 88,
+      "text": {
+        "en": "Injection through clearly benign lesions is acceptable if necessary. Caution should be exercised when attempting injection through LNPCPs suspected of containing SMIC because of the risk of malignant seeding [111]."
+      },
       "references": [
         "ref-111"
       ]
     },
     {
       "label": "iv",
-      "text": {
-        "en": "Injection should be performed dynamically. The injection is started (short stab, tangential to the mucosa) as the tissue is being punctured and then the catheter is pulled back and lifted up/away in the desired direction."
-      },
       "levelOfAgreement": 87,
+      "text": {
+        "en": "Injection should be performed dynamically. The injection is started (short stab, tangential to the mucosa) as the tissue is being punctured and then the catheter is pulled back and lifted up/away in the desired direction [112]."
+      },
       "references": [
         "ref-112"
       ]
     },
     {
       "label": "v",
-      "text": {
-        "en": "Avoid intramucosal blebs (Fig. 2, image B4). If these occur, puncture them and re-attempt submucosal injection."
-      },
       "levelOfAgreement": 87,
+      "text": {
+        "en": "Avoid intramucosal blebs ([Fig. 2], image B4). If these occur, puncture them and re-attempt submucosal injection [113]."
+      },
       "references": [
         "ref-113"
       ]
     },
     {
       "label": "vi",
+      "levelOfAgreement": 88,
       "text": {
         "en": "Stop the injection if no lifting is noted (likely transmural/intraperitoneal injection)."
-      },
-      "levelOfAgreement": 88
+      }
     },
     {
       "label": "vii",
+      "levelOfAgreement": 86,
       "text": {
-        "en": "Obtain an appropriate and sustained lifting of the lesion (Fig. 2, image B2)."
-      },
-      "levelOfAgreement": 86
+        "en": "Obtain an appropriate and sustained lifting of the lesion ([Fig. 2], image B2)."
+      }
+    },
+    {
+      "label": "viii",
+      "levelOfAgreement": 85,
+      "text": {
+        "en": "Do not over-lift, especially in narrow segments (e. g. sigmoid colon) or at flexures."
+      }
     }
   ]
 }

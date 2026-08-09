@@ -13,13 +13,13 @@
   "withinCurriculum": "cur-emr-colon-2023",
   "number": 2,
   "caption": {
-    "en": "Fig. 2 Example images illustrating best practice techniques (with B3,4 and C3,4 , poor practice examples) in endoscopic mucosal resection for: A global competencies; B injection technique; C snare placement technique; D defect assessment technique; showing: A1,2 full appreciation/demonstration of the extent of the polyp to be resected; A3 best positioning with respect to the polyp (at 6 o\u2019clock, close to the colonoscope); A4 selection of the appropriate technique for the polyp to be resected (e. g. correct decision for en bloc cold snare polypectomy in this example); A5 tip control (controlled stable and purposeful, resulting in uniform application of snare-tip soft coagulation); B1,2 injection performed in the correct plane, facilitating access to the lesion; B3 transmural non-dynamic injection (poor practice); B4 non-lifting, with repeated and failed submucosal injection resulting in intramucosal blebs (poor practice); C1 the snare oriented near to 6 o\u2019clock, visualization of the snare V during closure, with the snare near to the colonoscope; C2 use of the transected tissue edge as a guide (within the defect), and visualization of the snare V during closure, with the snare close to the colonoscope; C3 the snare positioned far from the colonoscope, with too much snare extended from the sheath and no margin of normal tissue (poor practice); C4 poor tissue capture and too far from the colonoscope (likely to result in scraping of polyp tissue and incomplete mucosal layer excision; poor practice); D1 complete margin ablation, following systematic application with entire margin ablation achieved; D2,4 incomplete mucosal layer excision with evidence of residual polyp tissue on islands of muscularis mucosae; D3 residual polyp tissue at the resection margin; D5 evidence of deep mural injury (DMI) type I, with residual polyp tissue at the defect edge, and failed submucosal injection resulting in an intramucosal bleb; D6 intraprocedural bleeding; D7 DMI type I; D8 DMI type III associated with an area of fibrosis; D9 DMI type IV; D10 complete closure of a post-endoscopic mucosal resection (EMR) mucosal defect to prevent post-EMR bleeding."
+    "en": "Fig. 2 Example images illustrating best practice techniques (with B3,4 and C3,4 , poor practice examples) in endoscopic mucosal resection for: A global competencies; B injection technique; C snare placement technique; D defect assessment technique; showing: A1,2 full appreciation/demonstration of the extent of the polyp to be resected; A3 best positioning with respect to the polyp (at 6 o’clock, close to the colonoscope); A4 selection of the appropriate technique for the polyp to be resected (e. g. correct decision for en bloc cold snare polypectomy in this example); A5 tip control (controlled stable and purposeful, resulting in uniform application of snare-tip soft coagulation); B1,2 injection performed in the correct plane, facilitating access to the lesion; B3 transmural non-dynamic injection (poor practice); B4 non-lifting, with repeated and failed submucosal injection resulting in intramucosal blebs (poor practice); C1 the snare oriented near to 6 o’clock, visualization of the snare V during closure, with the snare near to the colonoscope; C2 use of the transected tissue edge as a guide (within the defect), and visualization of the snare V during closure, with the snare close to the colonoscope; C3 the snare positioned far from the colonoscope, with too much snare extended from the sheath and no margin of normal tissue (poor practice); C4 poor tissue capture and too far from the colonoscope (likely to result in scraping of polyp tissue and incomplete mucosal layer excision; poor practice); D1 complete margin ablation, following systematic application with entire margin ablation achieved; D2,4 incomplete mucosal layer excision with evidence of residual polyp tissue on islands of muscularis mucosae; D3 residual polyp tissue at the resection margin; D5 evidence of deep mural injury (DMI) type I, with residual polyp tissue at the defect edge, and failed submucosal injection resulting in an intramucosal bleb; D6 intraprocedural bleeding; D7 DMI type I; D8 DMI type III associated with an area of fibrosis; D9 DMI type IV; D10 complete closure of a post-endoscopic mucosal resection (EMR) mucosal defect to prevent post-EMR bleeding."
   },
   "panels": [
     {
       "label": "a3",
       "description": {
-        "en": "best positioning with respect to the polyp (at 6 o\u2019clock, close to the colonoscope)"
+        "en": "best positioning with respect to the polyp (at 6 o’clock, close to the colonoscope)"
       }
     },
     {
@@ -55,7 +55,7 @@
     {
       "label": "c1",
       "description": {
-        "en": "the snare oriented near to 6 o\u2019clock, visualization of the snare V during closure, with the snare near to the colonoscope"
+        "en": "the snare oriented near to 6 o’clock, visualization of the snare V during closure, with the snare near to the colonoscope"
       }
     },
     {
@@ -142,5 +142,12 @@
     },
     "encodedBy": "human:david",
     "encodedAt": "2026-07-04"
+  },
+  "asset": {
+    "path": "esge/figure/emr-colon/assets/fig-2.png",
+    "mediaType": "image/png",
+    "sha256": "a3c3261f2d89d33f70cb95e2574f353bef9eae7246f74b73df6b400cf237645b",
+    "width": 1240,
+    "height": 1105
   }
 }

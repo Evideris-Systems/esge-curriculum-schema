@@ -4,6 +4,20 @@
   "title": "Table (source-canonical)",
   "description": "A data / reference table from an ESGE Position Statement — clinical decision tables, side-by-side comparisons, scoring rubrics, etc. Distinct from `cat` (which is an assessment instrument with score-per-item semantics) and from `qi` (which is a single indicator with target thresholds). Stored as structured rows so the reader can display it as a proper HTML table.",
   "type": "object",
+  "$defs": {
+    "cell": {
+      "type": "object",
+      "description": "Multilingual table cell. Unlike narrative strings, a cell may be intentionally empty where the source uses row/column spans.",
+      "required": ["en"],
+      "properties": {
+        "en": { "type": "string" }
+      },
+      "patternProperties": {
+        "^[a-z]{2}(-[A-Z]{2})?$": { "type": "string" }
+      },
+      "additionalProperties": false
+    }
+  },
   "required": ["$id", "lineageId", "type", "version", "release", "language", "withinCurriculum", "number", "title", "columns", "rows", "_meta"],
   "properties": {
     "$schema": { "type": "string", "format": "uri" },
@@ -45,11 +59,21 @@
         "properties": {
           "cells": {
             "type": "array",
-            "items": { "$ref": "_common.schema.json#/$defs/localeKeyedString" }
+            "items": { "$ref": "#/$defs/cell" }
           },
           "isGroupHeader": {
             "type": "boolean",
             "description": "True when this row is a spanning sub-heading (e.g. 'Adverse events' before a group of QIs). Renderer emits a full-width `<th>` row instead of `<td>`s."
+          },
+          "rowSpans": {
+            "type": "array",
+            "description": "Source rowspan for each physical cell, preserving the publisher table layout.",
+            "items": { "type": "integer", "minimum": 1 }
+          },
+          "colSpans": {
+            "type": "array",
+            "description": "Source colspan for each physical cell, preserving the publisher table layout.",
+            "items": { "type": "integer", "minimum": 1 }
           }
         },
         "additionalProperties": false

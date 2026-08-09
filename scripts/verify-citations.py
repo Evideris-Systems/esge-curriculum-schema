@@ -79,9 +79,9 @@ def resolve_doi(doi: str) -> dict | None:
         return None
 
 
-def verify_citation(ref_id: str, citation: str) -> list[str]:
+def verify_citation(ref_id: str, citation: str, doi_override: str | None = None) -> list[str]:
     errs: list[str] = []
-    doi = extract_doi(citation)
+    doi = doi_override or extract_doi(citation)
     pmid_m = PMID_HINT_RE.search(citation)
     if not doi and not pmid_m:
         return [f"{ref_id}: no DOI or PMID in citation string — citation must include one"]
@@ -139,7 +139,7 @@ def verify_file(path: Path) -> list[str]:
             continue
         rid = ref.get("id", "?")
         citation = ref.get("citation", "")
-        errs.extend(f"{path}: {e}" for e in verify_citation(rid, citation))
+        errs.extend(f"{path}: {e}" for e in verify_citation(rid, citation, ref.get("doi")))
     return errs
 
 

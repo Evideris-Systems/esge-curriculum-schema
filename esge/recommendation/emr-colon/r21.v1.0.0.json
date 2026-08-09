@@ -20,86 +20,107 @@
     "en": "ESGE recommends the safety checks detailed below be made prior to the application of electrosurgical energy during hot snare EMR."
   },
   "grade": {
-    "strength": "strong",
-    "evidenceQuality": "low",
-    "levelOfAgreement": 90
-  },
-  "subItems": [
-    {
-      "label": "i",
-      "text": {
-        "en": "The technique for STSC of the post-EMR margin is as follows: \u25aaextend the tip of the snare 2\u20133 mm beyond the catheter sheath \u25aause the scope and the snare tip as one device, do not move the catheter in and out of the channel \u25aaapply pulses of soft coagulation using a light-touch technique to the margin of the defect, ideally over injected tissue \u25aaaim for a rim of 2\u20133 mm of ablated tissue at the margin \u25aaensure that the margin is ablated around the full circumference without gaps. Confirmation of the technique is visual identification of the white appearance of the mucosa after application (\u25b6Fig. 2, image A5)."
-      },
-      "levelOfAgreement": 96
-    },
-    {
-      "label": "ii",
-      "text": {
-        "en": "If performing en bloc resection, the snare can be used to retrieve the resected polyp tissue."
-      },
-      "levelOfAgreement": 88
-    },
-    {
-      "label": "iii",
-      "text": {
-        "en": "(If using a snare) care should be taken to ensure the snare does not cut through the lesion and that the scope is used to protect the specimen at retrieval through the anus by pulling the specimen up against the scope tip."
-      },
-      "levelOfAgreement": 86
-    },
-    {
-      "label": "iv",
-      "text": {
-        "en": "Suction of transected tissue through the endoscope channel for retrieval may interfere with histologic interpretation."
-      },
-      "levelOfAgreement": 84
-    },
-    {
-      "label": "v",
-      "text": {
-        "en": "The retrieval device should be positioned at 6 o\u2019clock (when using a colonoscope)."
-      },
-      "levelOfAgreement": 89
-    },
-    {
-      "label": "vi",
-      "text": {
-        "en": "Pieces should be captured using a sequential place, close, compact, and open approach."
-      },
-      "levelOfAgreement": 92
-    },
-    {
-      "label": "vii",
-      "text": {
-        "en": "All pieces should be captured."
-      },
-      "levelOfAgreement": 94
-    }
-  ],
-  "commentary": {
-    "en": "Evidence from several randomized studies suggests that thermal ablation of the defect margin after EMR significantly reduces recurrence at first surveillance colonoscopy, by approximately 4-fold in expert hands . Prospective observational studies and meta-analyses have confirmed this finding."
+    "strength": "moderately-strong",
+    "evidenceQuality": "low"
   },
   "references": [
-    "ref-9",
-    "ref-12",
-    "ref-37",
-    "ref-38",
-    "ref-57",
-    "ref-102",
-    "ref-103",
-    "ref-123",
-    "ref-124",
-    "ref-125",
-    "ref-126"
+    "ref-121"
   ],
   "_meta": {
     "provenance": {
       "type": "verbatim",
       "source_doi": "10.1055/a-2077-0497"
     },
-    "encodedBy": "human:david",
-    "encodedAt": "2026-06-28"
+    "encodedBy": "other:codex-publisher-dom-import",
+    "encodedAt": "2026-08-09"
   },
-  "figureRefs": [
-    "fig-emr-colon-2"
+  "subItems": [
+    {
+      "label": "i",
+      "levelOfAgreement": 94,
+      "text": {
+        "en": "Use a modern microprocessor controlled electrosurgical unit capable of delivering a range of currents, including fractionated current [121]."
+      },
+      "references": [
+        "ref-121"
+      ]
+    },
+    {
+      "label": "ii",
+      "levelOfAgreement": 93,
+      "text": {
+        "en": "Ensure the correct settings are used on the electrosurgical unit. It is particularly important to recheck during longer procedures, especially after each instrument change or change in patient position."
+      }
+    },
+    {
+      "label": "iii",
+      "levelOfAgreement": 93,
+      "text": {
+        "en": "For monopolar devices, ensure that the patient has an electrosurgical plate on and that the generator is ready to deliver thermal energy."
+      }
+    },
+    {
+      "label": "iv",
+      "levelOfAgreement": 93,
+      "text": {
+        "en": "Ensure a stable colonoscope position: if necessary an assistant should support the scope shaft."
+      }
+    },
+    {
+      "label": "v",
+      "levelOfAgreement": 94,
+      "text": {
+        "en": "Ensure hemostatic options are available immediately afterwards if required (e. g. clips and hemostatic forceps)."
+      }
+    },
+    {
+      "label": "vi",
+      "levelOfAgreement": 91,
+      "text": {
+        "en": "The lumen should subsequently be inflated to visualize the captured tissue and snare placement."
+      }
+    },
+    {
+      "label": "vii",
+      "levelOfAgreement": 90,
+      "text": {
+        "en": "The endoscopist should perform a mobility check of the captured tissue to ensure that the muscularis propria is not entrapped."
+      }
+    },
+    {
+      "label": "viii",
+      "levelOfAgreement": 90,
+      "text": {
+        "en": "(If the endoscopist is handling the snare) the endoscopist uses tactile feedback to assess the amount of tissue captured and revises if necessary."
+      }
+    },
+    {
+      "label": "ix",
+      "levelOfAgreement": 83,
+      "text": {
+        "en": "(If the assistant is handling the snare) ensure the assistant knows the sequence of commands on application of electrosurgical energy (e. g. close snare in a controlled manner to the mark)."
+      }
+    },
+    {
+      "label": "x",
+      "levelOfAgreement": 96,
+      "text": {
+        "en": "Tent the tissue for resection away from the deeper structures. Apply electrosurgical energy allowing the energy delivered through the snare to transect the tissue rather than using hand pressure to avoid cold snare resection. The snare handle should not snap closed."
+      }
+    },
+    {
+      "label": "xi",
+      "levelOfAgreement": 93,
+      "text": {
+        "en": "During the application of fractionated current, beware if the tissue is not transected within three cycles. Stop further electrosurgical energy application and assess the situation."
+      }
+    },
+    {
+      "label": "xii",
+      "levelOfAgreement": 94,
+      "text": {
+        "en": "Stop the application of electrosurgical energy as soon as the tissue is transected."
+      }
+    }
   ]
 }

@@ -129,15 +129,56 @@ def check_curriculum(slug: str, expected: dict) -> list[str]:
         if qi_count != expected["qis"]:
             errs.append(f"QIs: expected {expected['qis']}, got {qi_count}")
 
-    # Cross-check main-statement count via curriculum wrapper
+    # Cross-check curriculum-wrapper counts that were historically parsed from
+    # expected.yaml but accidentally ignored by this gate.
     cur_dir = ROOT / "esge/curriculum" / slug
-    if cur_dir.exists() and "mainStatements" in expected:
+    if cur_dir.exists():
         cur_file = next((p for p in cur_dir.glob("v*.json") if "references" not in p.name), None)
-        if cur_file:
-            d = json.loads(cur_file.read_text())
+        d = json.loads(cur_file.read_text()) if cur_file else None
+        if d and "mainStatements" in expected:
             n_main = len(d.get("mainStatements") or [])
             if n_main != expected["mainStatements"]:
                 errs.append(f"mainStatements: expected {expected['mainStatements']}, got {n_main}")
+        if d and "sections" in expected:
+            n_sections = len(d.get("sections") or [])
+            if n_sections != expected["sections"]:
+                errs.append(f"sections: expected {expected['sections']}, got {n_sections}")
+
+        if "references" in expected:
+            reference_files = list(cur_dir.glob("references.v*.json"))
+            if len(reference_files) != 1:
+                errs.append(
+                    f"references: expected one bibliography artifact, got {len(reference_files)}"
+                )
+            else:
+                reference_document = json.loads(reference_files[0].read_text())
+                n_references = len(reference_document.get("references") or [])
+                if n_references != expected["references"]:
+                    errs.append(
+                        f"references: expected {expected['references']}, got {n_references}"
+                    )
+
+        if "gpatItems" in expected:
+            curriculum_lineage = expected.get("forCurriculum") or (d or {}).get("lineageId")
+            item_count = 0
+            for cat_path in (ROOT / "esge/cat").glob("*.v*.json"):
+                cat = json.loads(cat_path.read_text())
+                if cat.get("introducedIn") == curriculum_lineage:
+                    item_count += len(cat.get("items") or [])
+            if item_count != expected["gpatItems"]:
+                errs.append(f"assessment-tool items: expected {expected['gpatItems']}, got {item_count}")
+
+        for artifact_name, directory_name in (("figures", "figure"), ("tables", "table")):
+            if artifact_name not in expected:
+                continue
+            artifact_dir = ROOT / "esge" / directory_name / slug
+            artifact_count = (
+                len(list(artifact_dir.glob("*.v*.json"))) if artifact_dir.exists() else 0
+            )
+            if artifact_count != expected[artifact_name]:
+                errs.append(
+                    f"{artifact_name}: expected {expected[artifact_name]}, got {artifact_count}"
+                )
 
     return errs
 
