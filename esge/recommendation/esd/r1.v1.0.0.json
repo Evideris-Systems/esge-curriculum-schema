@@ -20,23 +20,36 @@
     "en": "Advanced endoscopy diagnostic practice is advised before initiating ESD training."
   },
   "levelOfAgreement": 95,
-  "references": [],
+  "references": [
+    "ref-6",
+    "ref-7",
+    "ref-8",
+    "ref-9",
+    "ref-10",
+    "ref-11",
+    "ref-12",
+    "ref-13",
+    "ref-14",
+    "ref-15",
+    "ref-16",
+    "ref-17",
+    "ref-18",
+    "ref-19",
+    "ref-20",
+    "ref-21"
+  ],
   "_meta": {
     "provenance": {
       "type": "verbatim",
       "source_doi": "10.1055/a-0996-0912"
     },
-    "encodedBy": "human:david",
-    "encodedAt": "2026-07-01",
-    "fieldProvenance": {
-      "commentary": {
-        "type": "verbatim",
-        "source_doi": "10.1055/a-0996-0912",
-        "source_span": "Paragraph(s) of prose in the source body immediately preceding the RECOMMENDATION block; shared with adjacent back-to-back RECOMMENDATIONs where the source clusters them without intervening prose. PDF hyphenation healed, running footers and page markers stripped."
-      }
-    }
+    "encodedBy": "other:codex-publisher-dom-import",
+    "encodedAt": "2026-08-09"
   },
   "commentary": {
-    "en": "As ESD is a precise and challenging procedure, operators should have knowledge of therapeutic endoscopy and particularly of resection of superficial digestive neoplasia (i. e. using EMR) [22]. An objective indicator to consider starting ESD training is to have performed at least 1000 upper GI endoscopies, because it has been shown that trainees with that number of endoscopies can efficiently acquire gastric ESD skills [24]. For colorectal ESD, a minimum of 500 colonoscopies appears to be required before considering training [25]. ESD trainees must acquire proper handling and control of the endoscope with all left-handed angulations of the scope, and rotation of the shaft using the left wrist and arm. Right-handed controls of insertion/retraction of the scope may support rotation of the shaft, even in diagnostic procedures [26]. Overall, management of adverse events is also required before starting to perform the ESD technique, with experience at least in hemostatic techniques for active bleeding and closure techniques for perforations using clips, over-the-scope clips (OTSCs), endoscopic suturing, and stent placement (for esophageal perforations). Expertise in hemostasis is strongly advised"
-  }
+    "en": "As recommended in the ESGE guidelines of 2015 [6], lesion assessment by an experienced endoscopist using advanced diagnostic techniques (virtual or dye-based chromoendoscopy with or without magnification) is an essential prerequisite to ESD resections. In fact, ESD with curative intent is only justified in the various ESGE guidelines when lesions are clearly neoplastic and do not show features of deep invasion [6] [7] [8]. So, mastering classifications like Paris [9], Inoue’s intrapapillary capillary loop (IPCL) [10] [11], and Sano’s [12] for esophageal lesions; simplified narrow-band imaging (NBI) [13] [14], vessel plus surface [15] [16], and depth-predicting scores for superficial gastric lesions [17]; and Kudo’s [18], the narrow-band imaging international colorectal endoscopic (NICE) [19], and/or Japan NBI Expert Team (JNET) [20] [21] for colonic lesions is pivotal in decision-making when determining the appropriate lesions for which ESD is indicated and to correctly define the margins of the lesions. The endoscopic reports of ESD trainees on any gastrointestinal (GI) neoplasia must contain: the macroscopic type and characteristics; the microvascular and microsurface structure; the endoscopic diagnosis of predicted tumor category; and the indication for recommended resection technique. Therefore, advanced endoscopic diagnostic skills are required and should be mastered before the performance of any ESD procedure."
+  },
+  "commentaryForRecommendations": [
+    1
+  ]
 }

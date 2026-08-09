@@ -19,13 +19,13 @@
     {
       "label": "a",
       "description": {
-        "en": "Clip and mucosal incision not on the same axis; clip needs anticlockwise rotation by angle \u03b8 to align."
+        "en": "The clip (short-dashed line) and mucosal incision (long-dashed line) are not in the same axis, with the clip needing to be rotated anticlockwise by angle \u03b8 to achieve optimal closure."
       }
     },
     {
       "label": "b",
       "description": {
-        "en": "Clip and defect on the same axis after repositioning; hilt of the clip is centered on the incision line."
+        "en": "The clip and the defect are in the same axis after repositioning of the clip (dash-dotted line) and the hilt of the clip is centered on the incision line."
       }
     },
     {

@@ -20,23 +20,40 @@
     "en": "ESGE recommends that at least the first 10 procedures in humans should be done under the supervision of an ESD-proficient endoscopist."
   },
   "levelOfAgreement": 91,
-  "references": [],
+  "references": [
+    "ref-22",
+    "ref-26",
+    "ref-28",
+    "ref-29",
+    "ref-31",
+    "ref-37",
+    "ref-46",
+    "ref-47",
+    "ref-48",
+    "ref-49",
+    "ref-50",
+    "ref-51",
+    "ref-52",
+    "ref-53",
+    "ref-54",
+    "ref-55",
+    "ref-56",
+    "ref-57",
+    "ref-58"
+  ],
   "_meta": {
     "provenance": {
       "type": "verbatim",
       "source_doi": "10.1055/a-0996-0912"
     },
-    "encodedBy": "human:david",
-    "encodedAt": "2026-07-01",
-    "fieldProvenance": {
-      "commentary": {
-        "type": "verbatim",
-        "source_doi": "10.1055/a-0996-0912",
-        "source_span": "Paragraph(s) of prose in the source body immediately preceding the RECOMMENDATION block; shared with adjacent back-to-back RECOMMENDATIONs where the source clusters them without intervening prose. PDF hyphenation healed, running footers and page markers stripped."
-      }
-    }
+    "encodedBy": "other:codex-publisher-dom-import",
+    "encodedAt": "2026-08-09"
   },
   "commentary": {
-    "en": "Furthermore, particularly in low volume centers, in order to avoid spaced training, mixing practice on animal models with the first human procedures is a good option to maintain regular and frequent ESD practice and to achieve high quality results for R0 resection and perforation rates [58]. In fact, a step-up training protocol over a 12-month period of 50 observational and supervised ESD procedures, as well as 24 animal procedures, showed excellent results, particularly in the rectum and stomach, with more than 90 % of procedures achieving R0 resections [53]. A logbook and a preclinical database suggested by ESGE for ESD training are available for trainees on the ESGE website (https://www.esge.com/esd-training-curriculum/). ESD is a complex and technically demanding procedure. Accordingly, in order to perform safe and effective treatment, while avoiding serious complications, endoscopists should have a full understanding of not only the technique but also the different instruments and the electrosurgical unit (ESU) that are needed to perform a safe ESD [59, 60]. We recommend that endoscopists should have extensive knowledge of all the devices that can be used for ESD, such as knives, injection agents, caps and hoods, and hemostatic and traction devices, as this information can be important in more difficult and com"
-  }
+    "en": "In Japan, experts recommend training in ESD on small lesions (≤20 mm) of the antrum without ulceration or scarring [22], as these lesions are associated with the lowest risk of non-curative resection [46]. Lesions of the mid and upper third of the stomach are far more difficult for beginners to complete ESD [28] [31] [47]. Nevertheless, this recommendation must be adapted to the incidence of each lesion in different parts of the world.\n\nIn any scenario, it seems that ESD should be learnt on easy cases before colonic ESD is undertaken. In Hong Kong, despite a previous animal training program, initial experience with colorectal ESD without any previous gastric procedures was dangerous and poorly effective with rates of 32.2% for R0 resection in the initial experience and 15.5% for perforations [26]. Results reported by Shiga et al. are less negative but the initial rate of perforation was still 10% in one study [28] and 12.5% for another study from the same group [48]. In contrast, endoscopists experienced in gastric ESD produce effective and safe outcomes during the learning curve in colorectal ESD, with an R0 resection rate of more than 90% [37] [49].\n\nA Japanese study showed the relative safety of rectal ESD for beginners who had experience of only five gastric ESD procedures [28]. Shiga et al. showed that choosing small lesions in the rectum was safer to gain experience than choosing colonic lesions. Furthermore, as demonstrated by Iacopini et al. [29], for initial experience in colorectal ESD, the rectum should be preferred rather than the colon to allow a progressive stepwise approach with fewer risks. Rectal location was a predictive factor for success during the learning phase of ESD for trainees without gastric ESD experience [50]. Progressive implementation from the rectum to more difficult parts of the colon is safe and effective, with a perforation rate of only 5.7% [51]. Because of the gap in difficulty between rectal and colonic ESD, it seems reasonable to suggest a progressive move from small lesions of the rectum to the ascending colon and then to the transverse or sigmoid colon, and finally to the cecum where the risk of perforation is the highest [52] [53] [54]. Nevertheless, some rectal lesions with big nodular areas or with a history of scarring can be associated with fibrosis and bleeding, making the procedure very difficult. This phenomenon is relatively rare for small lesions. Therefore, after animal training, it appears better to continue with initial human training in safe (rectum) or easy locations (antrum) before starting to undertake procedures in technically difficult locations (colon) or in locations where perforations are highly morbid (esophagus).\n\nAntral lesions of 20 – 30 mm are rare in some European countries and should be reserved for beginners but, to train in a relatively short period of time, we also have to consider different locations. Several arguments (incidence, maneuverability, low morbidity of rectal perforations) encourage training in the middle rectum (at least a few cm above the anus). According to ESGE guidelines, ESD in the colorectum can be considered instead of EMR for selected lesions larger than 20 mm. Therefore, choosing rectal lesions slightly larger than 20 mm (<30 mm) would probably be a good option [55]. The avoidance of cases with technical difficulty (scarring, incomplete resections, ulcerative colitis, fibrosis) is also advised [22].\n\nThe number of ESDs required for endoscopists to become competent in the technique is not precisely defined. For gastric ESD, 30 procedures was defined as the number necessary to gain proficiency [56]. However, others have suggested that 50 – 100 gastric ESD procedures would be needed for expertise [22]. For colorectal ESD, approximately 30 and 80 procedures are needed to achieve competent and proficient levels of ESD, respectively [57]. In a recent European study, 120 colorectal ESD procedures were needed to reach a plateau of high effectiveness and low morbidity [54]. However, achieving such a high number of procedures does not appear realistic in Europe. The role of supervision has to be re-emphasized and the expert should be present in the necessary procedures for the trainee to be competent. ESGE recommends therefore that at least the first 10 human ESD procedures, ideally per organ, should be done under supervision by an ESD-proficient endoscopist.\n\nFurthermore, particularly in low volume centers, in order to avoid spaced training, mixing practice on animal models with the first human procedures is a good option to maintain regular and frequent ESD practice and to achieve high quality results for R0 resection and perforation rates [58]. In fact, a step-up training protocol over a 12-month period of 50 observational and supervised ESD procedures, as well as 24 animal procedures, showed excellent results, particularly in the rectum and stomach, with more than 90% of procedures achieving R0 resections [53].\n\nA logbook and a preclinical database suggested by ESGE for ESD training are available for trainees on the ESGE website (https://www.esge.com/esd-training-curriculum/)."
+  },
+  "commentaryForRecommendations": [
+    9,
+    10
+  ]
 }

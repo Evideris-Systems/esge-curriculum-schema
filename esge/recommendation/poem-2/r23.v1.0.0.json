@@ -14,33 +14,36 @@
   "withinSection": "sec-poem-2-submucosal-tunneling",
   "number": 23,
   "title": {
-    "en": "The following observations are useful to identify the GEJ: (i) the appearance of palisade veins on the mucosal side of the tunnel;"
+    "en": "The following observations are useful to identify the GEJ: (i) the appearance of palisade veins on the mucosal side of the tunnel; (ii) an increased vascularity and presence of “spindle-shaped veins”; (iii) the narrowing of the lumen associated with resistance to endoscope passage, followed by the sudden increase in the submucosal space with the appearance of large perforating vessels (“two penetrating vessels”) and oblique gastric muscle bundles (“sling fibers”); (iv) the observation of a dye-stained bulge upon retroflexion in the gastric cardia; and (v) transillumination by a second endoscope."
   },
   "statement": {
-    "en": "The following observations are useful to identify the GEJ: (i) the appearance of palisade veins on the mucosal side of the tunnel; (ii) an increased vascularity and presence of \u201cspindle-shaped veins\u201d; (iii) the narrowing of the lumen associated with resistance to endoscope passage, followed by the sudden increase in the submucosal space with the appearance of large perforating vessels (\u201ctwo penetrating vessels\u201d) and oblique gastric muscle bundles (\u201csling fibers\u201d); (iv) the observation of a dye-stained bulge upon retroflexion in the gastric cardia; and (v) transillumination by a second endoscope."
+    "en": "The following observations are useful to identify the GEJ: (i) the appearance of palisade veins on the mucosal side of the tunnel; (ii) an increased vascularity and presence of “spindle-shaped veins”; (iii) the narrowing of the lumen associated with resistance to endoscope passage, followed by the sudden increase in the submucosal space with the appearance of large perforating vessels (“two penetrating vessels”) and oblique gastric muscle bundles (“sling fibers”); (iv) the observation of a dye-stained bulge upon retroflexion in the gastric cardia; and (v) transillumination by a second endoscope."
   },
   "grade": {
     "strength": "best-practice",
     "evidenceQuality": "no-evidence-available"
   },
   "levelOfAgreement": 97,
-  "references": [],
+  "references": [
+    "ref-51",
+    "ref-52",
+    "ref-53",
+    "ref-54",
+    "ref-55"
+  ],
   "_meta": {
     "provenance": {
       "type": "verbatim",
       "source_doi": "10.1055/a-2569-7634"
     },
-    "encodedBy": "human:david",
-    "encodedAt": "2026-07-03",
-    "fieldProvenance": {
-      "commentary": {
-        "type": "verbatim",
-        "source_doi": "10.1055/a-2569-7634",
-        "source_span": "Paragraph(s) preceding the N RECOMMENDATION block in body; back-to-back groups share commentary."
-      }
-    }
+    "encodedBy": "other:codex-publisher-dom-import",
+    "encodedAt": "2026-08-09"
   },
   "commentary": {
-    "en": "lation of the large and small wheels and 180\u00b0 scope rotation at the maximum extent of an arch, can help where one side of the tunnel is difficult to access. The use of near-focus technology during tunneling has been shown in one study to reduce intraprocedural bleeding (Table 5 s) [50]. The creation of multiple tunnel planes should be avoided by even dissection, working from one side of the tunnel to the other in a stepwise purposeful fashion within the tunnel, and periodically checking that the correct plane is being maintained. If one side starts to \u201clag\u201d behind the other the lagging side (less dissected) should be prioritized for dissection [39]. The tunnel should be wide enough to allow access, even dissection, and easy passage of the scope, which allows a safe myotomy whilst avoiding mucosal injury. The width of the tunnel should be about one-third of the circumference of the esophagus [49]. The direction of the tunnel should be periodically checked. This can be done by withdrawing the scope from the tunnel and checking the appearance of the chromic dye from the esophageal lumen. Care should be taken not to create a dissection plane in the muscularis propria. This is seen endoscopically as muscle above and below the dissection plane. If it does occur, it is advisable to reinject on the mucosal side of all visible muscle, carefully dissect at this interface, and eventually re-enter the submucosal plane. Mucosal injury is most common whilst tunneling across the GEJ as the tunnel commonly narrows at this point. The following points should be borne in mind to maximize the chances of success. 1. The endoscopist should ensure that the scope is pushed in far enough for the cap to create gentle pressure at the submucosa\u2013muscularis propria interface. 2. Repeated submucosal injections should be used to expand the submucosal space [11]. 3. The continuous insufflation of low flow CO2 may be needed to ensure the mucosa is kept away from the dissection plane. Underwater tunneling can also be considered. 4. The endoscopist should be aware of the dissection plane and avoid creating a plane within the muscularis propria layer.\n\njunction A measurement from the incisors to the GEJ should be made in the esophageal lumen before starting tunneling. Nevertheless, there is not a perfect match between intraluminal and intratunnel measurements. A mathematical formula has been proposed to predict the GEJ through the tunnel, using the measurement of this landmark via the lumen and the maximum esophageal dilation point, assessed by a computed tomography (CT) scan or esophagogram [51]. When inside the tunnel, the appearance of palisade veins on the mucosal side of the tunnel, the narrowing of the lumen associated with resistance on endoscope passage, with an increased vascularity and \u201cspindle-shaped veins,\u201d followed by the sudden increase in the submucosal space with the appearance of large perforating vessels and aberrant gastric muscle bundles indicates the GEJ [52]. The presence of a dye bulge on gastric retroflexion also indicates the GEJ [53]. Additionally, previous injection of indocyanine green in the cardia can help the endoscopist to recognize the GEJ during the tunneling process [54]. When using a posterior submucosal tunnel approach, the oblique muscles and two penetrating vessels, which branch off the left gastric artery, can be seen in the gastric cardia of some patients indicating the potential correct extent of the submucosal tunnel [55] ("
-  }
+    "en": "A measurement from the incisors to the GEJ should be made in the esophageal lumen before starting tunneling. Nevertheless, there is not a perfect match between intraluminal and intratunnel measurements. A mathematical formula has been proposed to predict the GEJ through the tunnel, using the measurement of this landmark via the lumen and the maximum esophageal dilation point, assessed by a computed tomography (CT) scan or esophagogram [51].\n\nWhen inside the tunnel, the appearance of palisade veins on the mucosal side of the tunnel, the narrowing of the lumen associated with resistance on endoscope passage, with an increased vascularity and “spindle-shaped veins,” followed by the sudden increase in the submucosal space with the appearance of large perforating vessels and aberrant gastric muscle bundles indicates the GEJ [52]. The presence of a dye bulge on gastric retroflexion also indicates the GEJ [53]. Additionally, previous injection of indocyanine green in the cardia can help the endoscopist to recognize the GEJ during the tunneling process [54].\n\nWhen using a posterior submucosal tunnel approach, the oblique muscles and two penetrating vessels, which branch off the left gastric artery, can be seen in the gastric cardia of some patients indicating the potential correct extent of the submucosal tunnel [55] ([Fig. 2])."
+  },
+  "commentaryForRecommendations": [
+    22,
+    23
+  ]
 }

@@ -1,0 +1,256 @@
+{
+  "$schema": "https://schema.evideris.com/schemas/table.schema.json",
+  "$id": "https://schema.evideris.com/esge/table/poem-2/table-2.v1.0.0.json",
+  "lineageId": "table-poem-2-2",
+  "type": "table",
+  "version": "1.0.0",
+  "release": "r2026.07",
+  "supersedes": null,
+  "supersededBy": null,
+  "language": [
+    "en"
+  ],
+  "withinCurriculum": "cur-poem-2-2025",
+  "number": "2",
+  "title": {
+    "en": "Table 2 Electrosurgical settings for peroral endoscopic myotomy (POEM)."
+  },
+  "columns": [
+    {
+      "header": {
+        "en": "POEM steps"
+      }
+    },
+    {
+      "header": {
+        "en": "Electrosurgical settings"
+      }
+    }
+  ],
+  "rows": [
+    {
+      "cells": [
+        {
+          "en": "Mucosal incision"
+        },
+        {
+          "en": "Dry cut, 50 W, effect 3"
+        }
+      ],
+      "isGroupHeader": true,
+      "rowSpans": [
+        4,
+        1
+      ],
+      "colSpans": [
+        1,
+        1
+      ]
+    },
+    {
+      "cells": [
+        {
+          "en": "Endocut Q, effect 2, cutting duration 3, cutting interval 3[1]"
+        }
+      ],
+      "isGroupHeader": false,
+      "rowSpans": [
+        1
+      ],
+      "colSpans": [
+        1
+      ]
+    },
+    {
+      "cells": [
+        {
+          "en": "Endocut I, effect 2"
+        }
+      ],
+      "isGroupHeader": false,
+      "rowSpans": [
+        1
+      ],
+      "colSpans": [
+        1
+      ]
+    },
+    {
+      "cells": [
+        {
+          "en": "PulseCut Fast, 120 W, effect 2[2]"
+        }
+      ],
+      "isGroupHeader": false,
+      "rowSpans": [
+        1
+      ],
+      "colSpans": [
+        1
+      ]
+    },
+    {
+      "cells": [
+        {
+          "en": "Submucosal dissection/tunneling"
+        },
+        {
+          "en": "Spray Coagulation, 50 W, effect 2"
+        }
+      ],
+      "isGroupHeader": true,
+      "rowSpans": [
+        4,
+        1
+      ],
+      "colSpans": [
+        1,
+        1
+      ]
+    },
+    {
+      "cells": [
+        {
+          "en": "Spray Coagulation, 40 W, effect 2[2]"
+        }
+      ],
+      "isGroupHeader": false,
+      "rowSpans": [
+        1
+      ],
+      "colSpans": [
+        1
+      ]
+    },
+    {
+      "cells": [
+        {
+          "en": "Swift Coagulation, 35–50 W, effect 3–5"
+        }
+      ],
+      "isGroupHeader": false,
+      "rowSpans": [
+        1
+      ],
+      "colSpans": [
+        1
+      ]
+    },
+    {
+      "cells": [
+        {
+          "en": "Swift Coagulation, 70 W, effect 3–4[1]"
+        }
+      ],
+      "isGroupHeader": false,
+      "rowSpans": [
+        1
+      ],
+      "colSpans": [
+        1
+      ]
+    },
+    {
+      "cells": [
+        {
+          "en": "Myotomy"
+        },
+        {
+          "en": "Spray Coagulation, 50 W, effect 2"
+        }
+      ],
+      "isGroupHeader": true,
+      "rowSpans": [
+        4,
+        1
+      ],
+      "colSpans": [
+        1,
+        1
+      ]
+    },
+    {
+      "cells": [
+        {
+          "en": "Endocut Q, effect 2"
+        }
+      ],
+      "isGroupHeader": false,
+      "rowSpans": [
+        1
+      ],
+      "colSpans": [
+        1
+      ]
+    },
+    {
+      "cells": [
+        {
+          "en": "PulseCut Fast, 120 W, effect 2[2]"
+        }
+      ],
+      "isGroupHeader": false,
+      "rowSpans": [
+        1
+      ],
+      "colSpans": [
+        1
+      ]
+    },
+    {
+      "cells": [
+        {
+          "en": "Swift Coagulation, 70 W, effect 3–4[1]"
+        }
+      ],
+      "isGroupHeader": false,
+      "rowSpans": [
+        1
+      ],
+      "colSpans": [
+        1
+      ]
+    },
+    {
+      "cells": [
+        {
+          "en": "Hemostasis"
+        },
+        {
+          "en": "Soft Coagulation, 80–100 W, effect 5"
+        }
+      ],
+      "isGroupHeader": true,
+      "rowSpans": [
+        2,
+        1
+      ],
+      "colSpans": [
+        1,
+        1
+      ]
+    },
+    {
+      "cells": [
+        {
+          "en": "Soft Coagulation, 50 W, effect 5[2]"
+        }
+      ],
+      "isGroupHeader": false,
+      "rowSpans": [
+        1
+      ],
+      "colSpans": [
+        1
+      ]
+    }
+  ],
+  "_meta": {
+    "provenance": {
+      "type": "verbatim",
+      "source_doi": "10.1055/a-2569-7634"
+    },
+    "encodedBy": "other:codex-publisher-dom-import",
+    "encodedAt": "2026-08-09"
+  }
+}

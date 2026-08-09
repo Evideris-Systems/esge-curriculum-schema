@@ -14,7 +14,7 @@
   "withinSection": "sec-poem-2-preparation",
   "number": 4,
   "title": {
-    "en": "The settings provided by the manufacturer of the electrosurgical unit should be favored,"
+    "en": "The settings provided by the manufacturer of the electrosurgical unit should be favored, tailored to the specific type of knife and coagulation forceps being used."
   },
   "statement": {
     "en": "The settings provided by the manufacturer of the electrosurgical unit should be favored, tailored to the specific type of knife and coagulation forceps being used."
@@ -24,26 +24,22 @@
     "evidenceQuality": "no-evidence-available"
   },
   "levelOfAgreement": 94,
-  "references": [],
+  "references": [
+    "ref-13",
+    "ref-14"
+  ],
   "_meta": {
     "provenance": {
       "type": "verbatim",
       "source_doi": "10.1055/a-2569-7634"
     },
-    "encodedBy": "human:david",
-    "encodedAt": "2026-07-03",
-    "fieldProvenance": {
-      "commentary": {
-        "type": "verbatim",
-        "source_doi": "10.1055/a-2569-7634",
-        "source_span": "Paragraph(s) preceding the N RECOMMENDATION block in body; back-to-back groups share commentary."
-      }
-    }
+    "encodedBy": "other:codex-publisher-dom-import",
+    "encodedAt": "2026-08-09"
   },
   "commentary": {
-    "en": "Waterjet integrated knives that aim to decrease procedural time and improve safety have been developed. A systematic review, complemented by a meta-analysis incorporating data from seven studies, indicated that the waterjet function led to reduced procedural duration, fewer instrument exchanges, decreased use of coagulation forceps, and a lower burden of AEs [10]; however, it is essential to acknowledge that this meta-analysis included two studies that were exclusively published as abstracts and presents significant methodological concerns. Moreover, the sole available RCT also exhibited a high risk of bias [11], so the certainty of the evidence was downgraded from high to very low (Table 2 s). Our search did not yield any relevant studies subsequent to the publication of this meta-analysis [12].\n\nsettings? Only one retrospective study, encompassing 1826 patients, has explored the influence of electrosurgical energy settings on POEM outcomes. In a secondary and multivariable analysis, the authors observed that using a current mode other than spray coagulation for myotomy or tunneling was associated with a heightened incidence of AEs (odds ratio [OR] 3.09; P = 0.02) [13]. The choice of electrosurgical unit settings typically hinges"
+    "en": "Only one retrospective study, encompassing 1826 patients, has explored the influence of electrosurgical energy settings on POEM outcomes. In a secondary and multivariable analysis, the authors observed that using a current mode other than spray coagulation for myotomy or tunneling was associated with a heightened incidence of AEs (odds ratio [OR] 3.09; P = 0.02) [13]. The choice of electrosurgical unit settings typically hinges on factors such as the brand and model of the electrosurgical unit, the type of knife employed, and the operator’s preferences. A compilation of the most frequently encountered settings in the published literature is presented in [Table 2] [14]."
   },
-  "figureRefs": [
-    "fig-poem-2-1"
+  "commentaryForRecommendations": [
+    4
   ]
 }

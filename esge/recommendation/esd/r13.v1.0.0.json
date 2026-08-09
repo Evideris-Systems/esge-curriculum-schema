@@ -14,29 +14,29 @@
   "withinSection": "sec-esd-knowledge-competence",
   "number": 13,
   "title": {
-    "en": "Endoscopists performing ESD should know how to interpret the"
+    "en": "Endoscopists performing ESD should know how to interpret the histopathology findings of the ESD specimen, namely the criteria for low risk resection (“curative”), local risk resection, and high risk resection (“non-curative”), as well as their implications."
   },
   "statement": {
-    "en": "Endoscopists performing ESD should know how to interpret the histopathology findings of the ESD specimen, namely the criteria for low risk resection (\"curative\"), local risk resection, and high risk resection (\"non-curative\"), as well as their implications."
+    "en": "Endoscopists performing ESD should know how to interpret the histopathology findings of the ESD specimen, namely the criteria for low risk resection (“curative”), local risk resection, and high risk resection (“non-curative”), as well as their implications."
   },
   "levelOfAgreement": 100,
-  "references": [],
+  "references": [
+    "ref-6",
+    "ref-66"
+  ],
   "_meta": {
     "provenance": {
       "type": "verbatim",
       "source_doi": "10.1055/a-0996-0912"
     },
-    "encodedBy": "human:david",
-    "encodedAt": "2026-07-01",
-    "fieldProvenance": {
-      "commentary": {
-        "type": "verbatim",
-        "source_doi": "10.1055/a-0996-0912",
-        "source_span": "Paragraph(s) of prose in the source body immediately preceding the RECOMMENDATION block; shared with adjacent back-to-back RECOMMENDATIONs where the source clusters them without intervening prose. PDF hyphenation healed, running footers and page markers stripped."
-      }
-    }
+    "encodedBy": "other:codex-publisher-dom-import",
+    "encodedAt": "2026-08-09"
   },
   "commentary": {
-    "en": "We therefore recommend that endoscopists should be familiar with the different types of resection, as defined by the ESGE [6]: Low risk resection (\u201ccurative\u201d): low risk for local or distant recurrence; no further immediate therapy is required; is defined as an R0 resection, with no poor prognosis features (less than the cut-off invasion for the specific organ, and no lymphovascular invasion). Local risk resection: as above, with the exception of positive lateral margins; even though this type of resection increases the risk of local recurrence, most times the patient will be cured in the long-term, so only endoscopic follow-up and putative treatment is recommended. High risk resection (\u201cnon-curative\u201d): in this case there is a real risk of distant disease and adjuvant treatment should be considered on a case-by-case basis; it is defined as an R1 resection (positive vertical margins), deep sm invasion (beyond the organ-specific \u03bcm limit), poorly differentiated tumor, or lymphovascular invasion. Endoscopists should know that the specific criteria are different for each organ. ESGE recommends that further decisions should be made by multidisciplinary teams."
-  }
+    "en": "When performing ESD, endoscopists are responsible not only for a proper technical execution of the procedure, but also for the clinical decision-making and clinical care. This implies that endoscopists should be able to balance the benefits and risks of ESD against alternative treatment options for that specific disease. As previously stated, they should be familiar with advanced imaging diagnosis. Moreover, depending on the organ, location, type, and other characteristics of the lesion, endoscopists should be able to calculate the probability of performing a curative resection. There are platforms available online that can help endoscopists calculate the a priori probability of a curative resection and also the risk of post-resection bleeding [66]. Even though we recognize that, to avoid more aggressive procedures (like surgery) in patients with several co-morbidities, endoscopists may sometimes assume a low probability of a curative resection yet still proceed to ESD, we recommend that such situations should always be discussed with the patient, and ideally within a multidisciplinary team.\n\nIn addition, endoscopists are also responsible for the interpretation of the histopathology of the ESD specimen. The issues here are the following: several histopathological characteristics have different implications for different organs and diseases; the definition of curative and non-curative resection varies between authors; and, in fact, even after a non-curative resection, the probability of a patient being cured is most often higher than the probability of their having residual or distant disease. We therefore recommend that endoscopists should be familiar with the different types of resection, as defined by the ESGE [6]:\n\nLow risk resection (“curative”): low risk for local or distant recurrence; no further immediate therapy is required; is defined as an R0 resection, with no poor prognosis features (less than the cut-off invasion for the specific organ, and no lymphovascular invasion).\n\nLocal risk resection: as above, with the exception of positive lateral margins; even though this type of resection increases the risk of local recurrence, most times the patient will be cured in the long-term, so only endoscopic follow-up and putative treatment is recommended.\n\nHigh risk resection (“non-curative”): in this case there is a real risk of distant disease and adjuvant treatment should be considered on a case-by-case basis; it is defined as an R1 resection (positive vertical margins), deep sm invasion (beyond the organ-specific μm limit), poorly differentiated tumor, or lymphovascular invasion.\n\nEndoscopists should know that the specific criteria are different for each organ. ESGE recommends that further decisions should be made by multidisciplinary teams."
+  },
+  "commentaryForRecommendations": [
+    12,
+    13
+  ]
 }

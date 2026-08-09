@@ -14,48 +14,48 @@
       "type": "verbatim",
       "source_doi": "10.1055/a-0996-0912"
     },
-    "encodedBy": "claude:esge-curriculum-autoupdate@v0.1.0",
-    "encodedAt": "2026-06-27"
+    "encodedBy": "other:codex-publisher-dom-import",
+    "encodedAt": "2026-08-09"
   },
   "references": [
     {
       "id": "ref-1",
-      "citation": "Ribeiro-Mourao F, Pimentel-Nunes P, Dinis-Ribeiro M. Endoscopic submucosal dissection for gastric lesions: results of an European inquiry. Endoscopy 2010; 42: 814 \u2013 819. doi:10.1055/s-0030-1255778",
+      "citation": "Ribeiro-Mourao F, Pimentel-Nunes P, Dinis-Ribeiro M. Endoscopic submucosal dissection for gastric lesions: results of an European inquiry. Endoscopy 2010; 42: 814-819",
       "doi": "10.1055/s-0030-1255778",
       "lowConfidence": true,
       "confidenceIssues": [
-        "surname 'Ribeiro-Mourao' not in match authors ['ribeiro-mour\u00e3o', 'pimentel-nunes', 'dinis-ribeiro']"
+        "surname 'Ribeiro-Mourao' not in match authors ['ribeiro-mourão', 'pimentel-nunes', 'dinis-ribeiro']"
       ]
     },
     {
       "id": "ref-2",
-      "citation": "Cao Y, Liao C, Tan A et al. Meta-analysis of endoscopic submucosal dissection versus endoscopic mucosal resection for tumors of the gastrointestinal tract. Endoscopy 2009; 41: 751 \u2013 757. doi:10.1055/s-0029-1215053",
+      "citation": "Cao Y, Liao C, Tan A. et al. Meta-analysis of endoscopic submucosal dissection versus endoscopic mucosal resection for tumors of the gastrointestinal tract. Endoscopy 2009; 41: 751-757",
       "doi": "10.1055/s-0029-1215053"
     },
     {
       "id": "ref-3",
-      "citation": "Parra-Blanco A, Gonzalez N, Arnau MR. Ex vivo and in vivo models for endoscopic submucosal dissection training. Clin Endosc 2012; 45: 350 \u2013 357. doi:10.5946/ce.2012.45.4.350",
+      "citation": "Parra-Blanco A, Gonzalez N, Arnau MR. Ex vivo and in vivo models for endoscopic submucosal dissection training. Clin Endosc 2012; 45: 350-357",
       "doi": "10.5946/ce.2012.45.4.350"
     },
     {
       "id": "ref-4",
-      "citation": "Dumonceau JM, Hassan C, Riphaus A et al. European Society of Gastrointestinal Endoscopy (ESGE) Guideline Development Policy. Endoscopy 2012; 44: 626 \u2013 629. doi:10.1055/s-0031-1291747",
+      "citation": "Dumonceau JM, Hassan C, Riphaus A. et al. European Society of Gastrointestinal Endoscopy (ESGE) Guideline Development Policy. Endoscopy 2012; 44: 626-629",
       "doi": "10.1055/s-0031-1291747"
     },
     {
       "id": "ref-5",
-      "citation": "Bisschops R, Dekker E, East JE et al. European Society of Gastrointestinal Endoscopy (ESGE) curricula development for postgraduate training in advanced endoscopic procedures: rationale and methodology. Endoscopy 2019: doi:10.1055/a-1000-5603",
+      "citation": "Bisschops R, Dekker E, East JE. et al. European Society of Gastrointestinal Endoscopy (ESGE) curricula development for postgraduate training in advanced endoscopic procedures: rationale and methodology. Endoscopy 2019;",
       "doi": "10.1055/a-1000-5603"
     },
     {
       "id": "ref-6",
-      "citation": "Pimentel-Nunes P, Dinis-Ribeiro M, Ponchon T et al. Endoscopic submucosal dissection: European Society of Gastrointestinal Endoscopy (ESGE) Guideline. Endoscopy 2015; 47: 829 \u2013 854. doi:10.1055/s-0034-1392882",
+      "citation": "Pimentel-Nunes P, Dinis-Ribeiro M, Ponchon T. et al. Endoscopic submucosal dissection: European Society of Gastrointestinal Endoscopy (ESGE) Guideline. Endoscopy 2015; 47: 829-854",
       "doi": "10.1055/s-0034-1392882"
     },
     {
       "id": "ref-7",
-      "citation": "Dinis-Ribeiro M, Areia M, de Vries AC et al. Management of precancerous conditions and lesions in the stomach (MAPS): guideline from the European Society of Gastrointestinal Endoscopy (ESGE), European Helicobacter Study Group (EHSG), European Society of Pathology (ESP), and the Sociedade Portuguesa de Endoscopia Digestiva (SPED). Endoscopy 2012; 44: 74 \u2013 94. doi:10.1016/j.ypat.2012.11.046",
-      "doi": "10.1016/j.ypat.2012.11.046",
+      "citation": "Dinis-Ribeiro M, Areia M, de Vries AC. et al. Management of precancerous conditions and lesions in the stomach (MAPS): guideline from the European Society of Gastrointestinal Endoscopy (ESGE), European Helicobacter Study Group (EHSG), European Society of Pathology (ESP), and the Sociedade Portuguesa de Endoscopia Digestiva (SPED). Endoscopy 2012; 44: 74-94",
+      "doi": "10.1055/s-0031-1291491",
       "lowConfidence": true,
       "confidenceIssues": [
         "surname 'Dinis-Ribeiro' not in match authors ['lam-himlin']"
@@ -63,57 +63,57 @@
     },
     {
       "id": "ref-8",
-      "citation": "Ferlitsch M, Moss A, Hassan C et al. Colorectal polypectomy and endoscopic mucosal resection (EMR): European Society of Gastrointestinal Endoscopy (ESGE) Clinical Guideline. Endoscopy 2017; 49: 270 \u2013 297. doi:10.1055/s-0043-102569",
+      "citation": "Ferlitsch M, Moss A, Hassan C. et al. Colorectal polypectomy and endoscopic mucosal resection (EMR): European Society of Gastrointestinal Endoscopy (ESGE) Clinical Guideline. Endoscopy 2017; 49: 270-297",
       "doi": "10.1055/s-0043-102569"
     },
     {
       "id": "ref-9",
-      "citation": "Endoscopic Classification Review Group. Update on the Paris classification of superficial neoplastic lesions in the digestive tract. Endoscopy 2005; 37: 570 \u2013 578 another, this ESGE curriculum states a quality threshold for ESD in animal models of an en bloc complete resection rate above 80 % and no perforations in the last 10 consecutive procedures before starting human procedures. Once an endoscopist has started performing ESD in humans, ESGE also highlights the need to audit ESD procedures to monitor quality and safety. Throughout this ESGE curriculum, areas where further research is required to answer critical questions are highlighted, providing direction for researchers to design future studies. We look forward to the opportunity to incorporate the results of such studies into updates of this curriculum in the years to come. Disclaimer ESGE Position Statements represent a consensus of best practice based on the available evidence at the time of preparation. This is NOT a guideline but a proposal for training in ESD. The statements may not apply in all situations and should be interpreted in the light of specific clinical situations and resource availability. Further controlled clinical studies may be needed to clarify aspects of these statements, and revision may be necessary as new data appear. Clinical considerations may justify a course of action at variance with these recommendations. This ESGE Position Statement is intended to be an educational device to provide information that may assist endoscopists in providing care to patients. The recommendations are not rules and should not be construed as establishing a legal standard of care or as encouraging, advocating, requiring, or discouraging any particular treatment. The legal disclaimer for ESGE guidelines applies to the present position statement [4]. Acknowledgments The authors gratefully thank Arjun Koch, Diogo Lib\u00e2nio, Francisco Baldaque da Silva, George Cortas, Gianluca Esposito, Jacques Bergman, Krish Ragunath, Miguel Areia, Oliver Pech, and Ricardo Kuttner Magalh\u00e3es for participating in the voting process and for their critical review of this Curriculum. R. Bisschops is funded by the Research Foundation \u2013 Flanders. J. E. East was funded by the National Institute for Health Research (NIHR) Oxford Biomedical Research Centre. The views expressed are those of the author(s) and not necessarily those of the National Health Service, the NIHR, or the Department of Health. Pimentel-. doi:10.1053/j.gastro.2004.03.001",
-      "doi": "10.1053/j.gastro.2004.03.001"
+      "citation": "Endoscopic Classification Review Group. Update on the Paris classification of superficial neoplastic lesions in the digestive tract. Endoscopy 2005; 37: 570-578",
+      "doi": "10.1055/s-2005-861352"
     },
     {
       "id": "ref-10",
-      "citation": "Inoue H, Kaga M, Ikeda H et al. Magnification endoscopy in esophageal squamous cell carcinoma: a review of the intrapapillary capillary loop classification. Ann Gastroenterol 2015; 28: 41\u2013 48. doi:10.1055/s-0034-1390858",
+      "citation": "Inoue H, Kaga M, Ikeda H. et al. Magnification endoscopy in esophageal squamous cell carcinoma: a review of the intrapapillary capillary loop classification. Ann Gastroenterol 2015; 28: 41-48",
       "doi": "10.1055/s-0034-1390858"
     },
     {
       "id": "ref-11",
-      "citation": "Oyama T, Inoue H, Arima M et al. Prediction of the invasion depth of superficial squamous cell carcinoma based on microvessel morphology: magnifying endoscopic classification of the Japan Esophageal Society. Esophagus 2017; 14: 105 \u2013 112. doi:10.1007/s10388-016-0527-7",
+      "citation": "Oyama T, Inoue H, Arima M. et al. Prediction of the invasion depth of superficial squamous cell carcinoma based on microvessel morphology: magnifying endoscopic classification of the Japan Esophageal Society. Esophagus 2017; 14: 105-112",
       "doi": "10.1007/s10388-016-0527-7"
     },
     {
       "id": "ref-12",
-      "citation": "Uraoka T, Saito Y, Ikematsu H et al. Sano's capillary pattern classification for narrow-band imaging of early colorectal lesions. Dig Endosc 2011; 23: (Suppl. 01): 112\u2013 115. doi:10.1111/j.1443-1661.2011.01118.x",
+      "citation": "Uraoka T, Saito Y, Ikematsu H. et al. Sano's capillary pattern classification for narrow-band imaging of early colorectal lesions. Dig Endosc 2011; 23 (Suppl. 01) 112-115",
       "doi": "10.1111/j.1443-1661.2011.01118.x"
     },
     {
       "id": "ref-13",
-      "citation": "Pimentel-Nunes P, Dinis-Ribeiro M, Soares JB et al. A multicenter validation of an endoscopic classification with narrow band imaging for gastric precancerous and cancerous lesions. Endoscopy 2012; 44: 236 \u2013 246. doi:10.1055/s-0031-1291537",
+      "citation": "Pimentel-Nunes P, Dinis-Ribeiro M, Soares JB. et al. A multicenter validation of an endoscopic classification with narrow band imaging for gastric precancerous and cancerous lesions. Endoscopy 2012; 44: 236-246",
       "doi": "10.1055/s-0031-1291537"
     },
     {
       "id": "ref-14",
-      "citation": "Pimentel-Nunes P, Libanio D, Lage J et al. A multicenter prospective study of the real-time use of narrow-band imaging in the diagnosis of premalignant gastric conditions and lesions. Endoscopy 2016; 48: 723 \u2013 730. doi:10.1055/s-0042-108435",
+      "citation": "Pimentel-Nunes P, Libanio D, Lage J. et al. A multicenter prospective study of the real-time use of narrow-band imaging in the diagnosis of premalignant gastric conditions and lesions. Endoscopy 2016; 48: 723-730",
       "doi": "10.1055/s-0042-108435"
     },
     {
       "id": "ref-15",
-      "citation": "Yao K, Anagnostopoulos GK, Ragunath K. Magnifying endoscopy for diagnosing and delineating early gastric cancer. Endoscopy 2009; 41: 462 \u2013 467. doi:10.1055/s-0029-1214594",
+      "citation": "Yao K, Anagnostopoulos GK, Ragunath K. Magnifying endoscopy for diagnosing and delineating early gastric cancer. Endoscopy 2009; 41: 462-467",
       "doi": "10.1055/s-0029-1214594"
     },
     {
       "id": "ref-16",
-      "citation": "Yao K, Oishi T, Matsui T et al. Novel magnified endoscopic findings of microvascular architecture in intramucosal gastric cancer. Gastrointest Endosc 2002; 56: 279 \u2013 284. doi:10.1067/mge.2002.126061",
-      "doi": "10.1067/mge.2002.126061"
+      "citation": "Yao K, Oishi T, Matsui T. et al. Novel magnified endoscopic findings of microvascular architecture in intramucosal gastric cancer. Gastrointest Endosc 2002; 56: 279-284",
+      "doi": "10.1016/s0016-5107(02)70194-6"
     },
     {
       "id": "ref-17",
-      "citation": "Abe S, Oda I, Shimazu T et al. Depth-predicting score for differentiated early gastric cancer. Gastric Cancer 2011; 14: 35\u2013 40. doi:10.1007/s10120-011-0002-z",
+      "citation": "Abe S, Oda I, Shimazu T. et al. Depth-predicting score for differentiated early gastric cancer. Gastric Cancer 2011; 14: 35-40",
       "doi": "10.1007/s10120-011-0002-z"
     },
     {
       "id": "ref-18",
-      "citation": "Kudo S, Rubio CA, Teixeira CR et al. Pit pattern in colorectal neoplasia: endoscopic magnifying view. Endoscopy 2001; 33: 367\u2013 373. doi:10.1055/s-2004-826104",
+      "citation": "Kudo S, Rubio CA, Teixeira CR. et al. Pit pattern in colorectal neoplasia: endoscopic magnifying view. Endoscopy 2001; 33: 367-373",
       "doi": "10.1055/s-2004-826104",
       "lowConfidence": true,
       "confidenceIssues": [
@@ -122,38 +122,38 @@
     },
     {
       "id": "ref-19",
-      "citation": "Hayashi N, Tanaka S, Hewett DG et al. Endoscopic prediction of deep submucosal invasive carcinoma: validation of the narrow-band imaging international colorectal endoscopic (NICE) classification. Gastrointest Endosc 2013; 78: 625 \u2013 632. doi:10.1016/j.gie.2013.04.185",
+      "citation": "Hayashi N, Tanaka S, Hewett DG. et al. Endoscopic prediction of deep submucosal invasive carcinoma: validation of the narrow-band imaging international colorectal endoscopic (NICE) classification. Gastrointest Endosc 2013; 78: 625-632",
       "doi": "10.1016/j.gie.2013.04.185"
     },
     {
       "id": "ref-20",
-      "citation": "Iwatate M, Sano Y, Tanaka S et al. Validation study for development of the Japan NBI Expert Team classification of colorectal lesions. Dig Endosc 2018; 30: 642 \u2013 651. doi:10.1111/den.13065",
+      "citation": "Iwatate M, Sano Y, Tanaka S. et al. Validation study for development of the Japan NBI Expert Team classification of colorectal lesions. Dig Endosc 2018; 30: 642-651",
       "doi": "10.1111/den.13065"
     },
     {
       "id": "ref-21",
-      "citation": "Sumimoto K, Tanaka S, Shigita K et al. Clinical impact and characteristics of the narrow-band imaging magnifying endoscopic classification of colorectal tumors proposed by the Japan NBI Expert Team. Gastrointest Endosc 2017; 85: 816 \u2013 821. doi:10.1016/j.gie.2016.07.035",
+      "citation": "Sumimoto K, Tanaka S, Shigita K. et al. Clinical impact and characteristics of the narrow-band imaging magnifying endoscopic classification of colorectal tumors proposed by the Japan NBI Expert Team. Gastrointest Endosc 2017; 85: 816-821",
       "doi": "10.1016/j.gie.2016.07.035"
     },
     {
       "id": "ref-22",
-      "citation": "Goda K, Fujishiro M, Hirasawa K et al. How to teach and learn endoscopic submucosal dissection for upper gastrointestinal neoplasm in Japan. Dig Endosc 2012; 24: (Suppl. 01): 136 \u2013 142. doi:10.1111/j.1443-1661.2012.01274.x",
+      "citation": "Goda K, Fujishiro M, Hirasawa K. et al. How to teach and learn endoscopic submucosal dissection for upper gastrointestinal neoplasm in Japan. Dig Endosc 2012; 24 (Suppl. 01) 136-142",
       "doi": "10.1111/j.1443-1661.2012.01274.x"
     },
     {
       "id": "ref-23",
-      "citation": "Kakushima N, Hirasawa K, Morita Y et al. Terminology for training of endoscopic submucosal dissection. Dig Endosc 2012; 24: (Suppl. 01): 133 \u2013 135. doi:10.1111/j.1443-1661.2012.01257.x",
+      "citation": "Kakushima N, Hirasawa K, Morita Y. et al. Terminology for training of endoscopic submucosal dissection. Dig Endosc 2012; 24 (Suppl. 01) 133-135",
       "doi": "10.1111/j.1443-1661.2012.01257.x"
     },
     {
       "id": "ref-24",
-      "citation": "Tsuji Y, Ohata K, Sekiguchi M et al. An effective training system for endoscopic submucosal dissection of gastric neoplasm. Endoscopy 2011; 43: 1033 \u2013 1038. doi:10.1055/s-0031-1291383",
+      "citation": "Tsuji Y, Ohata K, Sekiguchi M. et al. An effective training system for endoscopic submucosal dissection of gastric neoplasm. Endoscopy 2011; 43: 1033-1038",
       "doi": "10.1055/s-0031-1291383"
     },
     {
       "id": "ref-25",
-      "citation": "Gupta S, Bassett P, Man R et al. Validation of a novel method for assessing competency in polypectomy. Gastrointest Endosc 2012; 75: 568 \u2013 575. doi:10.1503/cjs.009414",
-      "doi": "10.1503/cjs.009414",
+      "citation": "Gupta S, Bassett P, Man R. et al. Validation of a novel method for assessing competency in polypectomy. Gastrointest Endosc 2012; 75: 568-575",
+      "doi": "10.1016/j.gie.2011.09.028",
       "lowConfidence": true,
       "confidenceIssues": [
         "surname 'Gupta' not in match authors ['gill', 'pace', 'bazzarelli']",
@@ -162,17 +162,17 @@
     },
     {
       "id": "ref-26",
-      "citation": "Chong DH, Poon CM, Leong HT. Colorectal endoscopic submucosal dissection at a low-volume centre: tips and tricks, and learning curve in a district hospital in Hong Kong. Hong Kong Med J 2016; 22: 256 \u2013 262. doi:10.12809/hkmj154736",
+      "citation": "Chong DH, Poon CM, Leong HT. Colorectal endoscopic submucosal dissection at a low-volume centre: tips and tricks, and learning curve in a district hospital in Hong Kong. Hong Kong Med J 2016; 22: 256-262",
       "doi": "10.12809/hkmj154736"
     },
     {
       "id": "ref-27",
-      "citation": "Yamamoto S, Uedo N, Ishihara R et al. Endoscopic submucosal dissection for early gastric cancer performed by supervised residents: assessment of feasibility and learning curve. Endoscopy 2009; 41: 923 \u2013 928. doi:10.1055/s-0029-1215129",
+      "citation": "Yamamoto S, Uedo N, Ishihara R. et al. Endoscopic submucosal dissection for early gastric cancer performed by supervised residents: assessment of feasibility and learning curve. Endoscopy 2009; 41: 923-928",
       "doi": "10.1055/s-0029-1215129"
     },
     {
       "id": "ref-28",
-      "citation": "Shiga H, Endo K, Kuroha M et al. Endoscopic submucosal dissection for colorectal neoplasia during the clinical learning curve. Surg Endosc 2014; 28: 2120\u2013 2128. doi:10.1007/s00464-014-3443-8",
+      "citation": "Shiga H, Endo K, Kuroha M. et al. Endoscopic submucosal dissection for colorectal neoplasia during the clinical learning curve. Surg Endosc 2014; 28: 2120-2128",
       "doi": "10.1007/s00464-014-3443-8",
       "lowConfidence": true,
       "confidenceIssues": [
@@ -181,263 +181,263 @@
     },
     {
       "id": "ref-29",
-      "citation": "Iacopini F, Bella A, Costamagna G et al. Stepwise training in rectal and colonic endoscopic submucosal dissection with differentiated learning curves. Gastrointest Endosc 2012; 76: 1188 \u2013 1196. doi:10.1016/j.gie.2012.08.024",
+      "citation": "Iacopini F, Bella A, Costamagna G. et al. Stepwise training in rectal and colonic endoscopic submucosal dissection with differentiated learning curves. Gastrointest Endosc 2012; 76: 1188-1196",
       "doi": "10.1016/j.gie.2012.08.024"
     },
     {
       "id": "ref-30",
-      "citation": "Pioche M, Rivory J, Aguero-Garcete G et al. New isolated bovine colon model dedicated to colonic ESD hands-on training: development and first evaluation. Surg Endosc 2015; 29: 3209 \u2013 3215. doi:10.1007/s00464-014-4062-0",
+      "citation": "Pioche M, Rivory J, Aguero-Garcete G. et al. New isolated bovine colon model dedicated to colonic ESD hands-on training: development and first evaluation. Surg Endosc 2015; 29: 3209-3215",
       "doi": "10.1007/s00464-014-4062-0"
     },
     {
       "id": "ref-31",
-      "citation": "Pioche M, Rivory J, Nishizawa T et al. Randomized comparative evaluation of endoscopic submucosal dissection self-learning software in France and Japan. Endoscopy 2016; 48: 1076 \u2013 1083. doi:10.1055/s-0042-116946",
+      "citation": "Pioche M, Rivory J, Nishizawa T. et al. Randomized comparative evaluation of endoscopic submucosal dissection self-learning software in France and Japan. Endoscopy 2016; 48: 1076-1083",
       "doi": "10.1055/s-0042-116946"
     },
     {
       "id": "ref-32",
-      "citation": "Kim EY, Jeon SW, Kim GH. Chicken soup for teaching and learning ESD. World J Gastroenterol 2011; 17: 2618 \u2013 2622. doi:10.3748/wjg.v17.i21.2618",
+      "citation": "Kim EY, Jeon SW, Kim GH. Chicken soup for teaching and learning ESD. World J Gastroenterol 2011; 17: 2618-2622",
       "doi": "10.3748/wjg.v17.i21.2618"
     },
     {
       "id": "ref-33",
-      "citation": "Rahmi G, Hotayt B, Chaussade S et al. Endoscopic submucosal dissection for superficial rectal tumors: prospective evaluation in France. Endoscopy 2014; 46: 670 \u2013 676. doi:10.1055/s-0034-1365810",
+      "citation": "Rahmi G, Hotayt B, Chaussade S. et al. Endoscopic submucosal dissection for superficial rectal tumors: prospective evaluation in France. Endoscopy 2014; 46: 670-676",
       "doi": "10.1055/s-0034-1365810"
     },
     {
       "id": "ref-34",
-      "citation": "Berr F, Ponchon T, Neureiter D et al. Experimental endoscopic submucosal dissection training in a porcine model: learning experience of skilled Western endoscopists. Dig Endosc 2011; 23: 281 \u2013 289. doi:10.1111/j.1443-1661.2011.01129.x",
+      "citation": "Berr F, Ponchon T, Neureiter D. et al. Experimental endoscopic submucosal dissection training in a porcine model: learning experience of skilled Western endoscopists. Dig Endosc 2011; 23: 281-289",
       "doi": "10.1111/j.1443-1661.2011.01129.x"
     },
     {
       "id": "ref-35",
-      "citation": "Kuttner-Magalhaes R, Dinis-Ribeiro M, Bruno MJ et al. Training in endoscopic mucosal resection and endoscopic submucosal dissection: Face, content and expert validity of the live porcine model. United European Gastroenterol J 2018; 6: 547\u2013 557. doi:10.1177/2050640617742484",
+      "citation": "Kuttner-Magalhaes R, Dinis-Ribeiro M, Bruno MJ. et al. Training in endoscopic mucosal resection and endoscopic submucosal dissection: Face, content and expert validity of the live porcine model. United European Gastroenterol J 2018; 6: 547-557",
       "doi": "10.1177/2050640617742484",
       "lowConfidence": true,
       "confidenceIssues": [
-        "surname 'Kuttner-Magalhaes' not in match authors ['k\u00fcttner-magalh\u00e3es', 'dinis-ribeiro', 'bruno']"
+        "surname 'Kuttner-Magalhaes' not in match authors ['küttner-magalhães', 'dinis-ribeiro', 'bruno']"
       ]
     },
     {
       "id": "ref-36",
-      "citation": "Hong KH, Shin SJ, Kim JH. Learning curve for endoscopic submucosal dissection of gastric neoplasms. Eur J Gastroenterol Hepatol 2014; 26: 949 \u2013 954. doi:10.1097/meg.0000000000000156",
+      "citation": "Hong KH, Shin SJ, Kim JH. Learning curve for endoscopic submucosal dissection of gastric neoplasms. Eur J Gastroenterol Hepatol 2014; 26: 949-954",
       "doi": "10.1097/meg.0000000000000156"
     },
     {
       "id": "ref-37",
-      "citation": "Jeon HH, Lee HS, Youn YH et al. Learning curve analysis of colorectal endoscopic submucosal dissection (ESD) for laterally spreading tumors by endoscopists experienced in gastric ESD. Surg Endosc 2016; 30: 2422 \u2013 2430. doi:10.1007/s00464-015-4493-2",
+      "citation": "Jeon HH, Lee HS, Youn YH. et al. Learning curve analysis of colorectal endoscopic submucosal dissection (ESD) for laterally spreading tumors by endoscopists experienced in gastric ESD. Surg Endosc 2016; 30: 2422-2430",
       "doi": "10.1007/s00464-015-4493-2"
     },
     {
       "id": "ref-38",
-      "citation": "Kato M, Gromski M, Jung Y et al. The learning curve for endoscopic submucosal dissection in an established experimental setting. Surg Endosc 2013; 27: 154 \u2013 161. doi:10.1007/s00464-012-2402-5",
+      "citation": "Kato M, Gromski M, Jung Y. et al. The learning curve for endoscopic submucosal dissection in an established experimental setting. Surg Endosc 2013; 27: 154-161",
       "doi": "10.1007/s00464-012-2402-5"
     },
     {
       "id": "ref-39",
-      "citation": "Sakamoto T, Saito Y, Fukunaga S et al. Learning curve associated with colorectal endoscopic submucosal dissection for endoscopists experienced in gastric endoscopic submucosal dissection. Dis Colon Rectum 2011; 54: 1307 \u2013 1312. doi:10.1097/dcr.0b013e3182282ab0",
+      "citation": "Sakamoto T, Saito Y, Fukunaga S. et al. Learning curve associated with colorectal endoscopic submucosal dissection for endoscopists experienced in gastric endoscopic submucosal dissection. Dis Colon Rectum 2011; 54: 1307-1312",
       "doi": "10.1097/dcr.0b013e3182282ab0"
     },
     {
       "id": "ref-40",
-      "citation": "Oda I, Odagaki T, Suzuki H et al. Learning curve for endoscopic submucosal dissection of early gastric cancer based on trainee experience. Dig Endosc 2012; 24: (Suppl. 01): 129\u2013 132. doi:10.1111/j.1443-1661.2012.01265.x",
+      "citation": "Oda I, Odagaki T, Suzuki H. et al. Learning curve for endoscopic submucosal dissection of early gastric cancer based on trainee experience. Dig Endosc 2012; 24 (Suppl. 01) 129-132",
       "doi": "10.1111/j.1443-1661.2012.01265.x"
     },
     {
       "id": "ref-41",
-      "citation": "Gromski MA, Cohen J, Saito K et al. Learning colorectal endoscopic submucosal dissection: a prospective learning curve study using a novel ex vivo simulator. Surg Endosc 2017; 31: 4231\u2013 4237. doi:10.1007/s00464-017-5484-2",
+      "citation": "Gromski MA, Cohen J, Saito K. et al. Learning colorectal endoscopic submucosal dissection: a prospective learning curve study using a novel ex vivo simulator. Surg Endosc 2017; 31: 4231-4237",
       "doi": "10.1007/s00464-017-5484-2"
     },
     {
       "id": "ref-42",
-      "citation": "Martinek J, Suchanek S, Stefanova M et al. Training on an ex vivo animal model improves endoscopic skills: a randomized, single-blind study. Gastrointest Endosc 2011; 74: 367 \u2013 373. doi:10.1016/j.gie.2011.04.042",
+      "citation": "Martinek J, Suchanek S, Stefanova M. et al. Training on an ex vivo animal model improves endoscopic skills: a randomized, single-blind study. Gastrointest Endosc 2011; 74: 367-373",
       "doi": "10.1016/j.gie.2011.04.042"
     },
     {
       "id": "ref-43",
-      "citation": "Iacopini F, Saito Y, Bella A et al. Colorectal endoscopic submucosal dissection: predictors and neoplasm-related gradients of difficulty. Endosc Int Open 2017; 5: E839 \u2013 E846. doi:10.1055/s-0043-113566",
+      "citation": "Iacopini F, Saito Y, Bella A. et al. Colorectal endoscopic submucosal dissection: predictors and neoplasm-related gradients of difficulty. Endosc Int Open 2017; 5: E839-E846",
       "doi": "10.1055/s-0043-113566"
     },
     {
       "id": "ref-44",
-      "citation": "Bhatt A, Abe S, Kumaravel A et al. Video-based supervision for training of endoscopic submucosal dissection. Endoscopy 2016; 48: 711 \u2013 716. doi:10.1055/s-0042-106722",
+      "citation": "Bhatt A, Abe S, Kumaravel A. et al. Video-based supervision for training of endoscopic submucosal dissection. Endoscopy 2016; 48: 711-716",
       "doi": "10.1055/s-0042-106722"
     },
     {
       "id": "ref-45",
-      "citation": "Draganov PV, Chang M, Coman RM et al. Role of observation of live cases done by Japanese experts in the acquisition of ESD skills by a western endoscopist. World J Gastroenterol 2014; 20: 4675\u2013 4680. doi:10.3748/wjg.v20.i16.4675",
+      "citation": "Draganov PV, Chang M, Coman RM. et al. Role of observation of live cases done by Japanese experts in the acquisition of ESD skills by a western endoscopist. World J Gastroenterol 2014; 20: 4675-4680",
       "doi": "10.3748/wjg.v20.i16.4675"
     },
     {
       "id": "ref-46",
-      "citation": "Hirasawa K, Kokawa A, Oka H et al. Risk assessment chart for curability of early gastric cancer with endoscopic submucosal dissection. Gastrointest Endosc 2011; 74: 1268 \u2013 1275. doi:10.1016/j.gie.2011.07.067",
+      "citation": "Hirasawa K, Kokawa A, Oka H. et al. Risk assessment chart for curability of early gastric cancer with endoscopic submucosal dissection. Gastrointest Endosc 2011; 74: 1268-1275",
       "doi": "10.1016/j.gie.2011.07.067"
     },
     {
       "id": "ref-47",
-      "citation": "Ono S, Kato M, Nakagawa M et al. Outcomes and predictive factors of \u201cnot self-completion\u201d in gastric endoscopic submucosal dissection for novice operators. Surg Endosc 2013; 27: 3577 \u2013 3583. doi:10.1007/s00464-013-2929-0",
+      "citation": "Ono S, Kato M, Nakagawa M. et al. Outcomes and predictive factors of “not self-completion” in gastric endoscopic submucosal dissection for novice operators. Surg Endosc 2013; 27: 3577-3583",
       "doi": "10.1007/s00464-013-2929-0"
     },
     {
       "id": "ref-48",
-      "citation": "Shiga H, Kuroha M, Endo K et al. Colorectal endoscopic submucosal dissection (ESD) performed by experienced endoscopists with limited experience in gastric ESD. Int J Colorectal Dis 2015; 30: 1645\u2013 1652 Pimentel-. doi:10.1007/s00384-015-2334-3",
+      "citation": "Shiga H, Kuroha M, Endo K. et al. Colorectal endoscopic submucosal dissection (ESD) performed by experienced endoscopists with limited experience in gastric ESD. Int J Colorectal Dis 2015; 30: 1645-1652",
       "doi": "10.1007/s00384-015-2334-3"
     },
     {
       "id": "ref-49",
-      "citation": "Sakamoto T, Sato C, Makazu M et al. Short-term outcomes of colorectal endoscopic submucosal dissection performed by trainees. Digestion 2014; 89: 37 \u2013 42. doi:10.1159/000356215",
+      "citation": "Sakamoto T, Sato C, Makazu M. et al. Short-term outcomes of colorectal endoscopic submucosal dissection performed by trainees. Digestion 2014; 89: 37-42",
       "doi": "10.1159/000356215"
     },
     {
       "id": "ref-50",
-      "citation": "Yang DH, Jeong GH, Song Y et al. The feasibility of performing colorectal endoscopic submucosal dissection without previous experience in performing gastric endoscopic submucosal dissection. Dig Dis Sci 2015; 60: 3431\u2013 3441. doi:10.1007/s10620-015-3755-0",
+      "citation": "Yang DH, Jeong GH, Song Y. et al. The feasibility of performing colorectal endoscopic submucosal dissection without previous experience in performing gastric endoscopic submucosal dissection. Dig Dis Sci 2015; 60: 3431-3441",
       "doi": "10.1007/s10620-015-3755-0"
     },
     {
       "id": "ref-51",
-      "citation": "Spychalski M, Dziki A. Safe and efficient colorectal endoscopic submucosal dissection in European settings: is successful implementation of the procedure possible? Dig Endosc 2015; 27: 368\u2013 373. doi:10.1111/den.12353",
+      "citation": "Spychalski M, Dziki A. Safe and efficient colorectal endoscopic submucosal dissection in European settings: is successful implementation of the procedure possible?. Dig Endosc 2015; 27: 368-373",
       "doi": "10.1111/den.12353"
     },
     {
       "id": "ref-52",
-      "citation": "Niimi K, Fujishiro M, Goto O et al. Safety and efficacy of colorectal endoscopic submucosal dissection by the trainee endoscopists. Dig Endosc 2012; 24: (Suppl. 01): 154 \u2013 158. doi:10.1111/j.1443-1661.2012.01251.x",
+      "citation": "Niimi K, Fujishiro M, Goto O. et al. Safety and efficacy of colorectal endoscopic submucosal dissection by the trainee endoscopists. Dig Endosc 2012; 24 (Suppl. 01) 154-158",
       "doi": "10.1111/j.1443-1661.2012.01251.x"
     },
     {
       "id": "ref-53",
-      "citation": "Ebigbo A, Probst A, Rommele C et al. Step-up training for colorectal and gastric ESD and the challenge of ESD training in the proximal colon: results from a German Center. Endosc Int Open 2018; 6: E524 \u2013 E530",
-      "doi": null,
+      "citation": "Ebigbo A, Probst A, Rommele C. et al. Step-up training for colorectal and gastric ESD and the challenge of ESD training in the proximal colon: results from a German Center. Endosc Int Open 2018; 6: E524-E530",
+      "doi": "10.1055/a-0584-6457",
       "unresolved": true,
       "noDoiAvailable": true,
-      "verificationNote": "Crossref could not resolve automatically. Endosc Int Open 2018 6: E524-E530 is Ebigbo et al. \u2014 likely resolvable via manual DOI lookup or PubMed",
+      "verificationNote": "Crossref could not resolve automatically. Endosc Int Open 2018 6: E524-E530 is Ebigbo et al. — likely resolvable via manual DOI lookup or PubMed",
       "lowConfidence": true
     },
     {
       "id": "ref-54",
-      "citation": "Ronnow CF, Uedo N, Toth E et al. Endoscopic submucosal dissection of 301 large colorectal neoplasias: outcome and learning curve from a specialized center in Europe. Endosc Int Open 2018; 6: E1340 \u2013 E1348. doi:10.1055/a-0733-3668",
+      "citation": "Ronnow CF, Uedo N, Toth E. et al. Endoscopic submucosal dissection of 301 large colorectal neoplasias: outcome and learning curve from a specialized center in Europe. Endosc Int Open 2018; 6: E1340-E1348",
       "doi": "10.1055/a-0733-3668",
       "lowConfidence": true,
       "confidenceIssues": [
-        "surname 'Ronnow' not in match authors ['r\u00f6nnow', 'uedo', 'toth']"
+        "surname 'Ronnow' not in match authors ['rönnow', 'uedo', 'toth']"
       ]
     },
     {
       "id": "ref-55",
-      "citation": "Deprez PH, Bergman JJ, Meisner S et al. Current practice with endoscopic submucosal dissection in Europe: position statement from a panel of experts. Endoscopy 2010; 42: 853 \u2013 858. doi:10.1055/s-0030-1255563",
+      "citation": "Deprez PH, Bergman JJ, Meisner S. et al. Current practice with endoscopic submucosal dissection in Europe: position statement from a panel of experts. Endoscopy 2010; 42: 853-858",
       "doi": "10.1055/s-0030-1255563"
     },
     {
       "id": "ref-56",
-      "citation": "Gotoda T, Friedland S, Hamanaka H et al. A learning curve for advanced endoscopic resection. Gastrointest Endosc 2005; 62: 866 \u2013 867. doi:10.1016/j.gie.2005.07.055",
+      "citation": "Gotoda T, Friedland S, Hamanaka H. et al. A learning curve for advanced endoscopic resection. Gastrointest Endosc 2005; 62: 866-867",
       "doi": "10.1016/j.gie.2005.07.055"
     },
     {
       "id": "ref-57",
-      "citation": "Hotta K, Oyama T, Shinohara T et al. Learning curve for endoscopic submucosal dissection of large colorectal tumors. Dig Endosc 2010; 22: 302 \u2013 306. doi:10.1111/j.1443-1661.2010.01005.x",
+      "citation": "Hotta K, Oyama T, Shinohara T. et al. Learning curve for endoscopic submucosal dissection of large colorectal tumors. Dig Endosc 2010; 22: 302-306",
       "doi": "10.1111/j.1443-1661.2010.01005.x"
     },
     {
       "id": "ref-58",
-      "citation": "Jacques J, Legros R, Charissoux A et al. A local structured training program with live pigs allows performing ESD along the gastrointestinal tract with results close to those of Japanese experts. Dig Liver Dis 2016; 48: 1457 \u2013 1462. doi:10.1016/j.dld.2016.08.111",
+      "citation": "Jacques J, Legros R, Charissoux A. et al. A local structured training program with live pigs allows performing ESD along the gastrointestinal tract with results close to those of Japanese experts. Dig Liver Dis 2016; 48: 1457-1462",
       "doi": "10.1016/j.dld.2016.08.111"
     },
     {
       "id": "ref-59",
-      "citation": "Choi HS, Chun HJ. Accessory devices frequently used for endoscopic submucosal dissection. Clin Endosc 2017; 50: 224\u2013 233. doi:10.5946/ce.2017.070",
+      "citation": "Choi HS, Chun HJ. Accessory devices frequently used for endoscopic submucosal dissection. Clin Endosc 2017; 50: 224-233",
       "doi": "10.5946/ce.2017.070"
     },
     {
       "id": "ref-60",
-      "citation": "Mavrogenis G, Hochberger J, Deprez P et al. Technological review on endoscopic submucosal dissection: available equipment, recent developments and emerging techniques. Scand J Gastroenterol 2017; 52: 486 \u2013 498. doi:10.1080/00365521.2016.1271996",
+      "citation": "Mavrogenis G, Hochberger J, Deprez P. et al. Technological review on endoscopic submucosal dissection: available equipment, recent developments and emerging techniques. Scand J Gastroenterol 2017; 52: 486-498",
       "doi": "10.1080/00365521.2016.1271996"
     },
     {
       "id": "ref-61",
-      "citation": "Jacques J, Legros R, Rivory J et al. The \u201ctunnel + clip\u201d strategy standardised and facilitates oesophageal ESD procedures: a prospective, consecutive bi-centric study. Surg Endosc 2017; 31: 4838 \u2013 4847. doi:10.1007/s00464-017-5514-0",
+      "citation": "Jacques J, Legros R, Rivory J. et al. The “tunnel + clip” strategy standardised and facilitates oesophageal ESD procedures: a prospective, consecutive bi-centric study. Surg Endosc 2017; 31: 4838-4847",
       "doi": "10.1007/s00464-017-5514-0"
     },
     {
       "id": "ref-62",
-      "citation": "Lupu A, Jacques J, Rivory J et al. Endoscopic submucosal dissection with triangulated traction with clip and rubber band: the \u201cwallet\u201d strategy. Endoscopy 2018; 50: E256 \u2013 E258. doi:10.1055/a-0624-1721",
+      "citation": "Lupu A, Jacques J, Rivory J. et al. Endoscopic submucosal dissection with triangulated traction with clip and rubber band: the “wallet” strategy. Endoscopy 2018; 50: E256-E258",
       "doi": "10.1055/a-0624-1721"
     },
     {
       "id": "ref-63",
-      "citation": "Esaki M, Suzuki S, Hayashi Y et al. Splash M-knife versus Flush Knife BT in the technical outcomes of endoscopic submucosal dissection for early gastric cancer: a propensity score matching analysis. BMC Gastroenterol 2018; 18: 35. doi:10.1186/s12876-018-0763-5",
+      "citation": "Esaki M, Suzuki S, Hayashi Y. et al. Splash M-knife versus Flush Knife BT in the technical outcomes of endoscopic submucosal dissection for early gastric cancer: a propensity score matching analysis. BMC Gastroenterol 2018; 18: 35",
       "doi": "10.1186/s12876-018-0763-5"
     },
     {
       "id": "ref-64",
-      "citation": "Zhou PH, Schumacher B, Yao LQ et al. Conventional vs. waterjetassisted endoscopic submucosal dissection in early gastric cancer: a randomized controlled trial. Endoscopy 2014; 46: 836\u2013 843. doi:10.1055/s-0034-1377580",
+      "citation": "Zhou PH, Schumacher B, Yao LQ. et al. Conventional vs. waterjet-assisted endoscopic submucosal dissection in early gastric cancer: a randomized controlled trial. Endoscopy 2014; 46: 836-843",
       "doi": "10.1055/s-0034-1377580"
     },
     {
       "id": "ref-65",
-      "citation": "Morita Y. Electrocautery for ESD: settings of the electrical surgical unit VIO300D. Gastrointest Endosc Clin N Am 2014; 24: 183 \u2013 189. doi:10.1016/j.giec.2013.11.008",
+      "citation": "Morita Y. Electrocautery for ESD: settings of the electrical surgical unit VIO300D. Gastrointest Endosc Clin N Am 2014; 24: 183-189",
       "doi": "10.1016/j.giec.2013.11.008"
     },
     {
       "id": "ref-66",
-      "citation": "Libanio D, Dinis-Ribeiro M, Pimentel-Nunes P et al. Predicting outcomes of gastric endoscopic submucosal dissection using a Bayesian approach: a step for individualized risk assessment. Endosc Int Open 2017; 5: E563 \u2013 E572. doi:10.1055/s-0043-106576",
+      "citation": "Libanio D, Dinis-Ribeiro M, Pimentel-Nunes P. et al. Predicting outcomes of gastric endoscopic submucosal dissection using a Bayesian approach: a step for individualized risk assessment. Endosc Int Open 2017; 5: E563-E572",
       "doi": "10.1055/s-0043-106576",
       "lowConfidence": true,
       "confidenceIssues": [
-        "surname 'Libanio' not in match authors ['lib\u00e2nio', 'dinis-ribeiro', 'pimentel-nunes']"
+        "surname 'Libanio' not in match authors ['libânio', 'dinis-ribeiro', 'pimentel-nunes']"
       ]
     },
     {
       "id": "ref-67",
-      "citation": "Kim MY, Cho JH, Jain P et al. ESD around the world: Asia. Gastrointest Endosc Clin N Am 2014; 24: 283 \u2013 293. doi:10.1016/j.giec.2013.11.001",
+      "citation": "Kim MY, Cho JH, Jain P. et al. ESD around the world: Asia. Gastrointest Endosc Clin N Am 2014; 24: 283-293",
       "doi": "10.1016/j.giec.2013.11.001"
     },
     {
       "id": "ref-68",
-      "citation": "Pimentel-Nunes P, Mourao F, Veloso N et al. Long-term follow-up after endoscopic resection of gastric superficial neoplastic lesions in Portugal. Endoscopy 2014; 46: 933 \u2013 940. doi:10.1055/s-0034-1377348",
+      "citation": "Pimentel-Nunes P, Mourao F, Veloso N. et al. Long-term follow-up after endoscopic resection of gastric superficial neoplastic lesions in Portugal. Endoscopy 2014; 46: 933-940",
       "doi": "10.1055/s-0034-1377348"
     },
     {
       "id": "ref-69",
-      "citation": "Santos-Antunes J, Baldaque-Silva F, Marques M et al. Real-life evaluation of the safety, efficacy and therapeutic outcomes of endoscopic submucosal dissection in a Western tertiary centre. United European Gastroenterol J 2018; 6: 702 \u2013 709. doi:10.1177/2050640618755237",
+      "citation": "Santos-Antunes J, Baldaque-Silva F, Marques M. et al. Real-life evaluation of the safety, efficacy and therapeutic outcomes of endoscopic submucosal dissection in a Western tertiary centre. United European Gastroenterol J 2018; 6: 702-709",
       "doi": "10.1177/2050640618755237"
     },
     {
       "id": "ref-70",
-      "citation": "Oda I, Suzuki H, Nonaka S et al. Complications of gastric endoscopic submucosal dissection. Dig Endosc 2013; 25: (Suppl. 01): 71 \u2013 78. doi:10.1111/j.1443-1661.2012.01376.x",
+      "citation": "Oda I, Suzuki H, Nonaka S. et al. Complications of gastric endoscopic submucosal dissection. Dig Endosc 2013; 25 (Suppl. 01) 71-78",
       "doi": "10.1111/j.1443-1661.2012.01376.x"
     },
     {
       "id": "ref-71",
-      "citation": "Chung IK, Lee JH, Lee SH et al. Therapeutic outcomes in 1000 cases of endoscopic submucosal dissection for early gastric neoplasms: Korean ESD Study Group multicenter study. Gastrointest Endosc 2009; 69: 1228 \u2013 1235. doi:10.1016/j.gie.2008.09.027",
+      "citation": "Chung IK, Lee JH, Lee SH. et al. Therapeutic outcomes in 1000 cases of endoscopic submucosal dissection for early gastric neoplasms: Korean ESD Study Group multicenter study. Gastrointest Endosc 2009; 69: 1228-1235",
       "doi": "10.1016/j.gie.2008.09.027"
     },
     {
       "id": "ref-72",
-      "citation": "Fuccio L, Hassan C, Ponchon T et al. Clinical outcomes after endoscopic submucosal dissection for colorectal neoplasia: a systematic review and meta-analysis. Gastrointest Endosc 2017; 86: 74\u2013 86 e17. doi:10.1016/j.gie.2017.02.024",
+      "citation": "Fuccio L, Hassan C, Ponchon T. et al. Clinical outcomes after endoscopic submucosal dissection for colorectal neoplasia: a systematic review and meta-analysis. Gastrointest Endosc 2017; 86: 74-86 e17",
       "doi": "10.1016/j.gie.2017.02.024"
     },
     {
       "id": "ref-73",
-      "citation": "Daoud DC, Suter N, Durand M et al. Comparing outcomes for endoscopic submucosal dissection between Eastern and Western countries: A systematic review and meta-analysis. World J Gastroenterol 2018; 24: 2518 \u2013 2536. doi:10.3748/wjg.v24.i23.2518",
+      "citation": "Daoud DC, Suter N, Durand M. et al. Comparing outcomes for endoscopic submucosal dissection between Eastern and Western countries: A systematic review and meta-analysis. World J Gastroenterol 2018; 24: 2518-2536",
       "doi": "10.3748/wjg.v24.i23.2518"
     },
     {
       "id": "ref-74",
-      "citation": "Catalano F, Mengardo V, Trecca A et al. The impact of experience on shortand long-term outcomes on gastric ESD: a western series. Updates Surg 2019: doi:10.1007/s13304-019-00628-1",
+      "citation": "Catalano F, Mengardo V, Trecca A. et al. The impact of experience on short- and long-term outcomes on gastric ESD: a western series. Updates Surg 2019;",
       "doi": "10.1007/s13304-019-00628-1"
     },
     {
       "id": "ref-75",
-      "citation": "Saito Y, Uraoka T, Yamaguchi Y et al. A prospective, multicenter study of 1111 colorectal endoscopic submucosal dissections (with video). Gastrointest Endosc 2010; 72: 1217 \u2013 1225. doi:10.1016/j.gie.2010.08.004",
+      "citation": "Saito Y, Uraoka T, Yamaguchi Y. et al. A prospective, multicenter study of 1111 colorectal endoscopic submucosal dissections (with video). Gastrointest Endosc 2010; 72: 1217-1225",
       "doi": "10.1016/j.gie.2010.08.004"
     },
     {
       "id": "ref-76",
-      "citation": "Fuccio L, Bhandari P, Maselli R et al. Ten quality indicators for endoscopic submucosal dissection: what should be monitored and reported to improve quality. Ann Transl Med 2018; 6: 262. doi:10.21037/atm.2018.05.42",
+      "citation": "Fuccio L, Bhandari P, Maselli R. et al. Ten quality indicators for endoscopic submucosal dissection: what should be monitored and reported to improve quality. Ann Transl Med 2018; 6: 262",
       "doi": "10.21037/atm.2018.05.42"
     },
     {
       "id": "ref-77",
-      "citation": "Lian J, Chen S, Zhang Y et al. A meta-analysis of endoscopic submucosal dissection and EMR for early gastric cancer. Gastrointest Endosc 2012; 76: 763 \u2013 770 Pimentel-Nunes Pedro et al. ESD curriculum \u2026 Endoscopy 2019; 51 Elektronischer Sonderdruck zur pers\u00f6nlichen Verwendung. doi:10.1016/j.gie.2012.06.014",
+      "citation": "Lian J, Chen S, Zhang Y. et al. A meta-analysis of endoscopic submucosal dissection and EMR for early gastric cancer. Gastrointest Endosc 2012; 76: 763-770",
       "doi": "10.1016/j.gie.2012.06.014",
       "lowConfidence": true,
       "confidenceIssues": [

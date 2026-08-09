@@ -1,0 +1,2209 @@
+{
+  "schemaVersion": 1,
+  "slug": "emr-colon",
+  "sourceDoi": "10.1055/a-2077-0497",
+  "sourceUrl": "https://www.thieme-connect.de/products/ejournals/html/10.1055/a-2077-0497",
+  "extractionMethod": "publisher-html-dom",
+  "reviewedAt": "2026-08-09",
+  "recommendations": [
+    {
+      "number": 1,
+      "lineageId": "rec-emr-cln-r1-prereq-competencies",
+      "withinSection": "sec-emr-preadoption",
+      "statementSha256": "fbac431d7ac98564853b6b9087be11584a0acc6db68ec00846c094fa85296551",
+      "grade": {
+        "strength": "best-practice",
+        "evidenceQuality": "no-evidence-available"
+      },
+      "levelOfAgreement": null,
+      "subItems": [
+        {
+          "label": "i",
+          "textSha256": "3dcc23559268d6d0d65adc0a7d53c204f6b59d62c1bbb12d995c3c680acbbb28",
+          "levelOfAgreement": 97
+        },
+        {
+          "label": "ii",
+          "textSha256": "dbcfff82b942306a5da47c658fc674307e03fe8755623beab042d8e607eccae9",
+          "levelOfAgreement": 96
+        },
+        {
+          "label": "iii",
+          "textSha256": "9ea883dd6aa1e2ba593925239af410a94f14cdda5899ab942b3a5dee8cd4d867",
+          "levelOfAgreement": 97
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "lineageId": "rec-emr-cln-r2-unit-standards",
+      "withinSection": "sec-emr-preadoption",
+      "statementSha256": "bb3ce1f177a4422b1cd30ede18636f52076319219ee76a54afd7c0c20552f7fb",
+      "grade": {
+        "strength": "best-practice",
+        "evidenceQuality": "no-evidence-available"
+      },
+      "levelOfAgreement": null,
+      "subItems": [
+        {
+          "label": "i",
+          "textSha256": "30d21da3abdd564f7ed86a7e5ca674a3b8707dacf98877763929a5ff356f9f0c",
+          "levelOfAgreement": 90
+        },
+        {
+          "label": "ii",
+          "textSha256": "ddf004928c2b574a414c52a95805f3915e20540e44eb3b332e6c541a155342a5",
+          "levelOfAgreement": 95
+        },
+        {
+          "label": "iii",
+          "textSha256": "8a67766b68e44a8cd7fc5842b1a4a0ba439e572091e78dd770f0fc311b59320c",
+          "levelOfAgreement": 96
+        },
+        {
+          "label": "iv",
+          "textSha256": "83b419af154f3912529c3073a12061a2c181a29d2a83e3a2920c22efb2bbc0a5",
+          "levelOfAgreement": 96
+        },
+        {
+          "label": "v",
+          "textSha256": "493a84e86762e68b8b522afe3f7ac2846162056c0e5e7394c2f554c4fbfb2bad",
+          "levelOfAgreement": 96
+        },
+        {
+          "label": "vi",
+          "textSha256": "cf6a34aee0d558e695083310288f2c6bca37a0389b7483e8899dfa3ae0d55176",
+          "levelOfAgreement": 90
+        },
+        {
+          "label": "vii",
+          "textSha256": "18035e5c6bd1b0c74c0f5162ccd6dd2e1db4d2c78f97902ee8abf5ae2dc95e5b",
+          "levelOfAgreement": 96
+        },
+        {
+          "label": "viii",
+          "textSha256": "1c9792a35163703c2b8128fe160f125de1e3d091d0eb52dc6be70ca5a70e3d9a",
+          "levelOfAgreement": 95
+        },
+        {
+          "label": "ix",
+          "textSha256": "7f7ee35af8e80b7f67466f0fc85be0f0fc018520c2caeaa60c8f543ef9718fcb",
+          "levelOfAgreement": 90
+        },
+        {
+          "label": "x",
+          "textSha256": "81179c21f40b71c331ea408f1492ac7cbab28379e25fc573a88f3948ae06b26e",
+          "levelOfAgreement": 94
+        },
+        {
+          "label": "xi",
+          "textSha256": "2538f1d0f22b81d178ed0cb327d1a9fdeb44ea50af30b481c68c2a6805a86919",
+          "levelOfAgreement": 97
+        },
+        {
+          "label": "xii",
+          "textSha256": "ad2d087d484bc0c5b313b4a16b243020eb660855ca6a0b2d01e6b011ee6fa881",
+          "levelOfAgreement": 96
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "lineageId": "rec-emr-cln-r3-smi-assessment",
+      "withinSection": "sec-emr-knowledge",
+      "statementSha256": "60ac5fde1000ee67e4f95ce38e2727eba75fc4b2388030965f26657cb928288d",
+      "grade": {
+        "strength": "strong",
+        "evidenceQuality": "moderate",
+        "levelOfAgreement": 89
+      },
+      "levelOfAgreement": null,
+      "subItems": [
+        {
+          "label": "i",
+          "textSha256": "6f8ba24319dd2fdd675b46ba3fe2cee2ecc865996b29eee1cdc762ee35642199",
+          "levelOfAgreement": null
+        },
+        {
+          "label": "ii",
+          "textSha256": "aa55eed4ba91648f25deb07936188b0e0660c3ae2d56748c2cd3cd307283b895",
+          "levelOfAgreement": null
+        },
+        {
+          "label": "iii",
+          "textSha256": "141784d6d48fce100ce6852165c26a52ccb6f303eb6ad58506c8a8a9920bb086",
+          "levelOfAgreement": null
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "lineageId": "rec-emr-cln-r4-features-prompting-consideration-bloc",
+      "withinSection": "sec-emr-knowledge",
+      "statementSha256": "7b269400a0cd81c5a7c04bf89506174f5bda3d0f6c8e9b3451c883f84a5341b9",
+      "grade": {
+        "strength": "strong",
+        "evidenceQuality": "moderate"
+      },
+      "levelOfAgreement": null,
+      "subItems": [
+        {
+          "label": "i",
+          "textSha256": "f0f7917944e6f413de6d15b34db9e79502eddd065d7b9276cf11b5d4bd6c5b35",
+          "levelOfAgreement": 93
+        },
+        {
+          "label": "ii",
+          "textSha256": "32290ad81c6227d6b37d974a4644fbe1a31ba8801ac1b55f11f417bcb1b7e1d0",
+          "levelOfAgreement": 85
+        },
+        {
+          "label": "iii",
+          "textSha256": "1bd7f01e6b5b35ea14cea13a055645ae84fc667838ee350e8b392b632c854491",
+          "levelOfAgreement": 88
+        },
+        {
+          "label": "iv",
+          "textSha256": "6a6258524e4fc70d443875196116f25b559c772be1b10d8c54d66a010409da7f",
+          "levelOfAgreement": 92
+        },
+        {
+          "label": "v",
+          "textSha256": "c1bb02f687b450327e7dd550ea9530967b46d82755e0b0995770ff2ef64f61a3",
+          "levelOfAgreement": 91
+        },
+        {
+          "label": "vi",
+          "textSha256": "cdc155335d3d7b5727026d3ad69d7f05a015cee1bbb5f871994469e61e9bfdf8",
+          "levelOfAgreement": 84
+        },
+        {
+          "label": "vii",
+          "textSha256": "e74e1161bca14b0e93c39ff38163d436607dc1eefe265c30693b73570ab592bb",
+          "levelOfAgreement": 84
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "lineageId": "rec-emr-cln-r5-equipment-materials-for-emr",
+      "withinSection": "sec-emr-knowledge",
+      "statementSha256": "5a49a6f4bc704d6eff784a94d022599bc79821db472c880f429f06767f16d240",
+      "grade": {
+        "strength": "weak",
+        "evidenceQuality": "moderate"
+      },
+      "levelOfAgreement": null,
+      "subItems": [
+        {
+          "label": "i",
+          "textSha256": "7503689618436920709488d2428c0f36d2842995cfb889b3de3ee32350910fbb",
+          "levelOfAgreement": 96
+        },
+        {
+          "label": "ii",
+          "textSha256": "21611ce7ab6a92c31763267a6fd3104f7e763c072b5f8cbef3d4bf9315ce23c0",
+          "levelOfAgreement": 92
+        },
+        {
+          "label": "iii",
+          "textSha256": "733853a16b231a98b408c71759c03c87c0a50234979aaecd78381e0fe72ee9a4",
+          "levelOfAgreement": 90
+        },
+        {
+          "label": "iv",
+          "textSha256": "fdaa528b7a3cd2fb6ffac982422a8d58b5e2fe1a3004a15895f7890e6952fc07",
+          "levelOfAgreement": 90
+        },
+        {
+          "label": "v",
+          "textSha256": "7469eff75739fb774851804defb25702724dc3ebd25d3d87b796aeb3f94e4768",
+          "levelOfAgreement": 96
+        },
+        {
+          "label": "vi",
+          "textSha256": "a8d8d25e497b3d26cdc6efdee55ce3059b61b889066b3e2f9b5491d3703bbd10",
+          "levelOfAgreement": 96
+        },
+        {
+          "label": "vii",
+          "textSha256": "6e75fafe61f120f9f008bc485a14ca63494ca4e11c746bcc912e10d86306540b",
+          "levelOfAgreement": 93
+        },
+        {
+          "label": "viii",
+          "textSha256": "17f1593bc7c57fe84da45de88f2bcecfbe37c210ae6226aab52ae9ecaae41278",
+          "levelOfAgreement": 93
+        },
+        {
+          "label": "ix",
+          "textSha256": "3c513c376d6ad9dd211ec558d57c555a6f08f6fa5916de581fb968ced10d4a26",
+          "levelOfAgreement": 92
+        },
+        {
+          "label": "x",
+          "textSha256": "66fb9fb0cefe8a94279603c4965e3f28e36cf2cdf8abee4b2db457e8b5e73043",
+          "levelOfAgreement": 94
+        },
+        {
+          "label": "xi",
+          "textSha256": "d945460d8f2c283ad95e7242931606002f37bed97f19f77fc278bed1a611ce9a",
+          "levelOfAgreement": 94
+        },
+        {
+          "label": "xii",
+          "textSha256": "b63d825f3735ce4dfd6806e010dc7284848654c12841ab545cb73549755c827d",
+          "levelOfAgreement": 93
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "lineageId": "rec-emr-cln-r6-minimum-reporting-requirements",
+      "withinSection": "sec-emr-knowledge",
+      "statementSha256": "be6ba754a2f2c7eae1cf24efbb216652544743040d303e698a7b09de7d7455a3",
+      "grade": {
+        "strength": "strong",
+        "evidenceQuality": "moderate"
+      },
+      "levelOfAgreement": null,
+      "subItems": [
+        {
+          "label": "i",
+          "textSha256": "59ae6ace31173f8b984b5e3dc861fe3ee6ceb0ad28b14fed437a46aaebb04e71",
+          "levelOfAgreement": 97
+        },
+        {
+          "label": "ii",
+          "textSha256": "c7e09de4c9783a49be010541d8ee60256beb644c6ee5ba11b2c06e4434df0024",
+          "levelOfAgreement": 95
+        },
+        {
+          "label": "iii",
+          "textSha256": "f4b3c77c9132d9236810a21f435711623a05ea69b8cc273527f1e50e23020e4d",
+          "levelOfAgreement": 96
+        },
+        {
+          "label": "iv",
+          "textSha256": "039963eb883100adb022139a0855394093381235b59b581c8639492a798984de",
+          "levelOfAgreement": 98
+        },
+        {
+          "label": "v",
+          "textSha256": "e3d028910714fa9e5f140e1a733a7c836083a6932159f451e8fba0db352b8139",
+          "levelOfAgreement": 96
+        },
+        {
+          "label": "vi",
+          "textSha256": "782dab1eac40145759fcb1d1f50964e24df266e1718df9bee9070ce4e3dfeac2",
+          "levelOfAgreement": 98
+        },
+        {
+          "label": "vii",
+          "textSha256": "9e59db541b8b6fd7b0c4506ee0499b9b6d4af384761ae7ad1d889eaeeaa55113",
+          "levelOfAgreement": 87
+        },
+        {
+          "label": "viii",
+          "textSha256": "2bd1260ff2f8f5e4acf49f3aa16b6bb87c8fd5a73e97b4488623fa04af743064",
+          "levelOfAgreement": 96
+        },
+        {
+          "label": "ix",
+          "textSha256": "578eaea7f55a57f9f0f66f00b312e65dacfd06c916c6ef70ef9ea8d4dc8ec032",
+          "levelOfAgreement": 89
+        },
+        {
+          "label": "x",
+          "textSha256": "4543a2c0e0c394dd68fd7f7820ff5904e9d1f7e0683fdfc262ec7824b5dadf39",
+          "levelOfAgreement": 98
+        },
+        {
+          "label": "xi",
+          "textSha256": "07ee13dbfee5ea5c3b2181d3e5ff7b9b0f07f07f4067f53307e6aeabbb2e96eb",
+          "levelOfAgreement": 95
+        },
+        {
+          "label": "xii",
+          "textSha256": "61e6a4c08dbf9c4e3a4060a4ad5c274aad67f6c09e1750f8bc21ca8880b1a771",
+          "levelOfAgreement": 93
+        },
+        {
+          "label": "xiii",
+          "textSha256": "6ed28954a301881d79064b901ddee33de2f1aea048cf91b950d5a58a45abafec",
+          "levelOfAgreement": 99
+        },
+        {
+          "label": "xiv",
+          "textSha256": "db54d555d99977353cd748bfe26ad4ab6639ebc9fc7d96a708a4a71608a18c2a",
+          "levelOfAgreement": 95
+        },
+        {
+          "label": "xv",
+          "textSha256": "2f3f7fd8a9a293077a5ae9b45d1235d7b64f92f89c188e1184c86647762b642e",
+          "levelOfAgreement": 80
+        },
+        {
+          "label": "xvi",
+          "textSha256": "26fd68b5974c8ef854d13c9822dbd7ebcf6bb9afa6e3508d35df71b9a7fc20c7",
+          "levelOfAgreement": 82
+        },
+        {
+          "label": "xvii",
+          "textSha256": "b1b164e8bbcd1c1e96cca76c0efa8a5a510e981b54327c0dc9c436e8a260be10",
+          "levelOfAgreement": 84
+        },
+        {
+          "label": "xviii",
+          "textSha256": "617f259fa9014a211866a8fbff06ecfd6de84d59d052f003d94982d750bb47d8",
+          "levelOfAgreement": 96
+        },
+        {
+          "label": "xix",
+          "textSha256": "f33456eeb1d20d2c4ab20a19ab34a6ba2c74924ced14f8c9610e28ac6cf191a3",
+          "levelOfAgreement": 97
+        },
+        {
+          "label": "xx",
+          "textSha256": "4d65ee5833d088255886653a707ebb403fed8c7a386ccb381b40ac4aecd525fc",
+          "levelOfAgreement": 97
+        },
+        {
+          "label": "xxi",
+          "textSha256": "6173c7161c183611239a5e0ab3e38a8f0212a10b2ce3c2b1a4fa82e2fda512f6",
+          "levelOfAgreement": 97
+        },
+        {
+          "label": "xxii",
+          "textSha256": "69ad10918ba11565e78d806259df3d5e95441dacc56494be85150d5e5da1103a",
+          "levelOfAgreement": 98
+        },
+        {
+          "label": "xxiii",
+          "textSha256": "78155f1d1789b445b8ac0d89ade4d14aa278a42c76d84f32ff689b6d625cfe41",
+          "levelOfAgreement": 96
+        },
+        {
+          "label": "xxiv",
+          "textSha256": "8098bf774f44a22d995530948263c2ff9e1959f49c1defd6de759ecd6cf9e932",
+          "levelOfAgreement": 96
+        },
+        {
+          "label": "xxv",
+          "textSha256": "6f95dccf34f137ae0f3f34d621c615572f4003731f70c6f1dee94161b9375b72",
+          "levelOfAgreement": 96
+        },
+        {
+          "label": "xxvi",
+          "textSha256": "a291b4b9f93caff1915fed659742ee200823a8a2209d32d7918ee47d43dec48a",
+          "levelOfAgreement": 95
+        },
+        {
+          "label": "xxvii",
+          "textSha256": "177cffa1fa426a46673b2807c91d8a2f975906856163de14d76d38cac3989a21",
+          "levelOfAgreement": 89
+        },
+        {
+          "label": "xxviii",
+          "textSha256": "5cc7eea8921ff6a62d6d69104e86b6c593ed9e0d562e06aa69780e0d44eed446",
+          "levelOfAgreement": 88
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "lineageId": "rec-emr-cln-r7-interpretation-pathology-reports",
+      "withinSection": "sec-emr-knowledge",
+      "statementSha256": "c95078d3b0bafa283f19915f580a4d33a46bef338c06473274f96aa5ac4c634f",
+      "grade": {
+        "strength": "strong",
+        "evidenceQuality": "moderate"
+      },
+      "levelOfAgreement": null,
+      "subItems": [
+        {
+          "label": "i",
+          "textSha256": "c18151d546e318bc37d24618cae3501ea21e0c7018aa5dfefae6351c973166f9",
+          "levelOfAgreement": 97
+        },
+        {
+          "label": "ii",
+          "textSha256": "fa340bbedd06139b0efb41963f7ae668cca376e3f73fe9d2d3f3e6cc47819e46",
+          "levelOfAgreement": 96
+        },
+        {
+          "label": "iii",
+          "textSha256": "150f0258447433cbfa86cced8cf39bc019307c59a7a5c4cb0b4ee190c7591912",
+          "levelOfAgreement": 96
+        },
+        {
+          "label": "iv",
+          "textSha256": "234ff427188b8730d0163301a30fe815f7501147c8cd4f30f9e6b9747114679b",
+          "levelOfAgreement": 93
+        },
+        {
+          "label": "v",
+          "textSha256": "75958e5963096af7b42054946f1f6dd504bb691e0f06fac099ef4e080b65f01b",
+          "levelOfAgreement": 94
+        },
+        {
+          "label": "vi",
+          "textSha256": "ed87a0af2bcd515d1b45ddf6cba722d266ae2bbf889ffc51a7bf820c13015d4f",
+          "levelOfAgreement": 94
+        },
+        {
+          "label": "vii",
+          "textSha256": "3dc3305f6904bd4420a006005fc938889aa0d727ea0642ea5494f499f4674fc7",
+          "levelOfAgreement": 90
+        },
+        {
+          "label": "viii",
+          "textSha256": "b3cc436f38f622d31b3b1613d4c49ede33dce665e7ea7a75eecc6e9e3fcbec1e",
+          "levelOfAgreement": 94
+        },
+        {
+          "label": "ix",
+          "textSha256": "d8dcdea8ff65af89ccf6911b82d05bc82c0d5df45397fbe80688527452367541",
+          "levelOfAgreement": 94
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "lineageId": "rec-emr-cln-r8-attendance-multidisciplinary-meetings",
+      "withinSection": "sec-emr-knowledge",
+      "statementSha256": "c30002d77e846561b2e0071a6c1af3e4286d19d47940edcb28ddfa644a415bb1",
+      "grade": {
+        "strength": "strong",
+        "evidenceQuality": "moderate",
+        "levelOfAgreement": 93
+      },
+      "levelOfAgreement": null,
+      "subItems": []
+    },
+    {
+      "number": 9,
+      "lineageId": "rec-emr-cln-r9-ground-rules-prior-starting",
+      "withinSection": "sec-emr-before-emr",
+      "statementSha256": "5dd0cfcc2192b963212388deed6262885c8adad6f29aa9f84dfa9efe9d1c9e5c",
+      "grade": {
+        "strength": "best-practice",
+        "evidenceQuality": "low"
+      },
+      "levelOfAgreement": null,
+      "subItems": [
+        {
+          "label": "i",
+          "textSha256": "32439a0e5b5efbaaa4b8bf84e923ebecf89eebdafb405d4d54ebf2bf19198c6c",
+          "levelOfAgreement": 86
+        },
+        {
+          "label": "ii",
+          "textSha256": "bb6e919c2b5f7649db1441677985e4478e6da23cd99a5437665f035deb064dca",
+          "levelOfAgreement": 92
+        },
+        {
+          "label": "iii",
+          "textSha256": "fc9a87d17a2424fe4ff6166602884e312067058ae7fbc471d983b384f80535d4",
+          "levelOfAgreement": 91
+        },
+        {
+          "label": "iv",
+          "textSha256": "ca27afce8c733c3722aba7f939b3cd51bc92d645aad830fe323f0ec04f4bae17",
+          "levelOfAgreement": 88
+        },
+        {
+          "label": "v",
+          "textSha256": "7684925d08038c685f04c91e65946bb20d7a31377f1ba0aa9bc375861a2d350c",
+          "levelOfAgreement": 96
+        },
+        {
+          "label": "vi",
+          "textSha256": "1066c7d42b6599a65c6f801231590598adae3a8b0ffffeaefaa05d6dc4b2c6f3",
+          "levelOfAgreement": 92
+        },
+        {
+          "label": "vii",
+          "textSha256": "7c97883325ee61a3a717b8bbe4e5ee4dfcafec1cdb9a5fca7405cf60cc365941",
+          "levelOfAgreement": 96
+        },
+        {
+          "label": "viii",
+          "textSha256": "5dabd8641dc9a5d5829083d3ae6fb4debe4bd0f121be8c86fe4afe50f2358e11",
+          "levelOfAgreement": 99
+        },
+        {
+          "label": "ix",
+          "textSha256": "68cca7627f40459366caadd4420845eed41dcb2838edc19946467ae6959bd250",
+          "levelOfAgreement": 86
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "lineageId": "rec-emr-cln-r10-patient-consent",
+      "withinSection": "sec-emr-before-emr",
+      "statementSha256": "5fadd42a3538bd3bb573c9b7027b70af69f2595423799e448fc299b59e519b6d",
+      "grade": {
+        "strength": "strong",
+        "evidenceQuality": "moderate"
+      },
+      "levelOfAgreement": null,
+      "subItems": [
+        {
+          "label": "i",
+          "textSha256": "76ec673cc250f95fb2951b95b33553678aaff75d59552baeab828828efab06d9",
+          "levelOfAgreement": 93
+        },
+        {
+          "label": "ii",
+          "textSha256": "255cbef16e7dba224530dfbaebb1f2e54593c8420cfadc891389cecf60624022",
+          "levelOfAgreement": 94
+        },
+        {
+          "label": "iii",
+          "textSha256": "f95b9a304837f14abebd5cf2980c58344ed8784adf10be3536041a6b26370a5a",
+          "levelOfAgreement": 93
+        },
+        {
+          "label": "iv",
+          "textSha256": "e11c9d1663f2cccde3004f4a1e767dd581362b335136e63cb6c9717545eed915",
+          "levelOfAgreement": 99
+        },
+        {
+          "label": "v",
+          "textSha256": "3c4a3850d92e38678d12cf9cd28749cec47a5d29e42eca96f33c643b75bb1134",
+          "levelOfAgreement": 94
+        },
+        {
+          "label": "vi",
+          "textSha256": "0556c741c64c6806f2f18be0dd9e295462d1ad0f51e637296acc01ba1c69fab6",
+          "levelOfAgreement": 96
+        },
+        {
+          "label": "vii",
+          "textSha256": "46a748e462849b6cceff34da9886e242cefb7b8896e770404613e8bc80c1a911",
+          "levelOfAgreement": 97
+        },
+        {
+          "label": "viii",
+          "textSha256": "7b00dd1f1b490d74fc3acfe4a3302e37defdb7e52854625f3b51adda46f4cdf2",
+          "levelOfAgreement": 96
+        },
+        {
+          "label": "ix",
+          "textSha256": "f0394c2c2f48672f17e3d1943503d03ffb8b97fe7e77a930eb98b05022b7d856",
+          "levelOfAgreement": 93
+        },
+        {
+          "label": "x",
+          "textSha256": "99e0ad5265433735ab3af83a714b172e8a7a194858d462e2566201c0cc81112b",
+          "levelOfAgreement": 95
+        },
+        {
+          "label": "xi",
+          "textSha256": "2f09277b64460e69a70bcd1db02859c6563ffaa290dedd81d8bcb928fefe2cb6",
+          "levelOfAgreement": 92
+        },
+        {
+          "label": "xii",
+          "textSha256": "ef81e0cd1da0bd63ed8c934c23f1326583e8503eaa2191ef96c246c88b6791b4",
+          "levelOfAgreement": 92
+        },
+        {
+          "label": "xiii",
+          "textSha256": "34cd6c37fd4a46469d97cdea92af71acfd81c487516e622dfc4d298c3394f56a",
+          "levelOfAgreement": 90
+        },
+        {
+          "label": "xiv",
+          "textSha256": "29ecf9315a5e0e3fef3ed96d71832fb343aa4526b5375199a2dc8bd5502c2771",
+          "levelOfAgreement": 81
+        },
+        {
+          "label": "xv",
+          "textSha256": "8671c5744ee42c46c727b86510324e34ec692d0f296fa9c772cf580b263a950d",
+          "levelOfAgreement": 96
+        },
+        {
+          "label": "xvi",
+          "textSha256": "941907746a66eb001fc5f370931192833502be607f84f5f19a930c5e74660e86",
+          "levelOfAgreement": 95
+        },
+        {
+          "label": "xvii",
+          "textSha256": "32c0e64e5568a45a9d3cf3614e2e6c6f91a7229be0553b1401386079642c9974",
+          "levelOfAgreement": 95
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "lineageId": "rec-emr-cln-r11-patient-lesion-work-prior",
+      "withinSection": "sec-emr-before-emr",
+      "statementSha256": "a0679062d80f6fafea7e3bfbb1d3fedf8c9e67e9488aa1cb4bfe3b06f669b35e",
+      "grade": {
+        "strength": "weak",
+        "evidenceQuality": "moderate"
+      },
+      "levelOfAgreement": null,
+      "subItems": [
+        {
+          "label": "i",
+          "textSha256": "79b076d7da9121640ef30f7999a9c8c88b0f97596cce95ad4cc420275014e862",
+          "levelOfAgreement": 97
+        },
+        {
+          "label": "ii",
+          "textSha256": "6076c057c3a29af250a2fc1ec1624cd95658df06d6266d58ba81fb7299b3d691",
+          "levelOfAgreement": 96
+        },
+        {
+          "label": "iii",
+          "textSha256": "a3f2ed11ffb26adddf5e9057a275270a208bd91cdef9072c2e4dcfbb6e127651",
+          "levelOfAgreement": 92
+        },
+        {
+          "label": "iv",
+          "textSha256": "dcc100b512e3fe47ee44675a223363158178126ebef8454674012f5d7fdef0da",
+          "levelOfAgreement": 96
+        },
+        {
+          "label": "v",
+          "textSha256": "6db749bcbc8e4fea5b8db7ec00c8a21426d34fbdc21efdd809b1eb546c729452",
+          "levelOfAgreement": 89
+        },
+        {
+          "label": "vi",
+          "textSha256": "65df2f23e2304802c9d8ea0d174bfcc7002494d289a392c33c14cad49f129d63",
+          "levelOfAgreement": 93
+        },
+        {
+          "label": "vii",
+          "textSha256": "ea4526600bf3dd6426a904d77443f6bbb3a83c7da15bf11de255dd8a1d26846a",
+          "levelOfAgreement": 85
+        },
+        {
+          "label": "viii",
+          "textSha256": "8effab66fb61146d671f9cae7bc1092deee7bcd08900272d92caec8590375051",
+          "levelOfAgreement": 92
+        },
+        {
+          "label": "ix",
+          "textSha256": "2e1d26710bbd7e8d65908d08e12e7b507e0971bc27a01cd75cc85fad0b7b603e",
+          "levelOfAgreement": 95
+        },
+        {
+          "label": "x",
+          "textSha256": "dfcf9bb8bd9c90d58e2edec7cf61e65042e74b3a9e9c00de812af78f499bb7de",
+          "levelOfAgreement": 92
+        },
+        {
+          "label": "xi",
+          "textSha256": "dd5a3ad3ea815b5838fae8e1611915f2a4ddf78e0eff9ba5ef2ef89128016f79",
+          "levelOfAgreement": 82
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "lineageId": "rec-emr-cln-r12-determining-whether-trainee-should",
+      "withinSection": "sec-emr-before-emr",
+      "statementSha256": "75a1c9f02a551565db3530eeb8506d72e12701a00147af8374e9642872ef06df",
+      "grade": {
+        "strength": "best-practice",
+        "evidenceQuality": "low"
+      },
+      "levelOfAgreement": null,
+      "subItems": [
+        {
+          "label": "i",
+          "textSha256": "19723738113a9dc10764045b285be487bd99669510f301650c71098dab54f1b9",
+          "levelOfAgreement": 97
+        },
+        {
+          "label": "ii",
+          "textSha256": "08f5e04c319fa19d405c2398f25572d6dc7928debcf1640857c5d86351109702",
+          "levelOfAgreement": 93
+        },
+        {
+          "label": "iii",
+          "textSha256": "5db2c49694118a9854a55e67b8972fc8d3ecf4961ab2299a3bae3fdf03eff613",
+          "levelOfAgreement": 88
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "lineageId": "rec-emr-cln-r13-determining-the-resectability-lnpcps",
+      "withinSection": "sec-emr-before-emr",
+      "statementSha256": "24d25185505b9e724a4c0fa74ba61d51d75ed273cd2730a0f17d26a2cc55304e",
+      "grade": {
+        "strength": "best-practice",
+        "evidenceQuality": "low"
+      },
+      "levelOfAgreement": null,
+      "subItems": [
+        {
+          "label": "i",
+          "textSha256": "3a981ed450eff413ddd72b530dc2c8e1b4ca3a61e40b8110b35ab0fecb8d05c9",
+          "levelOfAgreement": 95
+        },
+        {
+          "label": "ii",
+          "textSha256": "350dbcfc5aa156635a75e1f4393357017e1a08dfec44023bc67e71983f88bd46",
+          "levelOfAgreement": 94
+        },
+        {
+          "label": "iii",
+          "textSha256": "8e7287ed0ee363c11b71b8ae4eac0f0dcbc24528eda3855b4d69c8e799f73175",
+          "levelOfAgreement": 92
+        },
+        {
+          "label": "iv",
+          "textSha256": "d1366c71f3dd02c4ab06a11ec259de6197187f9372a2df2bcdfeb30cc5c532bf",
+          "levelOfAgreement": 96
+        }
+      ]
+    },
+    {
+      "number": 14,
+      "lineageId": "rec-emr-cln-r14-considerations-before-emr-lnpcp",
+      "withinSection": "sec-emr-before-emr",
+      "statementSha256": "9dd75df3ef88c82888f2998893e105adf9d33d991cfe2325af2bea079ddb09db",
+      "grade": {
+        "strength": "best-practice",
+        "evidenceQuality": "low"
+      },
+      "levelOfAgreement": null,
+      "subItems": [
+        {
+          "label": "i",
+          "textSha256": "30d23253d4e95a015eeee98dc1645145a737f52bc119a42d8d628b7be58b5246",
+          "levelOfAgreement": 86
+        },
+        {
+          "label": "ii",
+          "textSha256": "57b8f9d9dca6ca02944931725f9e737fd0ac4fffbb436320a476f59edd61a0e6",
+          "levelOfAgreement": 95
+        },
+        {
+          "label": "iii",
+          "textSha256": "47da4a42247f97e9ee2b62dbc17723efe2098e18e27398547654c35fdfb3add4",
+          "levelOfAgreement": 84
+        },
+        {
+          "label": "iv",
+          "textSha256": "fc9f2bf2fe7caf6ee9e351239783b27a7efaeb9988be67d4c16bb11b384e35cc",
+          "levelOfAgreement": 89
+        },
+        {
+          "label": "v",
+          "textSha256": "278cf5b54d7205cf65c8799e694db4aad38c458f37b5bbadb1c659ff570e77ee",
+          "levelOfAgreement": 96
+        },
+        {
+          "label": "vi",
+          "textSha256": "7e05dde74398b5dfefd84c5c0dd93c68dbc1dae3771ee680ef6336cf14140e90",
+          "levelOfAgreement": 94
+        },
+        {
+          "label": "vii",
+          "textSha256": "38fc5e4992df81c8bd8bfb9b3926ce7efc27035775b92fe2ce31f1a8b0439b63",
+          "levelOfAgreement": 94
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "lineageId": "rec-emr-cln-r15-endoscopic-non-technical-skills",
+      "withinSection": "sec-emr-before-emr",
+      "statementSha256": "ad115465de2f032bf4ff13ce2ca95d95809abc2fd85d447add25a5f4a4f80bc2",
+      "grade": {
+        "strength": "best-practice",
+        "evidenceQuality": "low"
+      },
+      "levelOfAgreement": null,
+      "subItems": [
+        {
+          "label": "i",
+          "textSha256": "ab65963ba32f3eaa263832428f14bbef7e61cec1a65441209df45d36355111b2",
+          "levelOfAgreement": 89
+        },
+        {
+          "label": "ii",
+          "textSha256": "d32591375383a950b9e20f091daa212953ea99bbbf905d98626c7d547d37df88",
+          "levelOfAgreement": 89
+        },
+        {
+          "label": "iii",
+          "textSha256": "c0d7886bc09579716c2241944b683a62b2b404379b387430c7b1a89d8bc8d543",
+          "levelOfAgreement": 89
+        },
+        {
+          "label": "iv",
+          "textSha256": "141c4e1bb1056dfc41363dea007263cefef06c7ffb44672b7aebfa7fe703927c",
+          "levelOfAgreement": 92
+        },
+        {
+          "label": "v",
+          "textSha256": "b8ef96750874534434050d4431f1674cb13911d3f142dd5a1428b2205e2854d8",
+          "levelOfAgreement": 92
+        },
+        {
+          "label": "vi",
+          "textSha256": "7d3486dc4c719d4526d02819ea3d5dc68fff0b31a3fd29fbccf20d39db7a9ec9",
+          "levelOfAgreement": 92
+        },
+        {
+          "label": "vii",
+          "textSha256": "696571802bae60757cc038d1a7b9f9954aa91be8582cd1ce1a1bef3e9854c3f1",
+          "levelOfAgreement": 92
+        },
+        {
+          "label": "viii",
+          "textSha256": "803e1ef3a3e96531a6b77cde20d249f87c01cc196d8b0c22799e03948fc6d6c4",
+          "levelOfAgreement": 91
+        },
+        {
+          "label": "ix",
+          "textSha256": "19c0f14977e6030d62615b10c6e28a58cb55e1b86a307aafc5049d8212029d61",
+          "levelOfAgreement": 93
+        },
+        {
+          "label": "x",
+          "textSha256": "99c0dbed305a7369de8650774c38832664dccf5e72d6d8fa17be6ba9b5bfec37",
+          "levelOfAgreement": 92
+        },
+        {
+          "label": "xi",
+          "textSha256": "adb49458ddd803a3971913c545208a9ae445c26fe31aa4b60a9de6b487089778",
+          "levelOfAgreement": 89
+        },
+        {
+          "label": "xii",
+          "textSha256": "bb3aa2c3d166dd1537a60f3507b36181338cc87b2191ac72b0a0c17aab4321a6",
+          "levelOfAgreement": 89
+        },
+        {
+          "label": "xiii",
+          "textSha256": "0f6a550aa5566d7695e8059735dbfee1b347d708b8b291c9d0f86514823bbe79",
+          "levelOfAgreement": 88
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "lineageId": "rec-emr-cln-r16-submucosal-injection-technique",
+      "withinSection": "sec-emr-during-emr",
+      "statementSha256": "c5cd75171be64c32a5c0e11fb43497ca1176d7d0df34b07393a21940110761b3",
+      "grade": {
+        "strength": "weak",
+        "evidenceQuality": "low"
+      },
+      "levelOfAgreement": null,
+      "subItems": [
+        {
+          "label": "i",
+          "textSha256": "0a1f15db01af7f818cabd0f94d2179707cd1511443ece69c9b25cca51be2c540",
+          "levelOfAgreement": 86
+        },
+        {
+          "label": "ii",
+          "textSha256": "cbaa72bc4240a67ca05561b6f293c6cc1f1b0e4a3a60b7c1a9475a38c24c7620",
+          "levelOfAgreement": 88
+        },
+        {
+          "label": "iii",
+          "textSha256": "0a7454759968fdb4a4eca60ab91c0d5c43a7702e776602599012cf3fcf8484ae",
+          "levelOfAgreement": 88
+        },
+        {
+          "label": "iv",
+          "textSha256": "5caa4071c244df0e2d591af6f20366c87dfa5d5a3002526e8f13b864c41f758a",
+          "levelOfAgreement": 87
+        },
+        {
+          "label": "v",
+          "textSha256": "eb72aee05d02f40390253c24d513ece52205e67fce038bba1d3507cbe5f36f18",
+          "levelOfAgreement": 87
+        },
+        {
+          "label": "vi",
+          "textSha256": "0158d6699ea70121afb214c72f2fc99b1289903846f4c5efaa05f1f0026a88ed",
+          "levelOfAgreement": 88
+        },
+        {
+          "label": "vii",
+          "textSha256": "e87367236c1f4bc145d047626f475c587c312fd45a0073159c2dbde0a36a2405",
+          "levelOfAgreement": 86
+        },
+        {
+          "label": "viii",
+          "textSha256": "1965e84f3e2e02ab7a92dd8e113b6d713419a8af5bebce0b66114e1219fc1953",
+          "levelOfAgreement": 85
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "lineageId": "rec-emr-cln-r17-cold-snare-placement",
+      "withinSection": "sec-emr-during-emr",
+      "statementSha256": "557997c23657400f7575e1b348b1ffe82e7164489bb4f1ea982bc92e7ce5def4",
+      "grade": {
+        "strength": "best-practice",
+        "evidenceQuality": "low"
+      },
+      "levelOfAgreement": null,
+      "subItems": [
+        {
+          "label": "i",
+          "textSha256": "716107b6e28c445f029f06aa314c08ad669f5bed4bf4cce31d9c5b8d1aa3014d",
+          "levelOfAgreement": 90
+        },
+        {
+          "label": "ii",
+          "textSha256": "272f370df5c822d33444d9d7d92f660c18f2b517aa5a2e4c2ac36b0293623a64",
+          "levelOfAgreement": 91
+        },
+        {
+          "label": "iii",
+          "textSha256": "e2906efdd16767cb2fd993a368022c450ad029a0a67ae9ec4fab830848b1753a",
+          "levelOfAgreement": 91
+        },
+        {
+          "label": "iv",
+          "textSha256": "706186c160d67fd046a52c460552ed54fe461791eeadd80989f5799cfec34111",
+          "levelOfAgreement": 92
+        },
+        {
+          "label": "v",
+          "textSha256": "bc2e7f2101e32f0438691a82b86c770467fa3a7734b6dac311ade287201288a5",
+          "levelOfAgreement": 94
+        },
+        {
+          "label": "vi",
+          "textSha256": "c96f81db616688aca76f1c0385030a76e27cb04996c4871f497569fedd3b1783",
+          "levelOfAgreement": 93
+        },
+        {
+          "label": "vii",
+          "textSha256": "3758edcc9a7abb74e20c663636b981bfd08123331cd0e7ee4c8bc7122ae92653",
+          "levelOfAgreement": 92
+        },
+        {
+          "label": "viii",
+          "textSha256": "242c81873bb7b092e3650b6f52994e5121ce31c531be6631cfe6d53f960362b3",
+          "levelOfAgreement": 92
+        },
+        {
+          "label": "ix",
+          "textSha256": "80034a34bc4a1f4647ea787a22c686823551e6e3fb1abfa78b2ef62531f92a0d",
+          "levelOfAgreement": 93
+        },
+        {
+          "label": "x",
+          "textSha256": "6fc8eab462a12093ccb95552790936e9adaa9ea1eda7cb809d913ba60a258666",
+          "levelOfAgreement": 93
+        },
+        {
+          "label": "xi",
+          "textSha256": "a9fe8d096569c62938bc7f0bb4a057e8f6802ca58302fbb1267da372ab1c890b",
+          "levelOfAgreement": 90
+        },
+        {
+          "label": "xii",
+          "textSha256": "1ceba25dd8e1c78b1222ab48d41245d156a502bbbc43c6d0e94e170266ff25ad",
+          "levelOfAgreement": 90
+        },
+        {
+          "label": "xiii",
+          "textSha256": "e013815f47d2bd3c162147aeca22be066b9281f2bf654213d2df018e89a2158f",
+          "levelOfAgreement": 91
+        },
+        {
+          "label": "xiv",
+          "textSha256": "df153b17ed62c154b74e590c1aa8a9f9b23ad1ddc61a3c8385a1d15c4601b527",
+          "levelOfAgreement": 87
+        },
+        {
+          "label": "xv",
+          "textSha256": "986cadc65379d359bd7568f1957240aa50cd2bb3e9bf33ea49e69c07cbcbea88",
+          "levelOfAgreement": 90
+        },
+        {
+          "label": "xvi",
+          "textSha256": "8ccdb37c4e1fd18543fe634d53bfad67bcce54906e8b3431b96b54140efff3ba",
+          "levelOfAgreement": 86
+        },
+        {
+          "label": "xvii",
+          "textSha256": "b46e59339450df024bc7c752c5c736592e894a1bf33af89e0d122a4daa8e7f56",
+          "levelOfAgreement": 94
+        },
+        {
+          "label": "xviii",
+          "textSha256": "d8a1f30f2fca031bc092adea51d9e8ec52bf254744249acbcf79e6bb5cbf80dc",
+          "levelOfAgreement": 91
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "lineageId": "rec-emr-cln-r18-inspection-the-post-emr",
+      "withinSection": "sec-emr-during-emr",
+      "statementSha256": "547ce51f974464eef1e9ccf214ecd0f2eb9035b066a03cf9786f1901abd85f8d",
+      "grade": {
+        "strength": "best-practice",
+        "evidenceQuality": "low"
+      },
+      "levelOfAgreement": null,
+      "subItems": [
+        {
+          "label": "i",
+          "textSha256": "695b80298514cd4b27dbb127c4d39bf7b6dbe5ca1e0eafeb149e02e2a833c732",
+          "levelOfAgreement": 94
+        },
+        {
+          "label": "ii",
+          "textSha256": "9c571af5eac9a8949e1007785c597b7873f4130992b2f67879e62480dcda0230",
+          "levelOfAgreement": 84
+        },
+        {
+          "label": "iii",
+          "textSha256": "516a03ad99bf44832c3b95346d4114edb2528bab98ae676c2a2556e6c1db91bd",
+          "levelOfAgreement": 86
+        },
+        {
+          "label": "iv",
+          "textSha256": "0fa3aa19ff835508541c1d8701de51a100aefaf80c153494764cb32074016f59",
+          "levelOfAgreement": 90
+        },
+        {
+          "label": "v",
+          "textSha256": "4d49e90eb3a83a54f6ece464470e47ac6cd5902c53da7f0126fd860f891f712a",
+          "levelOfAgreement": 89
+        },
+        {
+          "label": "vi",
+          "textSha256": "444e9676899278555d37e58f248241168cbd546e0921163ed88780d5a1e6c37d",
+          "levelOfAgreement": 89
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "lineageId": "rec-emr-cln-r19-submucosal-injection-technique",
+      "withinSection": "sec-emr-during-emr",
+      "statementSha256": "7033a7da47bbc6a927d15be9c7f4211181459114d94eed9de9f99b6084bdced6",
+      "grade": {
+        "strength": "best-practice",
+        "evidenceQuality": "low"
+      },
+      "levelOfAgreement": null,
+      "subItems": [
+        {
+          "label": "i",
+          "textSha256": "bb052a0c96167cf9a70ba2809e1a009a574d18baab2da270c0f1faaa18b43a76",
+          "levelOfAgreement": 91
+        },
+        {
+          "label": "ii",
+          "textSha256": "0a1f15db01af7f818cabd0f94d2179707cd1511443ece69c9b25cca51be2c540",
+          "levelOfAgreement": 91
+        },
+        {
+          "label": "iii",
+          "textSha256": "58d3391a67236b56b4cedfacb935d557f20e85593780e18473db8cadd4383256",
+          "levelOfAgreement": 91
+        },
+        {
+          "label": "iv",
+          "textSha256": "e778ccc78444d1839f81358b12bd36b92e7d687783c9128df569ec90b2177b88",
+          "levelOfAgreement": 92
+        },
+        {
+          "label": "v",
+          "textSha256": "5caa4071c244df0e2d591af6f20366c87dfa5d5a3002526e8f13b864c41f758a",
+          "levelOfAgreement": 94
+        },
+        {
+          "label": "vi",
+          "textSha256": "f0cd043f3e7d95a98477704a4271536674cf8a7218b3bb43271b82aa10734e3e",
+          "levelOfAgreement": 89
+        },
+        {
+          "label": "vii",
+          "textSha256": "0158d6699ea70121afb214c72f2fc99b1289903846f4c5efaa05f1f0026a88ed",
+          "levelOfAgreement": 91
+        },
+        {
+          "label": "viii",
+          "textSha256": "e87367236c1f4bc145d047626f475c587c312fd45a0073159c2dbde0a36a2405",
+          "levelOfAgreement": 91
+        },
+        {
+          "label": "ix",
+          "textSha256": "1965e84f3e2e02ab7a92dd8e113b6d713419a8af5bebce0b66114e1219fc1953",
+          "levelOfAgreement": 90
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "lineageId": "rec-emr-cln-r20-snare-placement-capture-and",
+      "withinSection": "sec-emr-during-emr",
+      "statementSha256": "86e16225ed1105d9c0e228b0d75055f60f1bf718e67093a4635d35a622164ae8",
+      "grade": {
+        "strength": "best-practice",
+        "evidenceQuality": "low"
+      },
+      "levelOfAgreement": null,
+      "subItems": [
+        {
+          "label": "i",
+          "textSha256": "fe929f39452dc83382e4e06bc11f6145b4ba4d6ca3e35087d33a0d36e097abe7",
+          "levelOfAgreement": 92
+        },
+        {
+          "label": "ii",
+          "textSha256": "87430dd7e5d58cd729905317c12410bcd82db1e9cdd2c813e202fb80ef45e61a",
+          "levelOfAgreement": 86
+        },
+        {
+          "label": "iii",
+          "textSha256": "4d3a77b7c32803ce93ab9ad896b37b7eb39fac398b113932fabcd4ff49992bbb",
+          "levelOfAgreement": 91
+        },
+        {
+          "label": "iv",
+          "textSha256": "706186c160d67fd046a52c460552ed54fe461791eeadd80989f5799cfec34111",
+          "levelOfAgreement": 96
+        },
+        {
+          "label": "v",
+          "textSha256": "b5491c4b297126d17e9480602f130b6fb8014c39bc10286dd289ef3c35acfe1d",
+          "levelOfAgreement": 96
+        },
+        {
+          "label": "vi",
+          "textSha256": "412dd4c9f95e5fcbf73b7d050fa85383df1d1aacc974fc5e3364c5f5d940fb92",
+          "levelOfAgreement": 89
+        },
+        {
+          "label": "vii",
+          "textSha256": "3758edcc9a7abb74e20c663636b981bfd08123331cd0e7ee4c8bc7122ae92653",
+          "levelOfAgreement": 89
+        },
+        {
+          "label": "viii",
+          "textSha256": "b0417ffdbf386a5d9bff105b7cd0f7b76ce48e77950637e5d438bfafdf70831e",
+          "levelOfAgreement": 94
+        },
+        {
+          "label": "ix",
+          "textSha256": "80034a34bc4a1f4647ea787a22c686823551e6e3fb1abfa78b2ef62531f92a0d",
+          "levelOfAgreement": 94
+        },
+        {
+          "label": "x",
+          "textSha256": "f13adfc75a300475a30ad77a36d1775fc21460c83a452b694071a0bc0d68517e",
+          "levelOfAgreement": 95
+        },
+        {
+          "label": "xi",
+          "textSha256": "2a7187019fc94ecf9301541d73370a2c1621687a9bed4b709e5e0e6b16e08157",
+          "levelOfAgreement": 92
+        },
+        {
+          "label": "xii",
+          "textSha256": "a9fe8d096569c62938bc7f0bb4a057e8f6802ca58302fbb1267da372ab1c890b",
+          "levelOfAgreement": 91
+        },
+        {
+          "label": "xiii",
+          "textSha256": "513e58dad67972a9d61af60a9a9028583d4fc24f53a55ccca0a84aa9330cc584",
+          "levelOfAgreement": 88
+        },
+        {
+          "label": "xiv",
+          "textSha256": "a3cf7cb1ee379fc5ceedb75355f56042a07f3e7dd10da35473c29b18b4eafd3e",
+          "levelOfAgreement": 86
+        },
+        {
+          "label": "xv",
+          "textSha256": "9430db9f9412a67d020b73f094d2cc1a4322422a007399abf73b6e022d058d4c",
+          "levelOfAgreement": 96
+        },
+        {
+          "label": "xvi",
+          "textSha256": "b834bd6b83987b39a3e1355f74501e6e7244a5d29d7e8c73c6c9b89919712185",
+          "levelOfAgreement": 96
+        },
+        {
+          "label": "xvii",
+          "textSha256": "1208649fecce4beacaafcdedf7d6778cd6d615be1fca6affb195628dafccc415",
+          "levelOfAgreement": 96
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "lineageId": "rec-emr-cln-r21-safety-checks-before-applying",
+      "withinSection": "sec-emr-during-emr",
+      "statementSha256": "637e0ca0091d34f682b4e591e792322ffcf48c525991e6281eb42f2d83ee20ad",
+      "grade": {
+        "strength": "moderately-strong",
+        "evidenceQuality": "low"
+      },
+      "levelOfAgreement": null,
+      "subItems": [
+        {
+          "label": "i",
+          "textSha256": "63f0ca42d89a1d8517d9e848f6c12a8f5ace17afbb57737c70a6dd308d13970d",
+          "levelOfAgreement": 94
+        },
+        {
+          "label": "ii",
+          "textSha256": "25b10c0b4272471f30c5293ad7c8f4fc4c6d7d9e723555b42f79a1fb97feafb8",
+          "levelOfAgreement": 93
+        },
+        {
+          "label": "iii",
+          "textSha256": "91fe35c56ce618c5667a42ec2387fe35d8793af965a6f2af75d3bad4c586dcd9",
+          "levelOfAgreement": 93
+        },
+        {
+          "label": "iv",
+          "textSha256": "b76345609db212e792a3deb8c93c61021336779f759425624ed3ce63c641abfb",
+          "levelOfAgreement": 93
+        },
+        {
+          "label": "v",
+          "textSha256": "811b9b02577e68033b4259f8306dbdcee12dc480e1abbc48ee1eb2e507bd0224",
+          "levelOfAgreement": 94
+        },
+        {
+          "label": "vi",
+          "textSha256": "21734545bd37a1ec29cf0d4277d8f597bffb3410718573940a03fb585fe9dd82",
+          "levelOfAgreement": 91
+        },
+        {
+          "label": "vii",
+          "textSha256": "c9210c5a7b70c888e4fdf706a926a2bd898ece2bcf824f29ed61c5adac81bfe7",
+          "levelOfAgreement": 90
+        },
+        {
+          "label": "viii",
+          "textSha256": "457b839212d1920dcd3d9ee9ce4a43c20b06cbd8ea18bff46ffb6ec7804a8e77",
+          "levelOfAgreement": 90
+        },
+        {
+          "label": "ix",
+          "textSha256": "a02405e92a17c0e3e0847d7844722da77673e84dab399cdd948a02c149c3e353",
+          "levelOfAgreement": 83
+        },
+        {
+          "label": "x",
+          "textSha256": "1f4caf4b62756d86fbd757e236b3efc333b075c193d5b96d66d9278c468ee014",
+          "levelOfAgreement": 96
+        },
+        {
+          "label": "xi",
+          "textSha256": "93dc976d6fba1696726084725532958e4f1c20b7c2731a990b25f5845e18c195",
+          "levelOfAgreement": 93
+        },
+        {
+          "label": "xii",
+          "textSha256": "115c6acf467650304fd4d63c5931569ecb6eeeb6ea2ede0cbdeb276f8fd9d42d",
+          "levelOfAgreement": 94
+        }
+      ]
+    },
+    {
+      "number": 22,
+      "lineageId": "rec-emr-cln-r22-inspection-the-post-emr",
+      "withinSection": "sec-emr-during-emr",
+      "statementSha256": "1b2e7f2d5d05cc303ed1bd45c159ef16a287cfa064ec437ca0f8fd893c093acc",
+      "grade": {
+        "strength": "strong",
+        "evidenceQuality": "moderate"
+      },
+      "levelOfAgreement": null,
+      "subItems": [
+        {
+          "label": "i",
+          "textSha256": "bc206f4480d01bff0e5938e937186d88524c2deb98b5e90006c550f57854e1ff",
+          "levelOfAgreement": 95
+        },
+        {
+          "label": "ii",
+          "textSha256": "516a03ad99bf44832c3b95346d4114edb2528bab98ae676c2a2556e6c1db91bd",
+          "levelOfAgreement": 90
+        },
+        {
+          "label": "iii",
+          "textSha256": "a9949ad3e9d3370eb7fe294c58e081a7d8c70284511bab099814d6a58bc6bbe8",
+          "levelOfAgreement": 95
+        },
+        {
+          "label": "iv",
+          "textSha256": "e4f65b2daf47251d1209dcf1580f3323c88e11a6031bc142bc5496480a47e148",
+          "levelOfAgreement": 88
+        },
+        {
+          "label": "v",
+          "textSha256": "b62af072ca89f86b56dc16767c76d198eb077b7a9bc48ff68feb1d4b8e359ab7",
+          "levelOfAgreement": 90
+        },
+        {
+          "label": "vi",
+          "textSha256": "72925088e339fa75bca2590ccc70c232474f395e9c36132f6236911ad2eb864a",
+          "levelOfAgreement": 88
+        },
+        {
+          "label": "vii",
+          "textSha256": "e6f43ee10e64a2308355aac55a81f9a455deb010642b4e0099afa6d9dd034fb7",
+          "levelOfAgreement": 94
+        },
+        {
+          "label": "viii",
+          "textSha256": "f46b246dd423e18f9bfab4a0a5d92b07f48f9d9dea3f9d62170d081b990d7422",
+          "levelOfAgreement": 90
+        },
+        {
+          "label": "ix",
+          "textSha256": "ce283abc10ecd8fcf8b394ed32b10809aaef9368e61d0f7c03cb0f255cda61e5",
+          "levelOfAgreement": 90
+        },
+        {
+          "label": "x",
+          "textSha256": "85b86540c0f638fc628b3a53d17ac2ce0c1626d7b94fc87a02acf7e00eb45906",
+          "levelOfAgreement": 90
+        },
+        {
+          "label": "xi",
+          "textSha256": "853af70e855e1acd0bd4f97fc127c674c510118eb84e2d1997ea569fed7728b5",
+          "levelOfAgreement": 95
+        },
+        {
+          "label": "xii",
+          "textSha256": "b6517cb258c4bbf55d0185175a4819f280b172e23fdad1bdb6a21eec062eed5a",
+          "levelOfAgreement": 88
+        },
+        {
+          "label": "xiii",
+          "textSha256": "da6718a2ff13e8f8ac8f09843516fbce67b89e07712c64da9c96aa24c8588e08",
+          "levelOfAgreement": 92
+        }
+      ]
+    },
+    {
+      "number": 23,
+      "lineageId": "rec-emr-cln-r23-application-thermal-energy-the",
+      "withinSection": "sec-emr-during-emr",
+      "statementSha256": "bc3fca67d62c9636fe0c2433caa172077be83fffeff3d0961298ebe07b4911bb",
+      "grade": {
+        "strength": "strong",
+        "evidenceQuality": "high"
+      },
+      "levelOfAgreement": null,
+      "subItems": [
+        {
+          "label": "i",
+          "textSha256": "8a182af32b80e7be536206c77fb564b02925b635c31e46d138d17ca44ee035d7",
+          "levelOfAgreement": 96
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "lineageId": "rec-emr-cln-r24-alternative-methods-for-removal",
+      "withinSection": "sec-emr-during-emr",
+      "statementSha256": "06e4b478630e6a83b9d67f0c6fcb72d0b53c9cb15f92f6a5b3803d98f4bc1686",
+      "grade": {
+        "strength": "strong",
+        "evidenceQuality": "moderate"
+      },
+      "levelOfAgreement": null,
+      "subItems": [
+        {
+          "label": "i",
+          "textSha256": "a05d40a1515dfc5d8bbcd290d4d5ef671b402c038343db9412f2ac3b5337385b",
+          "levelOfAgreement": 84
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "lineageId": "rec-emr-cln-r25-retrieval-polyp-tissue",
+      "withinSection": "sec-emr-during-emr",
+      "statementSha256": "5ec66dc4f136b2f6b03ba64fe152dd6c77fdc70c6dfb109bb5cd07ff94f2cacd",
+      "grade": {
+        "strength": "weak",
+        "evidenceQuality": "low"
+      },
+      "levelOfAgreement": null,
+      "subItems": [
+        {
+          "label": "i",
+          "textSha256": "b8168524313924db3fc771a394ac107623bb0f7ef903f115a3c42f0c0a09c9f5",
+          "levelOfAgreement": 92
+        },
+        {
+          "label": "ii",
+          "textSha256": "c1b3be4eb94c86b3ce3d9a9bc3f7380c3f5f238cebfc7670992c0171501dfbf8",
+          "levelOfAgreement": 88
+        },
+        {
+          "label": "iii",
+          "textSha256": "7f041f29b8f6d0c5646352bc1146cc79b0efedaf81ca1d2a4d93f6e0762ba124",
+          "levelOfAgreement": 86
+        },
+        {
+          "label": "iv",
+          "textSha256": "640ac1edfb177da2acf4df4dc6945e2bdcdc6793be7e35544a9a12a6cf7ba56b",
+          "levelOfAgreement": 84
+        },
+        {
+          "label": "v",
+          "textSha256": "27156ffd484f77199e55e5d3574d29599cc7442cc4b36316da3b5bc2a6bc708d",
+          "levelOfAgreement": 89
+        },
+        {
+          "label": "vi",
+          "textSha256": "d6674e19b0f87ccafacced243e48fb1aa04c3b5a3e2a945cb2d7bbd60980310d",
+          "levelOfAgreement": 92
+        },
+        {
+          "label": "vii",
+          "textSha256": "e0b3ffcfc5c5550293ad1e1b4ba81781d8fd51aefac54917d6ad1c468e79fb22",
+          "levelOfAgreement": 94
+        },
+        {
+          "label": "viii",
+          "textSha256": "fdf91ca2952df7e217f4e41e2c01260b0624f04efa03ad39f4c942e63c0d73ab",
+          "levelOfAgreement": 88
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "lineageId": "rec-emr-cln-r26-strategies-for-difficult-access",
+      "withinSection": "sec-emr-during-emr",
+      "statementSha256": "53861bcd4e5035ad2f45c66a0bf7d163b3dc9e850cbc362f4db90956191b9dd3",
+      "grade": {
+        "strength": "moderately-strong",
+        "evidenceQuality": "low"
+      },
+      "levelOfAgreement": null,
+      "subItems": [
+        {
+          "label": "i",
+          "textSha256": "6853befa1e852ca163e67068be3d33fbe31cc05661cf996c08c5d7ee60632046",
+          "levelOfAgreement": 96
+        },
+        {
+          "label": "ii",
+          "textSha256": "1e8d7d8845483146923d88e8c1f6a20a63a3d0343225a30cb90d9a779c81f656",
+          "levelOfAgreement": 94
+        },
+        {
+          "label": "iii",
+          "textSha256": "77b948d07f42d70a05922d8dc7cdddac866e1b5ddbada1e55f559604da4aef20",
+          "levelOfAgreement": 93
+        },
+        {
+          "label": "iv",
+          "textSha256": "ec9340b7f2187225dc0eef6935508dd1b618e1a8648945383ec85cf6fbc74cfc",
+          "levelOfAgreement": 96
+        },
+        {
+          "label": "v",
+          "textSha256": "2418da0268c6acd722b82bc6744cdc0627ff6e122eb0a11934bc20793bcc169a",
+          "levelOfAgreement": 86
+        },
+        {
+          "label": "vi",
+          "textSha256": "f8424130236a9ea2fd44da3f271fe0dbd4a511f9201f88728f409833dd3cd102",
+          "levelOfAgreement": 93
+        },
+        {
+          "label": "vii",
+          "textSha256": "a2d299d81a5f61ba1793224229a8fe4f9bc4db76ea3696ee9e42077ed19f5a2a",
+          "levelOfAgreement": 90
+        },
+        {
+          "label": "viii",
+          "textSha256": "21a6bbf00fa9ecd49d1cd1e7b5687b75519278907ec1dc768e0812e3cdf300a5",
+          "levelOfAgreement": 94
+        },
+        {
+          "label": "ix",
+          "textSha256": "2b14509432a7e2f9d2f4d03f5e6e818db0869992298a10769e689cc33b87eacb",
+          "levelOfAgreement": 91
+        },
+        {
+          "label": "x",
+          "textSha256": "88ad707cb7a87fd8a454a283bee114d55cbd4c46176c7b579eedcb09b6aaed53",
+          "levelOfAgreement": 94
+        },
+        {
+          "label": "xi",
+          "textSha256": "40d89655832e00f71210206416b4f107e632122b26d85fadfacca4c64b64c3a0",
+          "levelOfAgreement": 91
+        },
+        {
+          "label": "xii",
+          "textSha256": "a7a3173db00d1d188d0b1df4af40bb75cdeff7b06ce170581a5a31b5d44926b2",
+          "levelOfAgreement": 85
+        },
+        {
+          "label": "xiii",
+          "textSha256": "37f37597b38ad078ae3f4a476d56893305fd86ee0c7855904f236610edb110bf",
+          "levelOfAgreement": 94
+        },
+        {
+          "label": "xiv",
+          "textSha256": "824eccf3c3ea87ad20d5cc1ec62a4f0b7e8a89e7097db537d8b5d8fddfcbcc68",
+          "levelOfAgreement": 92
+        },
+        {
+          "label": "xv",
+          "textSha256": "6eed034f6b42523dff1cc402f4a3171b9f2aaf715d46b57d1ef904946b2a1770",
+          "levelOfAgreement": 85
+        },
+        {
+          "label": "xvi",
+          "textSha256": "452ee51c185d0075b874905cf2e16eda91bad6d364012722ccfd38d0368b6cca",
+          "levelOfAgreement": 85
+        },
+        {
+          "label": "xvii",
+          "textSha256": "3c4de06c346d2416faf2bb2ee23a6c1ed13e5e62149d30176564a84594584f1c",
+          "levelOfAgreement": 95
+        },
+        {
+          "label": "xviii",
+          "textSha256": "c537af3bb1203849d48c2a53371b7f3df5ab441e429cbc4e8110aaf8f8ef7794",
+          "levelOfAgreement": 85
+        }
+      ]
+    },
+    {
+      "number": 27,
+      "lineageId": "rec-emr-cln-r27-strategies-for-emr-specific",
+      "withinSection": "sec-emr-during-emr",
+      "statementSha256": "b93fe67e7e6bc821df6f99effdc57c06193800fbbdb5a0490a6e88966c2ae232",
+      "grade": {
+        "strength": "strong",
+        "evidenceQuality": "moderate"
+      },
+      "levelOfAgreement": null,
+      "subItems": [
+        {
+          "label": "i",
+          "textSha256": "c7d559cef1e93f411c2f604d7e6606b5e10784d485b2f49fa3bd69de4ab0f34f",
+          "levelOfAgreement": 88
+        },
+        {
+          "label": "ii",
+          "textSha256": "e98175dd5fe07db2045ce450ff5b99946e6c48b468d21a8cce033f130b1106e9",
+          "levelOfAgreement": 92
+        },
+        {
+          "label": "iii",
+          "textSha256": "ebbaca648208d20377c310613a756bc5b3d2a8b488867cf05029ecd65281526d",
+          "levelOfAgreement": 92
+        },
+        {
+          "label": "iv",
+          "textSha256": "2439d4698b436591ddca4ec3966eee73b2d34eeb4544f8f4134dbae85647aafb",
+          "levelOfAgreement": 92
+        },
+        {
+          "label": "v",
+          "textSha256": "5b49462b8b0c50701a41cd3c20ee96a18b71189834d5dbc91b84260c7fbb388a",
+          "levelOfAgreement": 93
+        },
+        {
+          "label": "vi",
+          "textSha256": "d8c9f89ad25fdd5927d0798bae4670c204320bd935f06d2851e2106cb781e9b0",
+          "levelOfAgreement": 91
+        }
+      ]
+    },
+    {
+      "number": 28,
+      "lineageId": "rec-emr-cln-r28-determing-whether-emr-procedures",
+      "withinSection": "sec-emr-during-emr",
+      "statementSha256": "6fd0dfdb008c73d0977f6e509ad25125145685d9d90d9c81ca9e818700c4b159",
+      "grade": {
+        "strength": "best-practice",
+        "evidenceQuality": "low"
+      },
+      "levelOfAgreement": null,
+      "subItems": [
+        {
+          "label": "i",
+          "textSha256": "2b3f6fce8f9dd0279278f72793c05cf00d1390f43c98b630a0c8235d4452c612",
+          "levelOfAgreement": 95
+        },
+        {
+          "label": "ii",
+          "textSha256": "ff50e1f1877b22308b8557d7ad061425ba56090ef948c231a8e0841060a381b0",
+          "levelOfAgreement": 94
+        },
+        {
+          "label": "iii",
+          "textSha256": "23c6b45114f373da9546e4c08bf443cbdbde75d26fbf6952673d2b083507d5f0",
+          "levelOfAgreement": 90
+        },
+        {
+          "label": "iv",
+          "textSha256": "da752cd9797c56314d9dd645566fd45e5a4ba4e8357adc00097db24d5446eaf2",
+          "levelOfAgreement": 93
+        },
+        {
+          "label": "v",
+          "textSha256": "fe1cd06a48bf88ad8c3d34b559ed1626dffcbdd5a5089b73b3b134e5e9af13e7",
+          "levelOfAgreement": 94
+        },
+        {
+          "label": "vi",
+          "textSha256": "117f8d238361d351256b46cab38d109066120b57f75371986fbf9b163a5ba91d",
+          "levelOfAgreement": 95
+        },
+        {
+          "label": "vii",
+          "textSha256": "b02eb41d21ca6a95bcb3869f23f9829bd9d31275ce6bf6e5142af6df71d4121f",
+          "levelOfAgreement": 94
+        },
+        {
+          "label": "viii",
+          "textSha256": "a9cb4fb557a8a0fc34bb1dc4484d656edfeccc37a9bba7d10ec8d9fe1dce629f",
+          "levelOfAgreement": 93
+        },
+        {
+          "label": "ix",
+          "textSha256": "f47c96c15d8d5238a012bb3aa75bbca379bbcb722f6a331f0f7c92a56e055e86",
+          "levelOfAgreement": 94
+        },
+        {
+          "label": "x",
+          "textSha256": "c623f80da60a8a3a2f028ce2fcdfac755143ceed35f55ba5c8e303110d021f5a",
+          "levelOfAgreement": 94
+        },
+        {
+          "label": "xi",
+          "textSha256": "b5ccb492518d56810e5996586a0f9d2c552a58bfb0cfd6052f077c7874ad777c",
+          "levelOfAgreement": 95
+        },
+        {
+          "label": "xii",
+          "textSha256": "a6722399c51c5eb299b8dbc5a3cc8353efb178dab07b1e2c1c5e66e9d75be33e",
+          "levelOfAgreement": 92
+        },
+        {
+          "label": "xiii",
+          "textSha256": "fd3a86d35e750a3a3f55788e6860d6a4b9b3e399c8f2a14c5582f30fc4be00a9",
+          "levelOfAgreement": 96
+        }
+      ]
+    },
+    {
+      "number": 29,
+      "lineageId": "rec-emr-cln-r29-management-intraprocedural-bleeding",
+      "withinSection": "sec-emr-during-emr",
+      "statementSha256": "b62193e8500e6c1283a3ee800c2138123e3276d80fdf453ea1f73f48a76ced06",
+      "grade": {
+        "strength": "best-practice",
+        "evidenceQuality": "low"
+      },
+      "levelOfAgreement": null,
+      "subItems": [
+        {
+          "label": "i",
+          "textSha256": "326aa4366c63599c3f55f4e3665ac8796355f62918848cd6fa283da262e936d7",
+          "levelOfAgreement": 95
+        },
+        {
+          "label": "ii",
+          "textSha256": "477e9a2818dfe3c900989603ab4b356a33aa430e13eb9567dd5cc8782d833e2f",
+          "levelOfAgreement": 90
+        },
+        {
+          "label": "iii",
+          "textSha256": "150d8d31bf836fedd142462b87a99d271441fa6d12db74582b9e0c91d09d3f6d",
+          "levelOfAgreement": 83
+        },
+        {
+          "label": "iv",
+          "textSha256": "92c41a68d7d9aadaf53e85ad3736207e85f2fb6238c8bbaea5066ab8582f92ae",
+          "levelOfAgreement": 93
+        },
+        {
+          "label": "v",
+          "textSha256": "ce557b904b2cf76e2ce26c686c1aca7588b9a2f2410855a32347c0ed65cda4f3",
+          "levelOfAgreement": 95
+        },
+        {
+          "label": "vi",
+          "textSha256": "0531b673f6921d9b8264a9f954d7ed1697fcbf2cdcde923c6b768cd2859b1e49",
+          "levelOfAgreement": 91
+        },
+        {
+          "label": "vii",
+          "textSha256": "de14aaff25a1cda2a4dab321f3ca3d68c9fd7d3132e31ad5f6fd7d5498548ce1",
+          "levelOfAgreement": 87
+        },
+        {
+          "label": "viii",
+          "textSha256": "2b77b8427ba6d1a2158005ae4fd67ef591e5ccfa9d03eb1c712ed338c4ac7a48",
+          "levelOfAgreement": 92
+        },
+        {
+          "label": "ix",
+          "textSha256": "92d32fba3ad13837c7c2810132abcdce9f1caea2b41fc0e5bed8d39386f831e2",
+          "levelOfAgreement": 94
+        },
+        {
+          "label": "x",
+          "textSha256": "e709dc02e0ec3a129d69533d351b36a96fe36251d98cb174641a87cf4397523f",
+          "levelOfAgreement": 91
+        },
+        {
+          "label": "xi",
+          "textSha256": "ebf54ee71fa7c0dcdc6bcc59f59fdd4d240cd6c637431e3c2bc90eaf0d605652",
+          "levelOfAgreement": 86
+        },
+        {
+          "label": "xii",
+          "textSha256": "8cde47bd2e649e4f7802b5ef30392904b27f61d27829ac818c9cf249232bdc20",
+          "levelOfAgreement": 87
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "lineageId": "rec-emr-cln-r30-management-intraprocedural",
+      "withinSection": "sec-emr-during-emr",
+      "statementSha256": "ad4f592a11adfae5da7795edb0350d11631c54af0d548cb7160867fb6fd615c5",
+      "grade": {
+        "strength": "best-practice",
+        "evidenceQuality": "low"
+      },
+      "levelOfAgreement": null,
+      "subItems": [
+        {
+          "label": "i",
+          "textSha256": "b0c7d57ce41085c06083d86a3d9cc154021f176be6584e683a990ada95c80150",
+          "levelOfAgreement": 95
+        },
+        {
+          "label": "ii",
+          "textSha256": "8f2979766deba26662bbc6a3ad578fa86b6292a88829b76b5a29b1cf7808c911",
+          "levelOfAgreement": 95
+        },
+        {
+          "label": "iii",
+          "textSha256": "6a56cb30c00ab1598f3f08ec51effe9f6eee7f5f56ff118f224be6101b9b0e58",
+          "levelOfAgreement": 83
+        },
+        {
+          "label": "iv",
+          "textSha256": "6f65dc06bd8f5489c54c1807f2c85d6d1d1739b3b8bac5c8e68e90c747f5a0a6",
+          "levelOfAgreement": 95
+        },
+        {
+          "label": "v",
+          "textSha256": "238c7b2796112e7f26d6a25d0697845111f1257a75bca0332f5a02b4cdaabded",
+          "levelOfAgreement": 95
+        },
+        {
+          "label": "vi",
+          "textSha256": "8b98b20aa8a027bace24432221dade3070996edf3ee50018c1c9ffdb74e6cc56",
+          "levelOfAgreement": 96
+        },
+        {
+          "label": "vii",
+          "textSha256": "fcb1b39afa089a4b8e529e7727f7cff761321da164ae985a0aebb20409a4ac4c",
+          "levelOfAgreement": 95
+        },
+        {
+          "label": "viii",
+          "textSha256": "6059353dc4a4b7a6d07d556ced12d6a239eedbb09613a38f4b09d112bdcd6c78",
+          "levelOfAgreement": 89
+        },
+        {
+          "label": "ix",
+          "textSha256": "67037db1a8e758c602e1d8fac134f437882d28a3a375f8282626275e7b6b1928",
+          "levelOfAgreement": 92
+        },
+        {
+          "label": "x",
+          "textSha256": "d629a81013a9d40c3a98850682b11bba31eea1361a2fe6de9692a0327e134cc5",
+          "levelOfAgreement": 92
+        },
+        {
+          "label": "xi",
+          "textSha256": "11e8e41f734ac5b5308ee3eb3e90333ea55379aadaef684f25e8b6471b9028ba",
+          "levelOfAgreement": 82
+        },
+        {
+          "label": "xii",
+          "textSha256": "e191fc0b56aad45df4c9d13c5dfb88309a3bdf3cfb1b23c634d46ef424337cfb",
+          "levelOfAgreement": 92
+        }
+      ]
+    },
+    {
+      "number": 31,
+      "lineageId": "rec-emr-cln-r31-management-post-emr-bleeding",
+      "withinSection": "sec-emr-during-emr",
+      "statementSha256": "913a51d7c8d8e34e35c69137e50eb858759447ce9c177a42ee88d0d07cd891e2",
+      "grade": {
+        "strength": "strong",
+        "evidenceQuality": "moderate"
+      },
+      "levelOfAgreement": null,
+      "subItems": [
+        {
+          "label": "i",
+          "textSha256": "a9457edf0bfec46ebe2dfa1267035a272dd7a32c24f1a5b1c9c2397a07ad99c1",
+          "levelOfAgreement": 96
+        },
+        {
+          "label": "ii",
+          "textSha256": "9a2b0910da6a06ed48decfd434ad40f0bb55071244619feb0e37232197652c90",
+          "levelOfAgreement": 96
+        },
+        {
+          "label": "iii",
+          "textSha256": "13acd12ec851b4ebf1f619d065559a9044afa335f0caf7c2e316778de85db1e0",
+          "levelOfAgreement": 96
+        },
+        {
+          "label": "iv",
+          "textSha256": "fcb44bdee31acb0b094b8fe2be6ff403275c3c1742d73675db209b64974d93b0",
+          "levelOfAgreement": 96
+        },
+        {
+          "label": "v",
+          "textSha256": "b832b67f3a099aa2d25a1a37f95c424d4526420886e82fdba8a1e2f6a42c6e60",
+          "levelOfAgreement": 96
+        },
+        {
+          "label": "vi",
+          "textSha256": "1dbf58821c3ef4c569ab892ee6959177fec154ce44afeb58ded438fcf5ca9d23",
+          "levelOfAgreement": 96
+        },
+        {
+          "label": "vii",
+          "textSha256": "263935d6b578c6691cbb06b5f52157772c266b4f11a6316b74ccf9d80cebf1c7",
+          "levelOfAgreement": 93
+        },
+        {
+          "label": "viii",
+          "textSha256": "135a3e9ef81aa5a9596c9c3122462a49d96b3b9051aed38e532f0a61ae2649b4",
+          "levelOfAgreement": 95
+        },
+        {
+          "label": "ix",
+          "textSha256": "20f4b16e4340fe2ccaeb7acf4bb576bd5b94046c5afef86b463c02602de79491",
+          "levelOfAgreement": 90
+        },
+        {
+          "label": "x",
+          "textSha256": "9678f7ed3bafc9653f739f2ace42d0d00c413f5ea81e6c34991698303b26e670",
+          "levelOfAgreement": 96
+        },
+        {
+          "label": "xi",
+          "textSha256": "421f14739052c6cd803b897a30ae99a45ea437e2bec1e913d76eb7febbe5d992",
+          "levelOfAgreement": 96
+        }
+      ]
+    },
+    {
+      "number": 32,
+      "lineageId": "rec-emr-cln-r32-alarm-features-suggesting-adverse",
+      "withinSection": "sec-emr-after-emr",
+      "statementSha256": "7db8c9bf8a638e14f3a09ee3a8cdf355bc9bc9389db5f60109e407cfafb8c8ad",
+      "grade": {
+        "strength": "best-practice",
+        "evidenceQuality": "low"
+      },
+      "levelOfAgreement": null,
+      "subItems": [
+        {
+          "label": "i",
+          "textSha256": "6a92ff478a9ecdd356098bb9c741437578709a1055a5b0056e3b3fede0bf0686",
+          "levelOfAgreement": 97
+        },
+        {
+          "label": "ii",
+          "textSha256": "cdab1d8b7bb9049c045367ad2204519c96f0f18b661fb4331272212f70228b6c",
+          "levelOfAgreement": 96
+        },
+        {
+          "label": "iii",
+          "textSha256": "3594e4c97586c47dfbe5f7d521ca67beab5cd537c2b518e7ac67365ff897ea39",
+          "levelOfAgreement": 97
+        },
+        {
+          "label": "iv",
+          "textSha256": "0684cf96021247022e67d1981407145767d68e6faeeaae87a3a0132ce4e4717d",
+          "levelOfAgreement": 97
+        },
+        {
+          "label": "v",
+          "textSha256": "1414b1a9b60197cc091a0725263a122228f60e40ddc84aecefea2140453030d1",
+          "levelOfAgreement": 97
+        }
+      ]
+    },
+    {
+      "number": 33,
+      "lineageId": "rec-emr-cln-r33-post-procedure-discussion-with",
+      "withinSection": "sec-emr-after-emr",
+      "statementSha256": "3a582617277a5863929156467dbdfb503f49ead0169405cce189fb2f1d0c720d",
+      "grade": {
+        "strength": "best-practice",
+        "evidenceQuality": "low"
+      },
+      "levelOfAgreement": null,
+      "subItems": [
+        {
+          "label": "i",
+          "textSha256": "f28665f5d81afef6cba461b546a4f14bd26a7df18fab96b2785a44cd7434cec8",
+          "levelOfAgreement": 96
+        },
+        {
+          "label": "ii",
+          "textSha256": "e0a7952d6044974c0e84bf2507f3cce59741f3482c8f4cf39d187eca9f3d81f1",
+          "levelOfAgreement": 94
+        },
+        {
+          "label": "iii",
+          "textSha256": "4775a4cde1517ac0d49d012404ae9ee625cae32349922a3397478146d6042c84",
+          "levelOfAgreement": 87
+        },
+        {
+          "label": "iv",
+          "textSha256": "8afca914c09a883e5f22330324a2141cdbcbd1ce5b3e9ab23096427f8212edb5",
+          "levelOfAgreement": 96
+        },
+        {
+          "label": "v",
+          "textSha256": "83be1677fd3d16df4e6843ec71817a56315a452158aed94342d27bbe168cd867",
+          "levelOfAgreement": 96
+        },
+        {
+          "label": "vi",
+          "textSha256": "501b69b3d5efa0e169b69b9a3668a541d5ba396b934d3c695b86521df8919f86",
+          "levelOfAgreement": 93
+        },
+        {
+          "label": "vii",
+          "textSha256": "1031c119c7e3ff74b532e26d8c54d3a8a6f89e19431316d3941ce07cd3ca7080",
+          "levelOfAgreement": 93
+        },
+        {
+          "label": "viii",
+          "textSha256": "93852f03bb33f6219d425685d894e07f0a21d48c3b49f78a273027fabbab3825",
+          "levelOfAgreement": 96
+        },
+        {
+          "label": "ix",
+          "textSha256": "80dccfebffb69735589c2c1e4b0dac06c7f49430ae22ca493a0cfbf5671f69c6",
+          "levelOfAgreement": 83
+        }
+      ]
+    },
+    {
+      "number": 34,
+      "lineageId": "rec-emr-cln-r34-situations-requiring-admission-hospital",
+      "withinSection": "sec-emr-after-emr",
+      "statementSha256": "7dc1c48590093845d1e3c7ba9c68e86e6b67b3c8630997a2ca5471af174b9caf",
+      "grade": {
+        "strength": "best-practice",
+        "evidenceQuality": "low"
+      },
+      "levelOfAgreement": null,
+      "subItems": [
+        {
+          "label": "i",
+          "textSha256": "2e9737d8e759c0fab124f36dc0b1c57b7c1225c16b4a59e67eae978d4b01b3aa",
+          "levelOfAgreement": 88
+        },
+        {
+          "label": "ii",
+          "textSha256": "cc5cbf06bc31506ca72fd2bb8d3052d7b2d9d1204f22220e2376c1556ab3edb8",
+          "levelOfAgreement": 93
+        },
+        {
+          "label": "iii",
+          "textSha256": "34b87b7677619cd10a0a17eb66672c1a1b2eb6cccf03f9ef10c547bf9ecf7cb9",
+          "levelOfAgreement": 83
+        },
+        {
+          "label": "iv",
+          "textSha256": "f6efb0e8aa29e6a5e9dc043ee5914b681e1ba4f17a6e1131d6ff8c3ebc9f4843",
+          "levelOfAgreement": 96
+        },
+        {
+          "label": "v",
+          "textSha256": "7a99677744c054025c394d2165fea5fc907a831b0e8238a3f3ef8c703f9a3437",
+          "levelOfAgreement": 96
+        },
+        {
+          "label": "vi",
+          "textSha256": "c30beff1b79468f04025ed74d2d170a1989708719bf0845ed9670d54d467f50f",
+          "levelOfAgreement": 95
+        },
+        {
+          "label": "vii",
+          "textSha256": "1c4c39475b00a72e88685367e1cfb09d9da5757eb53bfe344f9cc86b3a92c845",
+          "levelOfAgreement": 95
+        }
+      ]
+    },
+    {
+      "number": 35,
+      "lineageId": "rec-emr-cln-r35-essential-features-during-surveillance",
+      "withinSection": "sec-emr-surveillance",
+      "statementSha256": "a4753535eff3ae68b55daccdfc7d2a5ee471698331d7460644dd743fac123b9d",
+      "grade": {
+        "strength": "strong",
+        "evidenceQuality": "high"
+      },
+      "levelOfAgreement": null,
+      "subItems": [
+        {
+          "label": "i",
+          "textSha256": "18858c8e5d215ac72f26c7a5a2bec9266eac5569ee714fd9728a4a26a1265f9a",
+          "levelOfAgreement": 95
+        },
+        {
+          "label": "ii",
+          "textSha256": "7688790f42560e7fae527b81b6b1aed89d0620c2c0bf0c8f03cc2f5b2cb1dd2f",
+          "levelOfAgreement": 96
+        },
+        {
+          "label": "iii",
+          "textSha256": "6406d8c5570f79072102df30f960c4ed0a6b3e1cb14bbae14194f82bd5e76cdb",
+          "levelOfAgreement": 95
+        },
+        {
+          "label": "iv",
+          "textSha256": "208fd668b5d79e99ce8d3f2f72563e9578ca03068bc8f7b68a5459a6967ae8f6",
+          "levelOfAgreement": 96
+        },
+        {
+          "label": "v",
+          "textSha256": "ada262c9905753b5728e05cf7ea929d0791747959d1edb5a01a219481e4f2afb",
+          "levelOfAgreement": 96
+        },
+        {
+          "label": "vi",
+          "textSha256": "baff0bf476bf134a077d364b10e60a84da17a3d47f5db1bd0cd77454a6fb132a",
+          "levelOfAgreement": 96
+        },
+        {
+          "label": "vii",
+          "textSha256": "82d858a887896c08cbb0592e9266c25d1996449c5b9bf0247972a60902fd70e9",
+          "levelOfAgreement": 99
+        },
+        {
+          "label": "viii",
+          "textSha256": "7a5fa7835fa9e92c0a50f5f30b73b1c8b1abc8d495d210d38384ef87b5c8e680",
+          "levelOfAgreement": 93
+        }
+      ]
+    },
+    {
+      "number": 36,
+      "lineageId": "rec-emr-cln-r36-treatment-lnpcp-recurrence-emr",
+      "withinSection": "sec-emr-surveillance",
+      "statementSha256": "cadc6df3155de2a6c1379936d42995d8f761b291b5ed6834c49845952fa867d4",
+      "grade": {
+        "strength": "best-practice",
+        "evidenceQuality": "low"
+      },
+      "levelOfAgreement": null,
+      "subItems": [
+        {
+          "label": "i",
+          "textSha256": "6073a57498e11929ef8bdfb46a0cf1f581a61e8fb58fef85a57c6f132f1d93e2",
+          "levelOfAgreement": 91
+        },
+        {
+          "label": "ii",
+          "textSha256": "64d06c10e6675a9a889971a2f5676ab6dcdccad7de3d38b281f909bc7fb25e34",
+          "levelOfAgreement": 88
+        },
+        {
+          "label": "iii",
+          "textSha256": "a4dd05f1c9448af31a5b53fed1707ba95c0e4cd2101c3dc9884fc343e78fb5bb",
+          "levelOfAgreement": 83
+        },
+        {
+          "label": "iv",
+          "textSha256": "21b5d9a72f55f2220c6f32b2d356015fa704e718946a413684120862e2e2c271",
+          "levelOfAgreement": 89
+        },
+        {
+          "label": "v",
+          "textSha256": "8c9ca491bb58606ee48f60e606702602ce54596e818a4af185b4be78539bdd70",
+          "levelOfAgreement": 88
+        }
+      ]
+    },
+    {
+      "number": 37,
+      "lineageId": "rec-emr-cln-r37-completion-training-emr",
+      "withinSection": "sec-emr-training",
+      "statementSha256": "2e3bfa6b3a7bfd4b5371012ade0b6f71a21793aa740c5c45a3d2d33c2d5f1dc0",
+      "grade": {
+        "strength": "best-practice",
+        "evidenceQuality": "low"
+      },
+      "levelOfAgreement": null,
+      "subItems": [
+        {
+          "label": "i",
+          "textSha256": "7ebff479d96f730bc850bd66f269cfe1b161503a9718726fe7b397ddddee6e7a",
+          "levelOfAgreement": 83
+        },
+        {
+          "label": "ii",
+          "textSha256": "d7c9a3ecfaffafc1969470c4f4ea622f1230a7f880d83d0beb1e37865a84b9f9",
+          "levelOfAgreement": 89
+        },
+        {
+          "label": "iii",
+          "textSha256": "bf8232ab604caac7fb171c7ca20a02e4bf059e8d158cb38aab5a471673f5683d",
+          "levelOfAgreement": 91
+        },
+        {
+          "label": "iv",
+          "textSha256": "fe41a5a52a048d4c90c40314597453383fe8e1198c0158e105b80a791fda06d0",
+          "levelOfAgreement": 89
+        }
+      ]
+    },
+    {
+      "number": 38,
+      "lineageId": "rec-emr-cln-r38-essential-qis",
+      "withinSection": "sec-emr-lifelong-qi",
+      "statementSha256": "eff26c93f955c64533554c03e3dd1c74fbfb93e41917ef46add218919edf5445",
+      "grade": {
+        "strength": "strong",
+        "evidenceQuality": "low"
+      },
+      "levelOfAgreement": null,
+      "subItems": []
+    }
+  ]
+}

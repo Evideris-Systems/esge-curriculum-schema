@@ -1,0 +1,2255 @@
+{
+  "$schema": "https://schema.evideris.com/schemas/table.schema.json",
+  "$id": "https://schema.evideris.com/esge/table/poem-2/table-4.v1.0.0.json",
+  "lineageId": "table-poem-2-4",
+  "type": "table",
+  "version": "1.0.0",
+  "release": "r2026.07",
+  "supersedes": null,
+  "supersededBy": null,
+  "language": [
+    "en"
+  ],
+  "withinCurriculum": "cur-poem-2-2025",
+  "number": "4",
+  "title": {
+    "en": "Table 4 Components and scoring of the Precision POEM Assessment Tool (PPAT)[1]."
+  },
+  "columns": [
+    {
+      "header": {
+        "en": "Component"
+      }
+    },
+    {
+      "header": {
+        "en": "Component"
+      }
+    },
+    {
+      "header": {
+        "en": "Possible responses and scoring"
+      }
+    },
+    {
+      "header": {
+        "en": "Possible responses and scoring"
+      }
+    },
+    {
+      "header": {
+        "en": "L"
+      }
+    },
+    {
+      "header": {
+        "en": "V"
+      }
+    },
+    {
+      "header": {
+        "en": "Recommendation number"
+      }
+    },
+    {
+      "header": {
+        "en": "Maximum score"
+      }
+    }
+  ],
+  "rows": [
+    {
+      "cells": [
+        {
+          "en": "Global competencies"
+        },
+        {
+          "en": "20"
+        }
+      ],
+      "isGroupHeader": true,
+      "rowSpans": [
+        1,
+        1
+      ],
+      "colSpans": [
+        7,
+        1
+      ]
+    },
+    {
+      "cells": [
+        {
+          "en": "i"
+        },
+        {
+          "en": "Tip control"
+        },
+        {
+          "en": "1 Very poor"
+        },
+        {
+          "en": "Jerky, inaccurate, large, nonpurposeful movements"
+        },
+        {
+          "en": "X"
+        },
+        {
+          "en": "X"
+        },
+        {
+          "en": ""
+        },
+        {
+          "en": "5"
+        }
+      ],
+      "isGroupHeader": false,
+      "rowSpans": [
+        2,
+        2,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2
+      ],
+      "colSpans": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "cells": [
+        {
+          "en": "5 Very good"
+        },
+        {
+          "en": "Controlled, precise, fine, purposeful movements"
+        }
+      ],
+      "isGroupHeader": false,
+      "rowSpans": [
+        1,
+        1
+      ],
+      "colSpans": [
+        1,
+        1
+      ]
+    },
+    {
+      "cells": [
+        {
+          "en": "ii"
+        },
+        {
+          "en": "Appreciation of planes"
+        },
+        {
+          "en": "1 Very poor"
+        },
+        {
+          "en": "Repeatedly unable to identify planes and the cutting line, compromising safety"
+        },
+        {
+          "en": "X"
+        },
+        {
+          "en": "X"
+        },
+        {
+          "en": ""
+        },
+        {
+          "en": "5"
+        }
+      ],
+      "isGroupHeader": false,
+      "rowSpans": [
+        2,
+        2,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2
+      ],
+      "colSpans": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "cells": [
+        {
+          "en": "5 Very good"
+        },
+        {
+          "en": "Appreciation of planes and cutting line at all stages of the procedure. Anticipates areas of difficulty and able to optimize technique to improve the plane and safely proceed"
+        }
+      ],
+      "isGroupHeader": false,
+      "rowSpans": [
+        1,
+        1
+      ],
+      "colSpans": [
+        1,
+        1
+      ]
+    },
+    {
+      "cells": [
+        {
+          "en": "iii"
+        },
+        {
+          "en": "Periodic checks"
+        },
+        {
+          "en": "1 Very poor"
+        },
+        {
+          "en": "Fails to perform any periodic checks"
+        },
+        {
+          "en": "X"
+        },
+        {
+          "en": ""
+        },
+        {
+          "en": ""
+        },
+        {
+          "en": "5"
+        }
+      ],
+      "isGroupHeader": false,
+      "rowSpans": [
+        2,
+        2,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2
+      ],
+      "colSpans": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "cells": [
+        {
+          "en": "5 Very good"
+        },
+        {
+          "en": "Frequently checks ESU settings before using thermal energy (after every change in settings), use of CO2 rather than air, mucosal integrity, and abdominal distension, and maintains good communication with the anesthetic team"
+        }
+      ],
+      "isGroupHeader": false,
+      "rowSpans": [
+        1,
+        1
+      ],
+      "colSpans": [
+        1,
+        1
+      ]
+    },
+    {
+      "cells": [
+        {
+          "en": "iv"
+        },
+        {
+          "en": "Achieves good orientation"
+        },
+        {
+          "en": "1 Very poor"
+        },
+        {
+          "en": "Fails to achieve good orientation despite mentor input. Unaware of or ineffective use of withdrawal, advancement, and rotation of the scope"
+        },
+        {
+          "en": "X"
+        },
+        {
+          "en": ""
+        },
+        {
+          "en": ""
+        },
+        {
+          "en": "5"
+        }
+      ],
+      "isGroupHeader": false,
+      "rowSpans": [
+        2,
+        2,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2
+      ],
+      "colSpans": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "cells": [
+        {
+          "en": "5 Very good"
+        },
+        {
+          "en": "Able to easily achieve orientation, tunnel easily advanced perpendicular to the circular muscle. In more difficult cases, achieves a good orientation with repeated withdrawal, advancement, and rotation of the scope"
+        }
+      ],
+      "isGroupHeader": false,
+      "rowSpans": [
+        1,
+        1
+      ],
+      "colSpans": [
+        1,
+        1
+      ]
+    },
+    {
+      "cells": [
+        {
+          "en": "Cleaning and inspection"
+        },
+        {
+          "en": "9–12"
+        },
+        {
+          "en": "20"
+        }
+      ],
+      "isGroupHeader": false,
+      "rowSpans": [
+        1,
+        1,
+        1
+      ],
+      "colSpans": [
+        6,
+        1,
+        1
+      ]
+    },
+    {
+      "cells": [
+        {
+          "en": "v"
+        },
+        {
+          "en": "Thorough esophageal cleansing before mucosal incision"
+        },
+        {
+          "en": "1 Very poor"
+        },
+        {
+          "en": "Fails to adequately cleanse the esophagus, increasing the risk of contamination of the submucosal tunnel and compromising the ability to assess the mucosa. Does not examine the esophagus to exclude the presence of esophageal cancer or pseudoachalasia"
+        },
+        {
+          "en": "X"
+        },
+        {
+          "en": "X"
+        },
+        {
+          "en": "9"
+        },
+        {
+          "en": "5"
+        }
+      ],
+      "isGroupHeader": false,
+      "rowSpans": [
+        2,
+        2,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2
+      ],
+      "colSpans": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "cells": [
+        {
+          "en": "5 Very good"
+        },
+        {
+          "en": "Meticulously cleanses the esophagus to minimize the risk of contamination of the submucosal tunnel, ensuring optimal mucosal visualization. Carefully examines the esophagus to exclude the presence of esophageal cancer or pseudoachalasia"
+        }
+      ],
+      "isGroupHeader": false,
+      "rowSpans": [
+        1,
+        1
+      ],
+      "colSpans": [
+        1,
+        1
+      ]
+    },
+    {
+      "cells": [
+        {
+          "en": "vi"
+        },
+        {
+          "en": "Documentation of obstructive esophageal spastic segments"
+        },
+        {
+          "en": "1 Very poor"
+        },
+        {
+          "en": "Does not document observed obstructive esophageal spastic segments, fails to evaluate correlation with HRM and imaging test findings, even with prompting"
+        },
+        {
+          "en": "X"
+        },
+        {
+          "en": ""
+        },
+        {
+          "en": "10"
+        },
+        {
+          "en": "5"
+        }
+      ],
+      "isGroupHeader": false,
+      "rowSpans": [
+        2,
+        2,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2
+      ],
+      "colSpans": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "cells": [
+        {
+          "en": "5 Very good"
+        },
+        {
+          "en": "Consistently and independently documents all observed obstructive esophageal spastic segments, accurately evaluates and correlates them with HRM and imaging test findings"
+        }
+      ],
+      "isGroupHeader": false,
+      "rowSpans": [
+        1,
+        1
+      ],
+      "colSpans": [
+        1,
+        1
+      ]
+    },
+    {
+      "cells": [
+        {
+          "en": "vii"
+        },
+        {
+          "en": "Identification of anatomical landmarks"
+        },
+        {
+          "en": "1 Very poor"
+        },
+        {
+          "en": "Fails to identify and document the position of the upper esophageal sphincter and the GEJ, even with prompting"
+        },
+        {
+          "en": "X"
+        },
+        {
+          "en": ""
+        },
+        {
+          "en": "11"
+        },
+        {
+          "en": "5"
+        }
+      ],
+      "isGroupHeader": false,
+      "rowSpans": [
+        2,
+        2,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2
+      ],
+      "colSpans": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "cells": [
+        {
+          "en": "5 Very good"
+        },
+        {
+          "en": "Effectively and independently identifies all key anatomical landmarks including the upper esophageal sphincter, and the GEJ"
+        }
+      ],
+      "isGroupHeader": false,
+      "rowSpans": [
+        1,
+        1
+      ],
+      "colSpans": [
+        1,
+        1
+      ]
+    },
+    {
+      "cells": [
+        {
+          "en": "viii"
+        },
+        {
+          "en": "Identification of anterior vs. posterior approaches"
+        },
+        {
+          "en": "1 Very poor"
+        },
+        {
+          "en": "Cannot identify anterior (1–2 o’clock in supine position) or posterior (5–6 o'clock) position, even with prompting"
+        },
+        {
+          "en": "X"
+        },
+        {
+          "en": ""
+        },
+        {
+          "en": "12"
+        },
+        {
+          "en": "5"
+        }
+      ],
+      "isGroupHeader": false,
+      "rowSpans": [
+        2,
+        2,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2
+      ],
+      "colSpans": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "cells": [
+        {
+          "en": "5 Very good"
+        },
+        {
+          "en": "Independently and accurately identifies anterior (1–2 o’clock in supine position) or posterior (5–6 o'clock) orientation based on gastroesophageal landmarks and gravity"
+        }
+      ],
+      "isGroupHeader": false,
+      "rowSpans": [
+        1,
+        1
+      ],
+      "colSpans": [
+        1,
+        1
+      ]
+    },
+    {
+      "cells": [
+        {
+          "en": "Mucosotomy"
+        },
+        {
+          "en": "10, 12, 17, 18"
+        },
+        {
+          "en": "20"
+        }
+      ],
+      "isGroupHeader": false,
+      "rowSpans": [
+        1,
+        1,
+        1
+      ],
+      "colSpans": [
+        6,
+        1,
+        1
+      ]
+    },
+    {
+      "cells": [
+        {
+          "en": "ix"
+        },
+        {
+          "en": "Identification of the mucosotomy site"
+        },
+        {
+          "en": "1 Very poor"
+        },
+        {
+          "en": "Unable to locate and justify the mucosotomy site, despite mentor input. Does not consider spastic segments, length of myotomy or orientation"
+        },
+        {
+          "en": "X"
+        },
+        {
+          "en": ""
+        },
+        {
+          "en": "10, 12, 17"
+        },
+        {
+          "en": "5"
+        }
+      ],
+      "isGroupHeader": false,
+      "rowSpans": [
+        2,
+        2,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2
+      ],
+      "colSpans": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "cells": [
+        {
+          "en": "5 Very good"
+        },
+        {
+          "en": "Independent, justifiable, identification of the mucosotomy site. Considers length of myotomy, length of spastic segment, appropriately allows enough space for the myotomy"
+        }
+      ],
+      "isGroupHeader": false,
+      "rowSpans": [
+        1,
+        1
+      ],
+      "colSpans": [
+        1,
+        1
+      ]
+    },
+    {
+      "cells": [
+        {
+          "en": "x"
+        },
+        {
+          "en": "Submucosal injection"
+        },
+        {
+          "en": "1 Very poor"
+        },
+        {
+          "en": "Unable to find the submucosal plane. Static injection with an inadequate volume of injectate, resulting in a poor lift despite prompting, compromising the safety of the mucosotomy by risking muscle injury"
+        },
+        {
+          "en": "X"
+        },
+        {
+          "en": "X"
+        },
+        {
+          "en": "None"
+        },
+        {
+          "en": "5"
+        }
+      ],
+      "isGroupHeader": false,
+      "rowSpans": [
+        2,
+        2,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2
+      ],
+      "colSpans": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "cells": [
+        {
+          "en": "5 Very good"
+        },
+        {
+          "en": "Efficiently finds the submucosal plane. Caution is taken to avoid mucosal and intrathoracic injection. Dynamic injection of an adequate volume to obtain a lift large enough to facilitate a safe mucosotomy incision"
+        }
+      ],
+      "isGroupHeader": false,
+      "rowSpans": [
+        1,
+        1
+      ],
+      "colSpans": [
+        1,
+        1
+      ]
+    },
+    {
+      "cells": [
+        {
+          "en": "x i"
+        },
+        {
+          "en": "First incision of the mucosotomy"
+        },
+        {
+          "en": "1 Very poor"
+        },
+        {
+          "en": "Fails to make the first incision at the site of previous injection. Uses an improper knife angle. Makes multiple taps on the electrosurgical unit"
+        },
+        {
+          "en": "X"
+        },
+        {
+          "en": "X"
+        },
+        {
+          "en": "17"
+        },
+        {
+          "en": "5"
+        }
+      ],
+      "isGroupHeader": false,
+      "rowSpans": [
+        2,
+        2,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2
+      ],
+      "colSpans": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "cells": [
+        {
+          "en": "5 Very good"
+        },
+        {
+          "en": "Meticulously performs the mucosotomy by making the first incision at the site of previous injection. Uses the fewest possible taps on the electrosurgical unit with a cutting current. Maintains the knife tip at a 45–80° angle to the mucosal surface"
+        }
+      ],
+      "isGroupHeader": false,
+      "rowSpans": [
+        1,
+        1
+      ],
+      "colSpans": [
+        1,
+        1
+      ]
+    },
+    {
+      "cells": [
+        {
+          "en": "xii"
+        },
+        {
+          "en": "Extending the mucosotomy incision"
+        },
+        {
+          "en": "1 Very poor"
+        },
+        {
+          "en": "Lacks control over the longitudinal extension of the incision, deviating from the tunnel direction. Fails to lift the mucosa at the caudal end and tolerates insufficiently injected submucosa, risking damage to the muscle. Inappropriate incision length, either too short or too long, preventing proper entry"
+        },
+        {
+          "en": "X"
+        },
+        {
+          "en": "X"
+        },
+        {
+          "en": "18"
+        },
+        {
+          "en": "5"
+        }
+      ],
+      "isGroupHeader": false,
+      "rowSpans": [
+        2,
+        2,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2
+      ],
+      "colSpans": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "cells": [
+        {
+          "en": "5 Very good"
+        },
+        {
+          "en": "Controlled, safe, and precise longitudinal extension of the incision, maintaining the direction of the tunnel. Gently lifts the mucosa at the caudal end and repeatedly injects the submucosa, if required, to avoid damage to the muscle. Appropriate length (1.5–2 cm) to facilitate entry"
+        }
+      ],
+      "isGroupHeader": false,
+      "rowSpans": [
+        1,
+        1
+      ],
+      "colSpans": [
+        1,
+        1
+      ]
+    },
+    {
+      "cells": [
+        {
+          "en": "Submucosal tunneling"
+        },
+        {
+          "en": "19–25"
+        },
+        {
+          "en": "25"
+        }
+      ],
+      "isGroupHeader": false,
+      "rowSpans": [
+        1,
+        1,
+        1
+      ],
+      "colSpans": [
+        6,
+        1,
+        1
+      ]
+    },
+    {
+      "cells": [
+        {
+          "en": "xiii"
+        },
+        {
+          "en": "Accessing the submucosal tunnel"
+        },
+        {
+          "en": "1 Very poor"
+        },
+        {
+          "en": "Uncontrolled, nonpurposeful movements of the knife. Trims incorrect area, inadequate lift, risks thermal injury to the mucosa and/or muscle. Trimming does not allow tunnel access"
+        },
+        {
+          "en": "X"
+        },
+        {
+          "en": "X"
+        },
+        {
+          "en": "19, 20"
+        },
+        {
+          "en": "5"
+        }
+      ],
+      "isGroupHeader": false,
+      "rowSpans": [
+        2,
+        2,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2
+      ],
+      "colSpans": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "cells": [
+        {
+          "en": "5 Very good"
+        },
+        {
+          "en": "Careful, precise, controlled trimming of the submucosa at the caudal incision end. Uses the cap to protect the mucosa from thermal injury and submucosal injection to avoid muscle injury. Trimming easily allows access to the tunnel"
+        }
+      ],
+      "isGroupHeader": false,
+      "rowSpans": [
+        1,
+        1
+      ],
+      "colSpans": [
+        1,
+        1
+      ]
+    },
+    {
+      "cells": [
+        {
+          "en": "xiv"
+        },
+        {
+          "en": "Submucosal tunneling"
+        },
+        {
+          "en": "1 Very poor"
+        },
+        {
+          "en": "Fails to perform submucosal tunneling properly, neglecting the use of CO2 insufflation, injection of saline and chromic dye, and cap use, hindering proper exposure of the submucosa–muscularis propria interface. Creates multiple dissection planes, leading to an inefficient and potentially unsafe procedure"
+        },
+        {
+          "en": "X"
+        },
+        {
+          "en": "X"
+        },
+        {
+          "en": "21"
+        },
+        {
+          "en": "5"
+        }
+      ],
+      "isGroupHeader": false,
+      "rowSpans": [
+        2,
+        2,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2
+      ],
+      "colSpans": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "cells": [
+        {
+          "en": "5 Very good"
+        },
+        {
+          "en": "Meticulously performs submucosal tunneling using a combination of CO2 insufflation, frequent injection of saline and chromic dye, and a gentle forward pressure of the cap to expand the submucosa–muscularis propria interface. Avoids creating multiple dissection planes"
+        }
+      ],
+      "isGroupHeader": false,
+      "rowSpans": [
+        1,
+        1
+      ],
+      "colSpans": [
+        1,
+        1
+      ]
+    },
+    {
+      "cells": [
+        {
+          "en": "xv"
+        },
+        {
+          "en": "Maintaining direction"
+        },
+        {
+          "en": "1 Very poor"
+        },
+        {
+          "en": "Does not periodically check direction, continues to dissect unaware of deviations in direction, unable to determine the direction of the GEJ"
+        },
+        {
+          "en": "X"
+        },
+        {
+          "en": "X"
+        },
+        {
+          "en": "21"
+        },
+        {
+          "en": "5"
+        }
+      ],
+      "isGroupHeader": false,
+      "rowSpans": [
+        2,
+        2,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2
+      ],
+      "colSpans": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "cells": [
+        {
+          "en": "5 Very good"
+        },
+        {
+          "en": "Periodically checks the direction of the tunnel by withdrawing the scope. Able to identify any deviation in direction and correct it in timely fashion"
+        }
+      ],
+      "isGroupHeader": false,
+      "rowSpans": [
+        1,
+        1
+      ],
+      "colSpans": [
+        1,
+        1
+      ]
+    },
+    {
+      "cells": [
+        {
+          "en": "xvi"
+        },
+        {
+          "en": "Recognizing the GEJ"
+        },
+        {
+          "en": "1 Very poor"
+        },
+        {
+          "en": "Does not measure distance between the incisors and the GEJ before starting procedure. Fails to identify the GEJ during tunneling. Does not recognize key anatomical features such as palisade veins, increased vascularity, spindle-shaped veins, large perforating vessels, and/or the narrowing of the lumen"
+        },
+        {
+          "en": "X"
+        },
+        {
+          "en": "X"
+        },
+        {
+          "en": "22, 23"
+        },
+        {
+          "en": "5"
+        }
+      ],
+      "isGroupHeader": false,
+      "rowSpans": [
+        2,
+        2,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2
+      ],
+      "colSpans": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "cells": [
+        {
+          "en": "5 Very good"
+        },
+        {
+          "en": "Meticulously measures the distance between the incisors and the GEJ before starting the procedure. Accurately identifies the GEJ using key anatomical observations such as palisade veins, increased vascularity, spindle-shaped veins, large perforating vessels, and/or the narrowing of the lumen"
+        }
+      ],
+      "isGroupHeader": false,
+      "rowSpans": [
+        1,
+        1
+      ],
+      "colSpans": [
+        1,
+        1
+      ]
+    },
+    {
+      "cells": [
+        {
+          "en": "xvii"
+        },
+        {
+          "en": "Extending the submucosal tunnel into the stomach"
+        },
+        {
+          "en": "1 Very poor"
+        },
+        {
+          "en": "Fails to extend the submucosal tunnel adequately, with less than 3 cm distal extension to the GEJ. Does not use anatomical landmarks or the double-scope method, leading to uncertainty about the correct extension length for gastric myotomy"
+        },
+        {
+          "en": "X"
+        },
+        {
+          "en": "X"
+        },
+        {
+          "en": "24, 25"
+        },
+        {
+          "en": "5"
+        }
+      ],
+      "isGroupHeader": false,
+      "rowSpans": [
+        2,
+        2,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2
+      ],
+      "colSpans": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "cells": [
+        {
+          "en": "5 Very good"
+        },
+        {
+          "en": "Meticulously extends the submucosal tunnel at least 3 cm distal to the GEJ and confirms the correct extension using a combination of anatomical landmarks and, if necessary, the double-scope method to ensure an acceptable length for gastric myotomy"
+        }
+      ],
+      "isGroupHeader": false,
+      "rowSpans": [
+        1,
+        1
+      ],
+      "colSpans": [
+        1,
+        1
+      ]
+    },
+    {
+      "cells": [
+        {
+          "en": "Myotomy"
+        },
+        {
+          "en": "26–34"
+        },
+        {
+          "en": "30"
+        }
+      ],
+      "isGroupHeader": false,
+      "rowSpans": [
+        1,
+        1,
+        1
+      ],
+      "colSpans": [
+        6,
+        1,
+        1
+      ]
+    },
+    {
+      "cells": [
+        {
+          "en": "xviii"
+        },
+        {
+          "en": "Starts at appropriate site"
+        },
+        {
+          "en": "1 Very poor"
+        },
+        {
+          "en": "Fails to start the myotomy 2 cm or more below the caudal extent of the mucosotomy site. Uses uncontrolled, repeated taps with the knife, leading to a less precise and unsafe procedure"
+        },
+        {
+          "en": "X"
+        },
+        {
+          "en": "X"
+        },
+        {
+          "en": "26"
+        },
+        {
+          "en": "5"
+        }
+      ],
+      "isGroupHeader": false,
+      "rowSpans": [
+        2,
+        2,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2
+      ],
+      "colSpans": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "cells": [
+        {
+          "en": "5 Very good"
+        },
+        {
+          "en": "Meticulously performs the myotomy in a cranial to caudal manner, starting 2 cm or more below the caudal extent of the mucosotomy site, using controlled sequential single taps with the knife"
+        }
+      ],
+      "isGroupHeader": false,
+      "rowSpans": [
+        1,
+        1
+      ],
+      "colSpans": [
+        1,
+        1
+      ]
+    },
+    {
+      "cells": [
+        {
+          "en": "xix"
+        },
+        {
+          "en": "Choice of anterior or posterior myotomy"
+        },
+        {
+          "en": "1 Very poor"
+        },
+        {
+          "en": "Fails to select the appropriate orientation for myotomy, chooses the same orientation as a previous surgical or endoscopic myotomy"
+        },
+        {
+          "en": "X"
+        },
+        {
+          "en": ""
+        },
+        {
+          "en": "28, 29"
+        },
+        {
+          "en": "5"
+        }
+      ],
+      "isGroupHeader": false,
+      "rowSpans": [
+        2,
+        2,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2
+      ],
+      "colSpans": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "cells": [
+        {
+          "en": "5 Very good"
+        },
+        {
+          "en": "Meticulously chooses the appropriate orientation for myotomy, performing it on either the anterior (1–2 o’clock) or posterior (5–6 o’clock) side, and avoids the same orientation as any previous surgical or endoscopic myotomy"
+        }
+      ],
+      "isGroupHeader": false,
+      "rowSpans": [
+        1,
+        1
+      ],
+      "colSpans": [
+        1,
+        1
+      ]
+    },
+    {
+      "cells": [
+        {
+          "en": "xx"
+        },
+        {
+          "en": "Approach to myotomy: mucosal to adventitial or adventitial to mucosal"
+        },
+        {
+          "en": "1 Very poor"
+        },
+        {
+          "en": "Chooses an incorrect approach, disregarding the available space in the tunnel. Applies excessive traction on the muscle with the knife. Makes uncontrolled incisions. Struggles to switch between approaches. Fails to maintain a perpendicular direction to the circular muscle layer, leading to improper dissection"
+        },
+        {
+          "en": "X"
+        },
+        {
+          "en": "X"
+        },
+        {
+          "en": "27"
+        },
+        {
+          "en": "5"
+        }
+      ],
+      "isGroupHeader": false,
+      "rowSpans": [
+        2,
+        2,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2
+      ],
+      "colSpans": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "cells": [
+        {
+          "en": "5 Very good"
+        },
+        {
+          "en": "Meticulous choice of approach based on the amount of space in the tunnel. Avoids excessive traction/pressure on the muscle with the knife. Controlled, stepwise incisions made. Able to seamlessly switch between approaches. Maintains the direction perpendicular to the circular muscle"
+        }
+      ],
+      "isGroupHeader": false,
+      "rowSpans": [
+        1,
+        1
+      ],
+      "colSpans": [
+        1,
+        1
+      ]
+    },
+    {
+      "cells": [
+        {
+          "en": "xxi"
+        },
+        {
+          "en": "Use of adventitial injection to improve safety"
+        },
+        {
+          "en": "1 Very poor"
+        },
+        {
+          "en": "Does not use adventitial injection to improve safety when using the mucosal to adventitial approach"
+        },
+        {
+          "en": "X"
+        },
+        {
+          "en": "X"
+        },
+        {
+          "en": "27"
+        },
+        {
+          "en": "5"
+        }
+      ],
+      "isGroupHeader": false,
+      "rowSpans": [
+        2,
+        2,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2
+      ],
+      "colSpans": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "cells": [
+        {
+          "en": "5 Very good"
+        },
+        {
+          "en": "Repeatedly uses injection into the adventitial space to prevent thermal injury to mediastinal structures when using the mucosal to adventitial approach"
+        }
+      ],
+      "isGroupHeader": false,
+      "rowSpans": [
+        1,
+        1
+      ],
+      "colSpans": [
+        1,
+        1
+      ]
+    },
+    {
+      "cells": [
+        {
+          "en": "xxii"
+        },
+        {
+          "en": "Length of the myotomy"
+        },
+        {
+          "en": "1 Very poor"
+        },
+        {
+          "en": "Does not extend the myotomy adequately, fails to tailor the length based on the disease being treated"
+        },
+        {
+          "en": "X"
+        },
+        {
+          "en": ""
+        },
+        {
+          "en": "31–34"
+        },
+        {
+          "en": "5"
+        }
+      ],
+      "isGroupHeader": false,
+      "rowSpans": [
+        2,
+        2,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2
+      ],
+      "colSpans": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "cells": [
+        {
+          "en": "5 Very good"
+        },
+        {
+          "en": "Independently extends the myotomy 2–3 cm distal to the GEJ and decides the esophageal myotomy length based on the disease being treated, such as 4–7 cm for type I and II achalasia and tailored for type III achalasia and spastic esophageal motility disorders"
+        }
+      ],
+      "isGroupHeader": false,
+      "rowSpans": [
+        1,
+        1
+      ],
+      "colSpans": [
+        1,
+        1
+      ]
+    },
+    {
+      "cells": [
+        {
+          "en": "xxiii"
+        },
+        {
+          "en": "Ensures completeness of myotomy"
+        },
+        {
+          "en": "1 Very poor"
+        },
+        {
+          "en": "Fails to complete the myotomy. Does not recognize remaining circular muscle"
+        },
+        {
+          "en": "X"
+        },
+        {
+          "en": "X"
+        },
+        {
+          "en": "30"
+        },
+        {
+          "en": "5"
+        }
+      ],
+      "isGroupHeader": false,
+      "rowSpans": [
+        2,
+        2,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2
+      ],
+      "colSpans": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "cells": [
+        {
+          "en": "5 Very good"
+        },
+        {
+          "en": "Meticulously inspects the myotomy to ensure complete disruption of the circular layer"
+        }
+      ],
+      "isGroupHeader": false,
+      "rowSpans": [
+        1,
+        1
+      ],
+      "colSpans": [
+        1,
+        1
+      ]
+    },
+    {
+      "cells": [
+        {
+          "en": "Mucosal closure"
+        },
+        {
+          "en": "35, 36"
+        },
+        {
+          "en": "5"
+        }
+      ],
+      "isGroupHeader": false,
+      "rowSpans": [
+        1,
+        1,
+        1
+      ],
+      "colSpans": [
+        6,
+        1,
+        1
+      ]
+    },
+    {
+      "cells": [
+        {
+          "en": "xxiv"
+        },
+        {
+          "en": "Closing the mucosal incision"
+        },
+        {
+          "en": "1 Very poor"
+        },
+        {
+          "en": "Unable to close the mucosotomy. Inaccurate, uneven, incorrect positioning of clips. Deploys clips without confirming position. Risks injury to the mucosa. Persistent tissue inversion. Unsafe closure"
+        },
+        {
+          "en": "X"
+        },
+        {
+          "en": "X"
+        },
+        {
+          "en": "35, 36"
+        },
+        {
+          "en": "5"
+        }
+      ],
+      "isGroupHeader": false,
+      "rowSpans": [
+        2,
+        2,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2
+      ],
+      "colSpans": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "cells": [
+        {
+          "en": "5 Very good"
+        },
+        {
+          "en": "Even and accurate placement of clips. Ensures adequate positioning and tissue eversion prior to clip deployment to provide a secure zipper-type closure"
+        }
+      ],
+      "isGroupHeader": false,
+      "rowSpans": [
+        1,
+        1
+      ],
+      "colSpans": [
+        1,
+        1
+      ]
+    },
+    {
+      "cells": [
+        {
+          "en": "Adverse events"
+        },
+        {
+          "en": "37–43"
+        },
+        {
+          "en": "20"
+        }
+      ],
+      "isGroupHeader": false,
+      "rowSpans": [
+        1,
+        1,
+        1
+      ],
+      "colSpans": [
+        6,
+        1,
+        1
+      ]
+    },
+    {
+      "cells": [
+        {
+          "en": "xxv"
+        },
+        {
+          "en": "Preventing and managing bleeding during submucosal tunneling and myotomy"
+        },
+        {
+          "en": "1 Very poor"
+        },
+        {
+          "en": "Fails to identify or pretreat vessels during the procedure and ignores bleeding vessels prior to tunnel closure, potentially leading to significant bleeding and procedural complications"
+        },
+        {
+          "en": "X"
+        },
+        {
+          "en": "X"
+        },
+        {
+          "en": "37, 38"
+        },
+        {
+          "en": "5"
+        }
+      ],
+      "isGroupHeader": false,
+      "rowSpans": [
+        2,
+        2,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2
+      ],
+      "colSpans": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "cells": [
+        {
+          "en": "5 Very good"
+        },
+        {
+          "en": "Proactively identifies nonbleeding vessels based on size, avoids very large vessels which do not hamper tunnel progression. Pretreats vessels up to 1–1.5 mm with the knife, and considers coagulation forceps for larger vessels. Uses water irrigation and endoscope cap pressure to manage active bleeding effectively. Identifies and treats any bleeding vessels prior to tunnel closure. Appreciates the higher risk of bleeding in the cardia"
+        }
+      ],
+      "isGroupHeader": false,
+      "rowSpans": [
+        1,
+        1
+      ],
+      "colSpans": [
+        1,
+        1
+      ]
+    },
+    {
+      "cells": [
+        {
+          "en": "xxvi"
+        },
+        {
+          "en": "Preventing mucosal injuries"
+        },
+        {
+          "en": "1 Very poor"
+        },
+        {
+          "en": "Neglects necessary precautions to prevent mucosal injuries when applying energy, using open instruments, or passing the scope within the tunnel. Does not use injection adequately. Performs dissection too far from the muscularis propria. Creates a narrow tunnel that increases the risk of spray coagulation coming into contact with the mucosa. Neglects to be particularly careful while crossing the GEJ"
+        },
+        {
+          "en": "X"
+        },
+        {
+          "en": "X"
+        },
+        {
+          "en": "39"
+        },
+        {
+          "en": "5"
+        }
+      ],
+      "isGroupHeader": false,
+      "rowSpans": [
+        2,
+        2,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2
+      ],
+      "colSpans": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "cells": [
+        {
+          "en": "5 Very good"
+        },
+        {
+          "en": "Carefully avoids mucosal injuries when applying energy, using instruments, and during scope passage within the tunnel. Repeatedly uses injection. Performs dissection close to the muscularis propria and maintains a wide enough tunnel to avoid spray coagulation contact with the mucosa. Is particularly careful while crossing the GEJ. Promptly identifies and treats any mucosal injuries or perforations to prevent expansion and contamination"
+        }
+      ],
+      "isGroupHeader": false,
+      "rowSpans": [
+        1,
+        1
+      ],
+      "colSpans": [
+        1,
+        1
+      ]
+    },
+    {
+      "cells": [
+        {
+          "en": "xxvii"
+        },
+        {
+          "en": "Managing mucosal injuries"
+        },
+        {
+          "en": "1 Very poor"
+        },
+        {
+          "en": "Fails to identify or manage mucosal injuries during the procedure, leading to potential full-thickness perforations and complications"
+        },
+        {
+          "en": "X"
+        },
+        {
+          "en": "X"
+        },
+        {
+          "en": "39, 40"
+        },
+        {
+          "en": "5"
+        }
+      ],
+      "isGroupHeader": false,
+      "rowSpans": [
+        2,
+        2,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2
+      ],
+      "colSpans": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "cells": [
+        {
+          "en": "5 Very good"
+        },
+        {
+          "en": "Promptly identifies mucosal injuries during and after the procedure. Treats current or potential perforations with appropriate techniques such as TTS or OTS clips, or endoscopic suturing"
+        }
+      ],
+      "isGroupHeader": false,
+      "rowSpans": [
+        1,
+        1
+      ],
+      "colSpans": [
+        1,
+        1
+      ]
+    },
+    {
+      "cells": [
+        {
+          "en": "xxviii"
+        },
+        {
+          "en": "Preventing and managing gas-related adverse events"
+        },
+        {
+          "en": "1 Very poor"
+        },
+        {
+          "en": "Fails to check the insufflation unit for CO2 usage at a low flow rate, does not continuously assess the patient for abdominal distension, and neglects to communicate with the anesthetic team regarding changes in hemodynamics, tidal volumes, ventilation, and capnography. Does not perform needle decompression when necessary, even with prompting. Demonstrates imprudent behavior in managing minor or large capnoperitoneum, leading to potential respiratory or hemodynamic compromise"
+        },
+        {
+          "en": "X"
+        },
+        {
+          "en": ""
+        },
+        {
+          "en": "41–43"
+        },
+        {
+          "en": "5"
+        }
+      ],
+      "isGroupHeader": false,
+      "rowSpans": [
+        2,
+        2,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2
+      ],
+      "colSpans": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "cells": [
+        {
+          "en": "5 Very good"
+        },
+        {
+          "en": "Independently ensures the insufflation unit is set to use CO2 at a low flow rate (~1.2 L/minute). Continuously assesses the patient for abdominal distension and interrupts the procedure to perform needle decompression of a capnoperitoneum when necessary. Maintains excellent communication with the anesthetic team, promptly responding to changes in hemodynamics, tidal volumes, ventilation, and capnography to review the patient for pleural effusion, capnothorax, or capnoperitoneum. Manages minor levels of capnoperitoneum conservatively and performs needle decompression for large, tense capnoperitoneum associated with hemodynamic or ventilatory compromise"
+        }
+      ],
+      "isGroupHeader": false,
+      "rowSpans": [
+        1,
+        1
+      ],
+      "colSpans": [
+        1,
+        1
+      ]
+    },
+    {
+      "cells": [
+        {
+          "en": "Technical adaptations required for difficult POEM procedures"
+        },
+        {
+          "en": "44"
+        },
+        {
+          "en": "5"
+        }
+      ],
+      "isGroupHeader": false,
+      "rowSpans": [
+        1,
+        1,
+        1
+      ],
+      "colSpans": [
+        6,
+        1,
+        1
+      ]
+    },
+    {
+      "cells": [
+        {
+          "en": "xxix"
+        },
+        {
+          "en": "Managing submucosal fibrosis during POEM[5]"
+        },
+        {
+          "en": "1 Very poor"
+        },
+        {
+          "en": "Fails to recognize or address submucosal fibrosis when poor mucosal lifting impedes tunnel initiation. Neglects to create a second tunnel in an alternative orientation. Does not consider concomitant submucosal and muscular dissection when the second tunneling attempt proves unsuccessful"
+        },
+        {
+          "en": "X"
+        },
+        {
+          "en": "X"
+        },
+        {
+          "en": "44"
+        },
+        {
+          "en": "5"
+        }
+      ],
+      "isGroupHeader": false,
+      "rowSpans": [
+        2,
+        2,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2
+      ],
+      "colSpans": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "cells": [
+        {
+          "en": "5 Very good"
+        },
+        {
+          "en": "Promptly recognizes and addresses submucosal fibrosis when poor mucosal lifting impedes tunnel initiation. Creates a second tunnel in an alternative orientation when necessary. Considers concomitant submucosal and muscular dissection in cases of severe fibrosis or obstructing spastic segments"
+        }
+      ],
+      "isGroupHeader": false,
+      "rowSpans": [
+        1,
+        1
+      ],
+      "colSpans": [
+        1,
+        1
+      ]
+    },
+    {
+      "cells": [
+        {
+          "en": "Overall PPAT"
+        },
+        {
+          "en": "145"
+        }
+      ],
+      "isGroupHeader": true,
+      "rowSpans": [
+        1,
+        1
+      ],
+      "colSpans": [
+        7,
+        1
+      ]
+    }
+  ],
+  "_meta": {
+    "provenance": {
+      "type": "verbatim",
+      "source_doi": "10.1055/a-2569-7634"
+    },
+    "encodedBy": "other:codex-publisher-dom-import",
+    "encodedAt": "2026-08-09",
+    "fieldProvenance": {
+      "columns[*].header.en": {
+        "type": "paraphrased",
+        "source_doi": "10.1055/a-2569-7634",
+        "source_span": "Component Possible responses and scoring"
+      }
+    }
+  }
+}

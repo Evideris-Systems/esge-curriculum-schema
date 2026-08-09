@@ -7,33 +7,29 @@
   "release": "r2026.07",
   "supersedes": null,
   "supersededBy": null,
-  "language": ["en"],
-
+  "language": [
+    "en"
+  ],
   "withinCurriculum": "cur-emr-colon-2023",
   "withinSection": "sec-emr-lifelong-qi",
   "number": 38,
-
-  "title": { "en": "Quality indicators of EMR" },
-  "statement": {
-    "en": "Essential quality indicators of EMR that should be prospectively monitored, recorded, and acted upon if deficiencies are identified are those detailed in Table 6."
+  "title": {
+    "en": "Quality indicators of EMR"
   },
-
+  "statement": {
+    "en": "Essential quality indicators of EMR that should be prospectively monitored, recorded, and acted upon if deficiencies are identified are those detailed in [Table 6]."
+  },
   "grade": {
     "strength": "strong",
-    "evidenceQuality": "low",
-    "levelOfAgreement": 90
+    "evidenceQuality": "low"
   },
-
-  "tableRefs": ["table-6"],
-
   "references": [],
-
   "_meta": {
     "provenance": {
       "type": "verbatim",
       "source_doi": "10.1055/a-2077-0497"
     },
-    "encodedBy": "human:david",
-    "encodedAt": "2026-06-27"
+    "encodedBy": "other:codex-publisher-dom-import",
+    "encodedAt": "2026-08-09"
   }
 }

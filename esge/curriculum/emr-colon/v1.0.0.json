@@ -25,7 +25,7 @@
       },
       {
         "name": "Maria Eva Argenziano",
-        "affiliation": "Clinic of Gastroenterology, Hepatology and Emergency Digestive Endoscopy, Universit\u00e0 Politecnica delle Marche, Ancona, Italy"
+        "affiliation": "Clinic of Gastroenterology, Hepatology and Emergency Digestive Endoscopy, Università Politecnica delle Marche, Ancona, Italy"
       },
       {
         "name": "John Anderson",
@@ -36,7 +36,7 @@
         "affiliation": "Endoscopy Department, Portsmouth Hospitals University NHS Trust, Portsmouth, UK"
       },
       {
-        "name": "Ivo Bo\u0161koski",
+        "name": "Ivo Boškoski",
         "affiliation": "Digestive Endoscopy Unit, Fondazione Policlinico Universitario Agostino Gemelli IRCCS, Rome, Italy"
       },
       {
@@ -61,7 +61,7 @@
       },
       {
         "name": "Ralph R. T. Lee",
-        "affiliation": "The Ottawa Hospital \u2014 Civic Campus, University of Ottawa, Ottawa, Canada"
+        "affiliation": "The Ottawa Hospital — Civic Campus, University of Ottawa, Ottawa, Canada"
       },
       {
         "name": "Ivan Lyutakov",
@@ -72,8 +72,8 @@
         "affiliation": "Gastroenterology Department, Portuguese Oncology Institute of Porto, Porto, Portugal"
       },
       {
-        "name": "Liseth Rivero-S\u00e1nchez",
-        "affiliation": "Department of Gastroenterology, Hospital Cl\u00ednic Barcelona, Barcelona, Spain"
+        "name": "Liseth Rivero-Sánchez",
+        "affiliation": "Department of Gastroenterology, Hospital Clínic Barcelona, Barcelona, Spain"
       },
       {
         "name": "Siwan Thomas-Gibson",
@@ -81,7 +81,7 @@
       },
       {
         "name": "Henrik Thorlacius",
-        "affiliation": "Department of Clinical Sciences, Section of Surgery, Sk\u00e5ne University Hospital, Lund University, Malm\u00f6, Sweden"
+        "affiliation": "Department of Clinical Sciences, Section of Surgery, Skåne University Hospital, Lund University, Malmö, Sweden"
       },
       {
         "name": "Michael J. Bourke",
@@ -100,7 +100,7 @@
     "year": 2023,
     "volume": 55,
     "issue": 7,
-    "pages": "645\u2013679",
+    "pages": "645–679",
     "doi": "10.1055/a-2077-0497",
     "openAccessUrl": "https://www.esge.com/assets/downloads/pdfs/guidelines/2023_a-2077-0497.pdf"
   },
@@ -267,6 +267,7 @@
     "rec-emr-cln-r31-management-post-emr-bleeding",
     "rec-emr-cln-r32-alarm-features-suggesting-adverse",
     "rec-emr-cln-r33-post-procedure-discussion-with",
+    "rec-emr-cln-r34-situations-requiring-admission-hospital",
     "rec-emr-cln-r35-essential-features-during-surveillance",
     "rec-emr-cln-r36-treatment-lnpcp-recurrence-emr",
     "rec-emr-cln-r37-completion-training-emr",
@@ -322,8 +323,8 @@
       "statement": "D.J. Tate has received financial support from Olympus for research support (2019 to present)."
     },
     {
-      "author": "J. Anderson, M.E. Argenziano, I. Bo\u0161koski, M.J. Bourke, M. Bugajski, L. Desomer, S.J. Heitman, H. Kashida, V. Kriazhov, R.R.T. Lee, I. Lyutakov, P. Pimentel-Nunes, L. Rivero-S\u00e1nchez, T.C. Tham, S. Thomas-Gibson, H. Thorlacius",
-      "statement": "J. Anderson, M.E. Argenziano, I. Bo\u0161koski, M.J. Bourke, M. Bugajski, L. Desomer, S.J. Heitman, H. Kashida, V. Kriazhov, R.R.T. Lee, I. Lyutakov, P. Pimentel-Nunes, L. Rivero-S\u00e1nchez, T.C. Tham, S. Thomas-Gibson, H. Thorlacius declare that they have no conflict of interest."
+      "author": "J. Anderson, M.E. Argenziano, I. Boškoski, M.J. Bourke, M. Bugajski, L. Desomer, S.J. Heitman, H. Kashida, V. Kriazhov, R.R.T. Lee, I. Lyutakov, P. Pimentel-Nunes, L. Rivero-Sánchez, T.C. Tham, S. Thomas-Gibson, H. Thorlacius",
+      "statement": "J. Anderson, M.E. Argenziano, I. Boškoski, M.J. Bourke, M. Bugajski, L. Desomer, S.J. Heitman, H. Kashida, V. Kriazhov, R.R.T. Lee, I. Lyutakov, P. Pimentel-Nunes, L. Rivero-Sánchez, T.C. Tham, S. Thomas-Gibson, H. Thorlacius declare that they have no conflict of interest."
     }
   ],
   "_meta": {

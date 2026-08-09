@@ -31,16 +31,16 @@
       "type": "verbatim",
       "source_doi": "10.1055/a-2077-0497"
     },
-    "encodedBy": "human:david",
-    "encodedAt": "2026-06-29"
+    "encodedBy": "other:codex-publisher-dom-import",
+    "encodedAt": "2026-08-09"
   },
   "subItems": [
     {
       "label": "i",
-      "text": {
-        "en": "Cold avulsion (using a standard biopsy forceps), then thermal ablation using soft coagulation (ERBE effect 4, 80 W) to the avulsion bed using the snare tip. Non-lifting tissue should be completely removed prior to application of soft coagulation."
-      },
       "levelOfAgreement": 84,
+      "text": {
+        "en": "Cold avulsion (using a standard biopsy forceps), then thermal ablation using soft coagulation (ERBE effect 4, 80 W) to the avulsion bed using the snare tip. Non-lifting tissue should be completely removed prior to application of soft coagulation [9]."
+      },
       "references": [
         "ref-9"
       ]

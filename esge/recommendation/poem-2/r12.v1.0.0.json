@@ -24,23 +24,26 @@
     "evidenceQuality": "no-evidence-available"
   },
   "levelOfAgreement": 97,
-  "references": [],
+  "references": [
+    "ref-20",
+    "ref-38",
+    "ref-39"
+  ],
   "_meta": {
     "provenance": {
       "type": "verbatim",
       "source_doi": "10.1055/a-2569-7634"
     },
-    "encodedBy": "human:david",
-    "encodedAt": "2026-07-03",
-    "fieldProvenance": {
-      "commentary": {
-        "type": "verbatim",
-        "source_doi": "10.1055/a-2569-7634",
-        "source_span": "Paragraph(s) preceding the N RECOMMENDATION block in body; back-to-back groups share commentary."
-      }
-    }
+    "encodedBy": "other:codex-publisher-dom-import",
+    "encodedAt": "2026-08-09"
   },
   "commentary": {
-    "en": "arising from the low number of events and limited sample size, and the potential risk of publication bias (Table 4 s). Whether a single dose of antibiotic can be omitted has not been formally addressed and cannot be recommended at this stage.\n\nanatomical landmarks should be recognized before the mucosal incision? POEM can be performed with the patient in either the supine or left lateral position, depending on the operator\u2019s preference. It is imperative to spend sufficient time cleansing the esophagus before initiating tunnel creation to prevent contamination of the peritoneum and mediastinum. The endoscopist must ensure that there is no residual dietary liquid or food within the lumen [20]. In a study of 71 patients, there was a discordance of up to 5 cm on average between high resolution manometry (HRM),"
-  }
+    "en": "POEM can be performed with the patient in either the supine or left lateral position, depending on the operator’s preference. It is imperative to spend sufficient time cleansing the esophagus before initiating tunnel creation to prevent contamination of the peritoneum and mediastinum. The endoscopist must ensure that there is no residual dietary liquid or food within the lumen [20].\n\nIn a study of 71 patients, there was a discordance of up to 5 cm on average between high resolution manometry (HRM), esophagram findings, and endoscopy [38]. Therefore, any obstructive esophageal spastic segments should be documented, and their correlation with HRM and imaging test findings assessed. A thorough mucosal inspection both with white-light and image-enhanced endoscopy (narrow-band imaging or image-enhanced endoscopy) is mandatory to rule out pseudoachalasia and neoplastic lesions, especially considering that achalasia patients are at higher risk of squamous cell carcinoma [20].\n\nThe scope should be advanced into the stomach to assess the resistance of the gastroesophageal junction (GEJ) and evaluate the gastric cardia. The operator should locate the lesser curvature and then carefully withdraw the scope without altering its orientation to establish clock-face orientation within the esophagus.\n\nPOEM practitioners should be capable of identifying the anterior and posterior walls in reference to gastric and esophageal landmarks and gravity. The following anatomical landmarks should be meticulously located and documented: the upper esophageal sphincter, the spine, and the GEJ. With the patient in the supine position, operators should also identify the trachea, the left main bronchus, and the aortic arch [39]. It is worth noting that identifying some anatomical landmarks can be challenging in patients with sigmoid-type or end-stage achalasia. The effect of gravity can be used to determine esophageal orientation considering that fluids tend to accumulate at the 6-o’clock position (i. e. the posterior wall for the supine position and the left lateral wall for the left lateral position). As a final recommendation, it is advisable to plan the incision site approximately 2–3 cm cranial to the myotomy’s starting point, with a focus on avoiding areas with thick submucosal vessels or severe inflammation."
+  },
+  "commentaryForRecommendations": [
+    9,
+    10,
+    11,
+    12
+  ]
 }

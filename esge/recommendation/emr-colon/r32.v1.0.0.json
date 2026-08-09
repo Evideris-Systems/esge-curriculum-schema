@@ -32,23 +32,16 @@
       "type": "verbatim",
       "source_doi": "10.1055/a-2077-0497"
     },
-    "encodedBy": "human:david",
-    "encodedAt": "2026-06-28",
-    "fieldProvenance": {
-      "subItems": {
-        "type": "verbatim",
-        "source_doi": "10.1055/a-2077-0497",
-        "source_span": "Hand-extracted from source PDF after careful cross-rec attribution; PDF column flow had scattered these sub-items across the narrative subsection containing R32."
-      }
-    }
+    "encodedBy": "other:codex-publisher-dom-import",
+    "encodedAt": "2026-08-09"
   },
   "subItems": [
     {
       "label": "i",
-      "text": {
-        "en": "Persistent abdominal pain despite simple analgesics."
-      },
       "levelOfAgreement": 97,
+      "text": {
+        "en": "Persistent abdominal pain despite simple analgesics [142] [143]."
+      },
       "references": [
         "ref-142",
         "ref-143"
@@ -56,31 +49,31 @@
     },
     {
       "label": "ii",
+      "levelOfAgreement": 96,
       "text": {
         "en": "Persistent abdominal distension associated with abdominal pain."
-      },
-      "levelOfAgreement": 96
+      }
     },
     {
       "label": "iii",
+      "levelOfAgreement": 97,
       "text": {
         "en": "Hemodynamic instability/shock (fever, tachycardia, hypoxia etc.)."
-      },
-      "levelOfAgreement": 97
+      }
     },
     {
       "label": "iv",
+      "levelOfAgreement": 97,
       "text": {
         "en": "Peritonism on clinical examination."
-      },
-      "levelOfAgreement": 97
+      }
     },
     {
       "label": "v",
+      "levelOfAgreement": 97,
       "text": {
         "en": "Persistent large-volume rectal bleeding."
-      },
-      "levelOfAgreement": 97
+      }
     }
   ]
 }

@@ -24,107 +24,107 @@
     "evidenceQuality": "low"
   },
   "references": [
-    "ref-139",
-    "ref-57"
+    "ref-57",
+    "ref-139"
   ],
   "_meta": {
     "provenance": {
       "type": "verbatim",
       "source_doi": "10.1055/a-2077-0497"
     },
-    "encodedBy": "human:david",
-    "encodedAt": "2026-06-29"
+    "encodedBy": "other:codex-publisher-dom-import",
+    "encodedAt": "2026-08-09"
   },
   "subItems": [
     {
       "label": "i",
-      "text": {
-        "en": "The suspected perforation should be classified according to the Sydney DMI score. DMI types II\u2013V should be closed endoscopically."
-      },
       "levelOfAgreement": 95,
+      "text": {
+        "en": "The suspected perforation should be classified according to the Sydney DMI score [57]. DMI types II–V should be closed endoscopically."
+      },
       "references": [
         "ref-57"
       ]
     },
     {
       "label": "ii",
+      "levelOfAgreement": 95,
       "text": {
         "en": "The endoscopist should first consider completing the resection, or at least clear the polyp tissue surrounding the perforation, if it is safe/appropriate to do so."
-      },
-      "levelOfAgreement": 95
+      }
     },
     {
       "label": "iii",
-      "text": {
-        "en": "In the context of an observed DMI type IV or V with abdominal distension and patient instability, a 16 G or larger bore needle should be inserted into the peritoneum to decompress a capnoperitoneum."
-      },
       "levelOfAgreement": 83,
+      "text": {
+        "en": "In the context of an observed DMI type IV or V with abdominal distension and patient instability, a 16 G or larger bore needle should be inserted into the peritoneum to decompress a capnoperitoneum [139]."
+      },
       "references": [
         "ref-139"
       ]
     },
     {
       "label": "iv",
+      "levelOfAgreement": 95,
       "text": {
         "en": "The safety and appropriateness of completing the resection (prior to managing the perforation) depends on: the bowel preparation, competence of the endoscopist, size of the perforation, stage of the resection, whether peritoneal contamination is imminent, and patient stability."
-      },
-      "levelOfAgreement": 95
+      }
     },
     {
       "label": "v",
+      "levelOfAgreement": 95,
       "text": {
         "en": "Through-the-scope (TTS) endoscopic clips should be the first-line choice to close a perforation during EMR."
-      },
-      "levelOfAgreement": 95
+      }
     },
     {
       "label": "vi",
+      "levelOfAgreement": 96,
       "text": {
         "en": "Clip placement should consider the effect of gravity. Start on the same side of the wound as the fluid pool, so the clip stem falls away from the wound, allowing further clip placement. Start on an area of normal tissue if possible (not directly on the perforation) and proceed along the axis of the perforation to achieve a zipper-type closure."
-      },
-      "levelOfAgreement": 96
+      }
     },
     {
       "label": "vii",
+      "levelOfAgreement": 95,
       "text": {
         "en": "Maximum tissue capture with TTS clipping can be achieved using rotation of the clip shaft and suction of luminal gas prior to closure."
-      },
-      "levelOfAgreement": 95
+      }
     },
     {
       "label": "viii",
+      "levelOfAgreement": 89,
       "text": {
         "en": "If at this point, closure is not possible consider consulting a more experienced colleague/trainer if possible."
-      },
-      "levelOfAgreement": 89
+      }
     },
     {
       "label": "ix",
+      "levelOfAgreement": 92,
       "text": {
         "en": "If closure is not possible using TTS endoscopic clips, other techniques available include: over-the-scope (OTS) clips, nylon poly-loop plus clips, or endoscopic suturing. These techniques are outside the remit of this competency framework."
-      },
-      "levelOfAgreement": 92
+      }
     },
     {
       "label": "x",
+      "levelOfAgreement": 92,
       "text": {
         "en": "Administer intravenous antibiotics in the case of intraprocedural perforation, considering any medication allergies/interactions."
-      },
-      "levelOfAgreement": 92
+      }
     },
     {
       "label": "xi",
+      "levelOfAgreement": 82,
       "text": {
         "en": "Post-procedure, consider a computed tomography (CT) scan if there is persistent pain despite intravenous analgesia following the procedure."
-      },
-      "levelOfAgreement": 82
+      }
     },
     {
       "label": "xii",
+      "levelOfAgreement": 92,
       "text": {
         "en": "Post-procedure, consider review by a surgeon. Base the need for referral to surgery on the degree of observed fecal contamination, presence/absence of persistent post-procedural pain, and CT scan appearances."
-      },
-      "levelOfAgreement": 92
+      }
     }
   ]
 }

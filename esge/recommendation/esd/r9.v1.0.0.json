@@ -14,10 +14,10 @@
   "withinSection": "sec-esd-training",
   "number": 9,
   "title": {
-    "en": "Performance of ESD in humans should start on carefully selected lesions, ideally small (< 30 mm), located in the antrum or in the rectum for the first 20 procedures (initial period)."
+    "en": "Performance of ESD in humans should start on carefully selected lesions, ideally small (<30 mm), located in the antrum or in the rectum for the first 20 procedures (initial period). Beginning human practice in the colon is not recommended."
   },
   "statement": {
-    "en": "Performance of ESD in humans should start on carefully selected lesions, ideally small (< 30 mm), located in the antrum or in the rectum for the first 20 procedures (initial period). Beginning human practice in the colon is not recommended."
+    "en": "Performance of ESD in humans should start on carefully selected lesions, ideally small (<30 mm), located in the antrum or in the rectum for the first 20 procedures (initial period). Beginning human practice in the colon is not recommended."
   },
   "levelOfAgreement": 95,
   "references": [],
@@ -26,17 +26,7 @@
       "type": "verbatim",
       "source_doi": "10.1055/a-0996-0912"
     },
-    "encodedBy": "human:david",
-    "encodedAt": "2026-07-01",
-    "fieldProvenance": {
-      "commentary": {
-        "type": "verbatim",
-        "source_doi": "10.1055/a-0996-0912",
-        "source_span": "Paragraph(s) of prose in the source body immediately preceding the RECOMMENDATION block; shared with adjacent back-to-back RECOMMENDATIONs where the source clusters them without intervening prose. PDF hyphenation healed, running footers and page markers stripped."
-      }
-    }
-  },
-  "commentary": {
-    "en": "To reach the goal, ESGE recommends a minimum number of 20 procedures, with supervision if possible, but half of the trainees will probably need more training to fulfill the quality threshold of an 80 % rate of en bloc complete resections (all marks visible in the specimen) without perforation in 10 consecutive procedures. Observing procedures performed by experts is effective in improving ESD skills, as demonstrated by Draganov et al. [45]. The ESD procedure time was clearly reduced between the preobservation period (63 minutes) and the post-observation period (32 minutes). This study compared nine procedures performed in an animal model before and after an observation period of 5 weeks. Assisting an expert during some procedures is probably a better option than only watching as it increases the involvement and the concentration needed. Furthermore, as these procedures are time-consuming, this might also teach the trainee to be patient, even during bleeding episodes. Japanese experts recommend a minimum of 20 procedures observed and five as an assistant before starting ESD in patients [22]. A high number of procedures observed increases understanding of a wide variety of situations, different organs, and adverse event (bleeding, perforation, and stenosis) management."
+    "encodedBy": "other:codex-publisher-dom-import",
+    "encodedAt": "2026-08-09"
   }
 }

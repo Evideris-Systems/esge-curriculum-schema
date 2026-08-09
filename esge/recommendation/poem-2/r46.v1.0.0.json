@@ -14,7 +14,7 @@
   "withinSection": "sec-poem-2-postoperative-care",
   "number": 46,
   "title": {
-    "en": "ESGE recommends the use of paracetamol and/or nonsteroidal anti-inflammatory drugs as first line for POEM post-procedural pain,"
+    "en": "ESGE recommends the use of paracetamol and/or nonsteroidal anti-inflammatory drugs as first line for POEM post-procedural pain, with the consideration of opioids if the initial approach fails."
   },
   "statement": {
     "en": "ESGE recommends the use of paracetamol and/or nonsteroidal anti-inflammatory drugs as first line for POEM post-procedural pain, with the consideration of opioids if the initial approach fails."
@@ -24,23 +24,28 @@
     "evidenceQuality": "low"
   },
   "levelOfAgreement": 83,
-  "references": [],
+  "references": [
+    "ref-44",
+    "ref-74",
+    "ref-113",
+    "ref-114",
+    "ref-115",
+    "ref-116",
+    "ref-117",
+    "ref-118"
+  ],
   "_meta": {
     "provenance": {
       "type": "verbatim",
       "source_doi": "10.1055/a-2569-7634"
     },
-    "encodedBy": "human:david",
-    "encodedAt": "2026-07-03",
-    "fieldProvenance": {
-      "commentary": {
-        "type": "verbatim",
-        "source_doi": "10.1055/a-2569-7634",
-        "source_span": "Paragraph(s) preceding the N RECOMMENDATION block in body; back-to-back groups share commentary."
-      }
-    }
+    "encodedBy": "other:codex-publisher-dom-import",
+    "encodedAt": "2026-08-09"
   },
   "commentary": {
-    "en": "The presence of a capnoperitoneum should be confirmed by abdominal examination, noting distension and a tympanic abdomen on percussion. Care should be taken to ensure that the stomach is deflated before attributing abdominal distension to capnoperitoneum. The decompression site should be identified avoiding vasculature, infected skin, or scar tissue. Multiple options have been described for the insertion point; either in the midline 2 cm below the umbilicus along the median line, or on a lateral part of the abdomen 5 cm superior and medial to the anterior superior iliac spine, or 3 cm below the left subcostal area at the midclavicular line [103, 104]. The overlying skin should be cleansed with a sterilizing solution. A test puncture might be performed using a 21-gauge needle; thereafter, an 18- or 20-gauge trocar should be used [103]. The catheter and needle should be inserted into the peritoneal cavity while applying suction on a water-filled syringe. Bubbling in the water is used to confirm the presence of gas, indicating an adequate depth of insertion. The needle may then be withdrawn while leaving the plastic catheter sheath in place. The water-filled syringe is then attached to the catheter and the plunger removed. Bubbling through the water-filled syringe is used to denote continued drainage of gas. The syringe should be secured and left in place until completion of the procedure, or longer until adequate decompression is achieved.\n\nSubmucosal fibrosis poses one of the greatest challenges to POEM practitioners and is the leading cause of technical failure. Moreover, it is associated with an elevated risk of AEs and prolonged procedure time [105]. Numerous strategies have been proposed to address and overcome the hurdles posed by submucosal fibrosis during POEM. \u25aaCreation of a second tunnel Where poor mucosal lifting impedes the initiation of the submucosal tunnel, some authors recommend creating a second tunnel in an alternative orientation. In a retrospective study involving 21 cases with severe submucosal fibrosis, this approach successfully rescued 11 patients [105]. \u25aaConcomitant submucosal and muscular dissection Fibrosis may be encountered at a later stage during tunneling. In such situations, concurrent submucosal and muscle dissection has demonstrated feasibility and effectiveness, as evidenced in a case report [106] and case series, albeit with limited sample sizes [107\u2013109]. This modified POEM approach may also be considered for patients with severe spastic segments, although data specific to this scenario are currently lacking. \u25aa\u201cOpen POEM\u201d An alternative variation termed \u201copen POEM\u201d proposes the simultaneous cutting of the mucosa, submucosa, and muscularis propria [110]. Although initial outcomes reported in case series have been favorable, the panel does not endorse this full-thickness approach as it goes against the principles of third-space endoscopy, increases the potential for severe AEs, and has limited available data [110].\n\nAdequate orientation can be challenging in cases of sigmoidtype achalasia. Case reports have suggested various approaches to facilitate the completion of the procedure, including double-scope POEM, POEM with additional curved myotomy, fluoroscopy-guided POEM, and open POEM [111]. In instances of types I and II sigmoid-type achalasia, a shorter tunnel and myotomy (0\u20131 cm after the caudal end of the mucosal incision) may suffice; however, the existing evidence is insufficient to warrant a formal recommendation.\n\nThe initial studies of POEM suggested a liquid diet on the day after the POEM procedure, followed by a soft diet on post- POEM day 3, with resumption of a normal diet on post-POEM day 4 [112]. Owing to the lack of evidence, the panel proposal is based on an internal Delphi consensus."
-  }
+    "en": "Post-procedural pain is common after POEM, with up to 10% of patients complaining of severe pain [74] [113]. Substernal chest discomfort is usually the main complaint and reduces over time. Nearly 80% of patients may need analgesia, particularly in the first day [44], requiring paracetamol, opioids, or nonsteroidal anti-inflammatory drugs for symptomatic control, sometimes with a combined approach. When used, opioids are usually not needed in large or prolonged doses, and chronic pain is usually related to residual achalasia symptoms rather than the procedure itself [113]. Compared with laparoscopic Heller’s myotomy, post-procedure pain may be similar or lower after POEM [114], with low need for opioids within the first 4 hours, and no opioid requirement after 4 hours, particularly when using a multimodal analgesic approach [115].\n\nOther analgesic strategies have been evaluated, such as preprocedural paravertebral nerve block [116] or intraprocedural tunnel irrigation with 30 mL 0.2% ropivacaine [117]; however, these have not shown a significant reduction in pain-related outcomes.\n\nIf opioids are needed, an RCT of 73 patients compared the use of two opioids for the management of post-procedural pain (0.08 mg/kg oxycodone [n = 36] or morphine [n = 37] given 15 minutes before the end of the POEM procedure), showing better efficacy with the former [118]."
+  },
+  "commentaryForRecommendations": [
+    46
+  ]
 }

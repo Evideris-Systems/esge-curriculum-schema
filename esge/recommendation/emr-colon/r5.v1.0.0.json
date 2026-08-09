@@ -17,163 +17,132 @@
     "en": "Equipment/materials for EMR"
   },
   "statement": {
-    "en": "MR ESGE recommends familiarity with the equipment/ materials required for EMR given in the following list."
+    "en": "ESGE recommends familiarity with the equipment/materials required for EMR given in the following list."
   },
   "grade": {
     "strength": "weak",
     "evidenceQuality": "moderate"
   },
-  "subItems": [
-    {
-      "label": "i",
-      "text": {
-        "en": "Demographics: name of the patient, date of birth, and one other identifier."
-      },
-      "levelOfAgreement": 97
-    },
-    {
-      "label": "ii",
-      "text": {
-        "en": "Demographics: name of the staff involved, name of the trainee if involved."
-      },
-      "levelOfAgreement": 95
-    },
-    {
-      "label": "iii",
-      "text": {
-        "en": "Demographics: indication for the procedure (including original indication if referral or procedure with intent of lesion resection)."
-      },
-      "levelOfAgreement": 96
-    },
-    {
-      "label": "iv",
-      "text": {
-        "en": "Procedure: drugs used including sedation, anesthesia, antibiotics, and/or antispasmodics."
-      },
-      "levelOfAgreement": 98
-    },
-    {
-      "label": "v",
-      "text": {
-        "en": "Procedure: bowel preparation quality [47\u201349]."
-      },
-      "levelOfAgreement": 96
-    },
-    {
-      "label": "vi",
-      "text": {
-        "en": "Procedure: completeness of the colonoscopy."
-      },
-      "levelOfAgreement": 98,
-      "references": [
-        "ref-48",
-        "ref-50"
-      ]
-    },
-    {
-      "label": "vii",
-      "text": {
-        "en": "Procedure: comfort score if procedure with sedation."
-      },
-      "levelOfAgreement": 87,
-      "references": [
-        "ref-48",
-        "ref-51",
-        "ref-52"
-      ]
-    },
-    {
-      "label": "viii",
-      "text": {
-        "en": "Procedure: photodocumentation of the lesion and defect as a minimum."
-      },
-      "levelOfAgreement": 96,
-      "references": [
-        "ref-53"
-      ]
-    },
-    {
-      "label": "ix",
-      "text": {
-        "en": "Procedure: type of endoscope and specific electrosurgical device (snare/knife etc.) used."
-      },
-      "levelOfAgreement": 89
-    },
-    {
-      "label": "x",
-      "text": {
-        "en": "Lesion specific (for each lesion/EMR performed): lesion location and size."
-      },
-      "levelOfAgreement": 98
-    },
-    {
-      "label": "xi",
-      "text": {
-        "en": "Lesion specific: ease of access and positioning."
-      },
-      "levelOfAgreement": 95
-    },
-    {
-      "label": "xii",
-      "text": {
-        "en": "Lesion specific: an estimate of position using landmarks, scope tracking, or distance from the anus during withdrawal with a straight scope."
-      },
-      "levelOfAgreement": 93
-    },
-    {
-      "label": "xiii",
-      "text": {
-        "en": "Lesion specific: description including size, Paris, granularity, Kudo pit pattern /NICE classification /JNET if magnification is available."
-      },
-      "levelOfAgreement": 99,
-      "references": [
-        "ref-23",
-        "ref-27",
-        "ref-45",
-        "ref-54",
-        "ref-55"
-      ]
-    },
-    {
-      "label": "xiv",
-      "text": {
-        "en": "Lesion specific: previous histology if available."
-      },
-      "levelOfAgreement": 95
-    },
-    {
-      "label": "xv",
-      "text": {
-        "en": "Technical points: injectate used and description of lifting."
-      },
-      "levelOfAgreement": 80
-    }
-  ],
   "references": [
     "ref-6",
-    "ref-23",
-    "ref-27",
+    "ref-39",
     "ref-40",
     "ref-41",
     "ref-42",
     "ref-43",
     "ref-44",
-    "ref-45",
-    "ref-46",
-    "ref-48",
-    "ref-50",
-    "ref-51",
-    "ref-52",
-    "ref-53",
-    "ref-54",
-    "ref-55"
+    "ref-46"
   ],
   "_meta": {
     "provenance": {
       "type": "verbatim",
       "source_doi": "10.1055/a-2077-0497"
     },
-    "encodedBy": "human:david",
-    "encodedAt": "2026-06-28"
-  }
+    "encodedBy": "other:codex-publisher-dom-import",
+    "encodedAt": "2026-08-09"
+  },
+  "subItems": [
+    {
+      "label": "i",
+      "levelOfAgreement": 96,
+      "text": {
+        "en": "Reasons for the use of carbon dioxide as opposed to air [39]."
+      },
+      "references": [
+        "ref-39"
+      ]
+    },
+    {
+      "label": "ii",
+      "levelOfAgreement": 92,
+      "text": {
+        "en": "Different endoscopes, including pediatric colonoscopes and gastroscopes, and when to consider their use."
+      }
+    },
+    {
+      "label": "iii",
+      "levelOfAgreement": 90,
+      "text": {
+        "en": "Electrosurgical unit, including a clear understanding of the benefits of different cut and coagulation settings [40]."
+      },
+      "references": [
+        "ref-40"
+      ]
+    },
+    {
+      "label": "iv",
+      "levelOfAgreement": 90,
+      "text": {
+        "en": "Different types of transparent distal attachment caps and their uses."
+      }
+    },
+    {
+      "label": "v",
+      "levelOfAgreement": 96,
+      "text": {
+        "en": "Waterjet system and endoscope flushing pump."
+      }
+    },
+    {
+      "label": "vi",
+      "levelOfAgreement": 96,
+      "text": {
+        "en": "Injection solutions [41], colloid vs. crystalloid [42] [43], use of adrenaline (at a preferred dilution of 1:100 000 or less) [6], and how to prepare them."
+      },
+      "references": [
+        "ref-6",
+        "ref-41",
+        "ref-42",
+        "ref-43"
+      ]
+    },
+    {
+      "label": "vii",
+      "levelOfAgreement": 93,
+      "text": {
+        "en": "Different chromic dyes [44] and their properties."
+      },
+      "references": [
+        "ref-44"
+      ]
+    },
+    {
+      "label": "viii",
+      "levelOfAgreement": 93,
+      "text": {
+        "en": "A variety of different snares and their uses (different lesions and circumstances)."
+      }
+    },
+    {
+      "label": "ix",
+      "levelOfAgreement": 92,
+      "text": {
+        "en": "Coagulation forceps [45] and their uses."
+      }
+    },
+    {
+      "label": "x",
+      "levelOfAgreement": 94,
+      "text": {
+        "en": "Different types of endoscopic clips, including different sizes, brands, and rotatability."
+      }
+    },
+    {
+      "label": "xi",
+      "levelOfAgreement": 94,
+      "text": {
+        "en": "Endoscopic tattoo, including technique for placement [46]."
+      },
+      "references": [
+        "ref-46"
+      ]
+    },
+    {
+      "label": "xii",
+      "levelOfAgreement": 93,
+      "text": {
+        "en": "Endoscopic retrieval nets."
+      }
+    }
+  ]
 }

@@ -11,10 +11,10 @@
     "en"
   ],
   "withinCurriculum": "cur-poem-2-2025",
-  "withinSection": "sec-poem-2-adverse-events",
+  "withinSection": "sec-poem-2-mucosal-closure",
   "number": 36,
   "title": {
-    "en": "ESGE suggests that over-the-scope clips and endoscopic suturing can be considered if closure with"
+    "en": "ESGE suggests that over-the-scope clips and endoscopic suturing can be considered if closure with conventional through-the-scope clips fails."
   },
   "statement": {
     "en": "ESGE suggests that over-the-scope clips and endoscopic suturing can be considered if closure with conventional through-the-scope clips fails."
@@ -24,26 +24,25 @@
     "evidenceQuality": "very-low"
   },
   "levelOfAgreement": 91,
-  "references": [],
+  "references": [
+    "ref-89",
+    "ref-90",
+    "ref-91",
+    "ref-92"
+  ],
   "_meta": {
     "provenance": {
       "type": "verbatim",
       "source_doi": "10.1055/a-2569-7634"
     },
-    "encodedBy": "human:david",
-    "encodedAt": "2026-07-03",
-    "fieldProvenance": {
-      "commentary": {
-        "type": "verbatim",
-        "source_doi": "10.1055/a-2569-7634",
-        "source_span": "Paragraph(s) preceding the N RECOMMENDATION block in body; back-to-back groups share commentary."
-      }
-    }
+    "encodedBy": "other:codex-publisher-dom-import",
+    "encodedAt": "2026-08-09"
   },
   "commentary": {
-    "en": "A retrospective study showed that mean procedure times for POEM were significantly shorter with the full-thickness approach (62 vs. 88 minutes; P < 0.01), with similar symptom relief rates, post-procedural manometry outcomes, and AEs [73]. Another retrospective study reported similar results, with mean procedure times being significantly shorter with fullthickness myotomy (P = 0.02). There was no increase in any procedure-related AEs after full-thickness myotomy, with similar results also for treatment success (Eckardt score \u22643, 96.0 % vs. 95.0 %), post-treatment symptom score and esophageal sphincter pressure, and the overall clinical reflux complication rate (21.2 % vs. 16.5 %; P = 0.38) [74]. Similar results were found in other studies (Table 7 s) [75, 76]. In contrast, a smaller retrospective study, including 56 patients, showed that full-thickness myotomy was a predictive factor for clinically relevant GERD [77]. Despite these findings, a subsequent metanalysis did not find a statistically significant difference between selective and full-thickness myotomy in terms of clinical reflux or pH monitoring outcomes [78].\n\nMultiple studies, including RCTs, have addressed the length of the myotomy created during POEM. In general, shorter myotomy length has been shown to induce similar rates of procedural and clinical success in patients with types I and II achalasia, with no increase in AEs or GERD, but with significantly reduced procedural times [79\u201382]. The majority of studies on POEM describe a gastric myotomy length of 2\u20133 cm [83, 84]. A longer myotomy length may correlate with increased rates of reflux esophagitis (Table 8 s) [58]. Furthermore, endoscopic functional luminal impendence planimetry (EndoFLIP) measurements of progressive gastric myotomy suggest that > 2 cm gives no further benefit in terms of GEJ distensibility [85]. EndoFLIP is a technology that measures the distensibility index (area/pressure) of sphincters in the gastrointestinal tract. It is particularly useful when measured pre- and post-POEM to assess the relaxation of the LES after therapy. One uncontrolled study suggested low post-POEM distensibility index values (< 7 mm2/mmHg) were predictive of clinical failure [86]. Whilst clinically useful in certain cases, this expert panel does not currently recommend the routine use of peri-POEM EndoFLIP owing to cost and availability concerns, and its uncertain benefit in clinically relevant outcomes. In patients with type III achalasia and other spastic esophageal disorders, myotomy length is often tailored to HRM findings, allowing for tailored myotomy. This has been shown to correlate with improved clinical success in type III achalasia and spastic esophageal disorders (Table 9 s) [87, 88]."
+    "en": "Conventional through-the-scope (TTS) clips are widely used for the closure of mucosal defects ([Fig. 3]). Alternatives such as over-the-scope (OTS) clips and endoscopic sutures have also been described, which require scope withdrawal prior to intervention and are more demanding in terms of skills and training.\n\nA novel TTS suture system for mucosotomy closure (the X-Tack Endoscopic HeliX Tacking System) was evaluated in 35 consecutive patients who underwent POEM [89]. It achieved a 91% technical success rate, with a mean closure time of 12.4 minutes; however, 17 patients (53%) required more than two suture systems and three patients (9%) required additional TTS clips; no AEs were reported. This technique required a longer (12 minutes) suturing time and has a lower success rate (91%) compared with simple endoscopic clipping, which requires 4–6 minutes and has been described as having nearly 100% success. Furthermore, this suture system is currently more costly and not widely available [90].\n\nA case–control study comparing endoscopic suturing and conventional TTS clips showed that both techniques offered good clinical results, with adequate and safe mucosal closure [91]. As expected, closure time was shorter with clips compared with suturing (16 vs. 33 minutes; P = 0.04). Overall, a cost analysis showed a trend toward lower cost with clips versus endoscopic suturing. The authors suggested that suturing may be most cost-effective for difficult cases where conventional clip closure methods fail.\n\nAnother study compared TTS clips with OTS clips for POEM and gastric POEM procedures [92]. The authors reported longer clip placement times (6.5 vs. 3.2 minutes; P = 0.01), higher numbers of clips used (5 vs. 1; P = 0.01), and more clip-related AEs (21.7% vs. 13.0%; P = 0.01) in the TTS arm compared with the OTS clip arm; however, the quoted AEs (5/36 in the TTS group) included inability to place the clip (n = 2) and clip dislodgement (n = 3). Technical and clinical clip success occurred in 94.5% versus 91.7% of cases (P = 0.13), and 91.7% vs. 100% (P = 0.01) for TTS clips and OTS clips, respectively."
   },
-  "figureRefs": [
-    "fig-poem-2-3"
+  "commentaryForRecommendations": [
+    35,
+    36
   ]
 }

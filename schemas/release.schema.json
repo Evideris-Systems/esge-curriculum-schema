@@ -97,6 +97,24 @@
         "$ref": "#/$defs/artifactRef"
       }
     },
+    "references": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/artifactRef"
+      }
+    },
+    "figures": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/artifactRef"
+      }
+    },
+    "tables": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/artifactRef"
+      }
+    },
     "changelogSince": {
       "$ref": "_common.schema.json#/$defs/calverRelease"
     },

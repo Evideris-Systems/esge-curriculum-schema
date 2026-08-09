@@ -1,0 +1,198 @@
+{
+  "$schema": "https://schema.evideris.com/schemas/table.schema.json",
+  "$id": "https://schema.evideris.com/esge/table/poem-2/table-3.v1.0.0.json",
+  "lineageId": "table-poem-2-3",
+  "type": "table",
+  "version": "1.0.0",
+  "release": "r2026.07",
+  "supersedes": null,
+  "supersededBy": null,
+  "language": [
+    "en"
+  ],
+  "withinCurriculum": "cur-poem-2-2025",
+  "number": "3",
+  "title": {
+    "en": "Table 3 Management of antithrombotic therapy for peroral endoscopic myotomy (POEM)."
+  },
+  "columns": [
+    {
+      "header": {
+        "en": "Medication"
+      }
+    },
+    {
+      "header": {
+        "en": "Low thrombotic risk — withdrawal"
+      }
+    },
+    {
+      "header": {
+        "en": "Low thrombotic risk — resumption"
+      }
+    },
+    {
+      "header": {
+        "en": "High thrombotic risk — withdrawal"
+      }
+    },
+    {
+      "header": {
+        "en": "High thrombotic risk — resumption"
+      }
+    }
+  ],
+  "rows": [
+    {
+      "cells": [
+        {
+          "en": "Vitamin K antagonist"
+        },
+        {
+          "en": "5 days before POEM; Check INR on the day of the procedure (< 1.5)"
+        },
+        {
+          "en": "Usual daily dose on the night of the procedure"
+        },
+        {
+          "en": "5 days before POEM; 3 days before POEM start therapeutic dose of LMWH. Administer the last dose of LMWH 24 hours before the procedure; Check INR on the day of the procedure (< 1.5)"
+        },
+        {
+          "en": "Usual daily dose the night of the procedure; Restart therapeutic LMWH 24 hours after POEM"
+        }
+      ],
+      "isGroupHeader": false,
+      "rowSpans": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "colSpans": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "cells": [
+        {
+          "en": "DOACs (dabigatran, rivaroxaban, apixaban, or edoxaban)"
+        },
+        {
+          "en": "3 days before POEM; 5 days before POEM for dabigatran if eGFR 30–50 mL/minute"
+        },
+        {
+          "en": "48 hours after POEM"
+        },
+        {
+          "en": "3 days before POEM; 5 days before POEM for dabigatran if eGFR 30–50 mL/minute"
+        },
+        {
+          "en": "24 hours after POEM"
+        }
+      ],
+      "isGroupHeader": false,
+      "rowSpans": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "colSpans": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "cells": [
+        {
+          "en": "Aspirin"
+        },
+        {
+          "en": "Continue aspirin[1]"
+        },
+        {
+          "en": "Continue aspirin[1]"
+        },
+        {
+          "en": "Continue aspirin"
+        },
+        {
+          "en": "Continue aspirin"
+        }
+      ],
+      "isGroupHeader": false,
+      "rowSpans": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "colSpans": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "cells": [
+        {
+          "en": "P2Y12 inhibitors (clopidogrel, prasugrel, or ticagrelor)"
+        },
+        {
+          "en": "Monotherapy: 7 days before POEM"
+        },
+        {
+          "en": "48 hours after POEM"
+        },
+        {
+          "en": "Dual therapy: continue aspirin, P2Y12 5–7 days before POEM; Discuss the strategy with a cardiologist and consider postponing POEM until P2Y12 inhibitors can be temporarily withheld (> 6–12 months after insertion of drug-eluting coronary stent or > 1 month after placement of bare metal coronary stent)"
+        },
+        {
+          "en": "24–48 hours"
+        }
+      ],
+      "isGroupHeader": false,
+      "rowSpans": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "colSpans": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "_meta": {
+    "provenance": {
+      "type": "verbatim",
+      "source_doi": "10.1055/a-2569-7634"
+    },
+    "encodedBy": "other:codex-publisher-dom-import",
+    "encodedAt": "2026-08-09",
+    "fieldProvenance": {
+      "columns[*].header.en": {
+        "type": "paraphrased",
+        "source_doi": "10.1055/a-2569-7634",
+        "source_span": "Medication Low thrombotic risk High thrombotic risk Withdrawal Resumption Withdrawal Resumption"
+      }
+    }
+  }
+}

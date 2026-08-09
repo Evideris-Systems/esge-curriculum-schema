@@ -23,108 +23,258 @@
     "strength": "strong",
     "evidenceQuality": "moderate"
   },
-  "subItems": [
-    {
-      "label": "i",
-      "text": {
-        "en": "General histologic category of the lesion: carcinoma, adenoma \u2013 tubular or tubulovillous, villous adenoma, traditional serrated adenoma, sessile serrated lesion (SSL), hyperplastic polyp."
-      },
-      "levelOfAgreement": 97
-    },
-    {
-      "label": "ii",
-      "text": {
-        "en": "Degree of cytologic dysplasia \u2013 no, low grade or high grade (WHO / Vienna classification )."
-      },
-      "levelOfAgreement": 96,
-      "references": [
-        "ref-62",
-        "ref-63"
-      ]
-    },
-    {
-      "label": "iii",
-      "text": {
-        "en": "Horizontal and deep margin free of polyp (completeness of excision [relevant only for en bloc resection])."
-      },
-      "levelOfAgreement": 96
-    },
-    {
-      "label": "iv",
-      "text": {
-        "en": "Understand that neither \u201ccarcinoma in situ\u201d nor \u201cintramucosal cancer\u201d stated in pathology reporting are indications for earlier follow-up or surgery, both being comparable to high grade dysplasia. Both terms should be interpreted as high grade dysplasia and managed endoscopically."
-      },
-      "levelOfAgreement": 93,
-      "references": [
-        "ref-63"
-      ]
-    },
-    {
-      "label": "v",
-      "text": {
-        "en": "Completeness of piecemeal EMR is a judgement made endoscopically at the time of the index procedure in conjunction with the results of histopathology. It is confirmed at surveillance procedures via the endoscopic and/or histologic assessment of the resection scar."
-      },
-      "levelOfAgreement": 94
-    },
-    {
-      "label": "vi",
-      "text": {
-        "en": "Differentiation of submucosal invasive cancer (SMIC): well, moderately, or poorly differentiated."
-      },
-      "levelOfAgreement": 94
-    },
-    {
-      "label": "vii",
-      "text": {
-        "en": "Depth of invasion from the muscularis mucosae (< 1000 \u00b5m vs. \u22651000 \u00b5m; sessile polyp)."
-      },
-      "levelOfAgreement": 90,
-      "references": [
-        "ref-64",
-        "ref-65"
-      ]
-    },
-    {
-      "label": "viii",
-      "text": {
-        "en": "Presence of lymphovascular invasion [59\u201361]."
-      },
-      "levelOfAgreement": 94
-    },
-    {
-      "label": "ix",
-      "text": {
-        "en": "Presence of tumor budding."
-      },
-      "levelOfAgreement": 94,
-      "references": [
-        "ref-66",
-        "ref-67"
-      ]
-    }
-  ],
-  "commentary": {
-    "en": "For LNPCPs, the depth of submucosal invasion has been classified using the level system , which divides the submucosal layer into sm1, sm2, and sm3. The classification cannot however be applied when lesions have been resected endoscopically, as the full thickness of the submucosal layer is not usually included. Using a measurement of the distance of invasion from the muscularis mucosae was proposed as an alternative . Endoscopically resected LNPCPs containing SMIC with a depth of invasion from the muscularis mucosae < 1000 \u03bcm without any other histologic risk factors can usually be followed up without additional surgery, including lymphadenectomy, as the risk of metastasis is almost nil in such cases ."
-  },
   "references": [
+    "ref-23",
+    "ref-27",
+    "ref-47",
+    "ref-48",
+    "ref-49",
+    "ref-50",
+    "ref-51",
+    "ref-52",
+    "ref-53",
+    "ref-54",
+    "ref-55",
     "ref-56",
     "ref-57",
-    "ref-58",
-    "ref-62",
-    "ref-63",
-    "ref-64",
-    "ref-65",
-    "ref-66",
-    "ref-67",
-    "ref-68",
-    "ref-69"
+    "ref-58"
   ],
   "_meta": {
     "provenance": {
       "type": "verbatim",
       "source_doi": "10.1055/a-2077-0497"
     },
-    "encodedBy": "human:david",
-    "encodedAt": "2026-06-28"
-  }
+    "encodedBy": "other:codex-publisher-dom-import",
+    "encodedAt": "2026-08-09"
+  },
+  "subItems": [
+    {
+      "label": "i",
+      "levelOfAgreement": 97,
+      "text": {
+        "en": "Demographics: name of the patient, date of birth, and one other identifier."
+      }
+    },
+    {
+      "label": "ii",
+      "levelOfAgreement": 95,
+      "text": {
+        "en": "Demographics: name of the staff involved, name of the trainee if involved."
+      }
+    },
+    {
+      "label": "iii",
+      "levelOfAgreement": 96,
+      "text": {
+        "en": "Demographics: indication for the procedure (including original indication if referral or procedure with intent of lesion resection)."
+      }
+    },
+    {
+      "label": "iv",
+      "levelOfAgreement": 98,
+      "text": {
+        "en": "Procedure: drugs used including sedation, anesthesia, antibiotics, and/or antispasmodics."
+      }
+    },
+    {
+      "label": "v",
+      "levelOfAgreement": 96,
+      "text": {
+        "en": "Procedure: bowel preparation quality [47] [48] [49]."
+      },
+      "references": [
+        "ref-47",
+        "ref-48",
+        "ref-49"
+      ]
+    },
+    {
+      "label": "vi",
+      "levelOfAgreement": 98,
+      "text": {
+        "en": "Procedure: completeness of the colonoscopy [48] [50]."
+      },
+      "references": [
+        "ref-48",
+        "ref-50"
+      ]
+    },
+    {
+      "label": "vii",
+      "levelOfAgreement": 87,
+      "text": {
+        "en": "Procedure: comfort score if procedure with sedation [48] [51] [52]."
+      },
+      "references": [
+        "ref-48",
+        "ref-51",
+        "ref-52"
+      ]
+    },
+    {
+      "label": "viii",
+      "levelOfAgreement": 96,
+      "text": {
+        "en": "Procedure: photodocumentation of the lesion and defect as a minimum [53]."
+      },
+      "references": [
+        "ref-53"
+      ]
+    },
+    {
+      "label": "ix",
+      "levelOfAgreement": 89,
+      "text": {
+        "en": "Procedure: type of endoscope and specific electrosurgical device (snare/knife etc.) used."
+      }
+    },
+    {
+      "label": "x",
+      "levelOfAgreement": 98,
+      "text": {
+        "en": "Lesion specific (for each lesion/EMR performed): lesion location and size."
+      }
+    },
+    {
+      "label": "xi",
+      "levelOfAgreement": 95,
+      "text": {
+        "en": "Lesion specific: ease of access and positioning."
+      }
+    },
+    {
+      "label": "xii",
+      "levelOfAgreement": 93,
+      "text": {
+        "en": "Lesion specific: an estimate of position using landmarks, scope tracking, or distance from the anus during withdrawal with a straight scope."
+      }
+    },
+    {
+      "label": "xiii",
+      "levelOfAgreement": 99,
+      "text": {
+        "en": "Lesion specific: description including size, Paris [27], granularity [45], Kudo pit pattern [54]/NICE classification [23]/JNET [55] if magnification is available."
+      },
+      "references": [
+        "ref-23",
+        "ref-27",
+        "ref-54",
+        "ref-55"
+      ]
+    },
+    {
+      "label": "xiv",
+      "levelOfAgreement": 95,
+      "text": {
+        "en": "Lesion specific: previous histology if available."
+      }
+    },
+    {
+      "label": "xv",
+      "levelOfAgreement": 80,
+      "text": {
+        "en": "Technical points: injectate used and description of lifting."
+      }
+    },
+    {
+      "label": "xvi",
+      "levelOfAgreement": 82,
+      "text": {
+        "en": "Technical points: en bloc resection versus piecemeal resection; if a piecemeal resection is performed, record 2–4 pieces versus ≥5 pieces [56]."
+      },
+      "references": [
+        "ref-56"
+      ]
+    },
+    {
+      "label": "xvii",
+      "levelOfAgreement": 84,
+      "text": {
+        "en": "Technical points: duration of the procedure."
+      }
+    },
+    {
+      "label": "xviii",
+      "levelOfAgreement": 96,
+      "text": {
+        "en": "Technical points: difficulties encountered including intraprocedural complications (perforation, bleeding), if any, and how they were managed."
+      }
+    },
+    {
+      "label": "xix",
+      "levelOfAgreement": 97,
+      "text": {
+        "en": "Technical points: description of the mucosal defect at the end of the procedure [57] and if any adjunctive treatment was performed (for instance snare-tip soft coagulation [STSC] to the margins)."
+      },
+      "references": [
+        "ref-57"
+      ]
+    },
+    {
+      "label": "xx",
+      "levelOfAgreement": 97,
+      "text": {
+        "en": "Technical points: was the mucosal defect closed with endoscopic clips? And for which indication – bleeding/perforation?"
+      }
+    },
+    {
+      "label": "xxi",
+      "levelOfAgreement": 97,
+      "text": {
+        "en": "Technical points: was the defect marked with a tattoo to aid future localization?"
+      }
+    },
+    {
+      "label": "xxii",
+      "levelOfAgreement": 98,
+      "text": {
+        "en": "Technical points: additional lesions present that were not removed and will need to be located and resected later."
+      }
+    },
+    {
+      "label": "xxiii",
+      "levelOfAgreement": 96,
+      "text": {
+        "en": "Technical points: samples retrieved."
+      }
+    },
+    {
+      "label": "xxiv",
+      "levelOfAgreement": 96,
+      "text": {
+        "en": "Fasting instructions and timing of recommencement of clear fluids then normal diet."
+      }
+    },
+    {
+      "label": "xxv",
+      "levelOfAgreement": 96,
+      "text": {
+        "en": "Follow-up plan: immediate aftercare, post-procedural medications, and timing for resumption of anticoagulants."
+      }
+    },
+    {
+      "label": "xxvi",
+      "levelOfAgreement": 95,
+      "text": {
+        "en": "Follow-up plan: suggested surveillance interval [58] (if pathology results indicate benign disease)."
+      },
+      "references": [
+        "ref-58"
+      ]
+    },
+    {
+      "label": "xxvii",
+      "levelOfAgreement": 89,
+      "text": {
+        "en": "Follow-up plan: planned further procedures."
+      }
+    },
+    {
+      "label": "xxviii",
+      "levelOfAgreement": 88,
+      "text": {
+        "en": "Follow-up plan: any further tests/investigations required."
+      }
+    }
+  ]
 }

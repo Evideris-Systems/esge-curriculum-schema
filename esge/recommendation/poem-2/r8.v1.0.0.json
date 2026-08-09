@@ -14,7 +14,7 @@
   "withinSection": "sec-poem-2-preparation",
   "number": 8,
   "title": {
-    "en": "ESGE recommends a single prophylactic antibiotic dose before POEM."
+    "en": "ESGE recommends a single prophylactic antibiotic dose before POEM. The selection and dosage of antibiotics should align with local and national protocols."
   },
   "statement": {
     "en": "ESGE recommends a single prophylactic antibiotic dose before POEM. The selection and dosage of antibiotics should align with local and national protocols."
@@ -24,23 +24,27 @@
     "evidenceQuality": "very-low"
   },
   "levelOfAgreement": 89,
-  "references": [],
+  "references": [
+    "ref-2",
+    "ref-23",
+    "ref-33",
+    "ref-34",
+    "ref-35",
+    "ref-36",
+    "ref-37"
+  ],
   "_meta": {
     "provenance": {
       "type": "verbatim",
       "source_doi": "10.1055/a-2569-7634"
     },
-    "encodedBy": "human:david",
-    "encodedAt": "2026-07-03",
-    "fieldProvenance": {
-      "commentary": {
-        "type": "verbatim",
-        "source_doi": "10.1055/a-2569-7634",
-        "source_span": "Paragraph(s) preceding the N RECOMMENDATION block in body; back-to-back groups share commentary."
-      }
-    }
+    "encodedBy": "other:codex-publisher-dom-import",
+    "encodedAt": "2026-08-09"
   },
   "commentary": {
-    "en": "The risk of delayed bleeding associated with POEM is reported to range from 0.2 % to 2.0 % in prospective cohorts, which is consistent with the rates observed after other procedures with a high risk of bleeding [24\u201327]. It is however worth noting that these estimates are primarily derived from data that included a limited number of patients on antithrombotic therapy or did not adequately consider the impact of such medication on POEM outcomes. The safety of POEM in patients on antithrombotic therapy has been assessed in five retrospective studies [28\u201332]. In an international, 1:1 case\u2013control study, which included 126 patients per arm, antithrombotic management exhibited significant heterogeneity, with guidelines adhered to in 76 % of cases. In this study, anticoagulants and clopidogrel were temporarily discontinued in all patients, while aspirin was maintained in 41 % of users without an increased bleeding risk. After adjusting for co-morbidities and previous therapy, the risk of major bleeding was found to be higher in antithrombotic users (5.6 % vs. 0.8 %; P = 0.03), although the rate of thrombotic events remained identical in both groups (0.8 %) [28]. Similarly, a single-center study reported an elevated risk of bleeding (10.5 % vs. 1.0 %; P = 0.04) and an overall higher rate of AEs (36.8 % vs. 9.0 %; P = 0.001) for patients receiving antithrombotics [32]. Shimamura et al. reported the experience of seven high volume centers in Japan (n = 120) [30]. In most procedures (88.3 %), there was adherence to the guidelines established by the Japanese Society of Gastroenterological Endoscopy. Their findings revealed that the risk of bleeding (2.5 % vs. 0.7 %; P = 0.83) and antithrombotic events (0.8 % vs. 0 %) were comparable to those observed in patients not receiving antithrombotic therapy. Nakai et al. developed a risk scoring system, in 467 patients, to predict difficult POEM, defined as a composite outcome of any of the following: procedure time \u226590 minutes, capnothorax, mucosal perforation, or major bleeding [31]. Antithrombotic use emerged as a predictor of difficult POEM; however, this study did not provide a separate subanalysis for major bleeding. Finally, another Japanese group reported a case series involving four patients on antithrombotics for whom POEM proceeded uneventfully [29]. As part of our GRADE process, we conducted a meta-analysis of the available comparative studies using a random-effects model. The analysis revealed an increased risk of major bleeding in this population (OR 5.3, 95 %CI 2.1 %\u201313.6 %; I2= 0 %) (Appendix 3 s, part A) [28, 30, 32]. The quality of the evidence was downgraded from low to very low owing to imprecision (Table 3 s). In summary, while POEM appears to be generally safe in this population, it is imperative to inform patients about the heightened risk of bleeding, which can occur up to 3 weeks after the procedure [28]. As a result, we recommend managing antithrombotic therapy with careful consideration of POEM as a high risk procedure for bleeding, while also evaluating the patient\u2019s thrombotic risk. Our management proposal is based on the current ESGE guidelines and the aforementioned studies ("
-  }
+    "en": "In 2020, ESGE endorsed the prophylactic use of perioperative antibiotics for POEM, classifying it as a clean–contaminated supramesocolic digestive surgery that warrants antibiotic prophylaxis. The guideline advised healthcare providers to align their choice, duration, and dosage of antibiotics with local or national protocols [2].\n\nOur systematic search identified six relevant studies, including four RCTs [33] [34] [35] [36] and two retrospective cohorts [23] [37]. Three of these studies were published between 2021 and 2023. We excluded two RCTs published as abstracts in 2013 [35] and 2017 [36], as they have not been reported in peer-reviewed journals to date.\n\nOne retrospective single-center cohort study involving 124 patients found that the application of gentamicin in the submucosal tunnel before myotomy did not reduce the risk of infection; however, the authors reported a lower inflammatory response after POEM [37]. Similarly, a multicenter retrospective French study (n = 226) did not identify any differences in AE occurrence between patients receiving antibiotic prophylaxis (mean duration 4 days) and those who did not [23]. This observational data aligns with the results of a single-center RCT, which compared a single intravenous dose of cefazolin 2 g before POEM with a 3-day antibiotic regimen. The study found no significant differences in positive blood cultures (1.6% vs. 3.2%; P = 0.6) or inflammatory markers between the two groups [33]. In 2023, Nabi et al. reported a noninferiority RCT comparing single and multiple doses of antibiotic prophylaxis [34]. The results were consistent with the previous RCT, with no statistically or clinically significant differences in infection rates observed between the two groups.\n\nIn summary, the two available RCTs did not reveal any significant differences between single and multiple doses of antibiotic prophylaxis [33] [34]. The certainty of the evidence was however downgraded owing to factors such as the absence of reported details regarding allocation concealment, imprecision arising from the low number of events and limited sample size, and the potential risk of publication bias (Table 4 s). Whether a single dose of antibiotic can be omitted has not been formally addressed and cannot be recommended at this stage."
+  },
+  "commentaryForRecommendations": [
+    8
+  ]
 }

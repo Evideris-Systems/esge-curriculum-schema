@@ -5,7 +5,7 @@
 
 source_doi: 10.1055/a-2569-7634
 reviewedBy: human:david
-reviewedAt: 2026-07-03
+reviewedAt: 2026-08-09
 forCurriculum: cur-poem-2-2025
 
 mainStatements:    15   # verbatim from MAIN RECOMMENDATION summary box (p1-2)
@@ -13,6 +13,8 @@ sections:          10   # 3-12 numbered top-level chapters
 qis:               0    # POEM II does not have a Table 6 of QIs
 gpatItems:         29    # 29 components across 8 domains, from Table 4
 references:        134  # 134/134 Crossref-resolved (7 low-confidence)
+figures:           4
+tables:            4
 
 recommendations:
   1: { subItems: 0, reason: "single-statement RECOMMENDATION block; no enumerated sub-items in source" }
@@ -35,7 +37,7 @@ recommendations:
   18: { subItems: 0, reason: "single-statement RECOMMENDATION block; no enumerated sub-items in source" }
   19: { subItems: 0, reason: "single-statement RECOMMENDATION block; no enumerated sub-items in source" }
   20: { subItems: 0, reason: "single-statement RECOMMENDATION block; no enumerated sub-items in source" }
-  21: { subItems: 3 }
+  21: { subItems: 4 }
   22: { subItems: 0, reason: "single-statement RECOMMENDATION block; no enumerated sub-items in source" }
   23: { subItems: 0, reason: "single-statement RECOMMENDATION block; no enumerated sub-items in source" }
   24: { subItems: 0, reason: "single-statement RECOMMENDATION block; no enumerated sub-items in source" }
@@ -51,12 +53,12 @@ recommendations:
   34: { subItems: 0, reason: "single-statement RECOMMENDATION block; no enumerated sub-items in source" }
   35: { subItems: 0, reason: "single-statement RECOMMENDATION block; no enumerated sub-items in source" }
   36: { subItems: 0, reason: "single-statement RECOMMENDATION block; no enumerated sub-items in source" }
-  37: { subItems: 6 }
+  37: { subItems: 0, reason: "single-statement recommendation; the six numbered mucosal-injury considerations belong to the following R39-R40 rationale group, not R37" }
   38: { subItems: 0, reason: "single-statement RECOMMENDATION block; no enumerated sub-items in source" }
   39: { subItems: 0, reason: "single-statement RECOMMENDATION block; no enumerated sub-items in source" }
   40: { subItems: 0, reason: "single-statement RECOMMENDATION block; no enumerated sub-items in source" }
   41: { subItems: 0, reason: "single-statement RECOMMENDATION block; no enumerated sub-items in source" }
-  42: { subItems: 4 }
+  42: { subItems: 5 }
   43: { subItems: 0, reason: "single-statement RECOMMENDATION block; no enumerated sub-items in source" }
   44: { subItems: 0, reason: "single-statement RECOMMENDATION block; no enumerated sub-items in source" }
   45: { subItems: 0, reason: "single-statement RECOMMENDATION block; no enumerated sub-items in source" }

@@ -12,19 +12,19 @@
       "lineageId": "cur-emr-colon-2023",
       "version": "1.0.0",
       "path": "esge/curriculum/emr-colon/v1.0.0.json",
-      "sha256": "d8b037bf076586f833266c9a343ecb2ab8b5bb1dde7c111a266d0742b60387d0"
+      "sha256": "86a864c0e425192d1d92614ee76bcc83e8890fbd8664318f20c5ca8a05d6f5af"
     },
     {
       "lineageId": "cur-esd-2019",
       "version": "1.0.0",
       "path": "esge/curriculum/esd/v1.0.0.json",
-      "sha256": "906f6b366b268cbb82f9e31719ab62b9112b0a36ab358e70b56446a0aec48d9f"
+      "sha256": "77c229f5558a7a48542b44e36290c05347dee71b4186c194a52c2cfc2aa204b4"
     },
     {
       "lineageId": "cur-poem-2-2025",
       "version": "1.0.0",
       "path": "esge/curriculum/poem-2/v1.0.0.json",
-      "sha256": "78b176ce89f2497e0c8ac004d863940628df10f5e2e8f6d385ce3ceec6c7908f"
+      "sha256": "b26631e1d4e095e710b048ff9232de95ae926f5215f73fd5be42d0e566b7a3ec"
     }
   ],
   "recommendations": [
@@ -32,627 +32,633 @@
       "lineageId": "rec-emr-cln-r1-prereq-competencies",
       "version": "1.0.0",
       "path": "esge/recommendation/emr-colon/r1.v1.0.0.json",
-      "sha256": "f5153af38b7a2890882f492ab2c9963df86232e5a9a52e4d9cf31a7011497888"
+      "sha256": "58295a0db3620e603c6418f581218695def31840b09f28216727a2d8994367cb"
     },
     {
       "lineageId": "rec-emr-cln-r2-unit-standards",
       "version": "1.0.0",
       "path": "esge/recommendation/emr-colon/r2.v1.0.0.json",
-      "sha256": "3f4ba55e13bc7f74884c4b8dbbed2146f69c8daaac7890911cfc98d390f3019c"
+      "sha256": "1bb3161b5eff824b1367c3c7a6a789ba9e9fa2e6231847e537939a0e62d24e63"
     },
     {
       "lineageId": "rec-emr-cln-r3-smi-assessment",
       "version": "1.0.0",
       "path": "esge/recommendation/emr-colon/r3.v1.0.0.json",
-      "sha256": "256b0d637537fc096a442407af6fb08a746c40474fc2a5c322a56e45f39b996c"
+      "sha256": "88a9d752506f74996a49c12fd8451a16e6ba705ec86805c7b1669b27b9273e39"
     },
     {
       "lineageId": "rec-emr-cln-r4-features-prompting-consideration-bloc",
       "version": "1.0.0",
       "path": "esge/recommendation/emr-colon/r4.v1.0.0.json",
-      "sha256": "4c4167d3f7fce33b8586c03d4d69e795b1409e11ecfc958a3b77e2c069d6dc17"
+      "sha256": "e2cee0722109f2a5ae44e2bd0bba992a6e963c7b1e29af6a1913f4910e5cb6be"
     },
     {
       "lineageId": "rec-emr-cln-r5-equipment-materials-for-emr",
       "version": "1.0.0",
       "path": "esge/recommendation/emr-colon/r5.v1.0.0.json",
-      "sha256": "64ce6c0725b92f5688ec3690304b737132acfeda3ce5f944e0a229c5501360b1"
+      "sha256": "7a372a4874943f8754388c728f692ae293651739a2983251febfa054358a1def"
     },
     {
       "lineageId": "rec-emr-cln-r6-minimum-reporting-requirements",
       "version": "1.0.0",
       "path": "esge/recommendation/emr-colon/r6.v1.0.0.json",
-      "sha256": "8632110209d2cdd79c7e438af18f249532d8d93699defd316c5db6d8f48db5ee"
+      "sha256": "73c2426d55e798231d16f6d14af612df36d7a446cee92d536bfd645462122767"
     },
     {
       "lineageId": "rec-emr-cln-r7-interpretation-pathology-reports",
       "version": "1.0.0",
       "path": "esge/recommendation/emr-colon/r7.v1.0.0.json",
-      "sha256": "b63edbf348a3caf293c58555c43854426410e41f4e20eab8cdf69ac9ffe21466"
+      "sha256": "0cb8df4100f73b58d962123ed4b3b28d1d3fe8c9d1555eba825c63ddff61dbbc"
     },
     {
       "lineageId": "rec-emr-cln-r8-attendance-multidisciplinary-meetings",
       "version": "1.0.0",
       "path": "esge/recommendation/emr-colon/r8.v1.0.0.json",
-      "sha256": "5d15a0957174d41b2f297ea34890bee39d07b82f6ae2baa429fada54b120d39a"
+      "sha256": "570a2b9214dfed6cf18ec1f6ffd8a083f444e0208185c36d1bb58f27ae619271"
     },
     {
       "lineageId": "rec-emr-cln-r9-ground-rules-prior-starting",
       "version": "1.0.0",
       "path": "esge/recommendation/emr-colon/r9.v1.0.0.json",
-      "sha256": "fdf342c828c1da4309735a4c5db3f22673af710657cc2bf69d0c171cf4e12e9e"
+      "sha256": "1f8df384dae1be9bebae1423923e0217fc3595a4b1a15844eb01f8df6f51730a"
     },
     {
       "lineageId": "rec-emr-cln-r10-patient-consent",
       "version": "1.0.0",
       "path": "esge/recommendation/emr-colon/r10.v1.0.0.json",
-      "sha256": "dcb8b1abdccac0b583b7bc269ad93514dce3c108440ce0b4c93c6b177a7dc1ce"
+      "sha256": "893ad8e1d46b54ee4138be64dc4261f5a17a8c7f59adf6fb542a7df29300bd3c"
     },
     {
       "lineageId": "rec-emr-cln-r11-patient-lesion-work-prior",
       "version": "1.0.0",
       "path": "esge/recommendation/emr-colon/r11.v1.0.0.json",
-      "sha256": "419f3d3643a0b8493a6514e9f15d1918436906898829f355d9d7b7b76b1aa2f7"
+      "sha256": "dfd610534378910cc4a38bac6c61cfa49b7bfb153abecd943505bb6e7a816dba"
     },
     {
       "lineageId": "rec-emr-cln-r12-determining-whether-trainee-should",
       "version": "1.0.0",
       "path": "esge/recommendation/emr-colon/r12.v1.0.0.json",
-      "sha256": "440943a9858b322386b9ef9308cfaeed3a74b652176a5534c78be0b1f93d857d"
+      "sha256": "3b96d2556d3a556399e30df96474ff54d9b8f97c45bdc2cacdcbb22b07876484"
     },
     {
       "lineageId": "rec-emr-cln-r13-determining-the-resectability-lnpcps",
       "version": "1.0.0",
       "path": "esge/recommendation/emr-colon/r13.v1.0.0.json",
-      "sha256": "f09cbeb91ac04b268b1b3e8ce639cef7cd0b861b27ee1789defdc0d26b7ae8fd"
+      "sha256": "affe31ecd76719e287fb3f57e4b04ae4bc7a9798e4e6f9ee9a3c2bb9f96583f4"
     },
     {
       "lineageId": "rec-emr-cln-r14-considerations-before-emr-lnpcp",
       "version": "1.0.0",
       "path": "esge/recommendation/emr-colon/r14.v1.0.0.json",
-      "sha256": "f2020582b4de96d441c671e681f4e737f6824e5cdc3bc6baa02913829998e0e9"
+      "sha256": "fe9314d73f606c31d652a5f5ce1b33598f50491ac65117726ef0ef7fff7af96f"
     },
     {
       "lineageId": "rec-emr-cln-r15-endoscopic-non-technical-skills",
       "version": "1.0.0",
       "path": "esge/recommendation/emr-colon/r15.v1.0.0.json",
-      "sha256": "2765098a130bca52cf1c39fc4a1369f288a43f1b5e3c8d14018cc37fee713a86"
+      "sha256": "d47b17fdce9d24a99d0e1f2e88082d7a4b8d6174591739a31183a1b32c2ec1a5"
     },
     {
       "lineageId": "rec-emr-cln-r16-submucosal-injection-technique",
       "version": "1.0.0",
       "path": "esge/recommendation/emr-colon/r16.v1.0.0.json",
-      "sha256": "208e7eeefec62075a3bb540d43465a75bde0324187020bbb978b81c1d69110ac"
+      "sha256": "f7ca953748019c811078ead49285815e215bc597b69619756e5a53b37e828055"
     },
     {
       "lineageId": "rec-emr-cln-r17-cold-snare-placement",
       "version": "1.0.0",
       "path": "esge/recommendation/emr-colon/r17.v1.0.0.json",
-      "sha256": "e99276153198a6578b95402074bb33fa97b3bf5f928d771fa5bc5618a8c678f8"
+      "sha256": "e586270aac18d1ba7395c8cf693b0eb29225d268e716d1bffe4676a57e7ece9b"
     },
     {
       "lineageId": "rec-emr-cln-r18-inspection-the-post-emr",
       "version": "1.0.0",
       "path": "esge/recommendation/emr-colon/r18.v1.0.0.json",
-      "sha256": "ffc5161242bdcc560bfab4e5ba9ff6de6805c3c5d496bd2e211375614e5331b8"
+      "sha256": "a96062495b59478d2ebd933789b3b8168609e299d95fe2203c559df444928a34"
     },
     {
       "lineageId": "rec-emr-cln-r19-submucosal-injection-technique",
       "version": "1.0.0",
       "path": "esge/recommendation/emr-colon/r19.v1.0.0.json",
-      "sha256": "7319f61bdfd4e7124be61cb62396e9ca7b4aa5fa1b744b5aef2145bee6de2bd0"
+      "sha256": "49e53a200cd9cfc327ce284784fa83316d3417e84f611700b3b4f31d3fde6b9b"
     },
     {
       "lineageId": "rec-emr-cln-r20-snare-placement-capture-and",
       "version": "1.0.0",
       "path": "esge/recommendation/emr-colon/r20.v1.0.0.json",
-      "sha256": "b28c13a386e35a1406c2c5b1da2acd449e1f610a45154e3fdee6b9641e8c2d96"
+      "sha256": "dc9eae09fcfceacf999c2b41277a383c4d748e2b2a77c342b94ff13154de26b9"
     },
     {
       "lineageId": "rec-emr-cln-r21-safety-checks-before-applying",
       "version": "1.0.0",
       "path": "esge/recommendation/emr-colon/r21.v1.0.0.json",
-      "sha256": "b3b384d3beb27f643e567689054e1175e7be3c28effb473c70a7532e6e6b9d96"
+      "sha256": "06fafce05d0d3820e99a7111fae55aa05a0988adeab2608832a80654378c93ff"
     },
     {
       "lineageId": "rec-emr-cln-r22-inspection-the-post-emr",
       "version": "1.0.0",
       "path": "esge/recommendation/emr-colon/r22.v1.0.0.json",
-      "sha256": "6761524c023b23de76e8e95be476449e8bf8182f0b71847eb667ad0c33e5402e"
+      "sha256": "0aa0945d5e8b67aca0955646c3cf008a6aa6d8992c7aadd3441cf1fa17232a30"
     },
     {
       "lineageId": "rec-emr-cln-r23-application-thermal-energy-the",
       "version": "1.0.0",
       "path": "esge/recommendation/emr-colon/r23.v1.0.0.json",
-      "sha256": "b704c6b8a303d20206c11dba22fb963efd25669b9a9752fd95b7000e35162cb1"
+      "sha256": "f067b5456a29453157df63d9b953d4700d559366f9e7d1ef416aeec9b946bc3a"
     },
     {
       "lineageId": "rec-emr-cln-r24-alternative-methods-for-removal",
       "version": "1.0.0",
       "path": "esge/recommendation/emr-colon/r24.v1.0.0.json",
-      "sha256": "40f15ea5363185e1e55ce96619eb533ed536c10730f66705af0a437f2e3b43b0"
+      "sha256": "bbf1be81d94b70c25e9ef5084df2a6f9dfc3dbc1c3ccf7580d13a7d0f876fd94"
     },
     {
       "lineageId": "rec-emr-cln-r25-retrieval-polyp-tissue",
       "version": "1.0.0",
       "path": "esge/recommendation/emr-colon/r25.v1.0.0.json",
-      "sha256": "445fb91275056f7127fcc687c6a529777edc83e40f0a1e5e01f90200e4505be5"
+      "sha256": "6c63d58fcb28c55960fe5bbb8efee526652ba0f0d07b92edc4a1a7abd8b7313b"
     },
     {
       "lineageId": "rec-emr-cln-r26-strategies-for-difficult-access",
       "version": "1.0.0",
       "path": "esge/recommendation/emr-colon/r26.v1.0.0.json",
-      "sha256": "fd179d8aac54d3fd5da45746409b0c3429386c7d835f7b86cdfe22b578002b62"
+      "sha256": "0c7769831e723646402f42ffa1965fdb698d7e81a51b7ab1aa23b8562395e04f"
     },
     {
       "lineageId": "rec-emr-cln-r27-strategies-for-emr-specific",
       "version": "1.0.0",
       "path": "esge/recommendation/emr-colon/r27.v1.0.0.json",
-      "sha256": "a6fc483dfa8a62a57ccf5509a7bbacec7e7ab10426d1e39b43cba98dca416831"
+      "sha256": "91e7478e4aee714bc674c641fc833e322f6626b7697f02e1a37595b532e4e231"
     },
     {
       "lineageId": "rec-emr-cln-r28-determing-whether-emr-procedures",
       "version": "1.0.0",
       "path": "esge/recommendation/emr-colon/r28.v1.0.0.json",
-      "sha256": "6c7e7c9915d1810ac395d9513affc7ebe21e6527879488bd9eb7f53f75ec61e8"
+      "sha256": "beaf57f22c8ac0736aef525bc8bbf2fa8881c02e0fc7ea8b279c98557bf56394"
     },
     {
       "lineageId": "rec-emr-cln-r29-management-intraprocedural-bleeding",
       "version": "1.0.0",
       "path": "esge/recommendation/emr-colon/r29.v1.0.0.json",
-      "sha256": "7de47d027c582b840d2aa7ae9a92b62ce75d8899cbd71d8e3d46d5e06a253b3c"
+      "sha256": "fab36047740abc4435440187666ddc29553fe53bad56cb924a15af5e54f274f1"
     },
     {
       "lineageId": "rec-emr-cln-r30-management-intraprocedural",
       "version": "1.0.0",
       "path": "esge/recommendation/emr-colon/r30.v1.0.0.json",
-      "sha256": "f57654bd762cb455fff46dfeae71425529973b9e7201aeca3f7716416f241c49"
+      "sha256": "189194f86fcdf2c34eadbddbb7b3a32cc3c5092fd25396bcc5d8509abc76d873"
     },
     {
       "lineageId": "rec-emr-cln-r31-management-post-emr-bleeding",
       "version": "1.0.0",
       "path": "esge/recommendation/emr-colon/r31.v1.0.0.json",
-      "sha256": "be2065fc8598299155570dd977f87d285ff132b19c2008e46527dc6b419f6701"
+      "sha256": "c142198f7c7f0bb3c75d270c228454549aea432b4997dc36261a9de2678e80bd"
     },
     {
       "lineageId": "rec-emr-cln-r32-alarm-features-suggesting-adverse",
       "version": "1.0.0",
       "path": "esge/recommendation/emr-colon/r32.v1.0.0.json",
-      "sha256": "609e5dec73513b90fa9df159d6906808c1739d4cde298140f80d18d42251769f"
+      "sha256": "de589c67aab70374afdab5f4fe309252db5f31ad13573f98e194bac77fd7bea3"
     },
     {
       "lineageId": "rec-emr-cln-r33-post-procedure-discussion-with",
       "version": "1.0.0",
       "path": "esge/recommendation/emr-colon/r33.v1.0.0.json",
-      "sha256": "1eb6d3701963b57d70b3861811830ac0d1aba8d1c0dd562934c1eb0778a81432"
+      "sha256": "ea5fe7acfde2db175c526aa12aeab794768d6b503a6ebfaa164e3c8431ef0b86"
+    },
+    {
+      "lineageId": "rec-emr-cln-r34-situations-requiring-admission-hospital",
+      "version": "1.0.0",
+      "path": "esge/recommendation/emr-colon/r34.v1.0.0.json",
+      "sha256": "e1e4209592a073de279e1c497aea586c1fbe343317128d92e074ff4d2d725a1b"
     },
     {
       "lineageId": "rec-emr-cln-r35-essential-features-during-surveillance",
       "version": "1.0.0",
       "path": "esge/recommendation/emr-colon/r35.v1.0.0.json",
-      "sha256": "67424669d84f87d12bb14902d84cfa646066741b63b1e6ffd2e631cd9e2aad3e"
+      "sha256": "2815f654b63a591358c42a5be164aba9cddce8765eb3be3db8905af719fe5cf5"
     },
     {
       "lineageId": "rec-emr-cln-r36-treatment-lnpcp-recurrence-emr",
       "version": "1.0.0",
       "path": "esge/recommendation/emr-colon/r36.v1.0.0.json",
-      "sha256": "e10b8c363933f22c47cab0c352a247b75cea9d7346561954624fe9e6eeb6fa28"
+      "sha256": "bd229ff706dae27f34c2df6d2c66fbdae3a3f103376584cd7ffb2111006bd088"
     },
     {
       "lineageId": "rec-emr-cln-r37-completion-training-emr",
       "version": "1.0.0",
       "path": "esge/recommendation/emr-colon/r37.v1.0.0.json",
-      "sha256": "852f8af1e192c5ecd8a2525e13b11eeeb68add8c4d44755bb356dcb798c27dea"
+      "sha256": "7e7eab4a200348de0356f8d500265b2848f6a6b32fb29f2c977170cd875f0dcb"
     },
     {
       "lineageId": "rec-emr-cln-r38-essential-qis",
       "version": "1.0.0",
       "path": "esge/recommendation/emr-colon/r38.v1.0.0.json",
-      "sha256": "64cad6eb92586307e49bde40ad710dcb2166316af99355620c201a01102bb924"
+      "sha256": "7ab537c586c16ef4e606e988167964c6a495ce1e30fb84e43d9d5475a43fee61"
     },
     {
       "lineageId": "rec-esd-r1-advanced-endoscopy-diagnostic-practice-before-esd-training",
       "version": "1.0.0",
       "path": "esge/recommendation/esd/r1.v1.0.0.json",
-      "sha256": "c947a1de9290cef652080db205114c579d1456de7d4384dc8dd9a1d139eeea0f"
-    },
-    {
-      "lineageId": "rec-esd-r10-first-10-human-procedures-under-supervision",
-      "version": "1.0.0",
-      "path": "esge/recommendation/esd/r10.v1.0.0.json",
-      "sha256": "7224b84a4e1b8244d99ebf83d016ae9e948faf11857c76afae9b52d7ca2e0bdc"
-    },
-    {
-      "lineageId": "rec-esd-r11-knowledge-of-instrumentation-technique-and-esu",
-      "version": "1.0.0",
-      "path": "esge/recommendation/esd/r11.v1.0.0.json",
-      "sha256": "286d9226fc136ef6c17c19ae9aebbaaf07aef93c4d6438a6472ee192c02d3020"
-    },
-    {
-      "lineageId": "rec-esd-r12-estimating-probability-of-curative-resection",
-      "version": "1.0.0",
-      "path": "esge/recommendation/esd/r12.v1.0.0.json",
-      "sha256": "241b762c715adfed33bcc5c3bee1a8ee32def55aed4aa13fc61ddfb4db87a8ed"
-    },
-    {
-      "lineageId": "rec-esd-r13-interpretation-of-histopathology-of-the-esd-specimen",
-      "version": "1.0.0",
-      "path": "esge/recommendation/esd/r13.v1.0.0.json",
-      "sha256": "9b6288ab53fe8c472cfb827ddfbb6864bd12d825847399d626d8057b518da2f5"
-    },
-    {
-      "lineageId": "rec-esd-r14-expert-confirmation-before-starting-esd-at-own-centre",
-      "version": "1.0.0",
-      "path": "esge/recommendation/esd/r14.v1.0.0.json",
-      "sha256": "a09dc6f7e9e24e3eae7f5aadddcfda8c9cce06a53a651bc9c3bc95e389d4ab5d"
-    },
-    {
-      "lineageId": "rec-esd-r15-setting-requirements-inpatient-ward-surgical-backup-expert-p",
-      "version": "1.0.0",
-      "path": "esge/recommendation/esd/r15.v1.0.0.json",
-      "sha256": "df415caeed44707c4d4131aa7287984b98a111f7e64b2a68ca4362a0709850d4"
-    },
-    {
-      "lineageId": "rec-esd-r16-minimum-case-load-25-esd-procedures-per-year",
-      "version": "1.0.0",
-      "path": "esge/recommendation/esd/r16.v1.0.0.json",
-      "sha256": "110f85aed0111030a4179422ef26edaef4d5cc5177c2a4c29bff6fb0e677bc68"
-    },
-    {
-      "lineageId": "rec-esd-r17-prospective-database-quality-targets-en-bloc-90-perforation",
-      "version": "1.0.0",
-      "path": "esge/recommendation/esd/r17.v1.0.0.json",
-      "sha256": "63263ab95928a6c780864acdcf5d4acda33776b0d5b62586b64f8703d7871db0"
+      "sha256": "dcceeacedff3ddf0df49589b64180ae25ff05f0c12feb05ff979f3dd6805818b"
     },
     {
       "lineageId": "rec-esd-r2-prior-training-required-emr-adverse-event-management",
       "version": "1.0.0",
       "path": "esge/recommendation/esd/r2.v1.0.0.json",
-      "sha256": "66bad6b82371e8199ceb7b440ba54ff6028c91012ad446cc0103d05e330008ba"
+      "sha256": "2c8188e93d9a80a4ea816b0a89895616b77f4e20a5c0e841398f02d4abe7444f"
     },
     {
       "lineageId": "rec-esd-r3-knowledge-of-esd-theory-before-and-during-training",
       "version": "1.0.0",
       "path": "esge/recommendation/esd/r3.v1.0.0.json",
-      "sha256": "d9051796959f3f997a5ae525d136c04a2646ebb9d7a5aedef10cec667a87d8a4"
+      "sha256": "83cc9803246ded2222e8cafb77ac4e4a82b4e7d769c43a1983792d117c64aca4"
     },
     {
       "lineageId": "rec-esd-r4-live-conferences-and-meetings",
       "version": "1.0.0",
       "path": "esge/recommendation/esd/r4.v1.0.0.json",
-      "sha256": "bb4f18a75ee02544435a8d87860da583b5b1f4cd771d1aaf983427dfff41a62a"
+      "sha256": "617f4f52b66fa9688b8286e5f20d702a9c35e2ea8656343eed31c02bf5be2078"
     },
     {
       "lineageId": "rec-esd-r5-esge-discourages-initial-esd-training-in-humans",
       "version": "1.0.0",
       "path": "esge/recommendation/esd/r5.v1.0.0.json",
-      "sha256": "5d2990c9fa8f8e91f477d1e2cd18a625d784709fa2ac054943299562f3bca0e0"
+      "sha256": "327f1a42bdaa698e00ba235849262fd746cae8f56611d4882cec1c89a1cc738c"
     },
     {
       "lineageId": "rec-esd-r6-animal-ex-vivo-practice-20-procedures-before-humans",
       "version": "1.0.0",
       "path": "esge/recommendation/esd/r6.v1.0.0.json",
-      "sha256": "a112bf65f6c12b76a732ae10ded3572cba002b3f3e5599aa97416c8f42eb8f19"
+      "sha256": "d7a0576aad6026cc6f7cc4e01149a4b554f39f4e92918d806c91ce794255f615"
     },
     {
       "lineageId": "rec-esd-r7-supervision-during-training",
       "version": "1.0.0",
       "path": "esge/recommendation/esd/r7.v1.0.0.json",
-      "sha256": "c00807b7921b6af51e934317b4734185c992ebd41b5dbb7326d65604b042c93f"
+      "sha256": "4307a2f690819d76aef336d3e8169f7478814fc042a603cfc6604ab18c55388c"
     },
     {
       "lineageId": "rec-esd-r8-observation-of-experts-20-procedures-5-as-assistant",
       "version": "1.0.0",
       "path": "esge/recommendation/esd/r8.v1.0.0.json",
-      "sha256": "48625b401f241ceaeaeed3e4e39d2f5759e0bf62125ad453f096fe24c8492b2e"
+      "sha256": "12920d5db200f1521ae74a76f954f115182c3f99a563799184c6ee0a6c79763b"
     },
     {
       "lineageId": "rec-esd-r9-first-human-procedures-small-30mm-lesions-in-antrum-or-rectu",
       "version": "1.0.0",
       "path": "esge/recommendation/esd/r9.v1.0.0.json",
-      "sha256": "c182fac1e5c297b562997830490fe96d9007c603f6f456aef2f9abd79de94472"
+      "sha256": "f02a2d7a7db169112672f40a7ad5c15dacb5421f8d9fbc40ca90c4ffab10f30f"
+    },
+    {
+      "lineageId": "rec-esd-r10-first-10-human-procedures-under-supervision",
+      "version": "1.0.0",
+      "path": "esge/recommendation/esd/r10.v1.0.0.json",
+      "sha256": "2a4e26fd1b2f0ebf7f3647f08cbd7f9748fd556bb528ffd7557a59f215a96ede"
+    },
+    {
+      "lineageId": "rec-esd-r11-knowledge-of-instrumentation-technique-and-esu",
+      "version": "1.0.0",
+      "path": "esge/recommendation/esd/r11.v1.0.0.json",
+      "sha256": "652b2d16bb39bcbaec560eaa78d25b3266748140f370393c2fe8d9d281af831f"
+    },
+    {
+      "lineageId": "rec-esd-r12-estimating-probability-of-curative-resection",
+      "version": "1.0.0",
+      "path": "esge/recommendation/esd/r12.v1.0.0.json",
+      "sha256": "b0fe5a511a165c2083f87c50ff07c2fc98e3871701735de8a3163a6e9f097a0d"
+    },
+    {
+      "lineageId": "rec-esd-r13-interpretation-of-histopathology-of-the-esd-specimen",
+      "version": "1.0.0",
+      "path": "esge/recommendation/esd/r13.v1.0.0.json",
+      "sha256": "7cc3eac2cc7bcc1ef338041bfcbbd17c3ff529d7215931b33c9a30385bcfae92"
+    },
+    {
+      "lineageId": "rec-esd-r14-expert-confirmation-before-starting-esd-at-own-centre",
+      "version": "1.0.0",
+      "path": "esge/recommendation/esd/r14.v1.0.0.json",
+      "sha256": "33e0be340f455cd1f1850689194ef0aca300d11f433020df15bf70fb2502e5f0"
+    },
+    {
+      "lineageId": "rec-esd-r15-setting-requirements-inpatient-ward-surgical-backup-expert-p",
+      "version": "1.0.0",
+      "path": "esge/recommendation/esd/r15.v1.0.0.json",
+      "sha256": "d0a6e08be877c3cbcdd31bd4506a627cf3f9ef208423ca411588922eafbd4295"
+    },
+    {
+      "lineageId": "rec-esd-r16-minimum-case-load-25-esd-procedures-per-year",
+      "version": "1.0.0",
+      "path": "esge/recommendation/esd/r16.v1.0.0.json",
+      "sha256": "051c95b50983149acd75596f107c5ad323e2d4c4b389472bfdbe6d02d65f0764"
+    },
+    {
+      "lineageId": "rec-esd-r17-prospective-database-quality-targets-en-bloc-90-perforation",
+      "version": "1.0.0",
+      "path": "esge/recommendation/esd/r17.v1.0.0.json",
+      "sha256": "c8a81efef1ed37b2712efd9fbeab779ec19ade2d1e7820d8e5ca3b1cfcaeb068"
     },
     {
       "lineageId": "rec-poem-2-r1-a-poem-equipment-checklist-should-be-used-before-commencing",
       "version": "1.0.0",
       "path": "esge/recommendation/poem-2/r1.v1.0.0.json",
-      "sha256": "791c9fcb74fc5e906b5bb306d846d3e6db9dad39cc6693436048444df0689a80"
+      "sha256": "5725e15f964bf7d7060a3cb89034d19c859f3efc57ef76da276f73be8b1b70c9"
     },
     {
       "lineageId": "rec-poem-2-r2-the-shape-of-the-tip-of-the-electrosurgical-knife-should-be",
       "version": "1.0.0",
       "path": "esge/recommendation/poem-2/r2.v1.0.0.json",
-      "sha256": "b9d985e42b2272eb18ebd70bc9c028fbb8e3ac599d43de1c188e0a33b678b6d3"
+      "sha256": "08282cba5f1db2e250dda90e5471428f2d18e6d93d8ff68b5e4c0b01a9f55b17"
     },
     {
       "lineageId": "rec-poem-2-r3-esge-suggests-using-waterjet-integrated-electrosurgical-kniv",
       "version": "1.0.0",
       "path": "esge/recommendation/poem-2/r3.v1.0.0.json",
-      "sha256": "981ee9d41ef4ac1797539aaed17a8f30efca5f9d380066dfe9be683dcdbc3646"
+      "sha256": "f2de4dbdc03c6024d25b769453033d06e7c5201b9c2647bd894ae5e40709f729"
     },
     {
       "lineageId": "rec-poem-2-r4-the-settings-provided-by-the-manufacturer-of-the-electrosurg",
       "version": "1.0.0",
       "path": "esge/recommendation/poem-2/r4.v1.0.0.json",
-      "sha256": "a41937382067f6835f3bec1ca0f8e03475fde3e8eaf14913213bdbe436eb305a"
+      "sha256": "f781a39ea49a38c81cf5dc6adb4d72ce931bcd0fdbae8d6b5abcb080de0eaf39"
     },
     {
       "lineageId": "rec-poem-2-r5-esge-suggests-that-patients-adhere-to-a-clear-liquid-diet-fo",
       "version": "1.0.0",
       "path": "esge/recommendation/poem-2/r5.v1.0.0.json",
-      "sha256": "7df8f5cc3440f3aa046e278e00e231105094597f01f92795af7dfd17f882e88a"
+      "sha256": "9f73705c4e965a550a1b67b5dd002cb387bcf4b097f8f4251a8f1ada392841fb"
     },
     {
       "lineageId": "rec-poem-2-r6-esge-recommends-managing-antithrombotic-therapy-by-assessing",
       "version": "1.0.0",
       "path": "esge/recommendation/poem-2/r6.v1.0.0.json",
-      "sha256": "8c7a3b4fd328c761dcc62fbc5a78b47fb4473bab194001847d6ab53ea2f0c834"
+      "sha256": "a2d3457dc6e53c7781a21dae119e5c54569c1bb80a35925cec5f9700619490e3"
     },
     {
       "lineageId": "rec-poem-2-r7-esge-recommends-counseling-patients-on-antithrombotic-therap",
       "version": "1.0.0",
       "path": "esge/recommendation/poem-2/r7.v1.0.0.json",
-      "sha256": "bf7244c189dc201d7e12f718ba028066cefcf825f7a9cceb6603b2e8100cd347"
+      "sha256": "53ad04af04beb63bae16e1f342ae602ff48af1c5a921339f8c3668b5ef2387cb"
     },
     {
       "lineageId": "rec-poem-2-r8-esge-recommends-a-single-prophylactic-antibiotic-dose-before",
       "version": "1.0.0",
       "path": "esge/recommendation/poem-2/r8.v1.0.0.json",
-      "sha256": "cc5f510eeef7527b23f004c7e514568f5637930584c6afe1903aaa9e2d54fb3f"
+      "sha256": "b9853f13820e544803c2e86b60ee94c3838adbc4170c5f797f533f9225c055d6"
     },
     {
       "lineageId": "rec-poem-2-r9-a-thorough-esophageal-cleansing-before-mucosal-incision-is-m",
       "version": "1.0.0",
       "path": "esge/recommendation/poem-2/r9.v1.0.0.json",
-      "sha256": "74c1dbfbf1493d6e678e471614ad7375c94ed7dc0099ba093ba554d822c048d8"
+      "sha256": "fb770e6450916edb38ebff2e9507fd41eb324c7200b4ce608c0fa84722d4e5b5"
     },
     {
       "lineageId": "rec-poem-2-r10-any-observed-obstructive-esophageal-spastic-segment-during-e",
       "version": "1.0.0",
       "path": "esge/recommendation/poem-2/r10.v1.0.0.json",
-      "sha256": "55ef3be78c4ac6a7c8e5cdb75e87c6005256910b7cdc9059d20c83df231be446"
+      "sha256": "ba8d91654e6c3ee7442262cd8442aa266a30fd13fae4fb711ffbac6bf995be59"
     },
     {
       "lineageId": "rec-poem-2-r11-poem-operators-should-plan-the-procedure-and-aim-to-identify",
       "version": "1.0.0",
       "path": "esge/recommendation/poem-2/r11.v1.0.0.json",
-      "sha256": "d079f4e87df82b3d28f8630db4ca23705c6a5e44f1395bd881141489ccc7b32c"
+      "sha256": "47dd55f8752418717ac8c50602e53cb8a718b3966ea2428786c7600871ebf974"
     },
     {
       "lineageId": "rec-poem-2-r12-poem-operators-should-clearly-distinguish-between-the-anteri",
       "version": "1.0.0",
       "path": "esge/recommendation/poem-2/r12.v1.0.0.json",
-      "sha256": "d71acac349ad154803b21752309505774ad9348449589e08b38639de303575b5"
+      "sha256": "0b415c687efcf158eb0dff04872e1cba9ec640059ba71c2fdee3ef6181fe0570"
     },
     {
       "lineageId": "rec-poem-2-r13-use-at-least-5-10-ml-of-lifting-agent-which-should-be-inject",
       "version": "1.0.0",
       "path": "esge/recommendation/poem-2/r13.v1.0.0.json",
-      "sha256": "f83d11fda8d58fffc778689f81e8cc3a9155742e4f86622c9181d59f3eabbc3c"
+      "sha256": "b9c7800c9e48c1c3b86fd8fe9050e33a10a7baa5329de444bf531d1527cd9020"
     },
     {
       "lineageId": "rec-poem-2-r14-esge-suggests-the-use-of-saline-instead-of-colloids-for-subm",
       "version": "1.0.0",
       "path": "esge/recommendation/poem-2/r14.v1.0.0.json",
-      "sha256": "52ba5022b7c3f5b35a67fc3b13bc57fb7292d2cd89fe4babee584fdbd88f7130"
+      "sha256": "0bcefc947a6fe520eab6e3493f8623b5c40161f72eeea2c5679bf6265ffc2f92"
     },
     {
       "lineageId": "rec-poem-2-r15-the-use-of-a-chromic-dye-during-submucosal-tunneling-facilit",
       "version": "1.0.0",
       "path": "esge/recommendation/poem-2/r15.v1.0.0.json",
-      "sha256": "fe820c75511543b9fed6533ef77d1ebf524aa62e5652f532c341848003def492"
+      "sha256": "dfc5841c064721ebee4ac3ca47ef24e5ad63f76a4bd76a6fcb77d325ab7913f0"
     },
     {
       "lineageId": "rec-poem-2-r16-the-use-of-adrenaline-in-the-submucosal-solution-is-not-advi",
       "version": "1.0.0",
       "path": "esge/recommendation/poem-2/r16.v1.0.0.json",
-      "sha256": "68c3829042a05c06cece450818cfccdc194b864db5af6922c2bf1dc586c22a62"
+      "sha256": "8b8a3ced9eab65c5e0e5b1cb671607385b2c16c7dd5ed123f7c12b9c7f62d0ca"
     },
     {
       "lineageId": "rec-poem-2-r17-to-create-the-mucosotomy-the-first-incision-should-be-made-a",
       "version": "1.0.0",
       "path": "esge/recommendation/poem-2/r17.v1.0.0.json",
-      "sha256": "6e23c05d2de8a7956e0b4b673949ae5fa64b4e0b2bf7fae9f0ad574d28fc713d"
+      "sha256": "6ed9db6f40611686475b1ca2f77f02d29e85e40885910f750ea585ec5402133b"
     },
     {
       "lineageId": "rec-poem-2-r18-after-adequate-submucosal-injection-through-a-needle-or-knif",
       "version": "1.0.0",
       "path": "esge/recommendation/poem-2/r18.v1.0.0.json",
-      "sha256": "72863d8f6f56e2beba2b70384ad470237cd9998b983d4e414e1dc3258d282e77"
+      "sha256": "3b61cfc06fce8edcf6bbc7bced223f07acc1315647b5de7b13f414275e89e6f6"
     },
     {
       "lineageId": "rec-poem-2-r19-the-submucosa-should-be-carefully-trimmed-at-the-caudal-end",
       "version": "1.0.0",
       "path": "esge/recommendation/poem-2/r19.v1.0.0.json",
-      "sha256": "1a432d1a8da54b0574edef63e04d7483ec106faa95a6d5297c224efd49f9d3bb"
+      "sha256": "92da9b6c44b34c4e777ee150921fbce93f513afd7410028441908ebd10413f85"
     },
     {
       "lineageId": "rec-poem-2-r20-a-transparent-distal-endoscope-attachment-facilitates-access",
       "version": "1.0.0",
       "path": "esge/recommendation/poem-2/r20.v1.0.0.json",
-      "sha256": "19a1e0c41c26c8d473d40f3f8df54201a261bb4f08eec9fcfdd0e2bffea8d52c"
+      "sha256": "053bd8e8dd3280ee7a0231c1e75b3a491f345dfaaa7baa7a1fdb7f8da6bcdde4"
     },
     {
       "lineageId": "rec-poem-2-r21-dissection-within-the-tunnel-should-be-performed-using-seque",
       "version": "1.0.0",
       "path": "esge/recommendation/poem-2/r21.v1.0.0.json",
-      "sha256": "25ffb7987a0468de3e75df8c66b4ef5d21fa718614c89d0db8428be68965bd0a"
+      "sha256": "03d61064bea626460f875f43e5bd2d769eddd7a309ede1b40d22d0dec8137a4f"
     },
     {
       "lineageId": "rec-poem-2-r22-the-distance-between-the-incisors-and-the-gej-should-be-asse",
       "version": "1.0.0",
       "path": "esge/recommendation/poem-2/r22.v1.0.0.json",
-      "sha256": "7d85dfdf32accc72cf6048fbe53eddef314a41dc739b510adbc16ca248348cb2"
+      "sha256": "48b2397c6b9ee13aef70fdc4750538937665a65ae3bd93d9a8d66a1712013aa6"
     },
     {
       "lineageId": "rec-poem-2-r23-the-following-observations-are-useful-to-identify-the-gej-i",
       "version": "1.0.0",
       "path": "esge/recommendation/poem-2/r23.v1.0.0.json",
-      "sha256": "243ff34c187857747d004158e791b86374b24b773337727ba34f5776350a14f5"
+      "sha256": "b575baff690321ca093360607341c2bcb3d51a0068fb47f7872d0d854549712d"
     },
     {
       "lineageId": "rec-poem-2-r24-the-submucosal-tunnel-should-be-extended-at-least-3-cm-dista",
       "version": "1.0.0",
       "path": "esge/recommendation/poem-2/r24.v1.0.0.json",
-      "sha256": "d1236b9de9f91106361ec8f88d31efe237148f6a4a55ab658595566b8a5cfc4f"
+      "sha256": "df2064c3beece174c05dce8e314c696e6771154e79445ceafd2082052ae9b2d6"
     },
     {
       "lineageId": "rec-poem-2-r25-esge-suggests-using-a-combination-of-anatomical-landmarks-to",
       "version": "1.0.0",
       "path": "esge/recommendation/poem-2/r25.v1.0.0.json",
-      "sha256": "7fed3cc1b1ddf9d1c828a60daca5f69982454b1f0a726ef3307c50c6a70e7527"
+      "sha256": "794df3209816b55da284a8f9188e169990e025cd9679f0fb03470814de08bad5"
     },
     {
       "lineageId": "rec-poem-2-r26-the-myotomy-should-be-performed-in-a-cranial-to-caudal-manne",
       "version": "1.0.0",
       "path": "esge/recommendation/poem-2/r26.v1.0.0.json",
-      "sha256": "5d37d0b2c0c8f5771b9cbbe82f2bbc1d46c1ffaa6a5f3c2ece1f6f61db6e4df0"
+      "sha256": "38fd24967de46ac130a44524a1bb0b4a35281e88e51fba4e63978dc229d2b0b6"
     },
     {
       "lineageId": "rec-poem-2-r27-the-myotomy-should-be-performed-using-mucosal-to-adventitial",
       "version": "1.0.0",
       "path": "esge/recommendation/poem-2/r27.v1.0.0.json",
-      "sha256": "3d3f4aa16f0592063c739095007e84f6df5337ec28c9696c1b3ab425ebcfa953"
+      "sha256": "85f150b1eec74c66f39d9a99fa176ef45c0b0ee5cb5cf0ff7bec9ed02acbd470"
     },
     {
       "lineageId": "rec-poem-2-r28-esge-recommends-that-poem-can-be-performed-on-either-the-ant",
       "version": "1.0.0",
       "path": "esge/recommendation/poem-2/r28.v1.0.0.json",
-      "sha256": "d242e719503bbea8b4a53e5da074ca94d3335d2f974b9b37f4b2fa7b57869c42"
+      "sha256": "c1edc94fe18c2930df046d1d3f7496f199183ccb46630b28a98a659d7c78b3f2"
     },
     {
       "lineageId": "rec-poem-2-r29-esge-recommends-against-performing-poem-in-the-same-orientat",
       "version": "1.0.0",
       "path": "esge/recommendation/poem-2/r29.v1.0.0.json",
-      "sha256": "4315a263cb44075058ba28871304e8ffaab80ef8297f3c66cdfa478f1e613058"
+      "sha256": "ff24e77abcf21b4f746ef79d251b9b0691d1264e844055339cb005bbed0c364c"
     },
     {
       "lineageId": "rec-poem-2-r30-esge-suggests-that-either-a-full-thickness-or-selective-myot",
       "version": "1.0.0",
       "path": "esge/recommendation/poem-2/r30.v1.0.0.json",
-      "sha256": "530cc4ef4de4a9fb54e939b43c2196546256eac785e2d3f1ec98cadbf863b0d2"
+      "sha256": "990f5c5843213a5e79791beddee20caae48495106f6ed94ba375f1982c57a7f5"
     },
     {
       "lineageId": "rec-poem-2-r31-esge-recommends-that-the-myotomy-should-be-extended-2-3-cm-d",
       "version": "1.0.0",
       "path": "esge/recommendation/poem-2/r31.v1.0.0.json",
-      "sha256": "9778786df2143e1cf3f89ae72bf3ad9096170d5004d56ddb89132c56044b4bb3"
+      "sha256": "5be7a09bbdf4ccab4e39a7bd988d8f5dbed1074d640aee0e6afddef2e80bdcfc"
     },
     {
       "lineageId": "rec-poem-2-r32-esge-recommends-that-the-myotomy-length-should-be-tailored-t",
       "version": "1.0.0",
       "path": "esge/recommendation/poem-2/r32.v1.0.0.json",
-      "sha256": "96e58ea5cb42ab99ffead97a5d232ace61be339baf205eac72eaa35ea5271c8c"
+      "sha256": "a838e2aee79ef2798b67868360faec5164bed49097d3f434a97fc8a0deeca38b"
     },
     {
       "lineageId": "rec-poem-2-r33-for-types-i-and-ii-achalasia-esge-recommends-an-esophageal-m",
       "version": "1.0.0",
       "path": "esge/recommendation/poem-2/r33.v1.0.0.json",
-      "sha256": "e048ac3ba4c84ae9eb2d0980931f087a27f70c0724dca6e338d3fd40c37d466a"
+      "sha256": "dc960fc9670a8ed9c8334fa4313ace81e0d551665f1c434f6bf78c300afe5366"
     },
     {
       "lineageId": "rec-poem-2-r34-for-type-iii-achalasia-and-other-spastic-esophageal-motility",
       "version": "1.0.0",
       "path": "esge/recommendation/poem-2/r34.v1.0.0.json",
-      "sha256": "d601061badf357cbc06397315d97b9073a70fb85a4fe5d27ef9cd35cd9c981c9"
+      "sha256": "3b90ab1dc79f3e20fd80b4f6a306bdb48e62d4699dd78254ece02c905f59f66e"
     },
     {
       "lineageId": "rec-poem-2-r35-esge-recommends-the-use-of-through-the-scope-clips-for-mucos",
       "version": "1.0.0",
       "path": "esge/recommendation/poem-2/r35.v1.0.0.json",
-      "sha256": "291a0e9163d0b8e07b3fe24b2e00cc009af1dd4f9307a6922996982ba8e8bfb0"
+      "sha256": "5d7a7be5d2d00e3c3cc5ca224f55cbeb4186a0e5e907f23c5bc2d27d0cb194f8"
     },
     {
       "lineageId": "rec-poem-2-r36-esge-suggests-that-over-the-scope-clips-and-endoscopic-sutur",
       "version": "1.0.0",
       "path": "esge/recommendation/poem-2/r36.v1.0.0.json",
-      "sha256": "43097ae528218426e5129d39488e95f252e8e282b54da6d273ebd3f72eb97356"
+      "sha256": "c17dc206b05ce65946f7c7174773b664c1508a4e9fb4ebf9024abc95f60f4daa"
     },
     {
       "lineageId": "rec-poem-2-r37-prophylactic-hemostasis-for-nonbleeding-vessels-should-be-gu",
       "version": "1.0.0",
       "path": "esge/recommendation/poem-2/r37.v1.0.0.json",
-      "sha256": "2a4357913848623ffc8ae54704b9e2d2b54a591f5e468f94053462f2878575df"
+      "sha256": "51eb0448793decddde33625fd05ba74dee654bb00ddd6d1feecddfccc1291234"
     },
     {
       "lineageId": "rec-poem-2-r38-water-irrigation-should-be-used-to-precisely-identify-the-si",
       "version": "1.0.0",
       "path": "esge/recommendation/poem-2/r38.v1.0.0.json",
-      "sha256": "bc185f48a4261da85601737107781414ca7667b73896ec266d87c249b97a7917"
+      "sha256": "15160351b5b5bd4efa347ffc83a150517636ec67c596022f9c5383b80bf589b2"
     },
     {
       "lineageId": "rec-poem-2-r39-mucosal-injury-during-poem-should-be-proactively-sought-duri",
       "version": "1.0.0",
       "path": "esge/recommendation/poem-2/r39.v1.0.0.json",
-      "sha256": "576f3b2d83a9a3dad398b14a998cf85a91a7cd627bb313336b37cdf09a513b55"
+      "sha256": "6d064e183902a1d43047cf7f36a118bc9726d23bfe8194841f5b25d98a40273d"
     },
     {
       "lineageId": "rec-poem-2-r40-any-suspected-current-or-potential-mucosal-perforation-durin",
       "version": "1.0.0",
       "path": "esge/recommendation/poem-2/r40.v1.0.0.json",
-      "sha256": "bb20d8b56c5505b2e9c700d714e6b6db3fe42597e3cb47114d4fc2650249d5cb"
+      "sha256": "64b735eab09246cef3f9fe6b29e5b23e47f1426f5aff09a256721fc9be0a25e4"
     },
     {
       "lineageId": "rec-poem-2-r41-esge-recommends-performing-poem-using-low-flow-co2-insufflat",
       "version": "1.0.0",
       "path": "esge/recommendation/poem-2/r41.v1.0.0.json",
-      "sha256": "7b92fae9b2633c7b957031716931daed7d73df7d56cdf764db2100f2062cf289"
+      "sha256": "7a1681dcfd85d188f2f420460c54abd403d5e92a48c3a8385f4174b7380e518e"
     },
     {
       "lineageId": "rec-poem-2-r42-a-high-index-of-suspicion-for-gas-related-adverse-events-is",
       "version": "1.0.0",
       "path": "esge/recommendation/poem-2/r42.v1.0.0.json",
-      "sha256": "5253236a744c416b7ed73fca5c15f36c9cc393021f824bd2847e08a4f3d7d53c"
+      "sha256": "214b5c439f7e670319efc711c7e391b6398dd9f9b4679fa92daa08bf45f517e0"
     },
     {
       "lineageId": "rec-poem-2-r43-drainage-of-capnoperitoneum-using-needle-decompression-is-re",
       "version": "1.0.0",
       "path": "esge/recommendation/poem-2/r43.v1.0.0.json",
-      "sha256": "77daf10e205d675f6d2a066d143c458aed3551b3c561c54c125fd2ff855493c3"
+      "sha256": "390b6e5ea2d632907c1a8a76458d7a7cf4973e8dddbf40cd588fff09f306f7dd"
     },
     {
       "lineageId": "rec-poem-2-r44-esge-suggests-creating-a-second-tunnel-in-an-alternative-ori",
       "version": "1.0.0",
       "path": "esge/recommendation/poem-2/r44.v1.0.0.json",
-      "sha256": "13b6588b47f5b98a8b04a6570bd0ed4e8f7d38ff22d7388232c72ca129e4c507"
+      "sha256": "bec95748d6ca410e2c64a5e8c9d057d5db819e18288c05ff405951d6116e6bdc"
     },
     {
       "lineageId": "rec-poem-2-r45-in-the-absence-of-adverse-events-resume-fluids-on-day-1-soft",
       "version": "1.0.0",
       "path": "esge/recommendation/poem-2/r45.v1.0.0.json",
-      "sha256": "3d51ecd2c4c63fd1ff6c3682d399a65c05c6c02379df6841c43e3fc775667508"
+      "sha256": "94ec04636b526153315d049700434ad7bff1d0c4dd90d11a78f67a6387fe3c38"
     },
     {
       "lineageId": "rec-poem-2-r46-esge-recommends-the-use-of-paracetamol-and-or-nonsteroidal-a",
       "version": "1.0.0",
       "path": "esge/recommendation/poem-2/r46.v1.0.0.json",
-      "sha256": "ccc15b601ca0530ec7afdf13d171ae2556bd43ec55669a4ae1e809823cc92746"
+      "sha256": "4d6eebb85250a002e3bed9077c49c7fd6a5f6f8c3b58b1420bc058fcff98e415"
     },
     {
       "lineageId": "rec-poem-2-r47-esge-recommends-against-the-routine-use-of-standard-or-ct-fl",
       "version": "1.0.0",
       "path": "esge/recommendation/poem-2/r47.v1.0.0.json",
-      "sha256": "431902cf8443ccea888cdfebef38a632a4962395c62950814c2b7912c3a571f5"
+      "sha256": "ae8ba374adae521e33e58c741518c98e8d8396bfa9e771a2046bcff7a1915670"
     },
     {
       "lineageId": "rec-poem-2-r48-esge-suggests-favoring-the-use-of-a-ct-esophagram-with-oral",
       "version": "1.0.0",
       "path": "esge/recommendation/poem-2/r48.v1.0.0.json",
-      "sha256": "dd5caa92a6d1735f82b75036d571d464b52fdb56ddfc988b04390b74f3fcbd37"
+      "sha256": "641bbda8f96de55c917659f9c8753d3b53a24a2e030042ec9a9ef71eb094f230"
     }
   ],
   "standards": [
-    {
-      "lineageId": "std-emr-unit-pre-procedure-pathways",
-      "version": "1.0.0",
-      "path": "esge/standard/emr-colon/unit-pre-procedure-pathways.v1.0.0.json",
-      "sha256": "6f3678f9964580c4a1859fa800805348f94d6f520f71bba5d0de767954c01f25"
-    },
     {
       "lineageId": "std-emr-unit-anticoagulant-protocols",
       "version": "1.0.0",
       "path": "esge/standard/emr-colon/unit-anticoagulant-protocols.v1.0.0.json",
       "sha256": "b4045e72ee503f9f75550c3bee16bd134efa8e2ad4c830067a40d93df809dfbd"
+    },
+    {
+      "lineageId": "std-emr-unit-pre-procedure-pathways",
+      "version": "1.0.0",
+      "path": "esge/standard/emr-colon/unit-pre-procedure-pathways.v1.0.0.json",
+      "sha256": "6f3678f9964580c4a1859fa800805348f94d6f520f71bba5d0de767954c01f25"
     },
     {
       "lineageId": "std-emr-unit-preprocedure-information",
@@ -666,7 +672,7 @@
       "lineageId": "st-smsa",
       "version": "1.0.0",
       "path": "esge/scoring-tool/smsa.v1.0.0.json",
-      "sha256": "707119aaa6dfcc5dc241b2209f1dd0fffb28de47f6c28c503608bb149e29b691"
+      "sha256": "037ca30592cf466a03e6f07789687d90ae092aad944a03d1077965649b7354f2"
     }
   ],
   "kpis": [
@@ -674,7 +680,7 @@
       "lineageId": "kpi-emr-cln-30-cases-min",
       "version": "1.0.0",
       "path": "esge/kpi/emr-colon/min-30-cases.v1.0.0.json",
-      "sha256": "6eedd0a8a2a7d6b8855fd58d929fc3702c6ab2d8af757026940eda6abd3099d1"
+      "sha256": "fd94f4f3084d072311a64d50ccbad7f506791491b74a77b4004c548aaa953afa"
     }
   ],
   "qis": [
@@ -682,127 +688,127 @@
       "lineageId": "qi-emr-cln-adenoma-recurrence-treatable-endoscopically",
       "version": "1.0.0",
       "path": "esge/qi/emr-colon/adenoma-recurrence-treatable-endoscopically.v1.0.0.json",
-      "sha256": "e58f2d0620e8d69b5e0b2dfb2d3056b0268e888843a7fb929c2e716b732d817d"
+      "sha256": "b6dfe576b1c685d46494c706a97d1a9d312692fbb16606e06f4d11192c250d20"
     },
     {
       "lineageId": "qi-emr-cln-adenoma-recurrence-with-margin-ablation",
       "version": "1.0.0",
       "path": "esge/qi/emr-colon/adenoma-recurrence-with-margin-ablation.v1.0.0.json",
-      "sha256": "5df16526f488086a9085bda35c65ac04032fd0d0de5cad9c2dfe34d89349f2d3"
+      "sha256": "7adda860af0414f4b74f68993e6f109de5eeceef2de9d29a550367329458a96e"
     },
     {
       "lineageId": "qi-emr-cln-adenoma-recurrence",
       "version": "1.0.0",
       "path": "esge/qi/emr-colon/adenoma-recurrence.v1.0.0.json",
-      "sha256": "8b41f386b69f7c0c97bde4ec6423965a220cd93d5fcdc64ef3e5a738b3a8447d"
+      "sha256": "413cf2b219e9e6ba858e736c907120cdb7dc61a1cd6cc3dcfe61e2ed12fdd2ec"
     },
     {
       "lineageId": "qi-emr-cln-clinically-significant-post-emr-bleeding",
       "version": "1.0.0",
       "path": "esge/qi/emr-colon/clinically-significant-post-emr-bleeding.v1.0.0.json",
-      "sha256": "903ceadd54e60efbe54bb848ee40d7f3d00f75879471d47b9630eb53d192e08c"
+      "sha256": "55f22b3db7dc884c0f6c13ea1cb8c469cebaadf5924fa853edca4efb3cd44cdc"
     },
     {
       "lineageId": "qi-emr-cln-complete-perforation-closure",
       "version": "1.0.0",
       "path": "esge/qi/emr-colon/complete-perforation-closure.v1.0.0.json",
-      "sha256": "d1655e18b167e3fccf571cfbad56a1d00b44068be67dcda261523d7bd089cd6a"
+      "sha256": "0b5d0dcf419d3849c85910aaabbcb8f29e2dc57a20e60963407396eaac0fad72"
     },
     {
       "lineageId": "qi-emr-cln-delayed-perforation",
       "version": "1.0.0",
       "path": "esge/qi/emr-colon/delayed-perforation.v1.0.0.json",
-      "sha256": "3494e2759315d17314e2637b054f0495e294dbcaf0d36a2c972b98d22a02ec73"
+      "sha256": "4aaa004e529623907aca7512d038e0cfea30fa138fbc9d0c210adea434236c3a"
     },
     {
       "lineageId": "qi-emr-cln-intraprocedural-bleeding",
       "version": "1.0.0",
       "path": "esge/qi/emr-colon/intraprocedural-bleeding.v1.0.0.json",
-      "sha256": "fbfccc345b5ea36182e0ae14a8c32d41eee8a7b5380b539c9e39d8ae0e18e500"
+      "sha256": "c76e6d14a146dcd753dc4967afc5e0b3e5523e843459c9330e50152f24f61312"
     },
     {
       "lineageId": "qi-emr-cln-intraprocedural-perforation",
       "version": "1.0.0",
       "path": "esge/qi/emr-colon/intraprocedural-perforation.v1.0.0.json",
-      "sha256": "1229bdacdff3a5c5dbdfffa8884652bb51318acdbdd3de7ea06485ce2da46ad9"
+      "sha256": "966eecda5cd947cbcffb12bba9ee6f9397c8add9e9e07bd040921da7b1ed6078"
     },
     {
       "lineageId": "qi-emr-cln-lnpcp-attempt-rate",
       "version": "1.0.0",
       "path": "esge/qi/emr-colon/lnpcp-attempt-rate.v1.0.0.json",
-      "sha256": "ca3d9675fea93523c24b484b1ed1ca9ad3f170fbc9e864e7757a6e87eaba14a4"
+      "sha256": "d4b3d32d2ebebb0a5c2f455a62b1bcd19767240100df5d4a61da4ebf439c9f4a"
     },
     {
       "lineageId": "qi-emr-cln-patient-consent-documentation",
       "version": "1.0.0",
       "path": "esge/qi/emr-colon/patient-consent-documentation.v1.0.0.json",
-      "sha256": "303924cf2b93829caeb9a8747f442a52fe3ddb3261a54b3fd652ef5e6f3a06b6"
+      "sha256": "2961908c341e0fd4411889301e481fb579290dd45635c3dd3696b204db54a9a7"
     },
     {
       "lineageId": "qi-emr-cln-patient-satisfaction-recorded",
       "version": "1.0.0",
       "path": "esge/qi/emr-colon/patient-satisfaction-recorded.v1.0.0.json",
-      "sha256": "03fbd326fac8c2f0b26a96b57fa85b338a92e499f414e8e8600603135dfc75d1"
+      "sha256": "3debed5e5a0bf593f73612cf2547bdfc216b55573a284abdcbd29713b6d5e858"
     },
     {
       "lineageId": "qi-emr-cln-patients-returning-surveillance",
       "version": "1.0.0",
       "path": "esge/qi/emr-colon/patients-returning-surveillance.v1.0.0.json",
-      "sha256": "7017b2e8c577ccb2272ffe855355ddd88eafb43d3da99eef4f95e27919a6ed9f"
+      "sha256": "308a63f9761177255b8741c473057aff5dab3f522b160c787349f59e1487f0a0"
     },
     {
       "lineageId": "qi-emr-cln-practitioner-outcome-awareness",
       "version": "1.0.0",
       "path": "esge/qi/emr-colon/practitioner-outcome-awareness.v1.0.0.json",
-      "sha256": "36b988bda4cba45768426a16d12becfe5b0ebad9c0b98535fd9f47c4000bde4c"
+      "sha256": "73e46cb2e0c3bdadff8ab8533d287b8653fccbc33311cc9d694c32fcf8d489a0"
     },
     {
       "lineageId": "qi-emr-cln-procedures-per-year",
       "version": "1.0.0",
       "path": "esge/qi/emr-colon/procedures-per-year.v1.0.0.json",
-      "sha256": "4bb5913a6d374138ab5832aca03713a6c53ddca7398799041b894143a1339b0d"
+      "sha256": "f7cbc42c6dd911709bdedafe0d4a7b290ed062e4f7833df776bc63a911c5e246"
     },
     {
       "lineageId": "qi-emr-cln-success-rate",
       "version": "1.0.0",
       "path": "esge/qi/emr-colon/success-rate.v1.0.0.json",
-      "sha256": "57119ac86533bd25a9db934ba9985e48c88d56b61b306612bb61ddc47913bae7"
+      "sha256": "2c14475c0bec75d7ea3e3fc722634e8892a158bfa79bd9467ad18d25b405dfc0"
     },
     {
       "lineageId": "qi-emr-cln-surgery-for-incomplete-emr",
       "version": "1.0.0",
       "path": "esge/qi/emr-colon/surgery-for-incomplete-emr.v1.0.0.json",
-      "sha256": "9b7d0f15b307cf0517a0926a81f400a2d19cb7c1f71a6548ad2b50b5325bd3b7"
+      "sha256": "4ef8b99775e98a322507e56a49748f7f79d642ec5032056371a48fb4649159c2"
     },
     {
       "lineageId": "qi-emr-cln-surgery-for-unresectable-recurrence",
       "version": "1.0.0",
       "path": "esge/qi/emr-colon/surgery-for-unresectable-recurrence.v1.0.0.json",
-      "sha256": "a747f8a9e618e086303d7d4860612933e00762897e50f7d10e850f92dae47f5b"
+      "sha256": "ca4985c64c6a1d73a24d0f3bdcef47e4afb2614421877a1803bfd9949fa3b413"
     },
     {
       "lineageId": "qi-emr-cln-unplanned-hospitalization",
       "version": "1.0.0",
       "path": "esge/qi/emr-colon/unplanned-hospitalization.v1.0.0.json",
-      "sha256": "d571e43ddccf28480ac93f69a1b5a76d3d523b44890682a723aed7ebd0ccb605"
+      "sha256": "0a7c05b9ff1acc8f190de92e7e0c9ca6c998f0c251818b43ff894a19fb051852"
     },
     {
       "lineageId": "qi-esd-en-bloc-resection-rate",
       "version": "1.0.0",
       "path": "esge/qi/esd/en-bloc-resection-rate.v1.0.0.json",
-      "sha256": "f38d3f24138f74d9477932a32c8a82d529f7ab2736ec2e7b76b558a6ca619862"
+      "sha256": "c48753ce20cced63f1846318ed44c9e44363f973afbdf6782b514359c3352c67"
     },
     {
       "lineageId": "qi-esd-perforation-rate",
       "version": "1.0.0",
       "path": "esge/qi/esd/perforation-rate.v1.0.0.json",
-      "sha256": "04db9eae94c85c38710b3d13b71875d9a88653b0c778fdfd9254302129c9da0a"
+      "sha256": "f3bd7903bf410889bc3bf41b8a769ca3ca1e765ba9fd41af2fc7195ddd795f0a"
     },
     {
       "lineageId": "qi-esd-surgery-for-complications-rate",
       "version": "1.0.0",
       "path": "esge/qi/esd/surgery-for-complications-rate.v1.0.0.json",
-      "sha256": "3c835bdd1c2109286538d2fb955dd1c1f8d462e7336eeeee007736b538137f53"
+      "sha256": "2fa32710d71ac66d15028844699686a0c72e9bf0bcc1cb1f1e119fc3c91918e1"
     }
   ],
   "cats": [
@@ -810,26 +816,152 @@
       "lineageId": "cat-gpat",
       "version": "1.0.0",
       "path": "esge/cat/gpat.v1.0.0.json",
-      "sha256": "4d5331e38a8d533332946fcc5c81a7497792e2ffbe30196b85c7b112e9be680b"
+      "sha256": "46514a89018614998d3a42561982534f3906e2a175baddfecb96e59fa2c43736"
     },
     {
       "lineageId": "cat-ppat",
       "version": "1.0.0",
       "path": "esge/cat/ppat.v1.0.0.json",
-      "sha256": "60766e3e424fe1bc785a531b95feebeb823d84b98b0065c9b087ec1c847c89da"
+      "sha256": "d63111492519a7bea2112c90e1ae7fb11f3eff633a44d52bd21df8703c5f3fd5"
+    }
+  ],
+  "references": [
+    {
+      "lineageId": "refs-cur-emr-colon-2023",
+      "version": "1.0.0",
+      "path": "esge/curriculum/emr-colon/references.v1.0.0.json",
+      "sha256": "14512685d86d7351736933cf03e0bf2efc44462bb8f6dba00914faf1b139405e"
+    },
+    {
+      "lineageId": "refs-cur-esd-2019",
+      "version": "1.0.0",
+      "path": "esge/curriculum/esd/references.v1.0.0.json",
+      "sha256": "1a3ffc56a3c3e5df18dec5a2c9e9f3cfa2d8e625197a247ad41b22ea8d5d597f"
+    },
+    {
+      "lineageId": "refs-cur-poem-2-2025",
+      "version": "1.0.0",
+      "path": "esge/curriculum/poem-2/references.v1.0.0.json",
+      "sha256": "f4d7d5e13804b08e5a2e6f991858360793a8270eabb8766d4bb297465f70446a"
+    }
+  ],
+  "figures": [
+    {
+      "lineageId": "fig-emr-colon-1",
+      "version": "1.0.0",
+      "path": "esge/figure/emr-colon/fig-1.v1.0.0.json",
+      "sha256": "5a7d666accd7d1bfbdddffb692a6c4b4b0fee9c87f16cb9a91ce514d5c5a116d"
+    },
+    {
+      "lineageId": "fig-emr-colon-2",
+      "version": "1.0.0",
+      "path": "esge/figure/emr-colon/fig-2.v1.0.0.json",
+      "sha256": "005cfa385c4c677543a4ec95880c4f580970a4c226f7188e4b7cda795cfaa84c"
+    },
+    {
+      "lineageId": "fig-emr-colon-3",
+      "version": "1.0.0",
+      "path": "esge/figure/emr-colon/fig-3.v1.0.0.json",
+      "sha256": "c50cd29304346ea9dd53be4497dbd9c9596f2a6df7207206b89fcfb9d9b6f588"
+    },
+    {
+      "lineageId": "fig-esd-1",
+      "version": "1.0.0",
+      "path": "esge/figure/esd/fig-1.v1.0.0.json",
+      "sha256": "8d023260bf7ecbb5d1149a4a0a928791b988f4b0acd1558c5283759e76d27824"
+    },
+    {
+      "lineageId": "fig-poem-2-1",
+      "version": "1.0.0",
+      "path": "esge/figure/poem-2/fig-1.v1.0.0.json",
+      "sha256": "62e120f4174c6434d1df04b8ac5b7a295235367a1e36b73bcda086c498333a8e"
+    },
+    {
+      "lineageId": "fig-poem-2-2",
+      "version": "1.0.0",
+      "path": "esge/figure/poem-2/fig-2.v1.0.0.json",
+      "sha256": "fc8972634a87b8444ce4bf7b3225e3d74d2e1c63b12243d5c298b25d505a0db3"
+    },
+    {
+      "lineageId": "fig-poem-2-3",
+      "version": "1.0.0",
+      "path": "esge/figure/poem-2/fig-3.v1.0.0.json",
+      "sha256": "e50aafb3175f52641a54daffc5e814db492875903edcef113f0799571768769e"
+    },
+    {
+      "lineageId": "fig-poem-2-4",
+      "version": "1.0.0",
+      "path": "esge/figure/poem-2/fig-4.v1.0.0.json",
+      "sha256": "155103de9f6253f4c918de87ec5f96f533701cf9b84bf7f5220af30e62c17ed5"
+    }
+  ],
+  "tables": [
+    {
+      "lineageId": "table-emr-colon-1",
+      "version": "1.0.0",
+      "path": "esge/table/emr-colon/table-1.v1.0.0.json",
+      "sha256": "d60d39802aa2696198f5a47e91bd1339b8172019976b1be89bd48531fb866c89"
+    },
+    {
+      "lineageId": "table-emr-colon-2b",
+      "version": "1.0.0",
+      "path": "esge/table/emr-colon/table-2b.v1.0.0.json",
+      "sha256": "c8a4224406c9bd4f81b50b2a345458514d694329ebf39e592f3383d686577463"
+    },
+    {
+      "lineageId": "table-emr-colon-3",
+      "version": "1.0.0",
+      "path": "esge/table/emr-colon/table-3.v1.0.0.json",
+      "sha256": "050843ee36b13060c549500c3e776ed67a9b75155e6a91ead7402893e827675c"
+    },
+    {
+      "lineageId": "table-emr-colon-5",
+      "version": "1.0.0",
+      "path": "esge/table/emr-colon/table-5.v1.0.0.json",
+      "sha256": "2c7f759f8ce4445a4e64283018354dc651870ffb64975843a6856b8174dc3d56"
+    },
+    {
+      "lineageId": "table-esd-1",
+      "version": "1.0.0",
+      "path": "esge/table/esd/table-1.v1.0.0.json",
+      "sha256": "035a71aec778048435b1005f48fe71e2ec55fea6d79de0df2e754901bbba2c29"
+    },
+    {
+      "lineageId": "table-poem-2-1",
+      "version": "1.0.0",
+      "path": "esge/table/poem-2/table-1.v1.0.0.json",
+      "sha256": "23cd939685735e2683c9d8456243b2af422889038100915dfb2013d57ddf6fe2"
+    },
+    {
+      "lineageId": "table-poem-2-2",
+      "version": "1.0.0",
+      "path": "esge/table/poem-2/table-2.v1.0.0.json",
+      "sha256": "b78e326219734ccad62b22d942c7ce5eb5e747c4c6967eb5bacdede1bd40d830"
+    },
+    {
+      "lineageId": "table-poem-2-3",
+      "version": "1.0.0",
+      "path": "esge/table/poem-2/table-3.v1.0.0.json",
+      "sha256": "b7cfff07fb4e1e4a2a6df84f51917e4ce0fa23f8640d73f1f96d863e1e20cd3d"
+    },
+    {
+      "lineageId": "table-poem-2-4",
+      "version": "1.0.0",
+      "path": "esge/table/poem-2/table-4.v1.0.0.json",
+      "sha256": "ca78ab86f8e18bd55f312c1377704373ae13da1ab5720bba812c38044712276a"
     }
   ],
   "majorBumps": [
     "PRE-FLIGHT RELEASE WITHDRAWN: prior r2026.07 contained fabricated/stub references and unflagged invented content. See docs/plans/2026-06-26-batch1-fidelity-audit.md in the evideris repo.",
-    "Removed: 11 competencies + 1 EPA + NICE/JNET/Sydney-DMI scoring tools \u2014 moved to evideris-curriculum-derived (sibling repo)",
-    "Removed: assessesCompetencies on recs, evidenceRequired on standards, assessesCompetencies on CAT items \u2014 moved to derived layer as separate artifact types"
+    "Removed: 11 competencies + 1 EPA + NICE/JNET/Sydney-DMI scoring tools — moved to evideris-curriculum-derived (sibling repo)",
+    "Removed: assessesCompetencies on recs, evidenceRequired on standards, assessesCompetencies on CAT items — moved to derived layer as separate artifact types"
   ],
   "minorBumps": [
     "Added: per-artifact _meta envelope with provenance (verbatim/paraphrased + source DOI)",
     "Added: refs-cur-emr-colon-2023 (separate references artifact with all 150 source bibliography entries resolved to Crossref DOIs; 14 marked lowConfidence for hand-verification)",
-    "Curriculum wrapper: all 11 main statements re-extracted verbatim (Statement 4 corrected); 8 sections (was 7 \u2014 added Section 6 Surveillance); per-author competing interests (was lumped); full author affiliations from PDF",
+    "Curriculum wrapper: all 11 main statements re-extracted verbatim (Statement 4 corrected); 8 sections (was 7 — added Section 6 Surveillance); per-author competing interests (was lumped); full author affiliations from PDF",
     "31 additional recommendations auto-extracted from source PDF via scripts/extract-recommendations.py (verbatim statement+GRADE+sub-items+references; all pass source-trace)",
-    "All 18 Table 6 QIs encoded (was 5 \u2014 added 13 more via scripts/extract-qis.py one-shot extractor)",
+    "All 18 Table 6 QIs encoded (was 5 — added 13 more via scripts/extract-qis.py one-shot extractor)",
     "Second curriculum ingested: ESGE ESD 2019 (Pimentel-Nunes/Pioche). 1 curriculum wrapper + 17 recommendations + 3 QIs + 77-ref bibliography. First curriculum with LoA-only (no GRADE); schema updated to allow top-level levelOfAgreement on rec + optional grade block.",
     "Third curriculum: POEM Part II (Tate co-first-author). 48 recommendations with GRADE + LoA, 134-ref bibliography (all Crossref-resolved), 15 verbatim main statements. Sub-item label schema relaxed to allow Arabic numerals (paper uses 1.,2.,3. instead of (i)(ii)(iii)). PPAT (Precision POEM Assessment Tool, 28 components) shell only; full component encoding deferred to a follow-up session.",
     "PPAT (Precision POEM Assessment Tool) full component encoding: 29 items across 8 domains, 25 mandatory + 4 non-mandatory (x, xxi, xxvii, xxix). Verbatim from source Table 4."

@@ -14,7 +14,7 @@
   "withinSection": "sec-poem-2-myotomy",
   "number": 26,
   "title": {
-    "en": "The myotomy should be performed in a cranial to caudal manner,"
+    "en": "The myotomy should be performed in a cranial to caudal manner, starting 2 cm or more below the caudal extent of the mucosotomy site."
   },
   "statement": {
     "en": "The myotomy should be performed in a cranial to caudal manner, starting 2 cm or more below the caudal extent of the mucosotomy site."
@@ -30,17 +30,7 @@
       "type": "verbatim",
       "source_doi": "10.1055/a-2569-7634"
     },
-    "encodedBy": "human:david",
-    "encodedAt": "2026-07-03",
-    "fieldProvenance": {
-      "commentary": {
-        "type": "verbatim",
-        "source_doi": "10.1055/a-2569-7634",
-        "source_span": "Paragraph(s) preceding the N RECOMMENDATION block in body; back-to-back groups share commentary."
-      }
-    }
-  },
-  "commentary": {
-    "en": "Accurate identification of the LES is vital to ensure complete sphincter disruption, thereby maximizing the clinical efficacy of POEM [56]. The endoscopist should recognize the anatomical landmarks of the GEJ. In the double-scope transillumination technique, a second endoscope (usually a pediatric gastroscope) is passed into the gastric lumen in order to observe, in retroflexion, the light of the first scope inside the submucosal tunnel [57]; this can help to identify the GEJ and guide further gastric myotomy. In one case series, this technique indicated the tunnel extent to be inadequate in 50 % of patients, and the tunnel was extended a further 1 to 2 cm [57]. An RCT concluded that a second endoscope is useful for ensuring a complete gastric myotomy, also describing a minimal increase in procedural time, without any increased morbidity. The authors suggested that it may be particularly helpful in cases of altered anatomy that can make identification of the GEJ difficult [58].\n\nA cranial to caudal (top-down) or caudal to cranial (bottomup) technique can be used for the myotomy depending on operator preference. The panel favors a cranial to caudal approach when starting out in POEM training, which is the standard approach for the myotomy. The myotomy should be started 2 cm or more below the caudal extent of the mucosotomy site to maintain an adequately protective mucosal flap. The caudal to cranial technique has also been described and could reduce myotomy procedural time, but high quality comparative data are lacking [59]. In this modality, the myotomy is started 2\u20133 cm caudal to the GEJ at the distal end of the tunnel and continued cranially. For the initial incision, the tip of the knife should be held against the muscle and a slow controlled incision should be made using sequential single taps on the foot pedal of the electrosurgical unit ("
+    "encodedBy": "other:codex-publisher-dom-import",
+    "encodedAt": "2026-08-09"
   }
 }

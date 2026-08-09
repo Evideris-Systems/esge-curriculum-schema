@@ -1,0 +1,315 @@
+{
+  "$schema": "https://schema.evideris.com/schemas/table.schema.json",
+  "$id": "https://schema.evideris.com/esge/table/esd/table-1.v1.0.0.json",
+  "lineageId": "table-esd-1",
+  "type": "table",
+  "version": "1.0.0",
+  "release": "r2026.07",
+  "supersedes": null,
+  "supersededBy": null,
+  "language": [
+    "en"
+  ],
+  "withinCurriculum": "cur-esd-2019",
+  "number": "1",
+  "title": {
+    "en": "Table 1 List of recommendations for training in endoscopic submucosal dissection (ESD)."
+  },
+  "columns": [
+    {
+      "header": {
+        "en": "List of recommendations for training in endoscopic submucosal dissection (ESD)."
+      }
+    }
+  ],
+  "rows": [
+    {
+      "cells": [
+        {
+          "en": "1 Skills/competence to start ESD"
+        }
+      ],
+      "isGroupHeader": true,
+      "rowSpans": [
+        1
+      ],
+      "colSpans": [
+        1
+      ]
+    },
+    {
+      "cells": [
+        {
+          "en": "Advanced endoscopy diagnostic practice is advised before initiating ESD training"
+        }
+      ],
+      "isGroupHeader": true,
+      "rowSpans": [
+        1
+      ],
+      "colSpans": [
+        1
+      ]
+    },
+    {
+      "cells": [
+        {
+          "en": "Training in ESD should be considered only by fully trained endoscopists. Proficiency in EMR and adverse event management is recommended before starting ESD training"
+        }
+      ],
+      "isGroupHeader": true,
+      "rowSpans": [
+        1
+      ],
+      "colSpans": [
+        1
+      ]
+    },
+    {
+      "cells": [
+        {
+          "en": "Knowledge of the “ESD theory” is necessary before and during training"
+        }
+      ],
+      "isGroupHeader": true,
+      "rowSpans": [
+        1
+      ],
+      "colSpans": [
+        1
+      ]
+    },
+    {
+      "cells": [
+        {
+          "en": "2 Training"
+        }
+      ],
+      "isGroupHeader": true,
+      "rowSpans": [
+        1
+      ],
+      "colSpans": [
+        1
+      ]
+    },
+    {
+      "cells": [
+        {
+          "en": "Live conferences and meetings are suggested before and during ESD training"
+        }
+      ],
+      "isGroupHeader": true,
+      "rowSpans": [
+        1
+      ],
+      "colSpans": [
+        1
+      ]
+    },
+    {
+      "cells": [
+        {
+          "en": "ESGE discourages the starting of initial ESD training in humans"
+        }
+      ],
+      "isGroupHeader": true,
+      "rowSpans": [
+        1
+      ],
+      "colSpans": [
+        1
+      ]
+    },
+    {
+      "cells": [
+        {
+          "en": "Practice on animal and/or ex vivo models is useful to gain the basic ESD skills. ESGE recommends performing at least 20 ESD procedures in these models before human practice, with the goal of at least eight en bloc complete resections in the last 10 training cases, with no perforation"
+        }
+      ],
+      "isGroupHeader": true,
+      "rowSpans": [
+        1
+      ],
+      "colSpans": [
+        1
+      ]
+    },
+    {
+      "cells": [
+        {
+          "en": "ESGE recommends supervision during training as it seems effective in improving the skills of trainees"
+        }
+      ],
+      "isGroupHeader": true,
+      "rowSpans": [
+        1
+      ],
+      "colSpans": [
+        1
+      ]
+    },
+    {
+      "cells": [
+        {
+          "en": "In order to understand strategies and risk management, ESGE recommends observation of experts performing ESD in tertiary referral centers. At least 20 ESD procedures observed and five procedures as assistant, ideally within a short period of time, are recommended"
+        }
+      ],
+      "isGroupHeader": true,
+      "rowSpans": [
+        1
+      ],
+      "colSpans": [
+        1
+      ]
+    },
+    {
+      "cells": [
+        {
+          "en": "Performance of ESD in humans should start on carefully selected lesions, ideally small ( < 30 mm), located in the antrum or in the rectum for the first 20 procedures (initial period). Beginning human practice in the colon is not recommended"
+        }
+      ],
+      "isGroupHeader": true,
+      "rowSpans": [
+        1
+      ],
+      "colSpans": [
+        1
+      ]
+    },
+    {
+      "cells": [
+        {
+          "en": "ESGE recommends that at least the first 10 procedures in humans should be done under the supervision of an ESD-proficient endoscopist"
+        }
+      ],
+      "isGroupHeader": true,
+      "rowSpans": [
+        1
+      ],
+      "colSpans": [
+        1
+      ]
+    },
+    {
+      "cells": [
+        {
+          "en": "3 Knowledge and maintaining competence"
+        }
+      ],
+      "isGroupHeader": true,
+      "rowSpans": [
+        1
+      ],
+      "colSpans": [
+        1
+      ]
+    },
+    {
+      "cells": [
+        {
+          "en": "Endoscopists involved in ESD should have specific knowledge of the instrumentation, technique, and electrosurgical equipment"
+        }
+      ],
+      "isGroupHeader": true,
+      "rowSpans": [
+        1
+      ],
+      "colSpans": [
+        1
+      ]
+    },
+    {
+      "cells": [
+        {
+          "en": "Endoscopists performing ESD should be able to correctly estimate the probability of performing a curative resection based on the characteristics of the lesion and should know the benefit/risk relationship of ESD when compared with other therapeutic alternatives"
+        }
+      ],
+      "isGroupHeader": true,
+      "rowSpans": [
+        1
+      ],
+      "colSpans": [
+        1
+      ]
+    },
+    {
+      "cells": [
+        {
+          "en": "Endoscopists performing ESD should know how to interpret the histopathology findings of the ESD specimen, namely the criteria for low risk resection (“curative”), local risk resection, and high risk resection (“non-curative”), as well as their implications"
+        }
+      ],
+      "isGroupHeader": true,
+      "rowSpans": [
+        1
+      ],
+      "colSpans": [
+        1
+      ]
+    },
+    {
+      "cells": [
+        {
+          "en": "Ideally, endoscopists properly trained in ESD should start performing ESD at their own center only after an ESD expert has confirmed that they havethe knowledge and skills to start performing ESD"
+        }
+      ],
+      "isGroupHeader": true,
+      "rowSpans": [
+        1
+      ],
+      "colSpans": [
+        1
+      ]
+    },
+    {
+      "cells": [
+        {
+          "en": "ESD should be performed only in a setting where early and delayed complications can be managed adequately, namely with the possibility of admitting patients to a ward, and access to appropriate emergency surgical teams for the organ being treated with ESD. In addition, centers performing ESD should have access to expert gastrointestinal pathology"
+        }
+      ],
+      "isGroupHeader": true,
+      "rowSpans": [
+        1
+      ],
+      "colSpans": [
+        1
+      ]
+    },
+    {
+      "cells": [
+        {
+          "en": "In order to maintain proficiency in ESD, ESGE recommends a minimum case load of 25 ESD procedures per year"
+        }
+      ],
+      "isGroupHeader": true,
+      "rowSpans": [
+        1
+      ],
+      "colSpans": [
+        1
+      ]
+    },
+    {
+      "cells": [
+        {
+          "en": "All procedures should be registered in a prospective database covering items such as endoscopic classification, location and size of the lesion, technique used, en bloc resection rate, complication rates, time of procedure, R0 resection rate, and final histopathology (including type of resection). En bloc resection rates should be above 90 %, and the perforation rate should be below 3 %, with a lower than 1 % need for surgery because of complications"
+        }
+      ],
+      "isGroupHeader": true,
+      "rowSpans": [
+        1
+      ],
+      "colSpans": [
+        1
+      ]
+    }
+  ],
+  "_meta": {
+    "provenance": {
+      "type": "verbatim",
+      "source_doi": "10.1055/a-0996-0912"
+    },
+    "encodedBy": "other:codex-publisher-dom-import",
+    "encodedAt": "2026-08-09"
+  }
+}

@@ -17,62 +17,66 @@
     "en": "Essential features during surveillance colonoscopy"
   },
   "statement": {
-    "en": "ESGE recommends the features detailed in the following list should be confirmed and documented during a surveillance colonoscopy."
+    "en": "After endoscopic resection, ESGE recommends the features detailed in the following list should be confirmed and documented during a surveillance colonoscopy."
   },
   "grade": {
     "strength": "strong",
     "evidenceQuality": "high"
   },
   "references": [
+    "ref-58",
+    "ref-87",
     "ref-145",
     "ref-146",
-    "ref-147",
-    "ref-58",
-    "ref-87"
+    "ref-147"
   ],
   "_meta": {
     "provenance": {
       "type": "verbatim",
       "source_doi": "10.1055/a-2077-0497"
     },
-    "encodedBy": "human:david",
-    "encodedAt": "2026-06-28",
-    "fieldProvenance": {
-      "subItems": {
-        "type": "verbatim",
-        "source_doi": "10.1055/a-2077-0497",
-        "source_span": "Hand-extracted from source PDF after careful cross-rec attribution; PDF column flow had scattered these sub-items across the narrative subsection containing R35."
-      }
-    }
+    "encodedBy": "other:codex-publisher-dom-import",
+    "encodedAt": "2026-08-09"
   },
   "subItems": [
     {
       "label": "i",
+      "levelOfAgreement": 95,
       "text": {
         "en": "Assessment of quality of bowel preparation."
-      },
-      "levelOfAgreement": 95
+      }
     },
     {
       "label": "ii",
+      "levelOfAgreement": 96,
       "text": {
         "en": "Completeness of the colonoscopy."
+      }
+    },
+    {
+      "label": "iii",
+      "levelOfAgreement": 95,
+      "text": {
+        "en": "Recognition of the EMR scar, extensive imaging (high definition, virtual chromoendoscopy, +/− chromoendoscopy, near-focus/magnification) and photodocumentation [87] [145]."
       },
-      "levelOfAgreement": 96
+      "references": [
+        "ref-87",
+        "ref-145"
+      ]
     },
     {
       "label": "iv",
+      "levelOfAgreement": 96,
       "text": {
-        "en": "Presence of any residual or recurrent adenoma recognized by a transition in pit/vascular pattern (e.g. NICE I to NICE II; Kudo I to Kudo III/IV) (Fig. 3)."
-      },
-      "levelOfAgreement": 96
+        "en": "Presence of any residual or recurrent adenoma recognized by a transition in pit/vascular pattern (e. g. NICE I to NICE II; Kudo I to Kudo III/IV) ([Fig. 3])."
+      }
     },
     {
       "label": "v",
-      "text": {
-        "en": "The presence of clip artifact. Recognize that clip artifact itself does not need treatment, but, where there is doubt, treatment is safe and prevents unnecessary further procedures for patients."
-      },
       "levelOfAgreement": 96,
+      "text": {
+        "en": "The presence of clip artifact [146] [147]. Recognize that clip artifact itself does not need treatment, but, where there is doubt, treatment is safe and prevents unnecessary further procedures for patients."
+      },
       "references": [
         "ref-146",
         "ref-147"
@@ -80,30 +84,27 @@
     },
     {
       "label": "vi",
+      "levelOfAgreement": 96,
       "text": {
         "en": "Targeted biopsies and endoscopic treatment of any potential residual or recurrent adenoma should be performed."
-      },
-      "levelOfAgreement": 96
+      }
     },
     {
       "label": "vii",
+      "levelOfAgreement": 99,
       "text": {
         "en": "Additional polyps/LNPCPs should be noted and removed if feasible or a plan for their removal made."
-      },
-      "levelOfAgreement": 99
+      }
     },
     {
       "label": "viii",
-      "text": {
-        "en": "Need/timing for further surveillance."
-      },
       "levelOfAgreement": 93,
+      "text": {
+        "en": "Need/timing for further surveillance [58]."
+      },
       "references": [
         "ref-58"
       ]
     }
-  ],
-  "figureRefs": [
-    "fig-emr-colon-3"
   ]
 }

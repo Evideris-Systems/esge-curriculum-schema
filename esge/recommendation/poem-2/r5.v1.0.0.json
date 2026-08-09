@@ -14,7 +14,7 @@
   "withinSection": "sec-poem-2-preparation",
   "number": 5,
   "title": {
-    "en": "ESGE suggests that patients adhere to a clear liquid diet for a minimum of 48 hours and abstain"
+    "en": "ESGE suggests that patients adhere to a clear liquid diet for a minimum of 48 hours and abstain from all oral intake (nil by mouth) for at least 8 hours prior to the procedure. This fasting period may be increased according to the amount of esophageal food retention upon upper gastrointestinal endoscopy or the detection of a sigmoid-type esophagus in the previous work-up."
   },
   "statement": {
     "en": "ESGE suggests that patients adhere to a clear liquid diet for a minimum of 48 hours and abstain from all oral intake (nil by mouth) for at least 8 hours prior to the procedure. This fasting period may be increased according to the amount of esophageal food retention upon upper gastrointestinal endoscopy or the detection of a sigmoid-type esophagus in the previous work-up."
@@ -24,23 +24,29 @@
     "evidenceQuality": "very-low"
   },
   "levelOfAgreement": 94,
-  "references": [],
+  "references": [
+    "ref-15",
+    "ref-16",
+    "ref-17",
+    "ref-18",
+    "ref-19",
+    "ref-20",
+    "ref-21",
+    "ref-22",
+    "ref-23"
+  ],
   "_meta": {
     "provenance": {
       "type": "verbatim",
       "source_doi": "10.1055/a-2569-7634"
     },
-    "encodedBy": "human:david",
-    "encodedAt": "2026-07-03",
-    "fieldProvenance": {
-      "commentary": {
-        "type": "verbatim",
-        "source_doi": "10.1055/a-2569-7634",
-        "source_span": "Paragraph(s) preceding the N RECOMMENDATION block in body; back-to-back groups share commentary."
-      }
-    }
+    "encodedBy": "other:codex-publisher-dom-import",
+    "encodedAt": "2026-08-09"
   },
   "commentary": {
-    "en": "on factors such as the brand and model of the electrosurgical unit, the type of knife employed, and the operator\u2019s preferences. A compilation of the most frequently encountered settings in the published literature is presented in"
-  }
+    "en": "Achalasia patients often show esophageal stasis, even after the 6–8 hours of fasting that is generally recommended before anesthesia induction [15], which may hinder mucosal evaluation, and interferes with the procedure and raises the risk of aspiration. There are however no RCTs that have addressed different fasting periods before POEM.\n\nIn a retrospective study, patients were maintained for 48 hours on a low residue diet, fasted from solids for 24 hours, and allowed only clear liquids for 2 hours before POEM, with a low rate of AEs [16]. Fasting time is highly variable between the published series and usually ranges between 8 and 48 hours [17] [18]. Different approaches have been shown to improve esophageal cleansing, such as the induction of emesis by the fast drinking of carbonated beverages, or drinking warm water (60 °C) in the evening before the procedure [19].\n\nInoue et al. recommended an endoscopic examination prior to POEM to evaluate the amount of retained residues in order to decide the fasting period, which should be a “few days,” especially for patients with sigmoid esophagus [20]. A previous gastroscopy to clean the esophagus may be useful [21]; however, this approach increases the burden of care and may not be necessary if patients are kept on a clear liquid diet for 48 hours before POEM, or for 3–5 days for those who have had large amounts of food retention in previous endoscopies [22] [23]."
+  },
+  "commentaryForRecommendations": [
+    5
+  ]
 }

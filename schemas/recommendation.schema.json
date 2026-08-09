@@ -73,6 +73,16 @@
     "commentary": {
       "$ref": "_common.schema.json#/$defs/localeKeyedString"
     },
+    "commentaryForRecommendations": {
+      "type": "array",
+      "description": "Recommendation numbers covered by a shared rationale block in the source publication. The commentary is stored once, on the final recommendation in the group.",
+      "items": {
+        "type": "integer",
+        "minimum": 1
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
     "figureRefs": {
       "type": "array",
       "items": {

@@ -7,37 +7,120 @@
   "release": "r2026.07",
   "supersedes": null,
   "supersededBy": null,
-  "language": ["en"],
-
+  "language": [
+    "en"
+  ],
   "withinCurriculum": "cur-emr-colon-2023",
   "withinSection": "sec-emr-preadoption",
   "number": 2,
-
-  "title": { "en": "Standards for endoscopy units offering EMR training" },
+  "title": {
+    "en": "Standards for endoscopy units offering EMR training"
+  },
   "statement": {
     "en": "ESGE recommends the minimum desirable standards detailed in the following list be met by endoscopy units offering training in EMR."
   },
-
   "grade": {
     "strength": "best-practice",
-    "evidenceQuality": "no-evidence-available",
-    "levelOfAgreement": 96
+    "evidenceQuality": "no-evidence-available"
   },
-
-  "subItems": [
-    { "label": "i",   "text": { "en": "Written and/or electronic pre-procedure pathways should exist to facilitate the assessment of patients with co-morbidity prior to EMR." }, "levelOfAgreement": 90 },
-    { "label": "ii",  "text": { "en": "Written local pre-procedure pathways should exist to direct the correct dosing of anticoagulants for patients prior to EMR based on international consensus guidelines." }, "levelOfAgreement": 95 },
-    { "label": "iii", "text": { "en": "Formal procedures should exist, either via written information, remote consultation, or face-to-face discussion, to communicate specific information to the patient prior to the procedure, particularly to facilitate excellent bowel preparation." }, "levelOfAgreement": 96 }
+  "references": [
+    "ref-18"
   ],
-
-  "references": [],
-
   "_meta": {
     "provenance": {
       "type": "verbatim",
       "source_doi": "10.1055/a-2077-0497"
     },
-    "encodedBy": "human:david",
-    "encodedAt": "2026-06-27"
-  }
+    "encodedBy": "other:codex-publisher-dom-import",
+    "encodedAt": "2026-08-09"
+  },
+  "subItems": [
+    {
+      "label": "i",
+      "levelOfAgreement": 90,
+      "text": {
+        "en": "Written and/or electronic pre-procedure pathways should exist to facilitate the assessment of patients with co-morbidity prior to EMR."
+      }
+    },
+    {
+      "label": "ii",
+      "levelOfAgreement": 95,
+      "text": {
+        "en": "Written local pre-procedure pathways should exist to direct the correct dosing of anticoagulants for patients prior to EMR based on international consensus guidelines."
+      }
+    },
+    {
+      "label": "iii",
+      "levelOfAgreement": 96,
+      "text": {
+        "en": "Formal procedures should exist, either via written information, remote consultation, or face-to-face discussion, to communicate specific information to the patient prior to the procedure, particularly to facilitate excellent bowel preparation."
+      }
+    },
+    {
+      "label": "iv",
+      "levelOfAgreement": 96,
+      "text": {
+        "en": "Administrative staff booking complex EMR procedures must have guidance to ensure adequate time and personnel are allocated for the scheduled procedure relative to its predicted complexity, perhaps using a validated score, such as the size, morphology, site, and access (SMSA) polyp score [18] for guidance. Extra time should be allocated if training is foreseen."
+      },
+      "references": [
+        "ref-18"
+      ]
+    },
+    {
+      "label": "v",
+      "levelOfAgreement": 96,
+      "text": {
+        "en": "Units should have a mechanism in place for the training of nursing staff in the techniques and equipment required for EMR and in how to assist the proceduralist."
+      }
+    },
+    {
+      "label": "vi",
+      "levelOfAgreement": 90,
+      "text": {
+        "en": "There should be a dedicated anesthesia-supported list in the unit performing EMR for complex and/or predicted protracted EMR cases (e. g. very large resections, predicted difficult location etc.)."
+      }
+    },
+    {
+      "label": "vii",
+      "levelOfAgreement": 96,
+      "text": {
+        "en": "All necessary equipment should be available prior to starting an EMR procedure. Equipment checklists should be available and used within the unit to ensure this is the case."
+      }
+    },
+    {
+      "label": "viii",
+      "levelOfAgreement": 95,
+      "text": {
+        "en": "Image and/or video capture equipment for EMR procedures and the ability to record these in electronic reporting systems should be available."
+      }
+    },
+    {
+      "label": "ix",
+      "levelOfAgreement": 90,
+      "text": {
+        "en": "There should be immediate on-site access to support services (including interventional radiology and surgery) in the event of a significant bleed or other complication (e. g. perforation), or a pathway should exist for rapid transfer to a specialist center."
+      }
+    },
+    {
+      "label": "x",
+      "levelOfAgreement": 94,
+      "text": {
+        "en": "There should be a dedicated recovery room in the unit able to monitor patients at a high level for an extended period of time and allow admission to hospital if necessary."
+      }
+    },
+    {
+      "label": "xi",
+      "levelOfAgreement": 97,
+      "text": {
+        "en": "Written emergency pathways should exist for the swift detection and resolution of adverse events after EMR."
+      }
+    },
+    {
+      "label": "xii",
+      "levelOfAgreement": 96,
+      "text": {
+        "en": "There should be access to specialist GI pathologists with an interest in GI neoplasia."
+      }
+    }
+  ]
 }

@@ -14,10 +14,10 @@
   "withinSection": "sec-poem-2-myotomy",
   "number": 28,
   "title": {
-    "en": "ESGE recommends that POEM can be performed on either the anterior (1\u20132 o\u2019clock in supine position) or posterior (5\u20136 o\u2019clock) side."
+    "en": "ESGE recommends that POEM can be performed on either the anterior (1–2 o’clock in supine position) or posterior (5–6 o’clock) side."
   },
   "statement": {
-    "en": "ESGE recommends that POEM can be performed on either the anterior (1\u20132 o\u2019clock in supine position) or posterior (5\u20136 o\u2019clock) side."
+    "en": "ESGE recommends that POEM can be performed on either the anterior (1–2 o’clock in supine position) or posterior (5–6 o’clock) side."
   },
   "grade": {
     "strength": "strong",
@@ -30,17 +30,7 @@
       "type": "verbatim",
       "source_doi": "10.1055/a-2569-7634"
     },
-    "encodedBy": "human:david",
-    "encodedAt": "2026-07-03",
-    "fieldProvenance": {
-      "commentary": {
-        "type": "verbatim",
-        "source_doi": "10.1055/a-2569-7634",
-        "source_span": "Paragraph(s) preceding the N RECOMMENDATION block in body; back-to-back groups share commentary."
-      }
-    }
-  },
-  "commentary": {
-    "en": "different muscle layers. For selective myotomy, the aim is to place the tip of the knife in the intermuscular space, between the circular and the longitudinal muscle layers. For fullthickness myotomy, once the initial incision is made, an injection into the adventitial side can be used to create a cushion, providing a safety margin to protect against thermal injury to the mediastinal structures. A mucosal to adventitial or adventitial to mucosal technique can be used to continue the myotomy. The mucosal to adventitial technique is preferred for safety reasons; however, the adventitial to mucosal approach can be used when there is limited adventitial space, which would risk thermal injury to mediastinal structures. For the adventitial to mucosal technique, the knife tip is hooked just behind the muscle fibers and gentle traction is applied toward the mucosal layer. When using this technique, care should be taken to ensure sufficient space between the muscularis propria and mucosa prior to cutting. Similarly, the amount of pressure should be limited to avoid inadvertent injury to the mucosa. For the mucosal to adventitial technique, the knife is extended caudally against the mucosal side of the progressing myotomy edge. In a stepwise fashion, diathermy is applied until the desired depth of myotomy is achieved. Prior injection into the adventitial space is recommended. Care should be taken to preferentially avoid or precoagulate large vessels in the cardia. After completion, the myotomy should be carefully evaluated to confirm that an adequate length and complete disruption of the LES has been achieved.\n\nIn their 2020 guidelines, ESGE recommended that POEM be performed in either the anterior (1\u20132 o\u2019clock in supine position) or posterior (5\u20136 o\u2019clock) orientation, based on evidence from four RCTs, two of which were published as full papers [60, 61] and two as abstracts [62, 63]. Additionally, the recommendation relied on one systematic review with meta-analysis [64]. Where patients had undergone prior endoscopic or surgical myotomy, it was advised to perform the submucosal tunnel in the other orientation to avoid encountering fibrosis. This suggestion was made based on single-arm studies owing to the lack of comparative data. An alternative approach, POEM at the greater curvature (7\u20139 o\u2019clock), was also mentioned as being viable, supported by a retrospective study that demonstrated favorable outcomes; however, in this approach, the myotomy abolishes the angle of His and reaches the diaphragm, so attention should be paid to avoiding diaphragmatic muscle dissection [65]. Since then, one of the RCTs initially published as an abstract has been reported as a full paper, providing data on 2-year outcomes [62, 66, 67]. In addition, three new meta-analyses have emerged [68\u201370]. All available meta-analyses concur that the anterior and posterior routes yield comparable results in terms of technical and clinical success, and gastroesophageal reflux disease (GERD) after POEM. One meta-analysis suggested that posterior POEM may decrease procedural time [69], and this finding was also supported by the most recent updated metaanalysis [68]. Differences in terms of AEs and procedural time yielded conflicting results across studies [60, 61, 64, 67\u201369]. To provide further clarity on this matter, we conducted a meta-analysis limited to RCTs, using an inverse-variance weighting random-effects model (Appendix 3 s, part B). We found that the anterior approach was associated with a higher risk of AEs (risk ratio [RR] 1.60, 95 %CI 1.06\u20132.43; I2= 0; P = 0.03). Nonetheless, it is important to note that this finding was predominantly driven by an RCT with a small sample size that reported a twofold risk of mucosal injury [60], and it should therefore be interpreted with caution. We did not identify any significant differences in procedure time (weighted mean difference 2.81 minutes, 95 %CI \u22121.98 to 7.60; I2= 0; P = 0.25). Two retrospective Japanese studies suggested that preserving the sling or oblique gastric muscle fibers during posterior POEM could preserve the integrity of the angle of His, potentially reducing the incidence of GERD [55, 71]. A subsequent RCT did not however corroborate these findings and showed that sparing the sling fibers had no substantial impact on the risk of developing esophagitis of grade B or higher (31.6 % vs. 25.9 %; P = 0.54), the DeMeester scores (41.5 % vs. 38.6 %; P = 0.83), symptomatic reflux, or proton pump inhibitor (PPI) use at 1 year [72]. In conclusion, anterior or posterior myotomy can be chosen based on technical ease, operator preferences, tortuosity of the esophagus, the presence of diverticula, and prior surgical or endoscopic interventions. The certainty of evidence was downgraded from high to moderate owing to concerns regarding the risk of bias of the published studies (Table 6 s). Although preserving the sling fibers in the posterior approach appears reasonable from a pathophysiological standpoint, the current data remain too inconclusive to warrant a formal recommendation."
+    "encodedBy": "other:codex-publisher-dom-import",
+    "encodedAt": "2026-08-09"
   }
 }

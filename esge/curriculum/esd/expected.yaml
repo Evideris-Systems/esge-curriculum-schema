@@ -14,6 +14,8 @@ sections:          3    # Skills/competence, Training, Knowledge/maintaining
 qis:               3    # en bloc rate, perforation rate, need-for-surgery rate
 gpatItems:         0    # ESD 2019 does not carry a CAT/GPAT
 references:        77   # rough count from bibliography; extractor confirms
+figures:           1
+tables:            1
 
 # Every rec in this paper is a single-sentence recommendation with no (i)(ii)
 # sub-items — the paper's RECOMMENDATION blocks each carry one statement + one

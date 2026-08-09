@@ -1,0 +1,86 @@
+{
+  "$schema": "https://schema.evideris.com/schemas/recommendation.schema.json",
+  "$id": "https://schema.evideris.com/esge/recommendation/emr-colon/r34.v1.0.0.json",
+  "lineageId": "rec-emr-cln-r34-situations-requiring-admission-hospital",
+  "type": "recommendation",
+  "version": "1.0.0",
+  "release": "r2026.07",
+  "supersedes": null,
+  "supersededBy": null,
+  "language": [
+    "en"
+  ],
+  "withinCurriculum": "cur-emr-colon-2023",
+  "withinSection": "sec-emr-after-emr",
+  "number": 34,
+  "title": {
+    "en": "Situations requiring admission to hospital"
+  },
+  "statement": {
+    "en": "ESGE recommends consideration of admission to hospital immediately after EMR in the situations given in the following list."
+  },
+  "references": [],
+  "_meta": {
+    "provenance": {
+      "type": "verbatim",
+      "source_doi": "10.1055/a-2077-0497"
+    },
+    "encodedBy": "other:codex-publisher-dom-import",
+    "encodedAt": "2026-08-09"
+  },
+  "grade": {
+    "strength": "best-practice",
+    "evidenceQuality": "low"
+  },
+  "subItems": [
+    {
+      "label": "i",
+      "levelOfAgreement": 88,
+      "text": {
+        "en": "A highly co-morbid patient."
+      }
+    },
+    {
+      "label": "ii",
+      "levelOfAgreement": 93,
+      "text": {
+        "en": "A patient who is elderly and/or lives alone without support (especially if sedation has been used)."
+      }
+    },
+    {
+      "label": "iii",
+      "levelOfAgreement": 83,
+      "text": {
+        "en": "A patient requiring early re-introduction of anticoagulation (e. g. metal mitral valve)."
+      }
+    },
+    {
+      "label": "iv",
+      "levelOfAgreement": 96,
+      "text": {
+        "en": "Intraprocedural perforation with observed fecal peritoneal contamination or incomplete confidence of closure."
+      }
+    },
+    {
+      "label": "v",
+      "levelOfAgreement": 96,
+      "text": {
+        "en": "Significant periprocedural bleeding, even if controlled."
+      }
+    },
+    {
+      "label": "vi",
+      "levelOfAgreement": 95,
+      "text": {
+        "en": "Abdominal pain that does not resolve with simple analgesics (e. g. intravenous paracetamol)."
+      }
+    },
+    {
+      "label": "vii",
+      "levelOfAgreement": 95,
+      "text": {
+        "en": "Unexplained fever/tachycardia."
+      }
+    }
+  ]
+}

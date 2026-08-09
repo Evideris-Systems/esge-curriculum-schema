@@ -14,7 +14,7 @@
   "withinSection": "sec-poem-2-adverse-events",
   "number": 39,
   "title": {
-    "en": "Mucosal injury during POEM should be proactively sought during the procedure and particularly before completion."
+    "en": "Mucosal injury during POEM should be proactively sought during the procedure and particularly before completion. Mucosal injury can be represented on a spectrum from whitening of the overlying mucosa to a full-thickness perforation."
   },
   "statement": {
     "en": "Mucosal injury during POEM should be proactively sought during the procedure and particularly before completion. Mucosal injury can be represented on a spectrum from whitening of the overlying mucosa to a full-thickness perforation."
@@ -30,17 +30,7 @@
       "type": "verbatim",
       "source_doi": "10.1055/a-2569-7634"
     },
-    "encodedBy": "human:david",
-    "encodedAt": "2026-07-03",
-    "fieldProvenance": {
-      "commentary": {
-        "type": "verbatim",
-        "source_doi": "10.1055/a-2569-7634",
-        "source_span": "Paragraph(s) preceding the N RECOMMENDATION block in body; back-to-back groups share commentary."
-      }
-    }
-  },
-  "commentary": {
-    "en": "Recommendations for bleeding prophylaxis and management are based on the experience of the expert panel consensus owing to the lack of evidence. Small vessels can be treated using coagulation current (e. g. spray coagulation) with a closed knife; larger vessels should be treated using a coagulation forceps with soft coagulation [93]. Caution should be taken to avoid using coagulation current near the mucosal layer to prevent mucosal injury and subsequent full-thickness perforation. Bleeding from the dissected mucosal layer should not be immediately treated as it will stop spontaneously in most cases. Instillation of water into the tunnel or alternative imaging techniques, like red dichromic imaging, can be used to identify the precise location of the bleeding [94]. The submucosal injection solution should not be too dark as this obscures adequate visualization of submucosal vessels. Any bleeding vessels should be identified and treated prior to tunnel closure. Filling of the submucosal tunnel with water prior to closure helps identify occult bleeding via discoloration of the water; if this occurs, the source should be sought by meticulous examination.\n\nMucosal injury can occur in up to 17 % of POEM procedures [95]. One study described two types of injury: type I injuries were small superficial mucosal injuries, presenting mostly as whitening of the mucosa or submucosal exposure lesions, whereas type II injuries were large full-thickness perforations with an irregular border [96]. Submucosal fibrosis and previous POEM were significant predictors of type II mucosal injury, as was longer procedure duration [95, 97] ("
+    "encodedBy": "other:codex-publisher-dom-import",
+    "encodedAt": "2026-08-09"
   }
 }

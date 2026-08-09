@@ -135,8 +135,8 @@
       "required": ["strength", "evidenceQuality"],
       "properties": {
         "strength": {
-          "enum": ["strong", "weak", "best-practice"],
-          "description": "Tate EMR 2023's single use of 'moderately strong' is canonicalised to 'strong' on ingest by the autoupdate skill."
+          "enum": ["strong", "moderately-strong", "weak", "best-practice"],
+          "description": "Recommendation strength as printed in the source publication."
         },
         "evidenceQuality": {
           "enum": ["high", "moderate", "low", "very-low", "no-evidence-available"]

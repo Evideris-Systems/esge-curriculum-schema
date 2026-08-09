@@ -21,17 +21,43 @@
   },
   "grade": {
     "strength": "best-practice",
-    "evidenceQuality": "no-evidence-available",
-    "levelOfAgreement": 97
+    "evidenceQuality": "no-evidence-available"
   },
-  "subItems": [],
-  "references": [],
+  "references": [
+    "ref-17"
+  ],
   "_meta": {
     "provenance": {
       "type": "verbatim",
       "source_doi": "10.1055/a-2077-0497"
     },
-    "encodedBy": "human:david",
-    "encodedAt": "2026-06-27"
-  }
+    "encodedBy": "other:codex-publisher-dom-import",
+    "encodedAt": "2026-08-09"
+  },
+  "subItems": [
+    {
+      "label": "i",
+      "levelOfAgreement": 97,
+      "text": {
+        "en": "Competency in diagnostic colonoscopy (as defined by local protocols)."
+      }
+    },
+    {
+      "label": "ii",
+      "levelOfAgreement": 96,
+      "text": {
+        "en": "Commencement of acquiring theoretical knowledge, such as lesion assessment and decision-making."
+      }
+    },
+    {
+      "label": "iii",
+      "levelOfAgreement": 97,
+      "text": {
+        "en": "Competency in <10-mm polypectomy (with and without electrosurgical energy), pedunculated polypectomy, and common methods of GI endoscopic hemostasis [17] (as defined by local protocols)."
+      },
+      "references": [
+        "ref-17"
+      ]
+    }
+  ]
 }
