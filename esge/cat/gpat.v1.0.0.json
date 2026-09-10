@@ -47,11 +47,6 @@
       "lineageId": "cat-gpat-appreciates-extent",
       "label": { "en": "Fully appreciates/demonstrates extent of the polyp to be resected" },
       "guidance": { "en": "Clearly appreciates entire extent of the polyp; approach and resection reflect this" },
-      "assessesRecommendations": [
-        { "lineageId": "rec-emr-cln-r3-smi-assessment", "subItem": "i" },
-        { "lineageId": "rec-emr-cln-r3-smi-assessment", "subItem": "ii" },
-        { "lineageId": "rec-emr-cln-r3-smi-assessment", "subItem": "iii" }
-      ],
       "applicability": { "hot-snare": "mandatory", "cold-snare": "mandatory" }
     },
     {

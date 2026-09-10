@@ -4,6 +4,9 @@ All notable changes to the ESGE Curriculum Schema. Follows per-artifact SemVer +
 
 ## Unreleased — r2026.07 (in progress)
 
+### Changed
+- GPAT (`cat-gpat` 1.0.0, edited in place while r2026.07 is DRAFT/untagged): removed the inferred `assessesRecommendations` on `cat-gpat-appreciates-extent` (R3 i–iii). ESGE published GPAT without a recommendation column, so that join is Evideris's reading and now lives in evideris-curriculum-derived `derived/cat-recommendation-map/gpat.v1.0.0.json`. The file is now verbatim as its `_meta.provenance` claims. (WP3, esge-certification-app-test #67)
+
 ### Added
 - Verified local image assets for all eight release-listed figures, extracted
   from the authoritative publication PDFs with reproducible crop coordinates.
@@ -26,7 +29,7 @@ First substantive batch encoding Tate et al., *Curriculum for training in endosc
 - **3 scoring tools** — NICE, JNET, Sydney DMI (SMSA was already seeded in the smoke-test batch).
 - **1 KPI** — 30-cases-minimum training target (Main Statement 10).
 - **5 QIs** (Table 6 subset) — procedures/year, success rate, intraprocedural bleeding, intraprocedural perforation, adenoma recurrence — each with `desiredStandard` / `minimumStandard` / `originData` (`iACE` study or `delphi`).
-- **1 CAT** — GPAT with 6 of ~20 Table 4 items (items cross-ref recommendation sub-items via `assessesRecommendations`, with per-technique `applicability`: hot-snare vs cold-snare).
+- **1 CAT** — GPAT with 6 of ~20 Table 4 items (items cross-ref recommendation sub-items via `assessesRecommendations`, with per-technique `applicability`: hot-snare vs cold-snare) — later removed, see r2026.07 Changed.
 - **Release manifest** `r2026.07.json` updated to include all the above.
 
 Every file validates against its schema via `scripts/validate.py`. Remaining ~30 recommendations and ~70 competencies, additional GPAT items, and the remaining 13 QIs will be added in subsequent batches.

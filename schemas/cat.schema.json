@@ -117,5 +117,5 @@
     "supersedes": true, "supersededBy": true, "language": true, "_meta": true
   },
   "additionalProperties": false,
-  "$comment": "Source-canonical only. items[].assessesCompetencies moved to evideris-curriculum-derived as `competencyAssessment` artifact type — the source-canonical CAT keeps items[].assessesRecommendations (verbatim from the published Table) and omits the competency-mapping which is Evideris's inference."
+  "$comment": "Source-canonical only. items[].assessesRecommendations is present ONLY where ESGE printed the recommendation column (PPAT, POEM Part II Table 4). Where ESGE did not (GPAT), the CAT-line -> recommendation join is Evideris's inference and lives in evideris-curriculum-derived as a `catRecommendationMap` artifact, never here. items[].assessesCompetencies likewise lives in the derived repo as `competencyAssessment`."
 }
